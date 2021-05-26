@@ -832,7 +832,7 @@ if __name__ == "__main__":
                         choices=["bigg","modelseed"],
                         help='''Selection of reaction ontology for gap-fill addition in GSMM.''') #TODO: implement
 
-    parser.add_argument('--de_novo_GSMM', action ="store_true",
+    parser.add_argument('--de_novo_gsmm', action ="store_true",
                         help='''Use all KEGG Modules missing 1 block for the HMM-based check (only KOs missing in the indicated MAG/Genome).''')
 
     parser.add_argument('--onebm_modules_list', action ="store_true",

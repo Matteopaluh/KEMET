@@ -106,7 +106,7 @@ def update_kk_database():
 ###############################################################################
 
 def main():
-    parser = argparse.ArgumentParser(description='''Setup command for KMC+HMM analysis.
+    parser = argparse.ArgumentParser(description='''Setup command for KEMET analysis.
                                                     Create folders and generate/update KEGG Module .kk database''')
 
     parser.add_argument('-k','--set_kk_DB', action = "store_true",

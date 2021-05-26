@@ -17,6 +17,7 @@ pip install cherrypy
 OPTIONAL
 ```
 pip install carveme=1.4.1
+conda install -c bioconda diamond
 ```
 
 1) Clone the git repository.
@@ -48,7 +49,9 @@ The "KEGG_MODULES" directory from the Git is mandatory for script usage.
 - Other "custom" Modules could be added to that folder, with a proper format. (REF: [KEGG MODULE resource](https://www.genome.jp/kegg/module.html))
 
 **Batch use**:
+```
 for f in $(ls ./KEGG_mappings/); do ./kmc.py $f <OPTIONS>; done
+```
 
 #### Outputs
 ##### .txt (option: -o txt)
@@ -93,20 +96,25 @@ General tab-separated summary file. Includes every "_HMM_hits" file information 
 moreover it includes a field for the most likely translated reading-frame, the nucleotidic sequence as retrieved from the MAG/Genome, as well as the translated aminoacidic sequence using Bacterial/Archaeal translation.
 
 **Batch use**:
+```
 for f in $(ls ./genomes/); do f1="${f##*/}"; f2=${f1%.*}; ./hmm.py $f2 OPTIONS; done
-
+```
 
 ### 3) gsmm.py
 
-The script connects missing KO content, identified via HMM-hits, to reactions in the BiGG namespace.
+The script connects missing KO content, identified via HMM-hits, to reactions in the BiGG or ModelSEED namespace.
 Furthermore it adds those reactions to Genome-scale metabolic models (GSMMs) generated with CarveMe, if missing.
 
-At the moment (31/03/21) the only tested way to add reaction is via the [ReFramed](https://github.com/cdanielmachado/reframed) package.
+Otherwise it can automatically add translated sequences to multiFASTA (.faa) files and perform [CarveMe](https://github.com/cdanielmachado/carveme) reconstruction including these newly found sequences (OPTION: --de_novo_gsmm).
+
+**NOTE** This usage needs access to CarveMe dependences, including IBM CPLEX Optimizer. More regarding the dependencies can be read [here](https://carveme.readthedocs.io/en/latest/installation.html).
+
+At the moment (26/05/21) the only tested way to add reaction to pre-existing GSMMs is via the [ReFramed](https://github.com/cdanielmachado/reframed) package.
 Further improvement would permit adding it through the [cobrapy](https://github.com/opencobra/cobrapy) platform.
 
 - CarveMe GSMMs (".xml" files) should be copied in the "KMC/models/" folder, which is created after setup process.
 
-- The same "genomes.instruction" tabular file as "kmc-hmm.py" is utilized, to get the ID of MAG/Genome of interest.
+- The same "genomes.instruction" tabular file as "hmm.py" is utilized, to get the ID of MAG/Genome of interest.
 
 - Decide MODE OF USE, checking between different group of orthologs:
     1. KOs from KEGG Modules missing 1 block								(OPTION: --onebm_modules_list)
@@ -135,7 +143,7 @@ Developed by Matteo Palù at Università degli Studi di Padova (2020-2021).
 ```
 usage: setup.py [-h] [-k] [-u] [-H] [-G] [-v]
 
-Setup command for KMC+HMM analysis. Create folders and generate/update KEGG
+Setup command for KEMET analysis. Create folders and generate/update KEGG
 Module .kk database
 
 optional arguments:
