@@ -1,0 +1,26 @@
+ENTRY       M00800            Pathway   Module
+NAME        dTDP-L-megosamine biosynthesis
+DEFINITION  K16435 K16436 K13326 K16438 K13322
+ORTHOLOGY   K16435  megBVI; dTDP-4-dehydro-6-deoxy-alpha-D-glucopyranose 2,3-dehydratase [EC:4.2.1.159] [RN:R05518]
+            K16436  megDII; dTDP-3-amino-2,3,6-trideoxy-4-keto-D-glucose/dTDP-3-amino-3,4,6-trideoxy-alpha-D-glucose transaminase [EC:2.6.1.- 2.6.1.106] [RN:R06631]
+            K13326  megDIII; dTDP-3-amino-2,3,6-trideoxy-4-keto-D-glucose/dTDP-3-amino-3,4,6-trideoxy-alpha-D-glucopyranose N,N-dimethyltransferase [EC:2.1.1.- 2.1.1.234] [RN:R11045]
+            K16438  megDIV; 5-epimerase [EC:5.1.3.-] [RN:R11046]
+            K13322  megDV; dTDP-4-keto-6-deoxyhexose 4-ketoreductase [RN:R11047]
+CLASS       Pathway modules; Biosynthesis of terpenoids and polyketides; Polyketide sugar unit biosynthesis
+PATHWAY     map00523  Polyketide sugar unit biosynthesis
+            map01100  Metabolic pathways
+            map01130  Biosynthesis of antibiotics
+REACTION    R05518  C11907 -> C06620
+            R06631  C06620 -> C12318
+            R11045  C12318 -> C21073
+            R11046  C21073 -> C21074
+            R11047  C21074 -> C11919
+COMPOUND    C11907  dTDP-4-oxo-6-deoxy-D-glucose
+            C06620  dTDP-3,4-dioxo-2,6-dideoxy-D-glucose
+            C12318  dTDP-3-amino-2,3,6-trideoxy-4-keto-D-glucose
+            C21073  dTDP-3-N,N-dimethylamino-2,3,6-trideoxy-4-keto-D-glucose
+            C21074  dTDP-3-N,N-dimethylamino-4-oxo-2,3,6-trideoxy-L-allose
+            C11919  dTDP-L-megosamine
+RMODULE     RM035  Transamination and N,N-dimethylation in polyketide biosynthesis
+            RM036  Epimerization and reduction in deoxysugar biosynthesis
+///

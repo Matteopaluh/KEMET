@@ -1,0 +1,27 @@
+ENTRY       M00745            Signature Module
+NAME        Imipenem resistance, repression of porin OprD
+DEFINITION  (K18072 K18073),(K07644 K07665),K18297 K18093
+ORTHOLOGY   K18072  parS; two-component system, OmpR family, sensor kinase ParS [EC:2.7.13.3] [COG:COG0642] [GO:0000155]
+            K18073  parR; two-component system, OmpR family, response regulator ParR [COG:COG0745] [GO:0000156]
+            K07644  cusS, copS, silS; two-component system, OmpR family, heavy metal sensor histidine kinase CusS [EC:2.7.13.3] [COG:COG0642] [GO:0000155]
+            K07665  cusR, copR, silR; two-component system, OmpR family, copper resistance phosphate regulon response regulator CusR [COG:COG0745] [GO:0000156]
+            K18297  mexT; LysR family transcriptional regulator, mexEF-oprN operon transcriptional activator [COG:COG0583]
+            K18093  oprD; imipenem/basic amino acid-specific outer membrane pore [EC:3.4.21.-] [TC:1.B.25.1.1]
+CLASS       Signature modules; Gene set; Drug resistance
+COMMENT     Resistance mechanism: decrease in the production of OprD porin which is involved in the entry of carbapenem antibiotics like imipenem
+REFERENCE   PMID:14679195
+  AUTHORS   Perron K, Caille O, Rossier C, Van Delden C, Dumas JL, Kohler T
+  TITLE     CzcR-CzcS, a two-component system involved in heavy metal and carbapenem resistance in Pseudomonas aeruginosa.
+  JOURNAL   J Biol Chem 279:8761-8 (2004)
+            DOI:10.1074/jbc.M312080200
+REFERENCE   PMID:23034325
+  AUTHORS   Fernandez L, Hancock RE
+  TITLE     Adaptive and mutational resistance: role of porins and efflux pumps in drug resistance.
+  JOURNAL   Clin Microbiol Rev 25:661-81 (2012)
+            DOI:10.1128/CMR.00043-12
+REFERENCE   PMID:17449606
+  AUTHORS   Caille O, Rossier C, Perron K
+  TITLE     A copper-activated two-component system interacts with zinc and imipenem resistance in Pseudomonas aeruginosa.
+  JOURNAL   J Bacteriol 189:4561-8 (2007)
+            DOI:10.1128/JB.00095-07
+///

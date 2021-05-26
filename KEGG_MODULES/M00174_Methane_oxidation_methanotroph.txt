@@ -1,0 +1,31 @@
+ENTRY       M00174            Pathway   Module
+NAME        Methane oxidation, methanotroph, methane => formaldehyde
+DEFINITION  ((K10944+K10945+K10946),(K16157+K16158+K16159+K16160+K16161+K16162)) (K14028-K14029)
+ORTHOLOGY   K10944,K10945,K10946  methane/ammonia monooxygenase [EC:1.14.18.3] [RN:R09518]
+            K16157,K16158,K16159  methane monooxygenase component A [EC:1.14.13.25] [RN:R01142]
+            K16160  methane monooxygenase regulatory protein B [RN:R01142]
+            K16161  methane monooxygenase component C [EC:1.14.13.25] [RN:R01142]
+            K16162  methane monooxygenase component D [RN:R01142]
+            K14028,K14029  methanol dehydrogenase [EC:1.1.2.7] [RN:R01146]
+CLASS       Pathway modules; Energy metabolism; Methane metabolism
+PATHWAY     map00680  Methane metabolism
+            map01200  Carbon metabolism
+            map01220  Degradation of aromatic compounds
+            map01100  Metabolic pathways
+            map01120  Microbial metabolism in diverse environments
+REACTION    R01142,R09518  C01438 -> C00132
+            R01146  C00132 -> C00067
+COMPOUND    C01438  Methane
+            C00132  Methanol
+            C00067  Formaldehyde
+REFERENCE   PMID:11698372
+  AUTHORS   Zahn JA, Bergmann DJ, Boyd JM, Kunz RC, DiSpirito AA
+  TITLE     Membrane-associated quinoprotein formaldehyde dehydrogenase from Methylococcus capsulatus Bath.
+  JOURNAL   J Bacteriol 183:6832-40 (2001)
+            DOI:10.1128/JB.183.23.6832-6840.2001
+REFERENCE   PMID:10896210
+  AUTHORS   Murrell JC, Gilbert B, McDonald IR
+  TITLE     Molecular biology and regulation of methane monooxygenase.
+  JOURNAL   Arch Microbiol 173:325-32 (2000)
+            DOI:10.1007/s002030000158
+///

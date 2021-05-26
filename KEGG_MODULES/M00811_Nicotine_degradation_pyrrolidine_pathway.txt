@@ -1,0 +1,33 @@
+ENTRY       M00811            Pathway   Module
+NAME        Nicotine degradation, pyrrolidine pathway, nicotine => succinate semialdehyde
+DEFINITION  K20170,K20169 (K20170,(K20158 K19700)) (K20171-K20172) K15359,K18276
+ORTHOLOGY   K20170,K20169  nicotine oxidoreductase [EC:1.5.3.-] [RN:R11175 R11178]
+            K20158  pseudooxynicotine oxidase [EC:1.4.3.24] [RN:R10103]
+            K19700  3-succinoylsemialdehyde-pyridine dehydrogenase [EC:1.2.1.83] [RN:R10105]
+            K20171,K20172  3-succinoylpyridine monooxygenase [RN:R11179]
+            K15359,K18276  6-hydroxy-3-succinoylpyridine 3-monooxygenase [EC:1.14.13.163] [RN:R09472]
+CLASS       Pathway modules; Metabolism of cofactors and vitamins; Cofactor and vitamin metabolism
+PATHWAY     map00760  Nicotinate and nicotinamide metabolism
+            map01100  Metabolic pathways
+            map01120  Microbial metabolism in diverse environments
+REACTION    R11175  C16150 -> C21154
+            R11176  C21154 -> C20361
+            R11178  C20361 -> C19569
+            R10103  C20361 -> C19567
+            R10105  C19567 -> C19569
+            R11179  C19569 -> C19631
+            R09472  C19631 -> C01059 + C00232
+COMPOUND    C16150  (R,S)-Nicotine
+            C21154  N-Methylmyosmine
+            C20361  Pseudooxynicotine
+            C19569  3-Succinoylpyridine
+            C19567  4-Oxo-1-(3-pyridyl)-1-butanone
+            C19631  6-Hydroxy-3-succinoylpyridine
+            C01059  2,5-Dihydroxypyridine
+            C00232  Succinate semialdehyde
+REFERENCE   PMID:22267672
+  AUTHORS   Qiu J, Ma Y, Wen Y, Chen L, Wu L, Liu W
+  TITLE     Functional identification of two novel genes from Pseudomonas sp. strain HZN6 involved in the catabolism of nicotine.
+  JOURNAL   Appl Environ Microbiol 78:2154-60 (2012)
+            DOI:10.1128/AEM.07025-11
+///

@@ -1,0 +1,17 @@
+ENTRY       M00338            Pathway   Module
+NAME        Cysteine biosynthesis, homocysteine + serine => cysteine
+DEFINITION  (K01697,K10150) K01758
+ORTHOLOGY   K01697,K10150  cystathionine beta-synthase [EC:4.2.1.22] [RN:R01290]
+            K01758  cystathionine gamma-lyase [EC:4.4.1.1] [RN:R01001]
+CLASS       Pathway modules; Amino acid metabolism; Cysteine and methionine metabolism
+PATHWAY     map00260  Glycine, serine and threonine metabolism
+            map00270  Cysteine and methionine metabolism
+            map01230  Biosynthesis of amino acids
+            map01100  Metabolic pathways
+REACTION    R01290  C00065 + C00155 -> C02291
+            R01001  C02291 -> C00097
+COMPOUND    C00065  L-Serine
+            C00155  L-Homocysteine
+            C02291  L-Cystathionine
+            C00097  L-Cysteine
+///

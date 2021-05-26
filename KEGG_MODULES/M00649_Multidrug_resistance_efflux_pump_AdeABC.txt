@@ -1,0 +1,26 @@
+ENTRY       M00649            Signature Module
+NAME        Multidrug resistance, efflux pump AdeABC
+DEFINITION  K18143 K18144 (K18145+K18146-K18147)
+ORTHOLOGY   K18143  adeS; two-component system, OmpR family, sensor histidine kinase AdeS [EC:2.7.13.3]
+            K18144  adeR; two-component system, OmpR family, response regulator AdeR
+            K18145  adeA; membrane fusion protein
+            K18146  adeB; multidrug efflux pump
+            K18147  adeC; outer membrane protein
+CLASS       Signature modules; Gene set; Drug resistance
+PATHWAY     map01501  beta-Lactam resistance
+REFERENCE   PMID:23217848
+  AUTHORS   Lopes BS, Amyes SG
+  TITLE     Insertion sequence disruption of adeR and ciprofloxacin resistance caused by efflux pumps and gyrA and parC mutations in Acinetobacter baumannii.
+  JOURNAL   Int J Antimicrob Agents 41:117-21 (2013)
+            DOI:10.1016/j.ijantimicag.2012.08.012
+REFERENCE   PMID:19056528
+  AUTHORS   Wieczorek P, Sacha P, Hauschild T, Zorawski M, Krawczyk M, Tryniszewska E
+  TITLE     Multidrug resistant Acinetobacter baumannii--the role of AdeABC (RND family) efflux pump in resistance to antibiotics.
+  JOURNAL   Folia Histochem Cytobiol 46:257-67 (2008)
+            DOI:10.2478/v10042-008-0056-x
+REFERENCE   PMID:15328088
+  AUTHORS   Marchand I, Damier-Piolle L, Courvalin P, Lambert T
+  TITLE     Expression of the RND-type efflux pump AdeABC in Acinetobacter baumannii is regulated by the AdeRS two-component system.
+  JOURNAL   Antimicrob Agents Chemother 48:3298-304 (2004)
+            DOI:10.1128/AAC.48.9.3298-3304.2004
+///

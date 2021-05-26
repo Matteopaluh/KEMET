@@ -1,0 +1,22 @@
+ENTRY       M00094            Pathway   Module
+NAME        Ceramide biosynthesis
+DEFINITION  K00654 K04708 (K04709,K04710,K23727) K04712
+ORTHOLOGY   K00654  serine palmitoyltransferase [EC:2.3.1.50] [RN:R01281]
+            K04708  3-dehydrosphinganine reductase [EC:1.1.1.102] [RN:R02978]
+            K04709,K04710  acyl-CoA-dependent ceramide synthase [EC:2.3.1.24] [RN:R06517]
+            K23727  sphingoid base N-palmitoyltransferase [EC:2.3.1.291]
+            K04712  sphingolipid 4-desaturase [EC:1.14.19.17] [RN:R06519]
+CLASS       Pathway modules; Lipid metabolism; Lipid metabolism
+PATHWAY     map00600  Sphingolipid metabolism
+            map01100  Metabolic pathways
+REACTION    R01281  C00154 + C00065 -> C02934
+            R02978  C02934 -> C00836
+            R06517  C00836 -> C12126
+            R06519  C12126 -> C00195
+COMPOUND    C00154  Palmitoyl-CoA
+            C00065  L-Serine
+            C02934  3-Dehydrosphinganine
+            C00836  Sphinganine
+            C12126  Dihydroceramide
+            C00195  N-Acylsphingosine
+///

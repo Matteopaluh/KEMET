@@ -1,0 +1,4 @@
+M00638_Salicylate degradation, salicylate => gentisate
+K18242, K18243, K14578, K14581
+COMPLEXES_LIST
+K18242+K18243+K14578+K14581

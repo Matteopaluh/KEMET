@@ -1,0 +1,11 @@
+M00823_Chlortetracycline biosynthesis, pretetramide => chlortetracycline
+K14251
+K14252
+K14253
+K14254
+K14255
+K14256
+K21301
+K14257, K21297
+COMPLEXES_LIST
+K14257+K21297

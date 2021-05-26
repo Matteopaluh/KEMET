@@ -1,0 +1,24 @@
+ENTRY       M00891            Pathway   Module
+NAME        Ditryptophenaline biosynthesis, tryptophan + phenylalanine => ditryptophenaline
+DEFINITION  K23646 K23647 K21477
+ORTHOLOGY   K23646  DTPA; ditryptophenaline biosynthesis nonribosomal peptide synthase [EC:6.3.2.-] [RN:R12413]
+            K23647  DTPB; ditryptophenaline biosynthesis N-methyltransferase [EC:2.1.1.-] [RN:R12414]
+            K21477  DTPC; ditryptophenaline biosynthesis cytochrome P450 monooxygenase [EC:1.-.-.-] [RN:R12415]
+CLASS       Pathway modules; Biosynthesis of other secondary metabolites; Biosynthesis of other fungal compounds
+PATHWAY     map00998  Biosynthesis of various secondary metabolites - part 2
+            map01100  Metabolic pathways
+            map01110  Biosynthesis of secondary metabolites
+REACTION    R12413  C00078 + C00079 -> C22142
+            R12414  C22142 -> C22143
+            R12415  C22143 -> C22144
+COMPOUND    C00078  L-Tryptophan
+            C00079  L-Phenylalanine
+            C22142  Cyclo(L-Trp-L-Phe)
+            C22143  N-Methyl-cyclo(L-Trp-L-Phe)
+            C22144  (-)-Ditryptophenaline
+REFERENCE   PMID:24677498
+  AUTHORS   Saruwatari T, Yagishita F, Mino T, Noguchi H, Hotta K, Watanabe K
+  TITLE     Cytochrome P450 as dimerization catalyst in diketopiperazine alkaloid biosynthesis.
+  JOURNAL   Chembiochem 15:656-9 (2014)
+            DOI:10.1002/cbic.201300751
+///

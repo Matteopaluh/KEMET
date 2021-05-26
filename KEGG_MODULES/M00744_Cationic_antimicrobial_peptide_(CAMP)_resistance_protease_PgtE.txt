@@ -1,0 +1,19 @@
+ENTRY       M00744            Signature Module
+NAME        Cationic antimicrobial peptide (CAMP) resistance, protease PgtE
+DEFINITION  K07637 K07660 K08477
+ORTHOLOGY   K07637  phoQ; two-component system, OmpR family, sensor histidine kinase PhoQ [EC:2.7.13.3] [COG:COG0642] [GO:0000155]
+            K07660  phoP; two-component system, OmpR family, response regulator PhoP [COG:COG0745] [GO:0000156]
+            K08477  pgtE; outer membrane protease E [EC:3.4.21.-] [COG:COG4571]
+CLASS       Signature modules; Gene set; Drug resistance
+COMMENT     Resistance mechanism: cleavage of peptides
+REFERENCE   PMID:10869088
+  AUTHORS   Guina T, Yi EC, Wang H, Hackett M, Miller SI
+  TITLE     A PhoP-regulated outer membrane protease of Salmonella enterica serovar typhimurium promotes resistance to alpha-helical antimicrobial peptides.
+  JOURNAL   J Bacteriol 182:4077-86 (2000)
+            DOI:10.1128/JB.182.14.4077-4086.2000
+REFERENCE   PMID:21149452
+  AUTHORS   Weatherspoon-Griffin N, Zhao G, Kong W, Kong Y, Morigen, Andrews-Polymenis H, McClelland M, Shi Y
+  TITLE     The CpxR/CpxA two-component system up-regulates two Tat-dependent peptidoglycan amidases to confer bacterial resistance to antimicrobial peptide.
+  JOURNAL   J Biol Chem 286:5529-39 (2011)
+            DOI:10.1074/jbc.M110.200352
+///

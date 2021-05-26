@@ -1,0 +1,9 @@
+M00874_Fatty acid biosynthesis in mitochondria, fungi
+K11262
+K03955, K00645
+K09458
+K00059
+K22541
+K07512
+COMPLEXES_LIST
+K03955+K00645

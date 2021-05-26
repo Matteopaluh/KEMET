@@ -1,0 +1,9 @@
+M00789_Rebeccamycin biosynthesis, tryptophan => rebeccamycin
+K14266
+K19884
+K19885
+K19886, K19887
+K19888
+K19889
+COMPLEXES_LIST
+K19886+K19887

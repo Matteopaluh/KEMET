@@ -1,0 +1,19 @@
+ENTRY       M00135            Pathway   Module
+NAME        GABA biosynthesis, eukaryotes, putrescine => GABA
+DEFINITION  K00657 K00274 (K00128,K14085,K00149) --
+ORTHOLOGY   K00657  diamine N-acetyltransferase [EC:2.3.1.57] [RN:R01154]
+            K00274  monoamine oxidase [EC:1.4.3.4] [RN:R04025]
+            K00128,K14085,K00149  aldehyde dehydrogenase (NAD+) [EC:1.2.1.3] [RN:R05050]
+CLASS       Pathway modules; Amino acid metabolism; Polyamine biosynthesis
+PATHWAY     map00330  Arginine and proline metabolism
+            map01100  Metabolic pathways
+REACTION    R01154,R01156  C00134 -> C02714
+            R04025  C02714 -> C05936
+            R05050  C05936 -> C02946
+            R01987  C02946 -> C00334
+COMPOUND    C00134  Putrescine
+            C02714  N-Acetylputrescine
+            C05936  N4-Acetylaminobutanal
+            C02946  4-Acetamidobutanoate
+            C00334  4-Aminobutanoate
+///

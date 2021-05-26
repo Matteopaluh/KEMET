@@ -1,0 +1,24 @@
+ENTRY       M00700            Signature Module
+NAME        Multidrug resistance, efflux pump AbcA
+DEFINITION  (K18906,K18907) K18104
+ORTHOLOGY   K18906  mgrA; MarR family transcriptional regulator, multiple gene regulator MgrA [COG:COG1846]
+            K18907  norG; GntR family transcriptional regulator, regulator for abcA and norABC [COG:COG1167]
+            K18104  abcA, bmrA; ATP-binding cassette, subfamily B, bacterial AbcA/BmrA [EC:3.6.3.44] [COG:COG1132] [GO:0008559] [TC:3.A.1.117 3.A.1.123]
+CLASS       Signature modules; Gene set; Drug resistance
+COMMENT     Resistance mechanism: limitation of drug accumulation as a result of active drug efflux
+REFERENCE   PMID:17277059
+  AUTHORS   Truong-Bolduc QC, Hooper DC
+  TITLE     The transcriptional regulators NorG and MgrA modulate resistance to both quinolones and beta-lactams in Staphylococcus aureus.
+  JOURNAL   J Bacteriol 189:2996-3005 (2007)
+            DOI:10.1128/JB.01819-06
+REFERENCE   PMID:24509312
+  AUTHORS   Villet RA, Truong-Bolduc QC, Wang Y, Estabrooks Z, Medeiros H, Hooper DC
+  TITLE     Regulation of expression of abcA and its response to environmental conditions.
+  JOURNAL   J Bacteriol 196:1532-9 (2014)
+            DOI:10.1128/JB.01406-13
+REFERENCE   PMID:23034325
+  AUTHORS   Fernandez L, Hancock RE
+  TITLE     Adaptive and mutational resistance: role of porins and efflux pumps in drug resistance.
+  JOURNAL   Clin Microbiol Rev 25:661-81 (2012)
+            DOI:10.1128/CMR.00043-12
+///

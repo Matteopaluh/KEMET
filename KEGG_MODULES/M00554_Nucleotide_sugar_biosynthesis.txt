@@ -1,0 +1,20 @@
+ENTRY       M00554            Pathway   Module
+NAME        Nucleotide sugar biosynthesis, galactose => UDP-galactose
+DEFINITION  K00849 K00965
+ORTHOLOGY   K00849  galactokinase [EC:2.7.1.6] [RN:R01092]
+            K00965  UDPglucose--hexose-1-phosphate uridylyltransferase [EC:2.7.7.12] [RN:R00955]
+CLASS       Pathway modules; Carbohydrate metabolism; Other carbohydrate metabolism
+PATHWAY     map00520  Amino sugar and nucleotide sugar metabolism
+            map00052  Galactose metabolism
+            map01100  Metabolic pathways
+REACTION    R01092 C00984 -> C00446
+            R00955 C00446 -> C00052
+COMPOUND    C00984  alpha-D-Galactose
+            C00446  alpha-D-Galactose 1-phosphate
+            C00052  UDP-alpha-D-galactose
+REFERENCE   PMID:19906649
+  AUTHORS   Damerow S, Lamerz AC, Haselhorst T, Fuhring J, Zarnovican P, von Itzstein M, Routier FH
+  TITLE     Leishmania UDP-sugar pyrophosphorylase: the missing link in galactose salvage?
+  JOURNAL   J Biol Chem 285:878-87 (2010)
+            DOI:10.1074/jbc.M109.067223
+///

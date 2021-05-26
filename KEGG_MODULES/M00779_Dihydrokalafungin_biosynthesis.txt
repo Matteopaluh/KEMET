@@ -1,0 +1,27 @@
+ENTRY       M00779            Pathway   Module
+NAME        Dihydrokalafungin biosynthesis, octaketide => dihydrokalafungin
+DEFINITION  K05556 (K14626,K14627) (K14628,K14629) (K14630+K14631,K14632)
+ORTHOLOGY   K05556  actVI1; ketoreductase RED1 [EC:1.1.1.-] [RN:R09306 R09307 R09308]
+            K14626  actVIA; actinorhodin biosynthesis protein ActVIA [RN:R09308]
+            K14627  actVI3; dehydratase [EC:4.2.1.-] [RN:R09308]
+            K14628  actVI2; enoyl reductase [RN:R06695]
+            K14629  actVI4; enoyl reductase [RN:R06695]
+            K14630  actVA5; two-component flavin-dependent monooxygenase [EC:1.14.14.-] [RN:R09314]
+            K14631  actVB; flavin reductase ActVB [EC:1.5.1.-] [RN:R05705]
+            K14632  actVA6; C-6 monooxygenase [RN:R06696]
+CLASS       Pathway modules; Biosynthesis of terpenoids and polyketides; Type II polyketide biosynthesis
+PATHWAY     map01057  Biosynthesis of type II polyketide products
+            map01100  Metabolic pathways
+            map01130  Biosynthesis of antibiotics
+REACTION    R09306  C18353 -> C18354
+            R09307  C18354 -> C18356
+            R09308  C18356 -> C12434
+            R06695  C12434 -> C12435
+            R09314+R05705+R06696  C12435 -> C12436
+COMPOUND    C18353  Octaketide bicyclic intermediate
+            C18354  (S)-Chiral alcohol
+            C18356  (S)-Hemiketal
+            C12434  (S)-DNPA
+            C12435  6-Deoxydihydrokalafungin
+            C12436  Dihydrokalafungin
+///

@@ -1,0 +1,16 @@
+ENTRY       M00307            Pathway   Module
+NAME        Pyruvate oxidation, pyruvate => acetyl-CoA
+DEFINITION  (((K00163,(K00161+K00162))+K00627+K00382-K13997),(K00169+K00170+K00171+K00172),K03737)
+ORTHOLOGY   (K00163,K00161+K00162)+K00627+K00382-K13997  pyruvate dehydrogenase complex [EC:1.2.4.1 2.3.1.12 1.8.1.4] [RN:R00209]
+            K00169+K00170+K00171+K00172,K03737  pyruvate:ferredoxin oxidoreductase [EC:1.2.7.1] [RN:R01196]
+CLASS       Pathway modules; Carbohydrate metabolism; Central carbohydrate metabolism
+PATHWAY     map00010  Glycolysis / Gluconeogenesis
+            map00020  Citrate cycle (TCA cycle)
+            map00620  Pyruvate metabolism
+            map01200  Carbon metabolism
+            map01100  Metabolic pathways
+REACTION    R00209,R01196  C00022 -> C00024
+COMPOUND    C00022  Pyruvate
+            C00024  Acetyl-CoA
+COMMENT     The oxidative decarboxylation of pyruvate to acetyl-CoA is catalyzed by the pyruvate dehydrogenase complex as part of aerobic respiration or by pyruvate:ferredoxin oxidoreductase [EC:1.2.7.1].
+///

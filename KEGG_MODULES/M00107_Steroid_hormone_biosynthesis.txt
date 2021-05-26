@@ -1,0 +1,22 @@
+ENTRY       M00107            Pathway   Module
+NAME        Steroid hormone biosynthesis, cholesterol => prognenolone => progesterone
+DEFINITION  K00498 (K00070,K01822)
+ORTHOLOGY   K00498  cytochrome P450, family 11, subfamily A (cholesterol monooxygenase [EC:1.14.15.6] [RN:R01454 R04854 R02723 R04855 R03933]
+            K00070  3beta-hydroxy-delta5-steroid dehydrogenase [EC:1.1.1.145] [RN:R02216]
+            K01822  steroid delta-isomerase [EC:5.3.3.1] [RN:R02216]
+CLASS       Pathway modules; Lipid metabolism; Sterol biosynthesis
+PATHWAY     map00140  Steroid hormone biosynthesis
+            map01100  Metabolic pathways
+REACTION    R01454  C00187 -> C05500
+            R04854  C05500 -> C05501
+            R02723  C00187 -> C05502
+            R04855  C05502 -> C05501
+            R03933  C05501 -> C01953
+            R02216  C01953 -> C00410
+COMPOUND    C00187  Cholesterol
+            C05500  20alpha-Hydroxycholesterol
+            C05501  20alpha,22beta-Dihydroxycholesterol
+            C05502  22beta-Hydroxycholesterol
+            C01953  Pregnenolone
+            C00410  Progesterone
+///

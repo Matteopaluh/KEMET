@@ -1,0 +1,29 @@
+ENTRY       M00736            Pathway   Module
+NAME        Nocardicin A biosynthesis, L-pHPG + arginine + serine => nocardicin A
+DEFINITION  (K19102+K19103+K05375) K19104 K19105 K19106
+ORTHOLOGY   K19102,K19103  nocardicin nonribosomal peptide synthetase [RN:R10880]
+            K05375  MbtH protein [RN:R10880]
+            K19104  isonocardicin synthase [EC:2.5.1.38] [RN:R10881 R03072]
+            K19105  nocardicin-A epimerase [EC:5.1.1.14] [RN:R10883 R03073]
+            K19106  nocardicin N-oxygenase [EC:1.14.13.-] [RN:R10882]
+CLASS       Pathway modules; Biosynthesis of other secondary metabolites; beta-Lactam biosynthesis
+PATHWAY     map00261  Monobactam biosynthesis
+            map01100  Metabolic pathways
+            map01130  Biosynthesis of antibiotics
+REACTION    R10880  C12323 + C00062 + C00065 -> C17355
+            R10881  C17355 -> C17352
+            R10883  C17352 -> C17351
+            R10882  C17351 -> C01941
+            R10903  C17355 -> C01739
+            R03072  C01739 -> C00927
+            R03073  C00927 -> C01941
+COMPOUND    C12323  L-4-Hydroxyphenylglycine
+            C00062  L-Arginine
+            C00065  L-Serine
+            C17355  Nocardicin G
+            C17352  Isonocardicin C
+            C17351  Nocardicin C
+            C01941  Nocardicin A
+            C01739  Nocardicin E
+            C00927  Isonocardicin A
+///

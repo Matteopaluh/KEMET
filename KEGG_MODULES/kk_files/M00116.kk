@@ -1,0 +1,10 @@
+M00116_Menaquinone biosynthesis, chorismate => menaquinol
+K02552
+K02551
+K08680
+K02549
+K01911
+K01661
+K19222
+K02548
+K03183

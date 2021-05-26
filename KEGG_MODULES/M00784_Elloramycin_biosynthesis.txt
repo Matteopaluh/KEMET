@@ -1,0 +1,24 @@
+ENTRY       M00784            Pathway   Module
+NAME        Elloramycin biosynthesis, 8-demethyltetracenomycin C => elloramycin A
+DEFINITION  K19566 K19567 K19568 K19569 K19570
+ORTHOLOGY   K19566  elmGT; 8-demethyltetracenomycin C L-rhamnosyltransferase [EC:2.4.1.331] [RN:R10955]
+            K19567  elmMI; 8-demethyl-8-alpha-L-rhamnosyltetracenomycin-C 2'-O-methyltransferase [EC:2.1.1.305] [RN:R10956]
+            K19568  elmMII; 8-demethyl-8-(2-methoxy-alpha-L-rhamnosyl)tetracenomycin-C 3'-O-methyltransferase [EC:2.1.1.306] [RN:R10957]
+            K19569  elmMIII; 8-demethyl-8-(2,3-dimethoxy-alpha-L-rhamnosyl)tetracenomycin-C 4'-O-methyltransferase [EC:2.1.1.307] [RN:R10958]
+            K19570  elmD; 8-demethyl-8-(2,3,4-trimethoxy-alpha-L-rhamnosyl)tetracenomycin-C O-methyltransferase [EC:2.1.1.-] [RN:R10959]
+CLASS       Pathway modules; Biosynthesis of terpenoids and polyketides; Type II polyketide biosynthesis
+PATHWAY     map01057  Biosynthesis of type II polyketide products
+            map01100  Metabolic pathways
+            map01130  Biosynthesis of antibiotics
+REACTION    R10955  C12379 -> C20974
+            R10956  C20974 -> C20975
+            R10957  C20975 -> C20976
+            R10958  C20976 -> C20977
+            R10959  C20977 -> C12381
+COMPOUND    C12379  8-Demethyltetracenomycin C
+            C20974  8-Demethyl-8-alpha-L-rhamnosyltetracenomycin C
+            C20975  8-Demethyl-8-(2-O-methyl-alpha-L-rhamnosyl)tetracenomycin C
+            C20976  8-Demethyl-8-(2,3-di-O-methyl-alpha-L-rhamnosyl)tetracenomycin C
+            C20977  8-Demethyl-8-(2,3,4-tri-O-methyl-alpha-L-rhamnosyl)tetracenomycin C
+            C12381  Elloramycin A
+///

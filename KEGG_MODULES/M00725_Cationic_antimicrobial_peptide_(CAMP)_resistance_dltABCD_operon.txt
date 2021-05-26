@@ -1,0 +1,33 @@
+ENTRY       M00725            Signature Module
+NAME        Cationic antimicrobial peptide (CAMP) resistance, dltABCD operon
+DEFINITION  K19077 K19078 (K03367+K03739+K14188+K03740)
+ORTHOLOGY   K19077   graS; two-component system, OmpR family, sensor histidine kinase GraS [EC:2.7.13.3] [COG:COG0642] [GO:0000155]
+            K19078   graR; two-component system, OmpR family, response regulator protein GraR [COG:COG0745] [GO:0000156]
+            K03367  dltA; D-alanine--poly(phosphoribitol) ligase subunit 1 [EC:6.1.1.13] [COG:COG1020] [GO:0047473]
+            K03739  dltB; membrane protein involved in D-alanine export [COG:COG1696]
+            K14188  dltC; D-alanine--poly(phosphoribitol) ligase subunit 2 [EC:6.1.1.13] [COG:COG0236] [GO:0047473]
+            K03740  dltD; D-alanine transfer protein [COG:COG3966]
+CLASS       Signature modules; Gene set; Drug resistance
+PATHWAY     map01503  Cationic antimicrobial peptide (CAMP) resistance
+COMMENT     Resistance mechanism: addition of alanine to teichoic acids
+REFERENCE   PMID:22123691
+  AUTHORS   Falord M, Karimova G, Hiron A, Msadek T
+  TITLE     GraXSR proteins interact with the VraFG ABC transporter to form a five-component system required for cationic antimicrobial peptide sensing and resistance in Staphylococcus aureus.
+  JOURNAL   Antimicrob Agents Chemother 56:1047-58 (2012)
+            DOI:10.1128/AAC.05054-11
+REFERENCE   PMID:21986630
+  AUTHORS   Yang SJ, Bayer AS, Mishra NN, Meehl M, Ledala N, Yeaman MR, Xiong YQ, Cheung AL
+  TITLE     The Staphylococcus aureus two-component regulatory system, GraRS, senses and confers resistance to selected cationic antimicrobial peptides.
+  JOURNAL   Infect Immun 80:74-81 (2012)
+            DOI:10.1128/IAI.05669-11
+REFERENCE   PMID:19609257
+  AUTHORS   Otto M
+  TITLE     Staphylococcus epidermidis--the 'accidental' pathogen.
+  JOURNAL   Nat Rev Microbiol 7:555-67 (2009)
+            DOI:10.1038/nrmicro2182
+REFERENCE   PMID:21765893
+  AUTHORS   Falord M, Mader U, Hiron A, Debarbouille M, Msadek T
+  TITLE     Investigation of the Staphylococcus aureus GraSR regulon reveals novel links to virulence, stress response and cell wall signal transduction pathways.
+  JOURNAL   PLoS One 6:e21323 (2011)
+            DOI:10.1371/journal.pone.0021323
+///

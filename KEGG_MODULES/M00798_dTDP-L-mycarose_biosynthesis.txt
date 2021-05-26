@@ -1,0 +1,27 @@
+ENTRY       M00798            Pathway   Module
+NAME        dTDP-L-mycarose biosynthesis
+DEFINITION  K16435 K13315 K13317 (K13316,K16438) K13318
+ORTHOLOGY   K16435  eryBVI, tylCVI; dTDP-4-dehydro-6-deoxy-alpha-D-glucopyranose 2,3-dehydratase [EC:4.2.1.159] [RN:R05518]
+            K13315  eryBII, tylCII; NDP-hexose C3-ketoreductase [EC:1.1.1.-] [RN:R11051]
+            K13317  eryBIII, tylCIII; NDP-4-keto-2,6-dideoxyhexose 3-C-methyltransferase [EC:2.1.1.-] [RN:R08933]
+            K13316  tylCVII; NDP-hexose 5-epimerase [EC:5.1.3.-] [RN:R08934]
+            K16438  eryBVII; 5-epimerase [EC:5.1.3.-] [RN:R08934]
+            K13318  eryBIV, tylCIV; dTDP-4-keto-6-deoxy-L-hexose 4-reductase [EC:1.1.1.-] [RN:R06436]
+CLASS       Pathway modules; Biosynthesis of terpenoids and polyketides; Polyketide sugar unit biosynthesis
+PATHWAY     map00523  Polyketide sugar unit biosynthesis
+            map01100  Metabolic pathways
+            map01130  Biosynthesis of antibiotics
+REACTION    R05518  C11907 -> C06620
+            R11051  C06620 -> C11928
+            R08933  C11928 -> C18035
+            R08934  C18035 -> C11915
+            R06436  C11915 -> C11916
+COMPOUND    C11907  dTDP-4-oxo-6-deoxy-D-glucose
+            C06620  dTDP-3,4-dioxo-2,6-dideoxy-D-glucose
+            C11928  dTDP-4-oxo-2,6-dideoxy-D-allose
+            C18035  dTDP-3-methyl-4-oxo-2,6-dideoxy-D-glucose
+            C11915  dTDP-3-methyl-4-oxo-2,6-dideoxy-L-allose
+            C11916  dTDP-L-mycarose
+RMODULE     RM036  Epimerization and reduction in deoxysugar biosynthesis
+            RM038  Deoxygenation (dehydration and reduction) in deoxysugar biosynthesis
+///

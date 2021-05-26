@@ -1,0 +1,59 @@
+ENTRY       M00567            Pathway   Module
+NAME        Methanogenesis, CO2 => methane
+DEFINITION  (K00200+K00201+K00202+K00203-K11261+(K00205,K11260,K00204)) K00672 K01499 (K00319,K13942) K00320 (K00577+K00578+K00579+K00580+K00581-K00582-K00583+K00584) (K00399+K00401+K00402) (K22480+K22481+K22482,K03388+K03389+K03390,K08264+K08265,K03388+K03389+K03390+K14127+(K14126+K14128,K22516+K00125))
+ORTHOLOGY   K00200+K00201+K00202+K00203+K11261  formylmethanofuran dehydrogenase [EC:1.2.99.5] [RN:R03015]
+            K00205,K11260,K00204  4Fe-4S ferredoxin
+            K00672  formylmethanofuran--tetrahydromethanopterin N-formyltransferase [EC:2.3.1.101] [RN:R03390]
+            K01499  methenyltetrahydromethanopterin cyclohydrolase [EC:3.5.4.27] [RN:R03464]
+            K00319  methylenetetrahydromethanopterin dehydrogenase [EC:1.5.99.9] [RN:R04456]
+            K13942  5,10-methenyltetrahydromethanopterin hydrogenase [EC:1.12.98.2] [RN:R04455]
+            K00320  coenzyme F420-dependent N5,N10-methenyltetrahydromethanopterin reductase [EC:1.5.99.11] [RN:R04464]
+            K00577+K00578+K00579+K00580+K00581+K00582+K00583+K00584  tetrahydromethanopterin S-methyltransferase [EC:2.1.1.86] [RN:R04347]
+            K00399+K00401+K00402  methyl-coenzyme M reductase [EC:2.8.4.1] [RN:R04541]
+            K22480+K22481+K22482  heterodisulfide reductase 1 [EC:1.8.7.3] [RN:R11931]
+            K03388+K03389+K03390  heterodisulfide reductase 2 [EC:1.8.7.3 1.8.98.4 1.8.98.5 1.8.98.6] [RN:R11928 R11931 R11943 R11944]
+            K08264+K08265  heterodisulfide reductase [EC:1.8.98.1] [RN:R04540]
+            K14126+K14128  F420-non-reducing hydrogenase [EC:1.8.98.5] [RN:R11943]
+            K14127  F420-non-reducing hydrogenase iron-sulfur subunit [EC:1.8.98.5 1.8.98.6] [RN:R11943 R11944]
+            K22516+K00125  formate dehydrogenase (coenzyme F420) [EC1.8.98.6] [RN:R11944]
+CLASS       Pathway modules; Energy metabolism; Methane metabolism
+PATHWAY     map00680  Methane metabolism
+            map01200  Carbon metabolism
+            map01100  Metabolic pathways
+            map01120  Microbial metabolism in diverse environments
+REACTION    R03015  C00011 -> C01001
+            R03390  C01001 -> C01274
+            R03464  C01274 -> C04330
+            R04456,R04455  C04330 -> C04377
+            R04464  C04377 -> C04488
+            R04347  C04488 + C03576 -> C03920
+            R04541  C03920 + C04628 -> C01438 + C04832
+            R11931,R04540,R11928,R11943,R11944  C04832 -> C04628 + C03576
+COMPOUND    C00011  CO2
+            C01001  Formylmethanofuran
+            C01274  5-Formyl-5,6,7,8-tetrahydromethanopterin
+            C04330  5,10-Methenyltetrahydromethanopterin
+            C04377  5,10-Methylenetetrahydromethanopterin
+            C04488  5-Methyl-5,6,7,8-tetrahydromethanopterin
+            C03576  Coenzyme M
+            C03920  2-(Methylthio)ethanesulfonate
+            C04628  Coenzyme B
+            C01438  Methane
+            C04832  Coenzyme M 7-mercaptoheptanoylthreonine-phosphate heterodisulfide
+COMMENT     Organism group: methanogenic archaea
+REFERENCE   PMID:18378594
+  AUTHORS   Liu Y, Whitman WB
+  TITLE     Metabolic, phylogenetic, and ecological diversity of the methanogenic archaea.
+  JOURNAL   Ann N Y Acad Sci 1125:171-89 (2008)
+            DOI:10.1196/annals.1419.019
+REFERENCE   PMID:18587410
+  AUTHORS   Thauer RK, Kaster AK, Seedorf H, Buckel W, Hedderich R
+  TITLE     Methanogenic archaea: ecologically relevant differences in energy conservation.
+  JOURNAL   Nat Rev Microbiol 6:579-91 (2008)
+            DOI:10.1038/nrmicro1931
+REFERENCE   PMID:14657125
+  AUTHORS   L'Haridon S, Reysenbach AL, Banta A, Messner P, Schumann P, Stackebrandt E, Jeanthon C
+  TITLE     Methanocaldococcus indicus sp. nov., a novel hyperthermophilic methanogen isolated from the Central Indian Ridge.
+  JOURNAL   Int J Syst Evol Microbiol 53:1931-5 (2003)
+            DOI:10.1099/ijs.0.02700-0
+///

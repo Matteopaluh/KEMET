@@ -1,0 +1,51 @@
+ENTRY       M00055            Pathway   Module
+NAME        N-glycan precursor biosynthesis
+DEFINITION  K01001 (K07432+K07441) K03842 K03843 K03844 K03845 K03846 K03847 K03846 K00729 K03848 K03849 K03850
+ORTHOLOGY   K01001  ALG7 [EC:2.7.8.15] [RN:R05969]
+            K07432+K07441  ALG13+ALG14 [EC:2.4.1.141] [RN:R05970]
+            K03842  ALG1 [EC:2.4.1.142] [RN:R05972]
+            K03843  ALG2 [EC:2.4.1.132 2.4.1.257] [RN:R05973 R06238]
+            K03844  ALG11 [EC:2.4.1.131] [RN:R06127 R06128]
+            K03845  ALG3 [EC:2.4.1.130] [RN:R06258]
+            K03846  ALG9 [EC:2.4.1.259] [RN:R06259]
+            K03847  ALG12 [EC:2.4.1.130] [RN:R06260]
+            K03846  ALG9 [EC:2.4.1.261] [RN:R06261]
+            K00729  ALG5 [EC:2.4.1.117] [RN:R01005]
+            K03848  ALG6 [EC:2.4.1.267] [RN:R06262]
+            K03849  ALG8 [EC:2.4.1.265] [RN:R06263]
+            K03850  ALG10 [EC:2.4.1.256] [RN:R06264]
+CLASS       Pathway modules; Glycan metabolism; Glycan biosynthesis
+PATHWAY     map00510  N-Glycan biosynthesis
+            map01100  Metabolic pathways
+REACTION    R05969  C00110 -> G00001
+            R05970  G00001 -> G00002
+            R05972  G00002 -> G00003
+            R05973  G00003 -> G00004
+            R06238  G00004 -> G00005
+            R06127  G00005 -> G10526
+            R06128  G10526 -> G00006
+            R06258  G00006 -> G10595
+            R06259  G10595 -> G10596
+            R06260  G10596 -> G10597
+            R06261  G10597 -> G00007
+            R01005  C00110 -> C01246
+            R06262  C01246 + G00007 -> G10598
+            R06263  G10598 -> G10599
+            R06264  G10599 -> G00008
+COMPOUND    C00110  Dolichyl phosphate
+            G00001  (GlcNAc)1 (PP-Dol)1
+            G00002  (GlcNAc)2 (PP-Dol)1
+            G00003  (GlcNAc)2 (Man)1 (PP-Dol)1
+            G00004  (GlcNAc)2 (Man)2 (PP-Dol)1
+            G00005  (GlcNAc)2 (Man)3 (PP-Dol)1
+            G10526  (GlcNAc)2 (Man)4 (PP-Dol)1
+            G00006  (GlcNAc)2 (Man)5 (PP-Dol)1
+            G10595  (GlcNAc)2 (Man)6 (PP-Dol)1
+            G10596  (GlcNAc)2 (Man)7 (PP-Dol)1
+            G10597  (GlcNAc)2 (Man)8 (PP-Dol)1
+            G00007  (GlcNAc)2 (Man)9 (PP-Dol)1
+            C01246  (Glc)1 (P-Dol)1
+            G10598  (Glc)1 (GlcNAc)2 (Man)9 (PP-Dol)1
+            G10599  (Glc)2 (GlcNAc)2 (Man)9 (PP-Dol)1
+            G00008  (Glc)3 (GlcNAc)2 (Man)9 (PP-Dol)1
+///

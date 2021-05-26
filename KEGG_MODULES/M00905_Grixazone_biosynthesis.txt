@@ -1,0 +1,23 @@
+ENTRY       M00905            Pathway   Module
+NAME        Grixazone biosynthesis, aspartate 4-semialdehyde => grixazone B
+DEFINITION  K18287 K17835 K20204
+ORTHOLOGY   K18287  griI; 2-amino-4,5-dihydroxy-6-oxo-7-(phosphooxy)heptanoate synthase [EC:4.1.2.56] [RN:R10673]
+            K17835  griH; 3-amino-4-hydroxybenzoic acid synthase [EC:4.1.99.20] [RN:R10469]
+            K20204  griF; grixazone synthase[EC:1.10.3.15] [RN:R10720]
+CLASS       Pathway modules; Biosynthesis of other secondary metabolites; Biosynthesis of other bacterial compounds
+PATHWAY     map00997  Biosynthesis of various secondary metabolites - part 3
+            map01100  Metabolic pathways
+            map01110  Biosynthesis of secondary metabolites
+REACTION    R10673  C00441 -> C20644
+            R10469  C20644 -> C12115
+            R10720  C12115 -> C20799
+COMPOUND    C00441  L-Aspartate 4-semialdehyde
+            C20644  2-Amino-4,5-dihydroxy-6-oxo-7-(phosphooxy)heptanoate
+            C12115  3-Amino-4-hydroxybenzoate
+            C20799  Grixazone B
+REFERENCE   PMID:17003031
+  AUTHORS   Suzuki H, Ohnishi Y, Furusho Y, Sakuda S, Horinouchi S
+  TITLE     Novel benzene ring biosynthesis from C(3) and C(4) primary metabolites by two enzymes.
+  JOURNAL   J Biol Chem 281:36944-51 (2006)
+            DOI:10.1074/jbc.M608103200
+///

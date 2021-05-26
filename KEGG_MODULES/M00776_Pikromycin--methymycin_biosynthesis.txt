@@ -1,0 +1,34 @@
+ENTRY       M00776            Pathway   Module
+NAME        Pikromycin/methymycin biosynthesis, methylmalonyl-CoA + malonyl-CoA => narbonolide/10-deoxymethynolide => pikromycin/methymycin
+DEFINITION  (K16000+K16001+K16002-K16003) K16004 K16005 K16006
+ORTHOLOGY   K16000  pikAI; narbonolide/10-deoxymethynolide synthase [EC:2.3.1.240 2.3.1.239] [RN:R06459 R06458]
+            K16001  pikAII; narbonolide/10-deoxymethynolide synthase [EC:2.3.1.240 2.3.1.239] [RN:R06459 R06458]
+            K16002  pikAIII; narbonolide/10-deoxymethynolide synthase [EC:2.3.1.240 2.3.1.239] [RN:R06459 R06458]
+            K16003  pikAIV; narbonolide synthase [EC:2.3.1.240] [RN:R06459]
+            K16004  desVII; narbonolide/10-deoxymethynolide desosaminyltransferase [EC:2.4.1.277] [RN:R06461 R06460]
+            K16005  desVIII; narbonolide/10-deoxymethynolide desosaminyltransferase auxiliary protein [RN:R06461 R06460]
+            K16006  pikC; pikromycin synthase [EC:1.14.15.33] [RN:R06464 R06463]
+CLASS       Pathway modules; Biosynthesis of terpenoids and polyketides; Macrolide biosynthesis
+PATHWAY     map00522  Biosynthesis of 12-, 14- and 16-membered macrolides
+            map01100  Metabolic pathways
+            map01110  Biosynthesis of secondary metabolites
+REACTION    R06459  C00683 + C00083 -> C11997
+            R06461  C11997 -> C11998
+            R06464  C11998 -> C11999
+            R06458  C00683 + C00083 -> C11993
+            R06460  C11993 -> C11994
+            R06463  C11994 -> C11996
+COMPOUND    C00683  (S)-Methylmalonyl-CoA
+            C00083  Malonyl-CoA
+            C11997  Narbonolide
+            C11998  Narbomycin
+            C11999  Pikromycin
+            C11993  10-Deoxymethynolide
+            C11994  10-Deoxymethymycin
+            C11996  Methymycin
+REFERENCE   PMID:19027305
+  AUTHORS   Kittendorf JD, Sherman DH
+  TITLE     The methymycin/pikromycin pathway: a model for metabolic diversity in natural product biosynthesis.
+  JOURNAL   Bioorg Med Chem 17:2137-46 (2009)
+            DOI:10.1016/j.bmc.2008.10.082
+///

@@ -1,0 +1,36 @@
+ENTRY       M00880            Pathway   Module
+NAME        Molybdenum cofactor biosynthesis, GTP => molybdenum cofactor
+DEFINITION  ((K03639 K03637),K20967) (K03635,K21142) (((K03831,K03638) K03750),K15376)
+ORTHOLOGY   K03639  GTP 3',8-cyclase [EC:4.1.99.22] [RN:R09394]
+            K03637  cyclic pyranopterin monophosphate synthase [EC:4.6.1.17] [RN:R11372]
+            K20967  GTP 3',8-cyclase / cyclic pyranopterin monophosphate synthase [EC:4.1.99.22 4.6.1.17] [RN:R09394 R11372]
+            K03635  molybdopterin synthase catalytic subunit [EC:2.8.1.12] [RN:R09395]
+            K21142  MoaE-MoaD fusion protein [EC:2.8.1.12] [RN:R09395]
+            K03831  molybdopterin adenylyltransferase [EC:2.7.7.75] [RN:R09726]
+            K03638  molybdopterin adenylyltransferase [EC:2.7.7.75] [RN:R09726]
+            K03750  molybdopterin molybdotransferase [EC:2.10.1.1] [RN:R09735]
+            K15376  gephyrin [EC:2.10.1.1 2.7.7.75] [RN:R09726 R09735]
+CLASS       Pathway modules; Metabolism of cofactors and vitamins; Cofactor and vitamin metabolism
+PATHWAY     map00790  Folate biosynthesis
+REACTION    R09394  C00044 -> C21310
+            R11372  C21310 -> C18239
+            R09395  C18239 -> C05924
+            R09726  C05924 -> C19848
+            R09735  C19848 -> C18237
+COMPOUND    C00044  GTP
+            C21310  (8S)-3',8-Cyclo-7,8-dihydroguanosine 5'-triphosphate
+            C18239  Precursor Z
+            C05924  Molybdopterin
+            C19848  Adenylated molybdopterin
+            C18237  Molybdoenzyme molybdenum cofactor
+REFERENCE   PMID:19675644
+  AUTHORS   Schwarz G, Mendel RR, Ribbe MW
+  TITLE     Molybdenum cofactors, enzymes and pathways.
+  JOURNAL   Nature 460:839-47 (2009)
+            DOI:10.1038/nature08302
+REFERENCE   PMID:18154309
+  AUTHORS   Bevers LE, Hagedoorn PL, Santamaria-Araujo JA, Magalon A, Hagen WR, Schwarz G
+  TITLE     Function of MoaB proteins in the biosynthesis of the molybdenum and tungsten cofactors.
+  JOURNAL   Biochemistry 47:949-56 (2008)
+            DOI:10.1021/bi7020487
+///

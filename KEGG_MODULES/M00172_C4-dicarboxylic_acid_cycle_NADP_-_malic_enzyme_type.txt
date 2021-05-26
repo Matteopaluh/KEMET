@@ -1,0 +1,23 @@
+ENTRY       M00172            Pathway   Module
+NAME        C4-dicarboxylic acid cycle, NADP - malic enzyme type
+DEFINITION  K01595 K00051 K00029 K01006
+ORTHOLOGY   K01595  phosphoenolpyruvate carboxylase [EC:4.1.1.31] [RN:R00345]
+            K00051  malate dehydrogenase (NADP+) [EC:1.1.1.82] [RN:R00343]
+            K00029  malate dehydrogenase (oxaloacetate-decarboxylating)(NADP+) [EC:1.1.1.40] [RN:R00216]
+            K01006  pyruvate,orthophosphate dikinase [EC:2.7.9.1] [RN:R00206]
+CLASS       Pathway modules; Energy metabolism; Carbon fixation
+PATHWAY     map00620  Pyruvate metabolism
+            map00710  Carbon fixation in photosynthetic organisms
+            map01200  Carbon metabolism
+            map01100  Metabolic pathways
+            map01120  Microbial metabolism in diverse environments
+REACTION    R00345  C00074 -> C00036
+            R00343  C00036 -> C00149
+            R00216  C00149 -> C00022 + C00011
+            R00206  C00022 -> C00074
+COMPOUND    C00074  Phosphoenolpyruvate
+            C00011  CO2
+            C00036  Oxaloacetate
+            C00149  (S)-Malate
+            C00022  Pyruvate
+///

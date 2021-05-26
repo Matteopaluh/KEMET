@@ -1,0 +1,20 @@
+ENTRY       M00538            Pathway   Module
+NAME        Toluene degradation, toluene => benzoate
+DEFINITION  (K15760+K15761-K15762+K15763+K15764-K15765) K00055 K00141
+ORTHOLOGY   K15760+K15761+K15762+K15763+K15764+K15765  toluene monooxygenase system [EC:1.14.13.-] [RN:R02550]
+            K00055  xylB; aryl-alcohol dehydrogenase [EC:1.1.1.90] [RN:R01763]
+            K00141  xylC; benzaldehyde dehydrogenase (NAD) [EC:1.2.1.28] [RN:R01419]
+CLASS       Pathway modules; Xenobiotics biodegradation; Aromatics degradation
+PATHWAY     map00623  Toluene degradation
+            map01220  Degradation of aromatic compounds
+            map01100  Metabolic pathways
+            map01120  Microbial metabolism in diverse environments
+REACTION    R02550  C01455 -> C00556
+            R01763  C00556 -> C00261
+            R01419  C00261 -> C00180
+COMPOUND    C01455  Toluene
+            C00556  Benzyl alcohol
+            C00261  Benzaldehyde
+            C00180  Benzoate
+RMODULE     RM003  Methyl to carboxyl conversion on aromatic ring
+///

@@ -1,0 +1,30 @@
+ENTRY       M00028            Pathway   Module
+NAME        Ornithine biosynthesis, glutamate => ornithine
+DEFINITION  (K00618,K00619,K14681,K14682,K00620,K22477,K22478) ((K00930,K22478) K00145,K12659) (K00818,K00821) (K01438,K14677,K00620)
+ORTHOLOGY   K00618,K00619,K14681,K14682,K22477  amino-acid N-acetyltransferase [EC:2.3.1.1] [RN:R00259]
+            K00930  acetylglutamate kinase [EC:2.7.2.8] [RN:R02649]
+            K22478  bifunctional N-acetylglutamate synthase/kinase [EC:2.3.1.1 2.7.2.8] [RN:R00259 R02649]
+            K00145  N-acetyl-gamma-glutamyl-phosphate reductase [EC:1.2.1.38] [RN:R03443]
+            K12659  N-acetyl-gamma-glutamyl-phosphate reductase / acetylglutamate kinase [EC:1.2.1.38 2.7.2.8] [RN:R02649 R03443]
+            K00818,K00821  acetylornithine aminotransferase [EC:2.6.1.11] [RN:R02283]
+            K01438  acetylornithine deacetylase [EC:3.5.1.16] [RN:R00669]
+            K14677  aminoacylase [EC:3.5.1.14] [RN:R00669]
+            K00620  glutamate N-acetyltransferase / amino-acid N-acetyltransferase [EC:2.3.1.35 2.3.1.1] [RN:R00259 R02282]
+CLASS       Pathway modules; Amino acid metabolism; Arginine and proline metabolism
+PATHWAY     map00220  Arginine biosynthesis
+            map01210  2-Oxocarboxylic acid metabolism
+            map01230  Biosynthesis of amino acids
+            map01100  Metabolic pathways
+REACTION    R00259  C00025 -> C00624
+            R02649  C00624 -> C04133
+            R03443  C04133 -> C01250
+            R02283  C01250 -> C00437
+            R00669,R02282  C00437 -> C00077
+COMPOUND    C00025  L-Glutamate
+            C00624  N-Acetyl-L-glutamate
+            C04133  N-Acetyl-L-glutamate 5-phosphate
+            C01250  N-Acetyl-L-glutamate 5-semialdehyde
+            C00437  N-Acetylornithine
+            C00077  L-Ornithine
+RMODULE     RM002  Carboxyl to amino conversion using protective N-acetyl group (basic amino acid synthesis)
+///

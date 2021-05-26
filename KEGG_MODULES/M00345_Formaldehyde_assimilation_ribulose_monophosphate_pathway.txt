@@ -1,0 +1,42 @@
+ENTRY       M00345            Pathway   Module
+NAME        Formaldehyde assimilation, ribulose monophosphate pathway
+DEFINITION  (((K08093,K13812) K08094),K13831) (K00850,K16370) K01624
+ORTHOLOGY   K08093,K13812,K13831  3-hexulose-6-phosphate synthase [EC:4.1.2.43] [RN:R05338]
+            K08094,K13831  6-phospho-3-hexuloisomerase [EC:5.3.1.27] [RN:R05339 R09780]
+            K00850,K16370  6-phosphofructokinase [EC:2.7.1.11] [RN:R00756 R04779]
+            K01624  fructose-bisphosphate aldolase, class II [EC:4.1.2.13] [RN:R01068 R01070]
+CLASS       Pathway modules; Energy metabolism; Methane metabolism
+PATHWAY     map00030  Pentose phosphate pathway
+            map00680  Methane metabolism
+            map01200  Carbon metabolism
+            map01230  Biosynthesis of amino acids
+            map01100  Metabolic pathways
+            map01120  Microbial metabolism in diverse environments
+REACTION    R05338  C00199 + C00067 -> C06019
+            R05339  C06019 -> C00085
+            R00756  C00085 -> C00354
+            R01068  C00354 -> C00118
+            
+            R05338  C00199 + C00067 -> C06019
+            R09780  C06019 -> C05345
+            R04779  C05345 -> C05378
+            R01070  C05378 -> C00118
+COMPOUND    C00199  D-Ribulose 5-phosphate
+            C00067  Formaldehyde
+            C06019  D-arabino-Hex-3-ulose 6-phosphate
+            C00085  D-Fructose 6-phosphate
+            C00354  D-Fructose 1,6-bisphosphate
+            C00118  D-Glyceraldehyde 3-phosphate
+            C05345  beta-D-Fructose 6-phosphate
+            C05378  beta-D-Fructose 1,6-bisphosphate
+REFERENCE   PMID:16278835
+  AUTHORS   Yurimoto H, Kato N, Sakai Y
+  TITLE     Assimilation, dissimilation, and detoxification of formaldehyde, a central metabolic intermediate of methylotrophic metabolism.
+  JOURNAL   Chem Rec 5:367-75 (2005)
+            DOI:10.1002/tcr.20056
+REFERENCE   PMID:19280184
+  AUTHORS   Koopman FW, de Winde JH, Ruijssenaars HJ
+  TITLE     C(1) compounds as auxiliary substrate for engineered Pseudomonas putida S12.
+  JOURNAL   Appl Microbiol Biotechnol 83:705-13 (2009)
+            DOI:10.1007/s00253-009-1922-y
+///

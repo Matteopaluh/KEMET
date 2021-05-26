@@ -1,0 +1,27 @@
+ENTRY       M00609            Pathway   Module
+NAME        Cysteine biosynthesis, methionine => cysteine
+DEFINITION  K00789 K17462 K01243 K07173 K17216 K17217
+ORTHOLOGY   K00789  S-adenosylmethionine synthetase [EC:2.5.1.6] [RN:R00177]
+            K17462  putative AdoMet-dependent methyltransferase [EC:2.1.1.-] [RN:R10404]
+            K01243  S-adenosylhomocysteine/5'-methylthioadenosine nucleosidase [EC:3.2.2.9] [RN:R00194]
+            K07173  S-ribosylhomocysteine lyase [EC:4.4.1.21] [RN:R01291]
+            K17216  cystathionine beta-synthase (O-acetyl-L-serine) [EC:2.5.1.134] [RN:R10305]
+            K17217  cystathionine gamma-lyase [EC:4.4.1.1] [RN:R01001]
+CLASS       Pathway modules; Amino acid metabolism; Cysteine and methionine metabolism
+PATHWAY     map00270  Cysteine and methionine metabolism
+            map01230  Biosynthesis of amino acids
+            map01100  Metabolic pathways
+REACTION    R00177  C00073 -> C00019
+            R10404  C00019 -> C00021
+            R00194  C00021 -> C03539
+            R01291  C03539 -> C00155
+            R10305  C00155 -> C02291
+            R01001  C02291 -> C00097
+COMPOUND    C00073  L-Methionine
+            C00019  S-Adenosyl-L-methionine
+            C00021  S-Adenosyl-L-homocysteine
+            C03539  S-Ribosyl-L-homocysteine
+            C00155  L-Homocysteine
+            C02291  L-Cystathionine
+            C00097  L-Cysteine
+///

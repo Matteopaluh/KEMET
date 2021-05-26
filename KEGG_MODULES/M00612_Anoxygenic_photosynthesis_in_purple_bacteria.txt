@@ -1,0 +1,18 @@
+ENTRY       M00612            Signature Module
+NAME        Anoxygenic photosynthesis in purple bacteria
+DEFINITION  M00597 M00165
+ORTHOLOGY   (M00597  Anoxygenic photosystem II)
+            K08928  pufL; photosynthetic reaction center L subunit
+            K08929  pufM; photosynthetic reaction center M subunit
+            (M00165  Reductive pentose phosphate cycle (Calvin cycle))
+            K00855  phosphoribulokinase (PRK)
+            K01601+K01602  ribulose-bisphosphate carboxylase (RuBisCO)
+            K00927  phosphoglycerate kinase
+            K05298,K00150,K00134  glyceraldehyde-3-phosphate dehydrogenase
+            K01623,K01624  fructose-bisphosphate aldolase
+            K03841,K02446,K11532,K04041  fructose-1,6-bisphosphatase 
+            K00615  transketolase
+            K01100,K11532  sedoheptulose-bisphosphatase
+            K01807,K01808  ribose 5-phosphate isomerase
+CLASS       Signature modules; Module set; Metabolic capacity
+///

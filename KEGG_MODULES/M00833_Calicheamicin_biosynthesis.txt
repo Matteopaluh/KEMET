@@ -1,0 +1,44 @@
+ENTRY       M00833            Pathway   Module
+NAME        Calicheamicin biosynthesis, calicheamicinone => calicheamicin
+DEFINITION  K21254 K21255 K21256 K21257 K21258
+            K21259 K21260 K21261 K21262 K21263
+ORTHOLOGY   K21254  calO5; orsellinic acid synthase [EC:2.3.1.-] [RN:R11412]
+            K21255  calO6; orsellinic acid C2-O-methyltransferase [EC:2.1.1.-] [RN:R11413]
+            K21256  calO3; flavin-dependent halogenase [RN:R11414]
+            K21257  calO2; orsellenic acid P450 oxidase [EC:1.14.-.-] [RN:R11415]
+            K21258  calO1; orsellinic acid C3-O-methyltransferase [EC:2.1.1.-] [RN:R11416]
+            K21259  calG3; calicheamicinone 4-hydroxyamino-4,6-dideoxy-alpha-D-glucosyltransferase [EC:2.4.1.-] [RN:R11417]
+            K21260  calG2; calicheamicin 4-deoxy-4-thio-alpha-D-digitoxosyltransferase [EC:2.4.1.-] [RN:R11418]
+            K21261  calO4; acyltransferase [RN:R11419]
+            K21262  calG4; calicheamicin aminopentosyltransferase [EC:2.4.2.-] [RN:R11420 R11421]
+            K21263  calG1; calicheamicin 3'-O-methyl-rhamnosyltransferase [EC:2.4.1.-] [RN:R11422 R11423]
+CLASS       Pathway modules; Biosynthesis of terpenoids and polyketides; Enediyne biosynthesis
+PATHWAY     map01059  Biosynthesis of enediyne antibiotics
+            map01100  Metabolic pathways
+            map01130  Biosynthesis of antibiotics
+REACTION    R11412  C00083 -> C21343
+            R11413  C21343 -> C21344
+            R11414  C21344 -> C21345
+            R11415  C21345 -> C21346
+            R11416  C21346 -> C21347
+            R11417  C21337 -> C21338
+            R11418  C21338 -> C21339
+            R11419  C21339 + C21347 -> C21340
+            R11420  C21340 -> C21341
+            R11422  C21341 -> C11469
+            R11423  C21340 -> C21342
+            R11421  C21342 -> C11469
+COMPOUND    C00083  Malonyl-CoA
+            C21343  Orsellinate-[acp]
+            C21344  2-Methoxyorsellinate-[acp]
+            C21345  5-Iodo-2-methoxyorsellinate-[acp]
+            C21346  3-Hydroxy-5-iodo-2-methoxyorsellinate-[acp]
+            C21347  5-Iodo-2,3-dimethoxyorsellinate-[acp]
+            C21337  Calicheamicinone
+            C21338  Calicheamicin T0
+            C21339  4-Deoxy-4-thio-alpha-D-digitoxosyl-calicheamicin T0
+            C21340  Calicheamicin PsAg
+            C21341  Calicheamicin alpha1(I)
+            C11469  Calicheamicin gamma(1)I
+            C21342  Calicheamicin alpha3(I)
+///

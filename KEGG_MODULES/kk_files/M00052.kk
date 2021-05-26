@@ -1,0 +1,4 @@
+M00052_Pyrimidine ribonucleotide biosynthesis, UMP => UDP/UTP,CDP/CTP
+K13800, K13809, K09903
+K00940, K18533
+K01937

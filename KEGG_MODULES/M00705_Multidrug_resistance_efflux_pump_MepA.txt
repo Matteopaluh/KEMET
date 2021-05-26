@@ -1,0 +1,23 @@
+ENTRY       M00705            Signature Module
+NAME        Multidrug resistance, efflux pump MepA
+DEFINITION  K18909 K18908
+ORTHOLOGY   K18909  mepR; MarR family transcriptional regulator, repressor for mepA [COG:COG1846]
+            K18908  mepA; multidrug efflux pump [COG:COG0534] [TC:2.A.66.1.13]
+CLASS       Signature modules; Gene set; Drug resistance
+COMMENT     Resistance mechanism: limitation of drug accumulation as a result of active drug efflux
+REFERENCE   PMID:15855508
+  AUTHORS   McAleese F, Petersen P, Ruzin A, Dunman PM, Murphy E, Projan SJ, Bradford PA
+  TITLE     A novel MATE family efflux pump contributes to the reduced susceptibility of laboratory-derived Staphylococcus aureus mutants to tigecycline.
+  JOURNAL   Antimicrob Agents Chemother 49:1865-71 (2005)
+            DOI:10.1128/AAC.49.5.1865-1871.2005
+REFERENCE   PMID:23749979
+  AUTHORS   Schindler BD, Seo SM, Jacinto PL, Kumaraswami M, Birukou I, Brennan RG, Kaatz GW
+  TITLE     Functional consequences of substitution mutations in MepR, a repressor of the Staphylococcus aureus MepA multidrug efflux pump gene.
+  JOURNAL   J Bacteriol 195:3651-62 (2013)
+            DOI:10.1128/JB.00565-13
+REFERENCE   PMID:23034325
+  AUTHORS   Fernandez L, Hancock RE
+  TITLE     Adaptive and mutational resistance: role of porins and efflux pumps in drug resistance.
+  JOURNAL   Clin Microbiol Rev 25:661-81 (2012)
+            DOI:10.1128/CMR.00043-12
+///

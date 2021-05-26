@@ -1,0 +1,75 @@
+ENTRY       M00376            Pathway   Module
+NAME        3-Hydroxypropionate bi-cycle
+DEFINITION  (K02160+K01961+K01962+K01963) K14468 K14469 K15052 K05606 (K01847,(K01848+K01849)) (K14471+K14472) (K00239+K00240+K00241) K01679
+            K08691 K14449 K14470 K09709
+ORTHOLOGY   K01961,K01962,K01963  acetyl-CoA carboxylase carboxyl transferase [EC:6.4.1.2] [RN:R00742]
+            K02160  acetyl-CoA carboxylase biotin carboxyl carrier protein [RN:R00742]
+            K14468  malonyl-CoA reductase / 3-hydroxypropionate dehydrogenase (NADP+) [EC:1.2.1.75 1.1.1.298] [RN:R00740 R09289] 
+            K14469  acrylyl-CoA reductase (NADPH) / 3-hydroxypropionyl-CoA dehydratase / 3-hydroxypropionyl-CoA synthetase [EC:1.3.1.84 4.2.1.116 6.2.1.36] [RN:R09286 R03045 R00919] 
+            K15052  propionyl-CoA carboxylase [EC:6.4.1.3] [RN:R01859] 
+            K05606  methylmalonyl-CoA epimerase [EC:5.1.99.1] [RN:R02765]
+            K01847,K01848,K01849  methylmalonyl-CoA mutase [EC:5.4.99.2] [RN:R00833]
+            K14471,K14472  succinyl-CoA:(S)-malate CoA transferase [EC:2.8.3.-] [RN:R00406]
+            K00239,K00240,K00241  succinate dehydrogenase [EC:1.3.5.1] [RN:R02164]
+            K01679  fumarate hydratase [EC:4.2.1.2] [RN:R01082]
+            K08691  malyl-CoA/(S)-citramalyl-CoA lyase [EC:4.1.3.24 4.1.3.25] [RN:R00473 R00934 R00237]
+            K14449  2-methylfumaryl-CoA hydratase [EC:4.2.1.148] [RN:R05076]
+            K14470  2-methylfumaryl-CoA isomerase [EC:5.4.1.3] [RN:R09283]
+            K09709  3-methylfumaryl-CoA hydratase [EC:4.2.1.153] [RN:R09282]
+CLASS       Pathway modules; Energy metabolism; Carbon fixation
+PATHWAY     map00720  Carbon fixation pathways in prokaryotes
+            map01200  Carbon metabolism
+            map01100  Metabolic pathways
+            map01120  Microbial metabolism in diverse environments
+REACTION    R00742  C00024 -> C00083
+            R00740  C00083 -> C00222
+            R09289  C00222 -> C01013
+            R09286  C01013 -> C05668
+            R03045  C05668 -> C00894
+            R00919  C00894 -> C00100
+            R01859  C00100 -> C00683
+            R02765  C00683 -> C01213
+            R00833  C01213 -> C00091
+            R00406  C00091 -> C00042
+            R02164  C00042 -> C00122
+            R01082  C00122 -> C00149
+            R00406  C00149 -> C04348
+            R00473  C04348 -> C00024 + C00048
+            R00934  C00100 -> C06027
+            R05076  C06027 -> C06028
+            R09283  C06028 -> C18323
+            R09282  C18323 -> C01011
+            R00237  C01011 -> C00024 + C00022
+COMPOUND    C00024  Acetyl-CoA
+            C00083  Malonyl-CoA
+            C00222  3-Oxopropanoate
+            C01013  3-Hydroxypropanoate
+            C05668  3-Hydroxypropionyl-CoA
+            C00894  Propenoyl-CoA
+            C00100  Propanoyl-CoA
+            C00683  (S)-Methylmalonyl-CoA
+            C01213  (R)-Methylmalonyl-CoA
+            C00091  Succinyl-CoA
+            C00042  Succinate
+            C00122  Fumarate
+            C00149  (S)-Malate
+            C04348  (3S)-3-Carboxy-3-hydroxypropanoyl-CoA
+            C00048  Glyoxylate
+            C06027  L-erythro-3-Methylmalyl-CoA
+            C06028  Mesaconyl-CoA
+            C18323  Mesaconyl-C4-CoA
+            C01011  (3S)-Citramalyl-CoA
+            C00022  Pyruvate
+RMODULE     RM019  Acyl-CoA conversion via dicarboxylate semialdehyde
+COMMENT     Organism group: photosynthetic green nonsulfur bacteria
+REFERENCE   PMID:19955419
+  AUTHORS   Zarzycki J, Brecht V, Muller M, Fuchs G
+  TITLE     Identifying the missing steps of the autotrophic 3-hydroxypropionate CO2 fixation cycle in Chloroflexus aurantiacus.
+  JOURNAL   Proc Natl Acad Sci U S A 106:21317-22 (2009)
+            DOI:10.1073/pnas.0908356106
+REFERENCE   PMID:19103151
+  AUTHORS   Xin Y, Lu YK, Fromme R, Fromme P, Blankenship RE
+  TITLE     Purification, characterization and crystallization of menaquinol:fumarate oxidoreductase from the green filamentous photosynthetic bacterium Chloroflexus aurantiacus.
+  JOURNAL   Biochim Biophys Acta 1787:86-96 (2009)
+            DOI:10.1016/j.bbabio.2008.11.010
+///

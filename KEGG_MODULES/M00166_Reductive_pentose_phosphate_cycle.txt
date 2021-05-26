@@ -1,0 +1,23 @@
+ENTRY       M00166            Pathway   Module
+NAME        Reductive pentose phosphate cycle, ribulose-5P => glyceraldehyde-3P
+DEFINITION  K00855 (K01601-K01602) K00927 (K05298,K00150,K00134)
+ORTHOLOGY   K00855  phosphoribulokinase [EC:2.7.1.19] [RN:R01523]
+            K01601,K01602  ribulose-bisphosphate carboxylase [EC:4.1.1.39] [RN:R00024]
+            K00927  phosphoglycerate kinase [EC:2.7.2.3] [RN:R01512]
+            K05298,K00150,K00134  glyceraldehyde-3-phosphate dehydrogenase (phosphorylating) [EC:1.2.1.13 1.2.1.59 1.2.1.12] [RN:R01061 R01063]
+CLASS       Pathway modules; Energy metabolism; Carbon fixation
+PATHWAY     map00710  Carbon fixation in photosynthetic organisms
+            map01200  Carbon metabolism
+            map01100  Metabolic pathways
+            map01120  Microbial metabolism in diverse environments
+REACTION    R01523  C00199 -> C01182
+            R00024  C01182 + C00011 -> C00197
+            R01512  C00197 -> C00236
+            R01061,R01063  C00236 -> C00118
+COMPOUND    C00199  D-Ribulose 5-phosphate
+            C01182  D-Ribulose 1,5-bisphosphate
+            C00011  CO2
+            C00197  3-Phospho-D-glycerate
+            C00236  3-Phospho-D-glyceroyl phosphate
+            C00118  D-Glyceraldehyde 3-phosphate
+///

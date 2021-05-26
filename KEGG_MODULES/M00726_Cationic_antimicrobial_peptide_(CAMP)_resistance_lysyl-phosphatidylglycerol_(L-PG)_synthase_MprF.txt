@@ -1,0 +1,25 @@
+ENTRY       M00726            Signature Module
+NAME        Cationic antimicrobial peptide (CAMP) resistance, lysyl-phosphatidylglycerol (L-PG) synthase MprF
+DEFINITION  K19077 K19078 K14205
+ORTHOLOGY   K19077   graS; two-component system, OmpR family, sensor histidine kinase GraS [EC:2.7.13.3] [COG:COG0642] [GO:0000155]
+            K19078   graR; two-component system, OmpR family, response regulator protein GraR [COG:COG0745] [GO:0000156]
+            K14205  mprF, fmtC; phosphatidylglycerol lysyltransferase [EC:2.3.2.3] [COG:COG0392 COG2898] [GO:0050071] [TC:2
+CLASS       Signature modules; Gene set; Drug resistance
+PATHWAY     map01503  Cationic antimicrobial peptide (CAMP) resistance
+COMMENT     Resistance mechanism: addition of lysine to phospholipids
+REFERENCE   PMID:22123691
+  AUTHORS   Falord M, Karimova G, Hiron A, Msadek T
+  TITLE     GraXSR proteins interact with the VraFG ABC transporter to form a five-component system required for cationic antimicrobial peptide sensing and resistance in Staphylococcus aureus.
+  JOURNAL   Antimicrob Agents Chemother 56:1047-58 (2012)
+            DOI:10.1128/AAC.05054-11
+REFERENCE   PMID:21986630
+  AUTHORS   Yang SJ, Bayer AS, Mishra NN, Meehl M, Ledala N, Yeaman MR, Xiong YQ, Cheung AL
+  TITLE     The Staphylococcus aureus two-component regulatory system, GraRS, senses and confers resistance to selected cationic antimicrobial peptides.
+  JOURNAL   Infect Immun 80:74-81 (2012)
+            DOI:10.1128/IAI.05669-11
+REFERENCE   PMID:19609257
+  AUTHORS   Otto M
+  TITLE     Staphylococcus epidermidis--the 'accidental' pathogen.
+  JOURNAL   Nat Rev Microbiol 7:555-67 (2009)
+            DOI:10.1038/nrmicro2182
+///

@@ -1,0 +1,19 @@
+ENTRY       M00365            Pathway   Module
+NAME        C10-C20 isoprenoid biosynthesis, archaea
+DEFINITION  K01823 K13787
+ORTHOLOGY   K01823  IPP <-> DMPP [EC:5.3.3.2] [RN:R01123]
+            K13787  DMPP -> GPP -> FPP -> GGPP [EC:2.5.1.1 2.5.1.10 2.5.1.29] [RN:R01658 R02003 R02061]
+CLASS       Pathway modules; Biosynthesis of terpenoids and polyketides; Terpenoid backbone biosynthesis
+PATHWAY     map00900  Terpenoid backbone biosynthesis
+            map01100  Metabolic pathways
+            map01110  Biosynthesis of secondary metabolites
+REACTION    R01123  C00129 <-> C00235
+            R01658  C00235 + C00129 -> C00341
+            R02003  C00341 + C00129 -> C00448
+            R02061  C00448 + C00129 -> C00353
+COMPOUND    C00129  Isopentenyl diphosphate (IPP)
+            C00235  Dimethylallyl diphosphate (DMPP)
+            C00341  Geranyl diphosphate (GPP)
+            C00448  trans,trans-Farnesyl diphosphate (FPP)
+            C00353  Geranylgeranyl diphosphate (GGPP)
+///

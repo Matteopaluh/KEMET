@@ -1,0 +1,27 @@
+ENTRY       M00831            Pathway   Module
+NAME        Kedarcidin 2-hydroxynaphthoate moiety biosynthesis, malonyl-CoA => 3,6,8-trihydroxy-2-naphthoate => 3-hydroxy-7,8-dimethoxy-6-isopropoxy-2-naphthoyl-CoA
+DEFINITION  K21221 K21222 K21223 K21224 K21225
+ORTHOLOGY   K21221  kedU38; iterative type I polyketide synthase KedU38
+            K21222  kedN3; cytochrome P450 monooxygenase [EC:1.14.-.-] [RN:R11387]
+            K21223  kedN1; O-methyltransferase [EC:2.1.1.-] [RN:R11388]
+            K21224  kedN5; radical SAM C-methyltransferase [RN:R11389]
+            K21225  kedN2; acyl-CoA synthetase [RN:R11390]
+CLASS       Pathway modules; Biosynthesis of terpenoids and polyketides; Enediyne biosynthesis
+PATHWAY     map01059  Biosynthesis of enediyne antibiotics
+            map01100  Metabolic pathways
+            map01130  Biosynthesis of antibiotics
+REACTION    R11387  C21320 -> C21321
+            R11388  C21321 -> C21322
+            R11389  C21322 -> C21323
+            R11390  C21323 -> C21324
+COMPOUND    C21320  3,6,8-Trihydroxy-2-naphthoate
+            C21321  3,6,7,8-Tetrahydroxy-2-naphthoate
+            C21322  3-Hydroxy-6,7,8-trimethoxy-2-naphthoate
+            C21323  3-Hydroxy-7,8-dimethoxy-6-isopropoxy-2-naphthoate
+            C21324  3-Hydroxy-7,8-dimethoxy-6-isopropoxy-2-naphthoyl-CoA
+REFERENCE   PMID:23360970
+  AUTHORS   Lohman JR, Huang SX, Horsman GP, Dilfer PE, Huang T, Chen Y, Wendt-Pienkowski E, Shen B
+  TITLE     Cloning and sequencing of the kedarcidin biosynthetic gene cluster from Streptoalloteichus sp. ATCC 53650 revealing new insights into biosynthesis of the enediyne family of antitumor antibiotics.
+  JOURNAL   Mol Biosyst 9:478-91 (2013)
+            DOI:10.1039/c3mb25523a
+///

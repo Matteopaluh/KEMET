@@ -1,0 +1,19 @@
+ENTRY       M00856            Signature Module
+NAME        Salmonella enterica pathogenicity signature, typhoid toxin
+DEFINITION  K11014 K11023 K19298 K22918
+ORTHOLOGY   K11014  cdtB; cytolethal distending toxin subunit B
+            K11023  ptxA; pertussis toxin subunit 1 [EC:2.4.2.-]
+            K19298  subB; subtilase cytotoxin, subunit B
+            K22918  ttsA; typhoid toxin secretion A
+CLASS       Signature modules; Gene set; Pathogenicity
+REFERENCE   PMID:27222578
+  AUTHORS   Galan JE
+  TITLE     Typhoid toxin provides a window into typhoid fever and the biology of Salmonella Typhi.
+  JOURNAL   Proc Natl Acad Sci U S A 113:6338-44 (2016)
+            DOI:10.1073/pnas.1606335113
+REFERENCE   PMID:30030897
+  AUTHORS   Johnson R, Mylona E, Frankel G
+  TITLE     Typhoidal Salmonella: Distinctive virulence factors and pathogenesis.
+  JOURNAL   Cell Microbiol 20:e12939 (2018)
+            DOI:10.1111/cmi.12939
+///

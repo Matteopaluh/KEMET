@@ -1,0 +1,27 @@
+ENTRY       M00879            Pathway   Module
+NAME        Arginine succinyltransferase pathway, arginine => glutamate
+DEFINITION  K00673 K01484 K00840 K06447 K05526
+ORTHOLOGY   K00673  astA; arginine N-succinyltransferase [EC:2.3.1.109] [RN:R00832]
+            K01484  astB; succinylarginine dihydrolase [EC:3.5.3.23] [RN:R04189]
+            K00840  astC; succinylornithine aminotransferase [EC:2.6.1.81] [RN:R04217]
+            K06447  astD; succinylglutamic semialdehyde dehydrogenase [EC:1.2.1.71] [RN:R05049]
+            K05526  astE; succinylglutamate desuccinylase [EC:3.5.1.96] [RN:R00411]
+CLASS       Pathway modules; Amino acid metabolism; Arginine and proline metabolism
+PATHWAY     map00330  Arginine and proline metabolism
+REACTION    R00832  C00062 -> C03296
+            R04189  C03296 -> C03415
+            R04217  C03415 -> C05932
+            R05049  C05932 -> C05931
+            R00411  C05931 -> C00025
+COMPOUND    C00062  L-Arginine
+            C03296  N2-Succinyl-L-arginine
+            C03415  N2-Succinyl-L-ornithine
+            C05932  N-Succinyl-L-glutamate 5-semialdehyde
+            C05931  N-Succinyl-L-glutamate
+            C00025  L-Glutamate
+REFERENCE   PMID:9393691
+  AUTHORS   Itoh Y
+  TITLE     Cloning and characterization of the aru genes encoding enzymes of the catabolic arginine succinyltransferase pathway in Pseudomonas aeruginosa.
+  JOURNAL   J Bacteriol 179:7280-90 (1997)
+            DOI:10.1128/JB.179.23.7280-7290.1997
+///

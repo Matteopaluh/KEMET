@@ -1,0 +1,21 @@
+ENTRY       M00057            Pathway   Module
+NAME        Glycosaminoglycan biosynthesis, linkage tetrasaccharide
+DEFINITION  K00771 K00733 K00734 K10158
+ORTHOLOGY   K00771  protein xylosyltransferase [EC:2.4.2.26] [RN:R05925]
+            K00733  xylosylprotein 4-beta-galactosyltransferase [EC:2.4.1.133] [RN:R05926]
+            K00734  galactosylxylosylprotein 3-beta-galactosyltransferase [EC:2.4.1.134] [RN:R05927]
+            K10158  galactosylgalactosylxylosylprotein 3-beta-glucuronosyltransferase [EC:2.4.1.135] [RN:R05928]
+CLASS       Pathway modules; Glycan metabolism; Glycosaminoglycan metabolism
+PATHWAY     map00532  Glycosaminoglycan biosynthesis - chondroitin sulfate / dermatan sulfate
+            map00534  Glycosaminoglycan biosynthesis - heparan sulfate / heparin
+            map01100  Metabolic pathways
+REACTION    R05925  C02189 -> G00154
+            R05926  G00154 -> G00155
+            R05927  G00155 -> G00156
+            R05928  G00156 -> G00157
+COMPOUND    C02189  Protein serine
+            G00154  (Xyl)1 (Ser)1
+            G00155  (Gal)1 (Xyl)1 (Ser)1
+            G00156  (Gal)2 (Xyl)1 (Ser)1
+            G00157  (Gal)2 (GlcA)1 (Xyl)1 (Ser)1
+///

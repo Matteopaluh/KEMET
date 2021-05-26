@@ -1,0 +1,38 @@
+ENTRY       M00377            Pathway   Module
+NAME        Reductive acetyl-CoA pathway (Wood-Ljungdahl pathway)
+DEFINITION  K00198 (K05299-K15022) K01938 K01491 K00297 K15023 (K14138+K00197+K00194)
+ORTHOLOGY   K00198  carbon-monoxide dehydrogenase [EC:1.2.7.4] [RN:R07157]
+            K05299,K15022  formate dehydrogenase [EC:1.17.1.10] [RN:R00134]
+            K01938  formate--tetrahydrofolate ligase [EC:6.3.4.3] [RN:R00943]
+            K01491  methylenetetrahydrofolate dehydrogenase (NADP+) / methenyltetrahydrofolate cyclohydrolase [EC:1.5.1.5 3.5.4.9] [RN:R01655 R01220]
+            K00297  methylenetetrahydrofolate reductase (NADPH) [EC:1.5.1.20] [RN:R07168]
+            K15023  5-methyltetrahydrofolate corrinoid/iron sulfur protein methyltransferase [EC:2.1.1.258] [RN:R02289]
+            K14138  acetyl-CoA synthase [EC:2.3.1.169] [RN:R08433]
+            K00197+K00194  acetyl-CoA decarbonylase/synthase complex [EC:2.3.1.-] [RN:R10243]
+CLASS       Pathway modules; Energy metabolism; Carbon fixation
+PATHWAY     map00720  Carbon fixation pathways in prokaryotes
+            map01200  Carbon metabolism
+            map01100  Metabolic pathways
+            map01120  Microbial metabolism in diverse environments
+REACTION    R07157  C00011 -> C00237
+            R00134  C00011 -> C00058
+            R00943  C00058 + C00101 -> C00234
+            R01655  C00234 -> C00445
+            R01220  C00445 -> C00143
+            R07168  C00143 -> C00440
+            R02289+R08433,R10243  C00237 + C00440 -> C00101 + C00024
+COMPOUND    C00011  CO2
+            C00237  CO
+            C00058  Formate
+            C00101  Tetrahydrofolate
+            C00234  10-Formyltetrahydrofolate
+            C00445  5,10-Methenyltetrahydrofolate
+            C00143  5,10-Methylenetetrahydrofolate
+            C00440  5-Methyltetrahydrofolate
+            C00024  Acetyl-CoA
+REFERENCE   PMID:3096193
+  AUTHORS   Ljungdahl LG
+  TITLE     The autotrophic pathway of acetate synthesis in acetogenic bacteria.
+  JOURNAL   Annu Rev Microbiol 40:415-50 (1986)
+            DOI:10.1146/annurev.mi.40.100186.002215
+///

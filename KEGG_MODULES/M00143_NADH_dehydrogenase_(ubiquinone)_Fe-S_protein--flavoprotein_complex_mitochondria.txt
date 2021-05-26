@@ -1,0 +1,17 @@
+ENTRY       M00143            Complex   Module
+NAME        NADH dehydrogenase (ubiquinone) Fe-S protein/flavoprotein complex, mitochondria
+DEFINITION  (K03934+K03935+K03936+K03937+K03938+K03939+K03940+K03941+K03942+K03943-K03944)
+ORTHOLOGY   K03934  NDUFS1; NADH dehydrogenase (ubiquinone) Fe-S protein 1 [EC:7.1.1.2 1.6.99.3]
+            K03935  NDUFS2; NADH dehydrogenase (ubiquinone) Fe-S protein 2 [EC:7.1.1.2 1.6.99.3]
+            K03936  NDUFS3; NADH dehydrogenase (ubiquinone) Fe-S protein 3 [EC:7.1.1.2 1.6.99.3]
+            K03937  NDUFS4; NADH dehydrogenase (ubiquinone) Fe-S protein 4
+            K03938  NDUFS5; NADH dehydrogenase (ubiquinone) Fe-S protein 5
+            K03939  NDUFS6; NADH dehydrogenase (ubiquinone) Fe-S protein 6
+            K03940  NDUFS7; NADH dehydrogenase (ubiquinone) Fe-S protein 7 [EC:7.1.1.2 1.6.99.3]
+            K03941  NDUFS8; NADH dehydrogenase (ubiquinone) Fe-S protein 8 [EC:7.1.1.2 1.6.99.3]
+            K03942  NDUFV1; NADH dehydrogenase (ubiquinone) flavoprotein 1 [EC:7.1.1.2 1.6.99.3]
+            K03943  NDUFV2; NADH dehydrogenase (ubiquinone) flavoprotein 2 [EC:7.1.1.2 1.6.99.3]
+            K03944  NDUFV3; NADH dehydrogenase (ubiquinone) flavoprotein 3
+CLASS       Pathway modules; Energy metabolism; ATP synthesis
+PATHWAY     map00190  Oxidative phosphorylation
+///

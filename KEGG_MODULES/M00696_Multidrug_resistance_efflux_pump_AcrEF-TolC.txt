@@ -1,0 +1,25 @@
+ENTRY       M00696            Signature Module
+NAME        Multidrug resistance, efflux pump AcrEF-TolC
+DEFINITION  K18140 (K18141+K18142+K12340)
+ORTHOLOGY   K18140  envR, acrS; TetR/AcrR family transcriptional regulator, acrEF/envCD operon repressor [COG:COG1309]
+            K18141  acrE; membrane fusion protein [COG:COG0845] [TC:2.A.6.2]
+            K18142  acrF; multidrug efflux pump [COG:COG0841] [TC:2.A.6.2]
+            K12340  tolC; outer membrane channel protein [COG:COG1538] [TC:1.B.17 2.A.6.2]
+CLASS       Signature modules; Gene set; Drug resistance
+COMMENT     Resistance mechanism: limitation of drug accumulation as a result of active drug efflux
+REFERENCE   PMID:11274125
+  AUTHORS   Kobayashi K, Tsukagoshi N, Aono R
+  TITLE     Suppression of hypersensitivity of Escherichia coli acrB mutant to organic solvents by integrational activation of the acrEF operon with the IS1 or IS2 element.
+  JOURNAL   J Bacteriol 183:2646-53 (2001)
+            DOI:10.1128/JB.183.8.2646-2653.2001
+REFERENCE   PMID:23034325
+  AUTHORS   Fernandez L, Hancock RE
+  TITLE     Adaptive and mutational resistance: role of porins and efflux pumps in drug resistance.
+  JOURNAL   Clin Microbiol Rev 25:661-81 (2012)
+            DOI:10.1128/CMR.00043-12
+REFERENCE   PMID:14706082
+  AUTHORS   Poole K
+  TITLE     Efflux-mediated multiresistance in Gram-negative bacteria.
+  JOURNAL   Clin Microbiol Infect 10:12-26 (2004)
+            DOI:10.1111/j.1469-0691.2004.00763.x
+///

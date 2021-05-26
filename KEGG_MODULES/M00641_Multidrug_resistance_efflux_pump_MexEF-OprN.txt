@@ -1,0 +1,19 @@
+ENTRY       M00641            Signature Module
+NAME        Multidrug resistance, efflux pump MexEF-OprN
+DEFINITION  K18297 (K18298+K18299-K18300)
+ORTHOLOGY   K18297  mexT; LysR family transcriptional regulator, mexEF-oprN operon transcriptional activator
+            K18298  mexE; membrane fusion protein
+            K18299  mexF; multidrug efflux pump
+            K18300  oprN; outer membrane protein
+CLASS       Signature modules; Gene set; Drug resistance
+REFERENCE   PMID:19683048
+  AUTHORS   Tian ZX, Mac Aogain M, O'Connor HF, Fargier E, Mooij MJ, Adams C, Wang YP, O'Gara F
+  TITLE     MexT modulates virulence determinants in Pseudomonas aeruginosa independent of the MexEF-OprN efflux pump.
+  JOURNAL   Microb Pathog 47:237-41 (2009)
+            DOI:10.1016/j.micpath.2009.08.003
+REFERENCE   PMID:17223624
+  AUTHORS   Depardieu F, Podglajen I, Leclercq R, Collatz E, Courvalin P
+  TITLE     Modes and modulations of antibiotic resistance gene expression.
+  JOURNAL   Clin Microbiol Rev 20:79-114 (2007)
+            DOI:10.1128/CMR.00015-06
+///

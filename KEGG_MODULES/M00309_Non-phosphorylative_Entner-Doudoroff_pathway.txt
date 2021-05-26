@@ -1,0 +1,39 @@
+ENTRY       M00309            Pathway   Module
+NAME        Non-phosphorylative Entner-Doudoroff pathway, gluconate/galactonate => glycerate
+DEFINITION  K05308 (K11395,K18127) ((K18020+K18021+K18022),K18128,K03738)
+ORTHOLOGY   K05308  gluconate/galactonate dehydratase [EC:4.2.1.140] [RN:R01538 R03033]
+            K11395  2-dehydro-3-deoxy-phosphogluconate/2-dehydro-3-deoxy-6-phosphogalactonate aldolase [EC:4.1.2.55] [RN:R08570 R10616]
+            K18127  2-dehydro-3-deoxy-D-gluconate aldolase [EC:4.1.2.51] [RN:R08570 R10616]
+            K18020,K18021,K18022  glyceraldehyde dehydrogenase large subunit [EC:1.2.99.8] [RN:R10324]
+            K18128  glyceraldehyde dehydrogenase [EC:1.2.1.89] [RN:R10615]
+            K03738  aldehyde:ferredoxin oxidoreductase [EC:1.2.7.5] [RN:R08571]
+CLASS       Pathway modules; Carbohydrate metabolism; Central carbohydrate metabolism
+PATHWAY     map00030  Pentose phosphate pathway
+            map00052  Galactose metabolism
+            map01200  Carbon metabolism
+            map01100  Metabolic pathways
+            map01120  Microbial metabolism in diverse environments
+REACTION    R01538  C00257 -> C00204
+            R08570  C00204 -> C00577 + C00022
+            R03033  C00880 -> C01216
+            R10616  C01216 -> C00577 + C00022
+            R10324,R10615,R08571  C00577 -> C00258
+COMPOUND    C00257  D-Gluconic acid
+            C00204  2-Dehydro-3-deoxy-D-gluconate
+            C00577  D-Glyceraldehyde
+            C00022  Pyruvate
+            C00880  D-Galactonate
+            C01216  2-Dehydro-3-deoxy-D-galactonate
+            C00258  D-Glycerate
+COMMENT     Organism group: archaea
+REFERENCE   PMID:15869466
+  AUTHORS   Ahmed H, Ettema TJ, Tjaden B, Geerling AC, van der Oost J, Siebers B
+  TITLE     The semi-phosphorylative Entner-Doudoroff pathway in hyperthermophilic archaea: a re-evaluation.
+  JOURNAL   Biochem J 390:529-40 (2005)
+            DOI:10.1042/BJ20041711
+REFERENCE   PMID:20023024
+  AUTHORS   Reher M, Fuhrer T, Bott M, Schonheit P
+  TITLE     The nonphosphorylative Entner-Doudoroff pathway in the thermoacidophilic euryarchaeon Picrophilus torridus involves a novel 2-keto-3-deoxygluconate- specific aldolase.
+  JOURNAL   J Bacteriol 192:964-74 (2010)
+            DOI:10.1128/JB.01281-09
+///

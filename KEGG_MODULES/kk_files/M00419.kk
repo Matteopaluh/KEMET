@@ -1,0 +1,6 @@
+M00419_Cymene degradation, p-cymene => p-cumate
+K10616, K18293
+K10617
+K10618
+COMPLEXES_LIST
+K10616+K18293

@@ -1,0 +1,8 @@
+M00171_C4-dicarboxylic acid cycle, NAD - malic enzyme type
+K01595
+K14454
+K14455
+K00025, K00026
+K00028
+K00814, K14272
+K01006

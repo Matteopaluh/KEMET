@@ -1,0 +1,26 @@
+ENTRY       M00074            Pathway   Module
+NAME        N-glycan biosynthesis, high-mannose type
+DEFINITION  K05546 K23741 K01230 K05528 (K05529+K05530) (K05529+K05531+K05532+K05533+K05534) K05535
+ORTHOLOGY   K05546  alpha 1,3-glucosidase [EC:3.2.1.84] [RN:R05980 R05981]
+            K23741  endoplasmic reticulum Man9GlcNAc2 1,2-alpha-mannosidase [EC:3.2.1.209] [RN:R06722]
+            K01230  mannosyl-oligosaccharide alpha-1,2-mannosidase [EC:3.2.1.113] [RN:R12479]
+            K05528  alpha 1,6-mannosyltransferase [EC:2.4.1.232] [RN:R08599]
+            K05529+K05530  mannan polymerase I complexes [EC:2.4.1.232]
+            K05529+K05531+K05532+K05533+K05534  mannan polymerase II complex [EC:2.4.1.232]
+            K05535  alpha 1,2-mannosyltransferase [EC:2.4.1.-]
+CLASS       Pathway modules; Glycan metabolism; Glycan biosynthesis
+PATHWAY     map00510  N-Glycan biosynthesis
+            map00513  Various types of N-glycan biosynthesis
+            map01100  Metabolic pathways
+REACTION    R05980  G00171 -> G00010
+            R05981  G00010 -> G00011
+            R06722  G00011 -> G10694
+            R12479  G10694 -> G00012
+            R08599  G00012 -> G01813
+COMPOUND    G00171
+            G00010
+            G00011
+            G10694
+            G00012
+            G01813
+///

@@ -1,0 +1,6 @@
+M00537_Xylene degradation, xylene => methylbenzoate
+K15757, K15758
+K00055
+K00141
+COMPLEXES_LIST
+K15757+K15758

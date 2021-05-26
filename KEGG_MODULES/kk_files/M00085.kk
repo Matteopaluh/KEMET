@@ -1,0 +1,5 @@
+M00085_Fatty acid elongation in mitochondria
+K07508, K07509
+K00022, K07515
+K07511, K07515
+K07512

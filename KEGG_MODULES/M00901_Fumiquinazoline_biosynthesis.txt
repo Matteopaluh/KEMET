@@ -1,0 +1,30 @@
+ENTRY       M00901            Pathway   Module
+NAME        Fumiquinazoline biosynthesis, tryptophan + alanine + anthranilate => fumiquinazoline
+DEFINITION  K23665 K23666 K23667 K23668
+ORTHOLOGY   K23665  FMQA; fumiquinazoline F synthetase [EC:6.3.2.-] [RN:R12417]
+            K23666  FMQB; fumiquinazoline F monooxygenase [EC:1.14.14.-] [RN:R12418]
+            K23667  FMQC; fumiquinazoline A synthase [EC:6.3.2.-] [RN:R12419]
+            K23668  FMQD; fumiquinazoline A oxidase [EC:1.5.3.-] [RN:R12420]
+CLASS       Pathway modules; Biosynthesis of other secondary metabolites; Biosynthesis of other fungal compounds
+PATHWAY     map00998  Biosynthesis of various secondary metabolites - part 2
+            map01100  Metabolic pathways
+            map01110  Biosynthesis of secondary metabolites
+REACTION    R12417  C00078 + C00108 + C00041 -> C22145
+            R12418  C22145 -> C22146
+            R12419  C22146 -> C22147
+            R12420  C22147 -> C22148
+            R12421  C22148 -> C22149
+COMPOUND    C00078  L-Tryptophan
+            C00108  Anthranilate
+            C00041  L-Alanine
+            C22145  Fumiquinazoline F
+            C22146  Fumiquinazoline F-indoline-2',3'-diol
+            C22147  Fumiquinazoline A
+            C22148  Fumiquinazoline C
+            C22149  Fumiquinazoline D
+REFERENCE   PMID:20804163
+  AUTHORS   Ames BD, Liu X, Walsh CT
+  TITLE     Enzymatic processing of fumiquinazoline F: a tandem oxidative-acylation strategy for the generation of multicyclic scaffolds in fungal indole alkaloid biosynthesis.
+  JOURNAL   Biochemistry 49:8564-76 (2010)
+            DOI:10.1021/bi1012029
+///

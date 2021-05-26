@@ -1,0 +1,14 @@
+ENTRY       M00068            Pathway   Module
+NAME        Glycosphingolipid biosynthesis, globo-series, LacCer => Gb4Cer
+DEFINITION  K01988 K00719
+ORTHOLOGY   K01988  A4GALT [EC:2.4.1.228] [RN:R05960]
+            K00719  B3GALNT1 [EC:2.4.1.79] [RN:R05962]
+CLASS       Pathway modules; Glycan metabolism; Glycan biosynthesis
+PATHWAY     map00603  Glycosphingolipid biosynthesis - globo and isoglobo series
+            map01100  Metabolic pathways
+REACTION    R05960  G00092 -> G00093
+            R05962  G00093 -> G00094
+COMPOUND    G00092  Lactosylceramide; LacCer; (Gal)1 (Glc)1 (Cer)1
+            G00093  Globotriaosylceramide; Gb3Cer; (Gal)2 (Glc)1 (Cer)1
+            G00094  Globoside; Gb4Cer; (Gal)2 (GalNAc)1 (Glc)1 (Cer)1
+///

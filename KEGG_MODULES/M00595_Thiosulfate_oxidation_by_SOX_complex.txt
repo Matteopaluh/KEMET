@@ -1,0 +1,38 @@
+ENTRY       M00595            Pathway   Module
+NAME        Thiosulfate oxidation by SOX complex, thiosulfate => sulfate
+DEFINITION  (K17222+K17223+K17224-K17225-K22622+K17226+K17227)
+ORTHOLOGY   K17222  soxA; sulfur-oxidizing protein SoxA
+            K17223  soxX; sulfur-oxidizing protein SoxX
+            K17224  soxB; sulfur-oxidizing protein SoxB
+            K17225  soxC; S-disulfanyl-L-cysteine oxidoreductase SoxC [EC:1.8.2.6]
+            K22622  soxD; S-disulfanyl-L-cysteine oxidoreductase SoxD [EC:1.8.2.6]
+            K17226  soxY; sulfur-oxidizing protein SoxY
+            K17227  soxZ; sulfur-oxidizing protein SoxZ
+CLASS       Pathway modules; Energy metabolism; Sulfur metabolism
+PATHWAY     map00920  Sulfur metabolism
+            map01100  Metabolic pathways
+            map01120  Microbial metabolism in diverse environments
+REACTION    R10151  C00320 -> C00059
+COMPOUND    C00320  Thiosulfate
+            C00059  Sulfate
+REFERENCE   PMID:22092713
+  AUTHORS   Falkenby LG, Szymanska M, Holkenbrink C, Habicht KS, Andersen JS, Miller M, Frigaard NU
+  TITLE     Quantitative proteomics of Chlorobaculum tepidum: insights into the sulfur metabolism of a phototrophic green sulfur bacterium.
+  JOURNAL   FEMS Microbiol Lett 323:142-50 (2011)
+            DOI:10.1111/j.1574-6968.2011.02370.x
+REFERENCE   PMID:21147779
+  AUTHORS   Zander U, Faust A, Klink BU, de Sanctis D, Panjikar S, Quentmeier A, Bardischewsky F, Friedrich CG, Scheidig AJ
+  TITLE     Structural basis for the oxidation of protein-bound sulfur by the sulfur cycle molybdohemo-enzyme sulfane dehydrogenase SoxCD.
+  JOURNAL   J Biol Chem 286:8349-60 (2011)
+            DOI:10.1074/jbc.M110.193631
+REFERENCE   PMID:19616092
+  AUTHORS   Ghosh W, Mallick S, DasGupta SK
+  TITLE     Origin of the Sox multienzyme complex system in ancient thermophilic bacteria and coevolution of its constituent proteins.
+  JOURNAL   Res Microbiol 160:409-20 (2009)
+            DOI:10.1016/j.resmic.2009.07.003
+REFERENCE   PMID:19645821
+  AUTHORS   Ghosh W, Dam B
+  TITLE     Biochemistry and molecular biology of lithotrophic sulfur oxidation by taxonomically and ecologically diverse bacteria and archaea.
+  JOURNAL   FEMS Microbiol Rev 33:999-1043 (2009)
+            DOI:10.1111/j.1574-6976.2009.00187.x
+///

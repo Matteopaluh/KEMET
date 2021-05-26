@@ -1,0 +1,84 @@
+ENTRY       M00087            Pathway   Module
+NAME        beta-Oxidation
+DEFINITION  (K00232,K00249,K00255,K06445,K09479) (((K01692,K07511,K13767) (K00022,K07516)),K01825,K01782,K07514,K07515,K10527) (K00632,K07508,K07509,K07513)
+ORTHOLOGY   K00232  acyl-CoA oxidase [EC:1.3.3.6] [RN:R01279 R03990 R03857 R04754 R03777 R04751 R01175]
+            K00249  acyl-CoA dehydrogenase [EC:1.3.8.7] [RN:R01279 R03990 R03857 R04754 R03777 R04751 R01175]
+            K00255  long-chain-acyl-CoA dehydrogenase [EC:1.3.8.8] [RN:R01279 R03990 R03857 R04754 R03777 R04751 R01175]
+            K06445  acyl-CoA dehydrogenase [EC:1.3.99.-] [RN:R01279 R03990 R03857 R04754 R03777 R04751 R01175]
+            K09479  very long chain acyl-CoA dehydrogenase [EC:1.3.8.9] [RN:R01279 R03990 R03857 R04754 R03777 R04751 R01175]
+            K01692,K07511,K13767  enoyl-CoA hydratase [EC:4.2.1.17] [RN:R04738 R04740 R04170 R04744 R04746 R04749 R03026]
+            K00022,K07516  3-hydroxyacyl-CoA dehydrogenase [EC:1.1.1.35] [RN:R04737 R04739 R04741 R04743 R04745 R04748 R01975]
+            K01825,K01782  3-hydroxyacyl-CoA dehydrogenase / enoyl-CoA hydratase / 3-hydroxybutyryl-CoA epimerase / enoyl-CoA isomerase [EC:1.1.1.35 4.2.1.17 5.1.2.3 5.3.3.8] [RN:R04738 R04737 R04740 R04739 R04170 R04741 R04744 R04743 R04746 R04745 R04749 R04748 R03026 R01975]
+            K07514  enoyl-CoA hydratase / 3-hydroxyacyl-CoA dehydrogenase / 3,2-trans-enoyl-CoA isomerase [EC:4.2.1.17 1.1.1.35 5.3.3.8] [RN:R04738 R04737 R04740 R04739 R04170 R04741 R04744 R04743 R04746 R04745 R04749 R04748 R03026 R01975]
+            K07515  enoyl-CoA hydratase / long-chain 3-hydroxyacyl-CoA dehydrogenase [EC:4.2.1.17 1.1.1.211] [RN:R04738 R04737 R04740 R04739 R04170 R04741 R04744 R04743 R04746 R04745 R04749 R04748 R03026 R01975]
+            K10527  enoyl-CoA hydratase/3-hydroxyacyl-CoA dehydrogenase [EC:4.2.1.17 1.1.1.35 1.1.1.211] [RN:R04738 R04737 R04740 R04739 R04170 R04741 R04744 R04743 R04746 R04745 R04749 R04748 R03026 R01975]
+            K00632,K07513,K07508,K07509  acetyl-CoA acyltransferase [EC:2.3.1.16] [RN:R03991 R03858 R04742 R03778 R04747 R01177 R00238]
+CLASS       Pathway modules; Lipid metabolism; Fatty acid metabolism
+PATHWAY     map00071  Fatty acid degradation
+            map01212  Fatty acid metabolism
+            map01100  Metabolic pathways
+REACTION    R01279  C00154 -> C05272
+            R04738  C05272 -> C05258
+            R04737  C05258 -> C05259
+            R03991  C05259 -> C02593 + C00024
+            
+            R03990  C02593 -> C05273
+            R04740  C05273 -> C05260
+            R04739  C05260 -> C05261
+            R03858  C05261 -> C01832 + C00024
+            
+            R03857  C01832 -> C03221
+            R04170  C03221 -> C05262
+            R04741  C05262 -> C05263
+            R04742  C05263 -> C05274 + C00024
+            
+            R04754  C05274 -> C05275
+            R04744  C05275 -> C05264
+            R04743  C05264 -> C05265
+            R03778  C05265 -> C01944 + C00024
+            
+            R03777  C01944 -> C05276
+            R04746  C05276 -> C05266
+            R04745  C05266 -> C05267
+            R04747  C05267 -> C05270 + C00024
+            
+            R04751  C05270 -> C05271
+            R04749  C05271 -> C05268
+            R04748  C05268 -> C05269
+            R01177  C05269 -> C00136 + C00024
+            
+            R01175  C00136 -> C00877
+            R03026  C00877 -> C01144
+            R01975  C01144 -> C00332
+            R00238  C00332 -> C00024
+COMPOUND    C00154  Palmitoyl-CoA
+            C05272  trans-Hexadec-2-enoyl-CoA
+            C05258  (S)-3-Hydroxyhexadecanoyl-CoA
+            C05259  3-Oxopalmitoyl-CoA
+            C02593  Tetradecanoyl-CoA
+            C00024  Acetyl-CoA
+            C05273  trans-Tetradec-2-enoyl-CoA
+            C05260  (S)-3-Hydroxytetradecanoyl-CoA
+            C05261  3-Oxotetradecanoyl-CoA
+            C01832  Lauroyl-CoA
+            C03221  2-trans-Dodecenoyl-CoA
+            C05262  (S)-3-Hydroxydodecanoyl-CoA
+            C05263  3-Oxododecanoyl-CoA
+            C05274  Decanoyl-CoA
+            C05275  trans-Dec-2-enoyl-CoA
+            C05264  (S)-Hydroxydecanoyl-CoA
+            C05265  3-Oxodecanoyl-CoA
+            C01944  Octanoyl-CoA
+            C05276  trans-Oct-2-enoyl-CoA
+            C05266  (S)-3-Hydroxyoctanoyl-CoA
+            C05267  3-Oxooctanoyl-CoA
+            C05270  Hexanoyl-CoA
+            C05271  trans-Hex-2-enoyl-CoA
+            C05268  (S)-Hydroxyhexanoyl-CoA
+            C05269  3-Oxohexanoyl-CoA
+            C00136  Butanoyl-CoA
+            C00877  Crotonoyl-CoA
+            C01144  (S)-3-Hydroxybutanoyl-CoA
+            C00332  Acetoacetyl-CoA
+RMODULE     RM018  Beta oxidation in acyl-CoA degradation
+///

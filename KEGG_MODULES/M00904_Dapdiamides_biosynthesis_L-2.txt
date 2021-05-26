@@ -1,0 +1,27 @@
+ENTRY       M00904            Pathway   Module
+NAME        Dapdiamides biosynthesis, L-2,3-diaminopropanoate => dapdiamide A/B/C
+DEFINITION  K22113 K01957 K22114
+ORTHOLOGY   K22113  ddaG; fumarate---(S)-2,3-diaminopropanoate ligase [EC:6.3.2.46] [RN:R10940]
+            K01957  ddaH; N-3-fumaroyl-(S)-2,3-diaminopropanoate amidotransferase [EC:6.3.5.-] [RN:R12352]
+            K22114  ddaF; dapdiamide synthase [EC:6.3.2.47] [RN:R10942 R10943 R10944]
+CLASS       Pathway modules; Biosynthesis of other secondary metabolites; Biosynthesis of other antibiotics
+PATHWAY     map00997  Biosynthesis of various secondary metabolites - part 3
+            map01100  Metabolic pathways
+            map01110  Biosynthesis of secondary metabolites
+REACTION    R10940  C03401 -> C20961
+            R12352  C20961 -> C20966
+            R10942  C20966 -> C20962
+            R10943  C20966 -> C20963
+            R10944  C20966 -> C20964
+COMPOUND    C03401  L-2,3-Diaminopropanoate
+            C20961  N3-Fumaroyl-L-2,3-diaminopropanoate
+            C20966  3-{[(2E)-4-Amino-4-oxobut-2-enoyl]amino}-L-alanine
+            C20962  Dapdiamide A
+            C20963  Dapdiamide B
+            C20964  Dapdiamide C
+REFERENCE   PMID:19807062
+  AUTHORS   Hollenhorst MA, Clardy J, Walsh CT
+  TITLE     The ATP-dependent amide ligases DdaG and DdaF assemble the fumaramoyl-dipeptide scaffold of the dapdiamide antibiotics.
+  JOURNAL   Biochemistry 48:10467-72 (2009)
+            DOI:10.1021/bi9013165
+///

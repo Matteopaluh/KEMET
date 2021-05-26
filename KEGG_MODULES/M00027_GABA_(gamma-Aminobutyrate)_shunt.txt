@@ -1,0 +1,19 @@
+ENTRY       M00027            Pathway   Module
+NAME        GABA (gamma-Aminobutyrate) shunt
+DEFINITION  K01580 (K13524,K07250,K00823,K16871) (K00135,K00139,K17761)
+ORTHOLOGY   K01580  glutamate decarboxylase [EC:4.1.1.15] [RN:R00261]
+            K13524,K07250,K00823  4-aminobutyrate aminotransferase [EC:2.6.1.19] [RN:R01648]
+            K16871  4-aminobutyrate---pyruvate transaminase [EC:2.6.1.96] [RN:R10178]
+            K00135,K00139,K17761  succinate-semialdehyde dehydrogenase [EC:1.2.1.16 1.2.1.24] [RN:R00713 R00714]
+CLASS       Pathway modules; Amino acid metabolism; Other amino acid metabolism
+PATHWAY     map00250  Alanine, aspartate and glutamate metabolism
+            map00650  Butanoate metabolism
+            map01100  Metabolic pathways
+REACTION    R00261  C00025 -> C00334
+            R01648,R10178  C00334 -> C00232
+            R00713,R00714  C00232 -> C00042
+COMPOUND    C00025  L-Glutamate
+            C00334  4-Aminobutanoate
+            C00232  Succinate semialdehyde
+            C00042  Succinate
+///

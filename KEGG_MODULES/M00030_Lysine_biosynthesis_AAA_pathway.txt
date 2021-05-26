@@ -1,0 +1,38 @@
+ENTRY       M00030            Pathway   Module
+NAME        Lysine biosynthesis, AAA pathway, 2-oxoglutarate => 2-aminoadipate => lysine
+DEFINITION  K01655 K17450 K01705 K05824 K00838 K00143 K00293 K00290
+ORTHOLOGY   K01655  homocitrate synthase [EC:2.3.3.14] [RN:R00271]
+            K17450  homoaconitase [EC:4.2.1.-] [RN:R03444]
+            K01705  homoaconitate hydratase [EC:4.2.1.36] [RN:R04371]
+            K05824  homoisocitrate dehydrogenase [EC:1.1.1.87] [RN:R01934]
+            K00838  2-aminoadipate transaminase [EC:2.6.1.39] [RN:R01939]
+            K00143  L-2-aminoadipate reductase [EC:1.2.1.95] [RN:R03098 R04863 R04390]
+            K00293  saccharopine dehydrogenase (NADP+, L-glutamate forming) [EC:1.5.1.10] [RN:R02315]
+            K00290  saccharopine dehydrogenase, L-lysine forming [EC:1.5.1.7] [RN:R00715]
+CLASS       Pathway modules; Amino acid metabolism; Lysine metabolism
+PATHWAY     map00300  Lysine biosynthesis
+            map01230  Biosynthesis of amino acids
+            map01100  Metabolic pathways
+REACTION    R00271  C00026 + C00024 -> C01251
+            R03444  C01251 -> C04002
+            R04371  C04002 -> C05662
+            R01934  C05662 -> C00322
+            R01939  C00322 -> C00956
+            R03098  C00956 -> C05560
+            R04863  C05560 -> C05535
+            R04390  C05535 -> C04076
+            R02315  C04076 -> C00449
+            R00715  C00449 -> C00047
+COMPOUND    C00026  2-Oxoglutarate
+            C00024  Acetyl-CoA
+            C01251  (R)-2-Hydroxybutane-1,2,4-tricarboxylate
+            C04002  (Z)-But-1-ene-1,2,4-tricarboxylate
+            C05662  Homoisocitrate
+            C00322  2-Oxoadipate
+            C00956  L-2-Aminoadipate
+            C05560  L-2-Aminoadipate adenylate
+            C05535  alpha-Aminoadipoyl-S-acyl enzyme
+            C04076  L-2-Aminoadipate 6-semialdehyde
+            C00449  N6-(L-1,3-Dicarboxypropyl)-L-lysine
+            C00047  L-Lysine
+///

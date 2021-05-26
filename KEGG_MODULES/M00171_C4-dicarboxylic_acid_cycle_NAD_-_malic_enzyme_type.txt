@@ -1,0 +1,31 @@
+ENTRY       M00171            Pathway   Module
+NAME        C4-dicarboxylic acid cycle, NAD - malic enzyme type
+DEFINITION  K01595 K14454 K14455 (K00025,K00026) K00028 (K00814,K14272) K01006
+ORTHOLOGY   K01595  phosphoenolpyruvate carboxylase [EC:4.1.1.31] [RN:R00345]
+            K14454,K14455  aspartate aminotransferase [EC:2.6.1.1] [RN:R00355]
+            K00025,K00026  malate dehydrogenase [EC:1.1.1.37] [RN:R00342]
+            K00028  malate dehydrogenase (decarboxylating) [EC:1.1.1.39] [RN:R00214]
+            K00814  alanine transaminase [EC:2.6.1.2] [RN:R00258]
+            K14272  glutamate--glyoxylate aminotransferase [EC:2.6.1.2] [RN:R00258]
+            K01006  pyruvate,orthophosphate dikinase [EC:2.7.9.1] [RN:R00206]
+CLASS       Pathway modules; Energy metabolism; Carbon fixation
+PATHWAY     map00710  Carbon fixation in photosynthetic organisms
+            map01200  Carbon metabolism
+            map01100  Metabolic pathways
+            map01120  Microbial metabolism in diverse environments
+REACTION    R00345  C00074 -> C00036
+            R00355  C00036 -> C00049
+            R00355  C00049 -> C00036
+            R00342  C00036 -> C00149
+            R00214  C00149 -> C00022+C00011
+            R00258  C00022 -> C00041
+            R00258  C00041 -> C00022
+            R00206  C00022 -> C00074
+COMPOUND    C00074  Phosphoenolpyruvate
+            C00036  Oxaloacetate
+            C00049  L-Aspartate
+            C00149  (S)-Malate
+            C00022  Pyruvate
+            C00011  CO2
+            C00041  L-Alanine
+///

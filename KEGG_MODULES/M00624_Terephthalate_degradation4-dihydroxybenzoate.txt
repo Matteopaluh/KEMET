@@ -1,0 +1,17 @@
+ENTRY       M00624            Pathway   Module
+NAME        Terephthalate degradation, terephthalate => 3,4-dihydroxybenzoate
+DEFINITION  (K18074+K18075+K18077) K18076
+ORTHOLOGY   K18074,K18075,K18077   terephthalate 1,2-dioxygenase [EC:1.14.12.15] [RN:R05148]
+            K18076  1,2-dihydroxy-3,5-cyclohexadiene-1,4-dicarboxylate dehydrogenase [EC:1.3.1.53] [RN:R01633]
+CLASS       Pathway modules; Xenobiotics biodegradation; Aromatics degradation
+PATHWAY     map00624  Polycyclic aromatic hydrocarbon degradation
+            map01220  Degradation of aromatic compounds
+            map01100  Metabolic pathways
+            map01120  Microbial metabolism in diverse environments
+REACTION    R05148  C06337 -> C06318
+            R01633  C06318 -> C00230
+COMPOUND    C06337  Terephthalate
+            C06318  (3S,4R)-3,4-Dihydroxycyclohexa-1,5-diene-1,4-dicarboxylate
+            C00230  3,4-Dihydroxybenzoate
+RMODULE     RM005  Dihydroxylation of aromatic ring, type 1a (dioxygenase and decarboxylating dehydrogenase reactions)
+///

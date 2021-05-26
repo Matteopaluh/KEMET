@@ -1,0 +1,18 @@
+ENTRY       M00859            Signature Module
+NAME        Bacillus anthracis pathogenicity signature, anthrax toxin
+DEFINITION  K11030 K08645 K11029
+ORTHOLOGY   K11030  pagA; protective antigen
+            K08645  lef; anthrax lethal toxin endopeptidase [EC:3.4.24.83]
+            K11029  cyaA; anthrax edema toxin adenylate cyclase [EC:4.6.1.1]
+CLASS       Signature modules; Gene set; Pathogenicity
+REFERENCE   PMID:19514852
+  AUTHORS   Kolsto AB, Tourasse NJ, Okstad OA
+  TITLE     What sets Bacillus anthracis apart from other Bacillus species?
+  JOURNAL   Annu Rev Microbiol 63:451-76 (2009)
+            DOI:10.1146/annurev.micro.091208.073255
+REFERENCE   PMID:20863885
+  AUTHORS   Fouet A
+  TITLE     AtxA, a Bacillus anthracis global virulence regulator.
+  JOURNAL   Res Microbiol 161:735-42 (2010)
+            DOI:10.1016/j.resmic.2010.09.006
+///

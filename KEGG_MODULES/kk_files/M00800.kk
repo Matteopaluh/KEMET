@@ -1,0 +1,6 @@
+M00800_dTDP-L-megosamine biosynthesis
+K16435
+K16436
+K13326
+K16438
+K13322

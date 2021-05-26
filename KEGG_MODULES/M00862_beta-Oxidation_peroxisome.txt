@@ -1,0 +1,34 @@
+ENTRY       M00862            Pathway   Module
+NAME        beta-Oxidation, peroxisome, tri/dihydroxycholestanoyl-CoA => choloyl/chenodeoxycholoyl-CoA
+DEFINITION  K10214 K12405 K08764
+ORTHOLOGY   K10214  3alpha,7alpha,12alpha-trihydroxy-5beta-cholestanoyl-CoA 24-hydroxylase [EC:1.17.99.3] [RN:R08735 R08740]
+            K12405  (3R)-3-hydroxyacyl-CoA dehydrogenase / 3a,7a,12a-trihydroxy-5b-cholest-24-enoyl-CoA hydratase [EC:1.1.1.- 4.2.1.107] [RN:R04813 R04812 R04809 R04810]
+            K08764  sterol carrier protein 2 [EC:2.3.1.176] [RN:R03719 R04811]
+CLASS       Pathway modules; Lipid metabolism; Sterol biosynthesis
+PATHWAY     map00120  Primary bile acid biosynthesis
+            map01100  Metabolic pathways
+REACTION    R08735  C17343 -> C05460
+            R04813  C05460 -> C15614
+            R04812  C15614 -> C05467
+            R03719  C05467 -> C01794
+            R08740  C17346 -> C05447
+            R04809  C05447 -> C05448
+            R04810  C05448 -> C05449
+            R04811  C05449 -> C05337
+COMPOUND    C17343  (25S)-3alpha,7alpha,12alpha-Trihydroxy-5beta-cholestan-26-oyl-CoA
+            C05460  (24E)-3alpha,7alpha,12alpha-Trihydroxy-5beta-cholest-24-enoyl-CoA
+            C15614  (24R,25R)-3alpha,7alpha,12alpha,24-Tetrahydroxy-5beta-cholestanoyl-CoA
+            C05467  3alpha,7alpha,12alpha-Trihydroxy-5beta-24-oxocholestanoyl-CoA
+            C01794  Choloyl-CoA
+            C17346  (25S)-3alpha,7alpha-Dihydroxy-5beta-cholestanoyl-CoA
+            C05447  (24E)-3alpha,7alpha-Dihydroxy-5beta-cholest-24-enoyl-CoA
+            C05448  (24R,25R)-3alpha,7alpha,24-Trihydroxy-5beta-cholestanoyl-CoA
+            C05449  3alpha,7alpha-Dihydroxy-5beta-24-oxocholestanoyl-CoA
+            C05337  Chenodeoxycholoyl-CoA
+RMODULE     RM018  Beta oxidation in acyl-CoA degradation
+REFERENCE   PMID:26611709
+  AUTHORS   Waterham HR, Ferdinandusse S, Wanders RJ
+  TITLE     Human disorders of peroxisome metabolism and biogenesis.
+  JOURNAL   Biochim Biophys Acta 1863:922-33 (2016)
+            DOI:10.1016/j.bbamcr.2015.11.015
+///

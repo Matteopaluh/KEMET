@@ -1,0 +1,11 @@
+ENTRY       M00575            Signature Module
+NAME        Pertussis pathogenicity signature, T1SS
+DEFINITION  K22944 K11004 K07389 K11003 K12340
+ORTHOLOGY   K22944  cyaA; bifunctional hemolysin/adenylate cyclase [EC:4.6.1.1]
+            K11004  hlyB; ATP-binding cassette, subfamily B, bacterial HlyB/CyaB
+            K07389  cyaC; cytolysin-activating lysine-acyltransferase [EC:2.3.1.-]
+            K11003  hlyD; hemolysin D
+            K12340  tolC; outer membrane channel protein
+CLASS       Signature modules; Gene set; Pathogenicity
+PATHWAY     map05133  Pertussis
+///

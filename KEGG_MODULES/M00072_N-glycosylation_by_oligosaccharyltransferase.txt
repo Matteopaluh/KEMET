@@ -1,0 +1,21 @@
+ENTRY       M00072            Pathway   Module
+NAME        N-glycosylation by oligosaccharyltransferase
+DEFINITION  (K07151+K12666+K12667+K12668+K12669+K12670-K00730-K12691)
+ORTHOLOGY   K07151  STT3; dolichyl-diphosphooligosaccharide--protein glycosyltransferase [EC:2.4.99.18] [RN:R05976]
+            K12666  OST1; oligosaccharyltransferase complex subunit alpha (ribophorin I)
+            K12667  SWP1; oligosaccharyltransferase complex subunit delta (ribophorin II)
+            K12668  OST2; oligosaccharyltransferase complex subunit epsilon
+            K12669  OST3; oligosaccharyltransferase complex subunit gamma
+            K12670  WBP1; oligosaccharyltransferase complex subunit beta
+            K00730  OST4; oligosaccharyl transferase complex subunit OST4
+            K12691  OST5; oligosaccharyl transferase complex subunit OST5
+CLASS       Pathway modules; Glycan metabolism; Glycan biosynthesis
+PATHWAY     map00510  N-Glycan biosynthesis
+            map00513  Various types of N-glycan biosynthesis
+            map01100  Metabolic pathways
+REACTION    R05976  G00008 + C03021 -> C00621 + G00009
+COMPOUND    G00008
+            C03021  Protein asparagine
+            C00621  Dolichyl diphosphate
+            G00009
+///

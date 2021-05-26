@@ -1,0 +1,24 @@
+ENTRY       M00547            Pathway   Module
+NAME        Benzene/toluene degradation, benzene => catechol / toluene => 3-methylcatechol
+DEFINITION  (K03268+K16268+K18089+K18090) K16269
+ORTHOLOGY   K03268+K16268+K18089+K18090  benzene/toluene dioxygenase subunit alpha [EC:1.14.12.3 1.14.12.11] [RN:R03543 R03559]
+            K16269  cis-1,2-dihydrobenzene-1,2-diol dehydrogenase [EC:1.3.1.19] [RN:R00812 R04088]
+CLASS       Pathway modules; Xenobiotics biodegradation; Aromatics degradation
+PATHWAY     map00361  Chlorocyclohexane and chlorobenzene degradation
+            map00362  Benzoate degradation
+            map00623  Toluene degradation
+            map01220  Degradation of aromatic compounds
+            map01100  Metabolic pathways
+            map01120  Microbial metabolism in diverse environments
+REACTION    R03543  C01407 -> C04091
+            R00812  C04091 -> C00090
+            R03559  C01455 -> C04592
+            R04088  C04592 -> C02923
+COMPOUND    C01407  Benzene
+            C04091  cis-1,2-Dihydrobenzene-1,2-diol
+            C00090  Catechol
+            C01455  Toluene
+            C04592  Toluene-cis-dihydrodiol
+            C02923  2,3-Dihydroxytoluene
+RMODULE     RM004  Dihydroxylation of aromatic ring, type 1 (dioxygenase and dehydrogenase reactions)
+///

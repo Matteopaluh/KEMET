@@ -1,0 +1,30 @@
+ENTRY       M00002            Pathway   Module
+NAME        Glycolysis, core module involving three-carbon compounds
+DEFINITION  K01803 ((K00134,K00150) K00927,K11389) (K01834,K15633,K15634,K15635) K01689 (K00873,K12406)
+ORTHOLOGY   K01803  triosephosphate isomerase [EC:5.3.1.1] [RN:R01015]
+            K00134,K00150  glyceraldehyde 3-phosphate dehydrogenase [EC:1.2.1.12 1.2.1.59] [RN:R01061 R01063]
+            K00927  phosphoglycerate kinase [EC:2.7.2.3] [RN:R01512]
+            K11389  glyceraldehyde-3-phosphate dehydrogenase (ferredoxin) [EC:1.2.7.6] [RN:R07159]
+            K01834,K15633,K15634,K15635  phosphoglycerate mutase [EC:5.4.2.11 5.4.2.12] [RN:R01518]
+            K01689  enolase [EC:4.2.1.11] [RN:R00658]
+            K00873,K12406  pyruvate kinase [EC:2.7.1.40] [RN:R00200]
+CLASS       Pathway modules; Carbohydrate metabolism; Central carbohydrate metabolism
+PATHWAY     map00010  Glycolysis / Gluconeogenesis
+            map01200  Carbon metabolism
+            map01230  Biosynthesis of amino acids
+            map01100  Metabolic pathways
+REACTION    R01015  C00111 -> C00118
+            R01061,R01063  C00118 -> C00236
+            R01512  C00236 -> C00197
+            R07159  C00118 -> C00197
+            R01518  C00197 -> C00631
+            R00658  C00631 -> C00074
+            R00200  C00074 -> C00022
+COMPOUND    C00111  Glycerone phosphate
+            C00118  D-Glyceraldehyde 3-phosphate
+            C00236  3-Phospho-D-glyceroyl phosphate
+            C00197  3-Phospho-D-glycerate
+            C00631  2-Phospho-D-glycerate
+            C00074  Phosphoenolpyruvate
+            C00022  Pyruvate
+///

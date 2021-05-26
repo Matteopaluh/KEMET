@@ -1,0 +1,10 @@
+ENTRY       M00853            Signature Module
+NAME        ETEC pathogenicity signature, colonization factors
+DEFINITION  K22850 -K22851 K22852 K22853 K22854
+ORTHOLOGY   K22850  cfaA; CFA/I fimbrial subunit A
+            K22851  cfaB; CFA/I fimbrial subunit B
+            K22852  cfaC; CFA/I fimbrial subunit C
+            K22853  cfaE; CFA/I fimbrial subunit E
+            K22854  cfaD; CFA/I fimbrial subunit D
+CLASS       Signature modules; Gene set; Pathogenicity
+///

@@ -1,0 +1,13 @@
+ENTRY       M00637            Pathway   Module
+NAME        Anthranilate degradation, anthranilate => catechol
+DEFINITION  (K05599+K05600+K11311,K16319+K16320+K18248+K18249)
+ORTHOLOGY   K05599,K05600,K11311  anthranilate 1,2-dioxygenase [EC:1.14.12.1] [RN:R00823 R00825]
+            K16319,K16320,K18248,K18249  anthranilate 1,2-dioxygenase [EC:1.14.12.1]
+CLASS       Pathway modules; Xenobiotics biodegradation; Aromatics degradation
+PATHWAY     map00627  Aminobenzoate degradation
+            map01100  Metabolic pathways
+            map01120  Microbial metabolism in diverse environments
+REACTION    R00823,R00825  C00108 -> C00090
+COMPOUND    C00108  Anthranilate
+            C00090  Catechol
+///

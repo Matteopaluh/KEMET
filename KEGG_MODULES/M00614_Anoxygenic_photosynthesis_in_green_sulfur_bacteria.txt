@@ -1,0 +1,27 @@
+ENTRY       M00614            Signature Module
+NAME        Anoxygenic photosynthesis in green sulfur bacteria
+DEFINITION  M00598 M00173
+ORTHOLOGY   (M00598  Anoxygenic photosystem I)
+            K08940  pscA; photosystem P840 reaction center large subunit
+            K08941  pscB; photosystem P840 reaction center iron-sulfur protein
+            K08942  pscC; photosystem P840 reaction center cytochrome c551
+            K08943  pscD; photosystem P840 reaction center protein PscD
+            (M00173  Reductive citrate cycle (Arnon-Buchanan cycle))
+            K00169+K00170+K00171+K00172  pyruvate:ferredoxin oxidoreductase
+            K03737  putative pyruvate-flavodoxin oxidoreductase
+            K01007  pyruvate,water dikinase
+            K01006  pyruvate,orthophosphate dikinase
+            K01595  phosphoenolpyruvate carboxylase
+            K01959+K01960,K01958  pyruvate carboxylase subunit A
+            K00024  malate dehydrogenase
+            K01676,K01679,K01677+K01678  fumarate hydratase
+            K00239+K00240-K00241-K00242,K00244+K00245+K00246+K00247  succinate dehydrogenase complex
+            K01902+K01903  succinyl-CoA synthetase
+            K00174+K00175-K00177-K00176  2-oxoglutarate:ferredoxin oxidoreductase
+            K00031  isocitrate dehydrogenase
+            K01681,K01682  aconitate hydratase
+            K15230+K15231  ATP-citrate lyase
+            K15232+K15233  citryl-CoA synthetase
+            K15234  citryl-CoA lyase
+CLASS       Signature modules; Module set; Metabolic capacity
+///

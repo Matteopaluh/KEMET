@@ -1,0 +1,74 @@
+ENTRY       M00083            Pathway   Module
+NAME        Fatty acid biosynthesis, elongation
+DEFINITION  K00665,(K00667 K00668),K11533,((K00647,K09458) K00059 (K02372,K01716,K16363) (K00208,K02371,K10780,K00209))
+ORTHOLOGY   K00665  fatty acid synthase, animal type [EC:2.3.1.85] [RN:R04355 R04533 R04428 R04430 R04952 R04953 R04954 R04956 R04957 R04536 R04537 R04959 R04960 R04534 R04535 R04962 R04963 R04964 R04965 R04725 R04726 R04566 R04568 R04967 R04968 R04543 R04544 R04970]
+            K00667+K00668  fatty acid synthase, fungi type [EC:2.3.1.86] [RN:R04355 R04533 R04428 R04430 R04952 R04953 R04954 R04956 R04957 R04536 R04537 R04959 R04960 R04534 R04535 R04962 R04963 R04964 R04965 R04725 R04726 R04566 R04568 R04967 R04968 R04543 R04544 R04970]
+            K11533  fatty acid synthase, actinobacteria type [EC:2.3.1.-] [RN:R04355 R04533 R04428 R04429 R04952 R04953 R04954 R04955 R04957 R04536 R04537 R04958 R04960 R04534 R04535 R04961 R04963 R04964 R04965 R04724 R04726 R04566 R04568 R04966 R04968 R04543 R04544 R04969]
+            K00647  3-oxoacyl-[acyl-carrier-protein] synthase I [EC:2.3.1.41] [RN:R04355 R04952 R04957 R04960 R04963 R04726 R04968]
+            K09458  3-oxoacyl-[acyl-carrier-protein] synthase II [EC:2.3.1.179] [RN:R04355 R04952 R04957 R04960 R04963 R04726 R04968]
+            K00059  3-oxoacyl-[acyl-carrier protein] reductase [EC:1.1.1.100] [RN:R04533 R04953 R04536 R04534 R04964 R04566 R04543]
+            K02372,K01716,K16363  3-hydroxyacyl-[acyl-carrier-protein] dehydratase [EC:4.2.1.59] [RN:R04428 R04954 R04537 R04535 R04965 R04568 R04544]
+            K00208,K02371,K10780,K00209  enoyl-[acyl-carrier protein] reductase [EC:1.3.1.9 1.3.1.104] [RN:R04429 R04430 R04955 R04956 R04958 R04959 R04961 R04962 R04724 R04725 R04966 R04967 R04969 R04970]
+CLASS       Pathway modules; Lipid metabolism; Fatty acid metabolism
+PATHWAY     map00061  Fatty acid biosynthesis
+            map01212  Fatty acid metabolism
+            map01100  Metabolic pathways
+REACTION    R04355  C03939 + C01209 -> C05744
+            R04533  C05744 -> C04618
+            R04428  C04618 -> C04246
+            R04429,R04430  C04246 -> C05745
+            R04952  C05745 + C01209 -> C05746
+            R04953  C05746 -> C05747
+            R04954  C05747 -> C05748
+            R04955,R04956  C05748 -> C05749            
+            R04957  C05749 + C01209 -> C05750
+            R04536  C05750 -> C04620
+            R04537  C04620 -> C05751
+            R04958,R04959  C05751 -> C05752
+            R04960  C05752 + C01209 -> C05753
+            R04534  C05753 -> C04619
+            R04535  C04619 -> C05754
+            R04961,R04962  C05754 -> C05755
+            R04963  C05755 + C01209 -> C05756
+            R04964  C05756 -> C05757
+            R04965  C05757 -> C05758
+            R04724,R04725  C05758 -> C05223
+            R04726  C05223 + C01209 -> C05759
+            R04566  C05759 -> C04688
+            R04568  C04688 -> C05760
+            R04966,R04967  C05760 -> C05761
+            R04968  C05761 + C01209 -> C05762
+            R04543  C05762 -> C04633
+            R04544  C04633 -> C05763
+            R04969,R04970  C05763 -> C05764
+COMPOUND    C03939  Acetyl-[acyl-carrier protein]
+            C01209  Malonyl-[acyl-carrier protein]
+            C05744  Acetoacetyl-[acp]
+            C04618  (3R)-3-Hydroxybutanoyl-[acyl-carrier protein]
+            C04246  But-2-enoyl-[acyl-carrier protein]
+            C05745  Butyryl-[acp]
+            C05746  3-Oxohexanoyl-[acp]
+            C05747  (R)-3-Hydroxyhexanoyl-[acp]
+            C05748  trans-Hex-2-enoyl-[acp]
+            C05749  Hexanoyl-[acp]
+            C05750  3-Oxooctanoyl-[acp]
+            C04620  (3R)-3-Hydroxyoctanoyl-[acyl-carrier protein]
+            C05751  trans-Oct-2-enoyl-[acp]
+            C05752  Octanoyl-[acp]
+            C05753  3-Oxodecanoyl-[acp]
+            C04619  (3R)-3-Hydroxydecanoyl-[acyl-carrier protein]
+            C05754  trans-Dec-2-enoyl-[acp]
+            C05755  Decanoyl-[acp]
+            C05756  3-Oxododecanoyl-[acp]
+            C05757  (R)-3-Hydroxydodecanoyl-[acp]
+            C05758  trans-Dodec-2-enoyl-[acp]
+            C05223  Dodecanoyl-[acyl-carrier protein]
+            C05759  3-Oxotetradecanoyl-[acp]
+            C04688  (3R)-3-Hydroxytetradecanoyl-[acyl-carrier protein]
+            C05760  trans-Tetradec-2-enoyl-[acp]
+            C05761  Tetradecanoyl-[acp]
+            C05762  3-Oxohexadecanoyl-[acp]
+            C04633  (3R)-3-Hydroxypalmitoyl-[acyl-carrier protein]
+            C05763  trans-Hexadec-2-enoyl-[acp]
+            C05764  Hexadecanoyl-[acp]
+///

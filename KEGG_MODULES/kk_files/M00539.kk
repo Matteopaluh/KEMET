@@ -1,0 +1,8 @@
+M00539_Cumate degradation, p-cumate => 2-oxopent-4-enoate + 2-methylpropanoate
+K10619, K16303, K16304, K18227
+K10620
+K10621
+K10622
+K10623
+COMPLEXES_LIST
+K10619+K16303+K16304+K18227

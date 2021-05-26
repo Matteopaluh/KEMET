@@ -1,0 +1,22 @@
+ENTRY       M00860            Signature Module
+NAME        Bacillus anthracis pathogenicity signature, polyglutamic acid capsule biosynthesis
+DEFINITION  K22976 K22977 K22980 K07282 K22116 K01932 K22981
+ORTHOLOGY   K22976  atxA; anthrax toxin expression trans-acting positive regulator
+            K22977  acpA; capsule synthesis positive regulator AcpA
+            K22980  acpB; capsule synthesis positive regulator AcpB
+            K07282  capA; gamma-polyglutamate biosynthesis protein CapA
+            K22116  capC; gamma-polyglutamate biosynthesis protein CapC
+            K01932  capB; gamma-polyglutamate synthase [EC:6.3.2.-]
+            K22981  capE; gamma-polyglutamate biosynthesis protein CapE
+CLASS       Signature modules; Gene set; Pathogenicity
+REFERENCE   PMID:19514852
+  AUTHORS   Kolsto AB, Tourasse NJ, Okstad OA
+  TITLE     What sets Bacillus anthracis apart from other Bacillus species?
+  JOURNAL   Annu Rev Microbiol 63:451-76 (2009)
+            DOI:10.1146/annurev.micro.091208.073255
+REFERENCE   PMID:20863885
+  AUTHORS   Fouet A
+  TITLE     AtxA, a Bacillus anthracis global virulence regulator.
+  JOURNAL   Res Microbiol 161:735-42 (2010)
+            DOI:10.1016/j.resmic.2010.09.006
+///

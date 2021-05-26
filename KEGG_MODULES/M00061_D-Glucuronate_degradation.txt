@@ -1,0 +1,29 @@
+ENTRY       M00061            Pathway   Module
+NAME        D-Glucuronate degradation, D-glucuronate => pyruvate + D-glyceraldehyde 3P
+DEFINITION  K01812 K00040 (K01686,K08323) K00874 (K01625,K17463)
+ORTHOLOGY   K01812  glucuronate isomerase [EC:5.3.1.12] [RN:R01482]
+            K00040  fructuronate reductase [EC:1.1.1.57] [RN:R02454]
+            K01686,K08323  mannonate dehydratase [EC:4.2.1.8] [RN:R05606]
+            K00874  2-dehydro-3-deoxygluconokinase [EC:2.7.1.45] [RN:R01541]
+            K01625,K17463  2-dehydro-3-deoxy-phosphogluconate aldolase [EC:4.1.2.14] [RN:R05605]
+CLASS       Pathway modules; Carbohydrate metabolism; Other carbohydrate metabolism
+PATHWAY     map00040  Pentose and glucuronate interconversions
+            map00030  Pentose phosphate pathway
+            map01100  Metabolic pathways
+REACTION    R01482  C00191 -> C00905
+            R02454  C00905 -> C00514
+            R05606  C00514 -> C00204
+            R01541  C00204 -> C04442
+            R05605  C04442 -> C00022 + C00118
+COMPOUND    C00191  D-Glucuronate
+            C00905  D-Fructuronate
+            C00514  D-Mannonate
+            C00204  2-Dehydro-3-deoxy-D-gluconate
+            C04442  2-Dehydro-3-deoxy-6-phospho-D-gluconate
+            C00022  Pyruvate
+            C00118  D-Glyceraldehyde 3-phosphate
+REFERENCE   PMID:13794771
+  AUTHORS   ASHWELL G, WAHBA AJ, HICKMAN J
+  TITLE     Uronic acid metabolism in bacteria. I. Purification and properties of uronic acid isomerase in Escherichia coli.
+  JOURNAL   J Biol Chem 235:1559-65 (1960)
+///

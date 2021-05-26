@@ -1,0 +1,19 @@
+ENTRY       M00828            Pathway   Module
+NAME        Maduropeptin beta-hydroxy acid moiety biosynthesis, tyrosine => 3-(4-hydroxyphenyl)-3-oxopropanoyl-PCP
+DEFINITION  K21183
+            K21181 K21182 K21188
+ORTHOLOGY   K21183  mdpC2; peptidyl carrier protein
+            K21181  mdpC4; MIO-dependent L-tyrosine 2,3-aminomutase [EC:5.4.3.6] [RN:R11366]
+            K21182  mdpC1; (S)-beta-tyrosine adenylation enzyme [EC:6.2.1.-] [RN:R11367]
+            K21188  mdpC7; PLP-dependent transaminase [RN:R11369]
+CLASS       Pathway modules; Biosynthesis of terpenoids and polyketides; Enediyne biosynthesis
+PATHWAY     map01059  Biosynthesis of enediyne antibiotics
+            map01130  Biosynthesis of antibiotics
+REACTION    R11366  C00082 -> C21308
+            R11367  C21308 -> C21309
+            R11369  C21309 -> C21311
+COMPOUND    C00082  L-Tyrosine
+            C21308  (S)-beta-Tyrosine
+            C21309  (S)-beta-Tyrosyl-[pcp]
+            C21311  3-(4-Hydroxyphenyl)-3-oxopropanoyl-[pcp]
+///

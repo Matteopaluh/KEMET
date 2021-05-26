@@ -1,0 +1,25 @@
+ENTRY       M00797            Pathway   Module
+NAME        dTDP-D-desosamine biosynthesis
+DEFINITION  K13308 K13309 (K13310,K16436) (K13311,K13326)
+ORTHOLOGY   K13308  desI; dTDP-4-amino-4,6-dideoxy-D-glucose transaminase [EC:2.6.1.33] [RN:R02773]
+            K13309  desII; dTDP-4-amino-4,6-dideoxy-D-glucose ammonia-lyase [EC:4.3.1.30] [RN:R08583]
+            K13310  desV; dTDP-3-amino-3,4,6-trideoxy-alpha-D-glucose transaminase [EC:2.6.1.106] [RN:R06426]
+            K13311  desVI; dTDP-3-amino-3,4,6-trideoxy-alpha-D-glucopyranose N,N-dimethyltransferase [EC:2.1.1.234] [RN:R06427]
+            K16436  megDII; dTDP-3-amino-2,3,6-trideoxy-4-keto-D-glucose/dTDP-3-amino-3,4,6-trideoxy-alpha-D-glucose transaminase [EC:2.6.1.- 2.6.1.106] [RN:R06426]
+            K13326  megDIII; dTDP-3-amino-2,3,6-trideoxy-4-keto-D-glucose/dTDP-3-amino-3,4,6-trideoxy-alpha-D-glucopyranose N,N-dimethyltransferase [EC:2.1.1.- 2.1.1.234] [RN:R06427]
+CLASS       Pathway modules; Biosynthesis of terpenoids and polyketides; Polyketide sugar unit biosynthesis
+PATHWAY     map00523  Polyketide sugar unit biosynthesis
+            map01100  Metabolic pathways
+            map01130  Biosynthesis of antibiotics
+REACTION    R02773  C11907 -> C04268
+            R08583  C04268 -> C11909
+            R06426  C11909 -> C11910
+            R06427  C11910 -> C11911
+COMPOUND    C11907  dTDP-4-oxo-6-deoxy-D-glucose
+            C04268  dTDP-4-amino-4,6-dideoxy-D-glucose
+            C11909  dTDP-3-oxo-4,6-dideoxy-D-glucose
+            C11910  dTDP-3-amino-3,4,6-trideoxy-D-glucose
+            C11911  dTDP-D-desosamine
+RMODULE     RM035  Transamination and N,N-dimethylation in polyketide biosynthesis
+            RM037  Deoxygenation (transamination and deamination) in deoxysugar biosynthesis
+///

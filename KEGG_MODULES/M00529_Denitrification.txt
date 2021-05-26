@@ -1,0 +1,28 @@
+ENTRY       M00529            Pathway   Module
+NAME        Denitrification, nitrate => nitrogen
+DEFINITION  (K00370+K00371+K00374,K02567+K02568) (K00368,K15864) (K04561+K02305) K00376
+ORTHOLOGY   K00370+K00371+K00374  nitrate reductase 1 [EC:1.7.99.-] [RN:R00798]
+            K02567  periplasmic nitrate reductase NapA [EC:1.7.99.-] [RN:R00798]
+            K02568  cytochrome c-type protein NapB [RN:R00798]
+            K00368,K15864  nitrite reductase (NO-forming) [EC:1.7.2.1] [RN:R00783 R00785]
+            K04561+K02305  nitric oxide reductase [EC:1.7.2.5] [RN:R00294]
+            K00376  nitrous-oxide reductase [EC:1.7.2.4] [RN:R02804]
+CLASS       Pathway modules; Energy metabolism; Nitrogen metabolism
+PATHWAY     map00910  Nitrogen metabolism
+            map01100  Metabolic pathways
+            map01120  Microbial metabolism in diverse environments
+REACTION    R00798  C00244 -> C00088
+            R00783,R00785  C00088 -> C00533
+            R00294  C00533 -> C00887
+            R02804  C00887 -> C00697
+COMPOUND    C00244  Nitrate
+            C00088  Nitrite
+            C00533  Nitric oxide
+            C00887  Nitrous oxide
+            C00697  Nitrogen
+REFERENCE   PMID:15528644
+  AUTHORS   Cabello P, Roldan MD, Moreno-Vivian C
+  TITLE     Nitrate reduction and the nitrogen cycle in archaea.
+  JOURNAL   Microbiology 150:3527-46 (2004)
+            DOI:10.1099/mic.0.27303-0
+///

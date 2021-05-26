@@ -1,0 +1,57 @@
+ENTRY       M00815            Pathway   Module
+NAME        Validamycin A biosynthesis, sedoheptulopyranose-7P => validamycin A
+DEFINITION  K19969 K20431 K20432 K20433 K20434 K20435 K20436 K20437 K20438
+ORTHOLOGY   K19969  valA; 2-epi-5-epi-valiolone synthase [EC:4.2.3.152] [RN:R10937]
+            K20431  valD; 2-epi-5-epi-valiolone epimerase [EC:5.1.3.33] [RN:R11079]
+            K20432  valK; 5-epi-valiolone dehydratase [EC:4.2.1.-] [RN:R11233]
+            K20433  valC; C7-cyclitol kinase [EC:2.7.1.-] [RN:R11234]
+            K20434  valN; cyclitol reductase [RN:R11236]
+            K20435  valM; validone 7-phosphate aminotransferase [EC2.6.1.-] [RN:R11238]
+            K20436  valL; validoxylamine A 7'-phosphate synthase [EC:2.4.1.-] [RN:R11497] 
+            K20437  vldH; validoxylamine A 7'-phosphate phosphatase [EC:3.1.3.101] [RN:R11240]
+            K20438  valG; validoxylamine A glucosyltransferase [EC:2.4.1.338] [RN:R11241]
+CLASS       Pathway modules; Biosynthesis of other secondary metabolites; Biosynthesis of other secondary metabolites
+PATHWAY     map00525  Acarbose and validamycin biosynthesis
+            map01100  Metabolic pathways
+            map01130  Biosynthesis of antibiotics
+REACTION    R10937  C20956 -> C17691
+            R11079  C17691 -> C17694
+            R11233  C17694 -> C17696
+            R11234  C17696 -> C17697
+            R11236  C17697 -> C21218
+            R11238  C21218 -> C21216
+            R11497  C21368+ C21216 -> C21219
+            R11240  C21219 -> C17700
+            R11241  C17700 -> C12112
+COMPOUND    C20956  alpha-D-Sedoheptulopyranose 7-phosphate
+            C17691  2-epi-5-epi-Valiolone
+            C17694  5-epi-Valiolone
+            C17696  Valienone
+            C17697  Valienone 7-phosphate
+            C21218  Validone 7-phosphate
+            C21216  Validamine 7-phosphate
+            C21368  GDP-valienol
+            C21219  Validoxylamine A 7'-phosphate
+            C17700  Validoxylamine A
+            C12112  Validamycin A
+REFERENCE   PMID:16632251
+  AUTHORS   Bai L, Li L, Xu H, Minagawa K, Yu Y, Zhang Y, Zhou X, Floss HG, Mahmud T, Deng Z
+  TITLE     Functional analysis of the validamycin biosynthetic gene cluster and engineered production of validoxylamine A.
+  JOURNAL   Chem Biol 13:387-97 (2006)
+            DOI:10.1016/j.chembiol.2006.02.002
+REFERENCE   PMID:16725283
+  AUTHORS   Singh D, Seo MJ, Kwon HJ, Rajkarnikar A, Kim KR, Kim SO, Suh JW
+  TITLE     Genetic localization and heterologous expression of validamycin biosynthetic gene cluster isolated from Streptomyces hygroscopicus var. limoneus KCCM 11405 (IFO 12704).
+  JOURNAL   Gene 376:13-23 (2006)
+            DOI:10.1016/j.gene.2005.12.035
+REFERENCE   PMID:17003911
+  AUTHORS   Deng Z, Bai L
+  TITLE     Antibiotic biosynthetic pathways and pathway engineering--a growing research field in China.
+  JOURNAL   Nat Prod Rep 23:811-27 (2006)
+            DOI:10.1039/b611140h
+REFERENCE   PMID:21766819
+  AUTHORS   Asamizu S, Yang J, Almabruk KH, Mahmud T
+  TITLE     Pseudoglycosyltransferase catalyzes nonglycosidic C-N coupling in validamycin a biosynthesis.
+  JOURNAL   J Am Chem Soc 133:12124-35 (2011)
+            DOI:10.1021/ja203574u
+///

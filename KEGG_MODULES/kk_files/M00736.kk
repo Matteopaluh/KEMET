@@ -1,0 +1,7 @@
+M00736_Nocardicin A biosynthesis, L-pHPG + arginine + serine => nocardicin A
+K19102, K19103, K05375
+K19104
+K19105
+K19106
+COMPLEXES_LIST
+K19102+K19103+K05375

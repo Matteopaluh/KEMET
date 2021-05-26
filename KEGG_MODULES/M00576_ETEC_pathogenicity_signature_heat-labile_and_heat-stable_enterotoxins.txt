@@ -1,0 +1,9 @@
+ENTRY       M00576            Signature Module
+NAME        ETEC pathogenicity signature, heat-labile and heat-stable enterotoxins
+DEFINITION  (K10928+K10929) (K16883,K16884)
+ORTHOLOGY   K10928  ctxA; cholera enterotoxin subunit A [EC:2.4.2.36]
+            K10929  ctxB; cholera enterotoxin subunit B
+            K16883  sta; heat-stable enterotoxin STa/STI
+            K16884  stb; heat-stable enterotoxin STb/STII
+CLASS       Signature modules; Gene set; Pathogenicity
+///

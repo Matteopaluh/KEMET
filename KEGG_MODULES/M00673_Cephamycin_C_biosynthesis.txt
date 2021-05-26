@@ -1,0 +1,34 @@
+ENTRY       M00673            Pathway   Module
+NAME        Cephamycin C biosynthesis, aminoadipate + cycteine + valine => cephamycin C
+DEFINITION  K12743 K04126 K04127 K12744 K12745 K04128 K18062 K18063
+ORTHOLOGY   K12743  N-(5-amino-5-carboxypentanoyl)-L-cysteinyl-D-valine synthase [EC:6.3.2.26] [RN:R04870]
+            K04126  isopenicillin-N synthase [EC:1.21.3.1] [RN:R04872]
+            K04127  isopenicillin-N epimerase [EC:5.1.1.17] [RN:R04147]
+            K12744  deacetoxycephalosporin-C synthase [EC:1.14.20.1] [RN:R05301]
+            K12745  deacetoxycephalosporin-C hydroxylase [EC:1.14.11.26] [RN:R05229]
+            K04128  hydroxymethyl cephem carbamoyltransferase [EC:2.1.3.7] [RN:R05230]
+            K18062  cephamycin C biosynthesis protein [RN:R05302]
+            K18063  cephamycin C biosynthesis protein [RN:R05303]
+CLASS       Pathway modules; Biosynthesis of other secondary metabolites; beta-Lactam biosynthesis
+PATHWAY     map00311  Penicillin and cephalosporin biosynthesis
+            map01130  Biosynthesis of antibiotics
+REACTION    R04870  C00956 + C00183 + C00097 -> C05556
+            R04872  C05556 -> C05557
+            R04147  C05557 -> C06564
+            R05301  C06564 -> C06565
+            R05229  C06565 -> C03112
+            R05230  C03112 -> C06568
+            R05302  C06568 -> C06569
+            R05303  C06569 -> C06566
+COMPOUND    C00956  L-2-Aminoadipate
+            C00183  L-Valine
+            C00097  L-Cysteine
+            C05556  delta-(L-2-Aminoadipyl)-L-cysteinyl-D-valine
+            C05557  Isopenicillin N
+            C06564  Penicillin N
+            C06565  Deacetoxycephalosporin C
+            C03112  Deacetylcephalosporin C
+            C06568  O-Carbamoyl-deacetylcephalosporin C
+            C06569  7a-Hydroxy-O-carbamoyl-deacetylcephalosporin C
+            C06566  Cephamycin C
+///

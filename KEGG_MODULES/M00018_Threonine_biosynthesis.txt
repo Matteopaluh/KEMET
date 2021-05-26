@@ -1,0 +1,25 @@
+ENTRY       M00018            Pathway   Module
+NAME        Threonine biosynthesis, aspartate => homoserine => threonine
+DEFINITION  (K00928,K12524,K12525,K12526) K00133 (K00003,K12524,K12525) (K00872,K02204,K02203) K01733
+ORTHOLOGY   K00928,K12524,K12525,K12526  aspartate kinase [EC:2.7.2.4] [RN:R00480]
+            K00133  aspartate-semialdehyde dehydrogenase [EC:1.2.1.11] [RN:R02291]
+            K00003,K12524,K12525  homoserine dehydrogenase [EC:1.1.1.3] [RN:R01773 R01775]
+            K00872,K02204,K02203  homoserine kinase [EC:2.7.1.39] [RN:R01771]
+            K01733  threonine synthase [EC:4.2.3.1] [RN:R01466]
+CLASS       Pathway modules; Amino acid metabolism; Serine and threonine metabolism
+PATHWAY     map00260  Glycine, serine and threonine metabolism
+            map01230  Biosynthesis of amino acids
+            map01100  Metabolic pathways
+            map01110  Biosynthesis of secondary metabolites
+REACTION    R00480  C00049 -> C03082
+            R02291  C03082 -> C00441
+            R01773,R01775  C00441 -> C00263
+            R01771  C00263 -> C01102
+            R01466  C01102 -> C00188
+COMPOUND    C00049  L-Aspartate
+            C03082  4-Phospho-L-aspartate
+            C00441  L-Aspartate 4-semialdehyde
+            C00263  L-Homoserine
+            C01102  O-Phospho-L-homoserine
+            C00188  L-Threonine
+///

@@ -1,0 +1,50 @@
+ENTRY       M00039            Pathway   Module
+NAME        Monolignol biosynthesis, phenylalanine/tyrosine => monolignol
+DEFINITION  (K10775,K13064) K00487 K01904 K13065 K09754 K00588 K09753 K09755 K13066 (K00083,K22395)
+ORTHOLOGY   K10775  phenylalanine ammonia-lyase [EC:4.3.1.24] [RN:R00679]
+            K13064  phenylalanine/tyrosine ammonia-lyase [EC:4.3.1.25] [RN:R00697 R00737]
+            K00487  trans-cinnamate 4-monooxygenase [EC:1.14.14.91] [RN:R02253]
+            K01904  4-coumarate--CoA ligase [EC:6.2.1.12] [RN:R01616 R01943]
+            K13065  shikimate O-hydroxycinnamoyltransferase [EC:2.3.1.133] [RN:R02416 R07433]
+            K09754  5-O-(4-coumaroyl)-D-quinate 3'-monooxygenase [EC:1.14.14.96] [RN:R06582]
+            K00588  caffeoyl-CoA O-methyltransferase [EC:2.1.1.104] [RN:R01942]
+            K09753  cinnamoyl-CoA reductase [EC:1.2.1.44] [RN:R01615 R02193]
+            K09755  ferulate-5-hydroxylase [EC:1.14.-.-] [RN:R06572]
+            K13066  caffeic acid 3-O-methyltransferase [EC:2.1.1.68] [RN:R06576]
+            K00083,K22395  cinnamyl-alcohol dehydrogenase [EC:1.1.1.195] [RN:R07437 R02593 R03918]
+CLASS       Pathway modules; Biosynthesis of other secondary metabolites; Biosynthesis of other secondary metabolites
+PATHWAY     map00940  Phenylpropanoid biosynthesis
+            map01100  Metabolic pathways
+            map01110  Biosynthesis of secondary metabolites
+REACTION    R00697  C00079 -> C00423
+            R02253  C00423 -> C00811
+            R00737  C00082 -> C00811
+            R01616  C00811 -> C00223
+            R01615  C00223 -> C05608
+            R07437  C05608 -> C02646 
+            R02416  C00223 -> C02947
+            R06582  C02947 -> C10434
+            R07433  C10434 -> C00323
+            R01942  C00323 -> C00406
+            R02193  C00406 -> C02666
+            R02593  C02666 -> C00590
+            R06572  C02666 -> C12204
+            R06576  C12204 -> C05610
+            R03918  C05610 -> C02325
+COMPOUND    C00079  L-Phenylalanine
+            C00423  trans-Cinnamate
+            C00811  4-Coumarate
+            C00082  L-Tyrosine
+            C00223  p-Coumaroyl-CoA
+            C05608  4-Hydroxycinnamyl aldehyde
+            C02646  4-Coumaryl alcohol
+            C02947  4-Coumaroylshikimate
+            C10434  5-O-Caffeoylshikimic acid
+            C00323  Caffeoyl-CoA
+            C00406  Feruloyl-CoA
+            C02666  Coniferyl aldehyde
+            C00590  Coniferyl alcohol
+            C12204  5-Hydroxyconiferaldehyde
+            C05610  Sinapoyl aldehyde
+            C02325  Sinapyl alcohol
+///

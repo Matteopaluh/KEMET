@@ -1,0 +1,9 @@
+ENTRY       M00597            Complex   Module
+NAME        Anoxygenic photosystem II
+DEFINITION  (K08928+K08929)
+ORTHOLOGY   K08928  pufL; photosynthetic reaction center L subunit
+            K08929  pufM; photosynthetic reaction center M subunit
+CLASS       Pathway modules; Energy metabolism; Photosynthesis
+BRITE       ko00194  Photosynthesis proteins
+COMMENT     Organism group: purple bacteria (proteobacteria), green nonsulfur bacteria
+///

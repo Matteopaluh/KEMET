@@ -1,0 +1,17 @@
+ENTRY       M00081            Pathway   Module
+NAME        Pectin degradation
+DEFINITION  K01051 K01184 K01213
+ORTHOLOGY   K01051  pectinesterase [EC:3.1.1.11] [RN:R02362]
+            K01184  polygalacturonase [EC:3.2.1.15] [RN:R02360]
+            K01213  galacturan 1,4-alpha-galacturonidase [EC:3.2.1.67] [RN:R07413]
+CLASS       Pathway modules; Carbohydrate metabolism; Other carbohydrate metabolism
+PATHWAY     map00040  Pentose and glucuronate interconversions
+            map01100  Metabolic pathways
+REACTION    R02362  C00714 -> C00470
+            R02360  C00470 -> C02273
+            R07413  C02273 -> C00333
+COMPOUND    C00714  Pectin
+            C00470  Pectate
+            C02273  Digalacturonate
+            C00333  D-Galacturonate
+///

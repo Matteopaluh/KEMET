@@ -1,0 +1,17 @@
+ENTRY       M00069            Pathway   Module
+NAME        Glycosphingolipid biosynthesis, ganglio series, LacCer => GT3
+DEFINITION  K03370 (K03371,K03369)
+ORTHOLOGY   K03370  SIAT9 [EC:2.4.99.9] [RN:R05937]
+            K03371  SIAT8A [EC:2.4.99.8 2.4.99.-] [RN:R05940 R05947]
+            K03369  SIAT8E [EC:2.4.99.-] [RN:R05947]
+CLASS       Pathway modules; Glycan metabolism; Glycan biosynthesis
+PATHWAY     map00604  Glycosphingolipid biosynthesis - ganglio series
+            map01100  Metabolic pathways
+REACTION    R05937  G00092 -> G00108
+            R05940  G00108 -> G00113
+            R05947  G00113 -> G00118
+COMPOUND    G00092  Lactosylceramide; LacCer; (Gal)1 (Glc)1 (Cer)1
+            G00108  GM3; (Gal)1 (Glc)1 (Neu5Ac)1 (Cer)1
+            G00113  GD3; (Gal)1 (Glc)1 (Neu5Ac)2 (Cer)1
+            G00118  GT3; (Gal)1 (Glc)1 (Neu5Ac)3 (Cer)1
+///

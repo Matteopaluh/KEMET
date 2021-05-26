@@ -1,0 +1,18 @@
+ENTRY       M00855            Pathway   Module
+NAME        Glycogen degradation, glycogen => glucose-6P
+DEFINITION  (K00688,K16153) (K01196,((K00705,K22451) (K02438,K01200))) (K15779,K01835,K15778)
+ORTHOLOGY   K00688,K16153  glycogen phosphorylase [EC:2.4.1.1] [RN:R02111]
+            K01196  glycogen debranching enzyme [EC:2.4.1.25 3.2.1.33] [RN:R02111]
+            K00705,K22451  4-alpha-glucanotransferase [EC:2.4.1.25] [RN:R02111]
+            K02438  glycogen debranching enzyme [EC:3.2.1.196] [RN:R02111]
+            K01200  pullulanase [EC:3.2.1.41] [COG:COG1523] [RN:R02111]
+            K15779,K01835,K15778  phosphoglucomutase [EC:5.4.2.2] [RN:R08639]
+CLASS       Pathway modules; Carbohydrate metabolism; Other carbohydrate metabolism
+PATHWAY     map00500  Starch and sucrose metabolism
+            map01100  Metabolic pathways
+REACTION    R02111  C00369 -> C00103
+            R08639  C00103 -> C00092
+COMPOUND    C00369  Starch
+            C00103  D-Glucose 1-phosphate
+            C00092  D-Glucose 6-phosphate
+///

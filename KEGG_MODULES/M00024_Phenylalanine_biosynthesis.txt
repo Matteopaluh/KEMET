@@ -1,0 +1,19 @@
+ENTRY       M00024            Pathway   Module
+NAME        Phenylalanine biosynthesis, chorismate => phenylalanine
+DEFINITION  ((K01850,K04092,K14187,K04093,K04516,K06208,K06209,K13853) (K01713,K04518,K05359),K14170) (K00832,K00838)
+ORTHOLOGY   K01850,K04092,K14187,K04093,K14170,K04516,K06208,K06209,K13853  chorismate mutase [EC:5.4.99.5] [RN:R01715]
+            K01713,K04518,K05359,K14170  prephenate dehydratase [EC:4.2.1.51] [RN:R01373]
+            K00832,K00838  aromatic-amino-acid transaminase [EC:2.6.1.57] [RN:R00694]
+CLASS       Pathway modules; Amino acid metabolism; Aromatic amino acid metabolism
+PATHWAY     map00400  Phenylalanine, tyrosine and tryptophan biosynthesis
+            map01230  Biosynthesis of amino acids
+            map01100  Metabolic pathways
+            map01110  Biosynthesis of secondary metabolites
+REACTION    R01715  C00251 -> C00254
+            R01373  C00254 -> C00166
+            R00694  C00166 -> C00079
+COMPOUND    C00251  Chorismate
+            C00254  Prephenate
+            C00166  Phenylpyruvate
+            C00079  L-Phenylalanine
+///

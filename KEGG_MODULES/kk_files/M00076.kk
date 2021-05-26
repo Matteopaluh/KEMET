@@ -1,0 +1,6 @@
+M00076_Dermatan sulfate degradation
+K01136
+K01217
+K01135
+K01197
+K01195

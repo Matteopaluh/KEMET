@@ -1,0 +1,14 @@
+ENTRY       M00100            Pathway   Module
+NAME        Sphingosine degradation
+DEFINITION  K04718 K01634
+ORTHOLOGY   K04718  sphingosine kinase [EC:2.7.1.91] [RN:R01926]
+            K01634  sphinganine-1-phosphate aldolase [EC:4.1.2.27] [RN:R06516]
+CLASS       Pathway modules; Lipid metabolism; Lipid metabolism
+PATHWAY     map00600  Sphingolipid metabolism
+            map01100  Metabolic pathways
+REACTION    R01926  C00319 -> C06124
+            R06516  C06124 -> C00346
+COMPOUND    C00319  Sphingosine
+            C06124  Sphingosine 1-phosphate
+            C00346  Ethanolamine phosphate
+///

@@ -1,0 +1,25 @@
+ENTRY       M00799            Pathway   Module
+NAME        dTDP-L-oleandrose biosynthesis
+DEFINITION  K16435 K13315 K16438 K19856 K19857
+ORTHOLOGY   K16435  aveBVI; dTDP-4-dehydro-6-deoxy-alpha-D-glucopyranose 2,3-dehydratase [EC:4.2.1.159] [RN:R05518]
+            K13315  aveBVIII; NDP-hexose C3-ketoreductase [EC:1.1.1.-] [RN:R11051]
+            K16438  aveBV; 5-epimerase [EC:5.1.3.-] [RN:R06433]
+            K19856  aveBVII; 3-O-methyltransferase [EC:2.1.1.-] [RN:R11041]
+            K19857  aveBIV; dTDP-4-keto-6-deoxy-L-hexose 4-reductase [RN:R11042]
+CLASS       Pathway modules; Biosynthesis of terpenoids and polyketides; Polyketide sugar unit biosynthesis
+PATHWAY     map00523  Polyketide sugar unit biosynthesis
+            map01100  Metabolic pathways
+            map01130  Biosynthesis of antibiotics
+REACTION    R05518  C11907 -> C06620
+            R11051  C06620 -> C11928
+            R06433  C11928 -> C11927
+            R11041  C11927 -> C21071
+            R11042  C21071 -> C11921
+COMPOUND    C11907  dTDP-4-oxo-6-deoxy-D-glucose
+            C06620  dTDP-3,4-dioxo-2,6-dideoxy-D-glucose
+            C11928  dTDP-4-oxo-2,6-dideoxy-D-allose
+            C11927  dTDP-4-oxo-2,6-dideoxy-L-mannose
+            C21071  dTDP-3-O-methyl-4-oxo-2,6-dideoxy-L-mannose
+            C11921  dTDP-L-oleandrose
+RMODULE     RM038  Deoxygenation (dehydration and reduction) in deoxysugar biosynthesis
+///

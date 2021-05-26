@@ -1,0 +1,36 @@
+ENTRY       M00633            Pathway   Module
+NAME        Semi-phosphorylative Entner-Doudoroff pathway, gluconate/galactonate => glycerate-3P
+DEFINITION  K05308 K18126 K11395 (K00131,K18978)
+ORTHOLOGY   K05308  gluconate dehydratase [EC:4.2.1.140] [RN:R01538 R03033]
+            K18126  2-dehydro-3-deoxygluconokinase [EC:2.7.1.178] [RN:R01541 R03387]
+            K11395  2-dehydro-3-deoxyphosphogluconate aldolase [EC:4.1.2.55] [RN:R05605 R01064]
+            K00131  glyceraldehyde-3-phosphate dehydrogenase (NADP+) [EC:1.2.1.9] [RN:R01058]
+            K18978  glyceraldehyde-3-phosphate dehydrogenase [NAD(P)+] [EC:1.2.1.90] [RN:R01058 R10860]
+CLASS       Pathway modules; Carbohydrate metabolism; Central carbohydrate metabolism
+PATHWAY     map00030  Pentose phosphate pathway
+            map00052  Galactose metabolism
+            map01200  Carbon metabolism
+            map01100  Metabolic pathways
+REACTION    R01538  C00257 -> C00204
+            R01541  C00204 -> C04442
+            R05605  C04442 -> C00118 + C00022
+            R03033  C00880 -> C01216
+            R03387  C01216 -> C01286
+            R01064  C01286 -> C00118
+            R01058,R10860  C00118 -> C00197
+COMPOUND    C00257  D-Gluconic acid
+            C00204  2-Dehydro-3-deoxy-D-gluconate
+            C04442  2-Dehydro-3-deoxy-6-phospho-D-gluconate
+            C00118  D-Glyceraldehyde 3-phosphate
+            C00022  Pyruvate
+            C00197  3-Phospho-D-glycerate
+            C00880  D-Galactonate
+            C01216  2-Dehydro-3-deoxy-D-galactonate
+            C01286  2-Dehydro-3-deoxy-6-phospho-D-galactonate
+COMMENT     Organism group: crenarchaeota
+REFERENCE   PMID:15869466
+  AUTHORS   Ahmed H, Ettema TJ, Tjaden B, Geerling AC, van der Oost J, Siebers B
+  TITLE     The semi-phosphorylative Entner-Doudoroff pathway in hyperthermophilic archaea: a re-evaluation.
+  JOURNAL   Biochem J 390:529-40 (2005)
+            DOI:10.1042/BJ20041711
+///

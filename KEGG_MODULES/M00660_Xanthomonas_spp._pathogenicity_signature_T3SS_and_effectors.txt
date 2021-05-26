@@ -1,0 +1,28 @@
+ENTRY       M00660            Signature Module
+NAME        Xanthomonas spp. pathogenicity signature, T3SS and effectors
+DEFINITION  (K03222+K03226+K03227+K03228+K03229+K03230+K03224+K03225+K03223+K18374+K18376) K18373 K18375 K18377 K18378 K18379 K18380 K18381
+ORTHOLOGY   K03222  yscJ; type III secretion protein SctJ
+            K03226  yscR; type III secretion protein SctR
+            K03227  yscS; type III secretion protein SctS
+            K03228  yscT; type III secretion protein SctT
+            K03229  yscU; type III secretion protein SctU
+            K03230  yscV; type III secretion protein SctV
+            K03224  yscN; ATP synthase in type III secretion protein SctN [EC:3.6.3.14]
+            K03225  yscQ; type III secretion protein SctQ
+            K03223  yscL; type III secretion protein SctL
+            K18374  hrpB2; type III secretion inner rod protein HrpB2
+            K18376  hrpF; type III secretion translocon protein HrpF
+            K18373  hrpB1; type III secretion protein HrpB1
+            K18375  hrpE; type III secretion hrp pilus HrpE
+            K18377  hpa2; lysozyme-related protein Hpa2
+            K18378  hpa1; type III secretion harpin protein Hpa1
+            K18379  K18379; type III secretion regulatory protein HpaA
+            K18380  K18380; type III secretion control protein HpaB
+            K18381  K18381; type III secretion control protein HpaP
+CLASS       Signature modules; Gene set; Plant pathogenicity
+REFERENCE   PMID:19458111
+  AUTHORS   Buttner D, He SY
+  TITLE     Type III protein secretion in plant pathogenic bacteria.
+  JOURNAL   Plant Physiol 150:1656-64 (2009)
+            DOI:10.1104/pp.109.139089
+///

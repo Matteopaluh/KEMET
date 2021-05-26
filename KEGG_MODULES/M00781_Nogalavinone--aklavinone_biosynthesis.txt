@@ -1,0 +1,30 @@
+ENTRY       M00781            Pathway   Module
+NAME        Nogalavinone/aklavinone biosynthesis, deoxynogalonate/deoxyaklanonate => nogalavinone/aklavinone
+DEFINITION  K15941 K15942 K15943 K15944
+ORTHOLOGY   K15941  snoaB, dnrG; deoxynogalonate / 12-deoxyaklanonic acid monooxygenase [EC:1.13.12.22 1.13.12.-] [RN:R09327 R06679]
+            K15942  snoaC, dnrC; O-methyltransferase / aklanonic acid methyltransferase [EC:2.1.1.- 2.1.1.288] [RN:R06675 R06680]
+            K15943  snoaL, dnrD; nogalonic acid methyl ester cyclase / aklanonic acid methyl ester cyclase [EC:5.5.1.26 5.5.1.23] [RN:R09328 R06681]
+            K15944  snoaF, dnrE; nogalaviketone/aklaviketone reductase [EC:1.1.1.- 1.1.1.362] [RN:R09329 R06682]
+CLASS       Pathway modules; Biosynthesis of terpenoids and polyketides; Type II polyketide biosynthesis
+PATHWAY     map01057  Biosynthesis of type II polyketide products
+            map01100  Metabolic pathways
+            map01130  Biosynthesis of antibiotics
+REACTION    R09327  C18629 -> C12416
+            R06675  C12416 -> C12415
+            R09328  C12415 -> C18630
+            R09329  C18630 -> C18631
+            R06679  C12420 -> C12421
+            R06680  C12421 -> C12422
+            R06681  C12422 -> C12423
+            R06682  C12423 -> C12424
+COMPOUND    C18629  Deoxynogalonate
+            C12416  Nogalonate
+            C12415  Methyl nogalonate
+            C18630  Nogalaviketone
+            C18631  Nogalavinone
+            C12420  12-Deoxyaklanonic acid
+            C12421  Aklanonate
+            C12422  Methyl aklanonate
+            C12423  Aklaviketone
+            C12424  Aklavinone
+///

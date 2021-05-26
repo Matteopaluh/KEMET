@@ -1,0 +1,33 @@
+ENTRY       M00651            Signature Module
+NAME        Vancomycin resistance, D-Ala-D-Lac type
+DEFINITION  (K18345 K18344 K07260 K18346),(K18351 K18352 K18354 K18353) (K18347 K15739 K08641)
+ORTHOLOGY   K18345  vanSB; two-component system, OmpR family, sensor histidine kinase VanS [EC:2.7.13.3]
+            K18344  vanRB; two-component system, OmpR family, response regulator VanR
+            K07260  vanY; D-alanyl-D-alanine carboxypeptidase [EC:3.4.16.4]
+            K18346  vanW; vancomycin resistance protein VanW
+            K18351  vanSAc; two-component system, OmpR family, sensor histidine kinase VanS [EC:2.7.13.3]
+            K18352  vanRAc; two-component system, OmpR family, response regulator VanR
+            K18354  vanK; vancomycin resistance protein VanK
+            K18353  vanJ; vancomycin resistance protein VanJ
+            K18347  vanH; D-specific alpha-keto acid dehydrogenase [EC:1.1.1.-]
+            K15739  vanB; D-alanine---(R)-lactate ligase [EC:6.1.2.1]
+            K08641  vanX; D-alanyl-D-alanine dipeptidase [EC:3.4.13.22]
+CLASS       Signature modules; Gene set; Drug resistance
+PATHWAY     map01502  Vancomycin resistance
+            map02020  Two-component system
+REFERENCE   PMID:22913355
+  AUTHORS   Chancey ST, Zahner D, Stephens DS
+  TITLE     Acquired inducible antimicrobial resistance in Gram-positive bacteria.
+  JOURNAL   Future Microbiol 7:959-78 (2012)
+            DOI:10.2217/fmb.12.63
+REFERENCE   PMID:8631706
+  AUTHORS   Evers S, Courvalin P
+  TITLE     Regulation of VanB-type vancomycin resistance gene expression by the VanS(B)-VanR (B) two-component regulatory system in Enterococcus faecalis V583.
+  JOURNAL   J Bacteriol 178:1302-9 (1996)
+            DOI:10.1128/JB.178.5.1302-1309.1996
+REFERENCE   PMID:15130128
+  AUTHORS   Hong HJ, Hutchings MI, Neu JM, Wright GD, Paget MS, Buttner MJ
+  TITLE     Characterization of an inducible vancomycin resistance system in Streptomyces coelicolor reveals a novel gene (vanK) required for drug resistance.
+  JOURNAL   Mol Microbiol 52:1107-21 (2004)
+            DOI:10.1111/j.1365-2958.2004.04032.x
+///

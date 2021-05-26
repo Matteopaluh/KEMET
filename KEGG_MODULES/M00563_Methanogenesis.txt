@@ -1,0 +1,54 @@
+ENTRY       M00563            Pathway   Module
+NAME        Methanogenesis, methylamine/dimethylamine/trimethylamine => methane
+DEFINITION  K14082 ((K16177-K16176),(K16179-K16178),(K14084-K14083)) (K00399+K00401+K00402) ((K22480+K22481+K22482),(K03388+K03389+K03390),(K08264+K08265),(K03388+K03389+K03390+K14127+(K14126+K14128,K22516+K00125)))
+ORTHOLOGY   K14082  mtbA; [methyl-Co(III) methylamine-specific corrinoid protein]:coenzyme M methyltransferase [EC:2.1.1.247] [RN:R09998]
+            K16176  mtmB; methylamine---corrinoid protein Co-methyltransferase [EC:2.1.1.248] [RN:R09998]
+            K16177  mtmC; monomethylamine corrinoid protein [RN:R09998]
+            K16178  mtbB; dimethylamine---corrinoid protein Co-methyltransferase [EC:2.1.1.249] [RN:R09999]
+            K16179  mtbC; dimethylamine corrinoid protein [RN:R09999]
+            K14083  mttB; trimethylamine---corrinoid protein Co-methyltransferase [EC:2.1.1.250] [RN:R09124]
+            K14084  mttC; trimethylamine corrinoid protein [RN:R09124]
+            K00399+K00401+K00402  methyl-coenzyme M reductase [EC:2.8.4.1] [RN:R04541]
+            K22480+K22481+K22482  heterodisulfide reductase 1 [EC:1.8.7.3] [RN:R11931]
+            K03388+K03389+K03390  heterodisulfide reductase 2 [EC:1.8.7.3 1.8.98.4 1.8.98.5 1.8.98.6] [RN:R11928 R11931 R11943 R11944]
+            K08264+K08265  heterodisulfide reductase [EC:1.8.98.1] [RN:R04540]
+            K14126+K14128  F420-non-reducing hydrogenase [EC:1.8.98.5] [RN:R11943]
+            K14127  F420-non-reducing hydrogenase iron-sulfur subunit [EC:1.8.98.5 1.8.98.6] [RN:R11943 R11944]
+            K22516+K00125  formate dehydrogenase (coenzyme F420) [EC:1.8.98.6] [RN:R11944]
+CLASS       Pathway modules; Energy metabolism; Methane metabolism
+PATHWAY     map00680  Methane metabolism
+            map01200  Carbon metabolism
+            map01100  Metabolic pathways
+            map01120  Microbial metabolism in diverse environments
+REACTION    R09998  C00218 -> C03920
+            R09999  C00543 -> C03920
+            R09124  C00565 -> C03920 
+            R04541  C03920 + C04628 -> C01438 + C04832
+            R11931,R04540,R11928,R11943,R11944  C04832 -> C04628
+COMPOUND    C00218  Methylamine
+            C03920  2-(Methylthio)ethanesulfonate
+            C00543  Dimethylamine
+            C00565  Trimethylamine
+            C04628  Coenzyme B
+            C01438  Methane
+            C04832  Coenzyme M 7-mercaptoheptanoylthreonine-phosphate heterodisulfide
+REFERENCE   PMID:9642198
+  AUTHORS   Burke SA, Lo SL, Krzycki JA
+  TITLE     Clustered genes encoding the methyltransferases of methanogenesis from monomethylamine.
+  JOURNAL   J Bacteriol 180:3432-40 (1998)
+REFERENCE   PMID:20847933
+  AUTHORS   Rother M, Krzycki JA
+  TITLE     Selenocysteine, pyrrolysine, and the unique energy metabolism of methanogenic archaea.
+  JOURNAL   Archaea 2010:453642 (2010)
+            DOI:10.1155/2010/453642
+REFERENCE   PMID:15882413
+  AUTHORS   Pritchett MA, Metcalf WW
+  TITLE     Genetic, physiological and biochemical characterization of multiple methanol methyltransferase isozymes in Methanosarcina acetivorans C2A.
+  JOURNAL   Mol Microbiol 56:1183-94 (2005)
+            DOI:10.1111/j.1365-2958.2005.04616.x
+REFERENCE   PMID:16096277
+  AUTHORS   Soares JA, Zhang L, Pitsch RL, Kleinholz NM, Jones RB, Wolff JJ, Amster J, Green-Church KB, Krzycki JA
+  TITLE     The residue mass of L-pyrrolysine in three distinct methylamine methyltransferases.
+  JOURNAL   J Biol Chem 280:36962-9 (2005)
+            DOI:10.1074/jbc.M506402200
+///

@@ -1,0 +1,24 @@
+ENTRY       M00639            Signature Module
+NAME        Multidrug resistance, efflux pump MexCD-OprJ
+DEFINITION  K18294 (K18295+K18296-K08721)
+ORTHOLOGY   K18294  nfxB; TetR/AcrR family transcriptional regulator, mexCD-oprJ operon repressor
+            K18295  mexC; membrane fusion protein
+            K18296  mexD; multidrug efflux pump
+            K08721  oprJ; multidrug resistance outer membrane protein OprJ
+CLASS       Signature modules; Gene set; Drug resistance
+REFERENCE   PMID:8878035
+  AUTHORS   Poole K, Gotoh N, Tsujimoto H, Zhao Q, Wada A, Yamasaki T, Neshat S, Yamagishi J, Li XZ, Nishino T
+  TITLE     Overexpression of the mexC-mexD-oprJ efflux operon in nfxB-type multidrug-resistant strains of Pseudomonas aeruginosa.
+  JOURNAL   Mol Microbiol 21:713-24 (1996)
+            DOI:10.1046/j.1365-2958.1996.281397.x
+REFERENCE   PMID:17223624
+  AUTHORS   Depardieu F, Podglajen I, Leclercq R, Collatz E, Courvalin P
+  TITLE     Modes and modulations of antibiotic resistance gene expression.
+  JOURNAL   Clin Microbiol Rev 20:79-114 (2007)
+            DOI:10.1128/CMR.00015-06
+REFERENCE   PMID:20373734
+  AUTHORS   Stickland HG, Davenport PW, Lilley KS, Griffin JL, Welch M
+  TITLE     Mutation of nfxB causes global changes in the physiology and metabolism of Pseudomonas aeruginosa.
+  JOURNAL   J Proteome Res 9:2957-67 (2010)
+            DOI:10.1021/pr9011415
+///

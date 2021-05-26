@@ -1,0 +1,9 @@
+M00850_Vibrio cholerae pathogenicity signature, cholera toxins
+K10928, K10929
+K10954
+K10952
+K10953
+K10948
+K11018
+COMPLEXES_LIST
+K10928+K10929

@@ -1,0 +1,20 @@
+ENTRY       M00140            Pathway   Module
+NAME        C1-unit interconversion, prokaryotes
+DEFINITION  K00600 (K01491,(K00300 K01500)) K01938
+ORTHOLOGY   K00600  glycine hydroxymethyltransferase [EC:2.1.2.1] [RN:R00945]
+            K01491  methylenetetrahydrofolate dehydrogenase (NADP+) / methenyltetrahydrofolate cyclohydrolase [EC:1.5.1.5 3.5.4.9] [RN:R01220 R01655]
+            K00300  methylenetetrahydrofolate dehydrogenase (NADP+) [EC:1.5.1.5] [RN:R01220]
+            K01500  methenyltetrahydrofolate cyclohydrolase [EC:3.5.4.9] [RN:R01655]
+            K01938  formate--tetrahydrofolate ligase [EC:6.3.4.3] [RN:R00943]
+CLASS       Pathway modules; Metabolism of cofactors and vitamins; Cofactor and vitamin metabolism
+PATHWAY     map00670  One carbon pool by folate
+            map01100  Metabolic pathways
+REACTION    R00945  C00101 -> C00143
+            R01220  C00143 -> C00445
+            R01655  C00445 -> C00234
+            R00943  C00234 -> C00101
+COMPOUND    C00101  Tetrahydrofolate
+            C00143  5,10-Methylenetetrahydrofolate
+            C00445  5,10-Methenyltetrahydrofolate
+            C00234  10-Formyltetrahydrofolate
+///

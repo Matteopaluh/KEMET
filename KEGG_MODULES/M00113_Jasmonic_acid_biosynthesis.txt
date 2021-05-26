@@ -1,0 +1,48 @@
+ENTRY       M00113            Pathway   Module
+NAME        Jasmonic acid biosynthesis
+DEFINITION  K00454 K01723 K10525 K05894 K10526 K00232 K10527 K07513 --
+ORTHOLOGY   K00454  lipoxygenase [EC:1.13.11.12] [RN:R07896]
+            K01723  hydroperoxide dehydratase [EC:4.2.1.92] [RN:R07863]
+            K10525  allene oxide cyclase [EC:5.3.99.6] [RN:R03402]
+            K05894  12-oxophytodienoic acid reductase [EC:1.3.1.42] [RN:R03401]
+            K10526  OPC-8:0 CoA ligase 1 [EC:6.2.1.-] [RN:R07887]
+            K00232  acyl-CoA oxidase [EC:1.3.3.6] [RN:R07888 R07892 R07896]
+            K10527  enoyl-CoA hydratase/3-hydroxyacyl-CoA dehydrogenase [EC:4.2.1.17 1.1.1.35 1.1.1.211] [RN:R07889 R07890 R07893 R07894 R07897 R07898]
+            K07513  acetyl-CoA acyltransferase [EC:2.3.1.16] [RN:R07891 R07895 R07899]
+CLASS       Pathway modules; Lipid metabolism; Lipid metabolism
+PATHWAY     map00592  alpha-Linolenic acid metabolism
+            map01100  Metabolic pathways
+            map01110  Biosynthesis of secondary metabolites
+REACTION    R07869  C06427 -> C04785
+            R07863  C04785 -> C04672
+            R03402  C04672 -> C01226
+            R03401  C01226 -> C04780
+            R07887  C04780 -> C16327
+            R07888  C16327 -> C16328
+            R07889,R07890  C16328 -> C16330
+            R07891  C16330 -> C16331
+            R07892  C16331 -> C16332
+            R07893,R07894  C16332 -> C16334
+            R07895  C16334 -> C16335
+            R07896  C16335 -> C16336
+            R07897,R07898  C16336 -> C16338
+            R07899  C16338 -> C16339
+            R07902  C16339 -> C16317
+COMPOUND    C06427  (9Z,12Z,15Z)-Octadecatrienoic acid
+            C04785  13(S)-HPOT
+            C04672  12,13(S)-EOT
+            C01226  12-OPDA
+            C04780  OPC-8:0
+            C16327  OPC8-CoA
+            C16328  trans-2-Enoyl-OPC8-CoA
+            C16330  3-Oxo-OPC8-CoA
+            C16331  OPC6-CoA
+            C16332  trans-2-Enoyl-OPC6-CoA
+            C16334  3-Oxo-OPC6-CoA
+            C16335  OPC4-CoA
+            C16336  trans-2-Enoyl-OPC4-CoA
+            C16338  3-Oxo-OPC4-CoA
+            C16339  (+)-7-Isojasmonic acid CoA
+            C16317  (+)-7-Isojasmonic acid
+            C08491  (-)-Jasmonic acid
+///

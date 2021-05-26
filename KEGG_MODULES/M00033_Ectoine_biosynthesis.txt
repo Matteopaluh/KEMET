@@ -1,0 +1,27 @@
+ENTRY       M00033            Pathway   Module
+NAME        Ectoine biosynthesis, aspartate => ectoine
+DEFINITION  K00928 K00133 K00836 K06718 K06720
+ORTHOLOGY   K00928  aspartate kinase [EC:2.7.2.4] [RN:R00480]
+            K00133  aspartate-semialdehyde dehydrogenase [EC:1.2.1.11] [RN:R02291]
+            K00836  diaminobutyrate-2-oxoglutarate transaminase [EC:2.6.1.76] [RN:R06977]
+            K06718  L-2,4-diaminobutyric acid acetyltransferase [EC:2.3.1.178] [RN:R06978]
+            K06720  L-ectoine synthase [EC:4.2.1.108] [RN:R06979]
+CLASS       Pathway modules; Amino acid metabolism; Serine and threonine metabolism
+PATHWAY     map00260  Glycine, serine and threonine metabolism
+            map01210  2-Oxocarboxylic acid metabolism
+            map01230  Biosynthesis of amino acids
+            map01100  Metabolic pathways
+            map01120  Microbial metabolism in diverse environments
+REACTION    R00480  C00049 -> C03082
+            R02291  C03082 -> C00441
+            R06977  C00441 -> C03283
+            R06978  C03283 -> C06442
+            R06979  C06442 -> C06231
+COMPOUND    C00049  L-Aspartate
+            C03082  4-Phospho-L-aspartate
+            C00441  L-Aspartate 4-semialdehyde
+            C03283  L-2,4-Diaminobutanoate
+            C06442  N-gamma-Acetyldiaminobutyrate
+            C06231  Ectoine
+RMODULE     RM032  Carboxyl to amino conversion without using protective group
+///

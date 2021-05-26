@@ -1,0 +1,39 @@
+ENTRY       M00545            Pathway   Module
+NAME        Trans-cinnamate degradation, trans-cinnamate => acetyl-CoA
+DEFINITION  (((K05708+K05709+K05710+K00529) K05711),K05712) K05713 K05714 K02554 K01666 K04073
+ORTHOLOGY   K05708+K05709+K05710+K00529  3-phenylpropionate/cinnamic acid dioxygenase [EC:1.14.12.19] [RN:R06783]
+            K05711  2,3-dihydroxy-2,3-dihydrophenylpropionate dehydrogenase [EC:1.3.1.87] [RN:R06785]
+            K05712  mhpA; 3-(3-hydroxy-phenyl)propionate hydroxylase [EC:1.14.13.127] [RN:R06787]
+            K05713  2,3-dihydroxyphenylpropionate 1,2-dioxygenase [EC:1.13.11.16] [RN:R06788]
+            K05714  2-hydroxy-6-ketonona-2,4-dienedioic acid hydrolase [EC:3.7.1.14] [RN:R06789]
+            K02554  2-keto-4-pentenoate hydratase [EC:4.2.1.80] [RN:R02601]
+            K01666  4-hydroxy 2-oxovalerate aldolase [EC:4.1.3.39] [RN:R00750]
+            K04073  acetaldehyde dehydrogenase [EC:1.2.1.10] [RN:R00228]
+CLASS       Pathway modules; Amino acid metabolism; Aromatic amino acid metabolism
+PATHWAY     map00360  Phenylalanine metabolism
+            map01220  Degradation of aromatic compounds
+            map01100  Metabolic pathways
+            map01120  Microbial metabolism in diverse environments
+REACTION    R06783  C00423 -> C12622
+            R06785  C12622 -> C12623
+            R06781  C00423 -> C12621
+            R06787  C12621 -> C12623
+            R06788  C12623 -> C12624
+            R06789  C12624 -> C00596
+            R02601  C00596 -> C03589
+            R00750  C03589 -> C00084
+            R00228  C00084 -> C00024
+COMPOUND    C00423  trans-Cinnamate
+            C12622  cis-3-(3-Carboxyethenyl)-3,5-cyclohexadiene-1,2-diol
+            C12623  trans-2,3-Dihydroxycinnamate
+            C12621  trans-3-Hydroxycinnamate
+            C12624  2-Hydroxy-6-ketononatrienedioate
+            C00596  2-Hydroxy-2,4-pentadienoate
+            C03589  4-Hydroxy-2-oxopentanoate
+            C00084  Acetaldehyde
+            C00024  Acetyl-CoA
+RMODULE     RM004  Dihydroxylation of aromatic ring, type 1 (dioxygenase and dehydrogenase reactions)
+            RM006  Dihydroxylation of aromatic ring, type 2 (two monooxygenase reactions)
+            RM010  Dihydroxylation and meta-cleavage of aromatic ring, type 1
+            RM009  Meta-cleavage of dihydroxylated aromatic ring
+///

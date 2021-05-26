@@ -1,0 +1,27 @@
+ENTRY       M00552            Pathway   Module
+NAME        D-galactonate degradation, De Ley-Doudoroff pathway, D-galactonate => glycerate-3P
+DEFINITION  K01684 K00883 K01631 K00134 K00927
+ORTHOLOGY   K01684  galactonate dehydratase [EC:4.2.1.6] [RN:R03033]
+            K00883  2-dehydro-3-deoxygalactonokinase [EC:2.7.1.58] [RN:R03387]
+            K01631  2-dehydro-3-deoxyphosphogalactonate aldolase [EC:4.1.2.21] [RN:R01064]
+            K00134  glyceraldehyde 3-phosphate dehydrogenase [EC:1.2.1.12] [RN:R01061]
+            K00927  phosphoglycerate kinase [EC:2.7.2.3] [RN:R01512]
+CLASS       Pathway modules; Carbohydrate metabolism; Other carbohydrate metabolism
+PATHWAY     map00052  Galactose metabolism
+            map01100  Metabolic pathways
+REACTION    R03033  C00880 -> C01216
+            R03387  C01216 -> C01286
+            R01064  C01286 -> C00118
+            R01061  C00118 -> C00236
+            R01512  C00236 -> C00197
+COMPOUND    C00880  D-Galactonate
+            C01216  2-Dehydro-3-deoxy-D-galactonate
+            C01286  2-Dehydro-3-deoxy-6-phospho-D-galactonate
+            C00118  D-Glyceraldehyde 3-phosphate
+            C00236  3-Phospho-D-glyceroyl phosphate
+            C00197  3-Phospho-D-glycerate
+REFERENCE   PMID:7287628
+  AUTHORS   Szumilo T
+  TITLE     Pathway for D-galactonate catabolism in nonpathogenic mycobacteria.
+  JOURNAL   J Bacteriol 148:368-70 (1981)
+///

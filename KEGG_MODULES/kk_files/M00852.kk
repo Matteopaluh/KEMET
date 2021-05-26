@@ -1,0 +1,15 @@
+M00852_Vibrio cholerae pathogenicity signature, toxin coregulated pilus
+K10961
+K10920
+K10919
+K10930
+K10931
+K10962
+K10932
+K10963
+K10933
+K10964
+K10965
+K10934
+K10935
+K10966

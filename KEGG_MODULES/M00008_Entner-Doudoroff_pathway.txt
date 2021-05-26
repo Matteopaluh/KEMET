@@ -1,0 +1,24 @@
+ENTRY       M00008            Pathway   Module
+NAME        Entner-Doudoroff pathway, glucose-6P => glyceraldehyde-3P + pyruvate
+DEFINITION  K00036 (K01057,K07404) K01690 K01625
+ORTHOLOGY   K00036  glucose-6-phosphate 1-dehydrogenase [EC:1.1.1.49 1.1.1.363] [RN:R02736 R10907]
+            K01057,K07404  6-phosphogluconolactonase [EC:3.1.1.31] [RN:R02035]
+            K01690  phosphogluconate dehydratase [EC:4.2.1.12] [RN:R02036]
+            K01625  2-dehydro-3-deoxyphosphogluconate aldolase [EC:4.1.2.14] [RN:R05605]
+CLASS       Pathway modules; Carbohydrate metabolism; Central carbohydrate metabolism
+PATHWAY     map00030  Pentose phosphate pathway
+            map01200  Carbon metabolism
+            map01100  Metabolic pathways
+            map01120  Microbial metabolism in diverse environments
+REACTION    R02736  C01172 -> C01236
+            R02035  C01236 -> C00345
+            R02036  C00345 -> C04442
+            R05605  C04442 -> C00118 + C00022
+COMPOUND    C01172  beta-D-Glucose 6-phosphate
+            C01236  D-Glucono-1,5-lactone 6-phosphate
+            C00345  6-Phospho-D-gluconate
+            C04442  2-Dehydro-3-deoxy-6-phospho-D-gluconate
+            C00118  D-Glyceraldehyde 3-phosphate
+            C00022  Pyruvate
+RMODULE     RM034  Sugar degradation to aldehyde and pyruvate
+///

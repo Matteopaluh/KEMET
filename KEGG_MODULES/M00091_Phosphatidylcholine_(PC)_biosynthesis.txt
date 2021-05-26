@@ -1,0 +1,16 @@
+ENTRY       M00091            Pathway   Module
+NAME        Phosphatidylcholine (PC) biosynthesis, PE => PC
+DEFINITION  (K00551,K00570,(K16369 K00550))
+ORTHOLOGY   K00551,K16369,K00570  phosphatidylethanolamine N-methyltransferase [EC:2.1.1.17] [RN:R02056]
+            K00570,K00550,K00551  phosphatidyl-N-methylethanolamine N-methyltransferase [EC:2.1.1.71] [RN:R03424 R01320]
+CLASS       Pathway modules; Lipid metabolism; Lipid metabolism
+PATHWAY     map00564  Glycerophospholipid metabolism
+            map01100  Metabolic pathways
+REACTION    R02056  C00350 -> C01241
+            R03424  C01241 -> C04308
+            R01320  C04308 -> C00157
+COMPOUND    C00350  Phosphatidylethanolamine
+            C01241  Phosphatidyl-N-methylethanolamine
+            C04308  Phosphatidyl-N-dimethylethanolamine
+            C00157  Phosphatidylcholine
+///

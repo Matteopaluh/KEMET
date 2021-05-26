@@ -1,0 +1,5 @@
+M00797_dTDP-D-desosamine biosynthesis
+K13308
+K13309
+K13310, K16436
+K13311, K13326

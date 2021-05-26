@@ -1,0 +1,28 @@
+ENTRY       M00801            Pathway   Module
+NAME        dTDP-L-olivose biosynthesis
+DEFINITION  K16435 K13327 K19858 K13319
+ORTHOLOGY   K16435  oleV; dTDP-4-dehydro-6-deoxy-alpha-D-glucopyranose 2,3-dehydratase [EC:4.2.1.159] [RN:R05518]
+            K13327  oleW; dTDP-3,4-didehydro-2,6-dideoxy-alpha-D-glucose 3-reductase [EC:1.1.1.384] [RN:R05526]
+            K19858  oleL; dTDP-4-oxo-2,6-dideoxy-D-glucose 3,5-epimerase [EC:5.1.3.-] [RN:R08597]
+            K13319  oleU; 4-ketoreductase [RN:R06434]
+CLASS       Pathway modules; Biosynthesis of terpenoids and polyketides; Polyketide sugar unit biosynthesis
+PATHWAY     map00523  Polyketide sugar unit biosynthesis
+            map01100  Metabolic pathways
+            map01130  Biosynthesis of antibiotics
+REACTION    R05518  C11907 -> C06620
+            R05526  C06620 -> C11922
+            R08597  C11922 -> C11927
+            R06434  C11927 -> C11920
+COMPOUND    C11907  dTDP-4-oxo-6-deoxy-D-glucose
+            C06620  dTDP-3,4-dioxo-2,6-dideoxy-D-glucose
+            C11922  dTDP-4-oxo-2,6-dideoxy-D-glucose
+            C11927  dTDP-4-oxo-2,6-dideoxy-L-mannose
+            C11920  dTDP-L-olivose
+RMODULE     RM036  Epimerization and reduction in deoxysugar biosynthesis
+            RM038  Deoxygenation (dehydration and reduction) in deoxysugar biosynthesis
+REFERENCE   PMID:10770761
+  AUTHORS   Aguirrezabalaga I, Olano C, Allende N, Rodriguez L, Brana AF, Mendez C, Salas JA
+  TITLE     Identification and expression of genes involved in biosynthesis of L-oleandrose and its intermediate L-olivose in the oleandomycin producer Streptomyces antibioticus.
+  JOURNAL   Antimicrob Agents Chemother 44:1266-75 (2000)
+            DOI:10.1128/AAC.44.5.1266-1275.2000
+///

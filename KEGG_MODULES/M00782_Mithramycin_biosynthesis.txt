@@ -1,0 +1,35 @@
+ENTRY       M00782            Pathway   Module
+NAME        Mithramycin biosynthesis, 4-demethylpremithramycinone => mithramycin
+DEFINITION  K15959 K15960 K15961 K15963 K15964 K15965 K15966 K15967
+ORTHOLOGY   K15959  mtmMI; O-methyltransferase [EC:2.1.1.-] [RN:R06715]
+            K15960  mtmGIV; glycosyltransferase [EC:2.4.1.-] [RN:R06716 R06718]
+            K15961  mtmGIII; glycosyltransferase [EC:2.4.1.-] [RN:R06717]
+            K15963  mtmMII; C-methyltransferase [EC:2.1.1.-] [RN:R06719]
+            K15964  mtmGI; glycosyltransferase [EC:2.4.1.-] [RN:R09351]
+            K15965  mtmGII; glycosyltransferase [EC:2.4.1.-] [RN:R09352]
+            K15966  mtmOIV; monooxygenase [EC:1.14.13.-] [RN:R09353]
+            K15967  mtmW; ketoreductase [RN:R09354]
+CLASS       Pathway modules; Biosynthesis of terpenoids and polyketides; Type II polyketide biosynthesis
+PATHWAY     map01057  Biosynthesis of type II polyketide products
+            map01100  Metabolic pathways
+            map01130  Biosynthesis of antibiotics
+REACTION    R06715  C12382 -> C12383
+            R06716  C12383 -> C12384
+            R06717  C12384 -> C12385
+            R06718  C12385 -> C12386
+            R06719  C12386 -> C12387
+            R09351  C12387 -> C18710
+            R09352  C18710 -> C12388
+            R09353  C12388 -> C18711
+            R09354  C18711 -> C12389
+COMPOUND    C12382  4-Demethylpremithramycinone
+            C12383  Premithramycinone
+            C12384  Premithramycin A1
+            C12385  Premithramycin A2'
+            C12386  Premithramycin A3'
+            C12387  Premithramycin A3
+            C18710  3A-Deolivosylpremithramycin B
+            C12388  Premithramycin B
+            C18711  Mithramycin DK
+            C12389  Mithramycin
+///

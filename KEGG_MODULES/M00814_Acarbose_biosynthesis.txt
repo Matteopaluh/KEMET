@@ -1,0 +1,48 @@
+ENTRY       M00814            Pathway   Module
+NAME        Acarbose biosynthesis, sedoheptulopyranose-7P => acarbose
+DEFINITION  K19969 K19979 K19974 K20424 K20425 K20426 K20427 K20430
+ORTHOLOGY   K19969  acbC; 2-epi-5-epi-valiolone synthase [EC:4.2.3.152] [RN:R10937]
+            K19979  acbM; 2-epi-5-epi-valiolone 7-kinase [EC:2.7.1.188] [RN:R11185]
+            K19974  acbO; 2-epi-5-epi-valiolone 7-phosphate 2-epimerase [EC:5.1.3.35] [RN:R11081]
+            K20424  acbL; 2-epi-valiolone-7-phosphate 1-reductase [EC:1.1.1.-]  [RN:R11243]
+            K20425  acbN; cyclitol oxidoreductase [RN:R11244]
+            K20426  acbU; 1-epi-valienol-7-phosphate kinase [EC:2.7.-.-] [RN:R11245]
+            K20427  acbR; 1-epi-valienol 1,7-diphosphate adenylyltransferases [EC:2.7.7.-]  [RN:R11246]
+            K20430  acbS; glycosyltransferase AcbS [EC:2.4.-.-] [RN:R11247]
+CLASS       Pathway modules; Biosynthesis of other secondary metabolites; Biosynthesis of other secondary metabolites
+PATHWAY     map00525  Acarbose and validamycin biosynthesis
+            map01100  Metabolic pathways
+            map01130  Biosynthesis of antibiotics
+REACTION    R10937  C20956 -> C17691
+            R11185  C17691 -> C17692
+            R11081  C17692 -> C17693
+            R11243  C17693 -> C21204
+            R11244  C21204 -> C21205
+            R11245  C21205 -> C21206
+            R11246  C21206 -> C21207
+            R11247  C04268 + C21207 -> C21208
+            R11248  C21208 -> C21156
+            R11305  C21156 -> C06802
+COMPOUND    C20956  alpha-D-Sedoheptulopyranose 7-phosphate
+            C17691  2-epi-5-epi-Valiolone
+            C17692  2-epi-5-epi-Valiolone 7-phosphate
+            C17693  5-epi-Valiolone 7-phosphate
+            C21204  5-epi-Valiolol 7-phosphate
+            C21205  1-epi-Valienol 7-phosphate
+            C21206  1,7-diphospho-1-epi-valienol
+            C21207  NDP-1-epi-valienol 7-phosphate
+            C04268  dTDP-4-amino-4,6-dideoxy-D-glucose
+            C21208  dTDP-acarviose-7-phosphate
+            C21156  Acarbose 7IV-phosphate
+            C06802  Acarbose
+REFERENCE   PMID:22944206
+  AUTHORS   Wendler S, Hurtgen D, Kalinowski J, Klein A, Niehaus K, Schulte F, Schwientek P, Wehlmann H, Wehmeier UF, Puhler A
+  TITLE     The cytosolic and extracellular proteomes of Actinoplanes sp. SE50/110 led to the identification of gene products involved in acarbose metabolism.
+  JOURNAL   J Biotechnol 167:178-89 (2013)
+            DOI:10.1016/j.jbiotec.2012.08.011
+REFERENCE   PMID:19059289
+  AUTHORS   Rockser Y, Wehmeier UF
+  TITLE     The gac-gene cluster for the production of acarbose from Streptomyces glaucescens GLA.O: identification, isolation and characterization.
+  JOURNAL   J Biotechnol 140:114-23 (2009)
+            DOI:10.1016/j.jbiotec.2008.10.016
+///

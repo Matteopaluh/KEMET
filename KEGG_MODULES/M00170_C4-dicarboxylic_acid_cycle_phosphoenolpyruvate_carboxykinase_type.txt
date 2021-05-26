@@ -1,0 +1,21 @@
+ENTRY       M00170            Pathway   Module
+NAME        C4-dicarboxylic acid cycle, phosphoenolpyruvate carboxykinase type
+DEFINITION  K01595 K14454 K14455 K01610
+ORTHOLOGY   K01595  phosphoenolpyruvate carboxylase [EC:4.1.1.31] [RN:R00345]
+            K14454  aspartate aminotransferase [EC:2.6.1.1] [RN:R00355]
+            K14455  aspartate aminotransferase, mitochondrial [EC:2.6.1.1] [RN:R00355]
+            K01610  phosphoenolpyruvate carboxykinase (ATP) [EC:4.1.1.49] [RN:R00341]
+CLASS       Pathway modules; Energy metabolism; Carbon fixation
+PATHWAY     map00710  Carbon fixation in photosynthetic organisms
+            map01200  Carbon metabolism
+            map01100  Metabolic pathways
+            map01120  Microbial metabolism in diverse environments
+REACTION    R00345  C00074 -> C00036
+            R00355  C00036 -> C00049
+            R00355  C00049 -> C00036
+            R00341  C00036 -> C00074+C00011
+COMPOUND    C00074  Phosphoenolpyruvate
+            C00036  Oxaloacetate
+            C00049  L-Aspartate
+            C00011  CO2
+///

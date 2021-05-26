@@ -1,0 +1,14 @@
+ENTRY       M00664            Signature Module
+NAME        Nodulation
+DEFINITION  K14658 K14659 K14666 K14657
+ORTHOLOGY   K14658  nodA; nodulation protein A [EC:2.3.1.-]
+            K14659  nodB; chitooligosaccharide deacetylase [EC:3.5.1.-]
+            K14666  nodC; N-acetylglucosaminyltransferase [EC:2.4.1.-]
+            K14657  nodD; LysR family transcriptional regulator, nod-box dependent transcriptional activator
+CLASS       Signature modules; Gene set; Symbiosis
+REFERENCE   PMID:9162496
+  AUTHORS   Peters NK
+  TITLE     Nodulation: finding the lost common denominator.
+  JOURNAL   Curr Biol 7:R223-6 (1997)
+            DOI:10.1016/S0960-9822(06)00106-0
+///

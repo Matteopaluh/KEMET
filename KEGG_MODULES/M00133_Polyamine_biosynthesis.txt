@@ -1,0 +1,23 @@
+ENTRY       M00133            Pathway   Module
+NAME        Polyamine biosynthesis, arginine => agmatine => putrescine => spermidine
+DEFINITION  (K01583,K01584,K01585,K02626) K01480
+            K01611
+            K00797
+ORTHOLOGY   K01585,K01584,K02626,K01583  arginine decarboxylase [EC:4.1.1.19] [RN:R00566]
+            K01480  agmatinase [EC:3.5.3.11] [RN:R01157]
+            K01611  S-adenosylmethionine decarboxylase [EC:4.1.1.50] [RN:R00178]
+            K00797  spermidine synthase [EC:2.5.1.16] [RN:R01920]
+CLASS       Pathway modules; Amino acid metabolism; Polyamine biosynthesis
+PATHWAY     map00330  Arginine and proline metabolism
+            map01100  Metabolic pathways
+REACTION    R00566  C00062 -> C00179
+            R01157  C00179 -> C00134
+            R00178  C00019 -> C01137
+            R01920  C01137 + C00134 -> C00315
+COMPOUND    C00062  L-Arginine
+            C00179  Agmatine
+            C00134  Putrescine
+            C00019  S-Adenosyl-L-methionine
+            C01137  S-Adenosylmethioninamine
+            C00315  Spermidine
+///

@@ -1,0 +1,32 @@
+ENTRY       M00894            Pathway   Module
+NAME        Cannabidiol biosynthesis, malonyl-CoA => cannabidiol/dronabinol
+DEFINITION  K20503 K20508 -- K20502 K20501
+ORTHOLOGY   K20503  OLS; 3,5,7-trioxododecanoyl-CoA synthase [EC:2.3.1.206] [RN:R10171]
+            K20508  OAC; olivetolic acid cyclase [EC:4.4.1.26] [RN:R10278]
+            K20502  CBDAS; cannabidiolic acid synthase [EC:1.21.3.8] [RN:R10160]
+            K20501  THCAS; tetrahydrocannabinolic acid synthase [EC:1.21.3.7] [RN:R12101]
+CLASS       Pathway modules; Biosynthesis of other secondary metabolites; Biosynthesis of phytochemical compounds
+PATHWAY     map00999  Biosynthesis of various secondary metabolites - part 1
+            map01100  Metabolic pathways
+            map01110  Biosynthesis of secondary metabolites
+REACTION    R10171  C00083 -> C20413
+            R10278  C20413 -> C20417
+            R10176  C20417 -> C20406
+            R10160  C20406 -> C10784
+            R12103  C10784 -> C07578
+            R12101  C20406 -> C21903
+            R12102  C21903 -> C06972
+COMPOUND    C00083  Malonyl-CoA
+            C20413  3,5,7-Trioxododecanoyl-CoA
+            C20417  2,4-Dihydroxy-6-pentylbenzoate
+            C20406  Cannabigerolate
+            C10784  Cannabidiolic acid
+            C07578  Cannabidiol
+            C21903  Delta9-Tetrahydrocannabinolate
+            C06972  Dronabinol
+REFERENCE   PMID:17544411
+  AUTHORS   Taura F, Sirikantaramas S, Shoyama Y, Yoshikai K, Shoyama Y, Morimoto S
+  TITLE     Cannabidiolic-acid synthase, the chemotype-determining enzyme in the fiber-type Cannabis sativa.
+  JOURNAL   FEBS Lett 581:2929-34 (2007)
+            DOI:10.1016/j.febslet.2007.05.043
+///

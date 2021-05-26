@@ -1,0 +1,17 @@
+ENTRY       M00132            Pathway   Module
+NAME        Inositol phosphate metabolism, Ins(1,3,4)P3 => phytate
+DEFINITION  (K00913,K01765) K00915 K10572
+ORTHOLOGY   K00913,K01765  1D-myo-Inositol-trisphosphate 6-kinase [EC:2.7.1.159] [RN:R03429]
+            K00915  1D-myo-Inositol-tetrakisphosphate 5-kinase [EC:2.7.1.140] [RN:R03478]
+            K10572  inositol-pentakisphosphate 2-kinase [EC:2.7.1.158] [RN:R05202]
+CLASS       Pathway modules; Carbohydrate metabolism; Other carbohydrate metabolism
+PATHWAY     map00562  Inositol phosphate metabolism
+            map01100  Metabolic pathways
+REACTION    R03429  C01243 -> C04477
+            R03478  C04477 -> C01284
+            R05202  C01284 -> C01204
+COMPOUND    C01243  1D-myo-Inositol 1,3,4-trisphosphate
+            C04477  1D-myo-Inositol 1,3,4,6-tetrakisphosphate
+            C01284  1D-myo-Inositol 1,3,4,5,6-pentakisphosphate
+            C01204  myo-Inositol hexakisphosphate
+///

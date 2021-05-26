@@ -1,0 +1,35 @@
+ENTRY       M00308            Pathway   Module
+NAME        Semi-phosphorylative Entner-Doudoroff pathway, gluconate => glycerate-3P
+DEFINITION  K05308 K00874 K01625 (K00134 K00927,K00131,K18978)
+ORTHOLOGY   K05308  gluconate dehydratase [EC:4.2.1.140] [RN:R01538]
+            K00874  2-dehydro-3-deoxygluconokinase [EC:2.7.1.45] [RN:R01541]
+            K01625  2-dehydro-3-deoxyphosphogluconate aldolase [EC:4.1.2.14] [RN:R05605]
+            K00134  glyceraldehyde 3-phosphate dehydrogenase [EC:1.2.1.12] [RN:R01061]
+            K00927  phosphoglycerate kinase [EC:2.7.2.3] [RN:R01512]
+            K00131  glyceraldehyde-3-phosphate dehydrogenase (NADP+) [EC:1.2.1.9] [RN:R01058]
+            K18978  glyceraldehyde-3-phosphate dehydrogenase [NAD(P)+] [EC:1.2.1.90] [RN:R01058 R10860]
+CLASS       Pathway modules; Carbohydrate metabolism; Central carbohydrate metabolism
+PATHWAY     map00030  Pentose phosphate pathway
+            map01200  Carbon metabolism
+            map01100  Metabolic pathways
+            map01120  Microbial metabolism in diverse environments
+REACTION    R01538  C00257 -> C00204
+            R01541  C00204 -> C04442
+            R05605  C04442 -> C00118 + C00022
+            R01061  C00118 -> C00236
+            R01512  C00236 -> C00197
+            R01058,R10860  C00118 -> C00197
+COMPOUND    C00257  D-Gluconic acid
+            C00204  2-Dehydro-3-deoxy-D-gluconate
+            C04442  2-Dehydro-3-deoxy-6-phospho-D-gluconate
+            C00118  D-Glyceraldehyde 3-phosphate
+            C00022  Pyruvate
+            C00236  3-Phospho-D-glyceroyl phosphate
+            C00197  3-Phospho-D-glycerate
+COMMENT     Organism group: euryarchaeota
+REFERENCE   PMID:11271421
+  AUTHORS   Johnsen U, Selig M, Xavier KB, Santos H, Schonheit P
+  TITLE     Different glycolytic pathways for glucose and fructose in the halophilic archaeon Halococcus saccharolyticus.
+  JOURNAL   Arch Microbiol 175:52-61 (2001)
+            DOI:10.1007/s002030000237
+///

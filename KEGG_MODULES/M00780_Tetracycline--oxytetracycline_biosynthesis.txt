@@ -1,0 +1,37 @@
+ENTRY       M00780            Pathway   Module
+NAME        Tetracycline/oxytetracycline biosynthesis, pretetramide => tetracycline/oxytetracycline
+DEFINITION  K14251 K14252 K14253 K14254 K14255 K14256 K21301
+ORTHOLOGY   K14251  oxyF; C-methyltransferase [EC:2.1.1.-] [RN:R09189]
+            K14252  oxyL; 6-methylpretetramide 4-monooxygenase / 4-hydroxy-6-methylpretetramide 12a-monooxygenase [EC:1.14.13.232 1.14.13.233] [RN:R09190 R05462]
+            K14253  oxyE; 6-methylpretetramide 4-monooxygenase [EC:1.14.13.232] [RN:R05463]
+            K14254  oxyQ; aminotransferase [RN:R09197]
+            K14255  oxyT, ctcO, cts6; 4-amino-anhydrotetracycline N4-methyltransferase [EC:2.1.1.335] [RN:R09191]
+            K14256  oxyS, cts8; anhydrotetracycline 6-monooxygenase / 5a,11a-dehydrotetracycline 5-monooxygenase [EC:1.14.13.38 1.14.13.234] [RN:R04060 R09198]
+            K21301  oxyR; 5a,11a-dehydrotetracycline reductase [EC:1.3.98.4] [RN:R09192 R05459]
+CLASS       Pathway modules; Biosynthesis of terpenoids and polyketides; Type II polyketide biosynthesis
+PATHWAY     map00253  Tetracycline biosynthesis
+            map01057  Biosynthesis of type II polyketide products
+            map01100  Metabolic pathways
+            map01130  Biosynthesis of antibiotics
+REACTION    R09189  C18295 -> C06629
+            R05463  C06629 -> C06628
+            R05462  C06628 -> C06627
+            R09190  C06629 -> C06627
+            R09197  C06627 -> C06654
+            R09191  C06654 -> C02811
+            R04060  C02811 -> C03206
+            R05459  C03206 -> C06570
+            R09198  C03206 -> C18296
+            R09192  C18296 -> C06624
+COMPOUND    C18295  Pretetramid
+            C06629  6-Methylpretetramide
+            C06628  4-Hydroxy-6-methylpretetramide
+            C06627  4-Keto-anhydrotetracycline
+            C06654  4-Amino-anhydrotetracycline
+            C02811  Anhydrotetracycline
+            C03206  5a,11a-Dehydrotetracycline
+            C06570  Tetracycline
+            C18296  5a,11a-Dehydrooxytetracycline
+            C06624  Oxytetracycline
+RMODULE     RM035  Transamination and N,N-dimethylation in polyketide biosynthesis
+///

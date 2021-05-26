@@ -1,0 +1,25 @@
+ENTRY       M00533            Pathway   Module
+NAME        Homoprotocatechuate degradation, homoprotocatechuate => 2-oxohept-3-enedioate
+DEFINITION  K00455 K00151 K01826 K05921
+ORTHOLOGY   K00455  3,4-dihydroxyphenylacetate 2,3-dioxygenase [EC:1.13.11.15] [RN:R03303]
+            K00151  5-carboxymethyl-2-hydroxymuconic-semialdehyde dehydrogenase [EC:1.2.1.60] [RN:R04418]
+            K01826  5-carboxymethyl-2-hydroxymuconate isomerase [EC:5.3.3.10][RN:R04379]
+            K05921  5-oxopent-3-ene-1,2,5-tricarboxylate decarboxylase / 2-hydroxyhepta-2,4-diene-1,7-dioate isomerase [EC:4.1.1.68 5.3.3.-] [RN:R04380 R04134]
+CLASS       Pathway modules; Amino acid metabolism; Aromatic amino acid metabolism
+PATHWAY     map00350  Tyrosine metabolism
+            map01220  Degradation of aromatic compounds
+            map01100  Metabolic pathways
+            map01120  Microbial metabolism in diverse environments
+REACTION    R03303  C01161 -> C04642
+            R04418  C04642 -> C04186
+            R04379  C04186 -> C04052
+            R04380  C04052 -> C05600
+            R04134  C05600 -> C03063
+COMPOUND    C01161  3,4-Dihydroxyphenylacetate
+            C04642  2-Hydroxy-5-carboxymethylmuconate semialdehyde
+            C04186  5-Carboxymethyl-2-hydroxymuconate
+            C04052  5-Carboxy-2-oxohept-3-enedioate
+            C05600  2-Hydroxyhepta-2,4-dienedioate
+            C03063  2-Oxohept-3-enedioate
+RMODULE     RM012  Dihydroxylation and meta-cleavage of aromatic ring, type 3a
+///

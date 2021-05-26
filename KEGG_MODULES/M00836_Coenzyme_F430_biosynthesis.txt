@@ -1,0 +1,31 @@
+ENTRY       M00836            Pathway   Module
+NAME        Coenzyme F430 biosynthesis, sirohydrochlorin => coenzyme F430
+DEFINITION  K22011 K22012 (K21610+K21611) K21612
+ORTHOLOGY   K22011  cfbA; sirohydrochlorin nickelchelatase [EC:4.99.1.11] [RN:R11626]
+            K22012  cfbB; Ni-sirohydrochlorin a,c-diamide synthase [EC:6.3.5.12] [RN:R11627]
+            K21610,K21611  cfbCD; nickel-sirohydrochlorin a,c-diamide reductase [EC:6.3.3.7] [RN:R11628]
+            K21612  cfbE; coenzyme F430 synthetase [EC:6.4.1.9] [RN:R11629]
+CLASS       Pathway modules; Metabolism of cofactors and vitamins; Cofactor and vitamin metabolism
+PATHWAY     map00860  Porphyrin and chlorophyll metabolism
+            map01100  Metabolic pathways
+            map01120  Microbial metabolism in diverse environments
+REACTION    R11626  C05778 -> C21510
+            R11627  C21510 -> C21511
+            R11628  C21511 -> C21512
+            R11629  C21512 -> C05777
+COMPOUND    C05778  Sirohydrochlorin
+            C21510  Nickel-sirohydrochlorin
+            C21511  Nickel-sirohydrochlorin a,c-diamide
+            C21512  15,17(3)-Seco-F430-17(3)-acid
+            C05777  Coenzyme F430
+REFERENCE   PMID:27846569
+  AUTHORS   Zheng K, Ngo PD, Owens VL, Yang XP, Mansoorabadi SO
+  TITLE     The biosynthetic pathway of coenzyme F430 in methanogenic and methanotrophic archaea.
+  JOURNAL   Science 354:339-342 (2016)
+            DOI:10.1126/science.aag2947
+REFERENCE   PMID:28225763
+  AUTHORS   Moore SJ, Sowa ST, Schuchardt C, Deery E, Lawrence AD, Ramos JV, Billig S, Birkemeyer C, Chivers PT, Howard MJ, Rigby SE, Layer G, Warren MJ
+  TITLE     Elucidation of the biosynthesis of the methane catalyst coenzyme F430.
+  JOURNAL   Nature 543:78-82 (2017)
+            DOI:10.1038/nature21427
+///

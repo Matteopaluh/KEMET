@@ -1,0 +1,20 @@
+ENTRY       M00627            Signature Module
+NAME        beta-Lactam resistance, Bla system
+DEFINITION  K02172 K02171 (K18766,K17836)
+ORTHOLOGY   K02172  blaR1; bla regulator protein blaR1
+            K02171  blaI; BlaI family transcriptional regulator, penicillinase repressor
+            K18766  blaZ; beta-lactamase class A BlaZ [EC:3.5.2.6]
+            K17836  penP; beta-lactamase class A [EC:3.5.2.6]
+CLASS       Signature modules; Gene set; Drug resistance
+PATHWAY     map01501  beta-Lactam resistance
+REFERENCE   PMID:23163477
+  AUTHORS   Johnson JW, Fisher JF, Mobashery S
+  TITLE     Bacterial cell-wall recycling.
+  JOURNAL   Ann N Y Acad Sci 1277:54-75 (2013)
+            DOI:10.1111/j.1749-6632.2012.06813.x
+REFERENCE   PMID:22438804
+  AUTHORS   Amoroso A, Boudet J, Berzigotti S, Duval V, Teller N, Mengin-Lecreulx D, Luxen A, Simorre JP, Joris B
+  TITLE     A peptidoglycan fragment triggers beta-lactam resistance in Bacillus licheniformis.
+  JOURNAL   PLoS Pathog 8:e1002571 (2012)
+            DOI:10.1371/journal.ppat.1002571
+///

@@ -1,0 +1,32 @@
+ENTRY       M00344            Pathway   Module
+NAME        Formaldehyde assimilation, xylulose monophosphate pathway
+DEFINITION  K17100 K00863 K01624 K03841
+ORTHOLOGY   K17100  dihydroxyacetone synthase [EC:2.2.1.3] [RN:R01440]
+            K00863  dihydroxyacetone kinase [EC:2.7.1.29] [RN:R01011]
+            K01624  fructose-bisphosphate aldolase, class II [EC:4.1.2.13] [RN:R01068]
+            K03841  fructose-1,6-bisphosphatase I [EC:3.1.3.11] [RN:R00762]
+CLASS       Pathway modules; Energy metabolism; Methane metabolism
+PATHWAY     map00680  Methane metabolism
+            map01200  Carbon metabolism
+            map01100  Metabolic pathways
+            map01120  Microbial metabolism in diverse environments
+REACTION    R01440  C00067 -> C00184
+            R01011  C00184 -> C00111
+            R01068  C00111 -> C00354
+            R00762  C00354 -> C00085
+COMPOUND    C00067  Formaldehyde
+            C00184  Glycerone
+            C00111  Glycerone phosphate
+            C00354  D-Fructose 1,6-bisphosphate
+            C00085  D-Fructose 6-phosphate
+REFERENCE   PMID:16278835
+  AUTHORS   Yurimoto H, Kato N, Sakai Y
+  TITLE     Assimilation, dissimilation, and detoxification of formaldehyde, a central metabolic intermediate of methylotrophic metabolism.
+  JOURNAL   Chem Rec 5:367-75 (2005)
+            DOI:10.1002/tcr.20056
+REFERENCE   PMID:7074134
+  AUTHORS   Kato N, Higuchi T, Sakazawa C, Nishizawa T, Tani Y, Yamada H
+  TITLE     Purification and properties of a transketolase responsible for formaldehyde fixation in a methanol-utilizing yeast, candida boidinii (Kloeckera sp.) No. 2201.
+  JOURNAL   Biochim Biophys Acta 715:143-50 (1982)
+            DOI:10.1016/0304-4165(82)90352-X
+///

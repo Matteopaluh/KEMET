@@ -1,0 +1,18 @@
+ENTRY       M00795            Pathway   Module
+NAME        dTDP-beta-L-noviose biosynthesis
+DEFINITION  K19855 K12710 K17625
+ORTHOLOGY   K19855  novW; dTDP-4-dehydro-6-deoxy-D-glucose 3-epimerase [EC:5.1.3.27] [RN:R06437]
+            K12710  novU; C-methyltransferase [EC:2.1.1.-] [RN:R11020]
+            K17625  novS; dTDP-4-keto-6-deoxyhexose reductase [EC:1.1.1.-] [RN:R10459]
+CLASS       Pathway modules; Biosynthesis of terpenoids and polyketides; Polyketide sugar unit biosynthesis
+PATHWAY     map00523  Polyketide sugar unit biosynthesis
+            map01100  Metabolic pathways
+            map01130  Biosynthesis of antibiotics
+REACTION    R06437  C11907 -> C11926
+            R11020  C11926 -> C11460
+            R10459  C11460 -> C12481
+COMPOUND    C11907  dTDP-4-oxo-6-deoxy-D-glucose
+            C11926  dTDP-4-oxo-6-deoxy-D-allose
+            C11460  dTDP-4-oxo-5-C-methyl-L-rhamnose
+            C12481  dTDP-5-dimethyl-L-lyxose
+///

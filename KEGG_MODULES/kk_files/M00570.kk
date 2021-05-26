@@ -1,0 +1,8 @@
+M00570_Isoleucine biosynthesis, threonine => 2-oxobutanoate => isoleucine
+K17989, K01754
+K01652, K01653, K11258
+K00053
+K01687
+K00826
+COMPLEXES_LIST
+K01652+K01653, K01652+K11258

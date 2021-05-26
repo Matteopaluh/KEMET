@@ -1,0 +1,25 @@
+ENTRY       M00160            Complex   Module
+NAME        V-type ATPase, eukaryotes
+DEFINITION  K02145+K02147+K02148+K02149+K02150+K02151+K02152+K02144+K02154+(K03661,K02155)+K02146+K02153+K03662
+ORTHOLOGY   K02145  ATPeV1A; V-type H+-transporting ATPase subunit A [EC:3.6.3.14]
+            K02147  ATPeV1B; V-type H+-transporting ATPase subunit B
+            K02148  ATPeV1C; V-type H+-transporting ATPase subunit C
+            K02149  ATPeV1D; V-type H+-transporting ATPase subunit D
+            K02150  ATPeV1E; V-type H+-transporting ATPase subunit E
+            K02151  ATPeV1F; V-type H+-transporting ATPase subunit F
+            K02152  ATPeV1G; V-type H+-transporting ATPase subunit G
+            K02144  ATPeV1H; V-type H+-transporting ATPase subunit H
+            K02154  ATPeV0A; V-type H+-transporting ATPase subunit a
+            K03661  ATPeV0B; V-type H+-transporting ATPase 21kDa proteolipid subunit
+            K02155  ATPeV0C; V-type H+-transporting ATPase 16kDa proteolipid subunit
+            K02146  ATPeV0D; V-type H+-transporting ATPase subunit d
+            K02153  ATPeV0E; V-type H+-transporting ATPase subunit e
+            K03662  ATPeVS1; V-type H+-transporting ATPase S1 subunit
+CLASS       Pathway modules; Energy metabolism; ATP synthesis
+PATHWAY     map00190  Oxidative phosphorylation
+REFERENCE   PMID:18423392
+  AUTHORS   Cipriano DJ, Wang Y, Bond S, Hinton A, Jefferies KC, Qi J, Forgac M
+  TITLE     Structure and regulation of the vacuolar ATPases.
+  JOURNAL   Biochim Biophys Acta 1777:599-604 (2008)
+            DOI:10.1016/j.bbabio.2008.03.013
+///

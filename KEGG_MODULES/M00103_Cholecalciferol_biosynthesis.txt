@@ -1,0 +1,16 @@
+ENTRY       M00103            Pathway   Module
+NAME        Cholecalciferol biosynthesis
+DEFINITION  K07419 K07438
+ORTHOLOGY   K07419  cytochrome P450, family 2, subfamily R, polypeptide 1 (vitamin D 25-hydroxylase [EC:1.14.14.24] [RN:R03611]
+            K07438  cytochrome P450, family 27, subfamily B (25-hydroxyvitamin D3 [EC:1.14.13.13] [RN:R03610]
+CLASS       Pathway modules; Lipid metabolism; Sterol biosynthesis
+PATHWAY     map00100  Steroid biosynthesis
+            map01100  Metabolic pathways
+REACTION    R03311  C01164 -> C05443
+            R03611  C05443 -> C01561
+            R03610  C01561 -> C01673
+COMPOUND    C01164  Cholesta-5,7-dien-3beta-ol
+            C05443  Vitamin D3
+            C01561  Calcidiol
+            C01673  Calcitriol
+///

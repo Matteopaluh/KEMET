@@ -1,0 +1,11 @@
+M00039_Monolignol biosynthesis, phenylalanine/tyrosine => monolignol
+K10775, K13064
+K00487
+K01904
+K13065
+K09754
+K00588
+K09753
+K09755
+K13066
+K00083, K22395

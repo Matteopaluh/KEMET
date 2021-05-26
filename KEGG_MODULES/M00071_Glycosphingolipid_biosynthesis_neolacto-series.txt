@@ -1,0 +1,14 @@
+ENTRY       M00071            Pathway   Module
+NAME        Glycosphingolipid biosynthesis, neolacto-series, LacCer => nLc4Cer
+DEFINITION  K03766 (K07966,K07967,K07968,K07969)
+ORTHOLOGY   K03766  B3GNT5 [EC:2.4.1.206] [RN:R05971]
+            K07966,K07967,K07968,K07969  B4GALT1,B4GALT2,B4GALT3,B4GALT4 [EC:2.4.1.275 2.4.1.-] [RN:R05977]
+CLASS       Pathway modules; Glycan metabolism; Glycan biosynthesis
+PATHWAY     map00601  Glycosphingolipid biosynthesis - lacto and neolacto series
+            map01100  Metabolic pathways
+REACTION    R05971  G00092 -> G00036
+            R05977  G00036 -> G00050
+COMPOUND    G00092  Lactosylceramide; LacCer; (Gal)1 (Glc)1 (Cer)1
+            G00036  Lc3Cer; (Gal)1 (Glc)1 (GlcNAc)1 (Cer)1
+            G00050  nLc4Cer; (Gal)2 (Glc)1 (GlcNAc)1 (Cer)1
+///

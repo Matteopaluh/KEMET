@@ -1,0 +1,16 @@
+M00838_Undecylprodigiosin biosynthesis, L-proline => undecylprodigiosin
+/
+K21780, K21781
+K21782
+K21783
+K21784
+K21785
+K21786
+/
+K21791
+K21792
+K21793
+/
+K21787
+COMPLEXES_LIST
+K21780+K21781

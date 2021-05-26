@@ -1,0 +1,25 @@
+ENTRY       M00154            Complex   Module
+NAME        Cytochrome c oxidase
+DEFINITION  (K02257+K02262+K02256+K02261+K02263+K02264+K02265+K02266+K02267+K02268+(K02269,K02270-K02271)+K02272-K02273+K02258+K02259+K02260)
+ORTHOLOGY   K02257  COX10; protoheme IX farnesyltransferase [EC:2.5.1.-]
+            K02262  COX3; cytochrome c oxidase subunit 3
+            K02256  COX1; cytochrome c oxidase subunit 1 [EC:1.9.3.1]
+            K02261  COX2; cytochrome c oxidase subunit 2
+            K02263  COX4; cytochrome c oxidase subunit 4
+            K02264  COX5A; cytochrome c oxidase subunit 5a
+            K02265  COX5B; cytochrome c oxidase subunit 5b
+            K02266  COX6A; cytochrome c oxidase subunit 6a
+            K02267  COX6B; cytochrome c oxidase subunit 6b
+            K02268  COX6C; cytochrome c oxidase subunit 6c
+            K02269  COX7; cytochrome c oxidase subunit 7
+            K02270  COX7A; cytochrome c oxidase subunit 7a
+            K02271  COX7B; cytochrome c oxidase subunit 7b
+            K02272  COX7C; cytochrome c oxidase subunit 7c
+            K02273  COX8; cytochrome c oxidase subunit 8
+            K02258  COX11; cytochrome c oxidase assembly protein subunit 11
+            K02259  COX15; cytochrome c oxidase assembly protein subunit 15
+            K02260  COX17; cytochrome c oxidase assembly protein subunit 17
+CLASS       Pathway modules; Energy metabolism; ATP synthesis
+PATHWAY     map00190  Oxidative phosphorylation
+COMMENT     Complex IV in the electron transport chain.
+///

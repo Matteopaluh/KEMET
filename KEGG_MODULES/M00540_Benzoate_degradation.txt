@@ -1,0 +1,25 @@
+ENTRY       M00540            Pathway   Module
+NAME        Benzoate degradation, cyclohexanecarboxylic acid =>pimeloyl-CoA
+DEFINITION  K04116 K04117 K07534 K07535 K07536
+ORTHOLOGY   K04116  aliA; cyclohexanecarboxylate-CoA ligase [EC:6.2.1.-] [RN:R05620]
+            K04117  aliB; cyclohexanecarboxyl-CoA dehydrogenase [EC:1.3.99.-] [RN:R05619]
+            K07534  badK; cyclohex-1-ene-1-carboxyl-CoA hydratase [EC:4.2.1.-] [RN:R05600]
+            K07535  badH; 2-hydroxycyclohexanecarboxyl-CoA dehydrogenase [EC:1.1.1.-] [RN:R05582]
+            K07536  badI; 2-ketocyclohexanecarboxyl-CoA hydrolase [EC:3.1.2.-] [RN:R05592]
+CLASS       Pathway modules; Xenobiotics biodegradation; Aromatics degradation
+PATHWAY     map00362  Benzoate degradation
+            map01220  Degradation of aromatic compounds
+            map01100  Metabolic pathways
+            map01120  Microbial metabolism in diverse environments
+REACTION    R05620  C09822 -> C09823
+            R05619  C09823 -> C09811
+            R05600  C09811 -> C09812
+            R05582  C09812 -> C09813
+            R05592  C09813 -> C01063
+COMPOUND    C09822  Cyclohexane-1-carboxylate
+            C09823  Cyclohexane-1-carboxyl-CoA
+            C09811  Cyclohex-1-ene-1-carboxyl-CoA
+            C09812  2-Hydroxycyclohexane-1-carboxyl-CoA
+            C09813  2-Ketocyclohexane-1-carboxyl-CoA
+            C01063  6-Carboxyhexanoyl-CoA
+///

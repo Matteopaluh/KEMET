@@ -1,0 +1,21 @@
+ENTRY       M00555            Pathway   Module
+NAME        Betaine biosynthesis, choline => betaine
+DEFINITION  (K17755,((K00108,K11440,K00499) (K00130,K14085)))
+ORTHOLOGY   K00108,K11440  choline dehydrogenase [EC:1.1.99.1] [RN:R01025 R08557 R08558]
+            K00499  choline monooxygenase [EC:1.14.15.7] [RN:R07409]
+            K17755  choline oxidase [EC:1.1.3.17] [RN:R01022 R08211]
+            K00130,K14085  betaine-aldehyde dehydrogenase [EC:1.2.1.8] [RN:R02565 R02566]
+CLASS       Pathway modules; Amino acid metabolism; Serine and threonine metabolism
+PATHWAY     map00260 Glycine, serine and threonine metabolism
+            map01100  Metabolic pathways
+REACTION    R01025,R08557,R08558,R07409,R01022  C00114 -> C00576
+            R02565,R02566,R08211  C00576 -> C00719
+COMPOUND    C00114  Choline
+            C00576  Betaine aldehyde
+            C00719  Betaine
+REFERENCE   PMID:8752328
+  AUTHORS   Boch J, Kempf B, Schmid R, Bremer E
+  TITLE     Synthesis of the osmoprotectant glycine betaine in Bacillus subtilis: characterization of the gbsAB genes.
+  JOURNAL   J Bacteriol 178:5121-9 (1996)
+            DOI:10.1128/JB.178.17.5121-5129.1996
+///

@@ -1,0 +1,26 @@
+ENTRY       M00044            Pathway   Module
+NAME        Tyrosine degradation, tyrosine => homogentisate
+DEFINITION  (K00815,K00838,K03334) K00457 K00451 K01800 (K01555,K16171)
+ORTHOLOGY   K00815,K00838  tyrosine aminotransferase [EC:2.6.1.5] [RN:R00734]
+            K03334  L-amino-acid oxidase [EC:1.4.3.2] [RN:R00729]
+            K00457  4-hydroxyphenylpyruvate dioxygenase [EC:1.13.11.27] [RN:R02521]
+            K00451  homogentisate 1,2-dioxygenase [EC:1.13.11.5] [RN:R02519]
+            K01800  maleylacetoacetate isomerase [EC:5.2.1.2] [RN:R03181]
+            K01555  fumarylacetoacetase [EC:3.7.1.2] [RN:R01364]
+            K16171  fumarylacetoacetate (FAA) hydrolase [EC:3.7.1.2] [RN:R01364]
+CLASS       Pathway modules; Amino acid metabolism; Aromatic amino acid metabolism
+PATHWAY     map00350  Tyrosine metabolism
+            map01100  Metabolic pathways
+REACTION    R00734,R00729  C00082 -> C01179
+            R02521  C01179 -> C00544
+            R02519  C00544 -> C01036
+            R03181  C01036 -> C01061
+            R01364  C01061 -> C00164 + C00122
+COMPOUND    C00082  L-Tyrosine
+            C01179  3-(4-Hydroxyphenyl)pyruvate
+            C00544  Homogentisate
+            C01036  4-Maleylacetoacetate
+            C01061  4-Fumarylacetoacetate
+            C00164  Acetoacetate
+            C00122  Fumarate
+///

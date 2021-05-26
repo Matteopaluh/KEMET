@@ -1,0 +1,17 @@
+ENTRY       M00093            Pathway   Module
+NAME        Phosphatidylethanolamine (PE) biosynthesis, PA => PS => PE
+DEFINITION  K00981 (K00998,K17103) K01613
+ORTHOLOGY   K00981  phosphatidate cytidylyltransferase [EC:2.7.7.41] [RN:R01799]
+            K00998,K17103  phosphatidylserine synthase [EC:2.7.8.8] [RN:R01800]
+            K01613  phosphatidylserine decarboxylase [EC:4.1.1.65] [RN:R02055]
+CLASS       Pathway modules; Lipid metabolism; Lipid metabolism
+PATHWAY     map00564  Glycerophospholipid metabolism
+            map01100  Metabolic pathways
+REACTION    R01799  C00416 -> C00269
+            R01800  C00269 -> C02737
+            R02055  C02737 -> C00350
+COMPOUND    C00416  Phosphatidate
+            C00269  CDP-diacylglycerol
+            C02737  Phosphatidylserine
+            C00350  Phosphatidylethanolamine
+///

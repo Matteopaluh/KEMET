@@ -1,0 +1,18 @@
+ENTRY       M00168            Pathway   Module
+NAME        CAM (Crassulacean acid metabolism), dark
+DEFINITION  K01595 (K00025,K00026,K00024)
+ORTHOLOGY   K01595  phosphoenolpyruvate carboxylase [EC:4.1.1.31] [RN:R00345]
+            K00025,K00026,K00024  malate dehydrogenase [EC:1.1.1.37] [RN:R00342]
+CLASS       Pathway modules; Energy metabolism; Carbon fixation
+PATHWAY     map00620  Pyruvate metabolism
+            map00710  Carbon fixation in photosynthetic organisms
+            map01200  Carbon metabolism
+            map01100  Metabolic pathways
+            map01120  Microbial metabolism in diverse environments
+REACTION    R00345  C00074 + C00011 -> C00036
+            R00342  C00036 -> C00149
+COMPOUND    C00074  Phosphoenolpyruvate
+            C00011  CO2
+            C00036  Oxaloacetate
+            C00149  (S)-Malate
+///

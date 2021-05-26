@@ -1,0 +1,25 @@
+ENTRY       M00067            Pathway   Module
+NAME        Sulfoglycolipids biosynthesis, ceramide/1-alkyl-2-acylglycerol => sulfatide/seminolipid
+DEFINITION  K04628 K01019
+ORTHOLOGY   K04628  ceramide galactosyltransferase [EC:2.4.1.47] [RN:R01500 R10804]
+            K01019  galactosylceramide sulfotransferase [EC:2.8.2.11] [RN:R04017 R10805]
+CLASS       Pathway modules; Lipid metabolism; Lipid metabolism
+PATHWAY     map00600  Sphingolipid metabolism
+            map00565  Ether lipid metabolism
+            map01100  Metabolic pathways
+REACTION    R01500  C00195 -> C02686
+            R04017  C02686 -> C06125
+            R10804  C03201 -> C20859
+            R10805  C20859 -> C20825
+COMPOUND    C00195  N-Acylsphingosine
+            C02686  Galactosylceramide
+            C06125  Sulfatide
+            C03201  1-Alkyl-2-acylglycerol
+            C20859  Galactosyl-1-alkyl-2-acylglycerol
+            C20825  Seminolipid
+REFERENCE   PMID:23574804
+  AUTHORS   Honke K
+  TITLE     Biosynthesis and biological function of sulfoglycolipids.
+  JOURNAL   Proc Jpn Acad Ser B Phys Biol Sci 89:129-38 (2013)
+            DOI:10.2183/pjab.89.129
+///

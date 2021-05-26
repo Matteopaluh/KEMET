@@ -1,0 +1,36 @@
+ENTRY       M00893            Pathway   Module
+NAME        Lovastatin biosynthesis, malonyl-CoA => lovastatin acid
+DEFINITION  K20981 K20982 K20985 K20980 
+            K20984
+            K20983
+ORTHOLOGY   K20981  LOVB; lovastatin nonaketide synthase [EC:2.3.1.161] [RN:R07251]
+            K20982  LOVC; lovastatin enoyl reductase [EC:2.3.1.161] [RN:R07251]
+            K20985  LOVG; dihydromonacolin L-[lovastatin nonaketide synthase] thioesterase [EC:3.1.2.31] [RN:R11187]
+            K20980  LOVA; dihydromonacolin L/monacolin L hydroxylase [EC:1.14.14.124 1.14.14.125] [RN:R10791 R10792 R10794]
+            K20984  LOVF; 2-methylbutanoate polyketide synthase [EC:2.3.1.244] [RN:R11445]
+            K20983  LOVD; monacolin J acid methylbutanoate transferase [EC:2.3.1.238] [RN:R11126]
+CLASS       Pathway modules; Biosynthesis of other secondary metabolites; Biosynthesis of other fungal compounds
+PATHWAY     map00999  Biosynthesis of various secondary metabolites - part 1
+            map01100  Metabolic pathways
+            map01110  Biosynthesis of secondary metabolites
+REACTION    R07251  C00083 -> C21108
+            R11187  C21108 -> C10851
+            R10791  C10851 -> C20852
+            R10792  C20852 -> C20853
+            R10794  C20853 -> C20854
+            R11445  C00083 -> C21129
+            R11126  C20854 + C21129 -> C21130
+COMPOUND    C00083  Malonyl-CoA
+            C21108  Dihydromonacolin L-[acyl-carrier protein]
+            C10851  Calystegin B2
+            C20852  3alpha-Hydroxy-3,5-dihydromonacolin L acid
+            C20853  Monacolin L acid
+            C20854  Monacolin J acid
+            C21129  (S)-2-Methylbutanoyl-[acp]
+            C21130  Lovastatin acid
+REFERENCE   PMID:23653178
+  AUTHORS   Xu W, Chooi YH, Choi JW, Li S, Vederas JC, Da Silva NA, Tang Y
+  TITLE     LovG: the thioesterase required for dihydromonacolin L release and lovastatin nonaketide synthase turnover in lovastatin biosynthesis.
+  JOURNAL   Angew Chem Int Ed Engl 52:6472-5 (2013)
+            DOI:10.1002/anie.201302406
+///

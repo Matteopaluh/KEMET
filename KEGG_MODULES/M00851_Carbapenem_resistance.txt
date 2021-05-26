@@ -1,0 +1,27 @@
+ENTRY       M00851            Signature Module
+NAME        Carbapenem resistance
+DEFINITION  (K18768,K18970,K19316,K22346,K18794,K19318,K18971,K18793,K19319,K19320,K19321,K19322,K18972,K19211,K18976,K21277,K18782,K18781,K18780,K19099,K19216)
+ORTHOLOGY   K18768  blaKPC; beta-lactamase class A KPC [EC:3.5.2.6]
+            K18970  blaGES; beta-lactamase class A GES [EC:3.5.2.6]
+            K19316  blaIMI; beta-lactamase class A IMI [EC:3.5.2.6]
+            K22346  blaSME; beta-lactamase class A SME [EC:3.5.2.6]
+            K18794  blaOXA-51; beta-lactamase class D OXA-51 [EC:3.5.2.6]
+            K19318  blaOXA-213; beta-lactamase class D OXA-213 [EC:3.5.2.6]
+            K18971  blaOXA-24; beta-lactamase class D OXA-24 [EC:3.5.2.6]
+            K18793  blaOXA-23; beta-lactamase class D OXA-23 [EC:3.5.2.6]
+            K19319  blaOXA-134; beta-lactamase class D OXA-134 [EC:3.5.2.6]
+            K19320  blaOXA-211; beta-lactamase class D OXA-211 [EC:3.5.2.6]
+            K19321  blaOXA-214; beta-lactamase class D OXA-214 [EC:3.5.2.6]
+            K19322  blaOXA-229; beta-lactamase class D OXA-229 [EC:3.5.2.6]
+            K18972  blaOXA-58; beta-lactamase class D OXA-58 [EC:3.5.2.6]
+            K19211  blaOXA-62; beta-lactamase class D OXA-62 [EC:3.5.2.6]
+            K18976  blaOXA-48; beta-lactamase class D OXA-48 [EC:3.5.2.6]
+            K21277  blaOXA-60; beta-lactamase class D OXA-60 [EC:3.5.2.6]
+            K18782  blaIMP; metallo-beta-lactamase class B IMP [EC:3.5.2.6]
+            K18781  blaVIM; metallo-beta-lactamase class B VIM [EC:3.5.2.6]
+            K18780  blaNDM; metallo-beta-lactamase class B NDM [EC:3.5.2.6]
+            K19099  blaGIM; metallo-beta-lactamase class B GIM [EC:3.5.2.6]
+            K19216  blaIND; metallo-beta-lactamase class B IND [EC:3.5.2.6]
+CLASS       Signature modules; Gene set; Drug resistance
+PATHWAY     map01501  beta-Lactam resistance
+///

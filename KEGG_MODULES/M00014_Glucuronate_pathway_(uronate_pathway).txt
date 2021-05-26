@@ -1,0 +1,40 @@
+ENTRY       M00014            Pathway   Module
+NAME        Glucuronate pathway (uronate pathway)
+DEFINITION  K00012 ((K12447 K16190),(K00699 (K01195,K14756))) K00002 K13247 K03331 (K05351,K00008) K00854
+ORTHOLOGY   K00012  UDPglucose 6-dehydrogenase [EC:1.1.1.22] [RN:R00286]
+            K12447  UDP-sugar pyrophosphorylase [EC:2.7.7.64] [RN:R01381]
+            K16190  glucuronokinase [EC:2.7.1.43] [RN:R01476]
+            K00699  glucuronosyltransferase [EC:2.4.1.17] [RN:R01383]
+            K01195,K14756  beta-glucuronidase [EC:3.2.1.31] [RN:R01478]
+            K00002  alcohol dehydrogenase (NADP+) [EC:1.1.1.2] [RN:R01481]
+            K13247  L-gulonate 3-dehydrogenase [EC:1.1.1.45] [RN:R02640]
+            K03331  L-xylulose reductase [EC:1.1.1.10] [RN:R01904]
+            K05351  D-xylulose reductase [EC:1.1.1.9] [RN:R01896]
+            K00008  L-iditol 2-dehydrogenase [EC:1.1.1.14] [RN:R01896]
+            K00854  xylulokinase [EC:2.7.1.17] [RN:R01639]
+CLASS       Pathway modules; Carbohydrate metabolism; Other carbohydrate metabolism
+PATHWAY     map00040  Pentose and glucuronate interconversions
+            map01100  Metabolic pathways
+REACTION    R00286  C00029 -> C00167
+            R01381  C00167 -> C05385
+            R01476  C05385 -> C00191
+            R01383  C00167 -> C03033
+            R01478  C03033 -> C00191
+            R01481  C00191 -> C00800
+            R02640  C00800 -> C00618
+            R01905  C00618 -> C00312
+            R01904  C00312 -> C00379
+            R01896  C00379 -> C00310
+            R01639  C00310 -> C00231
+COMPOUND    C00029  UDP-glucose
+            C00167  UDP-glucuronate
+            C05385  D-Glucuronate 1-phosphate
+            C00191  D-Glucuronate
+            C03033  beta-D-Glucuronoside
+            C00800  L-Gulonate
+            C00618  3-Dehydro-L-gulonate
+            C00312  L-Xylulose
+            C00379  Xylitol
+            C00310  D-Xylulose
+            C00231  D-Xylulose 5-phosphate
+///

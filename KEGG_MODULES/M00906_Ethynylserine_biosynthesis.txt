@@ -1,0 +1,31 @@
+ENTRY       M00906            Pathway   Module
+NAME        Ethynylserine biosynthesis, lysine => ethynylserine
+DEFINITION  K23669 K23670 K23671 K23672 K23673
+ORTHOLOGY   K23669  besD; L-lysine 4-chlorinase [EC:1.14.20.-] [RN:R12407]
+            K23670  besC; 4-chloro-allylglycine synthase [EC:1.14.99.-] [RN:R12408]
+            K23671  besB; L-2-amino-4-chloropent-4-enoate dechlorinase/desaturase [EC:4.5.1.-] [RN:R12409]
+            K23672  besA; L-propargylglycine--L-glutamate ligase [EC:6.3.2.-] [RN:R12410]
+            K23673  besE; L-gamma-glutamyl-L-propargylglycine hydroxylase [EC:1.14.11.-] [RN:R12411]
+CLASS       Pathway modules; Biosynthesis of other secondary metabolites; Biosynthesis of other bacterial compounds
+PATHWAY     map00997  Biosynthesis of various secondary metabolites - part 3
+            map01100  Metabolic pathways
+            map01110  Biosynthesis of secondary metabolites
+REACTION    R12407  C00047 -> C22137
+            R12408  C22137 -> C04075
+            R12409  C04075 -> C22138
+            R12410  C22138 -> C22139
+            R12411  C22139 -> C22140
+            R12412  C22140 -> C22141
+COMPOUND    C00047  L-Lysine
+            C22137  4-Chloro-L-lysine
+            C04075  2-Amino-4-chloro-4-pentenoic acid
+            C22138  L-Propargylglycine
+            C22139  gamma-L-Glutamyl-L-propargylglycine
+            C22140  L-gamma-Glutamyl-(3R)-L-beta-ethynylserine
+            C22141  L-beta-Ethynylserine
+REFERENCE   PMID:30867596
+  AUTHORS   Marchand JA, Neugebauer ME, Ing MC, Lin CI, Pelton JG, Chang MCY
+  TITLE     Discovery of a pathway for terminal-alkyne amino acid biosynthesis.
+  JOURNAL   Nature 567:420-424 (2019)
+            DOI:10.1038/s41586-019-1020-y
+///

@@ -1,0 +1,51 @@
+ENTRY       M00848            Pathway   Module
+NAME        Aurachin biosynthesis, anthranilate => aurachin A
+DEFINITION  K09460 (K02078+K14245+K14246+K22798) K22799 K22800 K21272 K21271 K22801 K22802
+ORTHOLOGY   K09460  auaEII; anthranilate-CoA ligase [EC:6.2.1.32] [RN:R00982]
+            K02078  auaB; acyl carrier protein [RN:R12049]
+            K14245  auaC; PKS ketosynthase (KS/KS alpha) [EC:2.3.1.-] [RN:R12049]
+            K14246  auaD; PKS chain-length factor (CLF/KS beta) [EC:2.3.1.-] [RN:R12049]
+            K22798  auaE; anthranilate-CoA-ACP transferase [EC:6.2.1.-] [RN:R12049]
+            K22799  auaA; 2-methyl-4-hydroxyquinoline prenyltransferase [EC:2.5.1.-] [RN:R12050]
+            K22800  auaF; aurachin D monooxygenase [EC:1.14.13.-] [RN:R12051]
+            K21272  auaG; aurachin C monooxygenase/isomerase [EC:1.14.13.222] [RN:R11382 R11383]
+            K21271  auaH; aurachin B dehydrogenase [EC:1.1.1.394] [RN:R11149]
+            K22801  auaJ; aurachin B monooxygenase [EC:1.14.13.-] [RN:R12052 R12053]
+            K22802  auaI; aurichin B epoxide hydrolase [RN:R12054]
+CLASS       Pathway modules; Biosynthesis of other secondary metabolites; Biosynthesis of other secondary metabolites
+PATHWAY     map00998  Biosynthesis of various secondary metabolites - part 2
+            map01100  Metabolic pathways
+            map01130  Biosynthesis of antibiotics
+REACTION    R00982  C00108 -> C02247
+            R12049  C02247 -> C21873
+            R12050  C21873 -> C10641
+            R12051  C10641 -> C21330
+            R11382,R11383  C21330 -> C21141
+            R11149  C21141 -> C21140
+            R12052,R12053  C21140 -> C21874
+            R12054  C21874 -> C21875
+COMPOUND    C00108  Anthranilate
+            C02247  Anthraniloyl-CoA
+            C21873  2-Methylquinolin-4-ol
+            C10641  Aurachin D
+            C21330  Aurachin C
+            C21141  4-Hydroxy-2-methyl-3-oxo-4-[(2E,6E)-farnesyl]-3,4-dihydroquinoline 1-oxide
+            C21140  Aurachin B
+            C21874  Aurachin B epoxide
+            C21875  Aurachin A
+REFERENCE   PMID:21770425
+  AUTHORS   Pistorius D, Li Y, Mann S, Muller R
+  TITLE     Unprecedented anthranilate priming involving two enzymes of the acyl adenylating superfamily in aurachin biosynthesis.
+  JOURNAL   J Am Chem Soc 133:12362-5 (2011)
+            DOI:10.1021/ja203653w
+REFERENCE   PMID:17335090
+  AUTHORS   Sandmann A, Dickschat J, Jenke-Kodama H, Kunze B, Dittmann E, Muller R
+  TITLE     A Type II polyketide synthase from the gram-negative Bacterium Stigmatella aurantiaca is involved in Aurachin alkaloid biosynthesis.
+  JOURNAL   Angew Chem Int Ed Engl 46:2712-6 (2007)
+            DOI:10.1002/anie.200603513
+REFERENCE   PMID:23677853
+  AUTHORS   Kitagawa W, Ozaki T, Nishioka T, Yasutake Y, Hata M, Nishiyama M, Kuzuyama T, Tamura T
+  TITLE     Cloning and heterologous expression of the aurachin RE biosynthesis gene cluster afford a new cytochrome P450 for quinoline N-hydroxylation.
+  JOURNAL   Chembiochem 14:1085-93 (2013)
+            DOI:10.1002/cbic.201300167
+///

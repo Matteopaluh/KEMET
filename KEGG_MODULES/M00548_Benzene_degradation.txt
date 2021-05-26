@@ -1,0 +1,22 @@
+ENTRY       M00548            Pathway   Module
+NAME        Benzene degradation, benzene => catechol
+DEFINITION  (K16249+K16243+K16244+K16242+K16245+K16246)
+ORTHOLOGY   K16249  dmpK; phenol 2-monooxygenase (NADH) P0/A0 [RN:R10042 R10043]
+            K16243  dmpL; phenol 2-monooxygenase (NADH) P1/A1 [EC:1.14.13.244] [RN:R10042 R10043]
+            K16244  dmpM; phenol 2-monooxygenase (NADH) P2/A2 [EC:1.14.13.244] [RN:R10042 R10043]
+            K16242  dmpN; phenol 2-monooxygenase (NADH) P3/A3 [EC:1.14.13.244] [RN:R10042 R10043]
+            K16245  dmpO; phenol 2-monooxygenase (NADH) P4/A4 [EC:1.14.13.244] [RN:R10042 R10043]
+            K16246  dmpP; phenol 2-monooxygenase (NADH) P5/A5 [EC:1.14.13.244] [RN:R10042 R10043]
+CLASS       Pathway modules; Xenobiotics biodegradation; Aromatics degradation
+PATHWAY     map00361  Chlorocyclohexane and chlorobenzene degradation
+            map00362  Benzoate degradation
+            map01220  Degradation of aromatic compounds
+            map01100  Metabolic pathways
+            map01120  Microbial metabolism in diverse environments
+REACTION    R10042  C01407 -> C00146
+            R10043  C00146 -> C00090
+COMPOUND    C01407  Benzene
+            C00146  Phenol
+            C00090  Catechol
+RMODULE     RM006  Dihydroxylation of aromatic ring, type 2 (two monooxygenase reactions)
+///

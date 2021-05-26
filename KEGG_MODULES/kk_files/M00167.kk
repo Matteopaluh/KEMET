@@ -1,0 +1,8 @@
+M00167_Reductive pentose phosphate cycle, glyceraldehyde-3P => ribulose-5P
+K01623, K01624
+K03841, K02446, K11532, K01086
+K00615
+K01623, K01624
+K01100, K11532, K01086
+K00615
+K01807, K01808

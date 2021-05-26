@@ -1,0 +1,19 @@
+ENTRY       M00157            Complex   Module
+NAME        F-type ATPase, prokaryotes and chloroplasts
+DEFINITION  K02111+K02112+K02113+K02114+K02115+K02108+K02109+K02110
+ORTHOLOGY   K02111  ATPF1A; F-type H+-transporting ATPase subunit alpha [EC:7.1.2.2]
+            K02112  ATPF1B; F-type H+-transporting ATPase subunit beta [EC:7.1.2.2]
+            K02113  ATPF1D; F-type H+-transporting ATPase subunit delta
+            K02114  ATPF1E; F-type H+-transporting ATPase subunit epsilon
+            K02115  ATPF1G; F-type H+-transporting ATPase subunit gamma
+            K02108  ATPF0A; F-type H+-transporting ATPase subunit a
+            K02109  ATPF0B; F-type H+-transporting ATPase subunit b
+            K02110  ATPF0C; F-type H+-transporting ATPase subunit c
+CLASS       Pathway modules; Energy metabolism; ATP synthesis
+PATHWAY     map00190  Oxidative phosphorylation
+            map00195  Photosynthesis
+REFERENCE   PMID:9050229
+  AUTHORS   Fillingame RH
+  TITLE     Coupling H+ transport and ATP synthesis in F1F0-ATP synthases: glimpses of interacting parts in a dynamic molecular machine.
+  JOURNAL   J Exp Biol 200:217-24 (1997)
+///

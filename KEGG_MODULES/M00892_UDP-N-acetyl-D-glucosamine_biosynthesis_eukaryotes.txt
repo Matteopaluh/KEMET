@@ -1,0 +1,32 @@
+ENTRY       M00892            Pathway   Module
+NAME        UDP-N-acetyl-D-glucosamine biosynthesis, eukaryotes, glucose => UDP-GlcNAc
+DEFINITION  (K00844,K12407,K00845) K01810 K00820 K00621 K01836 K00972
+ORTHOLOGY   K00844  HK; hexokinase [EC:2.7.1.1] [RN:R01786]
+            K12407,K00845  GCK; glucokinase [EC:2.7.1.2] [RN:R01786]
+            K01810  GPI; glucose-6-phosphate isomerase [EC:5.3.1.9] [RN:R02740]
+            K00820  GFPT; glutamine---fructose-6-phosphate transaminase (isomerizing) [EC:2.6.1.16] [RN:R00768]
+            K00621  GNPNAT1; glucosamine-phosphate N-acetyltransferase [EC:2.3.1.4] [RN:R02058]
+            K01836  PGM3; phosphoacetylglucosamine mutase [EC:5.4.2.3] [RN:R08193]
+            K00972  UAP1; UDP-N-acetylglucosamine/UDP-N-acetylgalactosamine diphosphorylase [EC:2.7.7.23] [RN:R00416]
+CLASS       Pathway modules; Carbohydrate metabolism; Other carbohydrate metabolism
+PATHWAY     map00520  Amino sugar and nucleotide sugar metabolism
+            map01100  Metabolic pathways
+REACTION    R01786  C00267 -> C00668
+            R02740  C00668 -> C05345
+            R00768  C05345 -> C00352
+            R02058  C00352 -> C00357
+            R08193  C00357 -> C04501
+            R00416  C04501 -> C00043
+COMPOUND    C00267  alpha-D-Glucose
+            C00668  alpha-D-Glucose 6-phosphate
+            C05345  beta-D-Fructose 6-phosphate
+            C00352  D-Glucosamine 6-phosphate
+            C00357  N-Acetyl-D-glucosamine 6-phosphate
+            C04501  N-Acetyl-alpha-D-glucosamine 1-phosphate
+            C00043  UDP-N-acetyl-alpha-D-glucosamine
+REFERENCE   PMID:16408321
+  AUTHORS   Milewski S, Gabriel I, Olchowy J
+  TITLE     Enzymes of UDP-GlcNAc biosynthesis in yeast.
+  JOURNAL   Yeast 23:1-14 (2006)
+            DOI:10.1002/yea.1337
+///

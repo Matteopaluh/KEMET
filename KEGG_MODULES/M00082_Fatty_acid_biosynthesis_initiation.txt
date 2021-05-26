@@ -1,0 +1,29 @@
+ENTRY       M00082            Pathway   Module
+NAME        Fatty acid biosynthesis, initiation
+DEFINITION  (K11262,(K02160+K01961,K11263)+(K01962+K01963,K18472)) (K00665,K00667+K00668,K11533,(K00645 (K00648,K18473)))
+ORTHOLOGY   K11262  acetyl-CoA carboxylase / biotin carboxylase [EC:6.4.1.2] [RN:R00742]
+            K02160  acetyl-CoA carboxylase biotin carboxyl carrier protein [RN:R00742]
+            K01961  acetyl-CoA carboxylase, biotin carboxylase subunit [EC:6.4.1.2] [RN:R00742]
+            K11263  acetyl-/propionyl-CoA carboxylase, biotin carboxylase, biotin carboxyl carrier protein [EC:6.4.1.2] [RN:R00742]
+            K01962+K01963  acetyl-CoA carboxylase carboxyl transferase subunit [EC:6.4.1.2] [RN:R00742]
+            K18472  acetyl/propionyl-CoA carboxylase carboxyl transferase subunit [EC:6.4.1.2] [RN:R00742]
+            K00665  fatty-acid synthase [EC:2.3.1.85] [RN:R01626 R01624 R04355]
+            K00667+K00668  fatty-acyl-CoA synthase [EC:2.3.1.86] [RN:R01626 R01624 R04355]
+            K11533  fatty acid synthase, bacteria type [EC:2.3.1.-] [RN:R01626 R01624 R04355]
+            K00645  [acyl-carrier-protein] S-malonyltransferase [EC:2.3.1.39] [RN:R01626]
+            K00648,K18473  acetoacetyl-[acyl-carrier protein] synthase [EC:2.3.1.180] [RN:R10707]
+CLASS       Pathway modules; Lipid metabolism; Fatty acid metabolism
+PATHWAY     map00061  Fatty acid biosynthesis
+            map01212  Fatty acid metabolism
+            map01100  Metabolic pathways
+REACTION    R00742  C00024 -> C00083
+            R01626  C00083 -> C01209
+            R01624  C00024 -> C03939
+            R04355  C03939 + C01209 -> C05744
+            R10707  C00024 + C01209 -> C05744
+COMPOUND    C00024  Acetyl-CoA
+            C00083  Malonyl-CoA
+            C01209  Malonyl-[acyl-carrier protein]
+            C03939  Acetyl-[acyl-carrier protein]
+            C05744  Acetoacetyl-[acp]
+///

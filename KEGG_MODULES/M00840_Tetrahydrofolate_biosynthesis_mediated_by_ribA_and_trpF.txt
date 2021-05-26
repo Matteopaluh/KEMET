@@ -1,0 +1,31 @@
+ENTRY       M00840            Pathway   Module
+NAME        Tetrahydrofolate biosynthesis, mediated by ribA and trpF, GTP => THF
+DEFINITION  K14652 K22100 -- K01633 K13941 K22099 K00287
+ORTHOLOGY   K14652  GTP cyclohydrolase II [EC:3.5.4.25] [RN:R00425]
+            K22100  2,5-diamino-6-(5-phospho-D-ribosylamino)pyrimidin-4(3H)-one isomerase/dehydratase [EC:4.2.1.160] [RN:R11072]
+            K01633  7,8-dihydroneopterin aldolase [EC:4.1.2.25] [RN:R03504]
+            K13941  2-amino-4-hydroxy-6-hydroxymethyldihydropteridine diphosphokinase / dihydropteroate synthase [EC:2.7.6.3 2.5.1.15] [RN:R03503 R03066 R03067]
+            K22099  dihydrofolate synthase [EC:6.3.2.12] [RN:R02237]
+            K00287  dihydrofolate reductase [EC:1.5.1.3] [RN:R00936 R00939]
+CLASS       Pathway modules; Metabolism of cofactors and vitamins; Cofactor and vitamin metabolism
+PATHWAY     map00790  Folate biosynthesis
+            map01100  Metabolic pathways
+REACTION    R00425  C00044 -> C01304
+            R11072  C01304 -> C05925
+            R04621  C05925 -> C04874
+            R03504  C04874 -> C01300
+            R03503  C01300 -> C04807
+            R03066  C01300 -> C00921
+            R03067  C04807 -> C00921
+            R02237  C00921 -> C00415
+            R00936,R00939  C00415 -> C00101
+COMPOUND    C00044  GTP
+            C01304  2,5-Diamino-6-(5-phospho-D-ribosylamino)pyrimidin-4(3H)-one
+            C05925  Dihydroneopterin phosphate
+            C04874  7,8-Dihydroneopterin
+            C01300  6-(Hydroxymethyl)-7,8-dihydropterin
+            C04807  6-Hydroxymethyl-7,8-dihydropterin diphosphate
+            C00921  Dihydropteroate
+            C00415  Dihydrofolate
+            C00101  Tetrahydrofolate
+///

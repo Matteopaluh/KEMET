@@ -1,0 +1,29 @@
+ENTRY       M00534            Pathway   Module
+NAME        Naphthalene degradation, naphthalene => salicylate
+DEFINITION  (K14579+K14580+K14578+K14581) K14582 K14583 K14584 K14585 K00152
+ORTHOLOGY   K14579+K14580+K14578+K14581  nahA; naphthalene 1,2-dioxygenase [EC:1.14.12.12] [RN:R02968]
+            K14582  nahB; cis-1,2-dihydro-1,2-dihydroxynaphthalene/dibenzothiophene dihydrodiol dehydrogenase [EC:1.3.1.29] [RN:R04115]
+            K14583  1,2-dihydroxynaphthalene dioxygenase [EC:1.13.11.56] [RN:R04117]
+            K14584  2-hydroxychromene-2-carboxylate isomerase [EC:5.99.1.4] [RN:R05137]
+            K14585  trans-o-hydroxybenzylidenepyruvate hydratase-aldolase [EC:4.1.2.45] [RN:R05136]
+            K00152  salicylaldehyde dehydrogenase [EC:1.2.1.65] [RN:R02941]
+CLASS       Pathway modules; Xenobiotics biodegradation; Aromatics degradation
+PATHWAY     map00626  Naphthalene degradation
+            map01220  Degradation of aromatic compounds
+            map01100  Metabolic pathways
+            map01120  Microbial metabolism in diverse environments
+REACTION    R02968  C00829 -> C04314
+            R04115  C04314 -> C03012
+            R04117  C03012 -> C06204
+            R05137  C06204 -> C06203
+            R05136  C06203 -> C06202
+            R02941  C06202 -> C00805
+COMPOUND    C00829  Naphthalene
+            C04314  cis-1,2-Dihydronaphthalene-1,2-diol
+            C03012  Naphthalene-1,2-diol
+            C06204  2-Hydroxychromene-2-carboxylate
+            C06203  trans-O-Hydroxybenzylidenepyruvate
+            C06202  Salicylaldehyde
+            C00805  Salicylate
+RMODULE     RM014  Ring removal from polycyclic aromatic ring
+///

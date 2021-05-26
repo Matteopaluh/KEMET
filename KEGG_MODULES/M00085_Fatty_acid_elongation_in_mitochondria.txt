@@ -1,0 +1,71 @@
+ENTRY       M00085            Pathway   Module
+NAME        Fatty acid elongation in mitochondria
+DEFINITION  (K07508,K07509) (K00022 K07511,K07515) K07512
+ORTHOLOGY   K07508,K07509  acetyl-CoA acyltransferase [EC:2.3.1.16] [RN:R00391 R01177 R04747 R03778 R04742 R03858 R03991]
+            K00022  3-hydroxyacyl-CoA dehydrogenase [EC:1.1.1.35] [RN:R01778 R04748 R04745 R04743]
+            K07511  enoyl-CoA hydratase [EC:4.2.1.17] [RN:R02685 R04749 R04746 R04744 R04170 R04740 R04738]
+            K07515  enoyl-CoA hydratase / long-chain 3-hydroxyacyl-CoA dehydrogenase [EC:4.2.1.17 1.1.1.211] [RN:R02685 R01778 R04749 R04748 R04746 R04745 R04744 R04743 R04170 R04741 R04740 R04739 R04738 R04737]
+            K07512  trans-2-enoyl-CoA reductase [EC:1.3.1.38] [RN:R07162 R06985 R03776 R04753 R03856 R03989 R01278]
+CLASS       Pathway modules; Lipid metabolism; Fatty acid metabolism
+PATHWAY     map00062  Fatty acid elongation
+            map01212  Fatty acid metabolism
+            map01100  Metabolic pathways
+REACTION    R00391  C00040 + C00024 -> C00264
+            R01778  C00264 -> C00640
+            R02685  C00640 -> C00658
+            R07162  C00658 -> C00040
+            R01177  C00136 + C00024 -> C05269
+            R04748  C05269 -> C05268
+            R04749  C05268 -> C05271
+            R06985  C05271 -> C05270
+            R04747  C05270 + C00024 -> C05267
+            R04745  C05267 -> C05266
+            R04746  C05266 -> C05276
+            R03776  C05276 -> C01944
+            R03778  C01944 + C00024 -> C05265
+            R04743  C05265 -> C05264
+            R04744  C05264 -> C05275
+            R04753  C05275 -> C05274
+            R04742  C05274 + C00024 -> C05263
+            R04741  C05263 -> C05262
+            R04170  C05262 -> C03221
+            R03856  C03221 -> C01832
+            R03858  C01832 + C00024 -> C05261
+            R04739  C05261 -> C05260
+            R04740  C05260 -> C05273
+            R03989  C05273 -> C02593
+            R03991  C02593 + C00024 -> C05259
+            R04737  C05259 -> C05258
+            R04738  C05258 -> C05272
+            R01278  C05272 -> C00154
+COMPOUND    C00040  Acyl-CoA
+            C00024  Acetyl-CoA
+            C00264  3-Oxoacyl-CoA
+            C00640  (3S)-3-Hydroxyacyl-CoA
+            C00658  trans-2,3-Dehydroacyl-CoA
+            C00136  Butanoyl-CoA
+            C05269  3-Oxohexanoyl-CoA
+            C05268  (S)-Hydroxyhexanoyl-CoA
+            C05271  trans-Hex-2-enoyl-CoA
+            C05270  Hexanoyl-CoA
+            C05267  3-Oxooctanoyl-CoA
+            C05266  (S)-3-Hydroxyoctanoyl-CoA
+            C05276  trans-Oct-2-enoyl-CoA
+            C01944  Octanoyl-CoA
+            C05265  3-Oxodecanoyl-CoA
+            C05264  (S)-Hydroxydecanoyl-CoA
+            C05275  trans-Dec-2-enoyl-CoA
+            C05274  Decanoyl-CoA
+            C05263  3-Oxododecanoyl-CoA
+            C05262  (S)-3-Hydroxydodecanoyl-CoA
+            C03221  2-trans-Dodecenoyl-CoA
+            C01832  Lauroyl-CoA
+            C05261  3-Oxotetradecanoyl-CoA
+            C05260  (S)-3-Hydroxytetradecanoyl-CoA
+            C05273  trans-Tetradec-2-enoyl-CoA
+            C02593  Tetradecanoyl-CoA
+            C05259  3-Oxopalmitoyl-CoA
+            C05258  (S)-3-Hydroxyhexadecanoyl-CoA
+            C05272  trans-Hexadec-2-enoyl-CoA
+            C00154  Palmitoyl-CoA
+///

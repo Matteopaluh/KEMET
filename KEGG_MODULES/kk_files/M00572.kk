@@ -1,0 +1,7 @@
+M00572_Pimeloyl-ACP biosynthesis, BioC-BioH pathway, malonyl-ACP => pimeloyl-ACP
+K02169
+K00647, K09458
+K00059
+K02372
+K00208
+K02170, K09789, K19560, K19561

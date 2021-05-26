@@ -1,0 +1,32 @@
+ENTRY       M00022            Pathway   Module
+NAME        Shikimate pathway, phosphoenolpyruvate + erythrose-4P => chorismate
+DEFINITION  (K01626,K03856,K13853) (((K01735,K13829) ((K03785,K03786) K00014,K13832)),K13830) ((K00891,K13829) K00800,K13830) K01736
+ORTHOLOGY   K01626,K03856,K13853  3-deoxy-7-phosphoheptulonate synthase [EC:2.5.1.54] [RN:R01826]
+            K01735,K13830,K13829  3-dehydroquinate synthase [EC:4.2.3.4] [RN:R03083]
+            K03785,K03786,K13832,K13830  3-dehydroquinate dehydratase [EC:4.2.1.10] [RN:R03084]
+            K00014,K13832,K13830  shikimate 5-dehydrogenase [EC:1.1.1.25] [RN:R02413]
+            K00891,K13830,K13829  shikimate kinase [EC:2.7.1.71] [RN:R02412]
+            K00800,K13830  3-phosphoshikimate 1-carboxyvinyltransferase [EC:2.5.1.19] [RN:R03460]
+            K01736  chorismate synthase [EC:4.2.3.5] [RN:R01714]
+CLASS       Pathway modules; Amino acid metabolism; Aromatic amino acid metabolism
+PATHWAY     map00400  Phenylalanine, tyrosine and tryptophan biosynthesis
+            map01230  Biosynthesis of amino acids
+            map01100  Metabolic pathways
+            map01110  Biosynthesis of secondary metabolites
+REACTION    R01826  C00074 + C00279 -> C04691
+            R03083  C04691 -> C00944
+            R03084  C00944 -> C02637
+            R02413  C02637 -> C00493
+            R02412  C00493 -> C03175
+            R03460  C03175 -> C01269
+            R01714  C01269 -> C00251
+COMPOUND    C00074  Phosphoenolpyruvate
+            C00279  D-Erythrose 4-phosphate
+            C04691  2-Dehydro-3-deoxy-D-arabino-heptonate 7-phosphate
+            C00944  3-Dehydroquinate
+            C02637  3-Dehydroshikimate
+            C00493  Shikimate
+            C03175  Shikimate 3-phosphate
+            C01269  5-O-(1-Carboxyvinyl)-3-phosphoshikimate
+            C00251  Chorismate
+///

@@ -1,0 +1,33 @@
+ENTRY       M00841            Pathway   Module
+NAME        Tetrahydrofolate biosynthesis, mediated by PTPS, GTP => THF
+DEFINITION  K01495 K22101 K00950 K00796 K11754 K13998
+ORTHOLOGY   K01495  GTP cyclohydrolase IA [EC:3.5.4.16] [RN:R00428 R05046 R05048 R04639]
+            K22101  dihydroneopterin triphosphate aldolase (PTPS-III) [EC:4.1.2.60] [RN:R11719]
+            K00950  2-amino-4-hydroxy-6-hydroxymethyldihydropteridine diphosphokinase [EC:2.7.6.3] [RN:R03503]
+            K00796  dihydropteroate synthase [EC:2.5.1.15] [RN:R03066 R03067]
+            K11754  dihydrofolate synthase [EC:6.3.2.12] [RN:R02237]
+            K13998  dihydrofolate reductase [EC:1.5.1.3] [RN:R00936 R00939]
+CLASS       Pathway modules; Metabolism of cofactors and vitamins; Cofactor and vitamin metabolism
+PATHWAY     map00790  Folate biosynthesis
+            map01100  Metabolic pathways
+REACTION    R00428  C00044 -> C05922
+            R05046  C05922 -> C05923
+            R05048  C05923 -> C06148
+            R04639  C06148 -> C04895
+            R11719  C04895 -> C01300
+            R03503  C01300 -> C04807
+            R03066  C01300 -> C00921
+            R03067  C04807 -> C00921
+            R02237  C00921 -> C00415
+            R00936,R00939  C00415 -> C00101
+COMPOUND    C00044  GTP
+            C05922  Formamidopyrimidine nucleoside triphosphate
+            C05923  2,5-Diaminopyrimidine nucleoside triphosphate
+            C06148  2,5-Diamino-6-(5'-triphosphoryl-3',4'-trihydroxy-2'-oxopentyl)-amino-4-oxopyrimidine
+            C04895  7,8-Dihydroneopterin 3'-triphosphate
+            C01300  6-(Hydroxymethyl)-7,8-dihydropterin
+            C04807  6-Hydroxymethyl-7,8-dihydropterin diphosphate
+            C00921  Dihydropteroate
+            C00415  Dihydrofolate
+            C00101  Tetrahydrofolate
+///

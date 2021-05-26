@@ -1,0 +1,47 @@
+ENTRY       M00777            Pathway   Module
+NAME        Avermectin biosynthesis, 2-methylbutanoyl-CoA/isobutyryl-CoA => 6,8a-Seco-6,8a-deoxy-5-oxoavermectin 1a/1b aglycone => avermectin A1a/B1a/A1b/B1b
+DEFINITION  K14371 K14372 K14373 K14374 K14375
+ORTHOLOGY   K14371  aveA; type I polyketide synthase AVES [RN:R06481 R06483]
+            K14372  aveE; cytochrome P450 hydroxylase [EC:1.14.-.-] [RN:R06467 R06470]
+            K14373  aveF; C-5 ketoreductase [RN:R06473 R06475]
+            K14374  aveD; avermectin B 5-O-methyltransferase [EC:2.1.1.-] [RN:R06477 R06479]
+            K14375  aveBI; dTDP-L-oleandrosyltransferase [EC:2.4.1.-] [RN:R06490 R06491 R06488 R06489 R06498 R06499 R06496 R06497]
+CLASS       Pathway modules; Biosynthesis of terpenoids and polyketides; Macrolide biosynthesis
+PATHWAY     map00522  Biosynthesis of 12-, 14- and 16-membered macrolides
+            map01100  Metabolic pathways
+            map01110  Biosynthesis of secondary metabolites
+REACTION    R06481  C01033 -> C11977
+            R06467  C11977 -> C11978
+            R06473  C11978 -> C11979
+            R06477  C11979 -> C11980
+            R06490  C11980 -> C11982
+            R06491  C11982 -> C11984
+            R06488  C11979 -> C11981
+            R06489  C11981 -> C11983
+            R06483  C00630 -> C11961
+            R06470  C11961 -> C11962
+            R06475  C11962 -> C11963
+            R06479  C11963 -> C11964
+            R06498  C11964 -> C11966
+            R06499  C11966 -> C11968
+            R06496  C11963 -> C11965
+            R06497  C11965 -> C11967
+COMPOUND    C01033  2-Methylbutanoyl-CoA
+            C11977  6,8a-Seco-6,8a-deoxy-5-oxoavermectin ''1a'' aglycone
+            C11978  5-Oxoavermectin ''1a'' aglycone
+            C11979  Avermectin B1a aglycone
+            C11980  Avermectin A1a aglycone
+            C11982  Avermectin A1a monosaccharide
+            C11984  Avermectin A1a
+            C11981  Avermectin B1a monosaccharide
+            C11983  Avermectin B1a
+            C00630  2-Methylpropanoyl-CoA
+            C11961  6,8a-Seco-6,8a-deoxy-5-oxoavermectin ''1b'' aglycone
+            C11962  5-Oxoavermectin ''1b'' aglycone
+            C11963  Avermectin B1b aglycone
+            C11964  Avermectin A1b aglycone
+            C11966  Avermectin A1b monosaccharide
+            C11968  Avermectin A1b
+            C11965  Avermectin B1b monosaccharide
+            C11967  Avermectin B1b
+///

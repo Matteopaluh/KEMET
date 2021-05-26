@@ -1,0 +1,34 @@
+ENTRY       M00875            Pathway   Module
+NAME        Staphyloferrin B biosynthesis, L-serine => staphyloferrin B
+DEFINITION  K23371 K21949 K21721 K23372 K23373 K23374 K23375
+ORTHOLOGY   K23371  sbnI; L-serine kinase (ATP) / ParB family transcriptional regulator, heme-responsive regulator [EC:2.7.1.225] [RN:R12344]
+            K21949  sbnA; N-(2-amino-2-carboxyethyl)-L-glutamate synthase [EC:2.5.1.140] [RN:R11705]
+            K21721  sbnB; N-[(2S)-2-amino-2-carboxyethyl]-L-glutamate dehydrogenase [EC:1.5.1.51] [RN:11655]
+            K23372  sbnE; L-2,3-diaminopropanoate---citrate ligase [EC:6.3.2.54] [RN:R12308]
+            K23373  sbnH; 2-[(L-alanin-3-ylcarbamoyl)methyl]-2-hydroxybutanedioate decarboxylase [EC:4.1.1.117] [RN:R12309]
+            K23374  sbnF; 2-[(L-alanin-3-ylcarbamoyl)methyl]-3-(2-aminoethylcarbamoyl)-2-hydroxypropanoate synthase [EC:6.3.2.55] [RN:R12311]
+            K23375  sbnC; staphyloferrin B synthase [EC:6.3.2.56] [RN:R12312]
+CLASS       Pathway modules; Biosynthesis of other secondary metabolites; Biosynthesis of other secondary metabolites
+PATHWAY     map00997  Biosynthesis of various secondary metabolites - part 3
+            map01100  Metabolic pathways
+REACTION    R12344  C00065 -> C01005
+            R11705  C01005 -> C21559
+            R11655  C21559 -> C03401
+            R12308  C03401 -> C22072
+            R12309  C22072 -> C22073
+            R12311  C22073 -> C22074
+            R12312  C22074 -> C22075
+COMPOUND    C00065  L-Serine
+            C01005  O-Phospho-L-serine
+            C21559  N-[(2S)-2-Amino-2-carboxyethyl]-L-glutamate
+            C03401  L-2,3-Diaminopropanoate
+            C22072  2-[(L-Alanin-3-ylcarbamoyl)methyl]-2-hydroxybutanedioate
+            C22073  2-[(2-Aminoethylcarbamoyl)methyl]-2-hydroxybutanedioate
+            C22074  2-[(L-Alanin-3-ylcarbamoyl)methyl]-3-(2-aminoethylcarbamoyl)-2-hydroxypropanoate
+            C22075  Staphyloferrin B
+REFERENCE   PMID:24485762
+  AUTHORS   Kobylarz MJ, Grigg JC, Takayama SJ, Rai DK, Heinrichs DE, Murphy ME
+  TITLE     Synthesis of L-2,3-diaminopropionic acid, a siderophore and antibiotic precursor.
+  JOURNAL   Chem Biol 21:379-88 (2014)
+            DOI:10.1016/j.chembiol.2013.12.011
+///

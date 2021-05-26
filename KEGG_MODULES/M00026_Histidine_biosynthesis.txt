@@ -1,0 +1,40 @@
+ENTRY       M00026            Pathway   Module
+NAME        Histidine biosynthesis, PRPP => histidine
+DEFINITION  (K00765-K02502) (K01523 K01496,K11755,K14152) K01814 ((K02501+K02500),K01663) ((K01693 K00817 (K04486,K05602,K18649)),(K01089 K00817)) (K00013,K14152)
+ORTHOLOGY   K00765,K02502  ATP phosphoribosyltransferase [EC:2.4.2.17] [RN:R01071]
+            K01523,K11755,K14152  phosphoribosyl-ATP pyrophosphohydrolase [EC:3.6.1.31] [RN:R04035]
+            K01496,K11755,K14152  phosphoribosyl-AMP cyclohydrolase [EC:3.5.4.19] [RN:R04037]
+            K01814  phosphoribosylformimino-5-aminoimidazole carboxamide ribotide isomerase [EC:5.3.1.16] [RN:R04640]
+            K02500,K02501,K01663  imidazole glycerol-phosphate synthase [EC:4.3.2.10] [RN:R04558] 
+            K01693  imidazoleglycerol-phosphate dehydratase [EC:4.2.1.19] [RN:R03457]
+            K00817  histidinol-phosphate aminotransferase [EC:2.6.1.9] [RN:R03243]
+            K04486,K05602,K18649  histidinol-phosphatase [EC:3.1.3.15] [RN:R03013]
+            K01089  imidazoleglycerol-phosphate dehydratase / histidinol-phosphatase [EC:4.2.1.19 3.1.3.15] [RN:R03457 R03013]
+            K00013,K14152  histidinol dehydrogenase [EC:1.1.1.23] [RN:R03012 R01163]
+CLASS       Pathway modules; Amino acid metabolism; Histidine metabolism
+PATHWAY     map00340  Histidine metabolism
+            map01230  Biosynthesis of amino acids
+            map01100  Metabolic pathways
+            map01110  Biosynthesis of secondary metabolites
+REACTION    R01071  C00119 -> C02739
+            R04035  C02739 -> C02741
+            R04037  C02741 -> C04896
+            R04640  C04896 -> C04916
+            R04558  C04916 -> C04666
+            R03457  C04666 -> C01267
+            R03243  C01267 -> C01100
+            R03013  C01100 -> C00860
+            R03012  C00860 -> C01929
+            R01163  C01929 -> C00135
+COMPOUND    C00119  5-Phospho-alpha-D-ribose 1-diphosphate
+            C02739  1-(5-Phospho-D-ribosyl)-ATP
+            C02741  Phosphoribosyl-AMP
+            C04896  5-(5-Phospho-D-ribosylaminoformimino)-1-(5-phosphoribosyl)-imidazole-4-carboxamide
+            C04916  N-(5'-Phospho-D-1'-ribulosylformimino)-5-amino-1-(5''-phospho-D-ribosyl)-4-imidazolecarboxamide
+            C04666  D-erythro-1-(Imidazol-4-yl)glycerol 3-phosphate
+            C01267  3-(Imidazol-4-yl)-2-oxopropyl phosphate
+            C01100  L-Histidinol phosphate
+            C00860  L-Histidinol
+            C01929  L-Histidinal
+            C00135  L-Histidine
+///

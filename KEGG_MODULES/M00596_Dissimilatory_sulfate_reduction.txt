@@ -1,0 +1,23 @@
+ENTRY       M00596            Pathway   Module
+NAME        Dissimilatory sulfate reduction, sulfate => H2S
+DEFINITION  K00958 (K00394+K00395) (K11180+K11181)
+ORTHOLOGY   K00958  sulfate adenylyltransferase [EC:2.7.7.4] [RN:R00529]
+            K00394,K00395  adenylylsulfate reductase [EC:1.8.99.2] [RN:R08553]
+            K11180,K11181  sulfite reductase, dissimilatory-type [EC:1.8.99.5] [RN:R00861]
+CLASS       Pathway modules; Energy metabolism; Sulfur metabolism
+PATHWAY     map00920  Sulfur metabolism
+            map01100  Metabolic pathways
+            map01120  Microbial metabolism in diverse environments
+REACTION    R00529  C00059 -> C00224
+            R08553  C00224 -> C00094
+            R00861  C00094 -> C00283
+COMPOUND    C00059  Sulfate
+            C00224  Adenylyl sulfate
+            C00094  Sulfite
+            C00283  Hydrogen sulfide
+REFERENCE   PMID:22982583
+  AUTHORS   Grein F, Ramos AR, Venceslau SS, Pereira IA
+  TITLE     Unifying concepts in anaerobic respiration: Insights from dissimilatory sulfur metabolism.
+  JOURNAL   Biochim Biophys Acta 1827:145-60 (2013)
+            DOI:10.1016/j.bbabio.2012.09.001
+///

@@ -1,0 +1,14 @@
+ENTRY       M00363            Signature Module
+NAME        EHEC pathogenicity signature, Shiga toxin
+DEFINITION  K11006 K11007
+ORTHOLOGY   K11006  stxA; shiga toxin subunit A
+            K11007  stxB; shiga toxin subunit B
+CLASS       Signature modules; Gene set; Pathogenicity
+PATHWAY     map05130  Pathogenic Escherichia coli infection
+            map05131  Shigellosis
+REFERENCE   PMID:19190807
+  AUTHORS   Muthing J, Schweppe CH, Karch H, Friedrich AW
+  TITLE     Shiga toxins, glycosphingolipid diversity, and endothelial cell injury.
+  JOURNAL   Thromb Haemost 101:252-64 (2009)
+            DOI:10.1160/TH08-05-0317
+///

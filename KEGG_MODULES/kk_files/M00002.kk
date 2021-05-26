@@ -1,0 +1,7 @@
+M00002_Glycolysis, core module involving three-carbon compounds
+K01803
+K00134, K00150, K11389
+K00927, K11389
+K01834, K15633, K15634, K15635
+K01689
+K00873, K12406

@@ -1,0 +1,74 @@
+ENTRY       M00104            Pathway   Module
+NAME        Bile acid biosynthesis, cholesterol => cholate/chenodeoxycholate
+DEFINITION  K00489 K12408 K07431 K00251 K00037 K00488 K08748 K01796 K10214 K12405 K08764 K11992
+ORTHOLOGY   K00489  cholesterol 7alpha-monooxygenase [EC:1.14.14.23] [RN:R01463]
+            K12408  cholest-5-ene-3beta,7alpha-diol 3beta-dehydrogenase [EC:1.1.1.181] [RN:R04263]
+            K07431  sterol 12-alpha-hydroxylase [EC:1.14.18.8] [RN:R04826]
+            K00251  3-oxo-5-beta-steroid 4-dehydrogenase [EC:1.3.1.3] [RN:R04823 R04817]
+            K00037  3-alpha-hydroxysteroid dehydrogenase [EC:1.1.1.50] [RN:R04824 R04825 R04818 R04819]
+            K00488  cholestanetriol 26-monooxygenase [EC:1.14.15.15] [RN:R04807 R08759 R08761 R04806 R08758 R08760]
+            K08748  solute carrier family 27 (fatty acid transporter), member 5 [EC:6.2.1.7] [RN:R08733 R08738]
+            K01796  alpha-methylacyl-CoA racemase [EC:5.1.99.4] [RN:R08734 R08739]
+            K10214  3alpha,7alpha,12alpha-trihydroxy-5beta-cholestanoyl-CoA 24-hydroxylase [EC:1.17.99.3] [RN:R08735 R08740]
+            K12405  (3R)-hydroxyacyl-CoA dehydrogenase / 3a,7a,12a-trihydroxy-5b-cholest-24-enoyl-CoA hydratase [EC:1.1.1.- 4.2.1.107] [RN:R04813 R04812 R04809 R04810]
+            K08764  sterol carrier protein 2 [EC:2.3.1.176] [RN:R03719 R04811]
+            K11992  acyl-CoA thioesterase 8 [EC:3.1.2.27] [RN:R07296 R03974]
+CLASS       Pathway modules; Lipid metabolism; Sterol biosynthesis
+PATHWAY     map00120  Primary bile acid biosynthesis
+            map01100  Metabolic pathways
+REACTION    R01463  C00187 -> C03594
+            R04263  C03594 -> C05455
+            R04826  C05455 -> C17339
+            R04823  C17339 -> C05453
+            R04824,R04825  C05453 -> C05454
+            R04807  C05454 -> C05446
+            R08759  C05446 -> C01301
+            R08761  C01301 -> C04722
+            R08733  C04722 -> C15613
+            R08734  C15613 -> C17343
+            R08735  C17343 -> C05460
+            R04813  C05460 -> C15614
+            R04812  C15614 -> C05467
+            R03719  C05467 -> C01794
+            R07296  C01794 -> C00695
+            R04817  C05455 -> C05451
+            R04818,R04819  C05451 -> C05452
+            R04806  C05452 -> C05444
+            R08758  C05444 -> C05445
+            R08760  C05445 -> C04554
+            R08738  C04554 -> C17345
+            R08739  C17345 -> C17346
+            R08740  C17346 -> C05447
+            R04809  C05447 -> C05448
+            R04810  C05448 -> C05449
+            R04811  C05449 -> C05337
+            R03974  C05337 -> C02528
+COMPOUND    C00187  Cholesterol
+            C03594  7alpha-Hydroxycholesterol
+            C05455  7alpha-Hydroxycholest-4-en-3-one
+            C17339  4-Cholesten-7alpha,12alpha-diol-3-one
+            C05453  7alpha,12alpha-Dihydroxy-5beta-cholestan-3-one
+            C05454  3alpha,7alpha,12alpha-Trihydroxy-5beta-cholestane
+            C05446  3alpha,7alpha,12alpha,26-Tetrahydroxy-5beta-cholestane
+            C01301  3alpha,7alpha,12alpha-Trihydroxy-5beta-cholestan-26-al
+            C04722  3alpha,7alpha,12alpha-Trihydroxy-5beta-cholestanoate
+            C15613  (25R)-3alpha,7alpha,12alpha-Trihydroxy-5beta-cholestan-26-oyl-CoA
+            C17343  (25S)-3alpha,7alpha,12alpha-Trihydroxy-5beta-cholestan-26-oyl-CoA
+            C05460  (24E)-3alpha,7alpha,12alpha-Trihydroxy-5beta-cholest-24-enoyl-CoA
+            C15614  (24R,25R)-3alpha,7alpha,12alpha,24-Tetrahydroxy-5beta-cholestanoyl-CoA
+            C05467  3alpha,7alpha,12alpha-Trihydroxy-5beta-24-oxocholestanoyl-CoA
+            C01794  Choloyl-CoA
+            C00695  Cholic acid
+            C05451  7alpha-Hydroxy-5beta-cholestan-3-one
+            C05452  3alpha,7alpha-Dihydroxy-5beta-cholestane
+            C05444  3alpha,7alpha,26-Trihydroxy-5beta-cholestane
+            C05445  3alpha,7alpha-Dihydroxy-5beta-cholestan-26-al
+            C04554  3alpha,7alpha-Dihydroxy-5beta-cholestanate
+            C17345  (25R)-3alpha,7alpha-Dihydroxy-5beta-cholestanoyl-CoA
+            C17346  (25S)-3alpha,7alpha-Dihydroxy-5beta-cholestanoyl-CoA
+            C05447  (24E)-3alpha,7alpha-Dihydroxy-5beta-cholest-24-enoyl-CoA
+            C05448  (24R,25R)-3alpha,7alpha,24-Trihydroxy-5beta-cholestanoyl-CoA
+            C05449  3alpha,7alpha-Dihydroxy-5beta-24-oxocholestanoyl-CoA
+            C05337  Chenodeoxycholoyl-CoA
+            C02528  Chenodeoxycholate
+///

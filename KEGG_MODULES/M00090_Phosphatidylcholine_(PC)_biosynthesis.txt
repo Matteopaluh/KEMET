@@ -1,0 +1,17 @@
+ENTRY       M00090            Pathway   Module
+NAME        Phosphatidylcholine (PC) biosynthesis, choline => PC
+DEFINITION  (K00866,K14156) K00968 (K00994,K13644)
+ORTHOLOGY   K00866,K14156  choline kinase [EC:2.7.1.32] [RN:R01021]
+            K00968  choline-phosphate cytidylyltransferase [EC:2.7.7.15] [RN:R01890]
+            K00994,K13644  diacylglycerol cholinephosphotransferase [EC:2.7.8.2] [RN:R01321]
+CLASS       Pathway modules; Lipid metabolism; Lipid metabolism
+PATHWAY     map00564  Glycerophospholipid metabolism
+            map01100  Metabolic pathways
+REACTION    R01021  C00114 -> C00588
+            R01890  C00588 -> C00307
+            R01321  C00307 -> C00157
+COMPOUND    C00114  Choline
+            C00588  Choline phosphate
+            C00307  CDP-choline
+            C00157  Phosphatidylcholine
+///

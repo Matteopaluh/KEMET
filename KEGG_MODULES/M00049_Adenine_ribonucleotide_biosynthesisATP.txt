@@ -1,0 +1,22 @@
+ENTRY       M00049            Pathway   Module
+NAME        Adenine ribonucleotide biosynthesis, IMP => ADP,ATP
+DEFINITION  K01939 K01756 (K00939,K18532,K18533,K00944) (K00940,K00873,K12406)
+ORTHOLOGY   K01939  adenylosuccinate synthase [EC:6.3.4.4] [RN:R01135]
+            K01756  adenylosuccinate lyase [EC:4.3.2.2] [RN:R01083]
+            K00939,K18532,K18533  adenylate kinase [EC:2.7.4.3] [RN:R00127]
+            K00944  nucleoside-triphosphate--adenylate kinase [EC:2.7.4.10] [RN:R00333]
+            K00940  nucleoside-diphosphate kinase [EC:2.7.4.6] [RN:R00124]
+            K00873,K12406  pyruvate kinase [EC:2.7.1.40] [RN:R00200]
+CLASS       Pathway modules; Nucleotide metabolism; Purine metabolism
+PATHWAY     map00230  Purine metabolism
+            map01100  Metabolic pathways
+REACTION    R01135  C00130 -> C03794
+            R01083  C03794 -> C00020
+            R00127,R00333  C00020 -> C00008
+            R00124,R00200  C00008 -> C00002
+COMPOUND    C00130  IMP
+            C03794  N6-(1,2-Dicarboxyethyl)-AMP
+            C00020  AMP
+            C00008  ADP
+            C00002  ATP
+///

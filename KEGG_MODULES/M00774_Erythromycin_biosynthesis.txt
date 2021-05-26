@@ -1,0 +1,31 @@
+ENTRY       M00774            Pathway   Module
+NAME        Erythromycin biosynthesis, propanoyl-CoA + methylmalonyl-CoA => deoxyerythronolide B => erythromycin A/B
+DEFINITION  K10817 K14366 K14367 (K14368+K15997) K14370 K14369
+ORTHOLOGY   K10817  eryA; 6-deoxyerythronolide-B synthase [EC:2.3.1.94] [RN:R00918]
+            K14366  eryF; 6-deoxyerythronolide B hydroxylase [EC:1.14.15.35] [RN:R05270]
+            K14367  eryBV; erythronolide mycarosyltransferase [EC:2.4.1.328] [RN:R05530]
+            K14368  eryCIII; 3-alpha-mycarosylerythronolide B desosaminyl transferase [EC:2.4.1.278] [RN:R05531]
+            K15997  eryCII; 3-alpha-mycarosylerythronolide B desosaminyl transferase auxiliary protein [RN:R05531]
+            K14370  eryK; erythromycin 12 hydroxylase [EC:1.14.13.154] [RN:R05522]
+            K14369  eryG; erythromycin 3''-O-methyltransferase [EC:2.1.1.254] [RN:R05520 R05532]
+CLASS       Pathway modules; Biosynthesis of terpenoids and polyketides; Macrolide biosynthesis
+PATHWAY     map00522  Biosynthesis of 12-, 14- and 16-membered macrolides
+            map01100  Metabolic pathways
+            map01110  Biosynthesis of secondary metabolites
+REACTION    R00918  C00100 + C00683 -> C03240
+            R05270  C03240 -> C06635
+            R05530  C06635 -> C06630
+            R05531  C06630 -> C06633
+            R05522  C06633 -> C06616
+            R05520  C06616 -> C01912
+            R05532  C06633 -> C06653
+COMPOUND    C00100  Propanoyl-CoA
+            C00683  (S)-Methylmalonyl-CoA
+            C03240  6-Deoxyerythronolide B
+            C06635  Erythronolide B
+            C06630  3-O-alpha-Mycarosylerythronolide B
+            C06633  Erythromycin D
+            C06616  Erythromycin C
+            C01912  Erythromycin
+            C06653  Erythromycin B
+///

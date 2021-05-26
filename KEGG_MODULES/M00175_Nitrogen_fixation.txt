@@ -1,0 +1,37 @@
+ENTRY       M00175            Pathway   Module
+NAME        Nitrogen fixation, nitrogen => ammonia
+DEFINITION  ((K02588+K02586+K02591-K00531),(K22896+K22897+K22898+K22899))
+ORTHOLOGY   K02588  nitrogenase iron protein [RN:R05185]
+            K02586+K02591  nitrogenase molybdenum-iron protein [EC:1.18.6.1] [RN:R05185]
+            K00531  nitrogenase delta subunit [EC:1.18.6.1] [RN:R05185]
+            K22896+K22897  vanadium-dependent nitrogenase [EC:1.18.6.2] [RN:R12084]
+            K22898  vanadium nitrogenase delta subunit [EC:1.18.6.2] [RN:R12084]
+            K22899  vanadium nitrogenase iron protein [RN:R12084]
+CLASS       Pathway modules; Energy metabolism; Nitrogen metabolism
+PATHWAY     map00910  Nitrogen metabolism
+            map01100  Metabolic pathways
+            map01120  Microbial metabolism in diverse environments
+REACTION    R05185,R12084  C00697 -> C00014
+COMPOUND    C00697  Nitrogen
+            C00014  Ammonia
+REFERENCE   PMID:14702404
+  AUTHORS   Scott JD, Ludwig RA
+  TITLE     Azorhizobium caulinodans electron-transferring flavoprotein N electrochemically couples pyruvate dehydrogenase complex activity to N2 fixation.
+  JOURNAL   Microbiology 150:117-26 (2004)
+            DOI:10.1099/mic.0.26603-0
+REFERENCE   PMID:17408485
+  AUTHORS   Kneip C, Lockhart P, Voss C, Maier UG
+  TITLE     Nitrogen fixation in eukaryotes--new models for symbiosis.
+  JOURNAL   BMC Evol Biol 7:55 (2007)
+            DOI:10.1186/1471-2148-7-55
+REFERENCE   PMID:19478062
+  AUTHORS   Lee CC, Hu Y, Ribbe MW
+  TITLE     Unique features of the nitrogenase VFe protein from Azotobacter vinelandii.
+  JOURNAL   Proc Natl Acad Sci U S A 106:9209-14 (2009)
+            DOI:10.1073/pnas.0904408106
+REFERENCE   PMID:28692069
+  AUTHORS   Sippel D, Einsle O
+  TITLE     The structure of vanadium nitrogenase reveals an unusual bridging ligand.
+  JOURNAL   Nat Chem Biol 13:956-960 (2017)
+            DOI:10.1038/nchembio.2428
+///

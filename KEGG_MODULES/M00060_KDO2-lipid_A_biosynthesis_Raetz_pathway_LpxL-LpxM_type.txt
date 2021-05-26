@@ -1,0 +1,37 @@
+ENTRY       M00060            Pathway   Module
+NAME        KDO2-lipid A biosynthesis, Raetz pathway, LpxL-LpxM type
+DEFINITION  K00677 K02535 K02536 K03269 K00748 K00912 K02527 K02517 K02560
+ORTHOLOGY   K00677  lpxA; UDP-N-acetylglucosamine acyltransferase [EC:2.3.1.129] [RN:R04567]
+            K02535  lpxC; UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [EC:3.5.1.108] [RN:R04587]
+            K02536  lpxD; UDP-3-O-[3-hydroxymyristoyl] glucosamine N-acyltransferase [EC:2.3.1.191] [RN:R04550]
+            K03269  lpxH; UDP-2,3-diacylglucosamine hydrolase [EC:3.6.1.54] [RN:R04549]
+            K00748  lpxB; lipid-A-disaccharide synthase [EC:2.4.1.182] [RN:R04606]
+            K00912  lpxK; tetraacyldisaccharide 4'-kinase [EC:2.7.1.130] [RN:R04657]
+            K02527  kdtA, waaA; 3-deoxy-D-manno-octulosonic-acid transferase [EC:2.4.99.12 2.4.99.13] [RN:R04658]
+            K02517  lpxL, htrB; Kdo2-lipid IVA lauroyltransferase [EC:2.3.1.241] [RN:R05146]
+            K02560  lpxM, msbB; lauroyl-Kdo2-lipid IVA myristoyltransferase [EC:2.3.1.243] [RN:R05075]
+CLASS       Pathway modules; Glycan metabolism; Lipopolysaccharide metabolism
+PATHWAY     map00540  Lipopolysaccharide biosynthesis
+            map01100  Metabolic pathways
+REACTION    R04567  C00043 -> C04738
+            R04587  C04738 -> C06022
+            R04550  C06022 -> C04652
+            R04549  C04652 -> C04824
+            R04606  C04652 + C04824 -> C04932
+            R04657  C04932 -> C04919
+            R04658  C04919 -> C06024
+            R05074  C06024 -> C06025
+            R05146  C06025 -> C06251
+            R05075  C06251 -> C06026
+COMPOUND    C00043  UDP-N-acetyl-D-glucosamine
+            C04738  UDP-3-O-(3-hydroxytetradecanoyl)-N-acetylglucosamine
+            C06022  UDP-3-O-(3-hydroxytetradecanoyl)-D-glucosamine
+            C04652  UDP-2,3-bis(3-hydroxytetradecanoyl)glucosamine
+            C04824  2,3-Bis(3-hydroxytetradecanoyl)-beta-D-glucosaminyl 1-phosphate
+            C04932  2,3,2',3'-Tetrakis(3-hydroxytetradecanoyl)-D-glucosaminyl-1,6-beta-D-glucosamine 1-phosphate
+            C04919  2,3,2'3'-Tetrakis(3-hydroxytetradecanoyl)-D-glucosaminyl-1,6-beta-D-glucosamine 1,4'-bisphosphate
+            C06024  3-Deoxy-D-manno-octulosonyl-lipid IV(A)
+            C06025  Di[3-deoxy-D-manno-octulosonyl]-lipid IV(A)
+            C06251  Lauroyl-KDO2-lipid IV(A)
+            C06026  Di[3-deoxy-D-manno-octulosonyl]-lipid A
+///

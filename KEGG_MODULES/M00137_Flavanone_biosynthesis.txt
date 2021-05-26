@@ -1,0 +1,25 @@
+ENTRY       M00137            Pathway   Module
+NAME        Flavanone biosynthesis, phenylalanine => naringenin
+DEFINITION  K10775 K00487 K01904 K00660 K01859
+ORTHOLOGY   K10775  phenylalanine ammonia-lyase [EC:4.3.1.24] [RN:R00697]
+            K00487  trans-cinnamate 4-monooxygenase [EC:1.14.14.91] [RN:R02253]
+            K01904  4-coumarate--CoA ligase [EC:6.2.1.12] [RN:R01616]
+            K00660  chalcone synthase [EC:2.3.1.74] [RN:R01613]
+            K01859  chalcone isomerase [EC:5.5.1.6] [RN:R02446]
+CLASS       Pathway modules; Biosynthesis of other secondary metabolites; Biosynthesis of other secondary metabolites
+PATHWAY     map00940  Phenylpropanoid biosynthesis
+            map00941  Flavonoid biosynthesis
+            map01100  Metabolic pathways
+            map01110  Biosynthesis of secondary metabolites
+REACTION    R00697  C00079 -> C00423
+            R02253  C00423 -> C00811
+            R01616  C00811 -> C00223
+            R01613  C00223 -> C06561
+            R02446  C06561 -> C00509
+COMPOUND    C00079  L-Phenylalanine
+            C00423  trans-Cinnamate
+            C00811  4-Coumarate
+            C00223  p-Coumaroyl-CoA
+            C06561  Naringenin chalcone
+            C00509  Naringenin
+///

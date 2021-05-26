@@ -1,0 +1,48 @@
+ENTRY       M00356            Pathway   Module
+NAME        Methanogenesis, methanol => methane
+DEFINITION  (K14080+K04480+K14081) (K00399+K00401+K00402) ((K22480+K22481+K22482),(K03388+K03389+K03390),(K08264+K08265),(K03388+K03389+K03390+K14127+((K14126+K14128),(K22516+K00125))))
+ORTHOLOGY   K14080  [methyl-Co(III) methanol-specific corrinoid protein]:coenzyme M methyltransferase [EC:2.1.1.246] [RN:R09098]
+            K04480  methanol---5-hydroxybenzimidazolylcobamide Co-methyltransferase [EC:2.1.1.90] [RN:R09098]
+            K14081  methanol corrinoid protein [RN:R09098]
+            K00399+K00401+K00402  methyl-coenzyme M reductase [EC:2.8.4.1] [RN:R04541]
+            K22480+K22481+K22482  heterodisulfide reductase 1 [EC:1.8.7.3] [RN:R11931]
+            K03388+K03389+K03390  heterodisulfide reductase 2 [EC:1.8.7.3 1.8.98.4 1.8.98.5 1.8.98.6] [RN:R11928 R11931 R11943 R11944]
+            K08264+K08265  heterodisulfide reductase [EC:1.8.98.1] [RN:R04540]
+            K14126+K14128  F420-non-reducing hydrogenase [EC:1.8.98.5] [RN:R11943]
+            K14127  F420-non-reducing hydrogenase iron-sulfur subunit [EC:1.8.98.5 1.8.98.6] [RN:R11943 R11944]
+            K22516+K00125  formate dehydrogenase (coenzyme F420) [EC:1.8.98.6] [RN:R11944]
+CLASS       Pathway modules; Energy metabolism; Methane metabolism
+PATHWAY     map00680  Methane metabolism
+            map01200  Carbon metabolism
+            map01100  Metabolic pathways
+            map01120  Microbial metabolism in diverse environments
+REACTION    R09098  C00132 -> C03920
+            R04541  C03920 + C04628 -> C01438 + C04832
+            R11931,R04540,R11928,R11943,R11944  C04832 -> C04628
+COMPOUND    C00132  Methanol
+            C03920  2-(Methylthio)ethanesulfonate
+            C04628  Coenzyme B
+            C01438  Methane
+            C04832  Coenzyme M 7-mercaptoheptanoylthreonine-phosphate heterodisulfide
+COMMENT     Organism group: methanogenic archaea
+REFERENCE   PMID:18378594
+  AUTHORS   Liu Y, Whitman WB
+  TITLE     Metabolic, phylogenetic, and ecological diversity of the methanogenic archaea.
+  JOURNAL   Ann N Y Acad Sci 1125:171-89 (2008)
+            DOI:10.1196/annals.1419.019
+REFERENCE   PMID:10215883
+  AUTHORS   Sauer K, Thauer RK
+  TITLE     Methanol:coenzyme M methyltransferase from Methanosarcina barkeri -- substitution of the corrinoid harbouring subunit MtaC by free cob(I)alamin.
+  JOURNAL   Eur J Biochem 261:674-81 (1999)
+            DOI:10.1046/j.1432-1327.1999.00355.x
+REFERENCE   PMID:15882413
+  AUTHORS   Pritchett MA, Metcalf WW
+  TITLE     Genetic, physiological and biochemical characterization of multiple methanol methyltransferase isozymes in Methanosarcina acetivorans C2A.
+  JOURNAL   Mol Microbiol 56:1183-94 (2005)
+            DOI:10.1111/j.1365-2958.2005.04616.x
+REFERENCE   PMID:20847933
+  AUTHORS   Rother M, Krzycki JA
+  TITLE     Selenocysteine, pyrrolysine, and the unique energy metabolism of methanogenic archaea.
+  JOURNAL   Archaea 2010:453642 (2010)
+            DOI:10.1155/2010/453642
+///

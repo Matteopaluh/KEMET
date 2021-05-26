@@ -1,0 +1,16 @@
+ENTRY       M00148            Complex   Module
+NAME        Succinate dehydrogenase (ubiquinone)
+DEFINITION  K00236+K00237+K00234+K00235
+ORTHOLOGY   K00236  SDHC; succinate dehydrogenase (ubiquinone) cytochrome b560 subunit
+            K00237  SDHD; succinate dehydrogenase (ubiquinone) membrane anchor subunit
+            K00234  SDHA; succinate dehydrogenase (ubiquinone) flavoprotein subunit [EC:1.3.5.1]
+            K00235  SDHB; succinate dehydrogenase (ubiquinone) iron-sulfur subunit [EC:1.3.5.1]
+CLASS       Pathway modules; Energy metabolism; ATP synthesis
+PATHWAY     map00190  Oxidative phosphorylation
+REACTION    R02164  C00399 + C00042 -> C00390 + C00122
+COMPOUND    C00399  Ubiquinone
+            C00042  Succinate
+            C00390  Ubiquinol
+            C00122  Fumarate
+COMMENT     Complex II in the electron transport chain.
+///

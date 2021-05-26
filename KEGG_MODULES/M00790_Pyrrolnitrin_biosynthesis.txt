@@ -1,0 +1,29 @@
+ENTRY       M00790            Pathway   Module
+NAME        Pyrrolnitrin biosynthesis, tryptophan => pyrrolnitrin
+DEFINITION  K14266 K19981 K14257 K19982
+ORTHOLOGY   K14266  prnA; tryptophan halogenase [EC:1.14.19.9] [RN:R09570]
+            K19981  prnB; monodechloroaminopyrrolnitrin synthase [RN:R11105]
+            K14257  prnC; FADH2 O2-dependent halogenase [EC:1.14.19.-] [RN:R11106]
+            K19982  prnD; aminopyrrolnitrin oxygenase [EC:1.14.13.-] [RN:R11107]
+CLASS       Pathway modules; Biosynthesis of other secondary metabolites; Biosynthesis of other secondary metabolites
+PATHWAY     map00404  Staurosporine biosynthesis
+            map01100  Metabolic pathways
+            map01130  Biosynthesis of antibiotics
+REACTION    R09570  C00078 -> C19687
+            R11105  C19687 -> C21110
+            R11106  C21110 -> C21109
+            R11107  C21109 -> C12491
+COMPOUND    C00078  L-Tryptophan
+            C19687  7-Chloro-L-tryptophan
+            C21110  Monodechloroaminopyrrolnitrin
+            C21109  Aminopyrrolnitrin
+            C12491  Pyrrolnitrin
+REFERENCE   PMID:9172332
+  AUTHORS   Hammer PE, Hill DS, Lam ST, Van Pee KH, Ligon JM
+  TITLE     Four genes from Pseudomonas fluorescens that encode the biosynthesis of pyrrolnitrin.
+  JOURNAL   Appl Environ Microbiol 63:2147-54 (1997)
+REFERENCE   PMID:9537395
+  AUTHORS   Kirner S, Hammer PE, Hill DS, Altmann A, Fischer I, Weislo LJ, Lanahan M, van Pee KH, Ligon JM
+  TITLE     Functions encoded by pyrrolnitrin biosynthetic genes from Pseudomonas fluorescens.
+  JOURNAL   J Bacteriol 180:1939-43 (1998)
+///

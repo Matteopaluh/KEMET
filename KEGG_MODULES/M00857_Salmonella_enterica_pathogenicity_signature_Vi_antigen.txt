@@ -1,0 +1,30 @@
+ENTRY       M00857            Signature Module
+NAME        Salmonella enterica pathogenicity signature, Vi antigen
+DEFINITION  K22914 K22926 K22925 K22915 K22916 K22917 (K22924+K22921+K22923+K22922)
+ORTHOLOGY   K22914  tviA; Vi polysaccharide biosynthesis protein TviA
+            K22926  tviB; UDP-N-acetylglucosamine 6-dehydrogenase [EC:1.1.1.136]
+            K22925  tviC; UDP-N-acetylglucosaminuronic acid 4-epimerase [EC:5.1.3.-]
+            K22915  tviD; Vi polysaccharide biosynthesis protein TviD
+            K22916  tviE; Vi polysaccharide biosynthesis protein TviE
+            K22917  vexE; Vi polysaccharide export protein VexE
+            K22924  vexA; Vi polysaccharide export protein VexA
+            K22921  vexB; Vi polysaccharide transport system permease protein
+            K22923  vexC; Vi polysaccharide transport system ATP-binding protein [EC:3.6.3.38]
+            K22922  vexD; Vi polysaccharide transport system permease protein
+CLASS       Signature modules; Gene set; Pathogenicity
+REFERENCE   PMID:27869515
+  AUTHORS   Hu X, Chen Z, Xiong K, Wang J, Rao X, Cong Y
+  TITLE     Vi capsular polysaccharide: Synthesis, virulence, and application.
+  JOURNAL   Crit Rev Microbiol 43:440-452 (2017)
+            DOI:10.1080/1040841X.2016.1249335
+REFERENCE   PMID:25749454
+  AUTHORS   Keestra-Gounder AM, Tsolis RM, Baumler AJ
+  TITLE     Now you see me, now you don't: the interaction of Salmonella with innate immune receptors.
+  JOURNAL   Nat Rev Microbiol 13:206-16 (2015)
+            DOI:10.1038/nrmicro3428
+REFERENCE   PMID:30030897
+  AUTHORS   Johnson R, Mylona E, Frankel G
+  TITLE     Typhoidal Salmonella: Distinctive virulence factors and pathogenesis.
+  JOURNAL   Cell Microbiol 20:e12939 (2018)
+            DOI:10.1111/cmi.12939
+///

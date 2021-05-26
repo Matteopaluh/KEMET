@@ -1,0 +1,28 @@
+ENTRY       M00661            Pathway   Module
+NAME        Paspaline biosynthesis, geranylgeranyl-PP + indoleglycerol phosphate => paspaline
+DEFINITION  K18385 K18386 K18387
+ORTHOLOGY   K18385  geranylgeranyldiphosphate transferase [RN:R10349]
+            K18386  FAD dependent monooxygenase [EC:1.14.13.-] [RN:R10350 R10351]
+            K18387  paspaline synthase [RN:R10352 R10353]
+CLASS       Pathway modules; Biosynthesis of other secondary metabolites; Biosynthesis of other secondary metabolites
+PATHWAY     map00403  Indole diterpene alkaloid biosynthesis
+            map01100  Metabolic pathways
+            map01110  Biosynthesis of secondary metabolites
+REACTION    R10349  C00353 + C03506 -> C20525 
+            R10350  C20525 -> C20526 
+            R10352  C20526 -> C20527 
+            R10351  C20527 -> C20529
+            R10353  C20529 -> C20530
+COMPOUND    C00353  Geranylgeranyl diphosphate
+            C03506  Indoleglycerol phosphate
+            C20525  3-Geranylgeranylindole
+            C20526  10,11-Epoxy-3-geranylgeranylindole
+            C20527  Emindole SB
+            C20529  14,15-Epoxyemindole SB
+            C20530  Paspaline
+REFERENCE   PMID:23311903
+  AUTHORS   Tagami K, Liu C, Minami A, Noike M, Isaka T, Fueki S, Shichijo Y, Toshima H, Gomi K, Dairi T, Oikawa H
+  TITLE     Reconstitution of biosynthetic machinery for indole-diterpene paxilline in Aspergillus oryzae.
+  JOURNAL   J Am Chem Soc 135:1260-3 (2013)
+            DOI:10.1021/ja3116636
+///

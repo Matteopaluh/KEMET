@@ -1,0 +1,29 @@
+ENTRY       M00418            Pathway   Module
+NAME        Toluene degradation, anaerobic, toluene => benzoyl-CoA
+DEFINITION  K07540 (K07543+K07544) K07545 K07546 (K07547+K07548) (K07549+K07550)
+ORTHOLOGY   K07540  benzylsuccinate synthase [EC:4.1.99.11] [RN:R05598]
+            K07543+K07544  benzylsuccinate CoA-transferase subunit [EC:2.8.3.15] [RN:R05588]
+            K07545  bbsG; (R)-benzylsuccinyl-CoA dehydro genase [EC:1.3.8.3] [RN:R05584]
+            K07546  bbsH; E-phenylitaconyl-CoA hydratase [EC:4.2.1.-] [RN:R05599]
+            K07547+K07548  2-[hydroxy(phenyl)methyl]-succinyl-CoA dehydrogenase [EC:1.1.1.35] [RN:R05575]
+            K07549+K07550  benzoylsuccinyl-CoA thiolase [EC:2.3.1.-] [RN:R05587]
+CLASS       Pathway modules; Xenobiotics biodegradation; Aromatics degradation
+PATHWAY     map00623  Toluene degradation
+            map01220  Degradation of aromatic compounds
+            map01100  Metabolic pathways
+            map01120  Microbial metabolism in diverse environments
+REACTION    R05598  C01455 -> C09816
+            R05588  C09816 -> C09817
+            R05584  C09817 -> C09818
+            R05599  C09818 -> C09819
+            R05575  C09819 -> C09820
+            R05587  C09820 -> C00512
+COMPOUND    C01455  Toluene
+            C09816  Benzylsuccinate
+            C09817  Benzylsuccinyl-CoA
+            C09818  E-Phenylitaconyl-CoA
+            C09819  (Hydroxymethylphenyl)succinyl-CoA
+            C09820  Benzoylsuccinyl-CoA
+            C00512  S-Benzoate coenzyme A
+RMODULE     RM015  Methyl to carboxyl conversion on aromatic ring, anaerobic
+///

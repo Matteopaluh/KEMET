@@ -1,0 +1,21 @@
+ENTRY       M00544            Pathway   Module
+NAME        Carbazole degradation, carbazole => 2-oxopent-4-enoate + anthranilate
+DEFINITION  (K15751-K15752-K15753) (K15754+K15755) K15756
+ORTHOLOGY   K15751+K15752+K15753  carbazole 1,9a-dioxygenase [EC:1.14.12.22] [RN:R05414 R09512]
+            K15754+K15755  2'-aminobiphenyl-2,3-diol 1,2-dioxygenase [EC:1.13.11.-] [RN:R05415]
+            K15756  2-hydroxy-6-oxo-6-(2'-aminophenyl)hexa-2, 4-dienoate hydrolase [EC:3.7.1.13] [RN:R05365]
+CLASS       Pathway modules; Xenobiotics biodegradation; Aromatics degradation
+PATHWAY     map00621  Dioxin degradation
+            map01220  Degradation of aromatic compounds
+            map01100  Metabolic pathways
+            map01120  Microbial metabolism in diverse environments
+REACTION    R05414,R09512  C08060 -> C08061
+            R05415  C08061 -> C08062
+            R05365  C08062 -> C00596 + C00108
+COMPOUND    C08060  Carbazole
+            C08061  2'-Aminobiphenyl-2,3-diol
+            C08062  2-Hydroxy-6-oxo-(2'-aminophenyl)-hexa-2,4-dienoate
+            C00108  Anthranilate
+            C00596  2-Hydroxy-2,4-pentadienoate
+RMODULE     RM011  Dihydroxylation and meta-cleavage of aromatic ring, type 1b
+///

@@ -1,0 +1,4 @@
+M00855_Glycogen degradation, glycogen => glucose-6P
+K00688, K16153
+K01196, K00705, K22451, K02438, K01200
+K15779, K01835, K15778

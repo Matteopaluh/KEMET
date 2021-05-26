@@ -1,0 +1,17 @@
+ENTRY       M00618            Signature Module
+NAME        Acetogen
+DEFINITION  M00377 M00579
+ORTHOLOGY   (M00377  Reductive acetyl-CoA pathway (Wood-Ljungdahl pathway))
+            K00198  carbon-monoxide dehydrogenase
+            K05299,K15022  formate dehydrogenase
+            K01938  formate--tetrahydrofolate ligase
+            K01491  methylenetetrahydrofolate dehydrogenase (NADP+) / methenyltetrahydrofolate cyclohydrolase
+            K00297  methylenetetrahydrofolate reductase (NADPH)
+            K15023  5-methyltetrahydrofolate corrinoid/iron sulfur protein methyltransferase
+            K14138  acetyl-CoA synthase
+            K00197+K00194  acetyl-CoA decarbonylase/synthase complex
+            (M00579  Phosphate acetyltransferase-acetate kinase pathway, acetyl-CoA => acetate)
+            K00625,K13788,K15024  phosphate acetyltransferase
+            K00925  acetate kinase
+CLASS       Signature modules; Module set; Metabolic capacity
+///

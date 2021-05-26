@@ -1,0 +1,20 @@
+ENTRY       M00623            Pathway   Module
+NAME        Phthalate degradation, phthalate => protocatechuate
+DEFINITION  (K18068+K18069) K18067 K04102
+ORTHOLOGY   K18068,K18069  phthalate 4,5-dioxygenase [EC:1.14.12.7] [RN:R03630]
+            K18067  phthalate 4,5-cis-dihydrodiol dehydrogenase [EC:1.3.1.64] [RN:R05275]
+            K04102  4,5-dihydroxyphthalate decarboxylase [EC:4.1.1.55] [RN:R01635]
+CLASS       Pathway modules; Xenobiotics biodegradation; Aromatics degradation
+PATHWAY     map00624  Polycyclic aromatic hydrocarbon degradation
+            map01220  Degradation of aromatic compounds
+            map01100  Metabolic pathways
+            map01120  Microbial metabolism in diverse environments
+REACTION    R03630  C01606 -> C04783
+            R05275  C04783 -> C03233
+            R01635  C03233 -> C00230
+COMPOUND    C01606  Phthalate
+            C04783  cis-4,5-Dihydroxycyclohexa-1(6),2-diene-1,2-dicarboxylate
+            C03233  4,5-Dihydroxyphthalate
+            C00230  3,4-Dihydroxybenzoate
+RMODULE     RM004  Dihydroxylation of aromatic ring, type 1 (dioxygenase and dehydrogenase reactions)
+///

@@ -1,0 +1,42 @@
+ENTRY       M00819            Pathway   Module
+NAME        Pentalenolactone biosynthesis, farnesyl-PP => pentalenolactone
+DEFINITION  K12250 K15907 -- K18056 K17747 K18091 K18057 K17476
+ORTHOLOGY   K12250  pentalenene synthase [EC:4.2.3.7] [RN:R02305]
+            K15907  pentalenene oxygenase [EC:1.14.15.32] [RN:R09814]
+            K18056  1-deoxypentalenic acid 11beta-hydroxylase [EC:1.14.11.35] [RN:R10157]
+            K17747  1-deoxy-11beta-hydroxypentalenate dehydrogenase [EC:1.1.1.340] [RN:R10156]
+            K18091  pentalenolactone D synthase [EC:1.14.13.170 1.14.13.171] [RN:R10154]
+            K18057  pentalenolactone F synthase [EC:1.14.11.36] [RN:R10145]
+            K17476  pentalenolactone synthase [EC:1.14.19.8] [RN:R10162]
+CLASS       Pathway modules; Biosynthesis of other secondary metabolites; Biosynthesis of other secondary metabolites
+PATHWAY     map00999  Biosynthesis of various secondary metabolites - part 1
+            map01100  Metabolic pathways
+            map01130  Biosynthesis of antibiotics
+REACTION    R02305  C00448 -> C01841
+            R09814  C01841 -> C19939 
+            R11315  C19939 -> C20404
+            R10157  C20404 -> C20403
+            R10156  C20403 -> C20400
+            R10154  C20400 -> C20399
+            R10145  C20399 -> C20397
+            R10162  C20397 -> C20407
+COMPOUND    C00448  trans,trans-Farnesyl diphosphate
+            C01841  Pentalenene
+            C19939  Pentalen-13-al
+            C20404  1-Deoxypentalenate
+            C20403  1-Deoxy-11beta-hydroxypentalenate
+            C20400  1-Deoxy-11-oxopentalenate
+            C20399  Pentalenolactone D
+            C20397  Pentalenolactone F
+            C20407  Pentalenolactone
+REFERENCE   PMID:17017767
+  AUTHORS   Quaderer R, Omura S, Ikeda H, Cane DE
+  TITLE     Pentalenolactone biosynthesis. Molecular cloning and assignment of biochemical function to PtlI, a cytochrome P450 of Streptomyces avermitilis.
+  JOURNAL   J Am Chem Soc 128:13036-7 (2006)
+            DOI:10.1021/ja0639214
+REFERENCE   PMID:21250661
+  AUTHORS   Seo MJ, Zhu D, Endo S, Ikeda H, Cane DE
+  TITLE     Genome mining in Streptomyces. Elucidation of the role of Baeyer-Villiger monooxygenases and non-heme iron-dependent dehydrogenase/oxygenases in the final steps of the biosynthesis of pentalenolactone and neopentalenolactone.
+  JOURNAL   Biochemistry 50:1739-54 (2011)
+            DOI:10.1021/bi1019786
+///

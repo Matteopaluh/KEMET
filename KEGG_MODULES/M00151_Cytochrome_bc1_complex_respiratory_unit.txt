@@ -1,0 +1,22 @@
+ENTRY       M00151            Complex   Module
+NAME        Cytochrome bc1 complex respiratory unit
+DEFINITION  ((K00412+K00413,K00410)+K00411),K03886+K03887+K03888,K03890+K03891+K03889
+ORTHOLOGY   K00410  fbcH; ubiquinol-cytochrome c reductase cytochrome b/c1 subunit	
+            K00411  UQCRFS1; ubiquinol-cytochrome c reductase iron-sulfur subunit
+            K00412  CYTB; ubiquinol-cytochrome c reductase cytochrome b subunit
+            K00413  CYC1; ubiquinol-cytochrome c reductase cytochrome c1 subunit
+            K03886  MQCRA; menaquinol-cytochrome c reductase iron-sulfur subunit [EC:1.10.2.-]
+            K03887  MQCRB; menaquinol-cytochrome c reductase cytochrome b subunit
+            K03888  MQCRC; menaquinol-cytochrome c reductase cytochrome b/c subunit
+            K03890  qcrA; ubiquinol-cytochrome c reductase iron-sulfur subunit
+            K03891  qcrB; ubiquinol-cytochrome c reductase cytochrome b subunit
+            K03889  qcrC; ubiquinol-cytochrome c reductase cytochrome c subunit
+CLASS       Pathway modules; Energy metabolism; ATP synthesis
+PATHWAY     map00190  Oxidative phosphorylation
+COMPOUND    C00390  Ubiquinol
+            C00125  Ferricytochrome c
+            C00399  Ubiquinone
+            C00126  Ferrocytochrome c
+            C00080  H+
+COMMENT     Complex III in the electron transport chain.
+///

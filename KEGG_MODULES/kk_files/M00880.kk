@@ -1,0 +1,6 @@
+M00880_Molybdenum cofactor biosynthesis, GTP => molybdenum cofactor
+K03639, K20967
+K03637, K20967
+K03635, K21142
+K03831, K03638, K15376
+K03750, K15376

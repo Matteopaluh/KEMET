@@ -1,0 +1,11 @@
+M00773_Tylosin biosynthesis, methylmalonyl-CoA + malonyl-CoA => tylactone => tylosin
+K15988
+K15989, K15990
+K15992
+K15991
+K15993
+K15994
+K15995
+K15996
+COMPLEXES_LIST
+K15989+K15990

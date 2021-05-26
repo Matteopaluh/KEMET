@@ -1,0 +1,28 @@
+ENTRY       M00826            Pathway   Module
+NAME        C-1027 benzoxazolinate moiety biosynthesis, chorismate => benzoxazolinyl-CoA
+DEFINITION  (K20159+K21175) K20156 K21176 K21177 K21178 K21179
+ORTHOLOGY   K20159  sgcD; 2-amino-4-deoxychorismate synthase [EC:2.6.1.86] [RN:R08956]
+            K21175  sgcD1; 2-amino-4-deoxychorismate synthase, glutamine amidotransferase component [EC:2.6.1.86] [RN:R08956]
+            K20156  sgcG; 2-amino-4-deoxychorismate dehydrogenase [EC:1.3.99.24] [RN:R09559]
+            K21176  sgcD5; benzoxazolinate moiety biosynthesis protein SgcD5 [RN:R11362]
+            K21177  sgcD3; cytochrome P450 hydroxylase [EC:1.14.-.-] [RN:R11363]
+            K21178  sgcD4; O-methyltransferase [EC:2.1.1.-] [RN:R11364]
+            K21179  sgcH; CoA-ligase [RN:R11365]
+CLASS       Pathway modules; Biosynthesis of terpenoids and polyketides; Enediyne biosynthesis
+PATHWAY     map01059  Biosynthesis of enediyne antibiotics
+            map01100  Metabolic pathways
+            map01130  Biosynthesis of antibiotics
+REACTION    R08956  C00251 -> C18054
+            R09559  C18054 -> C19686
+            R11362  C19686 -> C21306
+            R11363  C21306 -> C21307
+            R11364  C21307 -> C11468
+            R11365  C11468 -> C11448
+COMPOUND    C00251  Chorismate
+            C18054  2-Amino-2-deoxyisochorismate
+            C19686  3-(1-Carboxyvinyloxy)anthranilate
+            C21306  3,4-Dihydro-2-methylene-3-oxo-2H-1,4-benzoxazine-5-carboxylate
+            C21307  3,4-Dihydro-7-hydroxy-2-methylene-3-oxo-2H-1,4-benzoxazine-5-carboxylate
+            C11468  3,4-Dihydro-7-methoxy-2-methylene-3-oxo-2H-1,4-benzoxazine-5-carboxylic acid
+            C11448  3,4-Dihydro-7-methoxy-2-methylene-3-oxo-2H-1,4-benzoxazine-5-carbonyl-CoA
+///

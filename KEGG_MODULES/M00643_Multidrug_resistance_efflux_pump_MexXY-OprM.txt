@@ -1,0 +1,29 @@
+ENTRY       M00643            Signature Module
+NAME        Multidrug resistance, efflux pump MexXY-OprM
+DEFINITION  K18129 (K18094+K18095+K18139)
+ORTHOLOGY   K18129  mexZ; TetR/AcrR family transcriptional regulator, mexXY operon repressor
+            K18094  mexX; membrane fusion protein
+            K18095  mexY; multidrug efflux pump
+            K18139  oprM; outer membrane protein
+CLASS       Signature modules; Gene set; Drug resistance
+REFERENCE   PMID:15105137
+  AUTHORS   Llanes C, Hocquet D, Vogne C, Benali-Baitich D, Neuwirth C, Plesiat P
+  TITLE     Clinical strains of Pseudomonas aeruginosa overproducing MexAB-OprM and MexXY efflux pumps simultaneously.
+  JOURNAL   Antimicrob Agents Chemother 48:1797-802 (2004)
+            DOI:10.1128/AAC.48.5.1797-1802.2004
+REFERENCE   PMID:10952562
+  AUTHORS   Masuda N, Sakagawa E, Ohya S, Gotoh N, Tsujimoto H, Nishino T
+  TITLE     Contribution of the MexX-MexY-oprM efflux system to intrinsic resistance in Pseudomonas aeruginosa.
+  JOURNAL   Antimicrob Agents Chemother 44:2242-6 (2000)
+            DOI:10.1128/AAC.44.9.2242-2246.2000
+REFERENCE   PMID:21149619
+  AUTHORS   Muller C, Plesiat P, Jeannot K
+  TITLE     A two-component regulatory system interconnects resistance to polymyxins, aminoglycosides, fluoroquinolones, and beta-lactams in Pseudomonas aeruginosa.
+  JOURNAL   Antimicrob Agents Chemother 55:1211-21 (2011)
+            DOI:10.1128/AAC.01252-10
+REFERENCE   PMID:19589837
+  AUTHORS   Yamamoto M, Ueda A, Kudo M, Matsuo Y, Fukushima J, Nakae T, Kaneko T, Ishigatsubo Y
+  TITLE     Role of MexZ and PA5471 in transcriptional regulation of mexXY in Pseudomonas aeruginosa.
+  JOURNAL   Microbiology 155:3312-21 (2009)
+            DOI:10.1099/mic.0.028993-0
+///

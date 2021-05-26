@@ -1,0 +1,34 @@
+ENTRY       M00572            Pathway   Module
+NAME        Pimeloyl-ACP biosynthesis, BioC-BioH pathway, malonyl-ACP => pimeloyl-ACP
+DEFINITION  K02169 (K00647,K09458) K00059 K02372 K00208 (K02170,K09789,K19560,K19561)
+ORTHOLOGY   K02169  malonyl-CoA O-methyltransferase [EC:2.1.1.197] [RN:R09543]
+            K00647,K09458  3-oxoacyl-[acyl-carrier-protein] synthase [EC:2.3.1.41 2.3.1.179] [RN:R10115 R10119]
+            K00059  3-oxoacyl-[acyl-carrier protein] reductase [EC:1.1.1.100] [RN:R10116 R10120]
+            K02372  3-hydroxyacyl-[acyl-carrier-protein] dehydratase [EC:4.2.1.59] [RN:R10117 R10121]
+            K00208  enoyl-[acyl-carrier protein] reductase [EC:1.3.1.10] [RN:R10118 R10122]
+            K02170,K09789,K19560,K19561  pimelyl-[acyl-carrier protein] methyl ester esterase [EC:3.1.1.85] [RN:R09725]
+CLASS       Pathway modules; Metabolism of cofactors and vitamins; Cofactor and vitamin metabolism
+PATHWAY     map00780  Biotin metabolism
+            map01100  Metabolic pathways
+REACTION    R09543  C01209 -> C19673
+            R10115  C19673 -> C20372
+            R10116  C20372 -> C20373
+            R10117  C20373 -> C20374
+            R10118  C20374 -> C20375
+            R10119  C20375 -> C20376
+            R10120  C20376 -> C20377
+            R10121  C20377 -> C20378
+            R10122  C20378 -> C19846
+            R09725  C19846 -> C19845
+COMPOUND    C01209  Malonyl-[acp]
+            C19673  Malonyl-[acp] methyl ester
+            C20372  3-Ketoglutaryl-[acp] methyl ester
+            C20373  3-Hydroxyglutaryl-[acp] methyl ester
+            C20374  Enoylglutaryl-[acp] methyl ester
+            C20375  Glutaryl-[acp] methyl ester
+            C20376  3-Ketopimeloyl-[acp] methyl ester
+            C20377  3-Hydroxypimeloyl-[acp] methyl ester
+            C20378  Enoylpimeloyl-[acp] methyl ester
+            C19846  Pimelyl-[acp] methyl ester
+            C19845  Pimelyl-[acp]
+///

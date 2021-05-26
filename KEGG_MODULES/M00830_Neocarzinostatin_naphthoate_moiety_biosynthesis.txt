@@ -1,0 +1,21 @@
+ENTRY       M00830            Pathway   Module
+NAME        Neocarzinostatin naphthoate moiety biosynthesis, malonyl-CoA => 2-hydroxy-5-methyl-1-naphthoate => 2-hydroxy-7-methoxy-5-methyl-1-naphthoyl-CoA
+DEFINITION  K20422 K20420 K20421 K20423
+ORTHOLOGY   K20422  ncsB; neocarzinostatin naphthoate synthase [EC:2.3.1.237] [RN:R11125]
+            K20420  ncsB3; 2-hydroxy-5-methyl-1-naphthoate 7-hydroxylase [EC:1.14.15.31] [RN:R10796]
+            K20421  ncsB1; 2,7-dihydroxy-5-methyl-1-naphthoate 7-O-methyltransferase [EC:2.1.1.303] [RN:R10963]
+            K20423  ncsB2; 2-hydroxy-7-methoxy-5-methyl-1-naphthoate---CoA ligase [EC:6.2.1.43] [RN:R10771]
+CLASS       Pathway modules; Biosynthesis of terpenoids and polyketides; Enediyne biosynthesis
+PATHWAY     map01059  Biosynthesis of enediyne antibiotics
+            map01100  Metabolic pathways
+            map01130  Biosynthesis of antibiotics
+REACTION    R11125  C00083 -> C20856
+            R10796  C20856 -> C20857
+            R10963  C20857 -> C20841
+            R10771  C20841 -> C20842
+COMPOUND    C00083  Malonyl-CoA
+            C20856  2-Hydroxy-5-methyl-1-naphthoate
+            C20857  2,7-Dihydroxy-5-methyl-1-naphthoate
+            C20841  2-Hydroxy-7-methoxy-5-methyl-1-naphthoate
+            C20842  2-Hydroxy-7-methoxy-5-methyl-1-naphthoyl-CoA
+///

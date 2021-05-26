@@ -1,0 +1,7 @@
+M00543_Biphenyl degradation, biphenyl => 2-oxopent-4-enoate + benzoate
+K08689, K15750, K18087, K18088
+K08690
+K00462
+K10222
+COMPLEXES_LIST
+K08689+K15750+K18087+K18088

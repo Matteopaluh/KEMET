@@ -1,0 +1,40 @@
+ENTRY       M00861            Pathway   Module
+NAME        beta-Oxidation, peroxisome, VLCFA
+DEFINITION  K00232 K12405 (K07513,K08764)
+ORTHOLOGY   K00232  acyl-CoA oxidase [EC:1.3.3.6] [RN:R07934 R07950]
+            K12405  (3R)-3-hydroxyacyl-CoA dehydrogenase / enoyl-CoA hydratase 2 [EC:1.1.1.- 4.2.1.119] [RN:R07935 R07936 R07951 R07952]
+            K07513  acetyl-CoA acyltransferase 1 [EC:2.3.1.16] [RN:R07937 R07953]
+            K08764  sterol carrier protein 2 [EC:2.3.1.176] [RN:R07937 R07953]
+CLASS       Pathway modules; Lipid metabolism; Fatty acid metabolism
+PATHWAY     map01040  Biosynthesis of unsaturated fatty acids
+            map01212  Fatty acid metabolism
+            map01100  Metabolic pathways
+REACTION    R07934  C16168 -> C16374
+            R07935  C16374 -> C16375
+            R07936  C16375 -> C16376
+            R07937  C16376 -> C16169
+            R07950  C16172 -> C16387
+            R07951  C16387 -> C16388
+            R07952  C16388 -> C16389
+            R07953  C16389 -> C16173
+COMPOUND    C16168  (6Z,9Z,12Z,15Z,18Z,21Z)-Tetracosahexaenoyl-CoA
+            C16374  (2E,6Z,9Z,12Z,15Z,18Z,21Z)-Tetracosaheptaenoyl-CoA
+            C16375  (3R,6Z,9Z,12Z,15Z,18Z,21Z)-3-Hydroxytetracosahexaenoyl-CoA
+            C16376  (6Z,9Z,12Z,15Z,18Z,21Z)-3-Oxotetracosahexaenoyl-CoA
+            C16169  (4Z,7Z,10Z,13Z,16Z,19Z)-Docosahexaenoyl-CoA
+            C16172  (6Z,9Z,12Z,15Z,18Z)-Tetracosapentaenoyl-CoA
+            C16387  (2E,6Z,9Z,12Z,15Z,18Z)-Tetracosahexaenoyl-CoA
+            C16388  (3R,6Z,9Z,12Z,15Z,18Z)-3-Hydroxytetracosapentaenoyl-CoA
+            C16389  (6Z,9Z,12Z,15Z,18Z)-3-Oxotetracosapentaenoyl-CoA
+            C16173  (4Z,7Z,10Z,13Z,16Z)-Docosapentaenoyl-CoA
+RMODULE     RM018  Beta oxidation in acyl-CoA degradation
+REFERENCE   PMID:11734571
+  AUTHORS   Ferdinandusse S, Denis S, Mooijer PA, Zhang Z, Reddy JK, Spector AA, Wanders RJ
+  TITLE     Identification of the peroxisomal beta-oxidation enzymes involved in the biosynthesis of docosahexaenoic acid.
+  JOURNAL   J Lipid Res 42:1987-95 (2001)
+REFERENCE   PMID:26611709
+  AUTHORS   Waterham HR, Ferdinandusse S, Wanders RJ
+  TITLE     Human disorders of peroxisome metabolism and biogenesis.
+  JOURNAL   Biochim Biophys Acta 1863:922-33 (2016)
+            DOI:10.1016/j.bbamcr.2015.11.015
+///

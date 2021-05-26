@@ -1,0 +1,25 @@
+ENTRY       M00832            Pathway   Module
+NAME        Kedarcidin 2-aza-3-chloro-beta-tyrosine moiety biosynthesis, azatyrosine => 2-aza-3-chloro-beta-tyrosyl-PCP
+DEFINITION  K21183
+            K21227 K21228 K16431 K21185
+ORTHOLOGY   K21183  sgcC2; peptidyl carrier protein
+            K21227  kedY4; MIO-dependent 2-aza-L-tyrosine aminomutase [EC:5.4.3.-] [RN:R11391]
+            K21228  kedY1; (R)-2-aza-beta-tyrosine adenylation enzyme [EC:6.2.1.-] [RN:R11392]
+            K16431  kedY3; FAD-dependent halogenase [EC:1.14.19.-] [RN:R11393]
+            K21185  sgcE6; flavin reductase
+CLASS       Pathway modules; Biosynthesis of terpenoids and polyketides; Enediyne biosynthesis
+PATHWAY     map01059  Biosynthesis of enediyne antibiotics
+            map01130  Biosynthesis of antibiotics
+REACTION    R11391  C21325 -> C21326
+            R11392  C21326 -> C21327
+            R11393  C21327 -> C21328
+COMPOUND    C21325  Azatyrosine
+            C21326  (R)-2-Aza-beta-tyrosine
+            C21327  (R)-2-Aza-beta-tyrosyl-[pcp]
+            C21328  (R)-2-Aza-3-chloro-beta-tyrosyl-[pcp]
+REFERENCE   PMID:23633564
+  AUTHORS   Huang SX, Lohman JR, Huang T, Shen B
+  TITLE     A new member of the 4-methylideneimidazole-5-one-containing aminomutase family from the enediyne kedarcidin biosynthetic pathway.
+  JOURNAL   Proc Natl Acad Sci U S A 110:8069-74 (2013)
+            DOI:10.1073/pnas.1304733110
+///

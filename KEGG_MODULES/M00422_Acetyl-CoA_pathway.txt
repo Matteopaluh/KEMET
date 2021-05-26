@@ -1,0 +1,30 @@
+ENTRY       M00422            Pathway   Module
+NAME        Acetyl-CoA pathway, CO2 => acetyl-CoA
+DEFINITION  (K00192+K00195) (K00193+K00197+K00194)
+ORTHOLOGY   K00192  cdhA; anaerobic carbon-monoxide dehydrogenase, CODH/ACS complex subunit alpha [EC:1.2.7.4] [RN:R07157]
+            K00195  cdhB; anaerobic carbon-monoxide dehydrogenase, CODH/ACS complex subunit epsilon [RN:R07157]
+            K00193  cdhC; acetyl-CoA decarbonylase/synthase, CODH/ACS complex subunit beta [EC:2.3.1.169] [RN:R09096 R10219]
+            K00197  cdhE; acetyl-CoA decarbonylase/synthase, CODH/ACS complex subunit gamma [EC:2.1.1.245] [RN:R09096 R10219]
+            K00194  cdhD; acetyl-CoA decarbonylase/synthase, CODH/ACS complex subunit delta [EC:2.1.1.245] [RN:R09096 R10219]
+CLASS       Pathway modules; Energy metabolism; Methane metabolism
+PATHWAY     map00680  Methane metabolism
+            map01200  Carbon metabolism
+            map01100  Metabolic pathways
+            map01120  Microbial metabolism in diverse environments
+REACTION    R07157  C00011 -> C00237
+            R09096,R10219  C00237 -> C00024
+COMPOUND    C00011  CO2
+            C00237  CO
+            C00024  Acetyl-CoA
+COMMENT     Organism group: archaea
+REFERENCE   PMID:21402216
+  AUTHORS   Grahame DA
+  TITLE     Methods for analysis of acetyl-CoA synthase applications to bacterial and archaeal systems.
+  JOURNAL   Methods Enzymol 494:189-217 (2011)
+            DOI:10.1016/B978-0-12-385112-3.00010-X
+REFERENCE   PMID:18575848
+  AUTHORS   Oelgeschlager E, Rother M
+  TITLE     Carbon monoxide-dependent energy metabolism in anaerobic bacteria and archaea.
+  JOURNAL   Arch Microbiol 190:257-69 (2008)
+            DOI:10.1007/s00203-008-0382-6
+///

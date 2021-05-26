@@ -1,0 +1,15 @@
+ENTRY       M00416            Complex   Module
+NAME        Cytochrome aa3-600 menaquinol oxidase
+DEFINITION  (K02827+K02826+K02828+K02829)
+ORTHOLOGY   K02827  qoxB; cytochrome aa3-600 menaquinol oxidase subunit I [EC:1.10.3.12]
+            K02826  qoxA; cytochrome aa3-600 menaquinol oxidase subunit II [EC:1.10.3.12]
+            K02828  qoxC; cytochrome aa3-600 menaquinol oxidase subunit III [EC:1.10.3.12]
+            K02829  qoxD; cytochrome aa3-600 menaquinol oxidase subunit IV [EC:1.10.3.12]
+CLASS       Pathway modules; Energy metabolism; ATP synthesis
+PATHWAY     map00190  Oxidative phosphorylation
+REACTION    R09492  C05819 + C00007 -> C00828 + C00001
+COMPOUND    C05819  Menaquinol
+            C00007  Oxygen
+            C00828  Menaquinone
+            C00001  H2O
+///

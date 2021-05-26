@@ -1,0 +1,25 @@
+ENTRY       M00056            Pathway   Module
+NAME        O-glycan biosynthesis, mucin type core
+DEFINITION  K00710 (K00731,K09653) (K00727,K09662,K09663) K00739
+ORTHOLOGY   K00710  GALNT [EC:2.4.1.41] [RN:R05907]
+            K00731,K09653  C1GALT1,C1GALT2 [EC:2.4.1.122 2.4.1.-] [RN:R05908]
+            K00727,K09662,K09663  GCNT1,GCNT3,GCNT4 [EC:2.4.1.102 2.4.1.-] [RN:R05912 R05915 R05910]
+            K00739  B3GNT6 [EC:2.4.1.147] [RN:R05909]
+CLASS       Pathway modules; Glycan metabolism; Glycan biosynthesis
+PATHWAY     map00512  Mucin type O-glycan biosynthesis
+            map01100  Metabolic pathways
+REACTION    R05907  C02189 + G10611 -> G00023
+            R05908  G00023 -> G00024
+            R05912  G00024 -> G00025
+            R05909  G00023 -> G00028
+            R05915  G00028 -> G00029
+            R05910  G00023 -> G00031
+COMPOUND    C02189  Protein serine
+            G10611  UDP-N-acetyl-D-galactosamine; (UDP-GalNAc)1
+            G00023  Tn antigen; (GalNAc)1 (Ser/Thr)1
+            G00024  T antigen; (Gal)1 (GalNAc)1 (Ser/Thr)1
+            G00025  (Gal)1 (GalNAc)1 (GlcNAc)1 (Ser/Thr)1
+            G00028  (GalNAc)1 (GlcNAc)1 (Ser/Thr)1
+            G00029  (GalNAc)1 (GlcNAc)2 (Ser/Thr)1
+            G00031  (GalNAc)1 (GlcNAc)1 (Ser/Thr)1
+///

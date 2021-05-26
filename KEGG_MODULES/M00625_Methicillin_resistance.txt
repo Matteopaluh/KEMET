@@ -1,0 +1,19 @@
+ENTRY       M00625            Signature Module
+NAME        Methicillin resistance
+DEFINITION  K02547 K02546 K02545
+ORTHOLOGY   K02547  mecR1; methicillin resistance protein
+            K02546  mecI; methicillin resistance regulatory protein
+            K02545  mecA; penicillin-binding protein 2 prime
+CLASS       Signature modules; Gene set; Drug resistance
+PATHWAY     map01501  beta-Lactam resistance
+REFERENCE   PMID:23163477
+  AUTHORS   Johnson JW, Fisher JF, Mobashery S
+  TITLE     Bacterial cell-wall recycling.
+  JOURNAL   Ann N Y Acad Sci 1277:54-75 (2013)
+            DOI:10.1111/j.1749-6632.2012.06813.x
+REFERENCE   PMID:18248419
+  AUTHORS   Zapun A, Contreras-Martel C, Vernet T
+  TITLE     Penicillin-binding proteins and beta-lactam resistance.
+  JOURNAL   FEMS Microbiol Rev 32:361-85 (2008)
+            DOI:10.1111/j.1574-6976.2007.00095.x
+///

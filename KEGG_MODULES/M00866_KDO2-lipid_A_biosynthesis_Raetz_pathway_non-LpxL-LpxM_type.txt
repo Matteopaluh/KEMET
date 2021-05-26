@@ -1,0 +1,27 @@
+ENTRY       M00866            Pathway   Module
+NAME        KDO2-lipid A biosynthesis, Raetz pathway, non-LpxL-LpxM type
+DEFINITION  K00677 (K02535,K16363) K02536 K03269 K00748 K00912 K02527 K02517 K09778
+ORTHOLOGY   K00677  lpxA; UDP-N-acetylglucosamine acyltransferase [EC:2.3.1.129]
+            K02535  lpxC; UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [EC:3.5.1.108]
+            K16363  lpxC-fabZ; UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase / 3-hydroxyacyl-[acyl-carrier-protein] dehydratase [EC:3.5.1.108 4.2.1.59]
+            K02536  lpxD; UDP-3-O-[3-hydroxymyristoyl] glucosamine N-acyltransferase [EC:2.3.1.191]
+            K03269  lpxH; UDP-2,3-diacylglucosamine hydrolase [EC:3.6.1.54]
+            K00748  lpxB; lipid-A-disaccharide synthase [EC:2.4.1.182]
+            K00912  lpxK; tetraacyldisaccharide 4'-kinase [EC:2.7.1.130]
+            K02527  kdtA; 3-deoxy-D-manno-octulosonic-acid transferase [EC:2.4.99.12 2.4.99.13 2.4.99.14 2.4.99.15]
+            K02517  lpxL, htrB; Kdo2-lipid IVA lauroyltransferase/acyltransferase [EC:2.3.1.241 2.3.1.-]
+            K09778  lpxJ; Kdo2-lipid IVA 3' secondary acyltransferase [EC:2.3.1.-]
+CLASS       Pathway modules; Glycan metabolism; Lipopolysaccharide metabolism
+PATHWAY     map00540  Lipopolysaccharide biosynthesis
+            map01100  Metabolic pathways
+REFERENCE   PMID:26934862
+  AUTHORS   Li H, Liao T, Debowski AW, Tang H, Nilsson HO, Stubbs KA, Marshall BJ, Benghezal M
+  TITLE     Lipopolysaccharide Structure and Biosynthesis in Helicobacter pylori.
+  JOURNAL   Helicobacter 21:445-461 (2016)
+            DOI:10.1111/hel.12301
+REFERENCE   PMID:24580642
+  AUTHORS   Whitfield C, Trent MS
+  TITLE     Biosynthesis and export of bacterial lipopolysaccharides.
+  JOURNAL   Annu Rev Biochem 83:99-128 (2014)
+            DOI:10.1146/annurev-biochem-060713-035600
+///

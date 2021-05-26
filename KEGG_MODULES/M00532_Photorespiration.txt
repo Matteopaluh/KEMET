@@ -1,0 +1,49 @@
+ENTRY       M00532            Pathway   Module
+NAME        Photorespiration
+DEFINITION  (K01601-K01602) K19269 K11517 K03781 K14272 K00600 K00830 (K15893,K15919) K15918
+            (K00281+K00605+K00382+K02437)
+ORTHOLOGY   K01601,K01602  ribulose-bisphosphate carboxylase [EC:4.1.1.39] [RN:R03140]
+            K19269  phosphoglycolate phosphatase [EC:3.1.3.18] [RN:R01334]
+            K11517  (S)-2-hydroxy-acid oxidase [EC:1.1.3.15] [RN:R00475]
+            K03781  catalase [EC:1.11.1.6] [RN:R00009]
+            K14272  glutamate--glyoxylate aminotransferase [EC:2.6.1.4] [RN:R00372]
+            K00600  glycine hydroxymethyltransferase [EC:2.1.2.1] [RN:R00945]
+            K00830  serine-glyoxylate transaminase [EC:2.6.1.45] [RN:R00588]
+            K15893,K15919  hydroxypyruvate reductase [EC:1.1.1.29] [RN:R01388]
+            K15918  D-glycerate 3-kinase [EC:2.7.1.31] [RN:R01514]
+            K00281,K00605,K00382,K02437  glycine cleavage system [RN:R01221]
+CLASS       Pathway modules; Carbohydrate metabolism; Other carbohydrate metabolism
+PATHWAY     map00630  Glyoxylate and dicarboxylate metabolism
+            map01200  Carbon metabolism
+            map01100  Metabolic pathways
+            map01110  Biosynthesis of secondary metabolites
+REACTION    R03140  C01182 -> C00988 + C00197
+            R01334  C00988 -> C00160
+            R00475  C00160 + C00007 -> C00048 + C00027
+            R00009  C00027 -> C00007
+            R00372  C00048 + C00025 -> C00026 + C00037
+            R00945  C00037 -> C00065
+            R00588  C00065 + C00048 -> C00168 + C00037
+            R01388  C00168 -> C00258
+            R01514  C00258 -> C00197
+            R01221  C00037 -> C00014
+COMPOUND    C01182  D-Ribulose 1,5-bisphosphate
+            C00988  2-Phosphoglycolate
+            C00197  3-Phospho-D-glycerate
+            C00160  Glycolate
+            C00007  Oxygen
+            C00048  Glyoxylate
+            C00027  Hydrogen peroxide
+            C00025  L-Glutamate
+            C00026  2-Oxoglutarate
+            C00037  Glycine
+            C00065  L-Serine
+            C00168  Hydroxypyruvate
+            C00258  D-Glycerate
+            C00014  NH3
+REFERENCE   PMID:19575589
+  AUTHORS   Foyer CH, Bloom AJ, Queval G, Noctor G
+  TITLE     Photorespiratory metabolism: genes, mutants, energetics, and redox signaling.
+  JOURNAL   Annu Rev Plant Biol 60:455-84 (2009)
+            DOI:10.1146/annurev.arplant.043008.091948
+///

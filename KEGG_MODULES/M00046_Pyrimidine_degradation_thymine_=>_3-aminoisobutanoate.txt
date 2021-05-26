@@ -1,0 +1,46 @@
+ENTRY       M00046            Pathway   Module
+NAME        Pyrimidine degradation, uracil => beta-alanine, thymine => 3-aminoisobutanoate
+DEFINITION  (K00207,K17722+K17723) K01464 (K01431,K06016)
+ORTHOLOGY   K00207  dihydropyrimidine dehydrogenase (NADP+) [EC:1.3.1.2] [RN:R00978 R01415]
+            K17722+K17723  dihydropyrimidine dehydrogenase (NAD+) [EC:1.3.1.1] [RN:R00977 R11026]
+            K01464  dihydropyrimidinase [EC:3.5.2.2] [RN:R02269 R03055]
+            K01431,K06016  beta-ureidopropionase [EC:3.5.1.6] [RN:R00905 R04666]
+CLASS       Pathway modules; Nucleotide metabolism; Pyrimidine metabolism
+PATHWAY     map00240  Pyrimidine metabolism
+            map01100  Metabolic pathways
+REACTION    R00978,R00977  C00106 -> C00429
+            R02269  C00429 -> C02642
+            R00905  C02642 -> C00099
+            R01415,R11026  C00178 -> C21028
+            R03055  C21028 -> C21029
+            R04666  C21029 -> C01205
+COMPOUND    C00106  Uracil
+            C00429  5,6-Dihydrouracil
+            C02642  3-Ureidopropionate
+            C00099  beta-Alanine
+            C00178  Thymine
+            C21028  (R)-5,6-Dihydrothymine
+            C21029  (R)-3-Ureidoisobutyrate
+            C01205  (R)-3-Amino-2-methylpropanoate
+RMODULE     RM024  Pyrimidine degradation
+REFERENCE   PMID:14705962
+  AUTHORS   Van Kuilenburg AB, Stroomer AE, Van Lenthe H, Abeling NG, Van Gennip AH
+  TITLE     New insights in dihydropyrimidine dehydrogenase deficiency: a pivotal role for beta-aminoisobutyric acid?
+  JOURNAL   Biochem J 379:119-24 (2004)
+            DOI:10.1042/BJ20031463
+REFERENCE   PMID:16176880
+  AUTHORS   Nyhan WL
+  TITLE     Disorders of purine and pyrimidine metabolism.
+  JOURNAL   Mol Genet Metab 86:25-33 (2005)
+            DOI:10.1016/j.ymgme.2005.07.027
+REFERENCE   PMID:11759049
+  AUTHORS   West TP
+  TITLE     Pyrimidine base catabolism in Pseudomonas putida biotype B.
+  JOURNAL   Antonie Van Leeuwenhoek 80:163-7 (2001)
+            DOI:10.1023/A:1012275512136
+REFERENCE   PMID:22782928
+  AUTHORS   Hidese R, Mihara H, Kurihara T, Esaki N
+  TITLE     Pseudomonas putida PydR, a RutR-like transcriptional regulator, represses the dihydropyrimidine dehydrogenase gene in the pyrimidine reductive catabolic pathway.
+  JOURNAL   J Biochem 152:341-6 (2012)
+            DOI:10.1093/jb/mvs079
+///

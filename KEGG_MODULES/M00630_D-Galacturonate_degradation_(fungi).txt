@@ -1,0 +1,26 @@
+ENTRY       M00630            Pathway   Module
+NAME        D-Galacturonate degradation (fungi), D-galacturonate => glycerol
+DEFINITION  (K18106,K19634) K18102 K18103 K18107
+ORTHOLOGY   K18106  D-galacturonate reductase [EC:1.1.1.-] [RN:R07676 R10565]
+            K19634  D-galacturonate reductase [EC:1.1.1.365] [RN:R07676]
+            K18102  L-galactonate dehydratase [EC:4.2.1.146] [RN:R10532]
+            K18103  L-threo-3-deoxy-hexylosonate aldolase [EC:4.1.2.54] [RN:R10550]
+            K18107  L-glyceraldehyde reductase [EC:1.1.1.372] [RN:R10563]
+CLASS       Pathway modules; Carbohydrate metabolism; Other carbohydrate metabolism
+PATHWAY     map00040  Pentose and glucuronate interconversions
+            map01100  Metabolic pathways
+REACTION    R07676,R10565  C00333 -> C15930
+            R10532  C15930 -> C20680 
+            R10550  C20680 -> C02426 
+            R10563  C02426 -> C00116
+COMPOUND    C00333  D-Galacturonate
+            C15930  L-Galactonate
+            C20680  2-Dehydro-3-deoxy-L-galactonate
+            C02426  L-Glyceraldehyde
+            C00116  Glycerol
+REFERENCE   PMID:18768163
+  AUTHORS   Martens-Uzunova ES, Schaap PJ
+  TITLE     An evolutionary conserved d-galacturonic acid metabolic pathway operates across filamentous fungi capable of pectin degradation.
+  JOURNAL   Fungal Genet Biol 45:1449-57 (2008)
+            DOI:10.1016/j.fgb.2008.08.002
+///

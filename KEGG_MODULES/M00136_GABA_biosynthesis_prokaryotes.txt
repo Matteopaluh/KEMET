@@ -1,0 +1,20 @@
+ENTRY       M00136            Pathway   Module
+NAME        GABA biosynthesis, prokaryotes, putrescine => GABA
+DEFINITION  K09470 K09471 K09472 K09473
+ORTHOLOGY   K09470  gamma-glutamylputrescine synthase [EC:6.3.1.11] [RN:R07414]
+            K09471  gamma-glutamylputrescine oxidase [EC:1.4.3.-] [RN:R07415]
+            K09472  4-(gamma-glutamylamino)butanal dehydrogenase [EC:1.2.1.99] [RN:R07417 R07418]
+            K09473  gamma-glutamyl-gamma-aminobutyrate hydrolase [EC:3.5.1.94] [RN:R07419]
+CLASS       Pathway modules; Amino acid metabolism; Polyamine biosynthesis
+PATHWAY     map00330  Arginine and proline metabolism
+            map01100  Metabolic pathways
+REACTION    R07414  C00134 -> C15699
+            R07415  C15699 -> C15700
+            R07417,R07418  C15700 -> C15767
+            R07419  C15767 -> C00334
+COMPOUND    C00134  Putrescine
+            C15699  gamma-L-Glutamylputrecine
+            C15700  gamma-Glutamyl-gamma-aminobutyraldehyde
+            C15767  gamma-Glutamyl-gamma-aminobutyraye
+            C00334  4-Aminobutanoate
+///

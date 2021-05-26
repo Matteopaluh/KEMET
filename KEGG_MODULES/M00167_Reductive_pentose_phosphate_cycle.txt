@@ -1,0 +1,29 @@
+ENTRY       M00167            Pathway   Module
+NAME        Reductive pentose phosphate cycle, glyceraldehyde-3P => ribulose-5P
+DEFINITION  (K01623,K01624) (K03841,K02446,K11532,K01086) K00615 (K01623,K01624) (K01100,K11532,K01086) K00615 (K01807,K01808)
+ORTHOLOGY   K01623,K01624  fructose-bisphosphate aldolase [EC:4.1.2.13] [RN:R01068 R01829]
+            K03841,K02446,K11532,K01086  fructose-1,6-bisphosphatase [EC:3.1.3.11] [RN:R00762]
+            K00615  transketolase [EC:2.2.1.1] [RN:R01067 R01641]
+            K01100,K11532,K01086  sedoheptulose-bisphosphatase [EC:3.1.3.37] [RN:R01845]
+            K01807,K01808  ribose 5-phosphate isomerase [EC:5.3.1.6] [RN:R01056]
+CLASS       Pathway modules; Energy metabolism; Carbon fixation
+PATHWAY     map00710  Carbon fixation in photosynthetic organisms
+            map01200  Carbon metabolism
+            map01100  Metabolic pathways
+            map01120  Microbial metabolism in diverse environments
+REACTION    R01068 C00118 -> C00354
+            R00762 C00354 -> C00085
+            R01067 C00085 -> C00279
+            R01829 C00279 -> C00447
+            R01845 C00447 -> C05382
+            R01641 C05382 -> C00117
+            R01056 C00117 -> C00199
+COMPOUND    C00118  D-Glyceraldehyde 3-phosphate
+            C00354  D-Fructose 1,6-bisphosphate
+            C00085  D-Fructose 6-phosphate
+            C00279  D-Erythrose 4-phosphate
+            C00447  Sedoheptulose 1,7-bisphosphate
+            C05382  Sedoheptulose 7-phosphate
+            C00117  D-Ribose 5-phosphate
+            C00199  D-Ribulose 5-phosphate
+///

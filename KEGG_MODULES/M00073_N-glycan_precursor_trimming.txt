@@ -1,0 +1,22 @@
+ENTRY       M00073            Pathway   Module
+NAME        N-glycan precursor trimming
+DEFINITION  K01228 K05546 K23741 K01230
+ORTHOLOGY   K01228  mannosyl-oligosaccharide glucosidase [EC:3.2.1.106] [RN:R05979]
+            K05546  alpha 1,3-glucosidase [EC:3.2.1.84] [RN:R05980 R05981]
+            K23741  endoplasmic reticulum Man9GlcNAc2 1,2-alpha-mannosidase [EC:3.2.1.209] [RN:R06722]
+            K01230  mannosyl-oligosaccharide alpha-1,2-mannosidase [EC:3.2.1.113] [RN:R12479]
+CLASS       Pathway modules; Glycan metabolism; Glycan biosynthesis
+PATHWAY     map00510  N-Glycan biosynthesis
+            map01100  Metabolic pathways
+REACTION    R05979  G00009 -> G00171
+            R05980  G00171 -> G00010
+            R05981  G00010 -> G00011
+            R06722  G00011 -> G10694
+            R12479  G10694 -> G00012
+COMPOUND    G00009
+            G00171
+            G00010
+            G00011
+            G10694
+            G00012
+///

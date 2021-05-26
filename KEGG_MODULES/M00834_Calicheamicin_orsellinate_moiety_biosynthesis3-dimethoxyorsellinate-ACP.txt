@@ -1,0 +1,24 @@
+ENTRY       M00834            Pathway   Module
+NAME        Calicheamicin orsellinate moiety biosynthesis, malonyl-CoA => orsellinate-ACP => 5-iodo-2,3-dimethoxyorsellinate-ACP
+DEFINITION  K21254 K21255 K21256 K21257 K21258
+ORTHOLOGY   K21254  calO5; orsellinic acid synthase [EC:2.3.1.-] [RN:R11412]
+            K21255  calO6; orsellinic acid C2-O-methyltransferase [EC:2.1.1.-] [RN:R11413]
+            K21256  calO3; flavin-dependent halogenase [RN:R11414]
+            K21257  calO2; orsellenic acid P450 oxidase [EC:1.14.-.-] [RN:R11415]
+            K21258  calO1; orsellinic acid C3-O-methyltransferase [EC:2.1.1.-] [RN:R11416]
+CLASS       Pathway modules; Biosynthesis of terpenoids and polyketides; Enediyne biosynthesis
+PATHWAY     map01059  Biosynthesis of enediyne antibiotics
+            map01100  Metabolic pathways
+            map01130  Biosynthesis of antibiotics
+REACTION    R11412  C00083 -> C21343
+            R11413  C21343 -> C21344
+            R11414  C21344 -> C21345
+            R11415  C21345 -> C21346
+            R11416  C21346 -> C21347
+COMPOUND    C00083  Malonyl-CoA
+            C21343  Orsellinate-[acp]
+            C21344  2-Methoxyorsellinate-[acp]
+            C21345  5-Iodo-2-methoxyorsellinate-[acp]
+            C21346  3-Hydroxy-5-iodo-2-methoxyorsellinate-[acp]
+            C21347  5-Iodo-2,3-dimethoxyorsellinate-[acp]
+///

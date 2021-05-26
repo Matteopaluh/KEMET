@@ -1,0 +1,10 @@
+M00889_Puromycin biosynthesis, ATP => puromycin
+K12628
+K12629
+K12630
+K12631
+K12632
+K12633
+K12634
+K12635
+K12636

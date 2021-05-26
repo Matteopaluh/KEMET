@@ -1,0 +1,14 @@
+ENTRY       M00134            Pathway   Module
+NAME        Polyamine biosynthesis, arginine => ornithine => putrescine
+DEFINITION  K01476 K01581
+ORTHOLOGY   K01476  arginase [EC:3.5.3.1] [RN:R00551]
+            K01581  ornithine decarboxylase [EC:4.1.1.17] [RN:R00670]
+CLASS       Pathway modules; Amino acid metabolism; Polyamine biosynthesis
+PATHWAY     map00330  Arginine and proline metabolism
+            map01100  Metabolic pathways
+REACTION    R00551  C00062 -> C00077
+            R00670  C00077 -> C00134
+COMPOUND    C00062  L-Arginine
+            C00077  L-Ornithine
+            C00134  Putrescine
+///

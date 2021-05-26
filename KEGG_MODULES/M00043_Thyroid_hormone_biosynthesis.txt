@@ -1,0 +1,15 @@
+ENTRY       M00043            Pathway   Module
+NAME        Thyroid hormone biosynthesis, tyrosine => triiodothyronine/thyroxine
+DEFINITION  K00431
+ORTHOLOGY   K00431  thyroid peroxidase [EC:1.11.1.8] [RN:R03539 R03973 R03953]
+CLASS       Pathway modules; Amino acid metabolism; Aromatic amino acid metabolism
+PATHWAY     map00350  Tyrosine metabolism
+            map01100  Metabolic pathways
+REACTION    R03539  C00082 -> C02515
+            R03973  C02515 -> C01060
+            R03953  C01060 -> C02465
+COMPOUND    C00082  L-Tyrosine
+            C02515  3-Iodo-L-tyrosine
+            C01060  3,5-Diiodo-L-tyrosine
+            C02465  Triiodothyronine
+///

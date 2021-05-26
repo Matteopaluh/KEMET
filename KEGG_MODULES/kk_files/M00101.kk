@@ -1,0 +1,11 @@
+M00101_Cholesterol biosynthesis, squalene 2,3-epoxide => cholesterol
+K01852
+K05917
+K00222
+K07750
+K07748
+K09827, K13373
+K09828
+K01824
+K00227
+K00213

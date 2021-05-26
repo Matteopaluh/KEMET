@@ -1,0 +1,31 @@
+ENTRY       M00802            Pathway   Module
+NAME        dTDP-D-forosamine biosynthesis
+DEFINITION  K16435 K13327 K13328 K13329 K13330
+ORTHOLOGY   K16435  spnO; dTDP-4-dehydro-6-deoxy-alpha-D-glucopyranose 2,3-dehydratase [EC:4.2.1.159] [RN:R05518]
+            K13327  spnN; dTDP-3,4-didehydro-2,6-dideoxy-alpha-D-glucose 3-reductase [EC:1.1.1.384] [RN:R05526]
+            K13328  spnQ; dTDP-4-dehydro-2,6-dideoxy-D-glucose 3-dehydratase [EC:4.2.1.164] [RN:R08930]
+            K13329  spnR; dTDP-4-dehydro-2,3,6-trideoxy-D-glucose 4-aminotransferase [EC:2.6.1.110] [RN:R08931]
+            K13330  spnS; dTDP-4-amino-2,3,4,6-tetradeoxy-D-glucose N,N-dimethyltransferase [EC:2.1.1.324] [RN:R08932]
+CLASS       Pathway modules; Biosynthesis of terpenoids and polyketides; Polyketide sugar unit biosynthesis
+PATHWAY     map00523  Polyketide sugar unit biosynthesis
+            map01100  Metabolic pathways
+            map01130  Biosynthesis of antibiotics
+REACTION    R05518  C11907 -> C06620
+            R05526  C06620 -> C11922
+            R08930  C11922 -> C18032
+            R08931  C18032 -> C18033
+            R08932  C18033 -> C18034
+COMPOUND    C11907  dTDP-4-oxo-6-deoxy-D-glucose
+            C06620  dTDP-3,4-dioxo-2,6-dideoxy-D-glucose
+            C11922  dTDP-4-oxo-2,6-dideoxy-D-glucose
+            C18032  dTDP-4-oxo-2,3,6-trideoxy-D-glucose
+            C18033  dTDP-4-amino-2,3,4,6-tetradeoxy-D-glucose
+            C18034  dTDP-D-forosamine
+RMODULE     RM035  Transamination and N,N-dimethylation in polyketide biosynthesis
+            RM038  Deoxygenation (dehydration and reduction) in deoxysugar biosynthesis
+REFERENCE   PMID:11358695
+  AUTHORS   Waldron C, Matsushima P, Rosteck PR Jr, Broughton MC, Turner J, Madduri K, Crawford KP, Merlo DJ, Baltz RH
+  TITLE     Cloning and analysis of the spinosad biosynthetic gene cluster of Saccharopolyspora spinosa.
+  JOURNAL   Chem Biol 8:487-99 (2001)
+            DOI:10.1016/S1074-5521(01)00029-1
+///

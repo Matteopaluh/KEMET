@@ -1,0 +1,23 @@
+ENTRY       M00531            Pathway   Module
+NAME        Assimilatory nitrate reduction, nitrate => ammonia
+DEFINITION  (K00367,K10534,K00372-K00360) (K00366,K17877)
+ORTHOLOGY   K00367  assimilatory nitrate reductase [EC:1.7.7.2] [RN:R00791]
+            K10534  nitrate reductase (NAD(P)H) [EC:1.7.1.1 1.7.1.2 1.7.1.3] [RN:R00794 R00796]
+            K00372+K00360  assimilatory nitrate reductase [EC:1.7.99.-] [RN:R00798]
+            K00366  assimilatory nitrite reductase [EC:1.7.7.1] [RN:R00790]
+            K17877  assimilatory nitrite reductase [EC:1.7.1.4] [RN:R00787 R00789]
+CLASS       Pathway modules; Energy metabolism; Nitrogen metabolism
+PATHWAY     map00910  Nitrogen metabolism
+            map01100  Metabolic pathways
+            map01120  Microbial metabolism in diverse environments
+REACTION    R00791,R00794,R00796,R00798  C00244 -> C00088
+            R00790,R00787,R00789  C00088 -> C00014
+COMPOUND    C00244  Nitrate
+            C00088  Nitrite
+            C00014  NH3
+REFERENCE   PMID:18021072
+  AUTHORS   Morozkina EV, Zvyagilskaya RA
+  TITLE     Nitrate reductases: structure, functions, and effect of stress factors.
+  JOURNAL   Biochemistry (Mosc) 72:1151-60 (2007)
+            DOI:10.1134/S0006297907100124
+///

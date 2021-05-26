@@ -1,0 +1,15 @@
+ENTRY       M00873            Pathway   Module
+NAME        Fatty acid biosynthesis in mitochondria, animals
+DEFINITION  K18660 (K03955+K00645) K09458 (K11539+K13370) K22540 K07512
+ORTHOLOGY   K18660  malonyl-CoA/methylmalonyl-CoA synthetase [EC:6.2.1.-]
+            K03955  NADH dehydrogenase (ubiquinone) 1 alpha/beta subcomplex 1, acyl-carrier protein
+            K00645  [acyl-carrier-protein] S-malonyltransferase [EC:2.3.1.39]
+            K09458  3-oxoacyl-[acyl-carrier-protein] synthase II [EC:2.3.1.179]
+            K11539,K13370  3-oxoacyl-[acyl-carrier protein] reductase [EC:1.1.1.-]
+            K22540  3-hydroxyacyl-thioester dehydratase, animal type [EC:4.2.1.-]
+            K07512  mitochondrial enoyl-[acyl-carrier protein] reductase [EC:1.3.1.-]
+CLASS       Pathway modules; Lipid metabolism; Fatty acid metabolism
+PATHWAY     map00061  Fatty acid biosynthesis
+            map01212  Fatty acid metabolism
+            map01100  Metabolic pathways
+///

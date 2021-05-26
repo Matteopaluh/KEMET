@@ -1,0 +1,24 @@
+ENTRY       M00159            Complex   Module
+NAME        V/A-type ATPase, prokaryotes
+DEFINITION  K02117+K02118+K02119+K02120+K02121+K02122+K02107+K02123+K02124
+ORTHOLOGY   K02117  ATPVA; V/A-type H+-transporting ATPase subunit A [EC:3.6.3.14]
+            K02118  ATPVB; V/A-type H+-transporting ATPase subunit B
+            K02119  ATPVC; V/A-type H+-transporting ATPase subunit C
+            K02120  ATPVD; V/A-type H+-transporting ATPase subunit D
+            K02121  ATPVE; V/A-type H+-transporting ATPase subunit E
+            K02122  ATPVF; V/A-type H+-transporting ATPase subunit F
+            K02107  ATPVG; V/A-type H+-transporting ATPase subunit G/H
+            K02123  ATPVI; V/A-type H+-transporting ATPase subunit I
+            K02124  ATPVK; V/A-type H+-transporting ATPase subunit K
+CLASS       Pathway modules; Energy metabolism; ATP synthesis
+PATHWAY     map00190  Oxidative phosphorylation
+REFERENCE   PMID:8157629
+  AUTHORS   Takase K, Kakinuma S, Yamato I, Konishi K, Igarashi K, Kakinuma Y
+  TITLE     Sequencing and characterization of the ntp gene cluster for vacuolar-type Na(+)-translocating ATPase of Enterococcus hirae.
+  JOURNAL   J Biol Chem 269:11037-44 (1994)
+REFERENCE   PMID:17614964
+  AUTHORS   Pisa KY, Huber H, Thomm M, Muller V
+  TITLE     A sodium ion-dependent A1AO ATP synthase from the hyperthermophilic archaeon Pyrococcus furiosus.
+  JOURNAL   FEBS J 274:3928-38 (2007)
+            DOI:10.1111/j.1742-4658.2007.05925.x
+///

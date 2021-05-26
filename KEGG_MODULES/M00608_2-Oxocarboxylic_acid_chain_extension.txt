@@ -1,0 +1,62 @@
+ENTRY       M00608            Pathway   Module
+NAME        2-Oxocarboxylic acid chain extension, 2-oxoglutarate => 2-oxoadipate => 2-oxopimelate => 2-oxosuberate
+DEFINITION  K10977 (K16792+K16793) K10978
+ORTHOLOGY   K10977  methanogen homocitrate synthase [EC:2.3.3.14 2.3.3.-] [RN:R00271 R08331 R08332]
+            K16792+K16793  methanogen homoaconitase large subunit [EC:4.2.1.114] [RN:R03444 R04371 R09720 R10392 R10393 R10391 R10395 R10396 R10394]
+            K10978  methanogen homoisocitrate dehydrogenase [EC:1.1.1.87 1.1.1.-] [RN:R01934 R08214 R08215]
+CLASS       Pathway modules; Energy metabolism; Methane metabolism
+PATHWAY     map00300  Lysine biosynthesis
+            map00680  Methane metabolism
+            map01210  2-Oxocarboxylic acid metabolism
+            map01230  Biosynthesis of amino acids
+            map01100  Metabolic pathways
+            map01120  Microbial metabolism in diverse environments
+REACTION    R00271  C00026 + C00024 -> C01251
+            R03444  C01251 -> C04002
+            R04371  C04002 -> C05662
+            R09720  C01251 -> C05662
+            R01934  C05662 -> C00322
+            
+            R08331  C00322 + C00024 -> C16583
+            R10392  C16583 -> C20581
+            R10393  C20581 -> C16597
+            R10391  C16583 -> C16597
+            R08214  C16597 -> C16588
+            
+            R08332  C16588 + C00024 -> C16598
+            R10395  C16598 -> C20582
+            R10396  C20582 -> C16600
+            R10394  C16598 -> C16600
+            R08215  C16600 -> C16589
+COMPOUND    C00026  2-Oxoglutarate
+            C00024  Acetyl-CoA
+            C01251  (R)-2-Hydroxybutane-1,2,4-tricarboxylate
+            C04002  (Z)-But-1-ene-1,2,4-tricarboxylate
+            C05662  Homoisocitrate
+            C00322  2-Oxoadipate
+            C16583  (R)-(Homo)2-citrate
+            C20581  cis-(Homo)2-aconitate
+            C16597  (-)-threo-Iso(homo)2-citrate
+            C16588  2-Oxopimelate
+            C16598  (R)-(Homo)3-citrate
+            C20582  cis-(Homo)3-aconitate
+            C16600  (-)-threo-Iso(homo)3-citrate
+            C16589  2-Oxosuberate
+RMODULE     RM001  2-Oxocarboxylic acid chain extension by tricarboxylic acid pathway
+COMMENT     Organism group: methanogenic archaea
+REFERENCE   PMID:9665716
+  AUTHORS   Howell DM, Harich K, Xu H, White RH
+  TITLE     Alpha-keto acid chain elongation reactions involved in the biosynthesis of coenzyme B (7-mercaptoheptanoyl threonine phosphate) in methanogenic Archaea.
+  JOURNAL   Biochemistry 37:10108-17 (1998)
+            DOI:10.1021/bi980662p
+REFERENCE   PMID:18765671
+  AUTHORS   Drevland RM, Jia Y, Palmer DR, Graham DE
+  TITLE     Methanogen homoaconitase catalyzes both hydrolyase reactions in coenzyme B biosynthesis.
+  JOURNAL   J Biol Chem 283:28888-96 (2008)
+            DOI:10.1074/jbc.M802159200
+REFERENCE   PMID:10940051
+  AUTHORS   Howell DM, Graupner M, Xu H, White RH
+  TITLE     Identification of enzymes homologous to isocitrate dehydrogenase that are involved in coenzyme B and leucine biosynthesis in methanoarchaea.
+  JOURNAL   J Bacteriol 182:5013-6 (2000)
+            DOI:10.1128/JB.182.17.5013-5016.2000
+///

@@ -1,0 +1,48 @@
+ENTRY       M00838            Pathway   Module
+NAME        Undecylprodigiosin biosynthesis, L-proline => undecylprodigiosin
+DEFINITION  (K21780+K21781) K21782 K21783 K21784 K21785 K21786
+            K21791 K21792 K21793
+            K21787
+ORTHOLOGY   K21780  pigI; L-proline---[L-prolyl-carrier protein] ligase [EC:6.2.1.53] [RN:R06746]
+            K21781  pigG; peptidyl carrier protein [RN:R06746]
+            K21782  pigA; L-prolyl-PCP dehydrogenase [EC:1.3.8.14] [RN:R06747]
+            K21783  pigJ; beta-ketoacyl ACP synthase [EC:2.3.1.-] [RN:R11665]
+            K21784  pigH; 4-hydroxy-2,2'-bipyrrole-5-methanol synthase [RN:R11667]
+            K21785  pigM; 4-hydroxy-2,2'-bipyrrole-5-methanol dehydrogenase [RN:R11668 R11669]
+            K21786  pigF; 4-hydroxy-2,2'-bipyrrole-5-carbaldehyde O-methyltransferase [EC:2.1.1.-] [RN:R11670]
+            K21791  redJ; thioesterase [RN:R04014]
+            K21792  redL; polyketide synthase [RN:R11664]
+            K21793  redK; oxidoreductase [RN:R11663 R11666]
+            K21787  pigC; prodigiosin/undecylprodigiosin synthetase [RN:R11673]
+CLASS       Pathway modules; Biosynthesis of other secondary metabolites; Biosynthesis of other secondary metabolites
+PATHWAY     map00333  Prodigiosin biosynthesis
+            map01100  Metabolic pathways
+            map01130  Biosynthesis of antibiotics
+REACTION    R06746  C00148 -> C12470
+            R06747  C12470 -> C12483
+            R11665  C12483 -> C21567
+            R11667  C21567 -> C21568
+            R11668,R11669  C21568 -> C21569
+            R11670  C21569 -> C21570
+            R04014  C05223 -> C02679
+            R11664  C02679 -> C21573
+            R11663,R11666  C21573 -> C21574
+            R11673  C21570 + C21574 -> C12023
+COMPOUND    C00148  L-Proline
+            C12470  L-Prolyl-[pcp]
+            C12483  Pyrrole-2-carbonyl-[pcp]
+            C21567  Pyrrolyl-2-carboxyl-S-[acyl-carrier protein]
+            C21568  4-Hydroxy-2,2'-bipyrrole-5-methanol
+            C21569  4-Hydroxy-2,2'-bipyrrole-5-carbaldehyde
+            C21570  4-Methoxy-2,2'-bipyrrole-5-carbaldehyde
+            C05223  Dodecanoyl-[acyl-carrier protein]
+            C02679  Dodecanoic acid
+            C21573  4-Keto-2-undecylpyrroline
+            C21574  2-Undecylpyrrole
+            C12023  Undecylprodigiosin
+REFERENCE   PMID:15853884
+  AUTHORS   Williamson NR, Simonsen HT, Ahmed RA, Goldet G, Slater H, Woodley L, Leeper FJ, Salmond GP
+  TITLE     Biosynthesis of the red antibiotic, prodigiosin, in Serratia: identification of a novel 2-methyl-3-n-amyl-pyrrole (MAP) assembly pathway, definition of the terminal condensing enzyme, and implications for undecylprodigiosin biosynthesis in Streptomyces.
+  JOURNAL   Mol Microbiol 56:971-89 (2005)
+            DOI:10.1111/j.1365-2958.2005.04602.x
+///

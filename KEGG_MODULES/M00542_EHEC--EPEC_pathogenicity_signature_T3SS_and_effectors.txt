@@ -1,0 +1,23 @@
+ENTRY       M00542            Signature Module
+NAME        EHEC/EPEC pathogenicity signature, T3SS and effectors
+DEFINITION  (K03221+K03219+K03222+K03226+K03227+K03228+K03229+K03230+K03224+K03225) K12784 K12787 K12785 K12786 K12788 K16041 K16042
+ORTHOLOGY   K03221  yscF; type III secretion protein SctF
+            K03219  yscC; type III secretion protein SctC
+            K03222  yscJ; type III secretion protein SctJ
+            K03226  yscR; type III secretion protein SctR
+            K03227  yscS; type III secretion protein SctS
+            K03228  yscT; type III secretion protein SctT
+            K03229  yscU; type III secretion protein SctU
+            K03230  yscV; type III secretion protein SctV
+            K03224  yscN; ATP synthase in type III secretion protein SctN [EC:3.6.3.14]
+            K03225  yscQ; type III secretion protein SctQ
+            K12784  tir; translocated intimin receptor
+            K12787  map; LEE-encoded effector Map
+            K12785  espG; LEE-encoded effector EspG
+            K12786  espF; LEE-encoded effector EspF
+            K12788  espH; LEE-encoded effector EspH
+            K16041  nleA; non-LEE-encoded effector NleA
+            K16042  nleH; non-LEE-encoded effector NleH
+CLASS       Signature modules; Gene set; Pathogenicity
+PATHWAY     map05130  Pathogenic Escherichia coli infection
+///

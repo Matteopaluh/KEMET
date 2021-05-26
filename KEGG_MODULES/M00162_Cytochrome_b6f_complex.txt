@@ -1,0 +1,14 @@
+ENTRY       M00162            Complex   Module
+NAME        Cytochrome b6f complex
+DEFINITION  (K02635+K02637+K02634+K02636+K02642+K02643+K03689+K02640)
+ORTHOLOGY   K02635  cytochrome b6
+            K02637  cytochrome b6-f complex subunit 4
+            K02634  apocytochrome f
+            K02636  cytochrome b6-f complex iron-sulfur subunit
+            K02642  cytochrome b6-f complex subunit 6
+            K02643  cytochrome b6-f complex subunit 7
+            K03689  cytochrome b6-f complex subunit 8
+            K02640  cytochrome b6-f complex subunit 5
+CLASS       Pathway modules; Energy metabolism; ATP synthesis
+PATHWAY     map00195  Photosynthesis
+///

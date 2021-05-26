@@ -1,0 +1,18 @@
+ENTRY       M00368            Pathway   Module
+NAME        Ethylene biosynthesis, methionine => ethylene
+DEFINITION  K00789 (K01762,K20772) K05933
+ORTHOLOGY   K00789  S-adenosylmethionine synthetase [EC:2.5.1.6] [RN:R00177]
+            K20772,K01762  1-aminocyclopropane-1-carboxylate synthase [EC:4.4.1.14] [RN:R00179]
+            K05933  aminocyclopropanecarboxylate oxidase [EC:1.14.17.4] [RN:R07214]
+CLASS       Pathway modules; Amino acid metabolism; Cysteine and methionine metabolism
+PATHWAY     map00270  Cysteine and methionine metabolism
+            map01100  Metabolic pathways
+            map01110  Biosynthesis of secondary metabolites
+REACTION    R00177  C00073 -> C00019
+            R00179  C00019 -> C01234
+            R07214  C01234 -> C06547
+COMPOUND    C00073  L-Methionine
+            C00019  S-Adenosyl-L-methionine
+            C01234  1-Aminocyclopropane-1-carboxylate
+            C06547  Ethylene
+///

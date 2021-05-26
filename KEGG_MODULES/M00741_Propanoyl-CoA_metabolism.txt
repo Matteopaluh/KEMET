@@ -1,0 +1,20 @@
+ENTRY       M00741            Pathway   Module
+NAME        Propanoyl-CoA metabolism, propanoyl-CoA => succinyl-CoA
+DEFINITION  (K01965+K01966,K11263+(K18472,K19312+K22568),K01964+K15036+K15037) K05606 (K01847,K01848+K01849)
+ORTHOLOGY   K01965,K01966,K11263,K18472,K19312,K22568,K01964,K15036,K15037  propionyl-CoA carboxylase [EC:6.4.1.3] [RN:R01859]
+            K05606  methylmalonyl-CoA/ethylmalonyl-CoA epimerase [EC:5.1.99.1] [RN:R02765]
+            K01847,K01848,K01849  methylmalonyl-CoA mutase [EC:5.4.99.2] [RN:R00833]
+CLASS       Pathway modules; Carbohydrate metabolism; Other carbohydrate metabolism
+PATHWAY     map00280  Valine, leucine and isoleucine degradation
+            map00630  Glyoxylate and dicarboxylate metabolism
+            map00640  Propanoate metabolism
+            map01200  Carbon metabolism
+            map01100  Metabolic pathways
+REACTION    R01859  C00100 -> C00683
+            R02765  C00683 -> C01213
+            R00833  C01213 -> C00091
+COMPOUND    C00100  Propanoyl-CoA
+            C00683  (S)-Methylmalonyl-CoA
+            C01213  (R)-Methylmalonyl-CoA
+            C00091  Succinyl-CoA
+///

@@ -1,0 +1,19 @@
+ENTRY       M00021            Pathway   Module
+NAME        Cysteine biosynthesis, serine => cysteine
+DEFINITION  (K00640,K23304) (K01738,K13034,K17069)
+ORTHOLOGY   K00640,K23304  serine O-acetyltransferase [EC:2.3.1.30] [RN:R00586]
+            K01738,K13034,K17069  cysteine synthase [EC:2.5.1.47] [RN:R00897]
+CLASS       Pathway modules; Amino acid metabolism; Cysteine and methionine metabolism
+PATHWAY     map00270  Cysteine and methionine metabolism
+            map00920  Sulfur metabolism
+            map01200  Carbon metabolism
+            map01230  Biosynthesis of amino acids
+            map01100  Metabolic pathways
+            map01110  Biosynthesis of secondary metabolites
+REACTION    R00586  C00065 -> C00979
+            R00897  C00979 + C00283 -> C00097
+COMPOUND    C00065  L-Serine
+            C00979  O-Acetyl-L-serine
+            C00283  Hydrogen sulfide
+            C00097  L-Cysteine
+///

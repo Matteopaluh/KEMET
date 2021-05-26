@@ -1,0 +1,31 @@
+ENTRY       M00617            Signature Module
+NAME        Methanogen
+DEFINITION  M00567,M00357,M00356,M00563
+ORTHOLOGY   K00200+K00201+K00202+K00203+K11261 formylmethanofuran dehydrogenase
+            K00205,K11260,K00204  4Fe-4S ferredoxin
+            K00672  formylmethanofuran--tetrahydromethanopterin N-formyltransferase
+            K01499  methenyltetrahydromethanopterin cyclohydrolase
+            K00319  methylenetetrahydromethanopterin dehydrogenase
+            K13942  5,10-methenyltetrahydromethanopterin hydrogenase
+            K00320  coenzyme F420-dependent N5,N10-methenyltetrahydromethanopterin reductase
+            K00577+K00578+K00579+K00580+K00581+K00582+K00583+K00584  tetrahydromethanopterin S-methyltransferase
+            K00399+K00401+K00402  methyl-coenzyme M reductase
+            K03388+K03389+K03390  heterodisulfide reductase
+            K00925  acetate kinase
+            K00625,K13788  phosphate acetyltransferase
+            K01895  acetyl-CoA synthetase
+            K00193+K00197+K00194  acetyl-CoA decarbonylase/synthase complex
+            K14080  [methyl-Co(III) methanol-specific corrinoid protein]:coenzyme M methyltransferase
+            K04480  methanol---5-hydroxybenzimidazolylcobamide Co-methyltransferase
+            K14081  methanol corrinoid protein
+            K14082  mtbA; [methyl-Co(III) methylamine-specific corrinoid protein]:coenzyme M methyltransferase
+            K16176  mtmB; methylamine---corrinoid protein Co-methyltransferase
+            K16177  mtmC; monomethylamine corrinoid protein
+            K16178  mtbB; dimethylamine---corrinoid protein Co-methyltransferase
+            K16179  mtbC; dimethylamine corrinoid protein
+            K14083  mttB; trimethylamine---corrinoid protein Co-methyltransferase
+            K14084  mttC; trimethylamine corrinoid protein
+            K00399+K00401+K00402  methyl-coenzyme M reductase
+            K03388+K03389+K03390  heterodisulfide reductase
+CLASS       Signature modules; Module set; Metabolic capacity
+///

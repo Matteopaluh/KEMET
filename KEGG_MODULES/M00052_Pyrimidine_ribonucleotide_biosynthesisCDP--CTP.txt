@@ -1,0 +1,20 @@
+ENTRY       M00052            Pathway   Module
+NAME        Pyrimidine ribonucleotide biosynthesis, UMP => UDP/UTP,CDP/CTP
+DEFINITION  (K13800,K13809,K09903) (K00940,K18533) K01937
+ORTHOLOGY   K13800,K13809  cytidylate kinase [EC:2.7.4.14] [RN:R00158]
+            K09903  uridylate kinase [EC:2.7.4.22] [RN:R00158]
+            K00940,K18533  nucleoside-diphosphate kinase [EC:2.7.4.6] [RN:R00156]
+            K01937  CTP synthase [EC:6.3.4.2] [RN:R00571 R00573]
+CLASS       Pathway modules; Nucleotide metabolism; Pyrimidine metabolism
+PATHWAY     map00240  Pyrimidine metabolism
+            map01100  Metabolic pathways
+REACTION    R00158  C00105 -> C00015
+            R00156  C00015 -> C00075
+            R00571,R00573  C00075 -> C00063
+            R00570  C00063 -> C00112
+COMPOUND    C00105  UMP
+            C00015  UDP
+            C00075  UTP
+            C00063  CTP
+            C00112  CDP
+///

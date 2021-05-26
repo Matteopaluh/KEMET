@@ -1,0 +1,20 @@
+ENTRY       M00769            Signature Module
+NAME        Multidrug resistance, efflux pump MexPQ-OpmE
+DEFINITION  K18304 K19591 (K19595+K19594+K19593)
+ORTHOLOGY   K18304  lasR; LuxR family transcriptional regulator, quorum-sensing transcription factor LasR
+            K19591  cueR; MerR family transcriptional regulator, copper efflux regulator
+            K19595  gesA; membrane fusion protein, gold/copper resistance efflux system
+            K19594  gesB; gold/copper resistance efflux pump
+            K19593  opmE; outer membrane protein, multidrug efflux system
+CLASS       Signature modules; Gene set; Drug resistance
+REFERENCE   PMID:20233934
+  AUTHORS   Thaden JT, Lory S, Gardner TS
+  TITLE     Quorum-sensing regulation of a copper toxicity system in Pseudomonas aeruginosa.
+  JOURNAL   J Bacteriol 192:2557-68 (2010)
+            DOI:10.1128/JB.01528-09
+REFERENCE   PMID:16301811
+  AUTHORS   Mima T, Sekiya H, Mizushima T, Kuroda T, Tsuchiya T
+  TITLE     Gene cloning and properties of the RND-type multidrug efflux pumps MexPQ-OpmE and MexMN-OprM from Pseudomonas aeruginosa.
+  JOURNAL   Microbiol Immunol 49:999-1002 (2005)
+            DOI:10.1111/j.1348-0421.2005.tb03696.x
+///

@@ -1,0 +1,26 @@
+ENTRY       M00370            Pathway   Module
+NAME        Glucosinolate biosynthesis, tryptophan => glucobrassicin
+DEFINITION  (K11812,K11813) K11818 K11819 K11820 K11821
+ORTHOLOGY   K11812,K11813  tryptophan N-monooxygenase [EC:1.14.14.156] [RN:R08160]
+            K11818  aromatic aldoxime N-monooxygenase [EC:1.14.14.45] [RN:R08168]
+            K11819  S-alkyl-thiohydroximate lyase SUR1 [EC:4.4.1.-] [RN:R08170]
+            K11820  N-hydroxythioamide S-beta-glucosyltransferase [EC:2.4.1.195] [RN:R08164]
+            K11821  aromatic desulfoglucosinolate sulfotransferase [EC:2.8.2.24] [RN:R08167]
+CLASS       Pathway modules; Biosynthesis of other secondary metabolites; Biosynthesis of other secondary metabolites
+PATHWAY     map00380  Tryptophan metabolism
+            map00966  Glucosinolate biosynthesis
+            map01210  2-Oxocarboxylic acid metabolism
+            map01100  Metabolic pathways
+            map01110  Biosynthesis of secondary metabolites
+REACTION    R08160  C00078 -> C02937
+            R08168  C02937 -> C16518
+            R08170  C16518 -> C16516
+            R08164  C16516 -> C16517
+            R08167  C16517 -> C05837
+COMPOUND    C00078  L-Tryptophan
+            C02937  Indole-3-acetaldehyde oxime
+            C16518  S-(Indolylmethylthiohydroximoyl)-L-cysteine
+            C16516  Indolylmethylthiohydroximate
+            C16517  Indolylmethyl-desulfoglucosinolate
+            C05837  Glucobrassicin
+///

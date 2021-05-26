@@ -1,0 +1,29 @@
+ENTRY       M00526            Pathway   Module
+NAME        Lysine biosynthesis, DAP dehydrogenase pathway, aspartate => lysine
+DEFINITION  (K00928,K12524,K12525,K12526) K00133 K01714 K00215 K03340 (K01586,K12526)
+ORTHOLOGY   K00928,K12524,K12525,K12526  aspartate kinase [EC:2.7.2.4] [RN:R00480]
+            K00133  aspartate-semialdehyde dehydrogenase [EC:1.2.1.11] [RN:R02291]
+            K01714  4-hydroxy-tetrahydrodipicolinate synthase [EC:4.3.3.7] [RN:R10147]
+            K00215  4-hydroxy-tetrahydrodipicolinate reductase [EC:1.17.1.8] [RN:R04198 R04199]
+            K03340  diaminopimelate dehydrogenase [EC:1.4.1.16] [RN:R02755]
+            K01586,K12526  diaminopimelate decarboxylase [EC:4.1.1.20] [RN:R00451]
+CLASS       Pathway modules; Amino acid metabolism; Lysine metabolism
+PATHWAY     map00300  Lysine biosynthesis
+            map01230  Biosynthesis of amino acids
+            map01100  Metabolic pathways
+REACTION    R00480  C00049 -> C03082
+            R02291  C03082 -> C00441
+            R10147  C00441 -> C20258
+            R04198,R04199  C20258 -> C03972
+            R04336  C03972 -> C03871
+            R02755  C03871 -> C00680
+            R00451  C00680 -> C00047
+COMPOUND    C00049  L-Aspartate
+            C03082  4-Phospho-L-aspartate
+            C00441  L-Aspartate 4-semialdehyde
+            C20258  (2S,4S)-4-Hydroxy-2,3,4,5-tetrahydrodipicolinate
+            C03972  2,3,4,5-Tetrahydrodipicolinate
+            C03871  L-2-Amino-6-oxoheptanedioate
+            C00680  meso-2,6-Diaminoheptanedioate
+            C00047  L-Lysine
+///

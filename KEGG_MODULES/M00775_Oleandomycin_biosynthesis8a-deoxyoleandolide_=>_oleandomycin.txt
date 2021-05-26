@@ -1,0 +1,25 @@
+ENTRY       M00775            Pathway   Module
+NAME        Oleandomycin biosynthesis, malonyl-CoA + methylmalonyl-CoA => 8,8a-deoxyoleandolide => oleandomycin
+DEFINITION  K16007 K16008 K16009 K13320 K16010
+ORTHOLOGY   K16007  oleA; 8,8a-deoxyoleandolide synthase [RN:R06453]
+            K16008  oleP; cytochrome P450 monooxygenase OleP [RN:R06454]
+            K16009  oleGII; glycosyltransferase OleGII [RN:R06455]
+            K13320  oleY; L-olivosyl-oleandolide 3-O-methyltransferase [EC:2.1.1.239] [RN:R06456]
+            K16010  oleGI; desosaminyltransferase OleGI [RN:R06457]
+CLASS       Pathway modules; Biosynthesis of terpenoids and polyketides; Macrolide biosynthesis
+PATHWAY     map00522  Biosynthesis of 12-, 14- and 16-membered macrolides
+            map01100  Metabolic pathways
+            map01110  Biosynthesis of secondary metabolites
+REACTION    R06453  C00083 + C02557 -> C11989
+            R06454  C11989 -> C11990
+            R06455  C11990 -> C11991
+            R06456  C11991 -> C11992
+            R06457  C11992 -> C01946
+COMPOUND    C00083  Malonyl-CoA
+            C02557  Methylmalonyl-CoA
+            C11989  8,8a-Deoxyoleandolide
+            C11990  Oleandolide
+            C11991  L-Olivosyl-oleandolide
+            C11992  L-Oleandrosyl-oleandolide
+            C01946  Oleandomycin
+///

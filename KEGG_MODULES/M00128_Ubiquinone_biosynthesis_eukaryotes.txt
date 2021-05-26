@@ -1,0 +1,30 @@
+ENTRY       M00128            Pathway   Module
+NAME        Ubiquinone biosynthesis, eukaryotes, 4-hydroxybenzoate => ubiquinone
+DEFINITION  K06125 K00591 K06126 K06127 K06134 K00591
+ORTHOLOGY   K06125  4-hydroxybenzoate polyprenyltransferase [EC:2.5.1.39] [RN:R05000]
+            K00591  polyprenyldihydroxybenzoate methyltransferase [EC:2.1.1.114] [RN:R08771]
+            K06126  ubiquinone biosynthesis monooxygenase Coq6 [EC:1.14.13.-] [RN:R08773]
+            K06127  2-methoxy-6-polyprenyl-1,4-benzoquinol methylase [EC:2.1.1.201] [RN:R08774]
+            K06134  3-demethoxyubiquinol 3-hydroxylase [EC:1.14.99.60] [RN:R08775]
+            K00591  3-demethylubiquinol 3-O-methyltransferase [EC:2.1.1.64] [RN:R08781]
+CLASS       Pathway modules; Metabolism of cofactors and vitamins; Cofactor and vitamin metabolism
+PATHWAY     map00130  Ubiquinone and other terpenoid-quinone biosynthesis
+            map01100  Metabolic pathways
+REACTION    R05000  C00156 -> C05848
+            R08770  C05848 -> C17554
+            R08771  C17554 -> C17559
+            R08772  C17559 -> C17552
+            R08773  C17552 -> C17560
+            R08774  C17560 -> C17561
+            R08775  C17561 -> C17562
+            R08781  C17562 -> C00399
+COMPOUND    C00156  4-Hydroxybenzoate
+            C05848  4-Hydroxy-3-polyprenylbenzoate
+            C17554  3-Polyprenyl-4,5-dihydroxybenzoate
+            C17559  3-Polyprenyl-4-hydroxy-5-methoxybenzoate
+            C17552  2-Polyprenyl-6-methoxyphenol
+            C17560  2-Polyprenyl-6-methoxy-1,4-benzoquinone
+            C17561  2-Polyprenyl-3-methyl-6-methoxy-1,4-benzoquinone
+            C17562  2-Polyprenyl-3-methyl-5-hydroxy-6-methoxy-1,4-benzoquinone
+            C00399  Ubiquinone
+///

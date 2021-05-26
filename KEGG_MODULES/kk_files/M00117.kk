@@ -1,0 +1,12 @@
+M00117_Ubiquinone biosynthesis, prokaryotes, chorismate => ubiquinone
+K03181, K18240
+K03179
+K03182, K03186
+K18800
+K00568
+K03185
+K03183
+K03184
+K00568
+COMPLEXES_LIST
+K03182+K03186

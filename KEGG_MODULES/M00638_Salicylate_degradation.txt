@@ -1,0 +1,12 @@
+ENTRY       M00638            Pathway   Module
+NAME        Salicylate degradation, salicylate => gentisate
+DEFINITION  (K18242+K18243+K14578+K14581)
+ORTHOLOGY   K18242,K18243,K14578,K14581  salicylate 5-hydroxylase [EC:1.14.13.172] [RN:R07709 R07710]
+CLASS       Pathway modules; Xenobiotics biodegradation; Aromatics degradation
+PATHWAY     map00626  Naphthalene degradation
+            map01100  Metabolic pathways
+            map01120  Microbial metabolism in diverse environments
+REACTION    R07709,R07710  C00805 -> C00628
+COMPOUND    C00805  Salicylate
+            C00628  2,5-Dihydroxybenzoate
+///

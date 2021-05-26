@@ -1,0 +1,35 @@
+ENTRY       M00773            Pathway   Module
+NAME        Tylosin biosynthesis, methylmalonyl-CoA + malonyl-CoA => tylactone => tylosin
+DEFINITION  K15988 (K15989+K15990) K15992 K15991 K15993 K15994 K15995 K15996
+ORTHOLOGY   K15988  tylG; tylactone synthase [RN:R06448]
+            K15989  tylMII; tylactone mycaminosyltransferase [EC:2.4.1.316] [RN:R06450]
+            K15990  tylMIII; tylactone mycaminosyltransferase auxiliary protein [RN:R06450]
+            K15992  tylI; cytochrome P450 TylI [RN:R06449]
+            K15991  tylHI; 20-oxo-5-O-mycaminosyltylactone 23-monooxygenase [EC:1.14.15.34] [RN:R10656]
+            K15993  tylN; O-mycaminosyltylonolide 6-deoxyallosyltransferase [EC:2.4.1.317] [RN:R06451]
+            K15994  tylCV; demethyllactenocin mycarosyltransferase [EC:2.4.1.318] [RN:R06452]
+            K15995  tylE; demethylmacrocin O-methyltransferase [EC:2.1.1.102] [RN:R02859]
+            K15996  tylF; macrocin O-methyltransferase [EC:2.1.1.101] [RN:R02858]
+CLASS       Pathway modules; Biosynthesis of terpenoids and polyketides; Macrolide biosynthesis
+PATHWAY     map00522  Biosynthesis of 12-, 14- and 16-membered macrolides
+            map01100  Metabolic pathways
+            map01130  Biosynthesis of antibiotics
+REACTION    R06448  C02557 + C00083 -> C12000
+            R06450  C12000 -> C12001
+            R06449  C12001 -> C20760
+            R10656  C20760 -> C12002
+            R06451  C12002 -> C12003
+            R06452  C12003 -> C02400
+            R02859  C02400 -> C00744
+            R02858  C00744 -> C01457
+COMPOUND    C02557  Methylmalonyl-CoA
+            C00083  Malonyl-CoA
+            C12000  Tylactone
+            C12001  5-O-beta-D-Mycaminosyltylactone
+            C20760  20-Oxo-5-O-beta-mycaminosyltylactone
+            C12002  5-O-beta-D-Mycaminosyltylonolide
+            C12003  Demethyllactenocin
+            C02400  Demethylmacrocin
+            C00744  Macrocin
+            C01457  Tylosin
+///

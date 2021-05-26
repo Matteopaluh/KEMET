@@ -1,0 +1,16 @@
+ENTRY       M00106            Pathway   Module
+NAME        Conjugated bile acid biosynthesis, cholate => taurocholate/glycocholate
+DEFINITION  K08748 K00659
+ORTHOLOGY   K08748  solute carrier family 27 (fatty acid transporter), member 5 [EC:6.2.1.7] [RN:R02794]
+            K00659  bile acid-CoA:amino acid N-acyltransferase [EC:2.3.1.65] [RN:R03720 R03718]
+CLASS       Pathway modules; Lipid metabolism; Sterol biosynthesis
+PATHWAY     map00120  Primary bile acid biosynthesis
+            map01100  Metabolic pathways
+REACTION    R02794  C00695 -> C01794
+            R03720  C01794 -> C05122
+            R03718  C01794 -> C01921
+COMPOUND    C00695  Cholic acid
+            C01794  Choloyl-CoA
+            C05122  Taurocholate
+            C01921  Glycocholate
+///

@@ -1,0 +1,25 @@
+ENTRY       M00577            Pathway   Module
+NAME        Biotin biosynthesis, BioW pathway, pimelate => pimeloyl-CoA => biotin
+DEFINITION  K01906 K00652 (K00833,K19563) K01935 K01012
+ORTHOLOGY   K01906  6-carboxyhexanoate--CoA ligase [EC:6.2.1.14] [RN:R03209]
+            K00652  8-amino-7-oxononanoate synthase [EC:2.3.1.47] [RN:R03210]
+            K00833  adenosylmethionine---8-amino-7-oxononanoate aminotransferase [EC:2.6.1.62] [RN:R03231]
+            K19563  lysine---8-amino-7-oxononanoate aminotransferase [EC:2.6.1.105] [RN:R10699]
+            K01935  dethiobiotin synthetase [EC:6.3.3.3] [RN:R03182]
+            K01012  biotin synthetase [EC:2.8.1.6] [RN:R01078]
+CLASS       Pathway modules; Metabolism of cofactors and vitamins; Cofactor and vitamin metabolism
+PATHWAY     map00780  Biotin metabolism
+            map01100  Metabolic pathways
+REACTION    R03209  C02656 -> C01063
+            R03210  C01063 -> C01092
+            R03231  C01092 -> C01037
+            R10699  C01092 -> C01037
+            R03182  C01037 -> C01909
+            R01078  C01909 -> C00120
+COMPOUND    C02656  Pimelate
+            C01063  6-Carboxyhexanoyl-CoA
+            C01092  8-Amino-7-oxononanoate
+            C01037  7,8-Diaminononanoate
+            C01909  Dethiobiotin
+            C00120  Biotin
+///

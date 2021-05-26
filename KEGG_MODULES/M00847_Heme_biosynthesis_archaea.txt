@@ -1,0 +1,28 @@
+ENTRY       M00847            Pathway   Module
+NAME        Heme biosynthesis, archaea, siroheme => heme
+DEFINITION  K22225 K22226 K22227
+ORTHOLOGY   K22225  ahbAB; siroheme decarboxylase [EC:4.1.1.111] [RN:R12000]
+            K22226  ahbC; 12,18-didecarboxysiroheme decarboxylase [RN:R12001]
+            K22227  ahbD; AdoMet-dependent heme synthase [EC:1.3.98.6] [RN:R12002]
+CLASS       Pathway modules; Metabolism of cofactors and vitamins; Cofactor and vitamin metabolism
+PATHWAY     map00860  Porphyrin and chlorophyll metabolism
+            map01100  Metabolic pathways
+            map01110  Biosynthesis of secondary metabolites
+REACTION    R12000  C00748 -> C21835
+            R12001  C21835 -> C21284
+            R12002  C21284 -> C00032
+COMPOUND    C00748  Siroheme
+            C21835  12,18-Didecarboxysiroheme
+            C21284  Fe-coproporphyrin III
+            C00032  Heme
+REFERENCE   PMID:24669201
+  AUTHORS   Kuhner M, Haufschildt K, Neumann A, Storbeck S, Streif J, Layer G
+  TITLE     The alternative route to heme in the methanogenic archaeon Methanosarcina barkeri.
+  JOURNAL   Archaea 2014:327637 (2014)
+            DOI:10.1155/2014/327637
+REFERENCE   PMID:24865947
+  AUTHORS   Palmer DJ, Schroeder S, Lawrence AD, Deery E, Lobo SA, Saraiva LM, McLean KJ, Munro AW, Ferguson SJ, Pickersgill RW, Brown DG, Warren MJ
+  TITLE     The structure, function and properties of sirohaem decarboxylase--an enzyme with structural homology to a transcription factor family that is part of the alternative haem biosynthesis pathway.
+  JOURNAL   Mol Microbiol 93:247-61 (2014)
+            DOI:10.1111/mmi.12656
+///

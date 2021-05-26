@@ -1,0 +1,9 @@
+M00622_Nicotinate degradation, nicotinate => fumarate
+K18029, K18030
+K14974
+K18028
+K15357
+K13995
+K01799
+COMPLEXES_LIST
+K18029+K18030

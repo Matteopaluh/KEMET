@@ -1,0 +1,17 @@
+ENTRY       M00092            Pathway   Module
+NAME        Phosphatidylethanolamine (PE) biosynthesis, ethanolamine => PE
+DEFINITION  (K00894,K14156) K00967 (K00993,K13644)
+ORTHOLOGY   K00894,K14156  ethanolamine kinase [EC:2.7.1.82] [RN:R01468]
+            K00967  ethanolamine-phosphate cytidylyltransferase [EC:2.7.7.14] [RN:R02038]
+            K00993,K13644  ethanolaminephosphotransferase [EC:2.7.8.1] [RN:R02057]
+CLASS       Pathway modules; Lipid metabolism; Lipid metabolism
+PATHWAY     map00564  Glycerophospholipid metabolism
+            map01100  Metabolic pathways
+REACTION    R01468  C00189 -> C00346
+            R02038  C00346 -> C00570
+            R02057  C00570 -> C00350
+COMPOUND    C00189  Ethanolamine
+            C00346  Ethanolamine phosphate
+            C00570  CDP-ethanolamine
+            C00350  Phosphatidylethanolamine
+///

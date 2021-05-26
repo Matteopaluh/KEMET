@@ -1,0 +1,29 @@
+ENTRY       M00631            Pathway   Module
+NAME        D-Galacturonate degradation (bacteria), D-galacturonate => pyruvate + D-glyceraldehyde 3P
+DEFINITION  K01812 K00041 (K01685,K16849+K16850) K00874 (K01625,K17463)
+ORTHOLOGY   K01812  glucuronate isomerase [EC:5.3.1.12] [RN:R01983]
+            K00041  tagaturonate reductase [EC:1.1.1.58] [RN:R02555]
+            K01685,K16849,K16850  altronate hydrolase [EC:4.2.1.7] [RN:R01540]
+            K00874  2-dehydro-3-deoxygluconokinase [EC:2.7.1.45] [RN:R01541]
+            K01625,K17463  2-dehydro-3-deoxy-phosphogluconate aldolase [EC:4.1.2.14] [RN:R05605]
+CLASS       Pathway modules; Carbohydrate metabolism; Other carbohydrate metabolism
+PATHWAY     map00040  Pentose and glucuronate interconversions
+            map00030  Pentose phosphate pathway
+            map01100  Metabolic pathways
+REACTION    R01983  C00333 -> C00558
+            R02555  C00558 -> C00817
+            R01540  C00817 -> C00204
+            R01541  C00204 -> C04442
+            R05605  C04442 -> C00022 + C00118
+COMPOUND    C00333  D-Galacturonate
+            C00558  D-Tagaturonate
+            C00817  D-Altronate
+            C00204  2-Dehydro-3-deoxy-D-gluconate
+            C04442  2-Dehydro-3-deoxy-6-phospho-D-gluconate
+            C00022  Pyruvate
+            C00118  D-Glyceraldehyde 3-phosphate
+REFERENCE   PMID:13794771
+  AUTHORS   ASHWELL G, WAHBA AJ, HICKMAN J
+  TITLE     Uronic acid metabolism in bacteria. I. Purification and properties of uronic acid isomerase in Escherichia coli.
+  JOURNAL   J Biol Chem 235:1559-65 (1960)
+///

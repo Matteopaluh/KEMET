@@ -1,0 +1,32 @@
+ENTRY       M00622            Pathway   Module
+NAME        Nicotinate degradation, nicotinate => fumarate
+DEFINITION  (K18029+K18030) K14974 K18028 K15357 K13995 K01799
+ORTHOLOGY   K18029+K18030  nicotinate dehydrogenase  [EC:1.17.2.1] [RN:R09473]
+            K14974  6-hydroxynicotinate 3-monooxygenase [EC:1.14.13.114] [RN:R08764]
+            K18028  2,5-dihydroxypyridine 5,6-dioxygenase [EC:1.13.11.9] [RN:R09125]
+            K15357  N-formylmaleamate deformylase [EC:3.5.1.106] [RN:R09126]
+            K13995  maleamate amidohydrolase [EC:3.5.1.107] [RN:R03540]
+            K01799  maleate isomerase [EC:5.2.1.1] [RN:R01087]
+CLASS       Pathway modules; Metabolism of cofactors and vitamins; Cofactor and vitamin metabolism
+PATHWAY     map00760  Nicotinate and nicotinamide metabolism
+            map01100  Metabolic pathways
+            map01120  Microbial metabolism in diverse environments
+REACTION    R09473  C00253 -> C01020
+            R08764  C01020 -> C01059
+            R09125  C01059 -> C18232
+            R09126  C18232 -> C01596
+            R03540  C01596 -> C01384
+            R01087  C01384 -> C00122
+COMPOUND    C00253  Nicotinate
+            C01020  6-Hydroxynicotinate
+            C01059  2,5-Dihydroxypyridine
+            C18232  N-Formylmaleamic acid
+            C01596  Maleamate
+            C01384  Maleic acid
+            C00122  Fumarate
+REFERENCE   PMID:18678916
+  AUTHORS   Jimenez JI, Canales A, Jimenez-Barbero J, Ginalski K, Rychlewski L, Garcia JL, Diaz E
+  TITLE     Deciphering the genetic determinants for aerobic nicotinic acid degradation: the nic cluster from Pseudomonas putida KT2440.
+  JOURNAL   Proc Natl Acad Sci U S A 105:11329-34 (2008)
+            DOI:10.1073/pnas.0802273105
+///

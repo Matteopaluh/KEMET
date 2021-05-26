@@ -1,0 +1,8 @@
+M00017_Methionine biosynthesis, apartate => homoserine => methionine
+K00928, K12524, K12525
+K00133
+K00003, K12524, K12525
+K00651, K00641
+K01739
+K01760, K14155
+K00548, K00549

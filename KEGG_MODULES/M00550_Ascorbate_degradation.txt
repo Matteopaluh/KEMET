@@ -1,0 +1,29 @@
+ENTRY       M00550            Pathway   Module
+NAME        Ascorbate degradation, ascorbate => D-xylulose-5P
+DEFINITION  (K02821+K02822+K03475) K03476 K03078 K03079 K03077
+ORTHOLOGY   K02821,K02822,K03475  PTS system, ascorbate-specific [EC:2.7.1.194] [RN:R07671]
+            K03476  L-ascorbate 6-phosphate lactonase [EC:3.1.1.-] [RN:R07677]
+            K03078  3-dehydro-L-gulonate-6-phosphate decarboxylase [EC:4.1.1.85] [RN:R07125]
+            K03079  L-ribulose-5-phosphate 3-epimerase [EC:5.1.3.22] [RN:R03244]
+            K03077  L-ribulose-5-phosphate 4-epimerase [EC:5.1.3.4] [RN:R05850]
+CLASS       Pathway modules; Carbohydrate metabolism; Other carbohydrate metabolism
+PATHWAY     map00053  Ascorbate and aldarate metabolism
+            map01100  Metabolic pathways
+            map01120  Microbial metabolism in diverse environments
+REACTION    R07671  C00072 -> C16186
+            R07677  C16186 -> C14899
+            R07125  C14899 -> C03291
+            R03244  C03291 -> C01101
+            R05850  C01101 -> C00231
+COMPOUND    C00072  Ascorbate
+            C16186  L-Ascorbate 6-phosphate
+            C14899  3-Dehydro-L-gulonate 6-phosphate
+            C03291  L-Xylulose 5-phosphate
+            C01101  L-Ribulose 5-phosphate
+            C00231  D-Xylulose 5-phosphate
+REFERENCE   PMID:14996803
+  AUTHORS   Campos E, Baldoma L, Aguilar J, Badia J.
+  TITLE     Regulation of expression of the divergent ulaG and ulaABCDEF operons involved in LaAscorbate dissimilation in Escherichia coli.
+  JOURNAL   J Bacteriol 186:1720-8 (2004)
+            DOI:10.1128/JB.186.6.1720-1728.2004
+///

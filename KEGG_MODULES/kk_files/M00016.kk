@@ -1,0 +1,10 @@
+M00016_Lysine biosynthesis, succinyl-DAP pathway, aspartate => lysine
+K00928, K12524, K12525, K12526
+K00133
+K01714
+K00215
+K00674
+K00821, K14267
+K01439
+K01778
+K01586, K12526

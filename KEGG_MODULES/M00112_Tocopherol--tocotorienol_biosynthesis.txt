@@ -1,0 +1,40 @@
+ENTRY       M00112            Pathway   Module
+NAME        Tocopherol/tocotorienol biosynthesis
+DEFINITION  K09833 (K12502,K18534) K09834 K05928
+ORTHOLOGY   K09833  homogenitisate phytyltransferase [EC:2.5.1.115 2.5.1.116] [RN:R07500 R10708]
+            K12502,K18534  MPBQ/MSBQ methyltransferase [EC:2.1.1.295] [RN:R07501 R10710]
+            K09834  tocopherol cyclase [EC:5.5.1.24] [RN:R07502 R07503 R10624 R10623]
+            K05928  tocopherol O-methyltransferase [EC:2.1.1.95] [RN:R07236 R07504 R10491 R10492]
+CLASS       Pathway modules; Metabolism of cofactors and vitamins; Cofactor and vitamin metabolism
+PATHWAY     map00130  Ubiquinone and other terpenoid-quinone biosynthesis
+            map01100  Metabolic pathways
+            map01110  Biosynthesis of secondary metabolites
+REACTION    R07500  C05427 + C00544 -> C15882
+            R07501  C15882 -> C15883
+            R07502  C15883 -> C02483
+            R07236  C02483 -> C02477
+            R07503  C15882 -> C14151
+            R07504  C14151 -> C14152
+            
+            R10708  C00353 + C00544 -> C20737
+            R10710  C20737 -> C20738
+            R10624  C20738 -> C14155
+            R10491  C14155 -> C14153
+            R10623  C20737 -> C14156
+            R10492  C14156 -> C14154
+COMPOUND    C05427  Phytyl diphosphate
+            C00544  Homogentisate
+            C15882  2-Methyl-6-phytylquinol
+            C15883  2,3-Dimethyl-5-phytylquinol
+            C02483  gamma-Tocopherol
+            C02477  alpha-Tocopherol
+            C14151  delta-Tocopherol
+            C14152  beta-Tocopherol
+            C00353  Geranylgeranyl diphosphate
+            C20737  6-Geranylgeranyl-2-methylbenzene-1,4-diol
+            C20738  6-Geranylgeranyl-2,3-dimethylbenzene-1,4-diol
+            C14155  gamma-Tocotrienol
+            C14153  alpha-Tocotrienol
+            C14156  delta-Tocotrienol
+            C14154  beta-Tocotrienol
+///

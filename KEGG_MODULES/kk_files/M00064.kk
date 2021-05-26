@@ -1,0 +1,6 @@
+M00064_ADP-L-glycero-D-manno-heptose biosynthesis
+K03271
+K03272, K21344
+K03273
+K03272, K21345
+K03274

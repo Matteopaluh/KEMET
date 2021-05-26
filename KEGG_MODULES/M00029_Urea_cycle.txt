@@ -1,0 +1,27 @@
+ENTRY       M00029            Pathway   Module
+NAME        Urea cycle
+DEFINITION  K01948 K00611 K01940 (K01755,K14681) K01476
+ORTHOLOGY   K01948  carbamoyl-phosphate synthase (ammonia) [EC:6.3.4.16] [RN:R00149]
+            K00611  ornithine carbamoyltransferase [EC:2.1.3.3] [RN:R01398]
+            K01940  argininosuccinate synthase [EC:6.3.4.5] [RN:R01954]
+            K01755,K14681  argininosuccinate lyase [EC:4.3.2.1] [RN:R01086]
+            K01476  arginase [EC:3.5.3.1] [RN:R00551]
+CLASS       Pathway modules; Amino acid metabolism; Arginine and proline metabolism
+PATHWAY     map00220  Arginine biosynthesis
+            map01230  Biosynthesis of amino acids
+            map01100  Metabolic pathways
+REACTION    R00149  C00014 -> C00169
+            R01398  C00169 + C00077 -> C00327
+            R01954  C00327 + C00049 -> C03406
+            R01086  C03406 -> C00062 + C00122
+            R00551  C00062 -> C00077 + C00086
+COMPOUND    C00014  NH3
+            C00169  Carbamoyl phosphate
+            C00077  L-Ornithine
+            C00327  L-Citrulline
+            C00049  L-Aspartate
+            C03406  N-(L-Arginino)succinate
+            C00062  L-Arginine
+            C00122  Fumarate
+            C00086  Urea
+///

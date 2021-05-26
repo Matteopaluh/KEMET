@@ -1,0 +1,22 @@
+ENTRY       M00432            Pathway   Module
+NAME        Leucine biosynthesis, 2-oxoisovalerate => 2-oxoisocaproate
+DEFINITION  K01649 (K01702,K01703+K01704) K00052
+ORTHOLOGY   K01649  2-isopropylmalate synthase [EC:2.3.3.13] [RN:R01213]
+            K01702,K01703,K01704  3-isopropylmalate dehydratase [EC:4.2.1.33] [RN:R03968 R04001]
+            K00052  3-isopropylmalate dehydrogenase [EC:1.1.1.85] [RN:R04426]
+CLASS       Pathway modules; Amino acid metabolism; Branched-chain amino acid metabolism
+PATHWAY     map00290  Valine, leucine and isoleucine biosynthesis
+            map01210  2-Oxocarboxylic acid metabolism
+            map01230  Biosynthesis of amino acids
+            map01100  Metabolic pathways
+            map01110  Biosynthesis of secondary metabolites
+REACTION    R01213  C00141 + C00024 -> C02504
+            R03968+R04001  C02504 -> C04411
+            R04426+R01652  C04411 -> C00233
+COMPOUND    C00141  3-Methyl-2-oxobutanoic acid
+            C00024  Acetyl-CoA
+            C02504  alpha-Isopropylmalate
+            C04411  (2R,3S)-3-Isopropylmalate
+            C00233  4-Methyl-2-oxopentanoate
+RMODULE     RM001  2-Oxocarboxylic acid chain extension by tricarboxylic acid pathway
+///

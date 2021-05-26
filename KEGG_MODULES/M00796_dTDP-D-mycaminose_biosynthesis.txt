@@ -1,0 +1,19 @@
+ENTRY       M00796            Pathway   Module
+NAME        dTDP-D-mycaminose biosynthesis
+DEFINITION  K19853 K19854 K13307
+ORTHOLOGY   K19853  tyl1a; TDP-4-oxo-6-deoxy-alpha-D-glucose-3,4-oxoisomerase [EC:5.3.2.4] [RN:R06424]
+            K19854  tylB; dTDP-3-amino-3,6-dideoxy-alpha-D-glucopyranose transaminase [EC:2.6.1.89] [RN:R06423]
+            K13307  tylMI; dTDP-3-amino-3,6-dideoxy-alpha-D-glucopyranose N,N-dimethyltransferase [EC:2.1.1.235] [RN:R06439]
+CLASS       Pathway modules; Biosynthesis of terpenoids and polyketides; Polyketide sugar unit biosynthesis
+PATHWAY     map00523  Polyketide sugar unit biosynthesis
+            map01100  Metabolic pathways
+            map01130  Biosynthesis of antibiotics
+REACTION    R06424  C11907 -> C11908
+            R06423  C11908 -> C11925
+            R06439  C11925 -> C11933
+COMPOUND    C11907  dTDP-4-oxo-6-deoxy-D-glucose
+            C11908  3,6-Dideoxy-3-oxo-dTDP-D-glucose
+            C11925  dTDP-3-amino-3,6-dideoxy-D-glucose
+            C11933  dTDP-D-mycaminose
+RMODULE     RM035  Transamination and N,N-dimethylation in polyketide biosynthesis
+///

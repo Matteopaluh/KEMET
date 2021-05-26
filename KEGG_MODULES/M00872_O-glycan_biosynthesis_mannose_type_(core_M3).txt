@@ -1,0 +1,50 @@
+ENTRY       M00872            Pathway   Module
+NAME        O-glycan biosynthesis, mannose type (core M3)
+DEFINITION  K00728 K18207 K09654 K17547 
+            K21031
+            K19872 K19873 K21052 K21032 K09668
+ORTHOLOGY   K00728  POMT; dolichyl-phosphate-mannose-protein mannosyltransferase [EC:2.4.1.109] [RN:R07620]
+            K18207  POMGNT2; protein O-mannose beta-1,4-N-acetylglucosaminyltransferase [EC:2.4.1.312] [RN:R11407]
+            K09654  B3GALNT2; beta-1,3-N-acetylgalactosaminyltransferase 2 [EC:2.4.1.313] [RN:R12292]
+            K17547  POMK; glycoprotein-mannosyl O6-kinase [EC:2.7.1.183] [RN:R12293]
+            K21031  ISPD; D-ribitol-5-phosphate cytidylyltransferase [EC:2.7.7.40] [RN:R02921]
+            K19872  FKTN; fukutin [EC:2.7.8.-] [RN:R12294]
+            K19873  FKRP; fukutin-related protein [EC:2.7.8.-] [RN:R12295]
+            K21052  TMEM5; alpha-dystroglycan beta1,4-xylosyltransferase [EC:2.4.2.61] [RN:R12244]
+            K21032  B4GAT1; beta-1,4-glucuronyltransferase 1 [EC:2.4.1.-] [RN:R12296]
+            K09668  LARGE; glycosyltransferase-like protein LARGE [EC:2.4.2.- 2.4.1.-] [RN:R12297 R12298]
+CLASS       Pathway modules; Glycan metabolism; Glycan biosynthesis
+PATHWAY     map00515  Mannose type O-glycan biosynthesis
+            map01100  Metabolic pathways
+REACTION    R07620  G10617 + C02189 -> G13027
+            R11407  G13027 -> G13087
+            R12292  G13087 -> G13091
+            R12293  G13091 -> G13092
+            R02921  C00063 + C01068 -> C00789
+            R12294  C00789 + G13092 -> G13093
+            R12295  G13093 -> G13094
+            R12244  G13094 -> G13095
+            R12296  G13095 -> G13096
+            R12297  G13096 -> G13097
+            R12298  G13097 -> G13098
+COMPOUND    G10617  Dolichyl phosphate D-mannose
+            C02189  [Protein]-L-serine
+            G13027
+            G13087
+            G13091  O-mannose core M3
+            G13092  Phospho-core M3
+            C00063  CTP
+            C01068  D-Ribitol 5-phosphate
+            C00789  CDP-ribitol
+            G13093
+            G13094
+            G13095
+            G13096
+            G13097
+            G13098
+REFERENCE   PMID:30643095
+  AUTHORS   Endo T
+  TITLE     Mammalian O-mannosyl glycans: Biochemistry and glycopathology.
+  JOURNAL   Proc Jpn Acad Ser B Phys Biol Sci 95:39-51 (2019)
+            DOI:10.2183/pjab.95.004
+///

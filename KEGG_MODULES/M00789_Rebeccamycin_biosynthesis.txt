@@ -1,0 +1,38 @@
+ENTRY       M00789            Pathway   Module
+NAME        Rebeccamycin biosynthesis, tryptophan => rebeccamycin
+DEFINITION  K14266 K19884 K19885 (K19886+K19887) K19888 K19889
+ORTHOLOGY   K14266  rebH; tryptophan halogenase [EC:1.14.19.9] [RN:R09570]
+            K19884  rebO; 7-chloro-L-tryptophan oxidase [EC:1.4.3.23] [RN:R09560]
+            K19885  rebD; dichlorochromopyrrolate synthase / catalase [EC:1.21.98.2 1.11.1.6] [RN:R09566]
+            K19886  rebC; flavin-dependent monooxygenase RebC [EC:1.13.12.17] [RN:R09567]
+            K19887  rebP; cytochrome P450 RebP [EC:1.13.12.17] [RN:R09567]
+            K19888  rebG; 4'-demethylrebeccamycin synthase [EC:4.3.3.5] [RN:R09568]
+            K19889  rebM; demethylrebeccamycin-D-glucose O-methyltransferase [EC:2.1.1.164] [RN:R09569]
+CLASS       Pathway modules; Biosynthesis of other secondary metabolites; Biosynthesis of other secondary metabolites
+PATHWAY     map00404  Staurosporine biosynthesis
+            map01100  Metabolic pathways
+            map01130  Biosynthesis of antibiotics
+REACTION    R09570  C00078 -> C19687
+            R09560  C19687 -> C19688
+            R09566  C19688 -> C19698
+            R09567  C19698 -> C19699
+            R09568  C19699 -> C19700
+            R09569  C19700 -> C19701
+COMPOUND    C00078  L-Tryptophan
+            C19687  7-Chloro-L-tryptophan
+            C19688  2-Imino-3-(7-chloroindol-3-yl)propanoate
+            C19698  3,4-Bis(7-chloroindol-3-yl)pyrrole-2,5-dicarboxylate
+            C19699  Dichloroarcyriaflavin A
+            C19700  4'-O-Demethylrebeccamycin
+            C19701  Rebeccamycin
+REFERENCE   PMID:12619684
+  AUTHORS   Onaka H, Taniguchi S, Igarashi Y, Furumai T
+  TITLE     Characterization of the biosynthetic gene cluster of rebeccamycin from Lechevalieria aerocolonigenes ATCC 39243.
+  JOURNAL   Biosci Biotechnol Biochem 67:127-38 (2003)
+            DOI:10.1271/bbb.67.127
+REFERENCE   PMID:15743957
+  AUTHORS   Nishizawa T, Aldrich CC, Sherman DH
+  TITLE     Molecular analysis of the rebeccamycin L-amino acid oxidase from Lechevalieria aerocolonigenes ATCC 39243.
+  JOURNAL   J Bacteriol 187:2084-92 (2005)
+            DOI:10.1128/JB.187.6.2084-2092.2005
+///

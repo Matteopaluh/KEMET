@@ -1,0 +1,14 @@
+ENTRY       M00066            Pathway   Module
+NAME        Lactosylceramide biosynthesis
+DEFINITION  K00720 K07553
+ORTHOLOGY   K00720  ceramide glucosyltransferase [EC:2.4.1.80] [RN:R01497]
+            K07553  beta-1,4-galactosyltransferase 6 [EC:2.4.1.274] [RN:R03354]
+CLASS       Pathway modules; Lipid metabolism; Lipid metabolism
+PATHWAY     map00600  Sphingolipid metabolism
+            map01100  Metabolic pathways
+REACTION    R01497  C00195 -> C01190
+            R03354  C01190 -> C01290
+COMPOUND    C00195  N-Acylsphingosine
+            C01190  Glucosylceramide
+            C01290  beta-D-Galactosyl-1,4-beta-D-glucosylceramide
+///

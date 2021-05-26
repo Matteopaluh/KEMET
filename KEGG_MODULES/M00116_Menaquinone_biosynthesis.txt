@@ -1,0 +1,37 @@
+ENTRY       M00116            Pathway   Module
+NAME        Menaquinone biosynthesis, chorismate => menaquinol
+DEFINITION  K02552 K02551 K08680 K02549 K01911 K01661 K19222 K02548 K03183
+ORTHOLOGY   K02552  isochorismate synthase [EC:5.4.4.2] [RN:R01717]
+            K02551  2-succinyl-6-hydroxy-2,4-cyclohexadiene-1-carboxylate synthase [EC:2.2.1.9] [RN:R08165]
+            K08680  2-succinyl-6-hydroxy-2,4-cyclohexadiene-1-carboxylate synthase [EC:4.2.99.20] [RN:R08166]
+            K02549  O-succinylbenzoate-CoA synthase [EC:4.2.1.113] [RN:R04031]
+            K01911  O-succinylbenzoic acid--CoA ligase [EC:6.2.1.26] [RN:R04030]
+            K01661  naphthoate synthase [EC:4.1.3.36] [RN:R07263]
+            K19222  1,4-dihydroxy-2-naphthoyl-CoA hydrolase [EC:3.1.2.28] [RN:R07262]
+            K02548  1,4-dihydroxy-2-naphthoate polyprenyltransferase [EC:2.5.1.74] [RN:R10757]
+            K03183  demethylmenaquinone methyltransferase [EC:2.1.1.163] [RN:R09736]
+CLASS       Pathway modules; Metabolism of cofactors and vitamins; Cofactor and vitamin metabolism
+PATHWAY     map00130  Ubiquinone and other terpenoid-quinone biosynthesis
+            map01100  Metabolic pathways
+            map01110  Biosynthesis of secondary metabolites
+REACTION    R01717  C00251 -> C00885
+            R08165  C00885 -> C16519
+            R08166  C16519 -> C05817
+            R04031  C05817 -> C02730
+            R04030  C02730 -> C03160
+            R07263  C03160 -> C15547
+            R07262  C15547 -> C03657
+            R10757  C03657 + C05847 -> C19847
+            R09736  C19847 -> C05819
+COMPOUND    C00251  Chorismate
+            C00885  Isochorismate
+            C16519  2-Succinyl-5-enolpyruvyl-6-hydroxy-3-cyclohexene-1-carboxylate
+            C05817  (1R,6R)-6-Hydroxy-2-succinylcyclohexa-2,4-diene-1-carboxylate
+            C02730  2-Succinylbenzoate
+            C03160  2-Succinylbenzoyl-CoA
+            C15547  1,4-Dihydroxy-2-naphthoyl-CoA
+            C03657  1,4-Dihydroxy-2-naphthoate
+            C05847  all-trans-Polyprenyl diphosphate
+            C19847  Demethylmenaquinol
+            C05819  Menaquinol
+///

@@ -1,0 +1,32 @@
+ENTRY       M00565            Pathway   Module
+NAME        Trehalose biosynthesis, D-glucose 1P => trehalose
+DEFINITION  K00975 K00703 (K00700,K16149) K01214 K06044 K01236
+ORTHOLOGY   K00975  glgC; glucose-1-phosphate adenylyltransferase [EC:2.7.7.27] [RN:R00948]
+            K00703  starch synthase [EC:2.4.1.21] [RN:R02421]
+            K00700,K16149  1,4-alpha-glucan branching enzyme [EC:2.4.1.18] [RN:R02110]
+            K01214  ISA; isoamylase [EC:3.2.1.68] [RN:R11261]
+            K06044  treY; (1->4)-alpha-D-glucan 1-alpha-D-glucosylmutase [EC:5.4.99.15]  [RN:R01824]
+            K01236  treZ; maltooligosyltrehalose trehalohydrolase [EC:3.2.1.141]  [RN:R11256]
+CLASS       Pathway modules; Carbohydrate metabolism; Other carbohydrate metabolism
+PATHWAY     map00500  Starch and sucrose metabolism
+            map01100  Metabolic pathways
+            map01110  Biosynthesis of secondary metabolites
+REACTION    R00948 C00103 -> C00498
+            R02421 C00498 -> C00718
+            R02110 C00718 -> C00369
+            R11261 C00369 -> C01935
+            R01824 C01935 -> C06400
+            R11256 C06400 -> C01083
+COMPOUND    C00103  D-Glucose 1-phosphate
+            C00498  ADP-glucose
+            C00718  Amylose
+            C00369  Starch
+            C01935  Maltodextrin
+            C06400  Maltooligosyltrehalose
+            C01083  Trehalose
+REFERENCE   PMID:21474533
+  AUTHORS   Chandra G, Chater KF, Bornemann S
+  TITLE     Unexpected and widespread connections between bacterial glycogen and trehalose metabolism.
+  JOURNAL   Microbiology 157:1565-72 (2011)
+            DOI:10.1099/mic.0.044263-0
+///

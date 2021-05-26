@@ -1,0 +1,22 @@
+ENTRY       M00876            Pathway   Module
+NAME        Staphyloferrin A biosynthesis, L-ornithine => staphyloferrin A
+DEFINITION  K21898 K23446 K23447
+ORTHOLOGY   K21898  orr; ornithine racemase [EC:5.1.1.12] [RN:R00672]
+            K23446  sfnaD; D-ornithine--citrate ligase [EC:6.3.2.58] [RN:R12353]
+            K23447  sfnaB; staphyloferrin A synthetase [EC:6.3.2.57] [RN:R12354]
+CLASS       Pathway modules; Biosynthesis of other secondary metabolites; Biosynthesis of other secondary metabolites
+PATHWAY     map00997  Biosynthesis of various secondary metabolites - part 3
+            map01100  Metabolic pathways
+REACTION    R00672  C00077 -> C00515
+            R12353  C00515 -> C22101
+            R12354  C22101 -> C22102
+COMPOUND    C00077  L-Ornithine
+            C00515  D-Ornithine
+            C22101  N5-citryl-D-ornithine
+            C22102  Staphyloferrin A
+REFERENCE   PMID:19138128
+  AUTHORS   Cotton JL, Tao J, Balibar CJ
+  TITLE     Identification and characterization of the Staphylococcus aureus gene cluster coding for staphyloferrin A.
+  JOURNAL   Biochemistry 48:1025-35 (2009)
+            DOI:10.1021/bi801844c
+///

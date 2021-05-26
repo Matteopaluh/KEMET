@@ -1,0 +1,27 @@
+ENTRY       M00761            Pathway   Module
+NAME        Undecaprenylphosphate alpha-L-Ara4N biosynthesis, UDP-GlcA => undecaprenyl phosphate alpha-L-Ara4N
+DEFINITION  K10011 K07806 K10012 K13014
+ORTHOLOGY   K10011  UDP-4-amino-4-deoxy-L-arabinose formyltransferase / UDP-glucuronic acid dehydrogenase (UDP-4-keto-hexauronic acid decarboxylating) [EC:2.1.2.13 1.1.1.305] [RN:R07658 R07660]
+            K07806  UDP-4-amino-4-deoxy-L-arabinose-oxoglutarate aminotransferase [EC:2.6.1.87] [RN:R07659]
+            K10012  undecaprenyl-phosphate 4-deoxy-4-formamido-L-arabinose transferase [EC:2.4.2.53] [RN:R07661]
+            K13014  undecaprenyl phosphate-alpha-L-ara4FN deformylase [EC:3.5.-.-] [RN:R07662]
+CLASS       Pathway modules; Carbohydrate metabolism; Other carbohydrate metabolism
+PATHWAY     map00520  Amino sugar and nucleotide sugar metabolism
+            map01100  Metabolic pathways
+REACTION    R07658  C00167 -> C16155
+            R07659  C16155 -> C16153
+            R07660  C16153 -> C16154
+            R07661  C16154 -> C16156
+            R07662  C16156 -> C16157
+COMPOUND    C00167  UDP-glucuronate
+            C16155  UDP-L-Ara4O
+            C16153  UDP-L-Ara4N
+            C16154  UDP-L-Ara4FN
+            C16156  Undecaprenyl phosphate alpha-L-Ara4FN
+            C16157  Undecaprenyl phosphate alpha-L-Ara4N
+REFERENCE   PMID:15695810
+  AUTHORS   Breazeale SD, Ribeiro AA, McClerren AL, Raetz CR.
+  TITLE     A formyltransferase required for polymyxin resistance in Escherichia coli and the modification of lipid A with 4-Amino-4-deoxy-L-arabinose. Identification and function oF UDP-4-deoxy-4-formamido-L-arabinose.
+  JOURNAL   J Biol Chem 280:14154-67 (2005)
+            DOI:10.1074/jbc.M414265200
+///

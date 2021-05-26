@@ -1,0 +1,26 @@
+ENTRY       M00045            Pathway   Module
+NAME        Histidine degradation, histidine => N-formiminoglutamate => glutamate
+DEFINITION  K01745 K01712 K01468 (K01479,K00603,K13990,(K05603 K01458))
+ORTHOLOGY   K01745  histidine ammonia-lyase [EC:4.3.1.3] [RN:R01168]
+            K01712  urocanate hydratase [EC:4.2.1.49] [RN:R02914]
+            K01468  imidazolonepropionase [EC:3.5.2.7] [RN:R02288]
+            K01479  formiminoglutamase [EC:3.5.3.8] [RN:R02285]
+            K00603,K13990  glutamate formiminotransferase [EC:2.1.2.5] [RN:R02287]
+            K05603  formimidoylglutamate deiminase [EC:3.5.3.13] [RN:R02286]
+            K01458  N-formylglutamate deformylase [EC:3.5.1.68] [RN:R00525]
+CLASS       Pathway modules; Amino acid metabolism; Histidine metabolism
+PATHWAY     map00340  Histidine metabolism
+            map01100  Metabolic pathways
+REACTION    R01168  C00135 -> C00785
+            R02914  C00785 -> C03680
+            R02288  C03680 -> C00439
+            R02285,R02287  C00439 -> C00025
+            R02286  C00439 -> C01045
+            R00525  C01045 -> C00025
+COMPOUND    C00135  L-Histidine
+            C00785  Urocanate
+            C03680  4-Imidazolone-5-propanoate
+            C00439  N-Formimino-L-glutamate
+            C00025  L-Glutamate
+            C01045  N-Formyl-L-glutamate
+///

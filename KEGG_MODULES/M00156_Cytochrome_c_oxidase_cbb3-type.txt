@@ -1,0 +1,11 @@
+ENTRY       M00156            Complex   Module
+NAME        Cytochrome c oxidase, cbb3-type
+DEFINITION  ((K00404+K00405,K15862)+K00407+K00406)
+ORTHOLOGY   K00404  ccoN; cb-type cytochrome c oxidase subunit I [EC:1.9.3.1]
+            K00405  ccoO; cb-type cytochrome c oxidase subunit II
+            K00407  ccoQ; cb-type cytochrome c oxidase subunit IV
+            K00406  ccoP; cb-type cytochrome c oxidase subunit III
+            K15862  ccoNO; cbb3-type cytochrome c oxidase subunit I/II
+CLASS       Pathway modules; Energy metabolism; ATP synthesis
+PATHWAY     map00190  Oxidative phosphorylation
+///

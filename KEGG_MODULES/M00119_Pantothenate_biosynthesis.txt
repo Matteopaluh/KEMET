@@ -1,0 +1,27 @@
+ENTRY       M00119            Pathway   Module
+NAME        Pantothenate biosynthesis, valine/L-aspartate => pantothenate
+DEFINITION  K00826 K00606 K00077
+            K01579
+            (K01918,K13799)
+ORTHOLOGY   K00826  branched-chain amino acid aminotransferase [EC:2.6.1.42] [RN:R01214]
+            K00606  3-methyl-2-oxobutanoate hydroxymethyltransferase [EC:2.1.2.11] [RN:R01226]
+            K00077  2-dehydropantoate 2-reductase [EC:1.1.1.169] [RN:R02472]
+            K01579  aspartate 1-decarboxylase [EC:4.1.1.11] [RN:R00489]
+            K01918,K13799  pantoate--beta-alanine ligase [EC:6.3.2.1] [RN:R02473]
+CLASS       Pathway modules; Metabolism of cofactors and vitamins; Cofactor and vitamin metabolism
+PATHWAY     map00770  Pantothenate and CoA biosynthesis
+            map01100  Metabolic pathways
+            map01110  Biosynthesis of secondary metabolites
+REACTION    R01214  C00183 -> C00141
+            R01226  C00141 -> C00966
+            R02472  C00966 -> C00522
+            R00489  C00049 -> C00099
+            R02473  C00522 + C00099 -> C00864
+COMPOUND    C00183  L-Valine
+            C00141  3-Methyl-2-oxobutanoic acid
+            C00966  2-Dehydropantoate
+            C00522  (R)-Pantoate
+            C00049  L-Aspartate
+            C00099  beta-Alanine
+            C00864  Pantothenate
+///

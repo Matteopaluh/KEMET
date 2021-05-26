@@ -1,0 +1,28 @@
+ENTRY       M00539            Pathway   Module
+NAME        Cumate degradation, p-cumate => 2-oxopent-4-enoate + 2-methylpropanoate
+DEFINITION  (K10619+K16303+K16304+K18227) K10620 K10621 K10622 K10623
+ORTHOLOGY   K10619+K16303+K16304+K18227  cmtA; p-cumate 2,3-dioxygenase [EC:1.14.12.25] [RN:R05247]
+            K10620  cmtB; 2,3-dihydroxy-2,3-dihydro-p-cumate dehydrogenase [EC:1.3.1.58] [RN:R05240]
+            K10621  cmtC; 2,3-dihydroxy-p-cumate-3,4-dioxygenase [EC:1.13.11.-] [RN:R05248]
+            K10622  cmtD; HCOMODA decarboxylase [EC:4.1.1.-] [RN:R05377]
+            K10623  cmtE; HOMODA hydrolase [EC:3.7.1.-] [RN: R05364]
+CLASS       Pathway modules; Xenobiotics biodegradation; Aromatics degradation
+PATHWAY     map00622  Xylene degradation
+            map01220  Degradation of aromatic compounds
+            map01100  Metabolic pathways
+            map01120  Microbial metabolism in diverse environments
+REACTION    R05247  C06578 -> C06579
+            R05240  C06579 -> C06580
+            R05248  C06580 -> C06581
+            R05377  C06581 -> C06582
+            R05364  C06582 -> C00596 + C02632
+COMPOUND    C06578  p-Cumate
+            C06579  cis-2,3-Dihydroxy-2,3-dihydro-p-cumate
+            C06580  2,3-Dihydroxy-p-cumate
+            C06581  2-Hydroxy-3-carboxy-6-oxo-7-methylocta-2,4-dienoate
+            C06582  2-Hydroxy-6-oxo-7-methylocta-2,4-dienoate
+            C00596  2-Hydroxy-2,4-pentadienoate
+            C02632  2-Methylpropanoate
+RMODULE     RM004  Dihydroxylation of aromatic ring, type 1 (dioxygenase and dehydrogenase reactions)
+            RM010  Dihydroxylation and meta-cleavage of aromatic ring, type 1
+///

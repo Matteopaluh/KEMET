@@ -1,0 +1,2539 @@
+M00001.kk	M00001_Glycolysis (Embden-Meyerhof pathway), glucose => pyruvate
+%	80.0	8__10	INCOMPLETE
+1.	K00844, K12407, K00845, K00886, K08074, K00918
+3.	K00850, K16370, K00918
+
+M00002.kk	M00002_Glycolysis, core module involving three-carbon compounds
+%	100.0	6__6	COMPLETE
+
+M00003.kk	M00003_Gluconeogenesis, oxaloacetate => fructose-6P
+%	100.0	8__8	COMPLETE
+
+M00004.kk	M00004_Pentose phosphate pathway (Pentose phosphate cycle)
+%	100.0	8__8	COMPLETE
+
+M00005.kk	M00005_PRPP biosynthesis, ribose 5P => PRPP
+%	100.0	1__1	COMPLETE
+
+M00006.kk	M00006_Pentose phosphate pathway, oxidative phase, glucose 6P => ribulose 5P
+%	100.0	3__3	COMPLETE
+
+M00007.kk	M00007_Pentose phosphate pathway, non-oxidative phase, fructose 6P => ribose 5P
+%	100.0	4__4	COMPLETE
+
+M00008.kk	M00008_Entner-Doudoroff pathway, glucose-6P => glyceraldehyde-3P + pyruvate
+%	100.0	4__4	COMPLETE
+
+M00009.kk	M00009_Citrate cycle (TCA cycle, Krebs cycle)
+%	100.0	8__8	COMPLETE
+
+M00010.kk	M00010_Citrate cycle, first carbon oxidation, oxaloacetate => 2-oxoglutarate
+%	100.0	3__3	COMPLETE
+
+M00011.kk	M00011_Citrate cycle, second carbon oxidation, 2-oxoglutarate => oxaloacetate
+%	100.0	5__5	COMPLETE
+
+M00012.kk	M00012_Glyoxylate cycle
+%	100.0	5__5	COMPLETE
+
+M00013.kk	M00013_Malonate semialdehyde pathway, propanoyl-CoA => acetyl-CoA
+%	40.0	2__5	INCOMPLETE
+2.	K07511, K07514, K07515, K14729
+3.	K05605
+4.	K23146
+
+M00014.kk	M00014_Glucuronate pathway (uronate pathway)
+%	12.5	1__8	INCOMPLETE
+2.	K12447, K00699
+3.	K16190, K01195, K14756
+4.	K00002
+5.	K13247
+6.	K03331
+7.	K05351, K00008
+8.	K00854
+
+M00015.kk	M00015_Proline biosynthesis, glutamate => proline
+%	100.0	3__3	COMPLETE
+
+M00016.kk	M00016_Lysine biosynthesis, succinyl-DAP pathway, aspartate => lysine
+%	100.0	9__9	COMPLETE
+
+M00017.kk	M00017_Methionine biosynthesis, apartate => homoserine => methionine
+%	100.0	7__7	COMPLETE
+
+M00018.kk	M00018_Threonine biosynthesis, aspartate => homoserine => threonine
+%	100.0	5__5	COMPLETE
+
+M00019.kk	M00019_Valine/isoleucine biosynthesis, pyruvate => valine / 2-oxobutanoate => isoleucine
+%	100.0	4__4	COMPLETE
+
+M00020.kk	M00020_Serine biosynthesis, glycerate-3P => serine
+%	100.0	3__3	COMPLETE
+
+M00021.kk	M00021_Cysteine biosynthesis, serine => cysteine
+%	100.0	2__2	COMPLETE
+
+M00022.kk	M00022_Shikimate pathway, phosphoenolpyruvate + erythrose-4P => chorismate
+%	100.0	7__7	COMPLETE
+
+M00023.kk	M00023_Tryptophan biosynthesis, chorismate => tryptophan
+%	100.0	5__5	COMPLETE
+
+M00024.kk	M00024_Phenylalanine biosynthesis, chorismate => phenylalanine
+%	100.0	3__3	COMPLETE
+
+M00025.kk	M00025_Tyrosine biosynthesis, chorismate => tyrosine
+%	100.0	3__3	COMPLETE
+
+M00026.kk	M00026_Histidine biosynthesis, PRPP => histidine
+%	94.12	16__17	INCOMPLETE
+8.1	K04486, K05602, K18649
+
+M00027.kk	M00027_GABA (gamma-Aminobutyrate) shunt
+%	100.0	3__3	COMPLETE
+
+M00028.kk	M00028_Ornithine biosynthesis, glutamate => ornithine
+%	80.0	4__5	INCOMPLETE
+5.	K01438, K14677, K00620
+
+M00029.kk	M00029_Urea cycle
+%	60.0	3__5	INCOMPLETE
+1.	K01948
+5.	K01476
+
+M00030.kk	M00030_Lysine biosynthesis, AAA pathway, 2-oxoglutarate => 2-aminoadipate => lysine
+%	0.0	0__8	INCOMPLETE
+1.	K01655
+2.	K17450
+3.	K01705
+4.	K05824
+5.	K00838
+6.	K00143
+7.	K00293
+8.	K00290
+
+M00031.kk	M00031_Lysine biosynthesis, mediated by LysW, 2-aminoadipate => lysine
+%	16.67	1__6	INCOMPLETE
+1.1	K05826
+2.2	K05828
+3.2	K05829
+4.2	K05830
+5.2	K05831
+
+M00032.kk	M00032_Lysine degradation, lysine => saccharopine => acetoacetyl-CoA
+%	25.0	2__8	INCOMPLETE
+1.	K00290, K14157
+2.	K00293, K14157
+3.	K14085
+4.	K00825
+5.	K15791, K00658, K00382
+6.	K00252
+
+M00033.kk	M00033_Ectoine biosynthesis, aspartate => ectoine
+%	40.0	2__5	INCOMPLETE
+3.	K00836
+4.	K06718
+5.	K06720
+
+M00034.kk	M00034_Methionine salvage pathway
+%	72.73	8__11	INCOMPLETE
+6.	K08963
+7.	K16054, K08964
+10.	K08967
+
+M00035.kk	M00035_Methionine degradation
+%	50.0	2__4	INCOMPLETE
+3.	K01251
+4.	K01697, K10150
+
+M00036.kk	M00036_Leucine degradation, leucine => acetoacetate + acetyl-CoA
+%	100.0	6__6	COMPLETE
+
+M00037.kk	M00037_Melatonin biosynthesis, tryptophan => serotonin => melatonin
+%	0.0	0__4	INCOMPLETE
+1.	K00502
+2.	K01593
+3.	K00669
+4.	K00543
+
+M00038.kk	M00038_Tryptophan metabolism, tryptophan => kynurenine => 2-aminomuconate
+%	14.29	1__7	INCOMPLETE
+1.	K00453, K00463
+2.	K01432, K14263, K07130
+3.	K00486
+5.	K00452
+6.	K03392
+7.	K10217, K23234
+
+M00039.kk	M00039_Monolignol biosynthesis, phenylalanine/tyrosine => monolignol
+%	10.0	1__10	INCOMPLETE
+2.	K00487
+3.	K01904
+4.	K13065
+5.	K09754
+6.	K00588
+7.	K09753
+8.	K09755
+9.	K13066
+10.	K00083, K22395
+
+M00040.kk	M00040_Tyrosine biosynthesis, prephanate => pretyrosine => tyrosine
+%	100.0	2__2	COMPLETE
+
+M00042.kk	M00042_Catecholamine biosynthesis, tyrosine => dopamine => noradrenaline => adrenaline
+%	0.0	0__4	INCOMPLETE
+1.	K00505, K00501
+2.	K01592, K01593
+3.	K00503
+4.	K00553
+
+M00043.kk	M00043_Thyroid hormone biosynthesis, tyrosine => triiodothyronine/thyroxine
+%	0.0	0__1	INCOMPLETE
+1.	K00431
+
+M00044.kk	M00044_Tyrosine degradation, tyrosine => homogentisate
+%	80.0	4__5	INCOMPLETE
+1.	K00815, K00838, K03334
+
+M00045.kk	M00045_Histidine degradation, histidine => N-formiminoglutamate => glutamate
+%	100.0	5__5	COMPLETE
+
+M00046.kk	M00046_Pyrimidine degradation, uracil => beta-alanine, thymine => 3-aminoisobutanoate
+%	0.0	0__3	INCOMPLETE
+1.	K00207, K17722, K17723
+2.	K01464
+3.	K01431, K06016
+
+M00047.kk	M00047_Creatine pathway
+%	0.0	0__3	INCOMPLETE
+1.	K00613
+2.	K00542
+3.	K00933
+
+M00048.kk	M00048_Inosine monophosphate biosynthesis, PRPP + glutamine => IMP
+%	100.0	11__11	COMPLETE
+
+M00049.kk	M00049_Adenine ribonucleotide biosynthesis, IMP => ADP,ATP
+%	100.0	4__4	COMPLETE
+
+M00050.kk	M00050_Guanine ribonucleotide biosynthesis IMP => GDP,GTP
+%	100.0	4__4	COMPLETE
+
+M00051.kk	M00051_Uridine monophosphate biosynthesis, glutamine (+ PRPP) => UMP
+%	81.82	9__11	INCOMPLETE
+1.1	K11540, K11541
+2.2	K00609, K00610, K00608
+
+M00052.kk	M00052_Pyrimidine ribonucleotide biosynthesis, UMP => UDP/UTP,CDP/CTP
+%	100.0	3__3	COMPLETE
+
+M00053.kk	M00053_Pyrimidine deoxyribonuleotide biosynthesis, CDP/CTP => dCDP/dCTP,dTDP/dTTP
+%	100.0	8__8	COMPLETE
+
+M00055.kk	M00055_N-glycan precursor biosynthesis
+%	0.0	0__13	INCOMPLETE
+1.	K01001
+2.	K07432, K07441
+3.	K03842
+4.	K03843
+5.	K03844
+6.	K03845
+7.	K03846
+8.	K03847
+9.	K03846
+10.	K00729
+11.	K03848
+12.	K03849
+13.	K03850
+
+M00056.kk	M00056_O-glycan biosynthesis, mucin type core
+%	0.0	0__4	INCOMPLETE
+1.	K00710
+2.	K00731, K09653
+3.	K00727, K09662, K09663
+4.	K00739
+
+M00057.kk	M00057_Glycosaminoglycan biosynthesis, linkage tetrasaccharide
+%	0.0	0__4	INCOMPLETE
+1.	K00771
+2.	K00733
+3.	K00734
+4.	K10158
+
+M00058.kk	M00058_Glycosaminoglycan biosynthesis, chondroitin sulfate backbone
+%	0.0	0__2	INCOMPLETE
+1.	K00746
+2.	K13499, K00747, K03419
+
+M00059.kk	M00059_Glycosaminoglycan biosynthesis, heparan sulfate backbone
+%	0.0	0__5	INCOMPLETE
+1.	K02369, K02370
+2.	K02366, K02367
+3.	K02368, K02370
+4.	K02576, K02577, K02578, K02579
+5.	K01793
+
+M00060.kk	M00060_KDO2-lipid A biosynthesis, Raetz pathway, LpxL-LpxM type
+%	100.0	9__9	COMPLETE
+
+M00061.kk	M00061_D-Glucuronate degradation, D-glucuronate => pyruvate + D-glyceraldehyde 3P
+%	20.0	1__5	INCOMPLETE
+1.	K01812
+2.	K00040
+3.	K01686, K08323
+4.	K00874
+
+M00063.kk	M00063_CMP-KDO biosynthesis
+%	100.0	4__4	COMPLETE
+
+M00064.kk	M00064_ADP-L-glycero-D-manno-heptose biosynthesis
+%	80.0	4__5	INCOMPLETE
+5.	K03274
+
+M00065.kk	M00065_GPI-anchor biosynthesis, core oligosaccharide
+%	0.0	0__8	INCOMPLETE
+1.	K03857, K03859, K03858, K03861, K03860, K11001, K11002, K09658
+2.	K03434
+3.	K05283
+4.	K05284, K07541
+5.	K07542
+6.	K05285
+7.	K05286
+8.	K05288, K05287
+
+M00066.kk	M00066_Lactosylceramide biosynthesis
+%	0.0	0__2	INCOMPLETE
+1.	K00720
+2.	K07553
+
+M00067.kk	M00067_Sulfoglycolipids biosynthesis, ceramide/1-alkyl-2-acylglycerol => sulfatide/seminolipid
+%	0.0	0__2	INCOMPLETE
+1.	K04628
+2.	K01019
+
+M00068.kk	M00068_Glycosphingolipid biosynthesis, globo-series, LacCer => Gb4Cer
+%	0.0	0__2	INCOMPLETE
+1.	K01988
+2.	K00719
+
+M00069.kk	M00069_Glycosphingolipid biosynthesis, ganglio series, LacCer => GT3
+%	0.0	0__2	INCOMPLETE
+1.	K03370
+2.	K03371, K03369
+
+M00070.kk	M00070_Glycosphingolipid biosynthesis, lacto-series, LacCer => Lc4Cer
+%	0.0	0__2	INCOMPLETE
+1.	K03766
+2.	K07819, K07820, K03877
+
+M00071.kk	M00071_Glycosphingolipid biosynthesis, neolacto-series, LacCer => nLc4Cer
+%	0.0	0__2	INCOMPLETE
+1.	K03766
+2.	K07966, K07967, K07968, K07969
+
+M00072.kk	M00072_N-glycosylation by oligosaccharyltransferase
+%	0.0	0__1	INCOMPLETE
+1.	K07151, K12666, K12667, K12668, K12669, K12670, K00730, K12691
+
+M00073.kk	M00073_N-glycan precursor trimming
+%	0.0	0__4	INCOMPLETE
+1.	K01228
+2.	K05546
+3.	K23741
+4.	K01230
+
+M00074.kk	M00074_N-glycan biosynthesis, high-mannose type
+%	0.0	0__7	INCOMPLETE
+1.	K05546
+2.	K23741
+3.	K01230
+4.	K05528
+5.	K05529, K05530
+6.	K05529, K05531, K05532, K05533, K05534
+7.	K05535
+
+M00075.kk	M00075_N-glycan biosynthesis, complex type
+%	0.0	0__9	INCOMPLETE
+1.1	K01231
+2.1	K00736
+1.2	K00737
+1.3	K00738
+2.3	K00744, K09661
+3.3	K13748
+1.4	K00717
+2.4	K07966, K07967, K07968
+3.4	K00778, K00779
+
+M00076.kk	M00076_Dermatan sulfate degradation
+%	0.0	0__5	INCOMPLETE
+1.	K01136
+2.	K01217
+3.	K01135
+4.	K01197
+5.	K01195
+
+M00077.kk	M00077_Chondroitin sulfate degradation
+%	0.0	0__4	INCOMPLETE
+1.	K01135
+2.	K01197
+3.	K01195
+4.	K01132
+
+M00078.kk	M00078_Heparan sulfate degradation
+%	0.0	0__8	INCOMPLETE
+1.	K07964, K07965
+2.	K01136
+3.	K01217
+4.	K01565
+5.	K10532
+6.	K01205
+7.	K01195
+8.	K01137
+
+M00079.kk	M00079_Keratan sulfate degradation
+%	25.0	1__4	INCOMPLETE
+1.	K01132
+2.	K12309
+3.	K01137
+
+M00081.kk	M00081_Pectin degradation
+%	0.0	0__3	INCOMPLETE
+1.	K01051
+2.	K01184
+3.	K01213
+
+M00082.kk	M00082_Fatty acid biosynthesis, initiation
+%	66.67	2__3	INCOMPLETE
+1.	K11262, K02160, K01961, K11263, K01962, K01963, K18472 
+
+M00083.kk	M00083_Fatty acid biosynthesis, elongation
+%	50.0	3__6	INCOMPLETE
+1.1	K00665, K00667, K11533
+2.1	K00665, K00668, K11533
+2.2	K00059
+
+M00085.kk	M00085_Fatty acid elongation in mitochondria
+%	0.0	0__4	INCOMPLETE
+1.	K07508, K07509
+2.	K00022, K07515
+3.	K07511, K07515
+4.	K07512
+
+M00086.kk	M00086_beta-Oxidation, acyl-CoA synthesis
+%	100.0	1__1	COMPLETE
+
+M00087.kk	M00087_beta-Oxidation
+%	100.0	4__4	COMPLETE
+
+M00088.kk	M00088_Ketone body biosynthesis, acetyl-CoA => acetoacetate/3-hydroxybutyrate/acetone
+%	40.0	2__5	INCOMPLETE
+2.1	K01641
+1.2	K00019
+1.3	K01574
+
+M00089.kk	M00089_Triacylglycerol biosynthesis
+%	60.0	3__5	INCOMPLETE
+4.	K01080, K15728, K18693
+5.	K11155, K11160, K14456, K22848, K22849, K00635, K18851
+
+M00090.kk	M00090_Phosphatidylcholine (PC) biosynthesis, choline => PC
+%	0.0	0__3	INCOMPLETE
+1.	K00866, K14156
+2.	K00968
+3.	K00994, K13644
+
+M00091.kk	M00091_Phosphatidylcholine (PC) biosynthesis, PE => PC
+%	0.0	0__2	INCOMPLETE
+1.	K00551, K16369, K00570
+2.	K00551, K00550, K00570
+
+M00092.kk	M00092_Phosphatidylethanolamine (PE) biosynthesis, ethanolamine => PE
+%	0.0	0__3	INCOMPLETE
+1.	K00894, K14156
+2.	K00967
+3.	K00993, K13644
+
+M00093.kk	M00093_Phosphatidylethanolamine (PE) biosynthesis, PA => PS => PE
+%	100.0	3__3	COMPLETE
+
+M00094.kk	M00094_Ceramide biosynthesis
+%	0.0	0__4	INCOMPLETE
+1.	K00654
+2.	K04708
+3.	K04709, K04710, K23727
+4.	K04712
+
+M00095.kk	M00095_C5 isoprenoid biosynthesis, mevalonate pathway
+%	28.57	2__7	INCOMPLETE
+2.	K01641
+4.	K00869
+5.	K00938, K13273
+6.	K01597
+7.	K01823
+
+M00096.kk	M00096_C5 isoprenoid biosynthesis, non-mevalonate pathway
+%	87.5	7__8	INCOMPLETE
+8.	K01823
+
+M00097.kk	M00097_beta-Carotene biosynthesis, GGAP => beta-carotene
+%	16.67	1__6	INCOMPLETE
+1.	K02291
+3.	K15744
+4.	K00514
+5.	K09835
+6.	K06443
+
+M00098.kk	M00098_Acylglycerol degradation
+%	0.0	0__2	INCOMPLETE
+1.	K01046, K12298, K16816, K13534, K14073, K14074, K14075, K14076, K22283, K14452, K22284, K14674, K14675, K17900
+2.	K01054
+
+M00099.kk	M00099_Sphingosine biosynthesis
+%	0.0	0__5	INCOMPLETE
+1.	K00654
+2.	K04708
+3.	K04709, K04710, K23727
+4.	K04712
+5.	K01441, K12348, K12349
+
+M00100.kk	M00100_Sphingosine degradation
+%	0.0	0__2	INCOMPLETE
+1.	K04718
+2.	K01634
+
+M00101.kk	M00101_Cholesterol biosynthesis, squalene 2,3-epoxide => cholesterol
+%	0.0	0__10	INCOMPLETE
+1.	K01852
+2.	K05917
+3.	K00222
+4.	K07750
+5.	K07748
+6.	K09827, K13373
+7.	K09828
+8.	K01824
+9.	K00227
+10.	K00213
+
+M00102.kk	M00102_Ergocalciferol biosynthesis
+%	0.0	0__5	INCOMPLETE
+1.	K00559
+2.	K09829
+3.	K00227
+4.	K09831
+5.	K00223
+
+M00103.kk	M00103_Cholecalciferol biosynthesis
+%	0.0	0__2	INCOMPLETE
+1.	K07419
+2.	K07438
+
+M00104.kk	M00104_Bile acid biosynthesis, cholesterol => cholate/chenodeoxycholate
+%	0.0	0__12	INCOMPLETE
+1.	K00489
+2.	K12408
+3.	K07431
+4.	K00251
+5.	K00037
+6.	K00488
+7.	K08748
+8.	K01796
+9.	K10214
+10.	K12405
+11.	K08764
+12.	K11992
+
+M00106.kk	M00106_Conjugated bile acid biosynthesis, cholate => taurocholate/glycocholate
+%	0.0	0__2	INCOMPLETE
+1.	K08748
+2.	K00659
+
+M00107.kk	M00107_Steroid hormone biosynthesis, cholesterol => prognenolone => progesterone
+%	50.0	1__2	INCOMPLETE
+1.	K00498
+
+M00108.kk	M00108_C21-Steroid hormone biosynthesis, progesterone => corticosterone/aldosterone
+%	0.0	0__3	INCOMPLETE
+1.	K00513
+2.	K00497, K07433
+3.	K07433
+
+M00109.kk	M00109_C21-Steroid hormone biosynthesis, progesterone => cortisol/cortisone
+%	0.0	0__4	INCOMPLETE
+1.	K00512
+2.	K00513
+3.	K00497, K07433
+4.	K15680, K00071
+
+M00110.kk	M00110_C19/C18-Steroid hormone biosynthesis, pregnenolone => androstenedione => estrone
+%	33.33	1__3	INCOMPLETE
+1.	K00512
+3.	K07434
+
+M00112.kk	M00112_Tocopherol/tocotorienol biosynthesis
+%	0.0	0__4	INCOMPLETE
+1.	K09833
+2.	K12502, K18534
+3.	K09834
+4.	K05928
+
+M00113.kk	M00113_Jasmonic acid biosynthesis
+%	0.0	0__9	INCOMPLETE
+1.	K00454
+2.	K01723
+3.	K10525
+4.	K05894
+5.	K10526
+6.	K00232
+7.	K10527
+8.	K07513
+9.	
+
+M00114.kk	M00114_Ascorbate biosynthesis, plants, glucose-6P => ascorbate
+%	33.33	3__9	INCOMPLETE
+2.	K01809, K16011, K15916
+5.	K10046
+6.	K14190
+7.	K10047, K18649
+8.	K00064, K17744
+9.	K00225
+
+M00115.kk	M00115_NAD biosynthesis, aspartate => NAD
+%	100.0	5__5	COMPLETE
+
+M00116.kk	M00116_Menaquinone biosynthesis, chorismate => menaquinol
+%	100.0	9__9	COMPLETE
+
+M00117.kk	M00117_Ubiquinone biosynthesis, prokaryotes, chorismate => ubiquinone
+%	100.0	9__9	COMPLETE
+
+M00118.kk	M00118_Glutathione biosynthesis, glutamate => glutathione
+%	100.0	2__2	COMPLETE
+
+M00119.kk	M00119_Pantothenate biosynthesis, valine/L-aspartate => pantothenate
+%	80.0	4__5	INCOMPLETE
+1.2	K01579
+
+M00120.kk	M00120_Coenzyme A biosynthesis, pantothenate => CoA
+%	100.0	5__5	COMPLETE
+
+M00121.kk	M00121_Heme biosynthesis, plants and bacteria, glutamate => heme
+%	100.0	10__10	COMPLETE
+
+M00122.kk	M00122_Cobalamin biosynthesis, cobinamide => cobalamin
+%	100.0	7__7	COMPLETE
+
+M00123.kk	M00123_Biotin biosynthesis, pimeloyl-ACP/CoA => biotin
+%	100.0	4__4	COMPLETE
+
+M00124.kk	M00124_Pyridoxal biosynthesis, erythrose-4P => pyridoxal-5P
+%	100.0	6__6	COMPLETE
+
+M00125.kk	M00125_Riboflavin biosynthesis, GTP => riboflavin/FMN/FAD
+%	100.0	9__9	COMPLETE
+
+M00126.kk	M00126_Tetrahydrofolate biosynthesis, GTP => THF
+%	84.62	11__13	INCOMPLETE
+2.2	K19965
+4.2	K13941
+
+M00127.kk	M00127_Thiamine biosynthesis, AIR => thiamine-P/thiamine-2P
+%	100.0	8__8	COMPLETE
+
+M00128.kk	M00128_Ubiquinone biosynthesis, eukaryotes, 4-hydroxybenzoate => ubiquinone
+%	0.0	0__6	INCOMPLETE
+1.	K06125
+2.	K00591
+3.	K06126
+4.	K06127
+5.	K06134
+6.	K00591
+
+M00129.kk	M00129_Ascorbate biosynthesis, animals, glucose-1P => ascorbate
+%	28.57	2__7	INCOMPLETE
+3.	K00699
+4.	K01195, K14756
+5.	K00002
+6.	K01053
+7.	K00103
+
+M00130.kk	M00130_Inositol phosphate metabolism, PI=> PIP2 => Ins(1,4,5)P3 => Ins(1,3,4,5)P4
+%	0.0	0__4	INCOMPLETE
+1.	K00888, K19801, K13711
+2.	K00889, K13712
+3.	K01116, K05857, K05858, K05859, K05860, K05861
+4.	K00911
+
+M00131.kk	M00131_Inositol phosphate metabolism, Ins(1,3,4,5)P4 => Ins(1,3,4)P3 => myo-inositol
+%	25.0	1__4	INCOMPLETE
+1.	K01106
+2.	K01107, K15422
+3.	K01109
+
+M00132.kk	M00132_Inositol phosphate metabolism, Ins(1,3,4)P3 => phytate
+%	0.0	0__3	INCOMPLETE
+1.	K00913, K01765
+2.	K00915
+3.	K10572
+
+M00133.kk	M00133_Polyamine biosynthesis, arginine => agmatine => putrescine => spermidine
+%	75.0	3__4	INCOMPLETE
+2.1	K01480
+
+M00134.kk	M00134_Polyamine biosynthesis, arginine => ornithine => putrescine
+%	50.0	1__2	INCOMPLETE
+1.	K01476
+
+M00135.kk	M00135_GABA biosynthesis, eukaryotes, putrescine => GABA
+%	25.0	1__4	INCOMPLETE
+1.	K00657
+2.	K00274
+4.	
+
+M00136.kk	M00136_GABA biosynthesis, prokaryotes, putrescine => GABA
+%	50.0	2__4	INCOMPLETE
+1.	K09470
+4.	K09473
+
+M00137.kk	M00137_Flavanone biosynthesis, phenylalanine => naringenin
+%	20.0	1__5	INCOMPLETE
+2.	K00487
+3.	K01904
+4.	K00660
+5.	K01859
+
+M00138.kk	M00138_Flavonoid biosynthesis, naringenin => pelargonidin
+%	0.0	0__3	INCOMPLETE
+1.	K00475
+2.	K13082
+3.	K05277
+
+M00140.kk	M00140_C1-unit interconversion, prokaryotes
+%	100.0	4__4	COMPLETE
+
+M00141.kk	M00141_C1-unit interconversion, eukaryotes
+%	100.0	3__3	COMPLETE
+
+M00142.kk	M00142_NADH:ubiquinone oxidoreductase, mitochondria
+%	0.0	0__1	INCOMPLETE
+1.	K03878, K03879, K03880, K03881, K03882, K03883, K03884
+
+M00143.kk	M00143_NADH dehydrogenase (ubiquinone) Fe-S protein/flavoprotein complex, mitochondria
+%	0.0	0__1	INCOMPLETE
+1.	K03934, K03935, K03936, K03937, K03938, K03939, K03940, K03941, K03942, K03943, K03944
+
+M00144.kk	M00144_NADH:quinone oxidoreductase, prokaryotes
+%	100.0	1__1	COMPLETE
+
+M00145.kk	M00145_NAD(P)H:quinone oxidoreductase, chloroplasts and cyanobacteria
+%	0.0	0__1	INCOMPLETE
+1.	K05574, K05582, K05581, K05579, K05572, K05580, K05578, K05576, K05577, K05575, K05573, K05583, K05584, K05585
+
+M00146.kk	M00146_NADH dehydrogenase (ubiquinone) 1 alpha subcomplex
+%	0.0	0__1	INCOMPLETE
+1.	K03945, K03946, K03947, K03948, K03949, K03950, K03951, K03952, K03953, K03954, K03955, K03956, K11352, K11353
+
+M00147.kk	M00147_NADH dehydrogenase (ubiquinone) 1 beta subcomplex
+%	0.0	0__1	INCOMPLETE
+1.	K03957, K03958, K03959, K03960, K03961, K03962, K03963, K03964, K03965, K03966, K11351, K03967, K03968
+
+M00148.kk	M00148_Succinate dehydrogenase (ubiquinone)
+%	0.0	0__1	INCOMPLETE
+1.	K00236, K00237, K00234, K00235
+
+M00149.kk	M00149_Succinate dehydrogenase, prokaryotes
+%	100.0	1__1	COMPLETE
+
+M00150.kk	M00150_Fumarate reductase, prokaryotes
+%	0.0	0__1	INCOMPLETE
+1.	K00244, K00245, K00246, K00247
+
+M00151.kk	M00151_Cytochrome bc1 complex respiratory unit
+%	100.0	1__1	COMPLETE
+
+M00152.kk	M00152_Cytochrome bc1 complex
+%	0.0	0__1	INCOMPLETE
+1.	K00412, K00413, K00410, K00411, K00414, K00415, K00416, K00417, K00418, K00419, K00420
+
+M00153.kk	M00153_Cytochrome bd ubiquinol oxidase
+%	100.0	1__1	COMPLETE
+
+M00154.kk	M00154_Cytochrome c oxidase
+%	0.0	0__1	INCOMPLETE
+1.	K02257, K02262, K02256, K02261, K02263, K02264, K02265, K02266, K02267, K02268, K02269, K02270, K02271, K02272, K02273, K02258, K02259, K02260
+
+M00155.kk	M00155_Cytochrome c oxidase, prokaryotes
+%	100.0	1__1	COMPLETE
+
+M00156.kk	M00156_Cytochrome c oxidase, cbb3-type
+%	100.0	1__1	COMPLETE
+
+M00157.kk	M00157_F-type ATPase, prokaryotes and chloroplasts
+%	100.0	1__1	COMPLETE
+
+M00158.kk	M00158_F-type ATPase, eukaryotes
+%	0.0	0__1	INCOMPLETE
+1.	K02132, K02133, K02136, K02134, K02135, K02137, K02126, K02127, K02128, K02138, K02129, K01549, K02130, K02139, K02140, K02141, K02131, K02142, K02143, K02125
+
+M00159.kk	M00159_V/A-type ATPase, prokaryotes
+%	0.0	0__1	INCOMPLETE
+1.	K02117, K02118, K02119, K02120, K02121, K02122, K02107, K02123, K02124
+
+M00160.kk	M00160_V-type ATPase, eukaryotes
+%	0.0	0__1	INCOMPLETE
+1.	K02145, K02147, K02148, K02149, K02150, K02151, K02152, K02144, K02154, K03661, K02155, K02146, K02153, K03662
+
+M00161.kk	M00161_Photosystem II
+%	0.0	0__1	INCOMPLETE
+1.	K02703, K02706, K02705, K02704, K02707, K02708
+
+M00162.kk	M00162_Cytochrome b6f complex
+%	0.0	0__1	INCOMPLETE
+1.	K02635, K02637, K02634, K02636, K02642, K02643, K03689, K02640
+
+M00163.kk	M00163_Photosystem I
+%	0.0	0__1	INCOMPLETE
+1.	K02689, K02690, K02691, K02692, K02693, K02694
+
+M00165.kk	M00165_Reductive pentose phosphate cycle (Calvin cycle)
+%	81.82	9__11	INCOMPLETE
+2.	K01601, K01602
+9.	K01100, K11532, K01086
+
+M00166.kk	M00166_Reductive pentose phosphate cycle, ribulose-5P => glyceraldehyde-3P
+%	75.0	3__4	INCOMPLETE
+2.	K01601, K01602
+
+M00167.kk	M00167_Reductive pentose phosphate cycle, glyceraldehyde-3P => ribulose-5P
+%	85.71	6__7	INCOMPLETE
+5.	K01100, K11532, K01086
+
+M00168.kk	M00168_CAM (Crassulacean acid metabolism), dark
+%	100.0	2__2	COMPLETE
+
+M00169.kk	M00169_CAM (Crassulacean acid metabolism), light
+%	50.0	1__2	INCOMPLETE
+2.	K01006
+
+M00170.kk	M00170_C4-dicarboxylic acid cycle, phosphoenolpyruvate carboxykinase type
+%	50.0	2__4	INCOMPLETE
+2.	K14454
+3.	K14455
+
+M00171.kk	M00171_C4-dicarboxylic acid cycle, NAD - malic enzyme type
+%	28.57	2__7	INCOMPLETE
+2.	K14454
+3.	K14455
+4.	K00025, K00026
+5.	K00028
+7.	K01006
+
+M00172.kk	M00172_C4-dicarboxylic acid cycle, NADP - malic enzyme type
+%	50.0	2__4	INCOMPLETE
+2.	K00051
+4.	K01006
+
+M00173.kk	M00173_Reductive citrate cycle (Arnon-Buchanan cycle)
+%	66.67	8__12	INCOMPLETE
+1.	K00169, K00170, K00171, K00172, K03737
+8.	K00174, K00175, K00177, K00176
+11.	K15230, K15231, K15232, K15233
+12.	K15230, K15231, K15234
+
+M00174.kk	M00174_Methane oxidation, methanotroph, methane => formaldehyde
+%	0.0	0__2	INCOMPLETE
+1.	K10944, K10945, K10946, K16157, K16158, K16159, K16160, K16161, K16162
+2.	K14028, K14029
+
+M00175.kk	M00175_Nitrogen fixation, nitrogen => ammonia
+%	0.0	0__1	INCOMPLETE
+1.	K02588, K02586, K02591, K00531, K22896, K22897, K22898, K22899
+
+M00176.kk	M00176_Assimilatory sulfate reduction, sulfate => H2S
+%	100.0	3__3	COMPLETE
+
+M00307.kk	M00307_Pyruvate oxidation, pyruvate => acetyl-CoA
+%	100.0	1__1	COMPLETE
+
+M00308.kk	M00308_Semi-phosphorylative Entner-Doudoroff pathway, gluconate => glycerate-3P
+%	60.0	3__5	INCOMPLETE
+1.	K05308
+2.	K00874
+
+M00309.kk	M00309_Non-phosphorylative Entner-Doudoroff pathway, gluconate/galactonate => glycerate
+%	0.0	0__3	INCOMPLETE
+1.	K05308
+2.	K11395, K18127
+3.	K18020, K18021, K18022, K18128, K03738
+
+M00338.kk	M00338_Cysteine biosynthesis, homocysteine + serine => cysteine
+%	50.0	1__2	INCOMPLETE
+1.	K01697, K10150
+
+M00344.kk	M00344_Formaldehyde assimilation, xylulose monophosphate pathway
+%	50.0	2__4	INCOMPLETE
+1.	K17100
+2.	K00863
+
+M00345.kk	M00345_Formaldehyde assimilation, ribulose monophosphate pathway
+%	25.0	1__4	INCOMPLETE
+1.	K08093, K13812, K13831
+2.	K08094, K13831
+3.	K00850, K16370
+
+M00346.kk	M00346_Formaldehyde assimilation, serine pathway
+%	66.67	6__9	INCOMPLETE
+4.	K11529
+8.	K08692, K14067
+9.	K08691
+
+M00356.kk	M00356_Methanogenesis, methanol => methane
+%	0.0	0__3	INCOMPLETE
+1.	K14080, K04480, K14081
+2.	K00399, K00401, K00402
+3.	K22480, K22481, K22482, K03388, K03389, K03390, K08264, K08265, K03389, K14127, K14126, K14128, K22516, K00125
+
+M00357.kk	M00357_Methanogenesis, acetate => methane
+%	33.33	2__6	INCOMPLETE
+3.	K00193, K00197, K00194
+4.	K00577, K00578, K00579, K00580, K00581, K00582, K00583, K00584
+5.	K00399, K00401, K00402
+6.	K22480, K22481, K22482, K03388, K03389, K03390, K08264, K08265, K03389, K14127, K14126, K14128, K22516, K00125
+
+M00358.kk	M00358_Coenzyme M biosynthesis
+%	0.0	0__4	INCOMPLETE
+1.	K08097
+2.	K05979
+3.	K05884
+4.	K13039, K06034
+
+M00363.kk	M00363_EHEC pathogenicity signature, Shiga toxin
+%	0.0	0__2	INCOMPLETE
+1.	K11006
+2.	K11007
+
+M00364.kk	M00364_C10-C20 isoprenoid biosynthesis, bacteria
+%	50.0	1__2	INCOMPLETE
+1.	K01823
+
+M00365.kk	M00365_C10-C20 isoprenoid biosynthesis, archaea
+%	0.0	0__2	INCOMPLETE
+1.	K01823
+2.	K13787
+
+M00366.kk	M00366_C10-C20 isoprenoid biosynthesis, plants
+%	25.0	1__4	INCOMPLETE
+1.	K01823
+2.	K14066
+3.	K00787
+
+M00367.kk	M00367_C10-C20 isoprenoid biosynthesis, non-plant eukaryotes
+%	0.0	0__3	INCOMPLETE
+1.	K01823
+2.	K00787
+3.	K00804
+
+M00368.kk	M00368_Ethylene biosynthesis, methionine => ethylene
+%	33.33	1__3	INCOMPLETE
+2.	K01762, K20772
+3.	K05933
+
+M00369.kk	M00369_Cyanogenic glycoside biosynthesis, tyrosine => dhurrin
+%	0.0	0__3	INCOMPLETE
+1.	K13027
+2.	K13029
+3.	K13030
+
+M00370.kk	M00370_Glucosinolate biosynthesis, tryptophan => glucobrassicin
+%	0.0	0__5	INCOMPLETE
+1.	K11812, K11813
+2.	K11818
+3.	K11819
+4.	K11820
+5.	K11821
+
+M00371.kk	M00371_Castasterone biosynthesis, campesterol => castasterone
+%	0.0	0__6	INCOMPLETE
+1.	K09587, K12639
+2.	K09588
+3.	K09591
+4.	K12637, K12638
+5.	K20623
+6.	K09590, K12640
+
+M00372.kk	M00372_Abscisic acid biosynthesis, beta-carotene => abscisic acid
+%	0.0	0__6	INCOMPLETE
+1.	K15746, K15747
+2.	K09838
+3.	K14594
+4.	K09840
+5.	K09841
+6.	K09842
+
+M00373.kk	M00373_Ethylmalonyl pathway
+%	8.33	1__12	INCOMPLETE
+2.1	K00023
+3.1	K17865
+4.1	K14446
+5.1	K14447
+6.1	K14448
+7.1	K14449
+8.1	K08691
+9.1	K14451
+1.2	K01965, K01966
+2.2	K05606
+3.2	K01847
+
+M00374.kk	M00374_Dicarboxylate-hydroxybutyrate cycle
+%	53.85	7__13	INCOMPLETE
+1.	K00169, K00170, K00171, K00172
+8.	K15038, K15017
+9.	K14465
+10.	K14467, K18861
+11.	K14534
+12.	K15016
+
+M00375.kk	M00375_Hydroxypropionate-hydroxybutylate cycle
+%	7.14	1__14	INCOMPLETE
+1.	K01964, K15037, K15036
+2.	K15017
+3.	K15039
+4.	K15018
+5.	K15019
+6.	K15020
+7.	K05606
+8.	K01848, K01849
+9.	K15038, K15017
+10.	K14465
+11.	K14466, K18861
+12.	K14534
+13.	K15016
+
+M00376.kk	M00376_3-Hydroxypropionate bi-cycle
+%	7.69	1__13	INCOMPLETE
+1.1	K02160, K01961, K01962, K01963
+2.1	K14468
+3.1	K14469
+4.1	K15052
+5.1	K05606
+6.1	K01847, K01848, K01849
+7.1	K14471, K14472
+9.1	K01679
+1.2	K08691
+2.2	K14449
+3.2	K14470
+4.2	K09709
+
+M00377.kk	M00377_Reductive acetyl-CoA pathway (Wood-Ljungdahl pathway)
+%	57.14	4__7	INCOMPLETE
+1.	K00198
+6.	K15023
+7.	K14138, K00197, K00194
+
+M00378.kk	M00378_F420 biosynthesis
+%	0.0	0__4	INCOMPLETE
+1.1	K11779, K11780, K11781
+1.2	K14941
+1.3	K11212
+2.3	K12234
+
+M00415.kk	M00415_Fatty acid elongation in endoplasmic reticulum
+%	0.0	0__4	INCOMPLETE
+1.	K10247, K10205, K10248, K10249, K10244, K10203, K10250, K15397, K10245, K10246
+2.	K10251
+3.	K10703
+4.	K10258
+
+M00416.kk	M00416_Cytochrome aa3-600 menaquinol oxidase
+%	0.0	0__1	INCOMPLETE
+1.	K02827, K02826, K02828, K02829
+
+M00417.kk	M00417_Cytochrome o ubiquinol oxidase
+%	0.0	0__1	INCOMPLETE
+1.	K02297, K02298, K02299, K02300
+
+M00418.kk	M00418_Toluene degradation, anaerobic, toluene => benzoyl-CoA
+%	0.0	0__6	INCOMPLETE
+1.	K07540
+2.	K07543, K07544
+3.	K07545
+4.	K07546
+5.	K07547, K07548
+6.	K07549, K07550
+
+M00419.kk	M00419_Cymene degradation, p-cymene => p-cumate
+%	0.0	0__3	INCOMPLETE
+1.	K10616, K18293
+2.	K10617
+3.	K10618
+
+M00422.kk	M00422_Acetyl-CoA pathway, CO2 => acetyl-CoA
+%	0.0	0__2	INCOMPLETE
+1.	K00192, K00195
+2.	K00193, K00197, K00194
+
+M00432.kk	M00432_Leucine biosynthesis, 2-oxoisovalerate => 2-oxoisocaproate
+%	100.0	3__3	COMPLETE
+
+M00433.kk	M00433_Lysine biosynthesis, 2-oxoglutarate => 2-oxoadipate
+%	0.0	0__4	INCOMPLETE
+1.	K01655
+2.	K17450, K01705, K16792, K16793
+3.	K17450, K01705, K16792, K16793
+4.	K05824
+
+M00525.kk	M00525_Lysine biosynthesis, acetyl-DAP pathway, aspartate => lysine
+%	77.78	7__9	INCOMPLETE
+6.	K00841
+7.	K05823
+
+M00526.kk	M00526_Lysine biosynthesis, DAP dehydrogenase pathway, aspartate => lysine
+%	83.33	5__6	INCOMPLETE
+5.	K03340
+
+M00527.kk	M00527_Lysine biosynthesis, DAP aminotransferase pathway, aspartate => lysine
+%	85.71	6__7	INCOMPLETE
+5.	K10206
+
+M00528.kk	M00528_Nitrification, ammonia => nitrite
+%	0.0	0__2	INCOMPLETE
+1.	K10944, K10945, K10946
+2.	K10535
+
+M00529.kk	M00529_Denitrification, nitrate => nitrogen
+%	25.0	1__4	INCOMPLETE
+2.	K00368, K15864
+3.	K04561, K02305
+4.	K00376
+
+M00530.kk	M00530_Dissimilatory nitrate reduction, nitrate => ammonia
+%	50.0	1__2	INCOMPLETE
+2.	K00362, K00363, K03385, K15876
+
+M00531.kk	M00531_Assimilatory nitrate reduction, nitrate => ammonia
+%	50.0	1__2	INCOMPLETE
+1.	K00367, K10534, K00372, K00360
+
+M00532.kk	M00532_Photorespiration
+%	40.0	4__10	INCOMPLETE
+1.1	K01601, K01602
+2.1	K19269
+3.1	K11517
+5.1	K14272
+8.1	K15893, K15919
+9.1	K15918
+
+M00533.kk	M00533_Homoprotocatechuate degradation, homoprotocatechuate => 2-oxohept-3-enedioate
+%	0.0	0__4	INCOMPLETE
+1.	K00455
+2.	K00151
+3.	K01826
+4.	K05921
+
+M00534.kk	M00534_Naphthalene degradation, naphthalene => salicylate
+%	0.0	0__6	INCOMPLETE
+1.	K14579, K14580, K14578, K14581
+2.	K14582
+3.	K14583
+4.	K14584
+5.	K14585
+6.	K00152
+
+M00535.kk	M00535_Isoleucine biosynthesis, pyruvate => 2-oxobutanoate
+%	66.67	2__3	INCOMPLETE
+1.	K09011
+
+M00537.kk	M00537_Xylene degradation, xylene => methylbenzoate
+%	0.0	0__3	INCOMPLETE
+1.	K15757, K15758
+2.	K00055
+3.	K00141
+
+M00538.kk	M00538_Toluene degradation, toluene => benzoate
+%	0.0	0__3	INCOMPLETE
+1.	K15760, K15761, K15762, K15763, K15764, K15765
+2.	K00055
+3.	K00141
+
+M00539.kk	M00539_Cumate degradation, p-cumate => 2-oxopent-4-enoate + 2-methylpropanoate
+%	0.0	0__5	INCOMPLETE
+1.	K10619, K16303, K16304, K18227
+2.	K10620
+3.	K10621
+4.	K10622
+5.	K10623
+
+M00540.kk	M00540_Benzoate degradation, cyclohexanecarboxylic acid =>pimeloyl-CoA
+%	0.0	0__5	INCOMPLETE
+1.	K04116
+2.	K04117
+3.	K07534
+4.	K07535
+5.	K07536
+
+M00541.kk	M00541_Benzoyl-CoA degradation, benzoyl-CoA => 3-hydroxypimeloyl-CoA
+%	0.0	0__4	INCOMPLETE
+1.	K04112, K04113, K04114, K04115, K19515, K19516
+2.	K07537
+3.	K07538
+4.	K07539
+
+M00542.kk	M00542_EHEC/EPEC pathogenicity signature, T3SS and effectors
+%	0.0	0__8	INCOMPLETE
+1.	K03221, K03219, K03222, K03226, K03227, K03228, K03229, K03230, K03224, K03225
+2.	K12784
+3.	K12787
+4.	K12785
+5.	K12786
+6.	K12788
+7.	K16041
+8.	K16042
+
+M00543.kk	M00543_Biphenyl degradation, biphenyl => 2-oxopent-4-enoate + benzoate
+%	0.0	0__4	INCOMPLETE
+1.	K08689, K15750, K18087, K18088
+2.	K08690
+3.	K00462
+4.	K10222
+
+M00544.kk	M00544_Carbazole degradation, carbazole => 2-oxopent-4-enoate + anthranilate
+%	0.0	0__3	INCOMPLETE
+1.	K15751, K15752, K15753
+2.	K15754, K15755
+3.	K15756
+
+M00545.kk	M00545_Trans-cinnamate degradation, trans-cinnamate => acetyl-CoA
+%	28.57	2__7	INCOMPLETE
+1.	K05708, K05709, K05710, K00529, K05712
+2.	K05711, K05712
+3.	K05713
+4.	K05714
+7.	K04073
+
+M00546.kk	M00546_Purine degradation, xanthine => urea
+%	0.0	0__6	INCOMPLETE
+1.	K00106, K00087, K13479, K13480, K13481, K13482, K11177, K11178, K13483
+2.	K00365, K16838, K16839, K22879
+3.	K13484, K07127
+4.	K13484, K13485, K16838, K16840
+5.	K01466, K16842
+6.	K01477
+
+M00547.kk	M00547_Benzene/toluene degradation, benzene => catechol / toluene => 3-methylcatechol
+%	0.0	0__2	INCOMPLETE
+1.	K03268, K16268, K18089, K18090
+2.	K16269
+
+M00548.kk	M00548_Benzene degradation, benzene => catechol
+%	0.0	0__1	INCOMPLETE
+1.	K16249, K16243, K16244, K16242, K16245, K16246
+
+M00549.kk	M00549_Nucleotide sugar biosynthesis, glucose => UDP-glucose
+%	66.67	2__3	INCOMPLETE
+1.	K00844, K00845, K12407, K00886
+
+M00550.kk	M00550_Ascorbate degradation, ascorbate => D-xylulose-5P
+%	0.0	0__5	INCOMPLETE
+1.	K02821, K02822, K03475
+2.	K03476
+3.	K03078
+4.	K03079
+5.	K03077
+
+M00551.kk	M00551_Benzoate degradation, benzoate => catechol / methylbenzoate => methylcatechol
+%	0.0	0__2	INCOMPLETE
+1.	K05549, K05550, K05784
+2.	K05783
+
+M00552.kk	M00552_D-galactonate degradation, De Ley-Doudoroff pathway, D-galactonate => glycerate-3P
+%	60.0	3__5	INCOMPLETE
+2.	K00883
+3.	K01631
+
+M00554.kk	M00554_Nucleotide sugar biosynthesis, galactose => UDP-galactose
+%	50.0	1__2	INCOMPLETE
+2.	K00965
+
+M00555.kk	M00555_Betaine biosynthesis, choline => betaine
+%	50.0	1__2	INCOMPLETE
+2.	K17755, K00130, K14085
+
+M00563.kk	M00563_Methanogenesis, methylamine/dimethylamine/trimethylamine => methane
+%	0.0	0__4	INCOMPLETE
+1.	K14082
+2.	K16177, K16176, K16179, K16178, K14084, K14083
+3.	K00399, K00401, K00402
+4.	K22480, K22481, K22482, K03388, K03389, K03390, K08264, K08265, K03389, K14127, K14126, K14128, K22516, K00125
+
+M00564.kk	M00564_Helicobacter pylori pathogenicity signature, cagA pathogenicity island
+%	0.0	0__27	INCOMPLETE
+1.	K15842
+2.	K12086
+3.	K12087
+4.	K12088
+5.	K12089
+6.	K12090
+7.	K03196
+8.	K12091
+9.	K12092
+10.	K12093
+11.	K12094
+12.	K12095
+13.	K12096
+14.	K12097
+15.	K12098
+16.	K12099
+17.	K12100
+18.	K12101
+19.	K12102
+20.	K12103
+21.	K12104
+22.	K12105
+23.	K12106
+24.	K12107
+25.	K12108
+26.	K12109
+27.	K12110
+
+M00565.kk	M00565_Trehalose biosynthesis, D-glucose 1P => trehalose
+%	83.33	5__6	INCOMPLETE
+6.	K01236
+
+M00567.kk	M00567_Methanogenesis, CO2 => methane
+%	0.0	0__8	INCOMPLETE
+1.	K00200, K00201, K00202, K00203, K11261, K00205, K11260, K00204
+2.	K00672
+3.	K01499
+4.	K00319, K13942
+5.	K00320
+6.	K00577, K00578, K00579, K00580, K00581, K00582, K00583, K00584
+7.	K00399, K00401, K00402
+8.	K22480, K22481, K22482, K03388, K03389, K03390, K08264, K08265, K03389, K14127, K14126, K14128, K22516, K00125
+
+M00568.kk	M00568_Catechol ortho-cleavage, catechol => 3-oxoadipate
+%	0.0	0__4	INCOMPLETE
+1.	K03381
+2.	K01856
+3.	K03464
+4.	K01055, K14727
+
+M00569.kk	M00569_Catechol meta-cleavage, catechol => acetyl-CoA / 4-methylcatechol => propanoyl-CoA
+%	42.86	3__7	INCOMPLETE
+1.	K00446, K07104
+2.	K10217, K10216
+4.	K01617, K10216
+7.	K18366, K04073
+
+M00570.kk	M00570_Isoleucine biosynthesis, threonine => 2-oxobutanoate => isoleucine
+%	100.0	5__5	COMPLETE
+
+M00572.kk	M00572_Pimeloyl-ACP biosynthesis, BioC-BioH pathway, malonyl-ACP => pimeloyl-ACP
+%	66.67	4__6	INCOMPLETE
+3.	K00059
+5.	K00208
+
+M00573.kk	M00573_Biotin biosynthesis, BioI pathway, long-chain-acyl-ACP => pimeloyl-ACP => biotin
+%	60.0	3__5	INCOMPLETE
+1.	K16593
+3.	K19563
+
+M00574.kk	M00574_Pertussis pathogenicity signature, pertussis toxin
+%	0.0	0__5	INCOMPLETE
+1.	K11023
+2.	K11024
+3.	K11025
+4.	K11026
+5.	K11027
+
+M00575.kk	M00575_Pertussis pathogenicity signature, T1SS
+%	20.0	1__5	INCOMPLETE
+1.	K22944
+2.	K11004
+3.	K07389
+4.	K11003
+
+M00576.kk	M00576_ETEC pathogenicity signature, heat-labile and heat-stable enterotoxins
+%	0.0	0__2	INCOMPLETE
+1.	K10928, K10929
+2.	K16883, K16884
+
+M00577.kk	M00577_Biotin biosynthesis, BioW pathway, pimelate => pimeloyl-CoA => biotin
+%	80.0	4__5	INCOMPLETE
+1.	K01906
+
+M00579.kk	M00579_Phosphate acetyltransferase-acetate kinase pathway, acetyl-CoA => acetate
+%	100.0	2__2	COMPLETE
+
+M00580.kk	M00580_Pentose phosphate pathway, archaea, fructose 6P => ribose 5P
+%	33.33	1__3	INCOMPLETE
+1.	K08094, K13831
+2.	K08093, K13812, K13831
+
+M00595.kk	M00595_Thiosulfate oxidation by SOX complex, thiosulfate => sulfate
+%	0.0	0__1	INCOMPLETE
+1.	K17222, K17223, K17224, K17225, K22622, K17226, K17227
+
+M00596.kk	M00596_Dissimilatory sulfate reduction, sulfate => H2S
+%	0.0	0__3	INCOMPLETE
+1.	K00958
+2.	K00394, K00395
+3.	K11180, K11181
+
+M00597.kk	M00597_Anoxygenic photosystem II
+%	0.0	0__1	INCOMPLETE
+1.	K08928, K08929
+
+M00598.kk	M00598_Anoxygenic photosystem I
+%	0.0	0__1	INCOMPLETE
+1.	K08940, K08941, K08942, K08943
+
+M00608.kk	M00608_2-Oxocarboxylic acid chain extension, 2-oxoglutarate => 2-oxoadipate => 2-oxopimelate => 2-oxosuberate
+%	0.0	0__3	INCOMPLETE
+1.	K10977
+2.	K16792, K16793
+3.	K10978
+
+M00609.kk	M00609_Cysteine biosynthesis, methionine => cysteine
+%	50.0	3__6	INCOMPLETE
+2.	K17462
+5.	K17216
+6.	K17217
+
+M00611.kk	M00611_Oxygenic_photosynthesis_in_plants_and_cyanobacteria.txt
+%	75.0	18__24	INCOMPLETE
+1.1	K02703, K02706, K02705, K02704, K02707, K02708
+3.1	K01601, K01602
+10.1	K01100, K11532, K01086
+1.2	K02689, K02690, K02691, K02692, K02693, K02694
+3.2	K01601, K01602
+10.2	K01100, K11532, K01086
+
+M00612.kk	M00612_Anoxygenic_photosynthesis_in_purple_bacteria.txt
+%	75.0	9__12	INCOMPLETE
+1.1	K08928, K08929
+2.2	K01601, K01602
+9.2	K01100, K11532, K01086
+
+M00613.kk	M00613_Anoxygenic_photosynthesis_in_green_nonsulfur_bacteria.txt
+%	6.67	1__15	INCOMPLETE
+1.1	K08928, K08929
+2.1	K02160, K01961, K01962, K01963
+3.1	K14468
+4.1	K14469
+5.1	K15052
+6.1	K05606
+7.1	K01847, K01848, K01849
+8.1	K14471, K14472
+10.1	K01679
+1.2	K08928, K08929
+2.2	K08691
+3.2	K14449
+4.2	K14470
+5.2	K09709
+
+M00614.kk	M00614_Anoxygenic_photosynthesis_in_green_sulfur_bacteria.txt
+%	61.54	8__13	INCOMPLETE
+1.1	K08940, K08941, K08942, K08943
+1.2	K00169, K00170, K00171, K00172, K03737
+8.2	K00174, K00175, K00177, K00176
+11.2	K15230, K15231, K15232, K15233
+12.2	K15230, K15231, K15234
+
+M00615.kk	M00615_Nitrate_assimilation.txt
+%	33.33	2__6	INCOMPLETE
+1.1	K02575
+2.1	K00367, K10534, K00372, K00360
+1.2	K15576, K15577, K15578, K15579
+2.2	K00367, K10534, K00372, K00360
+
+M00616.kk	M00616_Sulfate-sulfur_assimilation.txt
+%	100.0	4__4	COMPLETE
+
+M00617.kk	M00617_Methanogen.txt
+%	9.52	2__21	INCOMPLETE
+1.1	K00200, K00201, K00202, K00203, K11261, K00205, K11260, K00204
+2.1	K00672
+3.1	K01499
+4.1	K00319, K13942
+5.1	K00320
+6.1	K00577, K00578, K00579, K00580, K00581, K00582, K00583, K00584
+7.1	K00399, K00401, K00402
+8.1	K22480, K22481, K22482, K03388, K03389, K03390, K08264, K08265, K03389, K03390K14127, K14126, K14128, K22516, K00125
+1.2	K14082
+2.2	K16177, K16176, K16179, K16178, K14084, K14083
+3.2	K00399, K00401, K00402
+4.2	K22480, K22481, K22482, K03388, K03389, K03390, K08264, K08265, K03389, K03390K14127, K14126, K14128, K22516, K00125
+1.3	K14080, K04480, K14081
+2.3	K00399, K00401, K00402
+3.3	K22480, K22481, K22482, K03388, K03389, K03390, K08264, K08265, K03389, K03390K14127, K14126, K14128, K22516, K00125
+3.4	K00193, K00197, K00194
+4.4	K00577, K00578, K00579, K00580, K00581, K00582, K00583, K00584
+5.4	K00399, K00401, K00402
+6.4	K22480, K22481, K22482, K03388, K03389, K03390, K08264, K08265, K03389, K03390K14127, K14126, K14128, K22516, K00125
+
+M00618.kk	M00618_Acetogen
+%	66.67	6__9	INCOMPLETE
+1.	K00198
+6.	K15023
+7.	K14138, K00197, K00194
+
+M00620.kk	M00620_Incomplete reductive citrate cycle, acetyl-CoA => oxoglutarate
+%	42.86	3__7	INCOMPLETE
+1.	K00169, K00170, K00171, K00172
+2.	K01959, K01960
+5.	K18209, K18210
+7.	K00174, K00175, K00176, K00177
+
+M00622.kk	M00622_Nicotinate degradation, nicotinate => fumarate
+%	0.0	0__6	INCOMPLETE
+1.	K18029, K18030
+2.	K14974
+3.	K18028
+4.	K15357
+5.	K13995
+6.	K01799
+
+M00623.kk	M00623_Phthalate degradation, phthalate => protocatechuate
+%	0.0	0__3	INCOMPLETE
+1.	K18068, K18069
+2.	K18067
+3.	K04102
+
+M00624.kk	M00624_Terephthalate degradation, terephthalate => 3,4-dihydroxybenzoate
+%	0.0	0__2	INCOMPLETE
+1.	K18074, K18075, K18077
+2.	K18076
+
+M00625.kk	M00625_Methicillin resistance
+%	0.0	0__3	INCOMPLETE
+1.	K02547
+2.	K02546
+3.	K02545
+
+M00627.kk	M00627_beta-Lactam resistance, Bla system
+%	0.0	0__3	INCOMPLETE
+1.	K02172
+2.	K02171
+3.	K18766, K17836
+
+M00630.kk	M00630_D-Galacturonate degradation (fungi), D-galacturonate => glycerol
+%	0.0	0__4	INCOMPLETE
+1.	K18106, K19634
+2.	K18102
+3.	K18103
+4.	K18107
+
+M00631.kk	M00631_D-Galacturonate degradation (bacteria), D-galacturonate => pyruvate + D-glyceraldehyde 3P
+%	20.0	1__5	INCOMPLETE
+1.	K01812
+2.	K00041
+3.	K01685, K16849, K16850
+4.	K00874
+
+M00632.kk	M00632_Galactose degradation, Leloir pathway, galactose => alpha-D-glucose-1P
+%	75.0	3__4	INCOMPLETE
+3.	K00965
+
+M00633.kk	M00633_Semi-phosphorylative Entner-Doudoroff pathway, gluconate/galactonate => glycerate-3P
+%	0.0	0__4	INCOMPLETE
+1.	K05308
+2.	K18126
+3.	K11395
+4.	K00131, K18978
+
+M00636.kk	M00636_Phthalate degradation, phthalate => protocatechuate
+%	0.0	0__3	INCOMPLETE
+1.	K18251, K18252, K18253, K18254
+2.	K18255
+3.	K18256
+
+M00637.kk	M00637_Anthranilate degradation, anthranilate => catechol
+%	0.0	0__1	INCOMPLETE
+1.	K05599, K05600, K11311, K16319, K16320, K18248, K18249
+
+M00638.kk	M00638_Salicylate degradation, salicylate => gentisate
+%	0.0	0__1	INCOMPLETE
+1.	K18242, K18243, K14578, K14581
+
+M00639.kk	M00639_Multidrug resistance, efflux pump MexCD-OprJ
+%	0.0	0__2	INCOMPLETE
+1.	K18294
+2.	K18295, K18296, K08721
+
+M00641.kk	M00641_Multidrug resistance, efflux pump MexEF-OprN
+%	50.0	1__2	INCOMPLETE
+1.	K18297
+
+M00642.kk	M00642_Multidrug resistance, efflux pump MexJK-OprM
+%	50.0	1__2	INCOMPLETE
+2.	K18302, K18303, K18139
+
+M00643.kk	M00643_Multidrug resistance, efflux pump MexXY-OprM
+%	0.0	0__2	INCOMPLETE
+1.	K18129
+2.	K18094, K18095, K18139
+
+M00649.kk	M00649_Multidrug resistance, efflux pump AdeABC
+%	0.0	0__3	INCOMPLETE
+1.	K18143
+2.	K18144
+3.	K18145, K18146, K18147
+
+M00651.kk	M00651_Vancomycin resistance, D-Ala-D-Lac type
+%	7.14	1__14	INCOMPLETE
+1.1	K18345
+2.1	K18344
+3.1	K07260
+4.1	K18346
+5.1	K18347
+6.1	K15739
+7.1	K08641
+2.2	K18352
+3.2	K18354
+4.2	K18353
+5.2	K18347
+6.2	K15739
+7.2	K08641
+
+M00652.kk	M00652_Vancomycin resistance, D-Ala-D-Ser type
+%	0.0	0__5	INCOMPLETE
+1.	K18350
+2.	K18349
+3.	K18348
+4.	K18856
+5.	K18866
+
+M00660.kk	M00660_Xanthomonas spp. pathogenicity signature, T3SS and effectors
+%	0.0	0__8	INCOMPLETE
+1.	K03222, K03226, K03227, K03228, K03229, K03230, K03224, K03225, K03223, K18374, K18376
+2.	K18373
+3.	K18375
+4.	K18377
+5.	K18378
+6.	K18379
+7.	K18380
+8.	K18381
+
+M00661.kk	M00661_Paspaline biosynthesis, geranylgeranyl-PP + indoleglycerol phosphate => paspaline
+%	0.0	0__3	INCOMPLETE
+1.	K18385
+2.	K18386
+3.	K18387
+
+M00664.kk	M00664_Nodulation
+%	0.0	0__4	INCOMPLETE
+1.	K14658
+2.	K14659
+3.	K14666
+4.	K14657
+
+M00672.kk	M00672_Penicillin biosynthesis, aminoadipate + cycteine + valine => penicillin
+%	0.0	0__3	INCOMPLETE
+1.	K12743
+2.	K04126
+3.	K10852
+
+M00673.kk	M00673_Cephamycin C biosynthesis, aminoadipate + cycteine + valine => cephamycin C
+%	0.0	0__8	INCOMPLETE
+1.	K12743
+2.	K04126
+3.	K04127
+4.	K12744
+5.	K12745
+6.	K04128
+7.	K18062
+8.	K18063
+
+M00674.kk	M00674_Clavaminate biosynthesis, arginine + glyceraldehyde-3P => clavaminate
+%	0.0	0__4	INCOMPLETE
+1.	K12673
+2.	K12674
+3.	K12675
+4.	K12676
+
+M00675.kk	M00675_Carbapenem-3-carboxylate biosynthesis, pyrroline-5-carboxylate + malonyl-CoA => carbapenem-3-carboxylate
+%	0.0	0__3	INCOMPLETE
+1.	K18317
+2.	K18316
+3.	K18315
+
+M00696.kk	M00696_Multidrug resistance, efflux pump AcrEF-TolC
+%	0.0	0__2	INCOMPLETE
+1.	K18140
+2.	K18141, K18142, K12340
+
+M00697.kk	M00697_Multidrug resistance, efflux pump MdtEF-TolC
+%	0.0	0__2	INCOMPLETE
+1.	K07690
+2.	K18898, K18899, K12340
+
+M00698.kk	M00698_Multidrug resistance, efflux pump BpeEF-OprC
+%	0.0	0__2	INCOMPLETE
+1.	K18900
+2.	K18901, K18902, K18903
+
+M00700.kk	M00700_Multidrug resistance, efflux pump AbcA
+%	0.0	0__2	INCOMPLETE
+1.	K18906, K18907
+2.	K18104
+
+M00702.kk	M00702_Multidrug resistance, efflux pump NorB
+%	0.0	0__2	INCOMPLETE
+1.	K18906, K18907
+2.	K08170
+
+M00704.kk	M00704_Tetracycline resistance, efflux pump Tet38
+%	0.0	0__2	INCOMPLETE
+1.	K18906
+2.	K08168
+
+M00705.kk	M00705_Multidrug resistance, efflux pump MepA
+%	0.0	0__2	INCOMPLETE
+1.	K18909
+2.	K18908
+
+M00714.kk	M00714_Multidrug resistance, efflux pump QacA
+%	50.0	1__2	INCOMPLETE
+1.	K18938
+
+M00718.kk	M00718_Multidrug resistance, efflux pump MexAB-OprM
+%	50.0	1__2	INCOMPLETE
+1.	K18131
+
+M00725.kk	M00725_Cationic antimicrobial peptide (CAMP) resistance, dltABCD operon
+%	0.0	0__3	INCOMPLETE
+1.	K19077
+2.	K19078
+3.	K03367, K03739, K14188, K03740
+
+M00726.kk	M00726_Cationic antimicrobial peptide (CAMP) resistance, lysyl-phosphatidylglycerol (L-PG) synthase MprF
+%	0.0	0__3	INCOMPLETE
+1.	K19077
+2.	K19078
+3.	K14205
+
+M00730.kk	M00730_Cationic antimicrobial peptide (CAMP) resistance, VraFG transporter
+%	0.0	0__3	INCOMPLETE
+1.	K19077
+2.	K19078
+3.	K19079, K19080
+
+M00736.kk	M00736_Nocardicin A biosynthesis, L-pHPG + arginine + serine => nocardicin A
+%	0.0	0__4	INCOMPLETE
+1.	K19102, K19103, K05375
+2.	K19104
+3.	K19105
+4.	K19106
+
+M00740.kk	M00740_Methylaspartate cycle
+%	36.36	4__11	INCOMPLETE
+4.	K00261
+5.	K19268, K01846
+6.	K04835
+7.	K19280
+8.	K14449
+9.	K19281
+10.	K19282
+
+M00741.kk	M00741_Propanoyl-CoA metabolism, propanoyl-CoA => succinyl-CoA
+%	0.0	0__3	INCOMPLETE
+1.	K01965, K01966, K11263, K18472, K19312, K22568, K01964, K15036, K15037
+2.	K05606
+3.	K01847, K01848, K01849
+
+M00744.kk	M00744_Cationic antimicrobial peptide (CAMP) resistance, protease PgtE
+%	33.33	1__3	INCOMPLETE
+2.	K07660
+3.	K08477
+
+M00745.kk	M00745_Imipenem resistance, repression of porin OprD
+%	0.0	0__3	INCOMPLETE
+1.	K18072, K07644, K18297
+2.	K18073, K07665, K18297
+3.	K18093
+
+M00746.kk	M00746_Multidrug resistance, repression of porin OmpF
+%	0.0	0__3	INCOMPLETE
+1.	K13632
+2.	K18513
+3.	K09476
+
+M00761.kk	M00761_Undecaprenylphosphate alpha-L-Ara4N biosynthesis, UDP-GlcA => undecaprenyl phosphate alpha-L-Ara4N
+%	0.0	0__4	INCOMPLETE
+1.	K10011
+2.	K07806
+3.	K10012
+4.	K13014
+
+M00763.kk	M00763_Ornithine biosynthesis, mediated by LysW, glutamate => ornithine
+%	0.0	0__6	INCOMPLETE
+1.1	K05826
+1.2	K19412
+2.2	K05828
+3.2	K05829
+4.2	K05830
+5.2	K05831
+
+M00769.kk	M00769_Multidrug resistance, efflux pump MexPQ-OpmE
+%	33.33	1__3	INCOMPLETE
+1.	K18304
+3.	K19595, K19594, K19593
+
+M00773.kk	M00773_Tylosin biosynthesis, methylmalonyl-CoA + malonyl-CoA => tylactone => tylosin
+%	0.0	0__8	INCOMPLETE
+1.	K15988
+2.	K15989, K15990
+3.	K15992
+4.	K15991
+5.	K15993
+6.	K15994
+7.	K15995
+8.	K15996
+
+M00774.kk	M00774_Erythromycin biosynthesis, propanoyl-CoA + methylmalonyl-CoA => deoxyerythronolide B => erythromycin A/B
+%	0.0	0__6	INCOMPLETE
+1.	K10817
+2.	K14366
+3.	K14367
+4.	K14368, K15997
+5.	K14370
+6.	K14369
+
+M00775.kk	M00775_Oleandomycin biosynthesis, malonyl-CoA + methylmalonyl-CoA => 8,8a-deoxyoleandolide => oleandomycin
+%	0.0	0__5	INCOMPLETE
+1.	K16007
+2.	K16008
+3.	K16009
+4.	K13320
+5.	K16010
+
+M00776.kk	M00776_Pikromycin/methymycin biosynthesis, methylmalonyl-CoA + malonyl-CoA => narbonolide/10-deoxymethynolide => pikromycin/methymycin
+%	0.0	0__4	INCOMPLETE
+1.	K16000, K16001, K16002, K16003
+2.	K16004
+3.	K16005
+4.	K16006
+
+M00777.kk	M00777_Avermectin biosynthesis, 2-methylbutanoyl-CoA/isobutyryl-CoA => 6,8a-Seco-6,8a-deoxy-5-oxoavermectin 1a/1b aglycone => avermectin A1a/B1a/A1b/B1b
+%	0.0	0__5	INCOMPLETE
+1.	K14371
+2.	K14372
+3.	K14373
+4.	K14374
+5.	K14375
+
+M00778.kk	M00778_Type II polyketide backbone biosynthesis, acyl-CoA + malonyl-CoA => polyketide
+%	0.0	0__4	INCOMPLETE
+1.	K05551, K05552, K05553
+2.	K12420
+3.	K05554, K14249, K15884, K15885, K15886
+4.	K05555, K14250, K15886
+
+M00779.kk	M00779_Dihydrokalafungin biosynthesis, octaketide => dihydrokalafungin
+%	0.0	0__4	INCOMPLETE
+1.	K05556
+2.	K14626, K14627
+3.	K14628, K14629
+4.	K14630, K14631, K14632
+
+M00780.kk	M00780_Tetracycline/oxytetracycline biosynthesis, pretetramide => tetracycline/oxytetracycline
+%	0.0	0__7	INCOMPLETE
+1.	K14251
+2.	K14252
+3.	K14253
+4.	K14254
+5.	K14255
+6.	K14256
+7.	K21301
+
+M00781.kk	M00781_Nogalavinone/aklavinone biosynthesis, deoxynogalonate/deoxyaklanonate => nogalavinone/aklavinone
+%	0.0	0__4	INCOMPLETE
+1.	K15941
+2.	K15942
+3.	K15943
+4.	K15944
+
+M00782.kk	M00782_Mithramycin biosynthesis, 4-demethylpremithramycinone => mithramycin
+%	0.0	0__8	INCOMPLETE
+1.	K15959
+2.	K15960
+3.	K15961
+4.	K15963
+5.	K15964
+6.	K15965
+7.	K15966
+8.	K15967
+
+M00783.kk	M00783_Tetracenomycin C/8-demethyltetracenomycin C biosynthesis, tetracenomycin F2 => tetracenomycin C/8-demethyltetracenomycin C
+%	0.0	0__6	INCOMPLETE
+1.	K15968
+2.	K15969
+3.	K15886
+4.	K15970
+5.	K15971
+6.	K15972
+
+M00784.kk	M00784_Elloramycin biosynthesis, 8-demethyltetracenomycin C => elloramycin A
+%	0.0	0__5	INCOMPLETE
+1.	K19566
+2.	K19567
+3.	K19568
+4.	K19569
+5.	K19570
+
+M00785.kk	M00785_Cycloserine biosynthesis, arginine/serine => cycloserine
+%	0.0	0__6	INCOMPLETE
+1.1	K19741
+2.1	K19723
+1.2	K19726
+2.2	K19725
+3.2	K19724
+4.2	K19727
+
+M00786.kk	M00786_Fumitremorgin alkaloid biosynthesis, tryptophan + proline => fumitremorgin C/A
+%	0.0	0__9	INCOMPLETE
+1.	K18281
+2.	K14132
+3.	K17475
+4.	K18280
+5.	K17827
+6.	K17826
+7.	K14134
+8.	K17825
+9.	K18279
+
+M00787.kk	M00787_Bacilysin biosynthesis, prephenate => bacilysin
+%	0.0	0__6	INCOMPLETE
+1.	K19546
+2.	K19547
+3.	K19550
+4.	K19549
+5.	K19548
+6.	K13037
+
+M00788.kk	M00788_Terpentecin biosynthesis, GGAP => terpentecin
+%	0.0	0__2	INCOMPLETE
+1.	K19835
+2.	K19834
+
+M00789.kk	M00789_Rebeccamycin biosynthesis, tryptophan => rebeccamycin
+%	16.67	1__6	INCOMPLETE
+2.	K19884
+3.	K19885
+4.	K19886, K19887
+5.	K19888
+6.	K19889
+
+M00790.kk	M00790_Pyrrolnitrin biosynthesis, tryptophan => pyrrolnitrin
+%	50.0	2__4	INCOMPLETE
+3.	K14257
+4.	K19982
+
+M00793.kk	M00793_dTDP-L-rhamnose biosynthesis
+%	100.0	4__4	COMPLETE
+
+M00794.kk	M00794_dTDP-6-deoxy-D-allose biosynthesis
+%	0.0	0__2	INCOMPLETE
+1.	K13312
+2.	K13313
+
+M00795.kk	M00795_dTDP-beta-L-noviose biosynthesis
+%	0.0	0__3	INCOMPLETE
+1.	K19855
+2.	K12710
+3.	K17625
+
+M00796.kk	M00796_dTDP-D-mycaminose biosynthesis
+%	0.0	0__3	INCOMPLETE
+1.	K19853
+2.	K19854
+3.	K13307
+
+M00797.kk	M00797_dTDP-D-desosamine biosynthesis
+%	50.0	2__4	INCOMPLETE
+2.	K13309
+3.	K13310, K16436
+
+M00798.kk	M00798_dTDP-L-mycarose biosynthesis
+%	0.0	0__5	INCOMPLETE
+1.	K16435
+2.	K13315
+3.	K13317
+4.	K13316, K16438
+5.	K13318
+
+M00799.kk	M00799_dTDP-L-oleandrose biosynthesis
+%	0.0	0__5	INCOMPLETE
+1.	K16435
+2.	K13315
+3.	K16438
+4.	K19856
+5.	K19857
+
+M00800.kk	M00800_dTDP-L-megosamine biosynthesis
+%	20.0	1__5	INCOMPLETE
+1.	K16435
+2.	K16436
+4.	K16438
+5.	K13322
+
+M00801.kk	M00801_dTDP-L-olivose biosynthesis
+%	0.0	0__4	INCOMPLETE
+1.	K16435
+2.	K13327
+3.	K19858
+4.	K13319
+
+M00802.kk	M00802_dTDP-D-forosamine biosynthesis
+%	0.0	0__5	INCOMPLETE
+1.	K16435
+2.	K13327
+3.	K13328
+4.	K13329
+5.	K13330
+
+M00803.kk	M00803_dTDP-D-angolosamine biosynthesis
+%	0.0	0__4	INCOMPLETE
+1.	K16435
+2.	K19859
+3.	K16436
+4.	K13332
+
+M00804.kk	M00804_Complete nitrification, comammox, ammonia => nitrite => nitrate
+%	0.0	0__3	INCOMPLETE
+1.	K10944, K10945, K10946
+2.	K10535
+3.	K00370, K00371
+
+M00805.kk	M00805_Staurosporine biosynthesis, tryptophan => staurosporine
+%	0.0	0__7	INCOMPLETE
+1.	K20075
+2.	K20076
+3.	K20077, K20078
+4.	K20079
+5.	K20080
+6.	K20081
+7.	K20082
+
+M00808.kk	M00808_Violacein biosynthesis, tryptophan => violacein
+%	0.0	0__4	INCOMPLETE
+1.	K20086
+2.	K20087, K20088
+3.	K20089
+4.	K20090
+
+M00810.kk	M00810_Nicotine degradation, pyridine pathway, nicotine => 2,6-dihydroxypyridine/succinate semialdehyde
+%	0.0	0__5	INCOMPLETE
+1.	K19818, K19819, K19820
+2.	K19826, K19890
+3.	K19185, K19186, K19187
+4.	K19188
+5.	K20155
+
+M00811.kk	M00811_Nicotine degradation, pyrrolidine pathway, nicotine => succinate semialdehyde
+%	0.0	0__5	INCOMPLETE
+1.	K20170, K20169
+2.	K20170, K20158
+3.	K20170, K19700
+4.	K20171, K20172
+5.	K15359, K18276
+
+M00814.kk	M00814_Acarbose biosynthesis, sedoheptulopyranose-7P => acarbose
+%	0.0	0__8	INCOMPLETE
+1.	K19969
+2.	K19979
+3.	K19974
+4.	K20424
+5.	K20425
+6.	K20426
+7.	K20427
+8.	K20430
+
+M00815.kk	M00815_Validamycin A biosynthesis, sedoheptulopyranose-7P => validamycin A
+%	0.0	0__9	INCOMPLETE
+1.	K19969
+2.	K20431
+3.	K20432
+4.	K20433
+5.	K20434
+6.	K20435
+7.	K20436
+8.	K20437
+9.	K20438
+
+M00819.kk	M00819_Pentalenolactone biosynthesis, farnesyl-PP => pentalenolactone
+%	0.0	0__7	INCOMPLETE
+1.	K12250
+2.	K15907
+3.	K18056
+4.	K17747
+5.	K18091
+6.	K18057
+7.	K17476
+
+M00823.kk	M00823_Chlortetracycline biosynthesis, pretetramide => chlortetracycline
+%	0.0	0__8	INCOMPLETE
+1.	K14251
+2.	K14252
+3.	K14253
+4.	K14254
+5.	K14255
+6.	K14256
+7.	K21301
+8.	K14257, K21297
+
+M00824.kk	M00824_9-membered enediyne core biosynthesis, malonyl-CoA => 3-hydroxyhexadeca-4,6,8,10,12,14-hexaenoyl-ACP => 9-membered enediyne core
+%	50.0	1__2	INCOMPLETE
+2.	K21160, K21161, K21162, K21163, K21164, K21165, K21166, K21167
+
+M00825.kk	M00825_10-membered enediyne core biosynthesis, malonyl-CoA => 3-hydroxyhexadeca-4,6,8,10,12,14-hexaenoyl-ACP => 10-membered enediyne core
+%	50.0	1__2	INCOMPLETE
+2.	K21168, K21169, K21170, K21171, K21172, K21173, K21174
+
+M00826.kk	M00826_C-1027 benzoxazolinate moiety biosynthesis, chorismate => benzoxazolinyl-CoA
+%	0.0	0__6	INCOMPLETE
+1.	K20159, K21175
+2.	K20156
+3.	K21176
+4.	K21177
+5.	K21178
+6.	K21179
+
+M00827.kk	M00827_C-1027 beta-amino acid moiety biosynthesis, tyrosine => 3-chloro-4,5-dihydroxy-beta-phenylalanyl-PCP
+%	16.67	1__6	INCOMPLETE
+1.1	K21183
+2.2	K21182
+3.2	K16431
+4.2	K21184
+5.2	K21185
+
+M00828.kk	M00828_Maduropeptin beta-hydroxy acid moiety biosynthesis, tyrosine => 3-(4-hydroxyphenyl)-3-oxopropanoyl-PCP
+%	25.0	1__4	INCOMPLETE
+1.1	K21183
+2.2	K21182
+3.2	K21188
+
+M00829.kk	M00829_3,6-Dimethylsalicylyl-CoA biosynthesis, malonyl-CoA => 6-methylsalicylate => 3,6-dimethylsalicylyl-CoA
+%	33.33	1__3	INCOMPLETE
+2.	K21191
+3.	K21192
+
+M00830.kk	M00830_Neocarzinostatin naphthoate moiety biosynthesis, malonyl-CoA => 2-hydroxy-5-methyl-1-naphthoate => 2-hydroxy-7-methoxy-5-methyl-1-naphthoyl-CoA
+%	0.0	0__4	INCOMPLETE
+1.	K20422
+2.	K20420
+3.	K20421
+4.	K20423
+
+M00831.kk	M00831_Kedarcidin 2-hydroxynaphthoate moiety biosynthesis, malonyl-CoA => 3,6,8-trihydroxy-2-naphthoate => 3-hydroxy-7,8-dimethoxy-6-isopropoxy-2-naphthoyl-CoA
+%	0.0	0__5	INCOMPLETE
+1.	K21221
+2.	K21222
+3.	K21223
+4.	K21224
+5.	K21225
+
+M00832.kk	M00832_Kedarcidin 2-aza-3-chloro-beta-tyrosine moiety biosynthesis, azatyrosine => 2-aza-3-chloro-beta-tyrosyl-PCP
+%	0.0	0__5	INCOMPLETE
+1.1	K21183
+1.2	K21227
+2.2	K21228
+3.2	K16431
+4.2	K21185
+
+M00833.kk	M00833_Calicheamicin biosynthesis, calicheamicinone => calicheamicin
+%	10.0	1__10	INCOMPLETE
+2.1	K21255
+3.1	K21256
+4.1	K21257
+5.1	K21258
+1.2	K21259
+2.2	K21260
+3.2	K21261
+4.2	K21262
+5.2	K21263
+
+M00834.kk	M00834_Calicheamicin orsellinate moiety biosynthesis, malonyl-CoA => orsellinate-ACP => 5-iodo-2,3-dimethoxyorsellinate-ACP
+%	20.0	1__5	INCOMPLETE
+2.	K21255
+3.	K21256
+4.	K21257
+5.	K21258
+
+M00835.kk	M00835_Pyocyanine biosynthesis, chorismate => pyocyanine
+%	0.0	0__7	INCOMPLETE
+1.	K13063
+2.	K20261
+3.	K06998
+4.	K20260
+5.	K20262
+6.	K21103
+7.	K20940
+
+M00836.kk	M00836_Coenzyme F430 biosynthesis, sirohydrochlorin => coenzyme F430
+%	0.0	0__4	INCOMPLETE
+1.	K22011
+2.	K22012
+3.	K21610, K21611
+4.	K21612
+
+M00837.kk	M00837_Prodigiosin biosynthesis, L-proline => prodigiosin
+%	0.0	0__10	INCOMPLETE
+1.1	K21780, K21781
+2.1	K21782
+3.1	K21783
+4.1	K21784
+5.1	K21785
+6.1	K21786
+1.2	K21428
+2.2	K21778
+3.2	K21779
+1.3	K21787
+
+M00838.kk	M00838_Undecylprodigiosin biosynthesis, L-proline => undecylprodigiosin
+%	0.0	0__10	INCOMPLETE
+1.1	K21780, K21781
+2.1	K21782
+3.1	K21783
+4.1	K21784
+5.1	K21785
+6.1	K21786
+1.2	K21791
+2.2	K21792
+3.2	K21793
+1.3	K21787
+
+M00840.kk	M00840_Tetrahydrofolate biosynthesis, mediated by ribA and trpF, GTP => THF
+%	66.67	4__6	INCOMPLETE
+4.	K13941
+5.	K22099
+
+M00841.kk	M00841_Tetrahydrofolate biosynthesis, mediated by PTPS, GTP => THF
+%	66.67	4__6	INCOMPLETE
+2.	K22101
+6.	K13998
+
+M00842.kk	M00842_Tetrahydrobiopterin biosynthesis, GTP => BH4
+%	33.33	1__3	INCOMPLETE
+2.	K01737
+3.	K00072
+
+M00843.kk	M00843_L-threo-Tetrahydrobiopterin biosynthesis, GTP => L-threo-BH4
+%	33.33	1__3	INCOMPLETE
+2.	K01737
+3.	K17745
+
+M00844.kk	M00844_Arginine biosynthesis, ornithine => arginine
+%	100.0	3__3	COMPLETE
+
+M00845.kk	M00845_Arginine biosynthesis, glutamate => acetylcitrulline => arginine
+%	57.14	4__7	INCOMPLETE
+1.	K22478
+4.	K09065
+5.	K01438
+
+M00846.kk	M00846_Siroheme biosynthesis, glutamate => siroheme
+%	100.0	7__7	COMPLETE
+
+M00847.kk	M00847_Heme biosynthesis, archaea, siroheme => heme
+%	0.0	0__3	INCOMPLETE
+1.	K22225
+2.	K22226
+3.	K22227
+
+M00848.kk	M00848_Aurachin biosynthesis, anthranilate => aurachin A
+%	0.0	0__8	INCOMPLETE
+1.	K09460
+2.	K02078, K14245, K14246, K22798
+3.	K22799
+4.	K22800
+5.	K21272
+6.	K21271
+7.	K22801
+8.	K22802
+
+M00849.kk	M00849_C5 isoprenoid biosynthesis, mevalonate pathway, archaea
+%	26.67	4__15	INCOMPLETE
+2.1	K01641
+4.1	K00869
+5.1	K17942
+6.1	K06981
+7.1	K01823
+2.2	K01641
+4.2	K18689
+5.2	K18690
+6.2	K22813
+7.2	K06981
+8.2	K01823
+
+M00850.kk	M00850_Vibrio cholerae pathogenicity signature, cholera toxins
+%	0.0	0__6	INCOMPLETE
+1.	K10928, K10929
+2.	K10954
+3.	K10952
+4.	K10953
+5.	K10948
+6.	K11018
+
+M00851.kk	M00851_Carbapenem resistance
+%	100.0	1__1	COMPLETE
+
+M00852.kk	M00852_Vibrio cholerae pathogenicity signature, toxin coregulated pilus
+%	0.0	0__14	INCOMPLETE
+1.	K10961
+2.	K10920
+3.	K10919
+4.	K10930
+5.	K10931
+6.	K10962
+7.	K10932
+8.	K10963
+9.	K10933
+10.	K10964
+11.	K10965
+12.	K10934
+13.	K10935
+14.	K10966
+
+M00853.kk	M00853_ETEC pathogenicity signature, colonization factors
+%	0.0	0__5	INCOMPLETE
+1.	K22850
+2.	K22851
+3.	K22852
+4.	K22853
+5.	K22854
+
+M00854.kk	M00854_Glycogen biosynthesis, glucose-1P => glycogen/starch
+%	83.33	5__6	INCOMPLETE
+2.1	K00693, K00750, K16150, K16153, K13679, K20812
+
+M00855.kk	M00855_Glycogen degradation, glycogen => glucose-6P
+%	100.0	3__3	COMPLETE
+
+M00856.kk	M00856_Salmonella enterica pathogenicity signature, typhoid toxin
+%	0.0	0__4	INCOMPLETE
+1.	K11014
+2.	K11023
+3.	K19298
+4.	K22918
+
+M00857.kk	M00857_Salmonella enterica pathogenicity signature, Vi antigen
+%	0.0	0__7	INCOMPLETE
+1.	K22914
+2.	K22926
+3.	K22925
+4.	K22915
+5.	K22916
+6.	K22917
+7.	K22924, K22921, K22923, K22922
+
+M00859.kk	M00859_Bacillus anthracis pathogenicity signature, anthrax toxin
+%	0.0	0__3	INCOMPLETE
+1.	K11030
+2.	K08645
+3.	K11029
+
+M00860.kk	M00860_Bacillus anthracis pathogenicity signature, polyglutamic acid capsule biosynthesis
+%	0.0	0__7	INCOMPLETE
+1.	K22976
+2.	K22977
+3.	K22980
+4.	K07282
+5.	K22116
+6.	K01932
+7.	K22981
+
+M00861.kk	M00861_beta-Oxidation, peroxisome, VLCFA
+%	0.0	0__3	INCOMPLETE
+1.	K00232
+2.	K12405
+3.	K07513, K08764
+
+M00862.kk	M00862_beta-Oxidation, peroxisome, tri/dihydroxycholestanoyl-CoA => choloyl/chenodeoxycholoyl-CoA
+%	0.0	0__3	INCOMPLETE
+1.	K10214
+2.	K12405
+3.	K08764
+
+M00866.kk	M00866_KDO2-lipid A biosynthesis, Raetz pathway, non-LpxL-LpxM type
+%	88.89	8__9	INCOMPLETE
+9.	K09778
+
+M00867.kk	M00867_KDO2-lipid A modification pathway
+%	20.0	1__5	INCOMPLETE
+1.	K12977
+3.	K23082, K23083
+4.	K23159
+5.	K09953
+
+M00868.kk	M00868_Heme biosynthesis, animals and fungi, glycine => heme
+%	75.0	6__8	INCOMPLETE
+1.	K00643
+7.	K00231
+
+M00872.kk	M00872_O-glycan biosynthesis, mannose type (core M3)
+%	0.0	0__10	INCOMPLETE
+1.1	K00728
+2.1	K18207
+3.1	K09654
+4.1	K17547
+1.2	K21031
+1.3	K19872
+2.3	K19873
+3.3	K21052
+4.3	K21032
+5.3	K09668
+
+M00873.kk	M00873_Fatty acid biosynthesis in mitochondria, animals
+%	16.67	1__6	INCOMPLETE
+1.	K18660
+2.	K03955, K00645
+4.	K11539, K13370
+5.	K22540
+6.	K07512
+
+M00874.kk	M00874_Fatty acid biosynthesis in mitochondria, fungi
+%	16.67	1__6	INCOMPLETE
+1.	K11262
+2.	K03955, K00645
+4.	K00059
+5.	K22541
+6.	K07512
+
+M00875.kk	M00875_Staphyloferrin B biosynthesis, L-serine => staphyloferrin B
+%	0.0	0__7	INCOMPLETE
+1.	K23371
+2.	K21949
+3.	K21721
+4.	K23372
+5.	K23373
+6.	K23374
+7.	K23375
+
+M00876.kk	M00876_Staphyloferrin A biosynthesis, L-ornithine => staphyloferrin A
+%	0.0	0__3	INCOMPLETE
+1.	K21898
+2.	K23446
+3.	K23447
+
+M00877.kk	M00877_Kanosamine biosynthesis, glucose 6-phosphate => kanosamine
+%	0.0	0__3	INCOMPLETE
+1.	K18652
+2.	K18653
+3.	K18654
+
+M00878.kk	M00878_Phenylacetate degradation, phenylaxetate => acetyl-CoA/succinyl-CoA
+%	14.29	1__7	INCOMPLETE
+1.	K01912
+2.	K02609, K02610, K02611, K02612, K02613
+3.	K15866
+4.	K02618
+5.	K02615
+7.	K00074
+
+M00879.kk	M00879_Arginine succinyltransferase pathway, arginine => glutamate
+%	100.0	5__5	COMPLETE
+
+M00880.kk	M00880_Molybdenum cofactor biosynthesis, GTP => molybdenum cofactor
+%	100.0	5__5	COMPLETE
+
+M00889.kk	M00889_Puromycin biosynthesis, ATP => puromycin
+%	0.0	0__9	INCOMPLETE
+1.	K12628
+2.	K12629
+3.	K12630
+4.	K12631
+5.	K12632
+6.	K12633
+7.	K12634
+8.	K12635
+9.	K12636
+
+M00890.kk	M00890_Roseoflavin biosynthesis, FMN => roseoflavin
+%	0.0	0__2	INCOMPLETE
+1.	K22598
+2.	K22269
+
+M00891.kk	M00891_Ditryptophenaline biosynthesis, tryptophan + phenylalanine => ditryptophenaline
+%	0.0	0__3	INCOMPLETE
+1.	K23646
+2.	K23647
+3.	K21477
+
+M00892.kk	M00892_UDP-N-acetyl-D-glucosamine biosynthesis, eukaryotes, glucose => UDP-GlcNAc
+%	33.33	2__6	INCOMPLETE
+1.	K00844, K12407, K00845
+4.	K00621
+5.	K01836
+6.	K00972
+
+M00893.kk	M00893_Lovastatin biosynthesis, malonyl-CoA => lovastatin acid
+%	0.0	0__6	INCOMPLETE
+1.1	K20981
+2.1	K20982
+3.1	K20985
+4.1	K20980
+1.2	K20984
+1.3	K20983
+
+M00894.kk	M00894_Cannabidiol biosynthesis, malonyl-CoA => cannabidiol/dronabinol
+%	0.0	0__4	INCOMPLETE
+1.	K20503
+2.	K20508
+3.	K20502
+4.	K20501
+
+M00900.kk	M00900_Crocin biosynthesis, crocetin => crocin
+%	0.0	0__2	INCOMPLETE
+1.	K21371
+2.	K21354
+
+M00901.kk	M00901_Fumiquinazoline biosynthesis, tryptophan + alanine + anthranilate => fumiquinazoline
+%	0.0	0__4	INCOMPLETE
+1.	K23665
+2.	K23666
+3.	K23667
+4.	K23668
+
+M00902.kk	M00902_Podophyllotoxin biosynthesis, coniferyl alcohol => podophyllotoxin
+%	0.0	0__7	INCOMPLETE
+1.	K21568
+2.	K19650
+3.	K21207
+4.	K21203
+5.	K21205
+6.	K21204
+7.	K21202
+
+M00903.kk	M00903_Fosfomycin biosynthesis, phosphoenolpyruvate => fosfomycin
+%	0.0	0__6	INCOMPLETE
+1.	K23999
+2.	K09459
+3.	K12901
+4.	K12902
+5.	K24000
+6.	K12903
+
+M00904.kk	M00904_Dapdiamides biosynthesis, L-2,3-diaminopropanoate => dapdiamide A/B/C
+%	0.0	0__3	INCOMPLETE
+1.	K22113
+2.	K01957
+3.	K22114
+
+M00905.kk	M00905_Grixazone biosynthesis, aspartate 4-semialdehyde => grixazone B
+%	0.0	0__3	INCOMPLETE
+1.	K18287
+2.	K17835
+3.	K20204
+
+M00906.kk	M00906_Ethynylserine biosynthesis, lysine => ethynylserine
+%	0.0	0__5	INCOMPLETE
+1.	K23669
+2.	K23670
+3.	K23671
+4.	K23672
+5.	K23673
+
+M00909.kk	M00909_UDP-N-acetyl-D-glucosamine biosynthesis, prokaryotes, glucose => UDP-GlcNAc
+%	80.0	4__5	INCOMPLETE
+1.	K00845
+

@@ -1,0 +1,23 @@
+ENTRY       M00842            Pathway   Module
+NAME        Tetrahydrobiopterin biosynthesis, GTP => BH4
+DEFINITION  K01495 K01737 K00072
+ORTHOLOGY   K01495  GTP cyclohydrolase IA [EC:3.5.4.16] [RN:R00428 R05046 R05048 R04639]
+            K01737  6-pyruvoyltetrahydropterin synthase [EC:4.2.3.12] [RN:R04286]
+            K00072  sepiapterin reductase [EC:1.1.1.153] [RN:R08208]
+CLASS       Pathway modules; Metabolism of cofactors and vitamins; Cofactor and vitamin metabolism
+PATHWAY     map00790  Folate biosynthesis
+            map01100  Metabolic pathways
+REACTION    R00428  C00044 -> C05922
+            R05046  C05922 -> C05923
+            R05048  C05923 -> C06148
+            R04639  C06148 -> C04895
+            R04286  C04895 -> C03684
+            R08208  C03684 -> C00272
+COMPOUND    C00044  GTP
+            C05922  Formamidopyrimidine nucleoside triphosphate
+            C05923  2,5-Diaminopyrimidine nucleoside triphosphate
+            C06148  2,5-Diamino-6-(5'-triphosphoryl-3',4'-trihydroxy-2'-oxopentyl)-amino-4-oxopyrimidine
+            C04895  7,8-Dihydroneopterin 3'-triphosphate
+            C03684  6-Pyruvoyltetrahydropterin
+            C00272  Tetrahydrobiopterin
+///

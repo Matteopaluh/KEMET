@@ -1,0 +1,28 @@
+ENTRY       M00144            Complex   Module
+NAME        NADH:quinone oxidoreductase, prokaryotes
+DEFINITION  K00330+((K00331+K00332+K00333),(K00331+K13378),K13380)+K00334+K00335+K00336+K00337+K00338+K00339+K00340+((K00341+K00342),K15863)+K00343
+ORTHOLOGY   K00330  nuoA; NADH-quinone oxidoreductase subunit A [EC:7.1.1.2]
+            K00331  nuoB; NADH-quinone oxidoreductase subunit B [EC:7.1.1.2]
+            K00332  nuoC; NADH-quinone oxidoreductase subunit C [EC:7.1.1.2]
+            K00333  nuoD; NADH-quinone oxidoreductase subunit D [EC:7.1.1.2]
+            K13378  nuoCD; NADH-quinone oxidoreductase subunit C/D [EC:7.1.1.2]
+            K13380  nuoBCD; NADH-quinone oxidoreductase subunit B/C/D [EC:7.1.1.2]
+            K00334  nuoE; NADH-quinone oxidoreductase subunit E [EC:7.1.1.2]
+            K00335  nuoF; NADH-quinone oxidoreductase subunit F [EC:7.1.1.2]
+            K00336  nuoG; NADH-quinone oxidoreductase subunit G [EC:7.1.1.2]
+            K00337  nuoH; NADH-quinone oxidoreductase subunit H [EC:7.1.1.2]
+            K00338  nuoI; NADH-quinone oxidoreductase subunit I [EC:7.1.1.2]
+            K00339  nuoJ; NADH-quinone oxidoreductase subunit J [EC:7.1.1.2]
+            K00340  nuoK; NADH-quinone oxidoreductase subunit K [EC:7.1.1.2]
+            K00341  nuoL; NADH-quinone oxidoreductase subunit L [EC:7.1.1.2]
+            K00342  nuoM; NADH-quinone oxidoreductase subunit M [EC:7.1.1.2]
+            K15863  nuoLM; NADH-quinone oxidoreductase subunit L/M [EC:7.1.1.2]
+            K00343  nuoN; NADH-quinone oxidoreductase subunit N [EC:7.1.1.2]
+CLASS       Pathway modules; Energy metabolism; ATP synthesis
+PATHWAY     map00190  Oxidative phosphorylation
+REACTION    R11945  C00399 + C00004 -> C00390 + C00003
+COMPOUND    C00399  Ubiquinone
+            C00004  NADH
+            C00390  Ubiquinol
+            C00003  NAD+
+///

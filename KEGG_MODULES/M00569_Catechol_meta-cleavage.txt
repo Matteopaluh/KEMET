@@ -1,0 +1,55 @@
+ENTRY       M00569            Pathway   Module
+NAME        Catechol meta-cleavage, catechol => acetyl-CoA / 4-methylcatechol => propanoyl-CoA
+DEFINITION  (K00446,K07104) ((K10217 K01821 K01617),K10216) (K18364,K02554) (K18365,K01666) (K18366,K04073)
+ORTHOLOGY   K00446,K07104  catechol 2,3-dioxygenase [EC:1.13.11.2] [RN:R00816 R05295]
+            K10217  2-hydroxymuconate-6-semialdehyde dehydrogenase [EC:1.2.1.85] [RN:R02762 R05353]
+            K01821  4-oxalocrotonate tautomerase [EC:5.3.2.6] [RN:R03966 R05389]
+            K01617  4-oxalocrotonate decarboxylase [EC:4.1.1.77] [RN:R02602 R05374]
+            K10216  2-hydroxymuconate-semialdehyde hydrolase [EC:3.7.1.9] [RN:R02604 R05865]
+            K18364  2-oxopent-4-enoate/cis-2-oxohex-4-enoate hydratase [EC:4.2.1.80 4.2.1.132] [RN:R02601 R05864]
+            K02554  2-keto-4-pentenoate hydratase [EC:4.2.1.80] [RN:R02601]
+            K18365  4-hydroxy-2-oxovalerate/4-hydroxy-2-oxohexanoate aldolase [EC:4.1.3.39 4.1.3.43] [RN:R00750 R05298]
+            K01666  4-hydroxy 2-oxovalerate aldolase [EC:4.1.3.39] [RN:R00750]
+            K18366  acetaldehyde/propanal dehydrogenase [EC:1.2.1.10 1.2.1.87] [RN:R00228 R09097]
+            K04073  acetaldehyde dehydrogenase [EC:1.2.1.10] [RN:R00228]
+CLASS       Pathway modules; Xenobiotics biodegradation; Aromatics degradation
+PATHWAY     map00362  Benzoate degradation
+            map00622  Xylene degradation
+            map01220  Degradation of aromatic compounds
+            map01100  Metabolic pathways
+            map01120  Microbial metabolism in diverse environments
+REACTION    R00816  C00090 -> C00682
+            R02762  C00682 -> C02501
+            R03966  C02501 -> C03453
+            R02602  C03453 -> C00596
+            R02604  C00682 -> C00596
+            R02601  C00596 -> C03589
+            R00750  C03589 -> C00022 + C00084
+            R00228  C00084 -> C00024
+            R05295  C06730 -> C06760
+            R05353  C06760 -> C07478
+            R05389  C07478 -> C07479
+            R05374  C07479 -> C11354
+            R05865  C06760 -> C11354
+            R05864  C11354 -> C06762
+            R05298  C06762 -> C00022 + C00479
+            R09097  C00479 -> C00100
+COMPOUND    C00090  Catechol
+            C00682  2-Hydroxymuconate semialdehyde
+            C02501  2-Hydroxymuconate
+            C03453  gamma-Oxalocrotonate
+            C00596  2-Hydroxy-2,4-pentadienoate
+            C03589  4-Hydroxy-2-oxopentanoate
+            C00022  Pyruvate
+            C00084  Acetaldehyde
+            C00024  Acetyl-CoA
+            C06730  4-Methylcatechol
+            C06760  2-Hydroxy-5-methyl-cis,cis-muconic semialdehyde
+            C07478  2-Hydroxy-5-methyl-cis,cis-muconate
+            C07479  2-Oxo-5-methyl-cis-muconate
+            C11354  2-Hydroxy-cis-hex-2,4-dienoate
+            C06762  4-Hydroxy-2-oxohexanoic acid
+            C00479  Propanal
+            C00100  Propanoyl-CoA
+RMODULE     RM009  Meta-cleavage of dihydroxylated aromatic ring
+///

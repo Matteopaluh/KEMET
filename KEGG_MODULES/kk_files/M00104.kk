@@ -1,0 +1,13 @@
+M00104_Bile acid biosynthesis, cholesterol => cholate/chenodeoxycholate
+K00489
+K12408
+K07431
+K00251
+K00037
+K00488
+K08748
+K01796
+K10214
+K12405
+K08764
+K11992

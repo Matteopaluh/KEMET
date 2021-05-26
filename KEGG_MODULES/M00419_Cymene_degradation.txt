@@ -1,0 +1,21 @@
+ENTRY       M00419            Pathway   Module
+NAME        Cymene degradation, p-cymene => p-cumate
+DEFINITION  (K10616+K18293) K10617 K10618
+ORTHOLOGY   K10616  cymAa; p-cymene methyl-monooxygenase [EC:1.14.15.25] [RN:R05266]
+            K18293  cymAb; p-cymene methyl-monooxygenase electron transfer component [EC:1.18.1.3] [RN:R05266]
+            K10617  cymB; p-cumic alcohol dehydrogenase [RN:R05232]
+            K10618  cymC; p-cumic aldehyde dehydrogenase [RN:R05235]
+CLASS       Pathway modules; Xenobiotics biodegradation; Aromatics degradation
+PATHWAY     map00622  Xylene degradation
+            map01220  Degradation of aromatic compounds
+            map01100  Metabolic pathways
+            map01120  Microbial metabolism in diverse environments
+REACTION    R05266  C06575 -> C06576
+            R05232  C06576 -> C06577
+            R05235  C06577 -> C06578
+COMPOUND    C06575  p-Cymene
+            C06576  p-Cumic alcohol
+            C06577  4-Isopropylbenzaldehyde
+            C06578  p-Cumate
+RMODULE     RM003  Methyl to carboxyl conversion on aromatic ring
+///

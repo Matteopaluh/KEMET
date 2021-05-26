@@ -1,0 +1,35 @@
+ENTRY       M00097            Pathway   Module
+NAME        beta-Carotene biosynthesis, GGAP => beta-carotene
+DEFINITION  K02291 K02293 K15744 K00514 K09835 K06443
+ORTHOLOGY   K02291  phytoene synthase [EC:2.5.1.32] [RN:R02065 R04218]
+            K02293  15-cis-phytoene desaturase [EC:1.3.5.5] [RN:R09653 R09654]
+            K15744  zeta-carotene isomerase [EC:5.2.1.12] [RN:R09655]
+            K00514  zeta-carotene desaturase [EC:1.3.5.6] [RN:R09656 R09658]
+            K09835  prolycopene isomerase [EC:5.2.1.13] [RN:R07512]
+            K06443  lycopene beta-cyclase [EC:5.5.1.19] [RN:R05341 R03824]
+CLASS       Pathway modules; Biosynthesis of terpenoids and polyketides; Other terpenoid biosynthesis
+PATHWAY     map00906  Carotenoid biosynthesis
+            map01100  Metabolic pathways
+            map01110  Biosynthesis of secondary metabolites
+REACTION    R02065  C00353 -> C03427
+            R04218  C03427 -> C05421 
+            R09653  C05421 -> C19765
+            R09654  C19765 -> C19764
+            R09655  C19764 -> C15857
+            R09656  C15857 -> C19759
+            R09658  C19759 -> C15858
+            R07512  C15858 -> C05432
+            R05341  C05432 -> C05435
+            R03824  C05435 -> C02094
+COMPOUND    C00353  Geranylgeranyl diphosphate
+            C03427  Prephytoene diphosphate
+            C05421  15-cis-Phytoene
+            C19765  15,9'-dicis-Phytofluene
+            C19764  9,15,9'-tricis-zeta-Carotene
+            C15857  9,9'-dicis-zeta-Carotene
+            C19759  7,9,9'-tricis-Neurosporene
+            C15858  7,9,7',9'-tetracis-Lycopene
+            C05432  Lycopene
+            C05435  gamma-Carotene
+            C02094  beta-Carotene
+///

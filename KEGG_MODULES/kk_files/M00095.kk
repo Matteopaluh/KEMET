@@ -1,0 +1,8 @@
+M00095_C5 isoprenoid biosynthesis, mevalonate pathway
+K00626
+K01641
+K00021
+K00869
+K00938, K13273
+K01597
+K01823

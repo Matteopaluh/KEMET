@@ -1,0 +1,36 @@
+ENTRY       M00525            Pathway   Module
+NAME        Lysine biosynthesis, acetyl-DAP pathway, aspartate => lysine
+DEFINITION  K00928 K00133 K01714 K00215 K05822 K00841 K05823 K01778 K01586
+ORTHOLOGY   K00928  aspartate kinase [EC:2.7.2.4] [RN:R00480]
+            K00133  aspartate-semialdehyde dehydrogenase [EC:1.2.1.11] [RN:R02291]
+            K01714  4-hydroxy-tetrahydrodipicolinate synthase [EC:4.3.3.7] [RN:R10147]
+            K00215  4-hydroxy-tetrahydrodipicolinate reductase [EC:1.17.1.8] [RN:R04198 R04199]
+            K05822  tetrahydrodipicolinate N-acetyltransferase [EC:2.3.1.89] [RN:R04364]
+            K00841  aminotransferase [EC:2.6.1.-] [RN:R04467]
+            K05823  N-acetyldiaminopimelate deacetylase [EC:3.5.1.47] [RN:R02733]
+            K01778  diaminopimelate epimerase [EC:5.1.1.7] [RN:R02735]
+            K01586  diaminopimelate decarboxylase [EC:4.1.1.20] [RN:R00451]
+CLASS       Pathway modules; Amino acid metabolism; Lysine metabolism
+PATHWAY     map00300  Lysine biosynthesis
+            map01230  Biosynthesis of amino acids
+            map01100  Metabolic pathways
+REACTION    R00480  C00049 -> C03082
+            R02291  C03082 -> C00441
+            R10147  C00441 -> C20258
+            R04198,R04199  C20258 -> C03972
+            R04364  C03972 -> C05539
+            R04467  C05539 -> C04390
+            R02733  C04390 -> C00666
+            R02735  C00666 -> C00680
+            R00451  C00680 -> C00047
+COMPOUND    C00049  L-Aspartate
+            C03082  4-Phospho-L-aspartate
+            C00441  L-Aspartate 4-semialdehyde
+            C20258  (2S,4S)-4-Hydroxy-2,3,4,5-tetrahydrodipicolinate
+            C03972  2,3,4,5-Tetrahydrodipicolinate
+            C05539  N-Acetyl-L-2-amino-6-oxopimelate
+            C04390  N6-Acetyl-LL-2,6-diaminoheptanedioate
+            C00666  LL-2,6-Diaminoheptanedioate
+            C00680  meso-2,6-Diaminoheptanedioate
+            C00047  L-Lysine
+///

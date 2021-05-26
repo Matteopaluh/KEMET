@@ -1,0 +1,19 @@
+ENTRY       M00642            Signature Module
+NAME        Multidrug resistance, efflux pump MexJK-OprM
+DEFINITION  K18301 (K18302+K18303-K18139)
+ORTHOLOGY   K18301  mexL; TetR/AcrR family transcriptional regulator, mexJK operon transcriptional repressor
+            K18302  mexJ; membrane fusion protein
+            K18303  mexK; multidrug efflux pump
+            K18139  oprM; outer membrane protein
+CLASS       Signature modules; Gene set; Drug resistance
+REFERENCE   PMID:12193619
+  AUTHORS   Chuanchuen R, Narasaki CT, Schweizer HP
+  TITLE     The MexJK efflux pump of Pseudomonas aeruginosa requires OprM for antibiotic efflux but not for efflux of triclosan.
+  JOURNAL   J Bacteriol 184:5036-44 (2002)
+            DOI:10.1128/JB.184.18.5036-5044.2002
+REFERENCE   PMID:17223624
+  AUTHORS   Depardieu F, Podglajen I, Leclercq R, Collatz E, Courvalin P
+  TITLE     Modes and modulations of antibiotic resistance gene expression.
+  JOURNAL   Clin Microbiol Rev 20:79-114 (2007)
+            DOI:10.1128/CMR.00015-06
+///

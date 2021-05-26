@@ -1,0 +1,25 @@
+ENTRY       M00697            Signature Module
+NAME        Multidrug resistance, efflux pump MdtEF-TolC
+DEFINITION  K07690 (K18898+K18899+K12340)
+ORTHOLOGY   K07690  evgA, bvgA; two-component system, NarL family, response regulator EvgA [COG:COG2197] [GO:0000156]
+            K18898  mdtE; membrane fusion protein [COG:COG0845] [TC:8.A.1.6.3 2.A.6.2]
+            K18899  mdtF; multidrug efflux pump [COG:COG0841] [TC:2.A.6.2.13]
+            K12340  tolC; outer membrane channel protein [COG:COG1538] [TC:1.B.17 2.A.6.2]
+CLASS       Signature modules; Gene set; Drug resistance
+COMMENT     Resistance mechanism: limitation of drug accumulation as a result of active drug efflux
+REFERENCE   PMID:11914367
+  AUTHORS   Nishino K, Yamaguchi A
+  TITLE     EvgA of the two-component signal transduction system modulates production of the yhiUV multidrug transporter in Escherichia coli.
+  JOURNAL   J Bacteriol 184:2319-23 (2002)
+            DOI:10.1128/JB.184.8.2319-2323.2002
+REFERENCE   PMID:23034325
+  AUTHORS   Fernandez L, Hancock RE
+  TITLE     Adaptive and mutational resistance: role of porins and efflux pumps in drug resistance.
+  JOURNAL   Clin Microbiol Rev 25:661-81 (2012)
+            DOI:10.1128/CMR.00043-12
+REFERENCE   PMID:14706082
+  AUTHORS   Poole K
+  TITLE     Efflux-mediated multiresistance in Gram-negative bacteria.
+  JOURNAL   Clin Microbiol Infect 10:12-26 (2004)
+            DOI:10.1111/j.1469-0691.2004.00763.x
+///

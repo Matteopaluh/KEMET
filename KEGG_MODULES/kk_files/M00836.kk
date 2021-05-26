@@ -1,0 +1,7 @@
+M00836_Coenzyme F430 biosynthesis, sirohydrochlorin => coenzyme F430
+K22011
+K22012
+K21610, K21611
+K21612
+COMPLEXES_LIST
+K21610+K21611

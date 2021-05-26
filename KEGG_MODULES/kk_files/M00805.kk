@@ -1,0 +1,10 @@
+M00805_Staurosporine biosynthesis, tryptophan => staurosporine
+K20075
+K20076
+K20077, K20078
+K20079
+K20080
+K20081
+K20082
+COMPLEXES_LIST
+K20077+K20078

@@ -1,0 +1,14 @@
+ENTRY       M00086            Pathway   Module
+NAME        beta-Oxidation, acyl-CoA synthesis
+DEFINITION  (K01897,K15013)
+ORTHOLOGY   K01897  long-chain fatty-acid-CoA ligase [EC:6.2.1.3] [RN:R01280]
+            K15013  long-chain-fatty-acid--CoA ligase ACSBG [EC:6.2.1.3] [RN:R01280]
+CLASS       Pathway modules; Lipid metabolism; Fatty acid metabolism
+PATHWAY     map00061  Fatty acid biosynthesis
+            map00071  Fatty acid degradation
+            map01212  Fatty acid metabolism
+            map01100  Metabolic pathways
+REACTION    R01280  C00249 -> C00154
+COMPOUND    C00249  Hexadecanoic acid
+            C00154  Palmitoyl-CoA
+///

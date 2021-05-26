@@ -1,0 +1,28 @@
+ENTRY       M00031            Pathway   Module
+NAME        Lysine biosynthesis, mediated by LysW, 2-aminoadipate => lysine
+DEFINITION  K05826
+            K05827 K05828 K05829 K05830 K05831
+ORTHOLOGY   K05826  alpha-aminoadipate carrier protein LysW
+            K05827  [lysine-biosynthesis-protein LysW]---L-2-aminoadipate ligase [EC:6.3.2.43] [RN:R09775]
+            K05828  LysW-gamma-L-alpha-aminoadipate kinase [EC:2.7.2.-] [RN:R09776]
+            K05829  LysW-gamma-L-alpha-aminoadipyl-6-phosphate reductase [EC:1.2.1.-] [RN:R09777]
+            K05830  LysW-gamma-L-lysine aminotransferase [EC:2.6.1.-] [RN:R09778]
+            K05831  LysW-gamma-L-lysine carboxypeptidase [RN:R09779]
+CLASS       Pathway modules; Amino acid metabolism; Lysine metabolism
+PATHWAY     map00300  Lysine biosynthesis
+            map01210  2-Oxocarboxylic acid metabolism
+            map01230  Biosynthesis of amino acids
+            map01100  Metabolic pathways
+REACTION    R09775  C00956 -> C19886
+            R09776  C19886 -> C19887
+            R09777  C19887 -> C19888
+            R09778  C19888 -> C19889
+            R09779  C19889 -> C00047
+COMPOUND    C00956  L-2-Aminoadipate
+            C19886  LysW-gamma-L-alpha-aminoadipate
+            C19887  LysW-gamma-L-alpha-aminoadipyl 6-phosphate
+            C19888  LysW-gamma-L-alpha-aminoadipate 6-semialdehyde
+            C19889  LysW-gamma-L-lysine
+            C00047  L-Lysine
+RMODULE     RM002  Carboxyl to amino conversion using protective N-acetyl group (basic amino acid synthesis)
+///

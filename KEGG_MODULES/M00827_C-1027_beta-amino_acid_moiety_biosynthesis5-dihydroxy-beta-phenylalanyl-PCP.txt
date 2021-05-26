@@ -1,0 +1,23 @@
+ENTRY       M00827            Pathway   Module
+NAME        C-1027 beta-amino acid moiety biosynthesis, tyrosine => 3-chloro-4,5-dihydroxy-beta-phenylalanyl-PCP
+DEFINITION  K21183
+            K21181 K21182 K16431 K21184 K21185
+ORTHOLOGY   K21183  sgcC2; peptidyl carrier protein
+            K21181  sgcC4; MIO-dependent L-tyrosine 2,3-aminomutase [EC:5.4.3.6] [RN:R11366]
+            K21182  sgcC1; (S)-beta-tyrosine adenylation enzyme [EC:6.2.1.-] [RN:R11367]
+            K16431  sgcC3; FAD-dependent halogenase [EC:1.14.19.-] [RN:R11368]
+            K21184  sgcC; two-component FAD-dependent monooxygenase [EC:1.14.14.15 1.14.14.-] [RN:R10731]
+            K21185  sgcE6; flavin reductase
+CLASS       Pathway modules; Biosynthesis of terpenoids and polyketides; Enediyne biosynthesis
+PATHWAY     map01059  Biosynthesis of enediyne antibiotics
+            map01130  Biosynthesis of antibiotics
+REACTION    R11366  C00082 -> C21308
+            R11367  C21308 -> C21309
+            R11368  C21309 -> C20810
+            R10731  C20810 -> C11449
+COMPOUND    C00082  L-Tyrosine
+            C21308  (S)-beta-Tyrosine
+            C21309  (S)-beta-Tyrosyl-[pcp]
+            C20810  (S)-3-Chloro-beta-tyrosyl-[pcp]
+            C11449  (S)-3-Chloro-4,5-dihydroxy-beta-phenylalanyl-[pcp]
+///

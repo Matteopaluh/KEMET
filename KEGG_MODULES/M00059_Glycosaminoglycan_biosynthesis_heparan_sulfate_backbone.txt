@@ -1,0 +1,19 @@
+ENTRY       M00059            Pathway   Module
+NAME        Glycosaminoglycan biosynthesis, heparan sulfate backbone
+DEFINITION  (K02369,K02370) (K02366,K02367) (K02368,K02370) (K02576,K02577,K02578,K02579) K01793
+ORTHOLOGY   K02369,K02370  alpha-1,4-N-acetylglucosaminyltransferase [EC:2.4.1.223] [RN:R05930]
+            K02366,K02367  glucuronyltransferase [EC:2.4.1.225] [RN:R05935]
+            K02368,K02370  alpha-1,4-N-acetylglucosaminyltransferase [EC:2.4.1.224] [RN:R05936]
+            K02576,K02577,K02578,K02579  heparan sulfate N-deacetylase/N-sulfotransferase NDST [EC:3.1.1.- 2.8.2.-]
+            K01793  heparosan-N-sulfate-glucuronate 5-epimerase [EC:5.1.3.17]
+CLASS       Pathway modules; Glycan metabolism; Glycosaminoglycan metabolism
+PATHWAY     map00534  Glycosaminoglycan biosynthesis - heparan sulfate / heparin
+            map01100  Metabolic pathways
+REACTION    R05930  G00157 -> G00162
+            R05935  G00162 -> G00163
+            R05936  G00163 -> G00164
+COMPOUND    G00157  (Gal)2 (GlcA)1 (Xyl)1 (Ser)1
+            G00162  (Gal)2 (GlcA)1 (GlcNAc)1 (Xyl)1 (Ser)1
+            G00163  (Gal)2 (GlcA)2 (GlcNAc)1 (Xyl)1 (Ser)1
+            G00164  (Gal)2 (GlcA)2 (GlcNAc)2 (Xyl)1 (Ser)1
+///

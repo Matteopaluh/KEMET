@@ -1,0 +1,24 @@
+ENTRY       M00854            Pathway   Module
+NAME        Glycogen biosynthesis, glucose-1P => glycogen/starch
+DEFINITION  (K00963 ((K00693+K00750),K16150,K16153,K13679,K20812)),(K00975 (K00703,K13679,K20812)) (K00700,K16149)
+ORTHOLOGY   K00963  UTP--glucose-1-phosphate uridylyltransferase [EC:2.7.7.9] [RN:R00289]
+            K00693,K00750,K16150,K16153  glycogen synthase [EC:2.4.1.11] [RN:R00292]
+            K13679,K20812  granule-bound starch synthase [EC:2.4.1.242] [RN:R00292]
+            K00975  glucose-1-phosphate adenylyltransferase [EC:2.7.7.27] [RN:R00948]
+            K00703  starch synthase [EC:2.4.1.21] [RN:R02421]
+            K13679,K20812  granule-bound starch synthase [EC:2.4.1.242] [RN:R02421]
+            K00700,K16149  1,4-alpha-glucan branching enzyme [EC:2.4.1.18] [RN:R02110]
+CLASS       Pathway modules; Carbohydrate metabolism; Other carbohydrate metabolism
+PATHWAY     map00500  Starch and sucrose metabolism
+            map01100  Metabolic pathways
+REACTION    R00289  C00103 -> C00029
+            R00292  C00029 -> C00718
+            R00948  C00103 -> C00498
+            R02421  C00498 -> C00718
+            R02110  C00718 -> C00369
+COMPOUND    C00103  D-Glucose 1-phosphate
+            C00029  UDP-glucose
+            C00718  Amylose
+            C00498  ADP-glucose
+            C00369  Starch
+///

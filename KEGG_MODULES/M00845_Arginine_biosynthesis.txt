@@ -1,0 +1,45 @@
+ENTRY       M00845            Pathway   Module
+NAME        Arginine biosynthesis, glutamate => acetylcitrulline => arginine
+DEFINITION  K22478 K00145 K00821 K09065 K01438 K01940 K01755
+ORTHOLOGY   K22478  K22478; bifunctional N-acetylglutamate synthase/kinase [EC:2.3.1.1 2.7.2.8] [RN:R00259 R02649]
+            K00145  argC; N-acetyl-gamma-glutamyl-phosphate reductase [EC:1.2.1.38] [RN:R03443]
+            K00821  argD; acetylornithine aminotransferase [EC:2.6.1.11] [RN:R02283]
+            K09065  argF; N-acetylornithine carbamoyltransferase [EC:2.1.3.9] [RN:R07245]
+            K01438  argE; acetylornithine deacetylase [EC:3.5.1.16] [RN:R09107]
+            K01940  argG; argininosuccinate synthase [EC:6.3.4.5] [RN: R01954]
+            K01755  argH; argininosuccinate lyase [EC:4.3.2.1] [RN:R01086]
+CLASS       Pathway modules; Amino acid metabolism; Arginine and proline metabolism
+PATHWAY     map00220  Arginine biosynthesis
+            map01230  Biosynthesis of amino acids
+            map01100  Metabolic pathways
+REACTION    R00259  C00025 -> C00624
+            R02649  C00624 -> C04133
+            R03443  C04133 -> C01250
+            R02283  C01250 -> C00437
+            R07245  C00437 + C00169 -> C15532
+            R09107  C15532 -> C00327
+            R01954  C00327 + C00049 -> C03406
+            R01086  C03406 -> C00062 + C00122
+COMPOUND    C00025  L-Glutamate
+            C00624  N-Acetyl-L-glutamate
+            C04133  N-Acetyl-L-glutamate 5-phosphate
+            C01250  N-Acetyl-L-glutamate 5-semialdehyde
+            C00437  N-Acetylornithine
+            C00169  Carbamoyl phosphate
+            C15532  N-Acetyl-L-citrulline
+            C00327  L-Citrulline
+            C00049  L-Aspartate
+            C03406  N-(L-Arginino)succinate
+            C00062  L-Arginine
+            C00122  Fumarate
+REFERENCE   PMID:16585758
+  AUTHORS   Morizono H, Cabrera-Luque J, Shi D, Gallegos R, Yamaguchi S, Yu X, Allewell NM, Malamy MH, Tuchman M
+  TITLE     Acetylornithine transcarbamylase: a novel enzyme in arginine biosynthesis.
+  JOURNAL   J Bacteriol 188:2974-82 (2006)
+            DOI:10.1128/JB.188.8.2974-2982.2006
+REFERENCE   PMID:17347518
+  AUTHORS   Xu Y, Labedan B, Glansdorff N
+  TITLE     Surprising arginine biosynthesis: a reappraisal of the enzymology and evolution of the pathway in microorganisms.
+  JOURNAL   Microbiol Mol Biol Rev 71:36-47 (2007)
+            DOI:10.1128/MMBR.00032-06
+///

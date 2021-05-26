@@ -1,0 +1,30 @@
+ENTRY       M00698            Signature Module
+NAME        Multidrug resistance, efflux pump BpeEF-OprC
+DEFINITION  K18900 (K18901+K18902+K18903)
+ORTHOLOGY   K18900  bpeT; LysR family transcriptional regulator, regulator for bpeEF and oprC [COG:COG0583]
+            K18901  bpeE; membrane fusion protein [COG:COG0845] [TC:8.A.1 2.A.6.2]
+            K18902  bpeF; multidrug efflux pump [COG:COG0841] [TC:2.A.6.2]
+            K18903  oprC, opcM; outer membrane protein [COG:COG1538] [TC:1.B.17.3.3]
+CLASS       Signature modules; Gene set; Drug resistance
+COMMENT     Resistance mechanism: limitation of drug accumulation as a result of active drug efflux
+REFERENCE   PMID:17005832
+  AUTHORS   Kumar A, Chua KL, Schweizer HP
+  TITLE     Method for regulated expression of single-copy efflux pump genes in a surrogate Pseudomonas aeruginosa strain: identification of the BpeEF-OprC chloramphenicol and trimethoprim efflux pump of Burkholderia pseudomallei 1026b.
+  JOURNAL   Antimicrob Agents Chemother 50:3460-3 (2006)
+            DOI:10.1128/AAC.00440-06
+REFERENCE   PMID:23231488
+  AUTHORS   Schweizer HP
+  TITLE     Mechanisms of antibiotic resistance in Burkholderia pseudomallei: implications for treatment of melioidosis.
+  JOURNAL   Future Microbiol 7:1389-99 (2012)
+            DOI:10.2217/fmb.12.116
+REFERENCE   PMID:23034325
+  AUTHORS   Fernandez L, Hancock RE
+  TITLE     Adaptive and mutational resistance: role of porins and efflux pumps in drug resistance.
+  JOURNAL   Clin Microbiol Rev 25:661-81 (2012)
+            DOI:10.1128/CMR.00043-12
+REFERENCE   PMID:20696879
+  AUTHORS   Coyne S, Rosenfeld N, Lambert T, Courvalin P, Perichon B
+  TITLE     Overexpression of resistance-nodulation-cell division pump AdeFGH confers multidrug resistance in Acinetobacter baumannii.
+  JOURNAL   Antimicrob Agents Chemother 54:4389-93 (2010)
+            DOI:10.1128/AAC.00155-10
+///

@@ -1,0 +1,34 @@
+ENTRY       M00036            Pathway   Module
+NAME        Leucine degradation, leucine => acetoacetate + acetyl-CoA
+DEFINITION  K00826 ((K00166+K00167,K11381)+K09699+K00382) (K00253,K00249) (K01968+K01969) (K05607,K13766) K01640
+ORTHOLOGY   K00826  branched-chain amino acid aminotransferase [EC:2.6.1.42] [RN:R01090]
+            K00166+K00167,K11381  2-oxoisovalerate dehydrogenase [EC:1.2.4.4] [RN:R07601 R07602]
+            K09699  2-oxoisovalerate dehydrogenase [EC:2.3.1.168] [RN:R04097]
+            K00382  dihydrolipoamide dehydrogenase [EC:1.8.1.4] [RN:R07618]
+            K00253  isovaleryl-CoA dehydrogenase [EC:1.3.99.10] [RN:R04095]
+            K00249  acyl-CoA dehydrogenase [EC:1.3.8.7] [RN:R04095]
+            K01968+K01969  3-methylcrotonyl-CoA carboxylase [EC:6.4.1.4] [RN:R04138]
+            K05607,K13766  methylglutaconyl-CoA hydratase [EC:4.2.1.18] [RN:R02085]
+            K01640  hydroxymethylglutaryl-CoA lyase [EC:4.1.3.4] [RN:R01360]
+CLASS       Pathway modules; Amino acid metabolism; Branched-chain amino acid metabolism
+PATHWAY     map00280  Valine, leucine and isoleucine degradation
+            map01100  Metabolic pathways
+REACTION    R01090  C00123 -> C00233
+            R07601+R07602  C00233 + C15972 -> C15975
+            R04097  C15975 -> C02939 + C15973
+            R07618  C15973 -> C15972
+            R04095  C02939 -> C03069
+            R04138  C03069 -> C03231
+            R02085  C03231 -> C00356
+            R01360  C00356 -> C00164
+COMPOUND    C00123  L-Leucine
+            C00233  4-Methyl-2-oxopentanoate
+            C15972  Enzyme N6-(lipoyl)lysine
+            C15975  [Dihydrolipoyllysine-residue (2-methylpropanoyl)transferase] S-(3-methylbutanoyl)dihydrolipoyllysine
+            C02939  3-Methylbutanoyl-CoA
+            C15973  Enzyme N6-(dihydrolipoyl)lysine
+            C03069  3-Methylcrotonyl-CoA
+            C03231  3-Methylglutaconyl-CoA
+            C00356  (S)-3-Hydroxy-3-methylglutaryl-CoA
+            C00164  Acetoacetate
+///

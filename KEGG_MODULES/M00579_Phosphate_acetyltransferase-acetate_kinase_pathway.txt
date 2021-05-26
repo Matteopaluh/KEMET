@@ -1,0 +1,23 @@
+ENTRY       M00579            Pathway   Module
+NAME        Phosphate acetyltransferase-acetate kinase pathway, acetyl-CoA => acetate
+DEFINITION  (K00625,K13788,K15024) K00925
+ORTHOLOGY   K00625,K13788,K15024  phosphate acetyltransferase [EC:2.3.1.8] [RN:R00230]
+            K00925  acetate kinase [EC:2.7.2.1] [RN:R00315]
+CLASS       Pathway modules; Energy metabolism; Carbon fixation
+PATHWAY     map00430  Taurine and hypotaurine metabolism
+            map00620  Pyruvate metabolism
+            map00720  Carbon fixation pathways in prokaryotes
+            map01200  Carbon metabolism
+            map01100  Metabolic pathways
+            map01120  Microbial metabolism in diverse environments
+REACTION    R00230  C00024 -> C00227
+            R00315  C00227 -> C00033
+COMPOUND    C00024  Acetyl-CoA
+            C00227  Acetyl phosphate
+            C00033  Acetate
+REFERENCE   PMID:15755952
+  AUTHORS   Wolfe AJ
+  TITLE     The acetate switch.
+  JOURNAL   Microbiol Mol Biol Rev 69:12-50 (2005)
+            DOI:10.1128/MMBR.69.1.12-50.2005
+///

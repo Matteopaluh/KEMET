@@ -1,0 +1,41 @@
+ENTRY       M00805            Pathway   Module
+NAME        Staurosporine biosynthesis, tryptophan => staurosporine
+DEFINITION  K20075 K20076 (K20077+K20078) K20079 K20080 K20081 K20082
+ORTHOLOGY   K20075  staO; tryptophan oxidase StaO [EC:1.4.3.-] [RN:R11119]
+            K20076  staD; chromopyrrolic acid synthase [RN:R11120]
+            K20077  staC; flavin-dependent monooxygenase StaC [EC:1.13.12.-] [RN:R11121]
+            K20078  staP; cytochrome P450 StaP [EC:1.13.12.-] [RN:R11121]
+            K20079  staG; N-glycosyltransferase StaG [EC:2.4.-.-] [RN:R11122]
+            K20080  staN; cytochrome P450 StaN [EC:1.14.-.-] [RN:R11123]
+            K20081  staMA; N-methyltransferase StaMA [EC:2.1.1.-] [RN:R11129]
+            K20082  staMB; O-methyltransferase StaMB [EC:2.1.1.139] [RN:R05757]
+CLASS       Pathway modules; Biosynthesis of other secondary metabolites; Biosynthesis of other secondary metabolites
+PATHWAY     map00404  Staurosporine biosynthesis
+            map01100  Metabolic pathways
+            map01130  Biosynthesis of antibiotics
+REACTION    R11119  C00078 -> C21124 
+            R11120  C21124 -> C21125
+            R11121  C21125 -> C21126
+            R11122  C21126 -> C21127
+            R11123  C21127 -> C21128
+            R11129  C21128 -> C07349
+            R05757  C07349 -> C02079
+COMPOUND    C00078  L-Tryptophan
+            C21124  IPA imine
+            C21125  Chromopyrrolate
+            C21126  K-252c
+            C21127  Holyrine A
+            C21128  O-Demethyl-N-demethyl-staurosporine
+            C07349  3'-Demethylstaurosporine
+            C02079  Staurosporine
+REFERENCE   PMID:12617516
+  AUTHORS   Onaka H, Taniguchi S, Igarashi Y, Furumai T
+  TITLE     Cloning of the staurosporine biosynthetic gene cluster from Streptomyces sp. TP-A0274 and its heterologous expression in Streptomyces lividans.
+  JOURNAL   J Antibiot (Tokyo) 55:1063-71 (2002)
+            DOI:10.7164/antibiotics.55.1063
+REFERENCE   PMID:17119643
+  AUTHORS   Sanchez C, Mendez C, Salas JA
+  TITLE     Indolocarbazole natural products: occurrence, biosynthesis, and biological activity.
+  JOURNAL   Nat Prod Rep 23:1007-45 (2006)
+            DOI:10.1039/b601930g
+///

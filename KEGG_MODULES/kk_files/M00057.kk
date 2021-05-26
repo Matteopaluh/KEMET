@@ -1,0 +1,5 @@
+M00057_Glycosaminoglycan biosynthesis, linkage tetrasaccharide
+K00771
+K00733
+K00734
+K10158

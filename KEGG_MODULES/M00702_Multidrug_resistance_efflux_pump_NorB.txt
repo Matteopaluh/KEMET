@@ -1,0 +1,29 @@
+ENTRY       M00702            Signature Module
+NAME        Multidrug resistance, efflux pump NorB
+DEFINITION  (K18906,K18907) K08170
+ORTHOLOGY   K18906  mgrA; MarR family transcriptional regulator, multiple gene regulator MgrA [COG:COG1846]
+            K18907  norG; GntR family transcriptional regulator, regulator for abcA and norABC [COG:COG1167]
+            K08170  BLTL; MFS transporter, DHA2 family, multidrug resistance protein [COG:COG0477] [TC:2.A.1.3]
+CLASS       Signature modules; Gene set; Drug resistance
+COMMENT     Resistance mechanism: limitation of drug accumulation as a result of active drug efflux
+REFERENCE   PMID:15774883
+  AUTHORS   Truong-Bolduc QC, Dunman PM, Strahilevitz J, Projan SJ, Hooper DC
+  TITLE     MgrA is a multiple regulator of two new efflux pumps in Staphylococcus aureus.
+  JOURNAL   J Bacteriol 187:2395-405 (2005)
+            DOI:10.1128/JB.187.7.2395-2405.2005
+REFERENCE   PMID:17277059
+  AUTHORS   Truong-Bolduc QC, Hooper DC
+  TITLE     The transcriptional regulators NorG and MgrA modulate resistance to both quinolones and beta-lactams in Staphylococcus aureus.
+  JOURNAL   J Bacteriol 189:2996-3005 (2007)
+            DOI:10.1128/JB.01819-06
+REFERENCE   PMID:21908673
+  AUTHORS   Truong-Bolduc QC, Dunman PM, Eidem T, Hooper DC
+  TITLE     Transcriptional profiling analysis of the global regulator NorG, a GntR-like protein of Staphylococcus aureus.
+  JOURNAL   J Bacteriol 193:6207-14 (2011)
+            DOI:10.1128/JB.05847-11
+REFERENCE   PMID:23034325
+  AUTHORS   Fernandez L, Hancock RE
+  TITLE     Adaptive and mutational resistance: role of porins and efflux pumps in drug resistance.
+  JOURNAL   Clin Microbiol Rev 25:661-81 (2012)
+            DOI:10.1128/CMR.00043-12
+///

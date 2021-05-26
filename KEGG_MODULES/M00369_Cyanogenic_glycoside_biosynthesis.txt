@@ -1,0 +1,22 @@
+ENTRY       M00369            Pathway   Module
+NAME        Cyanogenic glycoside biosynthesis, tyrosine => dhurrin
+DEFINITION  K13027 K13029 K13030
+ORTHOLOGY   K13027  tyrosine N-monooxygenase [EC:1.14.14.36] [RN:R00730 R04460 R07190]
+            K13029  4-hydroxyphenylacetaldehyde oxime monooxygenase [EC:1.14.14.37] [RN:R05728]
+            K13030  cyanohydrin beta-glucosyltransferase [EC:2.4.1.85] [RN:R04296]
+CLASS       Pathway modules; Amino acid metabolism; Other amino acid metabolism
+PATHWAY     map00460  Cyanoamino acid metabolism
+            map01100  Metabolic pathways
+            map01110  Biosynthesis of secondary metabolites
+REACTION    R00730  C00082 -> C03004
+            R04460  C03004 -> C15503
+            R07190  C15503 -> C04350
+            R05728  C04350 -> C03742
+            R04296  C03742 -> C05143
+COMPOUND    C00082  L-Tyrosine
+            C03004  N-Hydroxy-L-tyrosine
+            C15503  N,N-Dihydroxy-L-tyrosine
+            C04350  (E)-4-Hydroxyphenylacetaldehyde oxime
+            C03742  (S)-4-Hydroxymandelonitrile
+            C05143  Dhurrin
+///

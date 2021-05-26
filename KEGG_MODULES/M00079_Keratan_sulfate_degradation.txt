@@ -1,0 +1,23 @@
+ENTRY       M00079            Pathway   Module
+NAME        Keratan sulfate degradation
+DEFINITION  -- K01132 K12309 K01137 K12373
+ORTHOLOGY   K01132  N-acetylgalactosamine-6-sulfatase [EC:3.1.6.4] [RN:R07806]
+            K12309  beta-galactosidase [EC:3.2.1.23] [RN:R07807]
+            K01137  N-acetylglucosamine-6-sulfatase [EC:3.1.6.14] [RN:R07808]
+            K12373  beta-hexosaminidase [EC:3.2.1.52] [RN:R07809 R07810]
+CLASS       Pathway modules; Glycan metabolism; Glycosaminoglycan metabolism
+PATHWAY     map00531  Glycosaminoglycan degradation
+            map01100  Metabolic pathways
+REACTION    R07805  C00573 -> G01945
+            R07806  G01945 -> G01977
+            R07807  G01977 -> G13073
+            R07808  G13073 -> G13074
+            R07809  G13074 -> G01391
+            R07810  G13073 -> G01391
+COMPOUND    C00573  Keratan sulfate
+            G01945
+            G01977
+            G13073
+            G13074
+            G01391
+///

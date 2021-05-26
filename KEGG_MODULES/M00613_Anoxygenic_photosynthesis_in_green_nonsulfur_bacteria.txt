@@ -1,0 +1,29 @@
+ENTRY       M00613            Signature Module
+NAME        Anoxygenic photosynthesis in green nonsulfur bacteria
+DEFINITION  M00597 M00376
+ORTHOLOGY   (M00597  Anoxygenic photosystem II)
+            K08928  pufL; photosynthetic reaction center L subunit
+            K08929  pufM; photosynthetic reaction center M subunit
+            (M00376  3-Hydroxypropionate bi-cycle)
+            K01961+K01962+K01963  acetyl-CoA carboxylase carboxyl transferase
+            K02160  acetyl-CoA carboxylase biotin carboxyl carrier protein
+            K14468  malonyl-CoA reductase / 3-hydroxypropionate dehydrogenase (NADP+)
+            K15017  succinyl-CoA reductase (NADPH)
+            K15039  3-hydroxypropionate dehydrogenase (NADP+)
+            K14469  acrylyl-CoA reductase (NADPH) / 3-hydroxypropionyl-CoA dehydratase / 3-hydroxypropionyl-CoA synthetase
+            K15018  3-hydroxypropionyl-coenzyme A synthetase
+            K15019  3-hydroxypropionyl-coenzyme A dehydratase
+            K15020  acryloyl-coenzyme A reductase
+            K01965+K01966  propionyl-CoA carboxylase
+            K15052  propionyl-CoA carboxylase
+            K05606  methylmalonyl-CoA epimerase
+            K01847,K01848+K01849,K11942  methylmalonyl-CoA mutase
+            K14471+K14472  succinyl-CoA:(S)- malate CoA transferase
+            K00239+K00240-K00241-K00242,K00244+K00245+K00246+K00247  succinate dehydrogenase
+            K01676,K01679,K01677+K01678  fumarate hydratase
+            K08691  malyl-CoA lyase
+            K14449  mesaconyl-CoA hydratase
+            K14470  mesaconyl-CoA C1-C4 CoA transferase
+            K09709  mesaconyl-C4 CoA hydratase
+CLASS       Signature modules; Module set; Metabolic capacity
+///

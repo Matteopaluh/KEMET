@@ -1,0 +1,25 @@
+ENTRY       M00145            Complex   Module
+NAME        NAD(P)H:quinone oxidoreductase, chloroplasts and cyanobacteria
+DEFINITION  (K05574+K05582+K05581+K05579+K05572+K05580+K05578+K05576+K05577+K05575+K05573-K05583-K05584-K05585)
+ORTHOLOGY   K05574  ndhC; NAD(P)H-quinone oxidoreductase subunit 3 [EC:7.1.1.2]
+            K05582  ndhK; NAD(P)H-quinone oxidoreductase subunit K [EC:7.1.1.2]
+            K05581  ndhJ; NAD(P)H-quinone oxidoreductase subunit J [EC:7.1.1.2]
+            K05579  ndhH; NAD(P)H-quinone oxidoreductase subunit H [EC:7.1.1.2]
+            K05572  ndhA; NAD(P)H-quinone oxidoreductase subunit 1 [EC:7.1.1.2]
+            K05580  ndhI; NAD(P)H-quinone oxidoreductase subunit I [EC:7.1.1.2]
+            K05578  ndhG; NAD(P)H-quinone oxidoreductase subunit 6 [EC:7.1.1.2]
+            K05576  ndhE; NAD(P)H-quinone oxidoreductase subunit 4L [EC:7.1.1.2]
+            K05577  ndhF; NAD(P)H-quinone oxidoreductase subunit 5 [EC:7.1.1.2]
+            K05575  ndhD; NAD(P)H-quinone oxidoreductase subunit 4 [EC:7.1.1.2]
+            K05573  ndhB; NAD(P)H-quinone oxidoreductase subunit 2 [EC:7.1.1.2]
+            K05583  ndhL; NAD(P)H-quinone oxidoreductase subunit L [EC:7.1.1.2]
+            K05584  ndhM; NAD(P)H-quinone oxidoreductase subunit M [EC:7.1.1.2]
+            K05585  ndhN; NAD(P)H-quinone oxidoreductase subunit N [EC:7.1.1.2]
+CLASS       Pathway modules; Energy metabolism; ATP synthesis
+PATHWAY     map00190  Oxidative phosphorylation
+REACTION    R11945  C00399 + C00004 -> C00390 + C00003
+COMPOUND    C00399  Ubiquinone
+            C00004  NADH
+            C00390  Ubiquinol
+            C00003  NAD+
+///

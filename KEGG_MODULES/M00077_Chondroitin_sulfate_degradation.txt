@@ -1,0 +1,17 @@
+ENTRY       M00077            Pathway   Module
+NAME        Chondroitin sulfate degradation
+DEFINITION  K01135 K01197 K01195 K01132
+ORTHOLOGY   K01135  arylsulfatase B [EC:3.1.6.12] [RN:R07823]
+            K01197  hyaluronoglucosaminidase [EC:3.2.1.35] [RN:R07824]
+            K01195  beta-glucuronidase [EC:3.2.1.31]
+            K01132  N-acetylgalactosamine-6-sulfatase [EC:3.1.6.4]
+CLASS       Pathway modules; Glycan metabolism; Glycosaminoglycan metabolism
+PATHWAY     map00531  Glycosaminoglycan degradation
+            map01100  Metabolic pathways
+REACTION    R07823  G12336 -> G13043
+            R07824  G13043 -> G00872
+COMPOUND    C00634  Chondroitin 4-sulfate
+            G12336
+            G13043
+            G00872  DWA-2
+///

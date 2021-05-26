@@ -1,0 +1,24 @@
+ENTRY       M00568            Pathway   Module
+NAME        Catechol ortho-cleavage, catechol => 3-oxoadipate
+DEFINITION  K03381 K01856 K03464 (K01055,K14727)
+ORTHOLOGY   K03381  catechol 1,2-dioxygenase [EC:1.13.11.1] [RN:R00817]
+            K01856  muconate cycloisomerase [EC:5.5.1.1] [RN:R06989]
+            K03464  muconolactone D-isomerase [EC:5.3.3.4] [RN:R06990]
+            K01055  3-oxoadipate enol-lactonase [EC:3.1.1.24] [RN:R02991]
+            K14727  oxoadipate enol-lactonase / 4-carboxymuconolactone decarboxylase [EC:3.1.1.24 4.1.1.44]
+CLASS       Pathway modules; Xenobiotics biodegradation; Aromatics degradation
+PATHWAY     map00362  Benzoate degradation
+            map01220  Degradation of aromatic compounds
+            map01100  Metabolic pathways
+            map01120  Microbial metabolism in diverse environments
+REACTION    R00817  C00090 -> C02480
+            R06989  C02480 -> C14610
+            R06990  C14610 -> C03586
+            R02991  C03586 -> C00846
+COMPOUND    C00090  Catechol
+            C02480  cis,cis-Muconate
+            C14610  (S)-5-Oxo-2,5-dihydrofuran-2-acetate
+            C03586  2-Oxo-2,3-dihydrofuran-5-acetate
+            C00846  3-Oxoadipate
+RMODULE     RM008  Ortho-cleavage of dihydroxylated aromatic ring (beta-ketoadipate pathway)
+///

@@ -1,0 +1,18 @@
+ENTRY       M00138            Pathway   Module
+NAME        Flavonoid biosynthesis, naringenin => pelargonidin
+DEFINITION  K00475 K13082 K05277
+ORTHOLOGY   K00475  naringenin 3-dioxygenase [EC:1.14.11.9] [RN:R02444]
+            K13082  dihydroflavonol-4-reductase [EC:1.1.1.219] [RN:R03123]
+            K05277  anthocyanidin synthase [EC:1.14.20.4] [RN:R04276]
+CLASS       Pathway modules; Biosynthesis of other secondary metabolites; Biosynthesis of other secondary metabolites
+PATHWAY     map00941  Flavonoid biosynthesis
+            map01100  Metabolic pathways
+            map01110  Biosynthesis of secondary metabolites
+REACTION    R02444  C00509 -> C00974
+            R03123  C00974 -> C03648
+            R04276  C03648 -> C05904
+COMPOUND    C00509  Naringenin
+            C00974  Dihydrokaempferol
+            C03648  cis-3,4-Leucopelargonidin
+            C05904  Pelargonidin
+///

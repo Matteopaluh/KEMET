@@ -1,0 +1,56 @@
+ENTRY       M00778            Pathway   Module
+NAME        Type II polyketide backbone biosynthesis, acyl-CoA + malonyl-CoA => polyketide
+DEFINITION  (K05551+K05552+K05553) -K12420 ((K05554,K14249,K15884,K15885) (K05555,K14250),K15886)
+ORTHOLOGY   K05551  actI1, oxyA, tcmK, snoa1, mtmP; minimal PKS ketosynthase (KS/KS alpha) [EC:2.3.1.- 2.3.1.260 2.3.1.235] [RN:R09258 R09259 R11516 R06643]
+            K05552  actI2, oxyB, tcmL, snoa2, mtmK; minimal PKS chain-length factor (CLF/KS beta) [EC:2.3.1.- 2.3.1.260 2.3.1.235] [RN:R09258 R09259 R11516 R06643]
+            K05553  actI3, oxyC, tcmM, snoa3, mtmS; minimal PKS acyl carrier protein [RN:R09258 R09259 R11516 R06643]
+            K12420  actIII, oxyJ, snoaD; ketoreductase [EC:1.1.1.-] [RN:R09262 R06642 R09263]
+            K05554  actVII; aromatase [EC:4.2.1.-] [RN:R09265]
+            K14249  oxyK; bifunctional cyclase/aromatase [EC:4.2.1.-] [RN:R09187]
+            K15884  snoaE; bifunctional aromatase (cyclase/dehydratase) [EC:4.2.1.-] [RN:R09266]
+            K15885  mtmQ; C7-C12 aromatase (ARO/CYC) [EC:4.2.1.-] [RN:R09268]
+            K05555  actIV; cyclase [EC:4.-.-.-] [RN:R09305]
+            K14250  oxyN, snoaM, mtmY; cyclase [RN:R09188 R09325 R09350]
+            K15886  tcmN; multifunctional cyclase / dehydratase / O-methyltransferase [EC:2.3.1.235] [RN:R09269 R09355]
+CLASS       Pathway modules; Biosynthesis of terpenoids and polyketides; Type II polyketide biosynthesis
+PATHWAY     map01056  Biosynthesis of type II polyketide backbone
+            map00253  Tetracycline biosynthesis
+            map01100  Metabolic pathways
+            map01130  Biosynthesis of antibiotics
+REACTION    R09258  C00083 -> C12348
+            R09259  C12348 -> C18327
+            R09262  C18327 -> C18328
+            R09265  C18328 -> C18329
+            R09305  C18329 -> C18353
+            R11516  C21430 + C00083 -> C12441
+            R06642  C12441 -> C12442
+            R09187  C12442 -> C18293
+            R09188  C18293 -> C18294
+            R06643  C00083 -> C12354
+            R09260  C12354 -> C18330
+            R09263  C18330 -> C18331
+            R09266  C18331 -> C18332
+            R09325  C18332 -> C18629
+            R09268  C12354 -> C18336
+            R09350  C18336 -> C18709
+            R09269  C12354 -> C18337
+COMPOUND    C00083  Malonyl-CoA
+            C12348  3,5,7,9,11,13,15-Heptaoxo-hexadecanoyl-[acp]
+            C18327  7,9,12-Octaketide intermediate 1
+            C18328  7,9,12-Octaketide intermediate 2
+            C18329  7,9,12-Octaketide intermediate 3
+            C18353  Octaketide bicyclic intermediate
+            C21430  Malonamoyl-[acyl-carrier protein]
+            C12441  18-Carbamoyl-3,5,7,9,11,13,15,17-octaoxooctadecanoyl-[acp]
+            C12442  C-9 Reduced nonaketamide
+            C18293  Nonaketamide monocyclic intermediate
+            C18294  Nonaketamide tricyclic intermediate
+            C12354  3,5,7,9,11,13,15,17,19-Nonaoxo-eicosanoyl-[acp]
+            C18330  7,9,12-Decaketide intermediate 1
+            C18331  7,9,12-Decaketide intermediate 2
+            C18332  7,9,12-Decaketide intermediate 3
+            C18629  Deoxynogalonate
+            C18336  7,12-Decaketide intermediate 1
+            C18709  Decaketide tricyclic intermediate
+            C18337  9,14-Decaketide intermediate 1
+///

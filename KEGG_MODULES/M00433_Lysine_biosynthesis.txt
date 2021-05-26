@@ -1,0 +1,24 @@
+ENTRY       M00433            Pathway   Module
+NAME        Lysine biosynthesis, 2-oxoglutarate => 2-oxoadipate
+DEFINITION  K01655 (K17450 K01705,(K16792+K16793)) K05824
+ORTHOLOGY   K01655  homocitrate synthase [EC:2.3.3.14] [RN:R00271]
+            K17450,K01705,K16792,K16793  homoaconitase [EC:4.2.1.- 4.2.1.36 4.2.1.114] [RN:R03444 R04371 R09720]
+            K05824  homoisocitrate dehydrogenase [EC:1.1.1.87] [RN:R01934]
+CLASS       Pathway modules; Amino acid metabolism; Lysine metabolism
+PATHWAY     map00300  Lysine biosynthesis
+            map01210  2-Oxocarboxylic acid metabolism
+            map01230  Biosynthesis of amino acids
+            map01100  Metabolic pathways
+REACTION    R00271  C00026 + C00024 -> C01251
+            R03444  C01251 -> C04002
+            R04371  C04002 -> C05662
+            R09720  C01251 -> C05662
+            R01934  C05662 -> C00322
+COMPOUND    C00026  2-Oxoglutarate
+            C00024  Acetyl-CoA
+            C01251  (R)-2-Hydroxybutane-1,2,4-tricarboxylate
+            C04002  (Z)-But-1-ene-1,2,4-tricarboxylate
+            C05662  Homoisocitrate
+            C00322  2-Oxoadipate
+RMODULE     RM001  2-Oxocarboxylic acid chain extension by tricarboxylic acid pathway
+///

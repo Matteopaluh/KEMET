@@ -1,0 +1,27 @@
+ENTRY       M00803            Pathway   Module
+NAME        dTDP-D-angolosamine biosynthesis
+DEFINITION  K16435 K19859 K16436 K13332
+ORTHOLOGY   K16435  ang4; dTDP-4-dehydro-6-deoxy-alpha-D-glucopyranose 2,3-dehydratase [EC:4.2.1.159] [RN:R05518]
+            K19859  ang14; dTDP-4-keto-6-deoxyhexose reductase [RN:R08927]
+            K16436  angB; dTDP-2,6-dideoxy-D-kanosamine transaminase [RN:R08928]
+            K13332  angMI; N,N-dimethyltransferase [RN:R08929]
+CLASS       Pathway modules; Biosynthesis of terpenoids and polyketides; Polyketide sugar unit biosynthesis
+PATHWAY     map00523  Polyketide sugar unit biosynthesis
+            map01100  Metabolic pathways
+            map01130  Biosynthesis of antibiotics
+REACTION    R05518  C11907 -> C06620
+            R08927  C06620 -> C18029
+            R08928  C18029 -> C18030
+            R08929  C18030 -> C18031
+COMPOUND    C11907  dTDP-4-oxo-6-deoxy-D-glucose
+            C06620  dTDP-3,4-dioxo-2,6-dideoxy-D-glucose
+            C18029  dTDP-3-oxo-2,6-dideoxy-D-glucose
+            C18030  dTDP-2,6-dideoxy-D-kanosamine
+            C18031  dTDP-D-angolosamine
+RMODULE     RM035  Transamination and N,N-dimethylation in polyketide biosynthesis
+REFERENCE   PMID:18802638
+  AUTHORS   Schell U, Haydock SF, Kaja AL, Carletti I, Lill RE, Read E, Sheehan LS, Low L, Fernandez MJ, Grolle F, McArthur HA, Sheridan RM, Leadlay PF, Wilkinson B, Gaisser S
+  TITLE     Engineered biosynthesis of hybrid macrolide polyketides containing D-angolosamine and D-mycaminose moieties.
+  JOURNAL   Org Biomol Chem 6:3315-27 (2008)
+            DOI:10.1039/b807914e
+///

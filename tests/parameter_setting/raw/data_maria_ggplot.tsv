@@ -1,0 +1,169 @@
+MAG	tax_level	tax_used	errors	pgap	KO	p_lenght	inizio_HMM	hmmto	hit_lenght	score	corr_score	Over_0.5	Over_0.45	evalue	coefficient	c_over:80	c_over_100	quality
+METABAT_AS10tlH2TH_158	class	gammaproteobacteria	NaN	NaN	K01647	1263	1	1264	1263	968.9	0.7671	1	1	7.1e-292	-292	1	1	A Good hit
+METABAT_AS24abBPME_148	family	synergistaceae	NaN	NaN	K01624	1260	2	1262	1260	942.4	0.7479	1	1	4.8e-284	-284	1	1	A Good hit
+METABAT_AS09scLD_284	family	syntrophomonadaceae	NaN	Yes	K01647	1334	17	1351	1334	947.50	0.7103	1	1	1.5e-285	-285	1	1	A Good hit
+METABAT_AS07pgkLD_227	family	synergistaceae	NaN	Yes	K01624	1260	1	1261	1260	888.3	0.7050	1	1	9.5e-268	-268	1	1	A Good hit
+METABAT_AS07pgkLD_51	family	clostridiaceae	NaN	NaN	K03737	3514	4	3518	3514	2409	0.6855	1	1	0	-300	1	1	A Good hit
+METABAT_AS20ysBPTH_14	species	M_thermophilus	NaN	NaN	K00401	1319	1	1320	1319	902.4	0.6842	1	1	5.8e-272	-272	1	1	A Good hit
+METABAT_AS20ysBPTH_14	species	M_thermophilus	NaN	NaN	K00855	956	1	957	956	646.6	0.6764	1	1	7.2e-195	-195	1	1	A Good hit
+METABAT_AS15tlH2ME_127	family	clostridiaceae	NaN	Yes	K03737	3375	6	3381	3375	2261.30	0.6700	1	1	0	-300	1	1	A Good hit
+METABAT_AS10tlH2TH_158	class	gammaproteobacteria	NaN	NaN	K00116	1466	19	1485	1466	937.4	0.6394	1	1	1.3e-282	-282	1	1	A Good hit
+METABAT_AS10tlH2TH_158	class	gammaproteobacteria	NaN	NaN	K03737	3525	20	3545	3525	2185.9	0.6201	1	1	0	-300	1	1	A Good hit
+METABAT_AS24abBPME_148	family	synergistaceae	NaN	NaN	K05606	401	1	402	401	246.1	0.6137	1	1	1.1e-73	-73	0	0	A Good hit
+METABAT_AS07pgkLD_227	family	synergistaceae	NaN	Yes	K05606	401	0	401	401	245.7	0.6127	1	1	1.3e-73	-73	0	0	A Good hit
+METABAT_AS10tlH2TH_158	class	gammaproteobacteria	NaN	NaN	K00297	814	34	848	814	496.9	0.6104	1	1	1E-149	-149	1	1	A Good hit
+METABAT_AS07pgkLD_51	family	clostridiaceae	NaN	NaN	K05299	2422	263	2685	2422	1462.6	0.6039	1	1	0	-300	1	1	A Good hit
+METABAT_AS20ysBPTH_14	species	M_thermophilus	NaN	NaN	K01601	1274	1	1275	1274	768.3	0.6031	1	1	1.1e-231	-231	1	1	A Good hit
+METABAT_AS24abBPME_148	family	synergistaceae	NaN	NaN	K00297	885	2	887	885	522	0.5898	1	1	4.3e-157	-157	1	1	A Good hit
+METABAT_AS26fmACSIPLY_35	order	bacteroidales	NaN	NaN	K03737	3510	0	3510	3510	2035.1	0.5798	1	1	0	-300	1	1	A Good hit
+METABAT_AS10tlH2TH_158	class	gammaproteobacteria	NaN	NaN	K01690	1806	3	1809	1806	1035.2	0.5732	1	1	0	-300	1	1	A Good hit
+METABAT_AS05jafATM_34	genus	defluviitoga	NaN	NaN	K00297	930	2	932	930	518.9	0.5580	1	1	7.4e-156	-156	1	1	A Good hit
+METABAT_AS07pgkLD_227	family	synergistaceae	NaN	Yes	K00850	949	2	951	949	526.9	0.5552	1	1	1.8e-158	-158	1	1	A Good hit
+METABAT_AS07pgkLD_55	family	syntrophomonadaceae	NaN	NaN	K15916	994	65	1059	994	549.5	0.5528	1	1	2.6e-165	-165	1	1	A Good hit
+METABAT_AS15tlH2ME_127	family	clostridiaceae	NaN	Yes	K05299	2674	7	2681	2674	1451.80	0.5429	1	1	0	-300	1	1	A Good hit
+METABAT_AS15tlH2ME_52	family	syntrophomonadaceae	NaN	Yes	K15916	1035	20	1055	1035	543.20	0.5248	1	1	2E-163	-163	1	1	A Good hit
+METABAT_AS09scLD_284	family	syntrophomonadaceae	NaN	Yes	K11261	596	6	602	596	310.20	0.5205	1	1	6.2e-93	-93	1	0	A Good hit
+METABAT_AS15tlH2ME_193	order	clostridiales	NaN	Yes	K00036	1450	28	1478	1450	731.80	0.5047	1	1	2.1e-220	-220	1	1	A Good hit
+METABAT_AS15tlH2ME_193	order	clostridiales	NaN	Yes	K00033	1191	204	1395	1191	597.20	0.5014	1	1	9.2e-180	-180	1	1	A Good hit
+METABAT_AS15tlH2ME_52	family	syntrophomonadaceae	NaN	Yes	K00632	1136	3	1139	1136	563.50	0.4960	0	1	1.3e-169	-169	1	1	A Good hit
+METABAT_AS07pgkLD_225	family	clostridiaceae	NaN	Yes	K00632	1149	0	1149	1149	569.5	0.4956	0	1	1.4e-171	-171	1	1	A Good hit
+METABAT_AS15tlH2ME_52	family	syntrophomonadaceae	NaN	Yes	K11261	595	6	601	595	294.40	0.4948	0	1	3.9e-88	-88	1	0	A Good hit
+METABAT_AS09scLD_284	family	syntrophomonadaceae	NaN	Yes	K15916	1014	45	1059	1014	490.60	0.4838	0	1	1.5e-147	-147	1	1	A Good hit
+METABAT_AS24abBPME_148	family	synergistaceae	NaN	NaN	K00200	1653	2	1655	1653	799.5	0.4837	0	1	5.6e-241	-241	1	1	A Good hit
+METABAT_AS07pgkLD_225	family	clostridiaceae	NaN	Yes	K01647	1310	14	1324	1310	620.9	0.4740	0	1	5.4e-187	-187	1	1	A Good hit
+METABAT_AS15tlH2ME_193	order	clostridiales	NaN	Yes	K01625	631	4	635	631	298.90	0.4737	0	1	1.5e-89	-89	1	0	A Good hit
+METABAT_AS07pgkLD_225	family	clostridiaceae	NaN	Yes	K01810	1319	12	1331	1319	619.6	0.4697	0	1	9.6e-187	-187	1	1	A Good hit
+METABAT_AS26fmACSIPLY_35	order	bacteroidales	NaN	NaN	K05606	394	1	395	394	183.6	0.4660	0	1	1.3e-54	-54	0	0	A Good hit
+METABAT_AS07pgkLD_225	family	clostridiaceae	NaN	Yes	K01681	2106	9	2115	2106	980.3	0.4655	0	1	9.1e-296	-296	1	1	A Good hit
+METABAT_AS15tlH2ME_193	order	clostridiales	NaN	Yes	K01681	2107	14	2121	2107	949.20	0.4505	0	1	2.1e-286	-286	1	1	A Good hit
+METABAT_AS10tlH2TH_158	class	gammaproteobacteria	NaN	NaN	K01086	938	99	1037	938	420.8	0.4486	0	0	3.3e-126	-126	1	1	A Good hit
+METABAT_AS07pgkLD_51	family	clostridiaceae	NaN	NaN	K01803	738	11	749	738	330.5	0.4478	0	0	2.5e-99	-99	1	0	A Good hit
+METABAT_AS15tlH2ME_127	family	clostridiaceae	NaN	Yes	K00632	1148	0	1148	1148	512.20	0.4462	0	0	2.4e-154	-154	1	1	A Good hit
+METABAT_AS24abBPME_148	family	synergistaceae	NaN	NaN	K00201	1259	9	1268	1259	553.1	0.4393	0	0	2.2e-166	-166	1	1	A Good hit
+METABAT_AS07pgkLD_55	family	syntrophomonadaceae	NaN	NaN	K01958	1350	9	1359	1350	591.4	0.4381	0	0	4E-178	-178	1	1	A Good hit
+METABAT_AS07pgkLD_227	family	synergistaceae	NaN	Yes	K00297	622	5	627	622	263.6	0.4238	0	0	6.1e-79	-79	0	0	A Good hit
+METABAT_AS07pgkLD_55	family	syntrophomonadaceae	NaN	NaN	K01960	1303	11	1314	1303	551.9	0.4236	0	0	8.7e-166	-166	1	1	A Good hit
+METABAT_AS10tlH2TH_158	class	gammaproteobacteria	NaN	NaN	K11263	1342	7	1349	1342	561.9	0.4187	0	0	5.5e-169	-169	1	1	A Good hit
+METABAT_AS15tlH2ME_52	family	syntrophomonadaceae	NaN	Yes	K00297	846	2	848	846	348.10	0.4115	0	0	7.7e-105	-105	1	1	A Good hit
+METABAT_AS24abBPME_148	family	synergistaceae	NaN	NaN	K00202	862	1	863	862	354.2	0.4109	0	0	3.1e-106	-106	1	1	A Good hit
+METABAT_AS07pgkLD_227	family	synergistaceae	NaN	Yes	K22516	1578	0	1578	1578	645.4	0.4090	0	0	2.3e-194	-194	1	1	A Good hit
+METABAT_AS07pgkLD_51	family	clostridiaceae	NaN	NaN	K00249	1135	11	1146	1135	450.6	0.3970	0	0	5.8e-136	-136	1	1	A Good hit
+METABAT_AS15tlH2ME_193	order	clostridiales	NaN	Yes	K01960	1286	11	1297	1286	495.90	0.3856	0	0	5.3e-149	-149	1	1	A Good hit
+METABAT_AS20ysBPTH_14	species	M_thermophilus	NaN	NaN	K00135	1356	8	1364	1356	522.3	0.3852	0	0	2.5e-157	-157	1	1	A Good hit
+METABAT_AS07pgkLD_55	family	syntrophomonadaceae	NaN	NaN	K00297	852	2	854	852	322.1	0.3781	0	0	5.8e-97	-97	1	0	A Good hit
+METABAT_AS15tlH2ME_193	order	clostridiales	NaN	Yes	K01810	1326	13	1339	1326	498.50	0.3759	0	0	3.7e-150	-150	1	1	A Good hit
+METABAT_AS07pgkLD_51	family	clostridiaceae	NaN	NaN	K11261	594	3	597	594	222.8	0.3751	0	0	1.5e-66	-66	0	0	A Good hit
+METABAT_AS20ysBPTH_14	species	M_thermophilus	NaN	NaN	K00239	1590	2	1592	1590	569.8	0.3584	0	0	1.3e-171	-171	1	1	A Good hit
+METABAT_AS07pgkLD_51	family	clostridiaceae	NaN	NaN	K01681	742	1374	2116	742	246.6	0.3323	0	0	2E-74	-74	0	0	A Good hit
+METABAT_AS09scLD_284	family	syntrophomonadaceae	NaN	Yes	K00297	829	19	848	829	247.90	0.2990	0	0	1.5e-74	-74	0	0	A Good hit
+METABAT_AS15tlH2ME_52	family	syntrophomonadaceae	NaN	Yes	K01681	1000	343	1343	1000	280.70	0.2807	0	0	1.4e-84	-84	1	0	A Good hit
+METABAT_AS09scLD_284	family	syntrophomonadaceae	NaN	Yes	K01681	1010	330	1340	1010	237.10	0.2348	0	0	1.8e-71	-71	0	0	A Good hit
+METABAT_AS20ysBPTH_14	species	M_thermophilus	NaN	NaN	K00030	974	9	983	974	202	0.2074	0	0	2.9e-60	-60	0	0	A Good hit
+METABAT_AS07pgkLD_225	family	clostridiaceae	NaN	Yes	K01601	1170	66	1236	1170	200.7	0.1715	0	0	3.7e-60	-60	0	0	A Good hit
+METABAT_AS20ysBPTH_14	species	M_thermophilus	NaN	NaN	K00031	1084	96	1180	1084	184.3	0.1700	0	0	1.8e-55	-55	0	0	A Good hit
+METABAT_AS07pgkLD_55	family	syntrophomonadaceae	NaN	NaN	K01959	1413	8	1421	1413	236.7	0.1675	0	0	1.3e-70	-70	0	0	A Good hit
+METABAT_AS20ysBPTH_14	species	M_thermophilus	NaN	NaN	K00140	1305	39	1344	1305	215.6	0.1652	0	0	1.9e-64	-64	0	0	A Good hit
+METABAT_AS07pgkLD_55	family	syntrophomonadaceae	NaN	NaN	K01965	1355	17	1372	1355	222.9	0.1645	0	0	1.6e-66	-66	0	0	A Good hit
+METABAT_AS15tlH2ME_52	family	syntrophomonadaceae	NaN	Yes	K01601	1164	112	1276	1164	185.70	0.1595	0	0	1.6e-55	-55	0	0	A Good hit
+METABAT_AS07pgkLD_225	family	clostridiaceae	NaN	Yes	K01958	1373	1580	2953	1373	217.4	0.1583	0	0	1.6e-65	-65	0	0	A Good hit
+METABAT_AS09scLD_284	family	syntrophomonadaceae	NaN	Yes	K01601	1162	113	1275	1162	155.50	0.1338	0	0	2.1e-46	-46	0	0	A Good hit
+METABAT_AS15tlH2ME_127	family	clostridiaceae	NaN	Yes	K22516	1399	63	1462	1399	170.50	0.1219	0	0	3.6e-51	-51	0	0	A Good hit
+METABAT_AS15tlH2ME_127	family	clostridiaceae	NaN	Yes	K00169	1056	15	1071	1056	118.50	0.1122	0	0	4.3e-36	-36	0	0	A Good hit
+METABAT_AS15tlH2ME_127	family	clostridiaceae	NaN	Yes	K01803	731	11	742	731	339.40	0.4643	0	1	4.4e-102	-102	1	1	B Good hit (domain)
+METABAT_AS09scLD_284	family	syntrophomonadaceae	NaN	Yes	K07250	669	665	1334	669	196.30	0.2934	0	0	1.1e-58	-58	0	0	B Good hit (domain)
+METABAT_AS05jafATM_34	genus	defluviitoga	NaN	NaN	K00239	1315	16	1331	1315	311.9	0.2372	0	0	1.4e-93	-93	1	0	B Good hit (domain)
+METABAT_AS15tlH2ME_52	family	syntrophomonadaceae	NaN	Yes	K07250	1199	128	1327	1199	270.80	0.2259	0	0	3.6e-81	-81	1	0	B Good hit (domain)
+METABAT_AS26fmACSIPLY_35	order	bacteroidales	NaN	NaN	K01958	628	1610	2238	628	127.2	0.2025	0	0	2.3e-38	-38	0	0	B Good hit (domain)
+METABAT_AS20ysBPTH_14	species	M_thermophilus	NaN	NaN	K00240	681	6	687	681	112.5	0.1652	0	0	1.2e-33	-33	0	0	B Good hit (domain)
+METABAT_AS07pgkLD_51	family	clostridiaceae	NaN	NaN	K22516	843	55	898	843	138.3	0.1641	0	0	2.2e-41	-41	0	0	B Good hit (domain)
+METABAT_AS15tlH2ME_193	order	clostridiales	NaN	Yes	K00135	758	664	1422	758	122.00	0.1609	0	0	3.5e-36	-36	0	0	B Good hit (domain)
+METABAT_AS10tlH2TH_158	class	gammaproteobacteria	NaN	NaN	K22516	685	8	693	685	104.3	0.1523	0	0	5.6e-31	-31	0	0	B Good hit (domain)
+METABAT_AS07pgkLD_55	family	syntrophomonadaceae	NaN	NaN	K01601	1160	115	1275	1160	170	0.1466	0	0	9.2e-51	-51	0	0	B Good hit (domain)
+METABAT_AS20ysBPTH_14	species	M_thermophilus	NaN	NaN	K01681	1132	516	1648	1132	154.2	0.1362	0	0	1.5e-46	-46	0	0	B Good hit (domain)
+METABAT_AS07pgkLD_55	family	syntrophomonadaceae	NaN	NaN	K00135	997	408	1405	997	122.4	0.1228	0	0	3.6e-36	-36	0	0	B Good hit (domain)
+METABAT_AS07pgkLD_51	family	clostridiaceae	NaN	NaN	K00169	1110	11	1121	1110	134.4	0.1211	0	0	8E-41	-41	0	0	B Good hit (domain)
+METABAT_AS07pgkLD_51	family	clostridiaceae	NaN	NaN	K07250	1058	34	1092	1058	118.8	0.1123	0	0	2.1e-35	-35	0	0	B Good hit (domain)
+METABAT_AS09scLD_284	family	syntrophomonadaceae	NaN	Yes	K00632	1150	1	1151	1150	645.90	0.5617	1	1	1.5e-194	-194	1	1	C Similar hit
+METABAT_AS07pgkLD_55	family	syntrophomonadaceae	NaN	NaN	K00632	1148	4	1152	1148	558.3	0.4863	0	1	4.7e-168	-168	1	1	C Similar hit
+METABAT_AS15tlH2ME_52	family	syntrophomonadaceae	NaN	Yes	K01960	1302	7	1309	1302	624.20	0.4794	0	1	1.2e-187	-187	1	1	C Similar hit
+METABAT_AS15tlH2ME_52	family	syntrophomonadaceae	NaN	Yes	K01958	1377	8	1385	1377	620.40	0.4505	0	1	7.5e-187	-184	1	1	C Similar hit
+METABAT_AS09scLD_284	family	syntrophomonadaceae	NaN	Yes	K01960	1307	6	1313	1307	538.60	0.4121	0	0	8.3e-162	-162	1	1	C Similar hit
+METABAT_AS15tlH2ME_52	family	syntrophomonadaceae	NaN	Yes	K15023	560	214	774	560	223.80	0.3996	0	0	8.2e-67	-67	0	0	C Similar hit
+METABAT_AS10tlH2TH_158	class	gammaproteobacteria	NaN	NaN	K01965	1335	14	1349	1335	530.6	0.3975	0	0	1.3e-159	-159	1	1	C Similar hit
+METABAT_AS09scLD_284	family	syntrophomonadaceae	NaN	Yes	K01958	1340	18	1358	1340	528.70	0.3946	0	0	3E-159	-159	1	1	C Similar hit
+METABAT_AS07pgkLD_51	family	clostridiaceae	NaN	NaN	K01966	1418	118	1536	1418	536.1	0.3781	0	0	3.1e-161	-161	1	1	C Similar hit
+METABAT_AS07pgkLD_225	family	clostridiaceae	NaN	Yes	K01966	1434	100	1534	1434	537.5	0.3748	0	0	1.2e-161	-161	1	1	C Similar hit
+METABAT_AS26fmACSIPLY_35	order	bacteroidales	NaN	NaN	K01960	1391	6	1397	1391	504.7	0.3628	0	0	2.8e-152	-152	1	1	C Similar hit
+METABAT_AS15tlH2ME_127	family	clostridiaceae	NaN	Yes	K01966	1295	239	1534	1295	457.20	0.3531	0	0	1.8e-137	-137	1	1	C Similar hit
+METABAT_AS15tlH2ME_52	family	syntrophomonadaceae	NaN	Yes	K00135	1017	412	1429	1017	357.20	0.3512	0	0	4.4e-107	-107	1	1	C Similar hit
+METABAT_AS15tlH2ME_193	order	clostridiales	NaN	Yes	K01958	1371	7	1378	1371	458.60	0.3345	0	0	3.1e-138	-138	1	1	C Similar hit
+METABAT_AS20ysBPTH_14	species	M_thermophilus	NaN	NaN	K00823	1208	126	1334	1208	376.4	0.3116	0	0	3.6e-113	-113	1	1	C Similar hit
+METABAT_AS07pgkLD_55	family	syntrophomonadaceae	NaN	NaN	K07250	679	654	1333	679	203.9	0.3003	0	0	5.8e-61	-61	0	0	C Similar hit
+METABAT_AS07pgkLD_225	family	clostridiaceae	NaN	Yes	K00135	1273	13	1286	1273	361.9	0.2843	0	0	1.3e-108	-108	1	1	C Similar hit
+METABAT_AS07pgkLD_51	family	clostridiaceae	NaN	NaN	K00135	1420	15	1435	1420	401.7	0.2829	0	0	1.2e-120	-120	1	1	C Similar hit
+METABAT_AS07pgkLD_225	family	clostridiaceae	NaN	Yes	K01960	1284	25	1309	1284	357.3	0.2783	0	0	3.8e-107	-107	1	1	C Similar hit
+METABAT_AS10tlH2TH_158	class	gammaproteobacteria	NaN	NaN	K00823	1215	91	1306	1215	327.7	0.2697	0	0	1.9e-98	-98	1	0	C Similar hit
+METABAT_AS15tlH2ME_52	family	syntrophomonadaceae	NaN	Yes	K00823	1227	80	1307	1227	326.40	0.2660	0	0	7.5e-98	-98	1	0	C Similar hit
+METABAT_AS10tlH2TH_158	class	gammaproteobacteria	NaN	NaN	K07250	1228	39	1267	1228	302.9	0.2467	0	0	8.2e-91	-91	1	0	C Similar hit
+METABAT_AS07pgkLD_55	family	syntrophomonadaceae	NaN	NaN	K00823	1200	79	1279	1200	278.7	0.2323	0	0	1.9e-83	-83	1	0	C Similar hit
+METABAT_AS20ysBPTH_14	species	M_thermophilus	NaN	NaN	K07250	1169	142	1311	1169	257.2	0.2200	0	0	5.2e-77	-77	0	0	C Similar hit
+METABAT_AS15tlH2ME_52	family	syntrophomonadaceae	NaN	Yes	K01965	1314	13	1327	1314	273.50	0.2081	0	0	8.2e-82	-82	1	0	C Similar hit
+METABAT_AS15tlH2ME_52	family	syntrophomonadaceae	NaN	Yes	K01959	1344	3	1347	1344	276.20	0.2055	0	0	1.5e-82	-82	1	0	C Similar hit
+METABAT_AS09scLD_284	family	syntrophomonadaceae	NaN	Yes	K00823	1216	80	1296	1216	249.80	0.2054	0	0	9.7e-75	-75	0	0	C Similar hit
+METABAT_AS07pgkLD_55	family	syntrophomonadaceae	NaN	NaN	K01681	1358	10	1368	1358	278	0.2047	0	0	8.8e-84	-84	1	0	C Similar hit
+METABAT_AS15tlH2ME_52	family	syntrophomonadaceae	NaN	Yes	K00140	1348	24	1372	1348	240.00	0.1780	0	0	7.3e-72	-72	0	0	C Similar hit
+METABAT_AS10tlH2TH_158	class	gammaproteobacteria	NaN	NaN	K16871	1321	25	1346	1321	230.1	0.1742	0	0	7.8e-69	-69	0	0	C Similar hit
+METABAT_AS15tlH2ME_127	family	clostridiaceae	NaN	Yes	K00135	970	407	1377	970	160.10	0.1651	0	0	9.4e-48	-48	0	0	C Similar hit
+METABAT_AS15tlH2ME_193	order	clostridiales	NaN	Yes	K01959	1339	6	1345	1339	214.50	0.1602	0	0	5.2e-64	-64	0	0	C Similar hit
+METABAT_AS07pgkLD_51	family	clostridiaceae	NaN	NaN	K01601	1200	37	1237	1200	186	0.1550	0	0	9.9e-56	-56	0	0	C Similar hit
+METABAT_AS07pgkLD_51	family	clostridiaceae	NaN	NaN	K00140	1219	20	1239	1219	183.1	0.1502	0	0	8.5e-55	-55	0	0	C Similar hit
+METABAT_AS26fmACSIPLY_35	order	bacteroidales	NaN	NaN	K00248	829	279	1108	829	120.8	0.1457	0	0	9E-36	-36	0	0	C Similar hit
+METABAT_AS09scLD_284	family	syntrophomonadaceae	NaN	Yes	K01965	1265	13	1278	1265	180.40	0.1426	0	0	1.1e-53	-53	0	0	C Similar hit
+METABAT_AS26fmACSIPLY_35	order	bacteroidales	NaN	NaN	K07250	1179	81	1260	1179	159.2	0.1350	0	0	1.7e-47	-47	0	0	C Similar hit
+METABAT_AS07pgkLD_225	family	clostridiaceae	NaN	Yes	K00140	1217	21	1238	1217	164.3	0.1350	0	0	4.2e-49	-49	0	0	C Similar hit
+METABAT_AS10tlH2TH_158	class	gammaproteobacteria	NaN	NaN	K01966	1434	16	1450	1434	192.5	0.1342	0	0	2E-57	-57	0	0	C Similar hit
+METABAT_AS26fmACSIPLY_35	order	bacteroidales	NaN	NaN	K00823	1191	156	1347	1191	159.6	0.1340	0	0	1.2e-47	-47	0	0	C Similar hit
+METABAT_AS15tlH2ME_193	order	clostridiales	NaN	Yes	K01965	1186	25	1211	1186	158.20	0.1334	0	0	4.4e-47	-47	0	0	C Similar hit
+METABAT_AS09scLD_284	family	syntrophomonadaceae	NaN	Yes	K01959	1310	9	1319	1310	161.20	0.1231	0	0	8.1e-48	-48	0	0	C Similar hit
+METABAT_AS20ysBPTH_159	species	Ca_M_thermohydrogenotrophicum	NaN	NaN	K00401	1319	1	1320	1319	902.4	0.6842	1	1	5.8e-272	-272	1	1	D Different hit
+METABAT_AS20ysBPTH_159	species	Ca_M_thermohydrogenotrophicum	NaN	NaN	K00855	956	1	957	956	646.6	0.6764	1	1	7.2e-195	-195	1	1	D Different hit
+METABAT_AS07pgkLD_55	family	syntrophomonadaceae	NaN	NaN	K16179	624	19	643	624	264.6	0.4240	0	0	6.2e-79	-79	0	0	D Different hit
+METABAT_AS20ysBPTH_14	species	M_thermophilus	NaN	NaN	K00203	343	5	348	343	141.1	0.4114	0	0	1.5e-41	-41	0	0	D Different hit
+METABAT_AS07pgkLD_55	family	syntrophomonadaceae	NaN	NaN	K14084	613	36	649	613	251	0.4095	0	0	1.2e-74	-74	0	0	D Different hit
+METABAT_AS20ysBPTH_159	species	Ca_M_thermohydrogenotrophicum	NaN	NaN	K00135	1356	8	1364	1356	522.3	0.3852	0	0	2.5e-157	-157	1	1	D Different hit
+METABAT_AS20ysBPTH_159	species	Ca_M_thermohydrogenotrophicum	NaN	NaN	K00239	1590	2	1592	1590	569.8	0.3584	0	0	1.3e-171	-171	1	1	D Different hit
+METABAT_AS10tlH2TH_158	class	gammaproteobacteria	NaN	NaN	K15023	1044	21	1065	1044	373.8	0.3580	0	0	8.9e-112	-112	1	1	D Different hit
+METABAT_AS07pgkLD_55	family	syntrophomonadaceae	NaN	NaN	K00844	1247	59	1306	1247	429.2	0.3442	0	0	6.3e-129	-129	1	1	D Different hit
+METABAT_AS20ysBPTH_159	species	Ca_M_thermohydrogenotrophicum	NaN	NaN	K00823	1208	126	1334	1208	376.4	0.3116	0	0	3.6e-113	-113	1	1	D Different hit
+METABAT_AS07pgkLD_55	family	syntrophomonadaceae	NaN	NaN	K15023	760	2	762	760	234.9	0.3091	0	0	3.7e-70	-70	0	0	D Different hit
+METABAT_AS15tlH2ME_52	family	syntrophomonadaceae	NaN	Yes	K00239	1600	3	1603	1600	470.80	0.2943	0	0	1.5e-141	-141	1	1	D Different hit
+METABAT_AS07pgkLD_55	family	syntrophomonadaceae	NaN	NaN	K00239	1653	7	1660	1653	474.2	0.2869	0	0	1.4e-142	-142	1	1	D Different hit
+METABAT_AS07pgkLD_51	family	clostridiaceae	NaN	NaN	K15022	1399	554	1953	1399	393.8	0.2815	0	0	3.6e-119	-119	1	1	D Different hit
+METABAT_AS09scLD_284	family	syntrophomonadaceae	NaN	Yes	K00239	1595	12	1607	1595	447.30	0.2804	0	0	1.7e-134	-134	1	1	D Different hit
+METABAT_AS15tlH2ME_52	family	syntrophomonadaceae	NaN	Yes	K00244	1504	8	1512	1504	418.40	0.2782	0	0	2.7e-126	-126	1	1	D Different hit
+METABAT_AS09scLD_284	family	syntrophomonadaceae	NaN	Yes	K00244	1512	8	1520	1512	380.00	0.2513	0	0	1E-114	-114	1	1	D Different hit
+METABAT_AS20ysBPTH_159	species	Ca_M_thermohydrogenotrophicum	NaN	NaN	K00030	974	9	983	974	202	0.2074	0	0	2.9e-60	-60	0	0	D Different hit
+METABAT_AS20ysBPTH_14	species	M_thermophilus	NaN	NaN	K00632	1128	14	1142	1128	200	0.1773	0	0	1.1e-59	-59	0	0	D Different hit
+METABAT_AS20ysBPTH_159	species	Ca_M_thermohydrogenotrophicum	NaN	NaN	K00632	1128	14	1142	1128	200	0.1773	0	0	1.1e-59	-59	0	0	D Different hit
+METABAT_AS20ysBPTH_159	species	Ca_M_thermohydrogenotrophicum	NaN	NaN	K00031	1084	96	1180	1084	184.3	0.1700	0	0	1.8e-55	-55	0	0	D Different hit
+METABAT_AS20ysBPTH_159	species	Ca_M_thermohydrogenotrophicum	NaN	NaN	K00240	681	6	687	681	112.5	0.1652	0	0	1.2e-33	-33	0	0	D Different hit
+METABAT_AS10tlH2TH_158	class	gammaproteobacteria	NaN	NaN	K15022	1137	166	1303	1137	182.6	0.1606	0	0	8.5e-55	-55	0	0	D Different hit
+METABAT_AS15tlH2ME_127	family	clostridiaceae	NaN	Yes	K00244	1368	140	1508	1368	193.70	0.1416	0	0	1.2e-58	-58	0	0	D Different hit
+METABAT_AS20ysBPTH_159	species	Ca_M_thermohydrogenotrophicum	NaN	NaN	K01681	1132	516	1648	1132	154.2	0.1362	0	0	1.5e-46	-46	0	0	D Different hit
+METABAT_AS24abBPME_148	family	synergistaceae	NaN	NaN	K00823	1202	94	1296	1202	137.9	0.1147	0	0	4.4e-41	-41	0	0	D Different hit
+METABAT_AS20ysBPTH_159	species	Ca_M_thermohydrogenotrophicum	NaN	NaN	K01601	1274	1	1275	1274	768.3	0.6031	1	1	1.1e-231	-231	1	1	E Non-classified
+METABAT_AS20ysBPTH_159	species	Ca_M_thermohydrogenotrophicum	NaN	NaN	K00203	343	5	348	343	141.1	0.4114	0	0	1.5e-41	-41	0	0	E Non-classified
+METABAT_AS20ysBPTH_159	species	Ca_M_thermohydrogenotrophicum	NaN	NaN	K07250	1169	142	1311	1169	257.2	0.2200	0	0	5.2e-77	-77	0	0	E Non-classified
+METABAT_AS07pgkLD_55	family	syntrophomonadaceae	NaN	NaN	K00244	1244	169	1413	1244	166.8	0.1341	0	0	2.5e-50	-50	0	0	E Non-classified
+METABAT_AS07pgkLD_55	family	syntrophomonadaceae	NaN	NaN	K11261	595	7	602	595	287.6	0.4834	0	1	4.6e-86	-86	1	0	F No hit
+METABAT_AS15tlH2ME_52	family	syntrophomonadaceae	NaN	Yes	K16179	577	65	642	577	245.20	0.4250	0	0	4.8e-73	-73	0	0	F No hit
+METABAT_AS15tlH2ME_193	order	clostridiales	NaN	Yes	K00845	905	7	912	905	360.50	0.3983	0	0	3E-108	-108	1	1	F No hit
+METABAT_AS15tlH2ME_52	family	syntrophomonadaceae	NaN	Yes	K14084	640	7	647	640	253.50	0.3961	0	0	2E-75	-75	0	0	F No hit
+METABAT_AS09scLD_284	family	syntrophomonadaceae	NaN	Yes	K16179	608	28	636	608	235.90	0.3880	0	0	3E-70	-70	0	0	F No hit
+METABAT_AS09scLD_284	family	syntrophomonadaceae	NaN	Yes	K14084	623	20	643	623	240.60	0.3862	0	0	1.5e-71	-71	0	0	F No hit
+METABAT_AS09scLD_284	family	syntrophomonadaceae	NaN	Yes	K00845	884	17	901	884	308.20	0.3486	0	0	2.5e-92	-92	1	0	F No hit
+METABAT_AS09scLD_284	family	syntrophomonadaceae	NaN	Yes	K15023	768	6	774	768	259.20	0.3375	0	0	1.5e-77	-77	0	0	F No hit
+METABAT_AS07pgkLD_225	family	clostridiaceae	NaN	Yes	K00845	904	7	911	904	274.7	0.3039	0	0	2.7e-82	-82	1	0	F No hit
+METABAT_AS15tlH2ME_52	family	syntrophomonadaceae	NaN	Yes	K00844	1286	19	1305	1286	364.20	0.2832	0	0	2.7e-109	-109	1	1	F No hit
+METABAT_AS15tlH2ME_127	family	clostridiaceae	NaN	Yes	K15022	1237	557	1794	1237	346.80	0.2804	0	0	4.8e-105	-105	1	1	F No hit
+METABAT_AS20ysBPTH_159	species	Ca_M_thermohydrogenotrophicum	NaN	NaN	K00140	1305	39	1344	1305	215.6	0.1652	0	0	1.9e-64	-64	0	0	F No hit

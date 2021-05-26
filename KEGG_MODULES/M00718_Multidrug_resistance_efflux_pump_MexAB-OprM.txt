@@ -1,0 +1,19 @@
+ENTRY       M00718            Signature Module
+NAME        Multidrug resistance, efflux pump MexAB-OprM
+DEFINITION  K18131 (K03585+K18138+K18139)
+ORTHOLOGY   K18131  mexR; MarR family transcriptional regulator, repressor of the mexAB-oprM multidrug resistance operon
+            K03585  acrA; membrane fusion protein, multidrug efflux system
+            K18138  acrB; multidrug efflux pump
+            K18139  oprM; outer membrane protein, multidrug efflux system
+CLASS       Signature modules; Gene set; Drug resistance
+REFERENCE   PMID:11208776
+  AUTHORS   Evans K, Adewoye L, Poole K
+  TITLE     MexR repressor of the mexAB-oprM multidrug efflux operon of Pseudomonas aeruginosa: identification of MexR binding sites in the mexA-mexR intergenic region.
+  JOURNAL   J Bacteriol 183:807-12 (2001)
+            DOI:10.1128/JB.183.3.807-812.2001
+REFERENCE   PMID:14734177
+  AUTHORS   Boutoille D, Corvec S, Caroff N, Giraudeau C, Espaze E, Caillon J, Plesiat P, Reynaud A
+  TITLE     Detection of an IS21 insertion sequence in the mexR gene of Pseudomonas aeruginosa increasing beta-lactam resistance.
+  JOURNAL   FEMS Microbiol Lett 230:143-6 (2004)
+            DOI:10.1016/S0378-1097(03)00882-6
+///

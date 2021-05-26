@@ -1,0 +1,23 @@
+ENTRY       M00535            Pathway   Module
+NAME        Isoleucine biosynthesis, pyruvate => 2-oxobutanoate
+DEFINITION  K09011 (K01703+K01704) K00052
+ORTHOLOGY   K09011  cimA; D-citramalate synthase [EC:2.3.1.182] [RN:R07399]
+            K01703,K01704  leuCD; 3-isopropylmalate/(R)-2-methylmalate dehydratase [EC:4.2.1.33 4.2.1.35] [RN:R03896 R03898]
+            K00052  leuB; 3-isopropylmalate dehydrogenase [EC:1.1.1.85] [RN:R00994]
+CLASS       Pathway modules; Amino acid metabolism; Branched-chain amino acid metabolism
+PATHWAY     map00290  Valine, leucine and isoleucine biosynthesis
+            map00660  C5-Branched dibasic acid metabolism
+            map01210  2-Oxocarboxylic acid metabolism
+            map01230  Biosynthesis of amino acids
+            map01100  Metabolic pathways
+REACTION    R07399  C00022 -> C02612
+            R03896  C02612 -> C02226
+            R03898  C02226 -> C06032
+            R00994  C06032 -> C00109
+COMPOUND    C00022  Pyruvate
+            C02612  (R)-2-Methylmalate
+            C02226  2-Methylmaleate
+            C06032  D-erythro-3-Methylmalate
+            C00109  2-Oxobutanoate
+RMODULE     RM001  2-Oxocarboxylic acid chain extension by tricarboxylic acid pathway
+///

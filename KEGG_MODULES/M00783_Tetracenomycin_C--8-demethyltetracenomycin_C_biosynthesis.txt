@@ -1,0 +1,31 @@
+ENTRY       M00783            Pathway   Module
+NAME        Tetracenomycin C/8-demethyltetracenomycin C biosynthesis, tetracenomycin F2 => tetracenomycin C/8-demethyltetracenomycin C
+DEFINITION  K15968 K15969 K15886 -K15970 K15971 K15972
+ORTHOLOGY   K15968  tcmI; tetracenomycin F2 cyclase [EC:4.2.1.154] [RN:R06699]
+            K15969  tcmH; tetracenomycin F1 monooxygenase [EC:1.13.12.21] [RN:R06700]
+            K15886  tcmN; multifunctional cyclase / dehydratase / O-methyltransferase [EC:2.3.1.235] [RN:R06701]
+            K15970  tcmO; 8-O-methyltransferase [RN:R06702]
+            K15971  tcmP; O-methyltransferase [EC:2.1.1.-] [RN:R06703 R06713]
+            K15972  tcmG; tetracenomycin A2 monooxygenase-dioxygenase [EC:1.14.13.200] [RN:R06704 R10954]
+CLASS       Pathway modules; Biosynthesis of terpenoids and polyketides; Type II polyketide biosynthesis
+PATHWAY     map01057  Biosynthesis of type II polyketide products
+            map01100  Metabolic pathways
+            map01130  Biosynthesis of antibiotics
+REACTION    R06699  C12366 -> C12367
+            R06700  C12367 -> C12368
+            R06701  C12368 -> C12369
+            R06702  C12369 -> C12370
+            R06703  C12370 -> C12371
+            R06704  C12371 -> C06801
+            R06713  C12369 -> C12378
+            R10954  C12378 -> C12379
+COMPOUND    C12366  Tetracenomycin F2
+            C12367  Tetracenomycin F1
+            C12368  Tetracenomycin D3
+            C12369  Tetracenomycin B3
+            C12378  Tetracenomycin B2
+            C12379  8-Demethyltetracenomycin C
+            C12370  Tetracenomycin E
+            C12371  Tetracenomycin A2
+            C06801  Tetracenomycin C
+///

@@ -1,0 +1,5 @@
+M00123_Biotin biosynthesis, pimeloyl-ACP/CoA => biotin
+K00652
+K00833, K19563, K19562
+K01935, K19562
+K01012

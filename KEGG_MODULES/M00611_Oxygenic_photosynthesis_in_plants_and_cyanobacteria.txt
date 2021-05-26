@@ -1,0 +1,29 @@
+ENTRY       M00611            Signature Module
+NAME        Oxygenic photosynthesis in plants and cyanobacteria
+DEFINITION  (M00161,M00163) M00165
+ORTHOLOGY   (M00161  Photosystem II)
+            K02703  psbA; photosystem II reaction center D1 protein
+            K02706  psbD; photosystem II reaction center D2 protein
+            K02705  psbC; photosystem II CP43 chlorophyll apoprotein
+            K02704  psbB; photosystem II CP47 chlorophyll apoprotein
+            K02707  psbE; photosystem II cytochrome b559 subunit alpha
+            K02708  psbF; photosystem II cytochrome b559 subunit beta
+            (M00163  Photosystem I)
+            K02689  psaA; photosystem I P700 chlorophyll a apoprotein A1
+            K02690  psaB; photosystem I P700 chlorophyll a apoprotein A2
+            K02691  psaC; photosystem I subunit VII
+            K02692  psaD; photosystem I subunit II
+            K02693  psaE; photosystem I subunit IV
+            K02694  psaF; photosystem I subunit III
+            (M00165  Reductive pentose phosphate cycle (Calvin cycle))
+            K00855  phosphoribulokinase (PRK)
+            K01601+K01602  ribulose-bisphosphate carboxylase (RuBisCO)
+            K00927  phosphoglycerate kinase
+            K05298,K00150,K00134  glyceraldehyde-3-phosphate dehydrogenase
+            K01623,K01624  fructose-bisphosphate aldolase
+            K03841,K02446,K11532,K04041  fructose-1,6-bisphosphatase 
+            K00615  transketolase
+            K01100,K11532  sedoheptulose-bisphosphatase
+            K01807,K01808  ribose 5-phosphate isomerase
+CLASS       Signature modules; Module set; Metabolic capacity
+///

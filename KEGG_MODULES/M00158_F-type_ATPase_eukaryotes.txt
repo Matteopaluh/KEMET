@@ -1,0 +1,31 @@
+ENTRY       M00158            Complex   Module
+NAME        F-type ATPase, eukaryotes
+DEFINITION  K02132+K02133+K02136+K02134+K02135+K02137+K02126+K02127+K02128+K02138+(K02129,K01549)+(K02130,K02139)+K02140+(K02141,K02131)-K02142-K02143+K02125
+ORTHOLOGY   K02132  ATPeF1A; F-type H+-transporting ATPase subunit alpha
+            K02133  ATPeF1B; F-type H+-transporting ATPase subunit beta [EC:3.6.3.14]
+            K02136  ATPeF1G; F-type H+-transporting ATPase subunit gamma
+            K02134  ATPeF1D; F-type H+-transporting ATPase subunit delta
+            K02135  ATPeF1E; F-type H+-transporting ATPase subunit epsilon
+            K02137  ATPeF0O; F-type H+-transporting ATPase subunit O
+            K02126  ATPeF0A; F-type H+-transporting ATPase subunit a
+            K02127  ATPeF0B; F-type H+-transporting ATPase subunit b
+            K02128  ATPeF0C; F-type H+-transporting ATPase subunit c
+            K02138  ATPeFD; F-type H+-transporting ATPase subunit d
+            K02129  ATPeF0E; F-type H+-transporting ATPase subunit e
+            K01549  TIM11; F-type H+-transporting ATP synthase subunit e
+            K02130  ATPeF0F; F-type H+-transporting ATPase subunit f
+            K02139  ATPeFF; F-type H+-transporting ATPase subunit f
+            K02140  ATPeFG; F-type H+-transporting ATPase subunit g
+            K02141  ATPeFH; F-type H+-transporting ATPase subunit h
+            K02131  ATPeF0F6; F-type H+-transporting ATPase subunit 6
+            K02142  ATPeFJ; F-type H+-transporting ATPase subunit j
+            K02143  ATPeFK; F-type H+-transporting ATPase subunit k
+            K02125  ATPeF08; F-type H+-transporting ATPase subunit 8
+CLASS       Pathway modules; Energy metabolism; ATP synthesis
+PATHWAY     map00190  Oxidative phosphorylation
+REFERENCE   PMID:16164973
+  AUTHORS   Ackerman SH, Tzagoloff A
+  TITLE     Function, structure, and biogenesis of mitochondrial ATP synthase.
+  JOURNAL   Prog Nucleic Acid Res Mol Biol 80:95-133 (2005)
+            DOI:10.1016/S0079-6603(05)80003-0
+///

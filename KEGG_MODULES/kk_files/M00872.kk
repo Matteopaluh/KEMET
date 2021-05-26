@@ -1,0 +1,14 @@
+M00872_O-glycan biosynthesis, mannose type (core M3)
+/
+K00728
+K18207
+K09654
+K17547
+/
+K21031
+/
+K19872
+K19873
+K21052
+K21032
+K09668

@@ -1,0 +1,10 @@
+M00811_Nicotine degradation, pyrrolidine pathway, nicotine => succinate semialdehyde
+K20170, K20169
+K20170, K20158
+K20170, K19700
+K20171, K20172
+K15359, K18276
+COMPLEXES_LIST
+K20171-K20172
+OPTIONAL_LIST
+K20172

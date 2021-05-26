@@ -1,0 +1,29 @@
+ENTRY       M00808            Pathway   Module
+NAME        Violacein biosynthesis, tryptophan => violacein
+DEFINITION  K20086 (K20087+K20088) K20089 K20090
+ORTHOLOGY   K20086  vioA; tryptophan oxidase VioA [EC:1.4.3.-] [RN:R11119]
+            K20087  vioB; violacein biosynthesis protein VioB [RN:R11131]
+            K20088  vioE; violacein biosynthesis protein VioE [RN:R11131]
+            K20089  vioD; flavin-dependent oxygenase VioD [EC:1.14.13.-] [RN:R11134]
+            K20090  vioC; flavin-dependent oxygenase VioC [EC:1.14.13.-] [RN:R11135]
+CLASS       Pathway modules; Biosynthesis of other secondary metabolites; Biosynthesis of other secondary metabolites
+PATHWAY     map00404  Staurosporine biosynthesis
+            map01100  Metabolic pathways
+            map01130  Biosynthesis of antibiotics
+REACTION    R11119  C00078 -> C21124
+            R11131  C21124 -> C21131
+            R11134  C21131 -> C21134
+            R11135  C21134 -> C21135
+            R11136  C21135 -> C21136
+COMPOUND    C00078  L-Tryptophan
+            C21124  IPA imine
+            C21131  Protodeoxyviolaceinic acid
+            C21134  Protoviolaceinic acid
+            C21135  Violaceinic acid
+            C21136  Violacein
+REFERENCE   PMID:24038353
+  AUTHORS   Lee ME, Aswani A, Han AS, Tomlin CJ, Dueber JE
+  TITLE     Expression-level optimization of a multi-enzyme pathway in the absence of a high-throughput assay.
+  JOURNAL   Nucleic Acids Res 41:10668-78 (2013)
+            DOI:10.1093/nar/gkt809
+///

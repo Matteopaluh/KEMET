@@ -1,0 +1,33 @@
+ENTRY       M00564            Signature Module
+NAME        Helicobacter pylori pathogenicity signature, cagA pathogenicity island
+DEFINITION  K15842 K12086 -K12087 K12088 K12089 K12090 K03196 K12091 -K12092 K12093 K12094 K12095 K12096 K12097 K12098 -K12099 -K12100 K12101 K12102 K12103 K12104 K12105 K12106 K12107 K12108 K12109 K12110
+ORTHOLOGY   K15842  cagA; cytotoxicity-associated immunodominant antigen
+            K12086  cag1; cag pathogenicity island protein 1
+            K12087  cag2; cag pathogenicity island protein 2
+            K12088  cag3; cag pathogenicity island protein 3
+            K12089  cag4; cag pathogenicity island protein 4
+            K12090  cag5; cag pathogenicity island protein 5
+            K03196  virB11; type IV secretion system protein VirB11
+            K12091  cag6; cag pathogenicity island protein 6
+            K12092  cag7; cag pathogenicity island protein 7
+            K12093  cag8; cag pathogenicity island protein 8
+            K12094  cag9; cag pathogenicity island protein 9
+            K12095  cag10; cag pathogenicity island protein 10
+            K12096  cag11; cag pathogenicity island protein 11
+            K12097  cag12; cag pathogenicity island protein 12
+            K12098  cag13; cag pathogenicity island protein 13
+            K12099  cag14; cag pathogenicity island protein 14
+            K12100  cag15; cag pathogenicity island protein 15
+            K12101  cag16; cag pathogenicity island protein 16
+            K12102  cag17; cag pathogenicity island protein 17
+            K12103  cag18; cag pathogenicity island protein 18
+            K12104  cag19; cag pathogenicity island protein 19
+            K12105  cag20; cag pathogenicity island protein 20
+            K12106  cag21; cag pathogenicity island protein 21
+            K12107  cag22; cag pathogenicity island protein 22
+            K12108  cag23; cag pathogenicity island protein 23
+            K12109  cag24; cag pathogenicity island protein 24
+            K12110  cag25; cag pathogenicity island protein 25
+CLASS       Signature modules; Gene set; Pathogenicity
+PATHWAY     map05120  Epithelial cell signaling in Helicobacter pylori infection
+///

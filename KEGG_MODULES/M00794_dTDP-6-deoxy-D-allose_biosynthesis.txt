@@ -1,0 +1,16 @@
+ENTRY       M00794            Pathway   Module
+NAME        dTDP-6-deoxy-D-allose biosynthesis
+DEFINITION  K13312 K13313
+ORTHOLOGY   K13312  tylJ; dTDP-4-dehydro-6-deoxy-D-glucose 3-epimerase [EC:5.1.3.27] [RN:R06437]
+            K13313  tylD; dTDP-4-dehydro-6-deoxy-alpha-D-gulose 4-ketoreductase [EC:1.1.1.364] [RN:R06438,R10573]
+CLASS       Pathway modules; Biosynthesis of terpenoids and polyketides; Polyketide sugar unit biosynthesis
+PATHWAY     map00523  Polyketide sugar unit biosynthesis
+            map01100  Metabolic pathways
+            map01130  Biosynthesis of antibiotics
+REACTION    R06437  C11907 -> C11926
+            R06438,R10573  C11926 -> C11912
+COMPOUND    C11907  dTDP-4-oxo-6-deoxy-D-glucose
+            C11926  dTDP-4-oxo-6-deoxy-D-allose
+            C11912  dTDP-6-deoxy-D-allose
+RMODULE     RM036  Epimerization and reduction in deoxysugar biosynthesis
+///

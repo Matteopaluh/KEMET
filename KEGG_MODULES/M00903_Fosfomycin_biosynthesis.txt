@@ -1,0 +1,39 @@
+ENTRY       M00903            Pathway   Module
+NAME        Fosfomycin biosynthesis, phosphoenolpyruvate => fosfomycin
+DEFINITION  K23999 K09459 K12901 K12902 K24000 K12903
+ORTHOLOGY   K23999  form1; phosphoenolpyruvate phosphomutase / cytidylyltransferase [EC:5.4.2.9 2.7.7.-] [RN:R00661 R12498]
+            K09459  fom2; phosphonopyruvate decarboxylase [EC:4.1.1.82] [RN:R04053]
+            K12901  fomC; phosphonoacetaldehyde reductase [EC:1.1.1.309] [RN:R08861]
+            K12902  fom3; phosphonoacetaldehyde methylase [EC:2.1.1.308] [RN:R12497]
+            K24000  formD; HPP-CMP hydrolase [EC:3.6.1.-] [RN:R12499]
+            K12903  fom4; (S)-2-hydroxypropylphosphonic acid epoxidase [EC:1.11.1.23] [RN:R08863]
+CLASS       Pathway modules; Biosynthesis of other secondary metabolites; Biosynthesis of other antibiotics
+PATHWAY     map00998  Biosynthesis of various secondary metabolites - part 2
+            map01100  Metabolic pathways
+            map01110  Biosynthesis of secondary metabolites
+REACTION    R00661  C00074 -> C02798
+            R04053  C02798 -> C03167
+            R08861  C03167 -> C06451
+            R12498  C06451 -> C22216
+            R12497  C22216 -> C22217
+            R12499  C22217 -> C06452
+            R08863  C06452 -> C06454
+COMPOUND    C00074  Phosphoenolpyruvate
+            C02798  3-Phosphonopyruvate
+            C03167  Phosphonoacetaldehyde
+            C06451  2-Hydroxyethylphosphonate
+            C22216  Cytidine 5'-{[hydroxy(2-hydroxyethyl)phosphonoyl]phosphate}
+            C22217  Cytidine 5'-{[hydroxy(2-hydroxypropyl)phosphonoyl]phosphate}
+            C06452  (S)-2-Hydroxypropylphosphonate
+            C06454  Fosfomycin
+REFERENCE   PMID:17113999
+  AUTHORS   Woodyer RD, Shao Z, Thomas PM, Kelleher NL, Blodgett JA, Metcalf WW, van der Donk WA, Zhao H
+  TITLE     Heterologous production of fosfomycin and identification of the minimal biosynthetic gene cluster.
+  JOURNAL   Chem Biol 13:1171-82 (2006)
+            DOI:10.1016/j.chembiol.2006.09.007
+REFERENCE   PMID:7500951
+  AUTHORS   Hidaka T, Goda M, Kuzuyama T, Takei N, Hidaka M, Seto H
+  TITLE     Cloning and nucleotide sequence of fosfomycin biosynthetic genes of Streptomyces wedmorensis.
+  JOURNAL   Mol Gen Genet 249:274-80 (1995)
+            DOI:10.1007/BF00290527
+///

@@ -1,0 +1,44 @@
+ENTRY       M00889            Pathway   Module
+NAME        Puromycin biosynthesis, ATP => puromycin
+DEFINITION  K12628 K12629 K12630 K12631 K12632 K12633 K12634 K12635 K12636
+ORTHOLOGY   K12628  pur10; puromycin biosynthesis protein Pur10 [EC:1.-.-.-] [RN:R05668]
+            K12629  pur7; puromycin biosynthesis protein Pur7 [EC:3.-.-.-] [RN:R05669]
+            K12630  pur4; puromycin biosynthesis protein Pur4 [EC:2.-.-.-] [RN:R05670]
+            K12631  pur6; puromycin biosynthesis protein Pur6 [RN:R05671]
+            K12632  pac; puromycin N-acetyltransferase [EC:2.3.-.-] [RN:R05672]
+            K12633  pur5; N-methyl-transferase [EC:2.1.1.-] [RN:R05673 R05674]
+            K12634  pur3; puromycin biosynthesis protein Pur3 [RN:R05675]
+            K12635  dmpM; O-demethylpuromycin O-methyltransferase [EC:2.1.1.38] [RN:R05676]
+            K12636  napH; N-acetylpuromycin N-acetylhydrolase [RN:R05677]
+CLASS       Pathway modules; Biosynthesis of other secondary metabolites; Biosynthesis of other antibiotics
+PATHWAY     map00998  Biosynthesis of various secondary metabolites - part 2
+            map01100  Metabolic pathways
+            map01110  Biosynthesis of secondary metabolites
+REACTION    R05668  C00002 -> C07024
+            R05669  C07024 -> C07025
+            R05670  C07025 -> C07026
+            R05671  C07026 + C00082 -> C07027
+            R05672  C07027 -> C07028
+            R05673  C07028 -> C07029
+            R05674  C07029 -> C07030
+            R05675  C07030 -> C07031
+            R05676  C07031 -> C07032
+            R05677  C07032 -> C01610
+COMPOUND    C00002  ATP
+            C07024  3'-Keto-3'-deoxy-ATP
+            C07025  3'-Keto-3'-deoxy-AMP
+            C07026  3'-Amino-3'-deoxy-AMP
+            C00082  L-Tyrosine
+            C07027  N6,N6,O-Tridemethylpuromycin-5'-phosphate
+            C07028  N-Acetyl-N6,N6,O-tridemethylpuromycin-5'-phosphate
+            C07029  N-Acetyl-N6,O-didemethylpuromycin-5'-phosphate
+            C07030  N-Acetyl-O-demethylpuromycin-5'-phosphate
+            C07031  N-Acetyl-O-demethylpuromycin
+            C07032  N-Acetylpuromycin
+            C01610  Puromycin
+REFERENCE   PMID:8576156
+  AUTHORS   Tercero JA, Espinosa JC, Lacalle RA, Jimenez A.
+  TITLE     The biosynthetic pathway of the aminonucleoside antibiotic puromycin, as deduced from the molecular analysis of the pur cluster of Streptomyces alboniger.
+  JOURNAL   J Biol Chem 271:1579-90 (1996)
+            DOI:10.1074/jbc.271.3.1579
+///

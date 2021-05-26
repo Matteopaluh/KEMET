@@ -1,0 +1,17 @@
+ENTRY       M00714            Signature Module
+NAME        Multidrug resistance, efflux pump QacA
+DEFINITION  K18938 K08167
+ORTHOLOGY   K18938  qacR; TetR/AcrR family transcriptional regulator, repressor for qacA
+            K08167  smvA; MFS transporter, DHA2 family, multidrug resistance protein
+CLASS       Signature modules; Gene set; Drug resistance
+REFERENCE   PMID:9660841
+  AUTHORS   Grkovic S, Brown MH, Roberts NJ, Paulsen IT, Skurray RA
+  TITLE     QacR is a repressor protein that regulates expression of the Staphylococcus aureus multidrug efflux pump QacA.
+  JOURNAL   J Biol Chem 273:18665-73 (1998)
+            DOI:10.1074/jbc.273.29.18665
+REFERENCE   PMID:23569469
+  AUTHORS   Costa SS, Viveiros M, Amaral L, Couto I
+  TITLE     Multidrug Efflux Pumps in Staphylococcus aureus: an Update.
+  JOURNAL   Open Microbiol J 7:59-71 (2013)
+            DOI:10.2174/1874285801307010059
+///

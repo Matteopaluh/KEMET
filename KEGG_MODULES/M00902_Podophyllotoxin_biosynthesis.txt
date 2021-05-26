@@ -1,0 +1,46 @@
+ENTRY       M00902            Pathway   Module
+NAME        Podophyllotoxin biosynthesis, coniferyl alcohol => podophyllotoxin
+DEFINITION  K21568 K19650 K21207 K21203 K21205 K21204 K21202
+ORTHOLOGY   K21568  pinoresinol/lariciresinol reductase [EC:1.23.1.1 1.23.1.2 1.23.1.3 1.23.1.4] [RN:R10225 R10226]
+            K19650  secoisolariciresinol dehydrogenase [EC:1.1.1.331] [RN:R10129]
+            K21207  (-)-pluviatolide synthase [EC:1.14.19.72] [RN:R11222]
+            K21203  (-)-pluviatolide 4-O-methyltransferase [EC:2.1.1.323] [RN:R11230]
+            K21205  bursehernin 5'-monooxygenase [EC:1.14.14.131] [RN:R11211]
+            K21204  5'-demethylyatein 5'-O-methyltransferase [EC:2.1.1.330] [RN:R11545]
+            K21202  (-)-deoxypodophyllotoxin synthase [EC:1.14.20.8] [RN:R11210]
+CLASS       Pathway modules; Biosynthesis of other secondary metabolites; Biosynthesis of phytochemical compounds
+PATHWAY     map00998  Biosynthesis of various secondary metabolites - part 2
+            map01100  Metabolic pathways
+            map01110  Biosynthesis of secondary metabolites
+REACTION    R12126  C00590 -> C05366
+            R10225  C05366 -> C10646
+            R10226  C10646 -> C18167
+            R10129  C18167 -> C10682
+            R11222  C10682 -> C21191
+            R11230  C21191 -> C21183
+            R11211  C21183 -> C21184
+            R11545  C21184 -> C10577
+            R11210  C10577 -> C10556
+            R12127  C10556 -> C10874
+COMPOUND    C00590  Coniferyl alcohol
+            C05366  (+)-Pinoresinol
+            C10646  Lariciresinol
+            C18167  Secoisolariciresinol
+            C10682  Matairesinol
+            C21191  Pluviatolide
+            C21183  Bursehernin
+            C21184  (-)-5'-Demethylyatein
+            C10577  Casimiroedine
+            C10556  Deoxypodophyllotoxin
+            C10874  Podophyllotoxin
+REFERENCE   PMID:26359402
+  AUTHORS   Lau W, Sattely ES
+  TITLE     Six enzymes from mayapple that complete the biosynthetic pathway to the etoposide aglycone.
+  JOURNAL   Science 349:1224-8 (2015)
+            DOI:10.1126/science.aac7202
+REFERENCE   PMID:27314513
+  AUTHORS   Yang L, Sun P, Li MF
+  TITLE     Chilling temperature stimulates growth, gene over-expression and podophyllotoxin biosynthesis in Podophyllum hexandrum Royle.
+  JOURNAL   Plant Physiol Biochem 107:197-203 (2016)
+            DOI:10.1016/j.plaphy.2016.06.010
+///

@@ -1,0 +1,6 @@
+M00804_Complete nitrification, comammox, ammonia => nitrite => nitrate
+K10944, K10945, K10946
+K10535
+K00370, K00371
+COMPLEXES_LIST
+K10944+K10945+K10946, K00370+K00371

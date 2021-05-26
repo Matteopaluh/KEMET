@@ -1,0 +1,11 @@
+ENTRY       M00155            Complex   Module
+NAME        Cytochrome c oxidase, prokaryotes
+DEFINITION  K02275+(K02274+K02276,K15408)-K02277
+ORTHOLOGY   K02275  coxB; cytochrome c oxidase subunit II [EC:1.9.3.1]
+            K02274  coxA; cytochrome c oxidase subunit I [EC:1.9.3.1]
+            K02276  coxC; cytochrome c oxidase subunit III [EC:1.9.3.1]
+            K15408  coxAC; cytochrome c oxidase subunit I+III [EC:1.9.3.1]
+            K02277  coxD; cytochrome c oxidase subunit IV [EC:1.9.3.1]
+CLASS       Pathway modules; Energy metabolism; ATP synthesis
+PATHWAY     map00190  Oxidative phosphorylation
+///

@@ -1,0 +1,18 @@
+ENTRY       M00829            Pathway   Module
+NAME        3,6-Dimethylsalicylyl-CoA biosynthesis, malonyl-CoA => 6-methylsalicylate => 3,6-dimethylsalicylyl-CoA
+DEFINITION  K15320 K21191 K21192
+ORTHOLOGY   K15320  mdpB; 6-methylsalicylic acid synthase [EC:2.3.1.165] [RN:R07253]
+            K21191  mdpB2; CoA ligase [EC:6.2.1.-] [RN:R11370]
+            K21192  mdpB1; methyltransferase [EC:2.1.1.-] [RN:R11371]
+CLASS       Pathway modules; Biosynthesis of terpenoids and polyketides; Enediyne biosynthesis
+PATHWAY     map01059  Biosynthesis of enediyne antibiotics
+            map01100  Metabolic pathways
+            map01130  Biosynthesis of antibiotics
+REACTION    R07253  C00083 -> C02657
+            R11370  C02657 -> C21312
+            R11371  C21312 -> C21313
+COMPOUND    C00083  Malonyl-CoA
+            C02657  6-Methylsalicylate
+            C21312  6-Methylsalicylyl-CoA
+            C21313  3,6-Dimethylsalicylyl-CoA
+///

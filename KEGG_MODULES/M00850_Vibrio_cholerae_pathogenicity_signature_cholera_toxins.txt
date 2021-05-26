@@ -1,0 +1,13 @@
+ENTRY       M00850            Signature Module
+NAME        Vibrio cholerae pathogenicity signature, cholera toxins
+DEFINITION  (K10928+K10929) K10954 K10952 K10953 K10948 K11018
+ORTHOLOGY   K10928  ctxA; cholera enterotoxin subunit A [EC:2.4.2.36]
+            K10929  ctxB; cholera enterotoxin subunit B
+            K10954  zot; zona occludens toxin
+            K10952  ace; accessory cholera enterotoxin
+            K10953  rtxA; RTX toxin RtxA
+            K10948  hlyA; hemolysin
+            K11018  tlh; thermolabile hemolysin
+CLASS       Signature modules; Gene set; Pathogenicity
+PATHWAY     map05110  Vibrio cholerae infection
+///

@@ -1,0 +1,22 @@
+ENTRY       M00877            Pathway   Module
+NAME        Kanosamine biosynthesis, glucose 6-phosphate => kanosamine
+DEFINITION  K18652 K18653 K18654
+ORTHOLOGY   K18652  ntdC; glucose-6-phosphate 3-dehydrogenase [EC:1.1.1.361] [RN:R10519]
+            K18653  ntdA; 3-dehydro-glucose-6-phosphate---glutamate transaminase [EC:2.6.1.104] [RN:R10698]
+            K18654  ntdB; kanosamine-6-phosphate phosphatase [EC:3.1.3.92] [RN:R10547]
+CLASS       Pathway modules; Biosynthesis of other secondary metabolites; Biosynthesis of other secondary metabolites
+PATHWAY     map00998  Biosynthesis of various secondary metabolites - part 2
+            map01100  Metabolic pathways
+REACTION    R10519  C00092 -> C20668
+            R10698  C20668 -> C12213
+            R10547  C12213 -> C12212
+COMPOUND    C00092  D-Glucose 6-phosphate
+            C20668  3-Dehydro-D-glucose 6-phosphate
+            C12213  Kanosamine 6-phosphate
+            C12212  Kanosamine
+REFERENCE   PMID:23586652
+  AUTHORS   Vetter ND, Langill DM, Anjum S, Boisvert-Martel J, Jagdhane RC, Omene E, Zheng H, van Straaten KE, Asiamah I, Krol ES, Sanders DA, Palmer DR
+  TITLE     A previously unrecognized kanosamine biosynthesis pathway in Bacillus subtilis.
+  JOURNAL   J Am Chem Soc 135:5970-3 (2013)
+            DOI:10.1021/ja4010255
+///

@@ -1,0 +1,23 @@
+ENTRY       M00076            Pathway   Module
+NAME        Dermatan sulfate degradation
+DEFINITION  -- K01136 K01217 K01135 K01197 K01195
+ORTHOLOGY   K01136  iduronate 2-sulfatase [EC:3.1.6.13] [RN:R07821]
+            K01217  L-iduronidase [EC:3.2.1.76] [RN:R07822]
+            K01135  arylsulfatase B [EC:3.1.6.12] [RN:R07823]
+            K01197  hyaluronoglucosaminidase [EC:3.2.1.35] [RN:R07824]
+            K01195  beta-glucuronidase [EC:3.2.1.31]
+CLASS       Pathway modules; Glycan metabolism; Glycosaminoglycan metabolism
+PATHWAY     map00531  Glycosaminoglycan degradation
+            map01100  Metabolic pathways
+REACTION    R07820  C00426 -> G13041
+            R07821  G13041 -> G13042
+            R07822  G13042 -> G12336
+            R07823  G12336 -> G13043
+            R07824  G13043 -> G00872
+COMPOUND    C00426  Dermatan sulfate
+            G13041
+            G13042
+            G12336
+            G13043
+            G00872  DWA-2
+///

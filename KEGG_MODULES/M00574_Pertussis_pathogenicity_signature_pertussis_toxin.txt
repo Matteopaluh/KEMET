@@ -1,0 +1,11 @@
+ENTRY       M00574            Signature Module
+NAME        Pertussis pathogenicity signature, pertussis toxin
+DEFINITION  K11023 -K11024 K11025 K11026 K11027
+ORTHOLOGY   K11023  ptxA; pertussis toxin subunit 1 [EC:2.4.2.-]
+            K11024  ptxB; pertussis toxin subunit 2
+            K11025  ptxC; pertussis toxin subunit 3
+            K11026  ptxD; pertussis toxin subunit 4
+            K11027  ptxE; pertussis toxin subunit 5
+CLASS       Signature modules; Gene set; Pathogenicity
+PATHWAY     map05133  Pertussis
+///

@@ -1,0 +1,6 @@
+M00802_dTDP-D-forosamine biosynthesis
+K16435
+K13327
+K13328
+K13329
+K13330

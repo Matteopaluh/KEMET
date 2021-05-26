@@ -1,0 +1,19 @@
+ENTRY       M00142            Complex   Module
+NAME        NADH:ubiquinone oxidoreductase, mitochondria
+DEFINITION  (K03878+K03879+K03880+K03881+K03882+K03883+K03884)
+ORTHOLOGY   K03878  ND1; NADH-ubiquinone oxidoreductase chain 1 [EC:7.1.1.2]
+            K03879  ND2; NADH-ubiquinone oxidoreductase chain 2 [EC:7.1.1.2]
+            K03880  ND3; NADH-ubiquinone oxidoreductase chain 3 [EC:7.1.1.2]
+            K03881  ND4; NADH-ubiquinone oxidoreductase chain 4 [EC:7.1.1.2]
+            K03882  ND4L; NADH-ubiquinone oxidoreductase chain 4L [EC:7.1.1.2]
+            K03883  ND5; NADH-ubiquinone oxidoreductase chain 5 [EC:7.1.1.2]
+            K03884  ND6; NADH-ubiquinone oxidoreductase chain 6 [EC:7.1.1.2]
+CLASS       Pathway modules; Energy metabolism; ATP synthesis
+PATHWAY     map00190  Oxidative phosphorylation
+REACTION    R11945  C00399 + C00004 -> C00390 + C00003
+COMPOUND    C00399  Ubiquinone
+            C00004  NADH
+            C00390  Ubiquinol
+            C00003  NAD+
+COMMENT     Complex I in the electron transport chain.
+///

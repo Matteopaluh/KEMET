@@ -1,0 +1,27 @@
+ENTRY       M00900            Pathway   Module
+NAME        Crocin biosynthesis, crocetin => crocin
+DEFINITION  K21371 K21354
+ORTHOLOGY   K21371  crocetin glucosyltransferase [EC:2.4.1.271] [RN:R09757 R09758 R09759]
+            K21354  beta-D-glucosyl crocetin beta-1,6-glucosyltransferase [EC:2.4.1.330] [RN:R10988 R10989 R10990]
+CLASS       Pathway modules; Biosynthesis of other secondary metabolites; Biosynthesis of phytochemical compounds
+PATHWAY     map00999  Biosynthesis of various secondary metabolites - part 1
+            map01100  Metabolic pathways
+            map01110  Biosynthesis of secondary metabolites
+REACTION    R09757  C08588 -> C19867
+            R10988  C19867 -> C19869
+            R09759  C19869 -> C17513
+            R09758  C19867 -> C19868
+            R10989  C19868 -> C17513
+            R10990  C17513 -> C08589
+COMPOUND    C08588  Crocetin
+            C19867  beta-D-Glucosyl crocetin
+            C19869  beta-D-Gentiobiosyl crocetin
+            C17513  trans-Crocetin (beta-D-glucosyl) (beta-D-gentibiosyl) ester
+            C19868  Bis(beta-D-glucosyl) crocetin
+            C08589  Crocin
+REFERENCE   PMID:22569263
+  AUTHORS   Nagatoshi M, Terasaka K, Owaki M, Sota M, Inukai T, Nagatsu A, Mizukami H
+  TITLE     UGT75L6 and UGT94E5 mediate sequential glucosylation of crocetin to crocin in Gardenia jasminoides.
+  JOURNAL   FEBS Lett 586:1055-61 (2012)
+            DOI:10.1016/j.febslet.2012.03.003
+///

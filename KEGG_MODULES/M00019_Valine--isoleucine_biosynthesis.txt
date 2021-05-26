@@ -1,0 +1,39 @@
+ENTRY       M00019            Pathway   Module
+NAME        Valine/isoleucine biosynthesis, pyruvate => valine / 2-oxobutanoate => isoleucine
+DEFINITION  (K01652+(K01653,K11258)) K00053 K01687 K00826
+ORTHOLOGY   K01652,K01653,K11258  acetolactate synthase [EC:2.2.1.6] [RN:R00226 R08648]
+            K00053  ketol-acid reductoisomerase [EC:1.1.1.86] [RN:R05071 R04440 R04439 R05069 R05068]
+            K01687  dihydroxy-acid dehydratase [EC:4.2.1.9] [RN:R04441 R05070]
+            K00826  branched-chain amino acid aminotransferase [EC:2.6.1.42] [RN:R01214 R02199]
+CLASS       Pathway modules; Amino acid metabolism; Branched-chain amino acid metabolism
+PATHWAY     map00290  Valine, leucine and isoleucine biosynthesis
+            map00770  Pantothenate and CoA biosynthesis
+            map01210  2-Oxocarboxylic acid metabolism
+            map01230  Biosynthesis of amino acids
+            map01100  Metabolic pathways
+            map01110  Biosynthesis of secondary metabolites
+REACTION    R00226  C00022 -> C06010
+            R05071  C06010 -> C04181
+            R04440  C04181 -> C04272
+            R04439  C06010 -> C04272
+            R04441  C04272 -> C00141
+            R01214  C00141 -> C00183
+            R08648  C00109 -> C06006
+            R05069  C06006 -> C14463
+            R05068  C14463 -> C06007
+            R05070  C06007 -> C00671
+            R02199  C00671 -> C00407
+COMPOUND    C00022  Pyruvate
+            C06010  (S)-2-Acetolactate
+            C04181  3-Hydroxy-3-methyl-2-oxobutanoic acid
+            C04272  (R)-2,3-Dihydroxy-3-methylbutanoate
+            C00141  3-Methyl-2-oxobutanoic acid
+            C00183  L-Valine
+            C00109  2-Oxobutanoate
+            C06006  (S)-2-Aceto-2-hydroxybutanoate
+            C14463  (R)-3-Hydroxy-3-methyl-2-oxopentanoate
+            C06007  (R)-2,3-Dihydroxy-3-methylpentanoate
+            C00671  (S)-3-Methyl-2-oxopentanoic acid
+            C00407  L-Isoleucine
+RMODULE     RM033  Branched-chain addition (branched-chain amino acid synthesis)
+///

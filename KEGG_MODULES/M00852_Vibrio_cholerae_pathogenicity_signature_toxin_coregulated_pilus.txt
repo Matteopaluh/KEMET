@@ -1,0 +1,22 @@
+ENTRY       M00852            Signature Module
+NAME        Vibrio cholerae pathogenicity signature, toxin coregulated pilus
+DEFINITION  K10961 K10920 K10919 K10930 K10931 K10962 K10932 K10963 K10933 K10964 K10965 K10934 K10935 K10966
+ORTHOLOGY   K10961  tcpI; toxin coregulated pilus biosynthesis protein I
+            K10920  tcpP; toxin coregulated pilus biosynthesis protein P
+            K10919  tcpH; toxin coregulated pilus biosynthesis protein H
+            K10930  tcpA; toxin coregulated pilin
+            K10931  tcpB; toxin coregulated pilus biosynthesis protein B
+            K10962  tcpQ; toxin coregulated pilus biosynthesis protein Q
+            K10932  tcpC; toxin coregulated pilus biosynthesis outer membrane protein C
+            K10963  tcpR; toxin coregulated pilus biosynthesis protein R
+            K10933  tcpD; toxin coregulated pilus biosynthesis protein D
+            K10964  tcpS; toxin coregulated pilus biosynthesis protein S
+            K10965  tcpT; toxin coregulated pilus biosynthesis protein T
+            K10934  tcpE; toxin coregulated pilus biosynthesis protein E
+            K10935  tcpF; toxin coregulated pilus biosynthesis protein F
+            K10966  tcpJ; toxin coregulated pilus biosynthesis protein J [EC:3.4.23.43 2.1.1.-]
+CLASS       Signature modules; Gene set; Pathogenicity
+PATHWAY     map05110  Vibrio cholerae infection
+            map05111  Biofilm formation - Vibrio cholerae
+BRITE       ko02044  Secretion system
+///

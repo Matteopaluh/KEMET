@@ -1,0 +1,23 @@
+ENTRY       M00746            Signature Module
+NAME        Multidrug resistance, repression of porin OmpF
+DEFINITION  K13632 K18513 K09476
+ORTHOLOGY   K13632  marA; AraC family transcriptional regulator, mar-sox-rob regulon activator [COG:COG2207]
+            K18513  micF; small regulatory RNA MicF
+            K09476  ompF; outer membrane pore protein F [COG:COG3203] [TC:1.B.1.1.1]
+CLASS       Signature modules; Gene set; Drug resistance
+COMMENT     Resistance mechanism: decrease in the production of OmpF porin which is involved in the entry of antimicrobial agents
+REFERENCE   PMID:11353631
+  AUTHORS   Balague C, Vescovi EG
+  TITLE     Activation of multiple antibiotic resistance in uropathogenic Escherichia coli strains by aryloxoalcanoic acid compounds.
+  JOURNAL   Antimicrob Agents Chemother 45:1815-22 (2001)
+            DOI:10.1128/AAC.45.6.1815-1822.2001
+REFERENCE   PMID:25788514
+  AUTHORS   Li XZ, Plesiat P, Nikaido H
+  TITLE     The challenge of efflux-mediated antibiotic resistance in Gram-negative bacteria.
+  JOURNAL   Clin Microbiol Rev 28:337-418 (2015)
+            DOI:10.1128/CMR.00117-14
+REFERENCE   PMID:9333027
+  AUTHORS   Alekshun MN, Levy SB
+  TITLE     Regulation of chromosomally mediated multiple antibiotic resistance: the mar regulon.
+  JOURNAL   Antimicrob Agents Chemother 41:2067-75 (1997)
+///

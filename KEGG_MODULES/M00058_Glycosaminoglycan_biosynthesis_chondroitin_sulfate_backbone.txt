@@ -1,0 +1,17 @@
+ENTRY       M00058            Pathway   Module
+NAME        Glycosaminoglycan biosynthesis, chondroitin sulfate backbone
+DEFINITION  K00746 (K13499,K00747,K03419)
+ORTHOLOGY   K00746  N-acetylgalactosaminyltransferase I [EC:2.4.1.174] [RN:R05929]
+            K03419  N-acetylgalactosaminyl-proteoglycan 3-beta-glucuronosyltransferase [EC:2.4.1.226] [RN:R05931]
+            K13499,K00747  chondroitin synthase [EC:2.4.1.175 2.4.1.226] [RN:R05931 R05932]
+CLASS       Pathway modules; Glycan metabolism; Glycosaminoglycan metabolism
+PATHWAY     map00532  Glycosaminoglycan biosynthesis - chondroitin sulfate / dermatan sulfate
+            map01100  Metabolic pathways
+REACTION    R05929  G00157 -> G00158
+            R05931  G00158 -> G00159
+            R05932  G00159 -> G00160
+COMPOUND    G00157  (Gal)2 (GlcA)1 (Xyl)1 (Ser)1
+            G00158  (Gal)2 (GalNAc)1 (GlcA)1 (Xyl)1 (Ser)1
+            G00159  (Gal)2 (GalNAc)1 (GlcA)2 (Xyl)1 (Ser)1
+            G00160  (Gal)2 (GalNAc)2 (GlcA)2 (Xyl)1 (Ser)1
+///

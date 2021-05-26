@@ -1,0 +1,30 @@
+ENTRY       M00095            Pathway   Module
+NAME        C5 isoprenoid biosynthesis, mevalonate pathway
+DEFINITION  K00626 K01641 K00021 K00869 (K00938,K13273) K01597 K01823
+ORTHOLOGY   K00626  acetyl-CoA C-acetyltransferase [EC:2.3.1.9] [RN:R00238]
+            K01641  hydroxymethylglutaryl-CoA synthase [EC:2.3.3.10] [RN:R01978]
+            K00021  3-hydroxy-3-methylglutaryl-CoA reductase [EC:1.1.1.34] [RN:R02082]
+            K00869  mevalonate kinase [EC:2.7.1.36] [RN:R02245]
+            K00938,K13273  phosphomevalonate kinase [EC:2.7.4.2] [RN:R03245]
+            K01597  diphosphomevalonate decarboxylase [EC:4.1.1.33] [RN:R01121]
+            K01823  isopentenyl-diphosphate delta-isomerase [EC:5.3.3.2] [RN:R01123]
+CLASS       Pathway modules; Biosynthesis of terpenoids and polyketides; Terpenoid backbone biosynthesis
+PATHWAY     map00900  Terpenoid backbone biosynthesis
+            map01100  Metabolic pathways
+            map01110  Biosynthesis of secondary metabolites
+REACTION    R00238  C00024 -> C00332
+            R01978  C00332 + C00024 -> C00356
+            R02082  C00356 -> C00418
+            R02245  C00418 -> C01107
+            R03245  C01107 -> C01143
+            R01121  C01143 -> C00129
+            R01123  C00129 -> C00235
+COMPOUND    C00024  Acetyl-CoA
+            C00332  Acetoacetyl-CoA
+            C00356  (S)-3-Hydroxy-3-methylglutaryl-CoA
+            C00418  (R)-Mevalonate
+            C01107  (R)-5-Phosphomevalonate
+            C01143  (R)-5-Diphosphomevalonate
+            C00129  Isopentenyl diphosphate
+            C00235  Dimethylallyl diphosphate
+///

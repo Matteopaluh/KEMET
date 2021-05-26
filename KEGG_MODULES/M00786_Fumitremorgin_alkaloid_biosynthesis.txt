@@ -1,0 +1,37 @@
+ENTRY       M00786            Pathway   Module
+NAME        Fumitremorgin alkaloid biosynthesis, tryptophan + proline => fumitremorgin C/A
+DEFINITION  K18281 K14132 K17475 K18280 K17827 K17826 K14134 K17825 K18279
+ORTHOLOGY   K18281  FTMA; brevianamide F synthase [RN:R10661]
+            K14132  FTMPT1; tryprostatin B synthase [EC:2.5.1.106] [RN:R10340]
+            K17475  FTMC; tryprostatin B 6-hydroxylase [EC:1.14.14.118] [RN:R10321]
+            K18280  FTMD; 6-hydroxytryprostatin B O-methyltransferase [EC:2.1.1.293] [RN:R10588]
+            K17827  FTME; fumitremorgin C synthase [EC:1.14.19.71] [RN:R10416]
+            K17826  FTMG; fumitremorgin C monooxygenase [EC:1.14.14.119] [RN:R10414]
+            K14134  FTMPT2; 12alpha,13alpha-dihydroxyfumitremorgin C prenyltransferase [EC:2.5.1.110] [RN:R10457]
+            K17825  FTMF; verruculogen synthase [EC:1.14.11.38] [RN:R10445]
+            K18279  FTMPT3; verruculogen prenyltransferase [EC:2.5.1.107] [RN:R10341]
+CLASS       Pathway modules; Biosynthesis of other secondary metabolites; Biosynthesis of other secondary metabolites
+PATHWAY     map00404  Staurosporine biosynthesis
+            map01100  Metabolic pathways
+            map01130  Biosynthesis of antibiotics
+REACTION    R10661  C00078 + C00148 -> C20563
+            R10340  C20563 -> C20512
+            R10321  C20512 -> C20513
+            R10588  C20513 -> C20607
+            R10416  C20607 -> C20604
+            R10414  C20604 -> C20605
+            R10457  C20605 -> C20630
+            R10445  C20630 -> C20045
+            R10341  C20045 -> C20564
+COMPOUND    C00078  L-Tryptophan
+            C00148  L-Proline
+            C20563  Brevianamide F
+            C20512  Tryprostatin B
+            C20513  6-Hydroxytryprostatin B
+            C20607  Tryprostatin A
+            C20604  Fumitremorgin C
+            C20605  12alpha,13alpha-Dihydroxyfumitremorgin C
+            C20630  Fumitremorgin B
+            C20045  Verruculogen
+            C20564  Fumitremorgin A
+///

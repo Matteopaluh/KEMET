@@ -1,0 +1,38 @@
+ENTRY       M00878            Pathway   Module
+NAME        Phenylacetate degradation, phenylaxetate => acetyl-CoA/succinyl-CoA
+DEFINITION  K01912 (K02609+K02610+K02611+K02612+K02613) K15866 K02618 K02615 K01692 K00074
+ORTHOLOGY   K01912  paaK; phenylacetate-CoA ligase [EC:6.2.1.30] [RN:R02539]
+            K02609,K02610,K02611,K02612,K02613  paaABCDE; ring-1,2-phenylacetyl-CoA epoxidase [EC:1.14.13.149][RN:R09838]
+            K15866  paaG; 2-(1,2-epoxy-1,2-dihydrophenyl)acetyl-CoA isomerase [EC:5.3.3.18] [RN:R09837 R09839]
+            K02618  paaZ; oxepin-CoA hydrolase / 3-oxo-5,6-dehydrosuberyl-CoA semialdehyde dehydrogenase [EC:3.3.2.12 1.2.1.91] [RN:R09836 R09820]
+            K02615  paaJ; 3-oxo-5,6-didehydrosuberyl-CoA/3-oxoadipyl-CoA thiolase [EC:2.3.1.223 2.3.1.174] [RN:R09839 R00829]
+            K01692  paaF; enoyl-CoA hydratase [EC:4.2.1.17] [RN:R06942]
+            K00074  paaH; 3-hydroxybutyryl-CoA dehydrogenase [EC:1.1.1.157] [RN:R06941]
+CLASS       Pathway modules; Xenobiotics biodegradation; Aromatics degradation
+PATHWAY     map00360  Phenylalanine metabolism
+REACTION    R02539  C07086 -> C00582
+            R09838  C00582 -> C20062
+            R09837  C20062 -> C19975
+            R09836  C19975 -> C19946
+            R09820  C19946 -> C19945
+            R09839  C19945 -> C14144+C00024
+            R06942  C14144 -> C14145
+            R06941  C14145 -> C02232
+            R00829  C02232 -> C00091+C00024
+COMPOUND    C07086  Phenylacetic acid
+            C00582  Phenylacetyl-CoA
+            C20062  2-(1,2-Epoxy-1,2-dihydrophenyl)acetyl-CoA
+            C19975  2-Oxepin-2(3H)-ylideneacetyl-CoA
+            C19946  3-Oxo-5,6-dehydrosuberyl-CoA semialdehyde
+            C19945  3-Oxo-5,6-dehydrosuberyl-CoA
+            C14144  5-Carboxy-2-pentenoyl-CoA
+            C00024  Acetyl-CoA
+            C14145  (3S)-3-Hydroxyadipyl-CoA
+            C02232  3-Oxoadipyl-CoA
+            C00091  Succinyl-CoA
+REFERENCE   PMID:20660314
+  AUTHORS   Teufel R, Mascaraque V, Ismail W, Voss M, Perera J, Eisenreich W, Haehnel W, Fuchs G
+  TITLE     Bacterial phenylalanine and phenylacetate catabolic pathway revealed.
+  JOURNAL   Proc Natl Acad Sci U S A 107:14390-5 (2010)
+            DOI:10.1073/pnas.1005399107
+///

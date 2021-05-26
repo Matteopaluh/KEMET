@@ -1,0 +1,48 @@
+ENTRY       M00835            Pathway   Module
+NAME        Pyocyanine biosynthesis, chorismate => pyocyanine
+DEFINITION  K13063 K20261 K06998 K20260 K20262 K21103 K20940
+ORTHOLOGY   K13063  phzE; 2-amino-4-deoxychorismate synthase [EC:2.6.1.86] [RN:R08956]
+            K20261  phzD; trans-2,3-dihydro-3-hydroxyanthranilic acid synthase [EC:3.3.2.15][RN:R11463]
+            K06998  phzF; trans-2,3-dihydro-3-hydroxyanthranilate isomerase [EC:5.3.3.17] [RN:R09707]
+            K20260  phzA_B; phenazine biosynthesis protein [RN:R11568 R11569]
+            K20262  phzG; dihydrophenazinedicarboxylate synthase [EC:1.10.3.16][RN:R11491]
+            K21103  phzM; phenazine-1-carboxylate N-methyltransferase [EC:2.1.1.327][RN:R11533]
+            K20940  phzS; 5-methylphenazine-1-carboxylate 1-monooxygenase [EC:1.14.13.218][RN:R11346]
+CLASS       Pathway modules; Biosynthesis of other secondary metabolites; Biosynthesis of other secondary metabolites
+PATHWAY     map00405  Phenazine biosynthesis
+            map01100  Metabolic pathways
+            map01130  Biosynthesis of antibiotics
+REACTION    R08956  C00251 -> C18054
+            R11463  C18054 -> C19830
+            R09707  C19830 -> C19831
+            R11568  C19831 -> C21473
+            R11569  C21473 -> C21408
+            R11570  C21408 -> C21411
+            R11491  C21411 -> C21412
+            R11576  C21412 -> C20981
+            R11577  C20981 -> C21442
+            R11533  C21442 -> C21295
+            R11346  C21295 -> C01748
+COMPOUND    C00251  Chorismate
+            C18054  2-Amino-2-deoxyisochorismate
+            C19830  (5S,6S)-6-Amino-5-hydroxycyclohexa-1,3-diene-1-carboxylate
+            C19831  (1R,6S)-6-Amino-5-oxocyclohex-2-ene-1-carboxylate
+            C21473  (1R,5aS,6R)-4a-Hydroxy-1,4,4a,5,5a,6,9,10a-octahydrophenazine-1,6-dicarboxylate
+            C21408  (1R,6R)-1,4,5,5a,6,9-Hexahydrophenazine-1,6-dicarboxylate
+            C21411  (1R,10aS)-1,4,10,10a-Tetrahydrophenazine-1-carboxylate
+            C21412  (10aS)-10,10a-Dihydrophenazine-1-carboxylate
+            C20981  5,10-Dihydrophenazine-1-carboxylate
+            C21442  Phenazine-1-carboxylate
+            C21295  5-Methylphenazine-1-carboxylate
+            C01748  Pyocyanine
+REFERENCE   PMID:23897464
+  AUTHORS   Xu N, Ahuja EG, Janning P, Mavrodi DV, Thomashow LS, Blankenfeldt W
+  TITLE     Trapped intermediates in crystals of the FMN-dependent oxidase PhzG provide insight into the final steps of phenazine biosynthesis.
+  JOURNAL   Acta Crystallogr D Biol Crystallogr 69:1403-13 (2013)
+            DOI:10.1107/S0907444913008354
+REFERENCE   PMID:17253782
+  AUTHORS   Parsons JF, Greenhagen BT, Shi K, Calabrese K, Robinson H, Ladner JE
+  TITLE     Structural and functional analysis of the pyocyanin biosynthetic protein PhzM from Pseudomonas aeruginosa.
+  JOURNAL   Biochemistry 46:1821-8 (2007)
+            DOI:10.1021/bi6024403
+///

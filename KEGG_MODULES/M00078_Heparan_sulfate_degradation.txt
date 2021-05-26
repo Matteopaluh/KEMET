@@ -1,0 +1,34 @@
+ENTRY       M00078            Pathway   Module
+NAME        Heparan sulfate degradation
+DEFINITION  (K07964,K07965) K01136 K01217 K01565 K10532 K01205 -- K01195 K01137
+ORTHOLOGY   K07964,K07965  heparanase  [EC:3.2.1.166 3.2.1.-] [RN:R07811]
+            K01136  iduronate 2-sulfatase [EC:3.1.6.13] [RN:R07812]
+            K01217  L-iduronidase [EC:3.2.1.76] [RN:R07813]
+            K01565  N-sulfoglucosamine sulfohydrolase [EC:3.10.1.1] [RN:R07814]
+            K10532  heparan-alpha-glucosaminide N-acetyltransferase [EC:2.3.1.78] [RN:R07815]
+            K01205  alpha-N-acetylglucosaminidase [EC:3.2.1.50] [RN:R07816]
+            K01195  beta-glucuronidase [EC:3.2.1.31] [RN:R07818]
+            K01137  N-acetylglucosamine-6-sulfatase [EC:3.1.6.14] [RN:R07819]
+CLASS       Pathway modules; Glycan metabolism; Glycosaminoglycan metabolism
+PATHWAY     map00531  Glycosaminoglycan degradation
+            map01100  Metabolic pathways
+REACTION    R07811  C00925 -> G13034
+            R07812  G13034 -> G13035
+            R07813  G13035 -> G13036
+            R07814  G13036 -> G13037
+            R07815  G13037 -> G13038
+            R07816  G13038 -> G13039
+            R07817  G13039 -> G13040
+            R07818  G13040 -> G09660
+            R07819  G09660 -> G02632
+COMPOUND    C00925  Heparan sulfate
+            G13034
+            G13035
+            G13036
+            G13037
+            G13038
+            G13039
+            G13040
+            G09660
+            G02632
+///

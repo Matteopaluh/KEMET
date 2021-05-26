@@ -1,0 +1,44 @@
+ENTRY       M00787            Pathway   Module
+NAME        Bacilysin biosynthesis, prephenate => bacilysin
+DEFINITION  K19546 K19547 K19550 K19549 K19548 K13037
+ORTHOLOGY   K19546  bacA; bacA; prephenate decarboxylase [EC:4.1.1.100] [RN:R10934]
+            K19547  bacB; 3-[(4R)-4-hydroxycyclohexa-1,5-dien-1-yl]-2-oxopropanoate isomerase [EC:5.3.3.19] [RN:R11065]
+            K19550  bacG; bacilysin biosynthesis oxidoreductase BacG [EC:1.3.1.-] [RN:R11067]
+            K19549  bacF; bacilysin biosynthesis transaminase BacF [EC:2.6.1.-] [RN:R11068]
+            K19548  bacC; dihydroanticapsin dehydrogenase [EC:1.1.1.385] [RN:R10917]
+            K13037  bacD; L-alanine-L-anticapsin ligase [EC:6.3.2.49] [RN:R11064]
+CLASS       Pathway modules; Biosynthesis of other secondary metabolites; Biosynthesis of other secondary metabolites
+PATHWAY     map00998  Biosynthesis of various secondary metabolites - part 2
+            map01100  Metabolic pathways
+            map01130  Biosynthesis of antibiotics
+REACTION    R10934  C00254 -> C20953
+            R11065  C20953 -> C21085
+            R11066  C21085 -> C21086
+            R11067  C21086 -> C21087
+            R11068  C21087 -> C20940
+            R10917  C20940 -> C20941
+            R11064  C20941 -> C20942
+COMPOUND    C00254  Prephenate
+            C20953  3-[(4R)-4-Hydroxycyclohexa-1,5-dien-1-yl]-2-oxopropanoate
+            C21085  3-[(1E,4R)-4-Hydroxycyclohex-2-en-1-ylidene]-2-oxopropanoate
+            C21086  Epoxy-3E-H2HPP
+            C21087  Epoxy-4S-H4HPP
+            C20940  L-Dihydroanticapsin
+            C20941  L-Anticapsin
+            C20942  Bacilysin
+REFERENCE   PMID:25644640
+  AUTHORS   Ozcengiz G, Ogulur I
+  TITLE     Biochemistry, genetics and regulation of bacilysin biosynthesis and its significance more than an antibiotic.
+  JOURNAL   N Biotechnol 32:612-9 (2015)
+            DOI:10.1016/j.nbt.2015.01.006
+REFERENCE   PMID:20052993
+  AUTHORS   Mahlstedt SA, Walsh CT
+  TITLE     Investigation of anticapsin biosynthesis reveals a four-enzyme pathway to tetrahydrotyrosine in Bacillus subtilis.
+  JOURNAL   Biochemistry 49:912-23 (2010)
+            DOI:10.1021/bi9021186
+REFERENCE   PMID:15609023
+  AUTHORS   Steinborn G, Hajirezaei MR, Hofemeister J
+  TITLE     bac genes for recombinant bacilysin and anticapsin production in Bacillus host strains.
+  JOURNAL   Arch Microbiol 183:71-9 (2005)
+            DOI:10.1007/s00203-004-0743-8
+///
