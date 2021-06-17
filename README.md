@@ -38,6 +38,7 @@ This will set the folders in which different input and outputs will be stored.
 The "KEGG_MODULES" directory from the Git is mandatory for script usage.
 
 4) Setup input into proper paths:
+- MAG sequences should be copied in the "genomes" folder, which is created after setup process.
 - KEGG KOs annotations (derived from different sources) should be copied in the "KEGG_mappings" folder, which is created in the setup process.
 - The script needs an indication of KEGG mappings format (eggNOG, KofamKOALA, and KAAS or KAAS-like supported up to now 26/05/21).
 - Several types of output are possible, as specified later.
@@ -49,8 +50,6 @@ The "KEGG_MODULES" directory from the Git is mandatory for script usage.
 ### 1) kmc.py
 
 "KEMET/KEGG_MODULES/kk_files" contains ".kk" files that represent the block structure of Modules; those files are "scanned" in order to identify the missing KO orthologs of those structures.
-
-- MAG sequences should be copied in the "KEMET/genomes/" folder, which is created after setup process.
 
 - KEGG KOs annotations (derived from different sources) should be copied in the "KEMET/KEGG_mappings/" folder, which is created after setup process.
 
