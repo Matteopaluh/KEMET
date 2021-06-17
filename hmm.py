@@ -513,8 +513,8 @@ def nhmmer_significant_hits_corr(fasta_id, hmm_dir_comm, threshold= 100, corr_th
                 corr_score = 0
                 with open(K+".hits") as f:
                     #print("hits "+K) #debug
-                    v = f.readlines()[:-9]                             #NOT INCLUDING lines w/ command specifics - they rise a bug
-                    add_ = int(v[1].index("-")-1)
+                    v = f.readlines()[:-9]                             # NOT INCLUDING lines w/ command specifics - they rise a bug
+                    add_ = int(v[1].index("-")-1)                      # CORRECT in case contig names are very long
                     for line in v:
                         if K in line[32+add_:38+add_]:
                             #print(K)
@@ -640,7 +640,7 @@ def HMM_hits_sequences(hmm_hits_dir, dir_genomes):
                     SEQUENCE_pre = fragment_w_hit[r_bound:l_bound]
                     pre = "ACTG"
                     post = "TGAC"
-                    compl = SEQUENCE_pre.maketrans(pre, post);
+                    compl = SEQUENCE_pre.maketrans(pre, post)
                     seq_compl = SEQUENCE_pre.translate(compl)
                     SEQUENCE = seq_compl[::-1]
                     #print(fragment) # debug
@@ -698,8 +698,6 @@ def HMM_hits_translated_sequences(HMM_hits_dict):
         for codon in codons1:
             tr_codon = t11[codon]
             aaseq1 += tr_codon
-            #if tr_codon == "*":
-            #    break
         HMM_hits_TRANSLATED_dict.update({fasta1:aaseq1})
 
         codons2 = [ntseq2[i:i+3] for i in range(0, len(ntseq2), 3)]
@@ -709,8 +707,6 @@ def HMM_hits_translated_sequences(HMM_hits_dict):
         for codon in codons2:
             tr_codon = t11[codon]
             aaseq2 += tr_codon
-            #if tr_codon == "*":
-            #    break
         HMM_hits_TRANSLATED_dict.update({fasta2:aaseq2})
 
         codons3 = [ntseq3[i:i+3] for i in range(0, len(ntseq3), 3)]
@@ -720,8 +716,6 @@ def HMM_hits_translated_sequences(HMM_hits_dict):
         for codon in codons3:
             tr_codon = t11[codon]
             aaseq3 += tr_codon
-            #if tr_codon == "*":
-            #    break
         HMM_hits_TRANSLATED_dict.update({fasta3:aaseq3})
 
     return HMM_hits_TRANSLATED_dict

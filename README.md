@@ -3,7 +3,7 @@ KEgg Module Evaluation Tool
 
 ## General Use
 
-0) install dependences
+0) Install dependences
 
 In a conda environment with python >= 3.6, use the following installation commands:
 
@@ -18,6 +18,7 @@ OPTIONAL
 ```
 pip install carveme=1.4.1
 conda install -c bioconda diamond
+conda install -c bioconda prodigal
 ```
 
 1) Clone the git repository.
@@ -26,23 +27,30 @@ conda install -c bioconda diamond
 git clone https://github.com/Matteopaluh/KEMET.git
 ```
 
-2) Run the _setup.py_ script once, specifying the scope (if HMM analysis is needed, add "-H" option; for genome-scale models possibilities, add "-G" option).
+2) Enable execution of the scripts.
+```
+chmod +x .
+```
+
+3) Run the _setup.py_ script, specifying the scope (if HMM analysis is needed, add "-H" option; for genome-scale models possibilities, add "-G" option).
 This will set the folders in which different input and outputs will be stored.
 
 The "KEGG_MODULES" directory from the Git is mandatory for script usage.
 
-3) Setup input into proper paths:
+4) Setup input into proper paths:
 - KEGG KOs annotations (derived from different sources) should be copied in the "KEGG_mappings" folder, which is created in the setup process.
 - The script needs an indication of KEGG mappings format (eggNOG, KofamKOALA, and KAAS or KAAS-like supported up to now 26/05/21).
-- Two tipes of output are possible, alone or in combination, as specified later.
+- Several types of output are possible, as specified later.
 
-4) The scripts (_kmc.py_, _hmm.py_, _gsmm.py_) are meant to be utilized in a sequential order: latter step scripts need previous steps outputs.
+5) The scripts (_kmc.py_, _hmm.py_, _gsmm.py_) are meant to be utilized in a sequential order: latter steps scripts need previous steps outputs.
 
 ### Single Scripts Use
 
 ### 1) kmc.py
 
-"KEMET/KEGG_MODULES/kk_files" contains ".kk" files that represent the block structure of Modules; those files are scanned by the script in order to identify the missing KO orthologs of those structures.
+"KEMET/KEGG_MODULES/kk_files" contains ".kk" files that represent the block structure of Modules; those files are "scanned" in order to identify the missing KO orthologs of those structures.
+
+- MAG sequences should be copied in the "KEMET/genomes/" folder, which is created after setup process.
 
 - KEGG KOs annotations (derived from different sources) should be copied in the "KEMET/KEGG_mappings/" folder, which is created after setup process.
 
@@ -55,7 +63,7 @@ for f in $(ls ./KEGG_mappings/); do ./kmc.py $f <OPTIONS>; done
 
 #### Outputs
 ##### .txt (option: -o txt)
-A flat file with indication of KMC for every Module, up to the block level. It gives info on which sequential step of the Module path has missing KOs.
+A flat file with indication of KEGG MODULES completeness for every Module, up to the block level. It gives info on which sequential step of the Module path has missing KOs.
 ##### .tsv (option: -o tsv)
 A tab-separated file. Infos for each line are the following:
 
@@ -67,10 +75,14 @@ Generate both of previous outputs.
 
 ### 2) hmm.py
 
-The script performs bulk nt sequences download using KEGG API.
-Afterwards those sequences are filtered, aligned using a multi-sequence aligner and a profile is created using [HMMer suite](http://hmmer.org/).
+The script performs bulk nucleotidic sequences download using [KEGG API](https://www.kegg.jp/kegg/rest/keggapi.html).
+
+Afterwards those sequences are filtered (all unique sequences are considered once for HMM building), aligned using a multi-sequence aligner and a profile is created using [HMMer suite](http://hmmer.org/).
 The nucleotidic profiles obtained are further searched in the MAG/Genome of interest.
 Only hits satisying given criteria are considered proper hits, signifying the presence of a given KO in the MAG/Genome genomic sequence, and included in the outputs.
+As a default, a threshold value for the HMM score divided by profile lenght, is imposed.
+
+- **IMPORTANT** MAG/Genomes fasta headers should not have tabulation in them
 
 - Compile "genomes.instruction" tabular file (created with "setup.py") with the ID of MAG/Genome of interest, the KEGG Brite taxonomic indication (C-level, that coincide with NCBI's phylum level most of the times), and eventually an indication of the metabolic-model universe (grampos, gramneg, archaea or such). **This can be done using helping script "add-genomes-info.py"**
 
@@ -81,7 +93,7 @@ Only hits satisying given criteria are considered proper hits, signifying the pr
 
 - Eventually, a different threshold value can be set (OPTION: --threshold_value)
 
-- In case of pre-downloaded nucleotidic sequences // pre-computed alignment and profile creation, different steps of the program can be skipped (OPTIONS: --skip_nt_download, --skip_msa_and_hmmbuild)
+- In case of pre-downloaded nucleotidic sequences // pre-computed alignment and profile creation, several time-consuming steps of the script can be skipped (OPTIONS: --skip_nt_download, --skip_msa_and_hmmbuild)
 
 - It is possible to re-analyse data in the final part of the program, using different scoring parameters (OPTION: --retry_nhmmer)
 
@@ -97,7 +109,7 @@ moreover it includes a field for the most likely translated reading-frame, the n
 
 **Batch use**:
 ```
-for f in $(ls ./genomes/); do f1="${f##*/}"; f2=${f1%.*}; ./hmm.py $f2 OPTIONS; done
+for f in $(ls ./genomes/); do f1="${f##*/}"; f2=${f1%.*}; ./hmm.py $f2 <OPTIONS>; done
 ```
 
 ### 3) gsmm.py
@@ -112,13 +124,14 @@ Otherwise it can automatically add translated sequences to multiFASTA (.faa) fil
 At the moment (26/05/21) the only tested way to add reaction to pre-existing GSMMs is via the [ReFramed](https://github.com/cdanielmachado/reframed) package.
 Further improvement would permit adding it through the [cobrapy](https://github.com/opencobra/cobrapy) platform.
 
-- CarveMe GSMMs (".xml" files) should be copied in the "KMC/models/" folder, which is created after setup process.
+- CarveMe GSMMs (".xml" files) to gap-fill should be copied in the "KEMET/models/" folder, which is created after setup process.
 
 - The same "genomes.instruction" tabular file as "hmm.py" is utilized, to get the ID of MAG/Genome of interest.
 
 - Decide MODE OF USE, checking between different group of orthologs:
     1. KOs from KEGG Modules missing 1 block								(OPTION: --onebm_modules_list)
     2. KOs from a fixed list of KEGG Modules, indicated one per line in "module_file.instruction"	(OPTION: --fixed_modules_list)
+    3. _de novo_ reconstruction
 
 #### Outputs
 ##### bigg_log_MAG.txt files
@@ -251,7 +264,7 @@ optional arguments:
   -d {bigg,modelseed}, --ontology_database_selection {bigg,modelseed}
                         Selection of reaction ontology for gap-fill addition
                         in GSMM.
-  --de_novo_GSMM        Use all KEGG Modules missing 1 block for the HMM-based
+  --de_novo_gsmm        Use all KEGG Modules missing 1 block for the HMM-based
                         check (only KOs missing in the indicated MAG/Genome).
   --onebm_modules_list  Use all KEGG Modules missing 1 block for the HMM-based
                         check (only KOs missing in the indicated MAG/Genome).
