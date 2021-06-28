@@ -68,13 +68,13 @@ prodigal -i $f.fna -a ./prodigal/$f.faa -o ./prodigal/$f.gff -d ./prodigal/$f.fn
 All initial Prodigal predictions are included in "./base_results/prodigal/".
 
 
-Not having access to the servers anymore, I used eggnog-mapper web-version, using default values, equal to the following command: 
+eggNOG-mapper web-version, using default values was used for functional annotation: 
 
 ```
 emapper.py --cpu 6 -i /data/shared/emapper_jobs/user_data/MM_dvw3i9bf/query_seqs.fa --output query_seqs.fa --output_dir /data/shared/emapper_jobs/user_data/MM_dvw3i9bf -m diamond -d none --tax_scope auto --go_evidence non-electronic --target_orthologs all --seed_ortholog_evalue 0.001 --seed_ortholog_score 60 --query-cover 20 --subject-cover 0 --override --temp_dir /data/shared/emapper_jobs/user_data/MM_dvw3i9bf
 ```
 
-All jobs differed on the web folder (obviously), and the files will be included in "./base_results/eggnog/".
+All jobs differed on the web folder, and the files are in "./base_results/eggnog/".
 
 
 #### Multiple ORF removal from MAGs:

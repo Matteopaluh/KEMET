@@ -645,18 +645,15 @@ if __name__ == "__main__":
             if args.verbose:
                 print("converting kaas-like file "+file)
             #POSSIBILITY: adding "ko_list_" in intermediate file - needs slices afterwards
-            #TODO: name-slice from web-output (check extension, basically)
-            ktest, KOs = KAASXktest(file, file[:-3]+".ktest", KAnnotation_directory, ktests_directory)
+            ktest, KOs = KAASXktest(file, file.rsplit(".",1)+".ktest", KAnnotation_directory, ktests_directory)
         elif args.annotation_format == "eggnog":
             if args.verbose:
                 print("converting eggnog file "+file)
-            #TODO: name-slice independently from version. Do they differ? (tillnow: file[:-20])
-            ktest, KOs = eggnogXktest(file, file[:-20]+".ktest", KAnnotation_directory, ktests_directory)
+            ktest, KOs = eggnogXktest(file, file.rsplit(".",2)+".ktest", KAnnotation_directory, ktests_directory)
         elif args.annotation_format == "kofamkoala":
             if args.verbose:
                 print("converting kofamkoala file "+file)
-            #TODO: name-slice independently from version? (tillnow: file[:-4])
-            ktest, KOs = kofamXktest(file, file[:-4]+".ktest", KAnnotation_directory, ktests_directory)
+            ktest, KOs = kofamXktest(file, file.rsplit(".",1)+".ktest", KAnnotation_directory, ktests_directory)
         else:
             raise("The only accepted formats for the --annotation_format method are the one made by: {}".format(_ktest_formats))
 

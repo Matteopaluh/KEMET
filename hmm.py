@@ -11,6 +11,7 @@ import cherrypy
 import datetime
 import argparse
 
+# threshold checked for test datasets
 _DEF_THR = 0.43
 
 def create_tuple_modules(fixed_module_file):
@@ -210,6 +211,7 @@ def download_ntseq_of_KO(klist_file, dir_base_KO, dir_KO, klists_directory, taxa
             os.system("rm "+flatfile)
 
             if __name__ == '__main__':
+		# in order to request from KEGG in a legit way - modify if access to KEGG is available
                 with Pool(processes=3) as p:
                     p.map(getntseq, genes)
                 p.close()
@@ -321,7 +323,6 @@ def getaaseq(gene): # NOT IN USE - part of "download_aaseq_of_KO()"- VIABLE FOR 
     gene_name = gene
     stop = gene_name.find(":")
     gene_taxa = gene_name[:stop]
-    #print(gene_taxa)
 
     if gene_taxa in taxa_allow:
         cmd_get_aaseq = base_com_KEGGget+gene_name+"/aaseq"
