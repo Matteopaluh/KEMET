@@ -645,15 +645,15 @@ if __name__ == "__main__":
             if args.verbose:
                 print("converting kaas-like file "+file)
             #POSSIBILITY: adding "ko_list_" in intermediate file - needs slices afterwards
-            ktest, KOs = KAASXktest(file, file.rsplit(".",1)+".ktest", KAnnotation_directory, ktests_directory)
+            ktest, KOs = KAASXktest(file, file.rsplit(".",1)[0]+".ktest", KAnnotation_directory, ktests_directory)
         elif args.annotation_format == "eggnog":
             if args.verbose:
                 print("converting eggnog file "+file)
-            ktest, KOs = eggnogXktest(file, file.rsplit(".",2)+".ktest", KAnnotation_directory, ktests_directory)
+            ktest, KOs = eggnogXktest(file, file.rsplit(".",2)[0]+".ktest", KAnnotation_directory, ktests_directory)
         elif args.annotation_format == "kofamkoala":
             if args.verbose:
                 print("converting kofamkoala file "+file)
-            ktest, KOs = kofamXktest(file, file.rsplit(".",1)+".ktest", KAnnotation_directory, ktests_directory)
+            ktest, KOs = kofamXktest(file, file.rsplit(".",1)[0]+".ktest", KAnnotation_directory, ktests_directory)
         else:
             raise("The only accepted formats for the --annotation_format method are the one made by: {}".format(_ktest_formats))
 
