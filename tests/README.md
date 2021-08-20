@@ -28,20 +28,6 @@ Moreover the dataset comprised 5 Complete Genomes:
 
 ## Tests
 
-#### Prior knowledge
-
-The scripts were run for two MAGs dataset, prior to the identification of a threshold value.
-
-The two dataset used different annotation softwares: Xinyu's dataset was generated using eggnog-mapper, Maria's dataset was generated (probably) some other way (maybe using FOAM) but the format that I recieved was different (1 KO x line).
-
-The hits were searched using BLASTp against NCBI nr database.
-The quality of the hit was checked comparing the expected terms (KO names) with the best hits obtained;
-identity/similarity of the hits, query and subject starts and lenghts were all evaluated.
-
-Quality data was plotted ("corr score" x "e-value coefficient" plane), and another parameter was observed ("inizio HMM" - observing if the hits resulted from sequences generated from the entirety the profiles) and a threshold value was identified for the two dataset.
-These plots are included in (./parameter_setting/)
-
-
 #### Base results
 
 From MAGs data, the following were chosen:
@@ -59,22 +45,16 @@ METABAT_AS05jafATM_34,
 METABAT_AS20ysBPTH_14,
 METABAT_AS20ysBPTH_159
 
-Using all MAG data in a folder, the following command was used:
+The following Prodigal command was used:
 
 ```
 prodigal -i $f.fna -a ./prodigal/$f.faa -o ./prodigal/$f.gff -d ./prodigal/$f.fna -q -m -f gff
 ```
 
-All initial Prodigal predictions are included in "./base_results/prodigal/".
+All initial Prodigal predictions are included in the "base_results/prodigal/" folders.
 
 
-eggNOG-mapper web-version, using default values was used for functional annotation: 
-
-```
-emapper.py --cpu 6 -i /data/shared/emapper_jobs/user_data/MM_dvw3i9bf/query_seqs.fa --output query_seqs.fa --output_dir /data/shared/emapper_jobs/user_data/MM_dvw3i9bf -m diamond -d none --tax_scope auto --go_evidence non-electronic --target_orthologs all --seed_ortholog_evalue 0.001 --seed_ortholog_score 60 --query-cover 20 --subject-cover 0 --override --temp_dir /data/shared/emapper_jobs/user_data/MM_dvw3i9bf
-```
-
-All jobs differed on the web folder, and the files are in "./base_results/eggnog/".
+eggNOG-mapper web-version, using default values was used for functional annotation. The files are located in "base_results/eggnog/" folders.
 
 
 #### Multiple ORF removal from MAGs:
