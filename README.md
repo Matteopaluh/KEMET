@@ -83,11 +83,16 @@ As a default, a threshold value for the HMM score divided by profile lenght, is 
 
 - **IMPORTANT** MAG/Genomes fasta headers should not have tabulation in them
 
-- Compile "genomes.instruction" tabular file (created with "setup.py") with the ID of MAG/Genome of interest, the KEGG Brite taxonomic indication (C-level, that coincide with NCBI's phylum level most of the times), and eventually an indication of the metabolic-model universe (grampos, gramneg, archaea or such). **This can be done using helping script "add-genomes-info.py"**
+- Compile "genomes.instruction" tabular file (created with "setup.py") with:
+a) the ID of MAG/Genome of interest (i.e. FASTA file without the extension);
+b) the KEGG Brite taxonomic indication (C-level, that coincide with NCBI's phylum level most of the times)
+c) an indication of the metabolic-model universe (grampos, gramneg, archaea or such).
+**The first two indications are mandatory** for the script to run.
+**Adding these info can be done using helping script "add-genomes-info.py"**
 
 - Decide MODE OF USE, checking between different group of orthologs:
     1. KOs from KEGG Modules missing 1 block								(OPTION: --onebm_modules_list)
-    2. KOs from a fixed list of KEGG Modules, indicated one per line in "module_file.instruction"	(OPTION: --fixed_modules_list)
+    2. KOs from a fixed list of KEGG Modules, indicated one per line in "oneBM_modules/module_file.instruction"	(OPTION: --fixed_modules_list)
     3. KOs from a fixed list of orthologs, indicated one per line in "ko_file.instruction"		(OPTION: --fixed_ko_list)
 
 - Eventually, a different threshold value can be set (OPTION: --threshold_value)
