@@ -131,8 +131,8 @@ def write_KOs_from_fixed_list(fasta_id, fixed_ko_file, ktests_directory, klists_
     for KO in klist:
         g.write(KO+"\n")
         #print(KO)
-        g.close()
-        os.chdir(report_txt_directory)
+    g.close()
+    os.chdir(report_txt_directory)
 
 def taxonomy_filter(taxonomy, dir_base, taxa_file, taxa_dir, update = False):
     '''
