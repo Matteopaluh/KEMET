@@ -76,17 +76,19 @@ Generate both of previous outputs.
 
 The script performs bulk nucleotidic sequences download using [KEGG API](https://www.kegg.jp/kegg/rest/keggapi.html).
 
+**IMPORTANT** To use this script, "kmc.py" needs to be executed in advance with "-o txt+tsv" or "-o txt" options.
+
 Afterwards those sequences are filtered (all unique sequences are considered once for HMM building), aligned using a multi-sequence aligner and a profile is created using [HMMer suite](http://hmmer.org/).
 The nucleotidic profiles obtained are further searched in the MAG/Genome of interest.
 Only hits satisying given criteria are considered proper hits, signifying the presence of a given KO in the MAG/Genome genomic sequence, and included in the outputs.
-As a default, a threshold value for the HMM score divided by profile lenght, is imposed.
+As a default, a threshold value for the HMM score divided by profile lenght, is imposed in order to enrich for more complete profiles instead of partial sequences.
 
 - **IMPORTANT** MAG/Genomes fasta headers should not have tabulation in them
 
 - Compile "genomes.instruction" tabular file (created with "setup.py") with:
-a) the ID of MAG/Genome of interest (i.e. FASTA file without the extension);
-b) the KEGG Brite taxonomic indication (C-level, that coincide with NCBI's phylum level most of the times)
-c) an indication of the metabolic-model universe (grampos, gramneg, archaea or such).
+	- the ID of MAG/Genome of interest (i.e. FASTA file without the extension);
+	- the KEGG Brite taxonomic indication (C-level, that coincide with NCBI's phylum level most of the times)
+	- an indication of the metabolic-model universe (grampos, gramneg, archaea or such).
 **The first two indications are mandatory** for the script to run.
 **Adding these info can be done using helping script "add-genomes-info.py"**
 
@@ -95,7 +97,7 @@ c) an indication of the metabolic-model universe (grampos, gramneg, archaea or s
     2. KOs from a fixed list of KEGG Modules, indicated one per line in "oneBM_modules/module_file.instruction"	(OPTION: --fixed_modules_list)
     3. KOs from a fixed list of orthologs, indicated one per line in "ko_file.instruction"		(OPTION: --fixed_ko_list)
 
-- Eventually, a different threshold value can be set (OPTION: --threshold_value)
+- Optionally, a different threshold value can be set (OPTION: --threshold_value)
 
 - In case of pre-downloaded nucleotidic sequences // pre-computed alignment and profile creation, several time-consuming steps of the script can be skipped (OPTIONS: --skip_nt_download, --skip_msa_and_hmmbuild)
 
