@@ -45,6 +45,19 @@ METABAT_AS05jafATM_34,
 METABAT_AS20ysBPTH_14,
 METABAT_AS20ysBPTH_159
 
+The tests were run in a conda environment with the following versions of required packages:
+
+```
+python	3.6.13
+carveme	1.4.1
+cherrypy	18.6.0
+diamond	2.0.9
+mafft	7.475
+prodigal	2.6.3
+reframed	1.2.1
+hmmer	3.1b2
+```
+
 The following Prodigal command was used:
 
 ```
@@ -53,9 +66,7 @@ prodigal -i $f.fna -a ./prodigal/$f.faa -o ./prodigal/$f.gff -d ./prodigal/$f.fn
 
 All initial Prodigal predictions are included in the "base_results/prodigal/" folders.
 
-
 eggNOG-mapper web-version, using default values was used for functional annotation. The files are located in "base_results/eggnog/" folders.
-
 
 #### Multiple ORF removal from MAGs:
 
