@@ -25,30 +25,27 @@ def eggnogXktest(eggnog_file, converted_output, KAnnotation_directory, ktests_di
             else:
                 break
         g.seek(0)
-        for line in g.readlines()[4:-3]: # skip info lines w/o genes
-            fasta_id = line.strip().split("\t")[0]
-            egg_kos = line.strip().split("\t")[koslice].replace("ko:","")
-            #print(fasta_id) # debug
-            #print(egg_kos) # debug
-            if egg_kos != "":
-                egg_kos_hits = egg_kos.split(",")
-                for ko in egg_kos_hits:
+        for line in g.readlines():
+            if not line.startswith("#"): # skip header & info lines w/o genes
+                fasta_id = line.strip().split("\t")[0]
+                egg_kos = line.strip().split("\t")[koslice].replace("ko:","")
+                if egg_kos != "":
+                    egg_kos_hits = egg_kos.split(",")
+                    for ko in egg_kos_hits:
 
-                    if not ko in KOs:
-                        #print(ko) #debug
-                        KOs[ko] = 1
-                    else:
-                        KOs[ko] += 1
+                        if not ko in KOs:
+                            KOs[ko] = 1
+                        else:
+                            KOs[ko] += 1
 
-        # POSSIBILITY: for each gene, correcting per diff. ortholog hits - if more KOs -> fraction of KO cound
+            # POSSIBILITY: for each gene, correcting per diff. ortholog hits - if more KOs -> fraction of KO cound
 
-                    #if not ko in KOs:
-                        #KOs[ko] = round(1/len(egg_kos_hits), 2) # correction
-                    #else:
-                        #KOs[ko] += round(1/len(egg_kos_hits), 2) # correction
-            else:
-                pass
-    #print(str(len(KOs))) # debug
+                        #if not ko in KOs:
+                            #KOs[ko] = round(1/len(egg_kos_hits), 2) # correction
+                        #else:
+                            #KOs[ko] += round(1/len(egg_kos_hits), 2) # correction
+                else:
+                    pass
 
     try:
         os.chdir(ktests_directory)
@@ -101,11 +98,8 @@ def kofamXktest(kofamkoala_file, converted_output, KAnnotation_directory, ktests
         for line in g.readlines()[2:]: # skip header and spacer lines w/o genes
             fasta_id = line[:fastaslice].strip().replace("* ","")
             kofam_ko = line[fastaslice:koslice].strip()
-            #print(fasta_id) # debug
-            #print(kofam_ko) # debug
             if kofam_ko != "":
                 if not kofam_ko in KOs:
-                    #print(kofam_ko) #debug
                     KOs[kofam_ko] = 1
                 else:
                     KOs[kofam_ko] += 1
@@ -115,7 +109,6 @@ def kofamXktest(kofamkoala_file, converted_output, KAnnotation_directory, ktests
             else:
                 pass
 
-    #print(str(len(KOs))) # debug
     try:
         os.chdir(ktests_directory)
     except:
@@ -193,7 +186,6 @@ def testcompleteness(ko_list, kk_file, kkfiles_directory, report_txt_directory, 
             c_list = v[v_complex+1].replace("\n", "").replace("\t", "").split(", ")
             for el in c_list:
                 complexes.append(el)
-            #print(complexes) # debug
 # search optionals
         if v_optional != -1:
             o_list = v[v_optional+1].replace("\n", "").replace("\t", "").split(", ")
@@ -202,11 +194,9 @@ def testcompleteness(ko_list, kk_file, kkfiles_directory, report_txt_directory, 
             ko_list_optional = [el for el in ko_list]
             for el in optional:
                 ko_list_optional.append(el)
-            #print(optional) # debug
 
         for line in v[1:end]:
             count_lines += 1
-            #print(line) #debug
             if submodules:
                 if line == "/\n":
                     linenumber = 0
@@ -243,7 +233,6 @@ def testcompleteness(ko_list, kk_file, kkfiles_directory, report_txt_directory, 
                 while check == 0:
                     for singlecomplex in complexes:
                         k_singlecomplex = re.split("[+-]", singlecomplex.strip())
-                        #print(k_singlecomplex) # debug
                         if all(el in ko_line for el in k_singlecomplex): # if EACH complex-part in line
                             if all(el in ko_list_optional for el in k_singlecomplex):  # if element from KOlist+optional
                                 check = 1
@@ -253,7 +242,6 @@ def testcompleteness(ko_list, kk_file, kkfiles_directory, report_txt_directory, 
                         for element in ko_line:
                             if not element in str(complexes):
                                 if element in ko_list:
-                                    #print(element) # debug
                                     check = 1
                                     break
                                 else:
@@ -266,7 +254,6 @@ def testcompleteness(ko_list, kk_file, kkfiles_directory, report_txt_directory, 
                 elif check == 0:
                     missing += 1
                     control = str(linenumber)+"."+str(submodule)+"\t"+str(line)
-                    #print(control) # debug
                     report.append(control)
                     pass
 
@@ -281,7 +268,6 @@ def testcompleteness(ko_list, kk_file, kkfiles_directory, report_txt_directory, 
                     else:
                         missing += 1
                         control = str(linenumber)+"."+str(submodule)+"\t"+str(line)
-                        #print(control) # debug
                         report.append(control)
                         pass
 
@@ -335,7 +321,6 @@ def testcompleteness(ko_list, kk_file, kkfiles_directory, report_txt_directory, 
             g.write(el)
         g.write("\n")
         g.close()
-    #return report # debug
 
 def testcompleteness_tsv(ko_list, kk_file, kkfiles_directory, report_tsv_directory, file_report_tsv = "report.tsv", as_kegg = False, cutoff = 0):
     '''
@@ -405,7 +390,6 @@ def testcompleteness_tsv(ko_list, kk_file, kkfiles_directory, report_tsv_directo
             c_list = v[v_complex+1].replace("\n", "").replace("\t", "").split(", ")
             for el in c_list:
                 complexes.append(el)
-            #print(complexes) # debug
 
     # list optionals
         if v_optional != -1:
@@ -415,7 +399,6 @@ def testcompleteness_tsv(ko_list, kk_file, kkfiles_directory, report_tsv_directo
             ko_list_optional = [el for el in ko_list]
             for el in optional:
                 ko_list_optional.append(el)
-            #print(optional) # debug
 
     # KOs presence/absence
         for line in v[1:end]:
@@ -428,7 +411,6 @@ def testcompleteness_tsv(ko_list, kk_file, kkfiles_directory, report_tsv_directo
         for KO in KOmodule:
             if KO in ko_list:
                 if not KO in Kpresent:
-                    #print(KO) # debug
                     Kpresent.append(KO)
             else:
                 Kmissing.append(KO)
@@ -436,7 +418,6 @@ def testcompleteness_tsv(ko_list, kk_file, kkfiles_directory, report_tsv_directo
     # CHECKS for each line in .kk file: KOs, complexes, optionals and list-indication
         for line in v[1:end]:
             count_lines += 1
-            #print(line.strip()) #debug
             check = 0
             linenumber += 1
 
@@ -575,7 +556,6 @@ def testcompleteness_tsv(ko_list, kk_file, kkfiles_directory, report_tsv_directo
     if percentage_round_tsv >= cutoff: # OPTIONAL
         h = open(file_report_tsv, "a")
         for el in report_tsv:
-            #print(el) # debug
             if type(el) == str:
                 h.write(el+"\t")
             if type(el) == list:
@@ -584,7 +564,6 @@ def testcompleteness_tsv(ko_list, kk_file, kkfiles_directory, report_tsv_directo
         h.write("\n")
         h.close()
 
-    #return report # debug
 
 if __name__ == "__main__":
     import os
@@ -610,7 +589,8 @@ if __name__ == "__main__":
                         choices=_ktest_formats,
                         help='''Format of KO_list.
                         eggnog: 1 gene | many possible annotations;
-                        kaas: 1 gene | 1 annotation at most.''')
+                        kaas: 1 gene | 1 annotation at most;
+                        kofamkoala: 1 gene | many possible annotations;''')
     parser.add_argument('-I','--path_input',
                         help='''Absolute path to input file(s) FOLDER.''', default = KAnnotation_directory)
     parser.add_argument('-o','--output', default = "tsv",
@@ -626,7 +606,6 @@ if __name__ == "__main__":
     parser.add_argument('-v','--verbose', action ="store_true",
                         help='''Print more informations - for debug and progress.''')
     args = parser.parse_args()
-    #print(args) #debug
 
 #### SET NEW IO FOLDERS
 
@@ -669,14 +648,16 @@ if __name__ == "__main__":
 #### TESTCOMPLETENESS .tsv
                 if args.output == "tsv":
                     if args.as_kegg:
-                        testcompleteness_tsv(ko_list, file, kkfiles_directory, report_txt_directory, "reportKMC_"+ktest[:-6]+".tsv", as_kegg = True)
-                    testcompleteness_tsv(ko_list, file, kkfiles_directory, report_tsv_directory, "reportKMC_"+ktest[:-6]+".tsv")
+                        testcompleteness_tsv(ko_list, file, kkfiles_directory, report_tsv_directory, "reportKMC_"+ktest[:-6]+".tsv", as_kegg = True)
+                    else:
+                        testcompleteness_tsv(ko_list, file, kkfiles_directory, report_tsv_directory, "reportKMC_"+ktest[:-6]+".tsv")
 #### TESTCOMPLETENESS BOTH .txt AND .tsv
                 if args.output == "txt+tsv":
                     testcompleteness(ko_list, file, kkfiles_directory, report_txt_directory, "reportKMC_"+ktest[:-6]+".txt")
                     if args.as_kegg:
-                        testcompleteness_tsv(ko_list, file, kkfiles_directory, report_txt_directory, "reportKMC_"+ktest[:-6]+".tsv", as_kegg = True)
-                    testcompleteness_tsv(ko_list, file, kkfiles_directory, report_tsv_directory, "reportKMC_"+ktest[:-6]+".tsv")
+                        testcompleteness_tsv(ko_list, file, kkfiles_directory, report_tsv_directory, "reportKMC_"+ktest[:-6]+".tsv", as_kegg = True)
+                    else:
+                        testcompleteness_tsv(ko_list, file, kkfiles_directory, report_tsv_directory, "reportKMC_"+ktest[:-6]+".tsv")
 
 #### NUMBER OF COMPLETE MODULES PER MODEL
     if args.verbose and args.output in ("txt","txt+tsv"):
@@ -689,4 +670,4 @@ if __name__ == "__main__":
                     if "\tCOMPLETE" in line:
                         n += 1
                 else:
-                    print(filereport+"\t"+str(n))
+                    print(filereport+"\tCOMPLETE MODULES:\t"+str(n))

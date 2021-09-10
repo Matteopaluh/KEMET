@@ -13,7 +13,6 @@ from multiprocessing import Pool
 import reframed
 from reframed import load_cbmodel
 from reframed import save_cbmodel
-import cherrypy
 
 def build_de_novo_GSMM(FASTA, fasta_genome, de_novo_model_directory, hmm_hits_dir):
     '''
@@ -97,7 +96,6 @@ def searchKeggShort(list_all_mod, Modules_directory, knumber):
                     manydefinitions.append(definition)
                     definition = line.strip()
                     manydefinitions.append(definition)
-                    #print(definition) #debug
                     continue
 
         if len(manydefinitions) > 0:
@@ -142,7 +140,6 @@ def knum4reac_mod(file):
         for line in f.readlines()[l_count:]:
             if line.startswith("CLASS"):
                 break
-            #print(line) #debug
             if line.startswith("ORTHOLOGY"):
                 line = line.replace("ORTHOLOGY", "")
             if not "[RN:" in line:
@@ -153,7 +150,6 @@ def knum4reac_mod(file):
             for knum_element in knumber:
                 if not knum_element in dictionary_knumber_reac.keys():
                     dictionary_knumber_reac.update({knum_element:reaction})
-                    #print(dictionary_knumber_reac) #debug
                 else:
                     prior_reaction = str(dictionary_knumber_reac[knum_element])
                     new_reaction = prior_reaction+","+reaction
@@ -215,10 +211,10 @@ def KEGG_BiGG_SEED_RN_dict(reactions_DB, DB_directory, ontology = "BiGG"):
                     vett_dict_rxn_bigg.append(dict_rxn_x_bigg)
                     dict_kegg_x_dict.update({Kegg:vett_dict_rxn_bigg})
                 else: #Kegg in dizio_kegg_x_diz.keys():
-                    vett_dict_rxn_bigg=dict_kegg_x_diz[Kegg]
+                    vett_dict_rxn_bigg=dict_kegg_x_dict[Kegg]
                     dict_rxn_x_bigg.update({rxn:unique_bigg_ids})
                     vett_dict_rxn_bigg.append(dict_rxn_x_bigg)
-                    dict_kegg_x_diz.update({Kegg:vett_dict_rxn_bigg})
+                    dict_kegg_x_dict.update({Kegg:vett_dict_rxn_bigg})
 
         # {KEGG : [rxns]}
             #for each KEGG RN, create-update a non-redundant dict-entry
@@ -232,7 +228,6 @@ def KEGG_BiGG_SEED_RN_dict(reactions_DB, DB_directory, ontology = "BiGG"):
                     vett_dict_rxn_seed.append(rxn)
                     dict_kegg_x_seed.update({Kegg:vett_dict_rxn_seed})
 
-    #print(len(dict_kegg_x_seed)) # debug
     if ontology == "BiGG":
         return dict_kegg_x_dict
     elif ontology == "SEED":
@@ -246,8 +241,6 @@ def keggR_in_DB(list_of_unique_Rnumbers, DB_Kegg_reactions):
         if Rnumber in DB_Kegg_reactions.keys():
             v_KeggR_unique_in_DB.append(Rnumber)
 
-    #print("COMPLETE KeggR in DB") #debug
-
     return v_KeggR_unique_in_DB
 
 def bigg_nonredundant(v_KeggR_unique_in_DB, DB_Kegg_reactions):
@@ -259,8 +252,6 @@ def bigg_nonredundant(v_KeggR_unique_in_DB, DB_Kegg_reactions):
                     if single_bigg not in v_bigg_nonredundant:
                         v_bigg_nonredundant.append(single_bigg)
 
-    #print("COMPLETE BiGG nonredundant list") #debug
-
     return v_bigg_nonredundant
 
 def modelseed_nonredundant(v_KeggR_unique_in_DB, DB_Kegg_reactions):
@@ -269,8 +260,6 @@ def modelseed_nonredundant(v_KeggR_unique_in_DB, DB_Kegg_reactions):
         for single_rxn in DB_Kegg_reactions[Rnumber]:
             if single_rxn not in v_modelseed_nonredundant:
                 v_modelseed_nonredundant.append(single_rxn)
-
-    #print("COMPLETE BiGG nonredundant list") #debug
 
     return v_modelseed_nonredundant
 
@@ -306,15 +295,13 @@ def curl_bigg_reaction(single_reac):
     file_ift = str(el)+".ift"
     os.system(command+" > "+file_ift)
 
-    #print(str(el)+" DOWNLOADED as intermediate .ift file")
-
     return file_ift
 
 def api_file_reorder(file_ift, verbose = False):
     with open (file_ift) as f:
         for line in f.readlines():
             text = "".join(line)
-        #pulitura testo
+        #text cleaning
             text2 = text.replace(",", ",\n").replace(":",":\t").replace("&#8652;","<->")
             file_txt = str(file_ift).replace(".ift", ".txt")
             #files_txt.append(file_txt)
@@ -326,14 +313,13 @@ def api_file_reorder(file_ift, verbose = False):
 
             if verbose:
                 print("Info from file "+file_ift+" reordered")
-                #cherrypy.log("Info from intermediate file "+file_ift+" reordered")
     return 1
 
 def api_file_reorder2(file_ift, verbose = False):
     with open (file_ift) as f:
         for line in f.readlines():
             text = "".join(line)
-        #pulitura testo
+        #text cleaning
             text2 = text.replace(",", ",\n").replace(":",":\t").replace("&#8652;","<->")
             file_txt = str(file_ift).replace(".ift", ".txt")
             g = open(file_txt, "w")
@@ -344,12 +330,11 @@ def api_file_reorder2(file_ift, verbose = False):
 
             if verbose:
                 print("Info from file "+file_ift+" reordered")
-                #cherrypy.log("Info from intermediate file "+file_ift+" reordered")
 
     return file_txt
 
 def get_string(file_txt, total_strings, verbose = False, remove_intermediate = True):
-    #estrarre reazione e cambiare nel formato di Reframed
+    #extract reaction string and format it in Reframed format
     with open(file_txt) as asd:
         forbidden = ["+","<->","<--","-->"]
         for line in asd.readlines():
@@ -368,7 +353,7 @@ def get_string(file_txt, total_strings, verbose = False, remove_intermediate = T
                     else:
                         metabs.append(el)
 
-    #aggiungere il nome nel formato di Reframed
+    #add Reframed name
     with open(file_txt) as asd:
         dsa = reversed(list(asd))
         for line in dsa:
@@ -379,14 +364,12 @@ def get_string(file_txt, total_strings, verbose = False, remove_intermediate = T
         right_name = "R_"+name.replace('"', "").replace(",", "").strip()+":"
         right_string = " ".join(metabs)
         reac_string = right_name+" "+right_string
-        #print(stringareazione) #debug
         total_strings.append(reac_string)
 
         if verbose:
-            #cherrypy.log(str(file_txt)+" string PASSED") #debug
             print(str(file_txt)+" string PASSED") #debug
 
-    #OPZIONALE, NON TENERE I FILE INTERMEDI
+    #OPTIONAL - remove intermediate files
     if remove_intermediate:
         remove_cmd = "rm "
         os.system(remove_cmd+file_txt)
@@ -394,7 +377,6 @@ def get_string(file_txt, total_strings, verbose = False, remove_intermediate = T
 def get_stringa_error(file_txt, error_strings, verbose = False):
     error_strings.append(file_txt)
     if verbose:
-        #cherrypy.log(str(file_txt)+" string NOT PASSED") #debug
         print(str(file_txt)+" string NOT PASSED") #debug
 
 def retry_genes(file_txt, verbose = False):
@@ -405,7 +387,6 @@ def retry_genes(file_txt, verbose = False):
     os.system(command2+" > "+file_ift2)
 
     if verbose:
-        #cherrypy.log(str(el)+" search again: phase .ift2") #debug
         print(str(el)+" phase .ift2") #debug
 
     with open(file_ift2) as f:
@@ -416,7 +397,6 @@ def retry_genes(file_txt, verbose = False):
         model_bigg_id = v1[3].replace('"', "").split(": ")[1]
         if not name == el:
             if verbose:
-                #cherrypy.log(str(el)+" string NOT PASSED AGAIN") #debug
                 print(str(el)+" string NOT PASSED AGAIN") #debug
 
             remove="rm "
@@ -445,14 +425,13 @@ def retry_genes(file_txt, verbose = False):
         return
 
 def metab_change_names(model_new, verbose = False):
-    #ricerca di nome esatto e replace di quello aggiunto via "get_string()"
+    # find the exact metabolite name and replace the one added via get_string()
     comm_list = []
     for metab in model_new.metabolites.values():
         metab_mod = str(metab).replace("M_", "", 1).replace("_c", "").replace("_e", "").replace("_p", "").replace("_m", "").replace("_n", "").replace("_x", "").replace("_h", "").replace("_g", "")
         if metab_mod in old_new_names.keys():
             command = "model_new.metabolites."+str(metab)+".name "+"="+' "'+old_new_names[metab_mod]+'"'
             comm_list.append(command)
-            #cherrypy.log("cambio")
             exec(command)
 
     if verbose:
@@ -474,7 +453,7 @@ def check_name_changes(model_new):
     print(result)
 
 def reac_change_names(model_new, verbose = False):
-    #ricerca di nome esatto e replace di quello aggiunto via get_stringa()
+    # find the exact reaction name and replace the one added via get_string()
     comm_list = []
     for reaz in model_new.reactions.values():
         reaz_mod = str(reaz.name).replace("R_", "", 1)
@@ -521,7 +500,7 @@ def old_new_names_reac_dict(file):
                 continue
     return old_new_names_R
 
-def fixed_modules_of_interest(dir_base, module_file): # POSSIBILITY: CHOOSE MODULES FOR KO-RN CONNECTION (default: the ones in KMC+HMM)
+def fixed_modules_of_interest(dir_base, module_file): # POSSIBILITY: CHOOSE MODULES FOR KO-RN CONNECTION (default: the ones in hmm.py)
     '''
     Point out MODULES from a fixed list as in the command instructions (.instruction file)
     '''
@@ -534,7 +513,7 @@ def fixed_modules_of_interest(dir_base, module_file): # POSSIBILITY: CHOOSE MODU
             MODofinterest.append(MOD)
     return MODofinterest
 
-def onbm_modules_of_interest(fasta_id, oneBM_modules_dir): # POSSIBILITY: CHOOSE MODULES FOR KO-RN CONNECTION (default: the ones in KMC+HMM)
+def onbm_modules_of_interest(fasta_id, oneBM_modules_dir): # POSSIBILITY: CHOOSE MODULES FOR KO-RN CONNECTION (default: the ones in hmm.py)
     '''
     Point out MODULES with 1 block missing as in the command instructions (.instruction file)
     '''
@@ -550,8 +529,8 @@ def onbm_modules_of_interest(fasta_id, oneBM_modules_dir): # POSSIBILITY: CHOOSE
 
 def KOs_with_HMM_hits(hmm_hits_dir, fastakohits):
     '''
-    Point out KOs from modules identified with KMC+HMM HITS. 
-    ''' # formerly: those missing 1 block (still is?)
+    Point out KOs from modules identified with hmm.py HITS. 
+    ''' # formerly: those missing 1 block
     KOhits = []
 
     os.chdir(hmm_hits_dir)
@@ -571,7 +550,6 @@ def Modules_KOhits_connection(KOhits, MODofinterest):
         if KO == "":
             continue
         Modules = searchKeggShort(list_all_mod, Modules_directory, KO)
-        #print(str(Modules)) #debug
         for module in Modules:
             if not module in MODofinterest:
                 continue
@@ -610,9 +588,7 @@ def total_R_from_KOhits(MODofinterestXKOhits, modulesXflat, Modules_directory):
 
     os.chdir(Modules_directory)
     for module, module_txt in modulesXflat.items():
-        #print(module)
         missingKO = str(MODofinterestXKOhits[module]).replace("[","").replace("]","").replace("'","").split(", ")
-        #print(missingKO)
         KOreac_module = knum4reac_mod(module_txt)
         for KO in missingKO:
             KO_s = KO.replace("(", "").replace(")", "")
@@ -620,15 +596,11 @@ def total_R_from_KOhits(MODofinterestXKOhits, modulesXflat, Modules_directory):
             for single_KO in KO_split:
                 try:
                     reac_missing = KOreac_module[single_KO].split(",")
-                    #print(reac_missing) # debug
                     for single_reac in reac_missing:
                         if not single_reac in Rtotali_KOhits:
                             Rtotali_KOhits.append(single_reac)
                 except:
                     KOhits_without_reaction.append(single_KO)
-
-    #print("Without rxn: "+str(len(KOhits_without_reaction))) #debug
-    #print("With rxn: "+str(len(Rtotali_KOhits))) #debug
 
     return Rtotali_KOhits
 
@@ -667,12 +639,10 @@ def reframed_reaction_addition(fasta_id, model_directory, gapfill_report_directo
         if file.endswith(".xml") and file.startswith(fasta_id):
             os.chdir(model_directory)
             model = load_cbmodel(file)
-            #print(model.id) #debug
 
     # '''Task: saves reaction to add (from bigg_nonredundant() ) in a list'''
             os.chdir(gapfill_report_directory)
-            bigg_gapfill = bigg_gapfill_absent_in_model("bigg_log_"+fasta_id+".txt", model) #file -> fasta?
-            #print(str(len(bigg_gapfill))) #debug
+            bigg_gapfill = bigg_gapfill_absent_in_model("bigg_log_"+fasta_id+".txt", model)
 
     # '''Task: create a directory to store downloaded reaction from BiGG API'''
             os.chdir(bigg_api)
@@ -701,7 +671,6 @@ def reframed_reaction_addition(fasta_id, model_directory, gapfill_report_directo
                 if file.endswith(".txt"):
                     try:
                         get_string(file, total_strings, verbose = verbose)
-                        #print(str(len(stringhe_totali))) #debug
                     except:
                         get_string_error(file, error_strings, verbose = verbose)
                         try:
@@ -760,7 +729,7 @@ def recap_addition(fasta_id, gapfill_report_directory, old_new_names_R):
     INPUT:  MAG/Genome of interest name - its contigs FASTA file should be in "genomes_directory" / input_directory
     OUTPUT: Table of added reactions strings.
     '''
-    #TODO: enable single MAG/Genome output - put out of the FOR loop
+    #TODO: enable single MAG/Genome output
     import datetime
     datetoday = str(datetime.datetime.now())[:10]
 
@@ -774,7 +743,6 @@ def recap_addition(fasta_id, gapfill_report_directory, old_new_names_R):
         if file.endswith("_added_reactions.txt") and fasta_id in file:
             with open(file) as g:
                 MAG = file[:-20]                                             #TODO: it works, this way, but better to avoid slicing
-                #f.write(file[:-13]+"\n")
                 for line in g.readlines():
                     STRING = line.strip()
                     reac_id = STRING.split(": ")[0].replace("R_", "")
@@ -824,7 +792,7 @@ if __name__ == "__main__":
         description="Genome-scale model reaction-addition after KEGG Modules Completeness evaluation and HMM-evidence for given genomes.")
 
     parser.add_argument('MAG_genome_FASTA',
-                        help='''Use the fasta ID as indicated .''')
+                        help='''Run GSMM operation on the genome with the indicated fasta ID (no FASTA extension).''')
     parser.add_argument('-r','--reaction_addition_method', required=True,
                         choices=["reframed","cobrapy"],
                         help='''Selection of model I/O program for reaction addition.''')
@@ -848,7 +816,6 @@ if __name__ == "__main__":
     parser.add_argument('-v','--verbose', action ="store_true",
                         help='''Print more informations - for debug or log.''')
     args = parser.parse_args()
-    #print(args) #debug
 
 ########################################################################################
 
@@ -872,7 +839,7 @@ if __name__ == "__main__":
     os.chdir(dir_base)
     FASTA = str(args.MAG_genome_FASTA)
     with open(instruction_file) as f:
-        for line in f.readlines()[1:]: #slice [1:2] for trial
+        for line in f.readlines()[1:]:
             if line.startswith(FASTA):
                 line = line.strip().split("\t")
                 for file in os.listdir(dir_genomes):

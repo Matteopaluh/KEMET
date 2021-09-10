@@ -194,7 +194,8 @@ optional arguments:
   -h, --help            show this help message and exit
   -a {eggnog,kaas,kofamkoala}, --annotation_format {eggnog,kaas,kofamkoala}
                         Format of KO_list. eggnog: 1 gene | many possible
-                        annotations; kaas: 1 gene | 1 annotation at most.
+                        annotations; kaas: 1 gene | 1 annotation at most;
+                        kofamkoala: 1 gene | many possible annotations;
   -I PATH_INPUT, --path_input PATH_INPUT
                         Absolute path to input file(s) FOLDER.
   -o {txt,tsv,txt+tsv}, --output {txt,tsv,txt+tsv}
@@ -218,10 +219,12 @@ usage: hmm.py [-h] [--update_taxonomy_codes] [--onebm_modules_list]
               MAG_genome_FASTA
 
 HMM-based check for ortholog genes after KEGG Module Completeness evaluation.
+To be used after kmc.py with -o txt option
 
 positional arguments:
   MAG_genome_FASTA      Run HMM-based search for KOs in Modules of interest in
-                        the genome indicated with this expression.
+                        the genome indicated with this expression (no FASTA
+                        extension).
 
 optional arguments:
   -h, --help            show this help message and exit
@@ -252,7 +255,7 @@ optional arguments:
 
 #### _gsmm.py help_
 ```
-usage: gsmm.py [-h] -r {reframed,cobrapy} -d {bigg,modelseed} [--de_novo_GSMM]
+usage: gsmm.py [-h] -r {reframed,cobrapy} -d {bigg,modelseed} [--de_novo_gsmm]
                [--onebm_modules_list] [--fixed_modules_list] [-I PATH_INPUT]
                [-O PATH_OUTPUT] [--log] [-v]
                MAG_genome_FASTA
@@ -261,7 +264,8 @@ Genome-scale model reaction-addition after KEGG Modules Completeness
 evaluation and HMM-evidence for given genomes.
 
 positional arguments:
-  MAG_genome_FASTA      Use the fasta ID as indicated .
+  MAG_genome_FASTA      Run GSMM operation on the genome with the indicated
+                        fasta ID (no FASTA extension).
 
 optional arguments:
   -h, --help            show this help message and exit

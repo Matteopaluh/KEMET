@@ -67,7 +67,6 @@ def write_KOs_from_modules(fasta_id, tuple_modules, report_txt_directory, klists
         if fasta_id in file:
             with open(file) as f:
                 klist = []
-                #print(file) # debug
                 v = f.readlines()
                 f.seek(0)
                 i = 0
@@ -88,13 +87,11 @@ def write_KOs_from_modules(fasta_id, tuple_modules, report_txt_directory, klists
                             for KO in l:
                                 if not KO in klist:
                                     klist.append(KO)
-                                    #print(KO)
 
                 os.chdir(klists_directory)
                 g = open(file[10:-4]+".klist", "w")
                 for KO in klist:
                     g.write(KO+"\n")
-                    #print(KO)
                 g.close()
                 os.chdir(report_txt_directory)
 
@@ -122,16 +119,15 @@ def write_KOs_from_fixed_list(fasta_id, fixed_ko_file, ktests_directory, klists_
                     KO = line.strip()
                     KO_present.append(KO)
 
-    for KO in KO_to_check:
-        if not KO in KO_present:
-            klist.append(KO)
+            for KO in KO_to_check:
+                if not KO in KO_present:
+                    klist.append(KO)
 
-    os.chdir(klists_directory)
-    g = open(file[10:-4]+".klist", "w")
-    for KO in klist:
-        g.write(KO+"\n")
-        #print(KO)
-    g.close()
+            os.chdir(klists_directory)
+            g = open(file[:-6]+".klist", "w") # parse for file name w/o ".ktest"
+            for KO in klist:
+                g.write(KO+"\n")
+            g.close()
     os.chdir(report_txt_directory)
 
 def taxonomy_filter(taxonomy, dir_base, taxa_file, taxa_dir, update = False):
@@ -148,11 +144,9 @@ def taxonomy_filter(taxonomy, dir_base, taxa_file, taxa_dir, update = False):
         f.seek(0)
         i = 0
         for line in v:
-            #print(line.strip()) #debug
             i += 1
             if line.startswith("C") and taxonomy+" " in line:
                 i_start = i-1
-                #print(i_start) #debug
                 break
         for line in v[i_start+1:]:
             i += 1
@@ -186,7 +180,6 @@ def download_ntseq_of_KO(klist_file, dir_base_KO, dir_KO, klists_directory, taxa
     with open(taxa_file) as f:
         for line in f.readlines():
             taxa_allow.append(line.strip())
-        #print(str(len(taxa_allow))) # debug
 
     os.chdir(klists_directory)
     with open(klist_file) as f:
@@ -204,7 +197,6 @@ def download_ntseq_of_KO(klist_file, dir_base_KO, dir_KO, klists_directory, taxa
             else:
                 continue
             os.chdir(line)
-            #print(base_com_KEGGget+line+" > "+flatfile) # debug
             os.system(base_com_KEGGget+line+" > "+flatfile)
 
             genes = parsekoflat(flatfile)
@@ -230,7 +222,6 @@ def download_aaseq_of_KO(klist_file, dir_base_KOaa, dir_KOaa, klists_directory, 
     with open(taxa_file) as f:
         for line in f.readlines():
             taxa_allow.append(line.strip())
-        #print(str(len(taxa_allow))) # debug
 
     os.chdir(klists_directory)
     with open(klist_file) as f:
@@ -248,7 +239,6 @@ def download_aaseq_of_KO(klist_file, dir_base_KOaa, dir_KOaa, klists_directory, 
             else:
                 continue
             os.chdir(line)
-            #print(base_com_KEGGget+line+" > "+flatfile) # debug
             os.system(base_com_KEGGget+line+" > "+flatfile)
 
             genes = parsekoflat(flatfile)
@@ -292,7 +282,6 @@ def parsekoflat(file):
                 if "draft" in gene: # trial
                     continue
                 genes.append(gene)
-                #print(gene) #debug
     return genes
 
 def getntseq(gene):
@@ -305,11 +294,9 @@ def getntseq(gene):
     gene_name = gene
     stop = gene_name.find(":")
     gene_taxa = gene_name[:stop]
-    #print(gene_taxa)
 
     if gene_taxa in taxa_allow:
         cmd_get_ntseq = base_com_KEGGget+gene_name+"/ntseq"
-        #print(cmd_get_ntseq) # debug
         os.system(cmd_get_ntseq+" > "+gene_name+".fna")
         return 1
 
@@ -326,7 +313,6 @@ def getaaseq(gene): # NOT IN USE - part of "download_aaseq_of_KO()"- VIABLE FOR 
 
     if gene_taxa in taxa_allow:
         cmd_get_aaseq = base_com_KEGGget+gene_name+"/aaseq"
-        #print(cmd_get_ntseq) # debug
         os.system(cmd_get_aaseq+" > "+gene_name+".faa")
         return 1
 
@@ -350,7 +336,6 @@ def filter_and_allign(taxa_dir, taxa_file, fasta_id, klist_file, klists_director
     os.chdir(msa_dir)
     if not fasta_id in os.listdir():
         os.mkdir(fasta_id)
-    #print(msa_dir+fasta_id) # debug
 
     # make a list of KOs to align - avoid doing so for every KO if pre-DL db is used
     os.chdir(klists_directory)
@@ -415,7 +400,6 @@ def MSA_and_HMM(msa_dir_comm, base_com_mafft, base_com_hmmbuild):
     os.chdir(msa_dir_comm)
     for K in os.listdir():
         os.chdir(K)
-        #print(K)
         ch_com_mafft = base_com_mafft.replace("K_NUMBER", K)
         ch_com_hmmbuild = base_com_hmmbuild.replace("K_NUMBER", K)
         os.system(ch_com_mafft)
@@ -437,7 +421,6 @@ def nhmmer_for_genome(fasta_genome, msa_dir_comm, base_com_nhmmer):
     for K in os.listdir():
         os.chdir(K)
         ch_com_nhmmer = base_com_nhmmer.replace("K_NUMBER", K).replace("PATHFILE", fasta_genome)
-        #print(ch_com_nhmmer) #debug
         os.system(ch_com_nhmmer)
         os.chdir(msa_dir_comm)
     cherrypy.log("COMPLETE nhmmer")
@@ -513,13 +496,10 @@ def nhmmer_significant_hits_corr(fasta_id, hmm_dir_comm, threshold= 100, corr_th
                 score = 0
                 corr_score = 0
                 with open(K+".hits") as f:
-                    #print("hits "+K) #debug
                     v = f.readlines()[:-9]                             # NOT INCLUDING lines w/ command specifics - they rise a bug
                     add_ = int(v[1].index("-")-1)                      # CORRECT in case contig names are very long
                     for line in v:
                         if K in line[32+add_:38+add_]:
-                            #print(K)
-                            #print(line)
                             evalue = line[127+add_:136+add_].strip()
                             score = line[137+add_:143+add_].strip()
 
@@ -589,7 +569,6 @@ def HMM_hits_sequences(hmm_hits_dir, dir_genomes):
 
 #### once loaded all infos of the hits, check the contigs//genomes for hits sequences
     for genome, val in MAG_Khit_dict.items():
-        #print(genome) #debug
         for hits in MAG_Khit_dict[genome]:
             strand_plus = False
             K = hits[0]
@@ -632,8 +611,6 @@ def HMM_hits_sequences(hmm_hits_dir, dir_genomes):
                 if strand_plus == True:
 
                     SEQUENCE = fragment_w_hit[l_bound:r_bound]
-                    #print(fragment) # debug
-                    #print(SEQUENCE+"\n") # debug
                     HMM_hits_dict.update({">"+genome+"_"+K:SEQUENCE})
 
                 elif strand_plus == False:
@@ -644,11 +621,8 @@ def HMM_hits_sequences(hmm_hits_dir, dir_genomes):
                     compl = SEQUENCE_pre.maketrans(pre, post)
                     seq_compl = SEQUENCE_pre.translate(compl)
                     SEQUENCE = seq_compl[::-1]
-                    #print(fragment) # debug
-                    #print(SEQUENCE+"\n") # debug
                     HMM_hits_dict.update({">"+genome+"_"+K:SEQUENCE})
             except:
-                #print("PROBLEM: "+K+"\t"+fragment+"\t"+str(l_bound)+"\t"+str(r_bound)) #debug
                 pass
 
     return HMM_hits_dict
@@ -836,9 +810,10 @@ if __name__ == "__main__":
 ########################################################################################
 
     parser = argparse.ArgumentParser(
-        description="HMM-based check for ortholog genes after KEGG Module Completeness evaluation.")
+        description='''HMM-based check for ortholog genes after KEGG Module Completeness evaluation.
+        To be used after kmc.py with -o txt option''')
     parser.add_argument('MAG_genome_FASTA',
-                        help='''Run HMM-based search for KOs in Modules of interest in the genome indicated with this expression.''')
+                        help='''Run HMM-based search for KOs in Modules of interest in the genome indicated with this expression (no FASTA extension).''')
     parser.add_argument('--update_taxonomy_codes', action ="store_true",
                         help='''Update taxonomy filter codes - WHEN TO USE: after downloading a new BRITE taxonomy with "setup.py".''')
 
@@ -864,14 +839,11 @@ if __name__ == "__main__":
     #parser.add_argument('-O','--path_output',
     #                    help='''Absolute path to ouput file(s) FOLDER.''', default = dir_base)
 
-    #parser.add_argument('-r','--remove_SOMETHING', action = "store_true",
-    #                    help='''Remove SOMETHING intermediate file.''')
     parser.add_argument('-v','--verbose', action ="store_true",
                         help='''Print more informations - useful for debug and progress.''')
     parser.add_argument('-q','--quiet', action ="store_true",
                         help='''Silence soft-errors (for MAFFT and HMMER commands).''')
     args = parser.parse_args()
-    #print(args) #debug
 
 ########################################################################################
 
@@ -889,7 +861,6 @@ if __name__ == "__main__":
                 fasta_id = line[0]
                 klist_file = FASTA+".klist"
                 taxonomy = line[1]
-                #print(taxonomy) #debug
                 taxa_file = taxonomy+".keg"                                                  # Genome taxonomy (as KEGG BRITE)
                 if args.fixed_modules_list:
                     os.chdir(dir_base)
