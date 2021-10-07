@@ -1,7 +1,16 @@
 # KEMET
 KEgg Module Evaluation Tool
 
-## General Use
+## Script usage description
+
+The _kemet.py_ script works in a sequential order for each genome utilized. It is well suited for single genomes usage as well as metagenome-spanning analyses.
+KEMET works as a command line tool that serves three main functions:
+
+1) Evaluate KEGG Modules Completeness, producing organized tables for each MAG/Genome of interest. 
+2) HMM-based searches for ortholog genes (KO) of interest chosen from a subset after KEGG Module Completeness evaluation.
+3) Genome-scale model gapfill with evidence from nucleotidic HMM searches, regarding KOs of interest.
+
+## General Use - Conda environment
 
 0) Install dependences
 
@@ -32,260 +41,187 @@ git clone https://github.com/Matteopaluh/KEMET.git
 chmod +x .
 ```
 
-3) Run the _setup.py_ script, specifying the scope (if HMM analysis is needed, add "-H" option; for genome-scale models possibilities, add "-G" option).
+3) Run the _setup.py_ script, specifying the scope (for genome-scale models possibilities, add the "-G" option).
 This will set the folders in which different input and outputs will be stored.
 
-The "KEGG_MODULES" directory from the Git is mandatory for script usage.
+4) Setup input files into proper paths:
+- MAG/Genome sequences should be copied in the "/genomes/" folder, which is created after the setup process.
+- KEGG KOs annotations (derived from different sources) should be copied in the "/KEGG_annotations/" folder, which is created in the setup process.
+- if genome-scale model operations are needed, CarveMe genome-scale models (".xml" files) to gap-fill could be copied in the "KEMET/models/" folder, which is created after setup process.
+**IMPORTANT NOTE: each KEGG annotation and GSMM files should be called as the genome it refers to, except for the extension (e.g. bin1.fasta, bin1.emapper.annotations, and bin1.xml)**
+- The script needs an indication of KEGG annotation format (eggNOG, KofamKOALA, and KAAS or KAAS-like supported up to now 06/10/21).
 
-4) Setup input into proper paths:
-- MAG sequences should be copied in the "genomes" folder, which is created after setup process.
-- KEGG KOs annotations (derived from different sources) should be copied in the "KEGG_mappings" folder, which is created in the setup process.
-- The script needs an indication of KEGG mappings format (eggNOG, KofamKOALA, and KAAS or KAAS-like supported up to now 26/05/21).
-- Several types of output are possible, as specified later.
+The "KEMET/KEGG_MODULES/kk_files/" directory presence from the Git is **mandatory** for script usage. It contains ".kk" files that represent the block structure of Modules (REF: [KEGG MODULE resource](https://www.genome.jp/kegg/module.html)); these files are "scanned" in order to identify the missing KO orthologs of those structures.
 
-5) The scripts (_kmc.py_, _hmm.py_, _gsmm.py_) are meant to be utilized in a sequential order: latter steps scripts need previous steps outputs.
+- Other "custom" Modules could be added to that folder, with a proper format.
 
-### Single Scripts Use
+5) Fill in the intruction text file "genomes.instruction"; excluding the header, each line should have a tab-separated indication of:
+- MAG/Genome FASTA file name (e.g. bin1.fasta)
+- the KEGG Brite taxonomic indication (C-level, that coincide with NCBI's phylum level most of the times) (REF: [BRITE Organism table](https://www.kegg.jp/brite/br08601)) (e.g. Actinobacteria)
+- an indication of metabolic-model universe (grampos, gramneg, archaea or such)(optional - needed for GSMM de-novo reconstruction)
 
-### 1) kmc.py
+6) Fill in the other instruction text files. If HMM-analyses are desired, either the "module_file.instruction" or the "ko_file.instruction" files, depending on the desired MODE OF USE (which need to be specified in the --hmm_mode parameter):
 
-"KEMET/KEGG_MODULES/kk_files" contains ".kk" files that represent the block structure of Modules; those files are "scanned" in order to identify the missing KO orthologs of those structures.
+    1. KOs from KEGG Modules missing 1 block								(No need to fill instruction files)
+    2. KOs from a fixed list of KEGG Modules	              (Need to be indicated one per line in the "module_file.instruction" file)
+    3. KOs from a fixed list of orthologs                   (Need to be indicated one per line in the "ko_file.instruction" file)
 
-- KEGG KOs annotations (derived from different sources) should be copied in the "KEMET/KEGG_mappings/" folder, which is created after setup process.
+7) Launch the _kemet.py_ script as a command-line with the arguments of choice.
 
-- Other "custom" Modules could be added to that folder, with a proper format. (REF: [KEGG MODULE resource](https://www.genome.jp/kegg/module.html))
-
-**Batch use**:
+## Command line (minimal, only required arguments)
 ```
-for f in $(ls ./KEGG_mappings/); do ./kmc.py $f <OPTIONS>; done
+./kemet.py FASTA_file -a ANNOTATION_FORMAT --skip_hmm --hmm_mode MODE --skip_gsmm --gsmm_mode MODE
 ```
 
-#### Outputs
-##### .txt (option: -o txt)
-A flat file with indication of KEGG MODULES completeness for every Module, up to the block level. It gives info on which sequential step of the Module path has missing KOs.
-##### .tsv (option: -o tsv)
-A tab-separated file. Infos for each line are the following:
+**FASTA_file**: indication of the MAG/Genome of interest FASTA (with or without path indication e.g. genomes/bin1.fasta)
+**-a ANNOTATION_FORMAT**: indication of the KEGG annotation format (either eggnog/kaas/kofamkoala), which is mandatory to generate KEGG MODULES recap tables
+**--skip_hmm**: use this parameter to stop after KEGG MODULES Completeness Evaluation, to have only the tables from previous annotation softwares
+**--hmm_mode MODE**: if the HMM analysis is desired, this parameter is required to indicate which subset of KOs to search with profile HMMs.
+**--skip_gsmm**: use this parameter to stop after HMM analysis
+**--gsmm_mode MODE**: if GSMM operation with HMM-hits are desired, this parameter is required to indicate whether to perform de-novo GSMM reconstruction or gapfilling.
 
-Module_id; Module_name; Status (i.e. (IN-)COMPLETE/1-2 BLOCK MISSING); complete/total blocks (C__T); KOs missing; KOs present
+Other parameters are not required, but are described in the following paragraph:
+**VERBOSITY**
+**-v**: print more informations, for progress reporting purposes & more info.
+**-q**: print less informations and silence MAFTT and HMMER soft-errors.
 
-##### .txt and .tsv together (option: -o txt+tsv)
-Generate both of previous outputs.
+**--as_kegg**: change the way incomplete KEGG MODULES are considered in the recap tables, following KEGG-Mapper convention, i.e. Modules with less than 3 blocks that have at least 1 incomplete block are marked as INCOMPLETE regardless.
+**--update_taxonomy_codes**: when downloading a new BRITE taxonomy with _setup.py_, this parameter is necessary to have an updated species (BRITE E-class) list for each C-class, that is to have an updated scope for taxonomic-informed HMM creation.
+**--threshold_value VALUE**: use this parameter to have a different HMM corrected score threshold to differentiate between proper hits (default: 0.4).
+**--skip_nt_download**: skip downloading KEGG KOs nt sequences, e.g. if they were previously downloaded.
+**--skip_msa_and_hmmbuild**: skip MAFFT and HMMER hmmbuild commands, e.g. if multi-alignment and profile HMMs were done previously.
+**--retry_nhmmer**: use this parameter after a full pipeline run, to re-run nHMMER commands properly, e.g. in order to use a different threshold.
 
+## Output descriptions
 
-### 2) hmm.py
+### 1) KEGG Modules Completeness evaluation
+An automated search is performed for each KEGG Module, i.e. manually defined functional units composed of KEGG orthologs (KOs), starting from previously performed functional annotation.
+KEMET outputs 2 types of files for each MAG/Genome of interest, located in the "/report_tsv/" and "/report_txt/" folders respectively:
 
+- **"reportKMC_"+FASTA+".tsv"**: a tab-separated file with infomations about each KEGG Module. Each line has the following info:
+Module_id; Module_name; Completeness (i.e. (IN-)COMPLETE/1-2 BLOCK MISSING); complete/total blocks (COMPLETE__TOTAL); KOs missing; KOs present
+
+- **"reportKMC_"+FASTA+".txt"**: a flat file with indication of KEGG MODULES completeness for every Module, up to the block level. It gives info on which sequential step of the Module path has missing KOs.
+
+### 2) HMM-based ortholog search
 The script performs bulk nucleotidic sequences download using [KEGG API](https://www.kegg.jp/kegg/rest/keggapi.html).
-
-**IMPORTANT** To use this script, "kmc.py" needs to be executed in advance with "-o txt+tsv" or "-o txt" options.
-
-Afterwards those sequences are filtered (all unique sequences are considered once for HMM building), aligned using a multi-sequence aligner and a profile is created using [HMMer suite](http://hmmer.org/).
+Those sequences are filtered (all unique sequences are considered once for HMM building), aligned using a multi-sequence aligner and a profile is created using [HMMer suite](http://hmmer.org/).
 The nucleotidic profiles obtained are further searched in the MAG/Genome of interest.
-Only hits satisying given criteria are considered proper hits, signifying the presence of a given KO in the MAG/Genome genomic sequence, and included in the outputs.
-As a default, a threshold value for the HMM score divided by profile lenght, is imposed in order to enrich for more complete profiles instead of partial sequences.
+As a default, a threshold value is imposed in order to enrich for more complete profiles instead of partial sequences.
+Only hits with a score over threshold are considered proper hits, resulting in the presence of KO(s) of interest in the MAG/Genome sequences.
 
-- **IMPORTANT** MAG/Genomes fasta headers should not have tabulation in them
+This information is included in the output:
 
-- Compile "genomes.instruction" tabular file (created with "setup.py") with:
-	- the ID of MAG/Genome of interest (i.e. FASTA file without the extension);
-	- the KEGG Brite taxonomic indication (C-level, that coincide with NCBI's phylum level most of the times)
-	- an indication of the metabolic-model universe (grampos, gramneg, archaea or such).
-**The first two indications are mandatory** for the script to run.
-**Adding these info can be done using helping script "add-genomes-info.py"**
-
-- Decide MODE OF USE, checking between different group of orthologs:
-    1. KOs from KEGG Modules missing 1 block								(OPTION: --onebm_modules_list)
-    2. KOs from a fixed list of KEGG Modules, indicated one per line in "oneBM_modules/module_file.instruction"	(OPTION: --fixed_modules_list)
-    3. KOs from a fixed list of orthologs, indicated one per line in "ko_file.instruction"		(OPTION: --fixed_ko_list)
-
-- Optionally, a different threshold value can be set (OPTION: --threshold_value)
-
-- In case of pre-downloaded nucleotidic sequences // pre-computed alignment and profile creation, several time-consuming steps of the script can be skipped (OPTIONS: --skip_nt_download, --skip_msa_and_hmmbuild)
-
-- It is possible to re-analyse data in the final part of the program, using different scoring parameters (OPTION: --retry_nhmmer)
-
-#### Outputs
-##### MAG_HMM_hits.txt files
-A tab-separated file originated from hits of a single MAG/Genome. It gives informations on the hits regarding:
-
+- **FASTA+"_HMM_hits.txt"**: a tab-separated file originated from HMM hits of a single MAG/Genome. It contains informations on the hits regarding:
 KO; score (corrected by profile lenght), e-value; contig_name; strand; genome_left_bound; genome_right_bound; profile_lenght; begin_of_HMMsequence_hit; end_of_HMMsequence_hit
 
-##### file_recap_DATE.tsv
-General tab-separated summary file. Includes every "_HMM_hits" file information and group them;
-moreover it includes a field for the most likely translated reading-frame, the nucleotidic sequence as retrieved from the MAG/Genome, as well as the translated aminoacidic sequence using Bacterial/Archaeal translation.
+- **"file_recap_"+DATE.tsv**: After a single KEMET run, a tab-separated summary file is generated. It includes every "_HMM_hits" file information and group them;
+moreover it includes other fields:
+the most likely translated reading-frame; the nucleotidic sequence as retrieved from the MAG/Genome; the translated aminoacidic sequence using Bacterial/Archaeal translation.
 
-**Batch use**:
-```
-for f in $(ls ./genomes/); do f1="${f##*/}"; f2=${f1%.*}; ./hmm.py $f2 <OPTIONS>; done
-```
-
-### 3) gsmm.py
-
-The script connects missing KO content, identified via HMM-hits, to reactions in the BiGG or ModelSEED namespace.
-Furthermore it adds those reactions to Genome-scale metabolic models (GSMMs) generated with CarveMe, if missing.
-
-Otherwise it can automatically add translated sequences to multiFASTA (.faa) files and perform [CarveMe](https://github.com/cdanielmachado/carveme) reconstruction including these newly found sequences (OPTION: --de_novo_gsmm).
-
+### 3) Genome-scale metabolic model gapfilling
+The script connects missing KOs content, identified via HMM hits, to reactions in the BiGG namespace (ModelSEED namespace will be added in a next release).
+Furthermore it adds those reactions to genome-scale metabolic models (GSMMs) generated with CarveMe, if missing.
+Otherwise it can perform MAG/Genome gene-calling and automatically add translated sequences to multiFASTA (.faa) files. After that, the script perform a [CarveMe](https://github.com/cdanielmachado/carveme) reconstruction including these newly found sequences.
 **NOTE** This usage needs access to CarveMe dependences, including IBM CPLEX Optimizer. More regarding the dependencies can be read [here](https://carveme.readthedocs.io/en/latest/installation.html).
 
-At the moment (26/05/21) the only tested way to add reaction to pre-existing GSMMs is via the [ReFramed](https://github.com/cdanielmachado/reframed) package.
+At the moment (07/10/21) the only tested way to add reaction to pre-existing GSMMs is via the [ReFramed](https://github.com/cdanielmachado/reframed) package.
 Further improvement would permit adding it through the [cobrapy](https://github.com/opencobra/cobrapy) platform.
+Informations regarding reaction gapfilling (if performed using the "--gsmm_mode existing" parameter) are included in several output files:
 
-- CarveMe GSMMs (".xml" files) to gap-fill should be copied in the "KEMET/models/" folder, which is created after setup process.
+**bigg_log_+FASTA.txt**: a flat-file with the indication of every BiGG reaction that could be added to the model in input. The BiGG reactions are indicated one per line.
 
-- The same "genomes.instruction" tabular file as "hmm.py" is utilized, to get the ID of MAG/Genome of interest.
+**FASTA+_added_reactions.txt**: a flat-file with the reactions actually added for a given MAG/Genome-derived GSMM. The name of the reaction is followed by the reaction string.
 
-- Decide MODE OF USE, checking between different group of orthologs:
-    1. KOs from KEGG Modules missing 1 block								(OPTION: --onebm_modules_list)
-    2. KOs from a fixed list of KEGG Modules, indicated one per line in "module_file.instruction"	(OPTION: --fixed_modules_list)
-    3. _de novo_ reconstruction
+**gapfilled models**: individual GSMMs are saved again with new reaction and metabolite content as "FASTA+_KEGGadd_+DATE.xml". These files are located in the "/model_gapfilled/" folder.
 
-#### Outputs
-##### bigg_log_MAG.txt files
-A flat-file with the indication of every BiGG reaction that could be added to the model in input.
-The BiGG reactions are indicated one per line.
-
-##### MAG_added_reactions.txt files
-A flat-file with the actual added reactions for a given MAG/Genome-derived GSMM.
-The name of the reaction is followed by the reaction string.
-
-##### gapfilled models files
-Individual GSMMs are saved again with new reaction and metabolite content as "MAG_KEGGadd_DATE.xml".
+When using the "--gsmm_mode denovo" parameter, the newly generated gene prediction and GSMM are included in the "KEMET/de_novo_models" folder.
 
 
-## Credits
+# Credits
 
 Developed by Matteo Palù at Università degli Studi di Padova (2020-2021).
 
-### _help pages_
+## _help pages_
 
-#### _setup.py help_
+### _setup.py help_
 ```
-usage: setup.py [-h] [-k] [-u] [-H] [-G] [-v]
+usage: setup.py [-h] [-k] [-u] [-G]
 
-Setup command for KEMET analysis. Create folders and generate/update KEGG
+Setup command for KEMET pipeline. Create folders and generate/update KEGG
 Module .kk database
 
 optional arguments:
   -h, --help           show this help message and exit
   -k, --set_kk_DB      Choose this option in order to create KEGG Module DB
-                       (.kk files), in order to use KMC.
+                       (.kk files), in order to perform KEGG Modules
+                       COmpleteness evaluation.
   -u, --update_kk_DB   Choose this option in order to update already existing
                        KEGG Module DB (.kk files).
-  -H, --hmm_usage      Choose this option in order to create and download
-                       required folders for HMM analysis, follow-up of KMC.
   -G, --gapfill_usage  Choose this option in order to create and download
-                       required folders for Gapfilling, follow-up of KMC+HMM.
-  -v, --verbose        Print more informations - for debug or log.
+                       required folders for Gapfilling, follow-up of HMM
+                       search.
 ```
 
-#### _kmc.py help_
+### _kemet.py help_
 ```
-usage: kmc.py [-h] -a {eggnog,kaas,kofamkoala} [-I PATH_INPUT]
-              [-o {txt,tsv,txt+tsv}] [-k] [-O PATH_OUTPUT] [-v]
-              KOfile
+usage: kemet.py [-h] -a {eggnog,kaas,kofamkoala}
+                     [--update_taxonomy_codes] [-I PATH_INPUT] [-k]
+                     [--skip_hmm] [--hmm_mode {onebm,modules,kos}]
+                     [--threshold_value THRESHOLD_VALUE] [--skip_nt_download]
+                     [--skip_msa_and_hmmbuild] [--retry_nhmmer] [--skip_gsmm]
+                     [--gsmm_mode {existing,denovo}] [-O PATH_OUTPUT] [-v]
+                     [-q]
+                     FASTA_file
 
-Evaluate KEGG Modules Completeness for given genomes.
+    KEMET pipeline:
+    1) Evaluate KEGG Modules Completeness for given genomes.
+    2) HMM-based check for ortholog genes (KO) of interest after KEGG Module Completeness evaluation.
+    3) Genome-scale model gapfill with nucleotidic HMM-derived evidence, for KOs of interest.
+    
 
 positional arguments:
-  KOfile                File comprising KO annotations, associated with each
-                        gene.
+  FASTA_file            Genome/MAG FASTA file as indicated in the "genomes.instruction" -
+                        points to files (in "KEGG_annotations") comprising KO annotations, associated with each gene.
 
 optional arguments:
   -h, --help            show this help message and exit
   -a {eggnog,kaas,kofamkoala}, --annotation_format {eggnog,kaas,kofamkoala}
-                        Format of KO_list. eggnog: 1 gene | many possible
-                        annotations; kaas: 1 gene | 1 annotation at most;
-                        kofamkoala: 1 gene | many possible annotations;
+                        Format of KO_list.
+                        eggnog: 1 gene | many possible annotations;
+                        kaas: 1 gene | 1 annotation at most;
+                        kofamkoala: 1 gene | many possible annotations
+  --update_taxonomy_codes
+                        Update taxonomy filter codes - WHEN TO USE: after downloading a new BRITE taxonomy with "setup.py".
   -I PATH_INPUT, --path_input PATH_INPUT
                         Absolute path to input file(s) FOLDER.
-  -o {txt,tsv,txt+tsv}, --output {txt,tsv,txt+tsv}
-                        Output format for KMC summary. txt: more level-
-                        detailed, worse in recap; tsv: best at recap, easily
-                        parsable for downstream analysis; txt+tsv: both of the
-                        above.
-  -k, --as_kegg         Return KEGG Mapper output for the Module completeness.
-  -O PATH_OUTPUT, --path_output PATH_OUTPUT
-                        Absolute path to ouput file(s) FOLDER.
-  -v, --verbose         Print more informations - for debug and progress.
-```
-
-#### _hmm.py help_
-```
-usage: hmm.py [-h] [--update_taxonomy_codes] [--onebm_modules_list]
-              [--fixed_modules_list] [--fixed_ko_list]
-              [--threshold_value THRESHOLD_VALUE] [--skip_nt_download]
-              [--do_aa_download] [--skip_msa_and_hmmbuild] [--retry_nhmmer]
-              [-I PATH_INPUT] [-v] [-q]
-              MAG_genome_FASTA
-
-HMM-based check for ortholog genes after KEGG Module Completeness evaluation.
-To be used after kmc.py with -o txt option
-
-positional arguments:
-  MAG_genome_FASTA      Run HMM-based search for KOs in Modules of interest in
-                        the genome indicated with this expression (no FASTA
-                        extension).
-
-optional arguments:
-  -h, --help            show this help message and exit
-  --update_taxonomy_codes
-                        Update taxonomy filter codes - WHEN TO USE: after
-                        downloading a new BRITE taxonomy with "setup.py".
-  --onebm_modules_list  Use all KEGG Modules missing 1 block for the HMM-based
-                        check (only KOs missing in the indicated MAG/Genome).
-  --fixed_modules_list  Use a fixed list of KEGG Modules to use for the HMM-
-                        based check (only KOs missing in the indicated
-                        MAG/Genome).
-  --fixed_ko_list       Use a fixed list of KOs to use for the HMM-based check
-                        (only KOs missing in the indicated MAG/Genome).
+  -k, --as_kegg         Return KEGG-Mapper output for the Module Completeness evaluation.
+  --skip_hmm            Skip HMM-driven search for KOs & stop after KEGG Modules Completeness evaluation.
+  --hmm_mode {onebm,modules,kos}
+                        Choose the subset of KOs of interest for HMM-based check.
+                        By default, the KOs already present in the functional annotation are not checked further.
+                        
+                        onebm: search for KOs from KEGG Modules missing 1 block;
+                        modules: search for KOs from the KEGG Modules indicated in the "module_file.instruction" file, 1 per line
+                            (e.g. Mxxxxx);
+                        kos: search for KOs indicated in the "ko_file.instruction" file, 1 per line
+                            (e.g. Kxxxxx)
+                                                
   --threshold_value THRESHOLD_VALUE
-                        Define a threshold for the corrected score resulting
-                        from HMM-hits, which is indicative of good quality.
+                        Define a threshold for the corrected score resulting from HMM-hits, which is indicative of good quality.
   --skip_nt_download    Skip downloading KEGG KOs nt sequences.
-  --do_aa_download      Allow downloading KEGG KOs aa sequences.
   --skip_msa_and_hmmbuild
                         Skip MAFFT and HMMER hmmbuild commands.
   --retry_nhmmer        Move HMM-files and re-run nHMMER command.
-  -I PATH_INPUT, --path_input PATH_INPUT
-                        Absolute path to input file(s) FOLDER.
-  -v, --verbose         Print more informations - useful for debug and
-                        progress.
-  -q, --quiet           Silence soft-errors (for MAFFT and HMMER commands).
-```
-
-#### _gsmm.py help_
-```
-usage: gsmm.py [-h] -r {reframed,cobrapy} -d {bigg,modelseed} [--de_novo_gsmm]
-               [--onebm_modules_list] [--fixed_modules_list] [-I PATH_INPUT]
-               [-O PATH_OUTPUT] [--log] [-v]
-               MAG_genome_FASTA
-
-Genome-scale model reaction-addition after KEGG Modules Completeness
-evaluation and HMM-evidence for given genomes.
-
-positional arguments:
-  MAG_genome_FASTA      Run GSMM operation on the genome with the indicated
-                        fasta ID (no FASTA extension).
-
-optional arguments:
-  -h, --help            show this help message and exit
-  -r {reframed,cobrapy}, --reaction_addition_method {reframed,cobrapy}
-                        Selection of model I/O program for reaction addition.
-  -d {bigg,modelseed}, --ontology_database_selection {bigg,modelseed}
-                        Selection of reaction ontology for gap-fill addition
-                        in GSMM.
-  --de_novo_gsmm        Use all KEGG Modules missing 1 block for the HMM-based
-                        check (only KOs missing in the indicated MAG/Genome).
-  --onebm_modules_list  Use all KEGG Modules missing 1 block for the HMM-based
-                        check (only KOs missing in the indicated MAG/Genome).
-  --fixed_modules_list  Use a fixed list of KEGG Modules to use for the HMM-
-                        based check (only KOs missing in the indicated
-                        MAG/Genome).
-  -I PATH_INPUT, --path_input PATH_INPUT
-                        Absolute path to input file(s) FOLDER.
+  --skip_gsmm           Skip GSMM operations, gapfill or de-novo model creation, & stop after HMM-driven search for KOs.
+  --gsmm_mode {existing,denovo}
+                        Choose the methods of GSMM operation.
+                            (This method won't be performed if "--hmm_mode kos" was chosen)
+                        existing: use pre-existing CarveMe GSMM to add reactions content connected to HMM-derived KOs;
+                        denovo: generate a new CarveMe GSMM, performing gene prediction and adding HMM-derived hits from the chosen HMM-mode.
+                                                
   -O PATH_OUTPUT, --path_output PATH_OUTPUT
                         Absolute path to ouput file(s) FOLDER.
-  --log                 Store reaction-addition commands / info as plain text
-                        files.
-  -v, --verbose         Print more informations - for debug or log.
+  -v, --verbose         Print more informations - for debug and progress.
+  -q, --quiet           Silence soft-errors (for MAFFT and HMMER commands).
 ```
