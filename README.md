@@ -49,7 +49,7 @@ This will set the folders in which different input and outputs will be stored.
 - KEGG KOs annotations (derived from different sources) should be copied in the "/KEGG_annotations/" folder, which is created in the setup process.
 - if genome-scale model operations are needed, CarveMe genome-scale models (".xml" files) to gap-fill could be copied in the "KEMET/models/" folder, which is created after setup process.
 **IMPORTANT NOTE: each KEGG annotation and GSMM files should be called as the genome it refers to, except for the extension (e.g. bin1.fasta, bin1.emapper.annotations, and bin1.xml)**
-- The script needs an indication of KEGG annotation format (eggNOG, KofamKOALA, and KAAS or KAAS-like supported up to now 06/10/21).
+- The script needs an indication of KEGG annotation format (eggNOG, KofamKOALA, and KAAS or KAAS-like supported up to now 07/10/21).
 
 The "KEMET/KEGG_MODULES/kk_files/" directory presence from the Git is **mandatory** for script usage. It contains ".kk" files that represent the block structure of Modules (REF: [KEGG MODULE resource](https://www.genome.jp/kegg/module.html)); these files are "scanned" in order to identify the missing KO orthologs of those structures.
 
@@ -73,24 +73,24 @@ The "KEMET/KEGG_MODULES/kk_files/" directory presence from the Git is **mandator
 ./kemet.py FASTA_file -a ANNOTATION_FORMAT --skip_hmm --hmm_mode MODE --skip_gsmm --gsmm_mode MODE
 ```
 
-**FASTA_file**: indication of the MAG/Genome of interest FASTA (with or without path indication e.g. genomes/bin1.fasta)
-**-a ANNOTATION_FORMAT**: indication of the KEGG annotation format (either eggnog/kaas/kofamkoala), which is mandatory to generate KEGG MODULES recap tables
-**--skip_hmm**: use this parameter to stop after KEGG MODULES Completeness Evaluation, to have only the tables from previous annotation softwares
-**--hmm_mode MODE**: if the HMM analysis is desired, this parameter is required to indicate which subset of KOs to search with profile HMMs.
-**--skip_gsmm**: use this parameter to stop after HMM analysis
-**--gsmm_mode MODE**: if GSMM operation with HMM-hits are desired, this parameter is required to indicate whether to perform de-novo GSMM reconstruction or gapfilling.
+**FASTA_file**: indication of the MAG/Genome of interest FASTA (with or without path indication e.g. genomes/bin1.fasta)\
+**-a ANNOTATION_FORMAT**: indication of the KEGG annotation format (either eggnog/kaas/kofamkoala), which is mandatory to generate KEGG MODULES recap tables.\
+**--skip_hmm**: use this parameter to stop after KEGG MODULES Completeness Evaluation, to have only the tables from previous annotation softwares.\
+**--hmm_mode MODE**: if the HMM analysis is desired, this parameter is required to indicate which subset of KOs to search with profile HMMs.\
+**--skip_gsmm**: use this parameter to stop after HMM analysis.\
+**--gsmm_mode MODE**: if GSMM operation with HMM-hits are desired, this parameter is required to indicate whether to perform de-novo GSMM reconstruction or gapfilling.\
 
-Other parameters are not required, but are described in the following paragraph:
-**VERBOSITY**
-**-v**: print more informations, for progress reporting purposes & more info.
-**-q**: print less informations and silence MAFTT and HMMER soft-errors.
+Other parameters are not required, but are described in the following paragraph:\
+**VERBOSITY**\
+**-v**: print more informations, for progress reporting purposes & more info.\
+**-q**: print less informations and silence MAFTT and HMMER soft-errors.\
 
-**--as_kegg**: change the way incomplete KEGG MODULES are considered in the recap tables, following KEGG-Mapper convention, i.e. Modules with less than 3 blocks that have at least 1 incomplete block are marked as INCOMPLETE regardless.
-**--update_taxonomy_codes**: when downloading a new BRITE taxonomy with _setup.py_, this parameter is necessary to have an updated species (BRITE E-class) list for each C-class, that is to have an updated scope for taxonomic-informed HMM creation.
-**--threshold_value VALUE**: use this parameter to have a different HMM corrected score threshold to differentiate between proper hits (default: 0.4).
-**--skip_nt_download**: skip downloading KEGG KOs nt sequences, e.g. if they were previously downloaded.
-**--skip_msa_and_hmmbuild**: skip MAFFT and HMMER hmmbuild commands, e.g. if multi-alignment and profile HMMs were done previously.
-**--retry_nhmmer**: use this parameter after a full pipeline run, to re-run nHMMER commands properly, e.g. in order to use a different threshold.
+**--as_kegg**: change the way incomplete KEGG MODULES are considered in the recap tables, following KEGG-Mapper convention, i.e. Modules with less than 3 blocks that have at least 1 incomplete block are marked as INCOMPLETE regardless.\
+**--update_taxonomy_codes**: when downloading a new BRITE taxonomy with _setup.py_, this parameter is necessary to have an updated species (BRITE E-class) list for each C-class, that is to have an updated scope for taxonomic-informed HMM creation.\
+**--threshold_value VALUE**: use this parameter to have a different HMM corrected score threshold to differentiate between proper hits (default: 0.4).\
+**--skip_nt_download**: skip downloading KEGG KOs nt sequences, e.g. if they were previously downloaded.\
+**--skip_msa_and_hmmbuild**: skip MAFFT and HMMER hmmbuild commands, e.g. if multi-alignment and profile HMMs were done previously.\
+**--retry_nhmmer**: use this parameter after a full pipeline run, to re-run nHMMER commands properly, e.g. in order to use a different threshold.\
 
 ## Output descriptions
 
@@ -122,7 +122,7 @@ the most likely translated reading-frame; the nucleotidic sequence as retrieved 
 ### 3) Genome-scale metabolic model gapfilling
 The script connects missing KOs content, identified via HMM hits, to reactions in the BiGG namespace (ModelSEED namespace will be added in a next release).
 Furthermore it adds those reactions to genome-scale metabolic models (GSMMs) generated with CarveMe, if missing.
-Otherwise it can perform MAG/Genome gene-calling and automatically add translated sequences to multiFASTA (.faa) files. After that, the script perform a [CarveMe](https://github.com/cdanielmachado/carveme) reconstruction including these newly found sequences.
+Otherwise it can perform MAG/Genome gene-calling and automatically add translated sequences to multiFASTA (.faa) files. After that, the script perform a [CarveMe](https://github.com/cdanielmachado/carveme) reconstruction including these newly found sequences.\
 **NOTE** This usage needs access to CarveMe dependences, including IBM CPLEX Optimizer. More regarding the dependencies can be read [here](https://carveme.readthedocs.io/en/latest/installation.html).
 
 At the moment (07/10/21) the only tested way to add reaction to pre-existing GSMMs is via the [ReFramed](https://github.com/cdanielmachado/reframed) package.
