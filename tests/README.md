@@ -1,4 +1,4 @@
-# Quality tests for KMC-HMM script
+# Quality tests for HMM results
 
 ## Dataset definition
 
@@ -32,17 +32,17 @@ Moreover the dataset comprised 5 Complete Genomes:
 
 From MAGs data, the following were chosen:
 
-METABAT_AS10tlH2TH_158,
-METABAT_AS26fmACSIPLY_35,
-METABAT_AS15tlH2ME_193,
-METABAT_AS07pgkLD_51,
-METABAT_AS15tlH2ME_52,
-METABAT_AS07pgkLD_55,
-METABAT_AS15tlH2ME_127,
-METABAT_AS24abBPME_148,
-METABAT_AS07pgkLD_225,
-METABAT_AS05jafATM_34,
-METABAT_AS20ysBPTH_14,
+METABAT_AS10tlH2TH_158\
+METABAT_AS26fmACSIPLY_35\
+METABAT_AS15tlH2ME_193\
+METABAT_AS07pgkLD_51\
+METABAT_AS15tlH2ME_52\
+METABAT_AS07pgkLD_55\
+METABAT_AS15tlH2ME_127\
+METABAT_AS24abBPME_148\
+METABAT_AS07pgkLD_225\
+METABAT_AS05jafATM_34\
+METABAT_AS20ysBPTH_14\
 METABAT_AS20ysBPTH_159
 
 The tests were run in a conda environment with the following versions of required packages:
@@ -66,7 +66,7 @@ prodigal -i $f.fna -a ./prodigal/$f.faa -o ./prodigal/$f.gff -d ./prodigal/$f.fn
 
 All initial Prodigal predictions are included in the "base_results/prodigal/" folders.
 
-eggNOG-mapper web-version, using default values was used for functional annotation. The files are located in "base_results/eggnog/" folders.
+eggNOG-mapper2 web-version, using default values was used for functional annotation. The files are located in "base_results/eggnog/" folders.
 
 #### Multiple ORF removal from MAGs:
 
@@ -358,9 +358,9 @@ Removal of the same genes indicated above from eggnog-mapper annotations (chosen
 in the report_tsv (from kmc.py) the KOs of the selected genes was changed from present to absent;
 in the report_txt (from kmc.py) the KOs of the selected genes were added among the missing genes.
 
-The genes were removed using functions (rewrite_MAG_removing_genes() and others) contained in the "MAG_genomic_contig-context.ipynb" notebook. This code was also used to identify the boundaries indicated above.
+The genes were removed using functions (rewrite_MAG_removing_genes() and others) contained in the "confrontation_results.ipynb" notebook. This code was also used to identify the boundaries indicated above.
 
-The results of HMM-hits summaries (from kmc-hmm.py) were scrutinized in order to compare if the genes removed from annotations were predicted as present in the MAGs (both original and mock-MAGs, lacking part of the coding sequenes).
+The results of HMM-hits summaries were scrutinized in order to compare if the genes removed from annotations were predicted as present in the MAGs (both original and mock-MAGs, lacking part of the coding sequenes).
 
 MAGs were grouped together according to the status of the coding sequences under test:
 
@@ -493,9 +493,9 @@ Removal of the same genes indicated above from eggnog-mapper annotations (chosen
 in the report_tsv (from kmc.py) the KOs of the selected genes was changed from present to absent;
 in the report_txt (from kmc.py) the KOs of the selected genes were added among the missing genes.
 
-The genes were removed using functions (rewrite_Genome_removing_genes() and others) contained in the "MAG_genomic_contig-context.ipynb" notebook. This code was also used to identify the boundaries indicated above.
+The genes were removed using functions (rewrite_Genome_removing_genes() and others) contained in the "confrontation_results.ipynb" notebook. This code was also used to identify the boundaries indicated above.
 
-The results of HMM-hits summaries (from kmc-hmm.py) were scrutinized in order to compare if the genes removed from annotations were predicted as present in the MAGs (both original and mock-genomes, lacking part of the coding sequenes).
+The results of HMM-hits summaries were scrutinized in order to compare if the genes removed from annotations were predicted as present in the MAGs (both original and mock-genomes, lacking part of the coding sequenes).
 
 Complete genomes were grouped together according to the status of the coding sequences under test:
 

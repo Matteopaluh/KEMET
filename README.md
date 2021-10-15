@@ -47,9 +47,9 @@ This will set the folders in which different input and outputs will be stored.
 4) Setup input files into proper paths:
 - MAG/Genome sequences should be copied in the "/genomes/" folder, which is created after the setup process.
 - KEGG KOs annotations (derived from different sources) should be copied in the "/KEGG_annotations/" folder, which is created in the setup process.
-- if genome-scale model operations are needed, CarveMe genome-scale models (".xml" files) to gap-fill could be copied in the "KEMET/models/" folder, which is created after setup process.
+- if genome-scale model operations are needed, CarveMe genome-scale models (".xml" files) to gap-fill could be copied in the "KEMET/models/" folder, which is created after setup process.\
 **IMPORTANT NOTE: each KEGG annotation and GSMM files should be called as the genome it refers to, except for the extension (e.g. bin1.fasta, bin1.emapper.annotations, and bin1.xml)**
-- The script needs an indication of KEGG annotation format (eggNOG, KofamKOALA, and KAAS or KAAS-like supported up to now 07/10/21).
+- The script needs an indication of KEGG annotation format (eggNOG, KofamKOALA, and KAAS or KAAS-like supported up to now 15/10/21).
 
 The "KEMET/KEGG_MODULES/kk_files/" directory presence from the Git is **mandatory** for script usage. It contains ".kk" files that represent the block structure of Modules (REF: [KEGG MODULE resource](https://www.genome.jp/kegg/module.html)); these files are "scanned" in order to identify the missing KO orthologs of those structures.
 
@@ -78,7 +78,7 @@ The "KEMET/KEGG_MODULES/kk_files/" directory presence from the Git is **mandator
 **--skip_hmm**: use this parameter to stop after KEGG MODULES Completeness Evaluation, to have only the tables from previous annotation softwares.\
 **--hmm_mode MODE**: if the HMM analysis is desired, this parameter is required to indicate which subset of KOs to search with profile HMMs.\
 **--skip_gsmm**: use this parameter to stop after HMM analysis.\
-**--gsmm_mode MODE**: if GSMM operation with HMM-hits are desired, this parameter is required to indicate whether to perform de-novo GSMM reconstruction or gapfilling.\
+**--gsmm_mode MODE**: if GSMM operation with HMM-hits are desired, this parameter is required to indicate whether to perform de-novo GSMM reconstruction or gapfilling.
 
 Other parameters are not required, but are described in the following paragraph:\
 **VERBOSITY**\
@@ -125,7 +125,7 @@ Furthermore it adds those reactions to genome-scale metabolic models (GSMMs) gen
 Otherwise it can perform MAG/Genome gene-calling and automatically add translated sequences to multiFASTA (.faa) files. After that, the script perform a [CarveMe](https://github.com/cdanielmachado/carveme) reconstruction including these newly found sequences.\
 **NOTE** This usage needs access to CarveMe dependences, including IBM CPLEX Optimizer. More regarding the dependencies can be read [here](https://carveme.readthedocs.io/en/latest/installation.html).
 
-At the moment (07/10/21) the only tested way to add reaction to pre-existing GSMMs is via the [ReFramed](https://github.com/cdanielmachado/reframed) package.
+At the moment (15/10/21) the only tested way to add reaction to pre-existing GSMMs is via the [ReFramed](https://github.com/cdanielmachado/reframed) package.
 Further improvement would permit adding it through the [cobrapy](https://github.com/opencobra/cobrapy) platform.
 Informations regarding reaction gapfilling (if performed using the "--gsmm_mode existing" parameter) are included in several output files:
 
