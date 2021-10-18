@@ -3,12 +3,13 @@ KEgg Module Evaluation Tool
 
 ## Script usage description
 
-The _kemet.py_ script works in a sequential order for each genome utilized. It is well suited for single genomes usage as well as metagenome-spanning analyses.
-KEMET works as a command line tool that serves three main functions:
+The _kemet.py_ script works as a command line tool that serves three main functions:
 
-1) Evaluate KEGG Modules Completeness, producing organized tables for each MAG/Genome of interest. 
-2) HMM-based searches for ortholog genes (KO) of interest chosen from a subset after KEGG Module Completeness evaluation.
+1) Evaluate KEGG Modules Completeness, producing organized tables that summarize metabolic potential of MAGs/Genomes of interest. 
+2) Perform HMM-based searches for ortholog genes (KO) of interest chosen from a subset after KEGG Module Completeness evaluation.
 3) Genome-scale model gapfill with evidence from nucleotidic HMM searches, regarding KOs of interest.
+
+It is well suited for single genomes usage as well as metagenome-spanning analyses, in order to understand better microbial ecological functions.
 
 ## General Use - Conda environment
 
@@ -23,7 +24,7 @@ pip install reframed
 pip install cherrypy
 ```
 
-OPTIONAL
+OPTIONAL (GSMM mode)
 ```
 pip install carveme=1.4.1
 conda install -c bioconda diamond
@@ -53,7 +54,7 @@ This will set the folders in which different input and outputs will be stored.
 
 The "KEMET/KEGG_MODULES/kk_files/" directory presence from the Git is **mandatory** for script usage. It contains ".kk" files that represent the block structure of Modules (REF: [KEGG MODULE resource](https://www.genome.jp/kegg/module.html)); these files are "scanned" in order to identify the missing KO orthologs of those structures.
 
-- Other "custom" Modules could be added to that folder, with a proper format.
+- Other "custom" Modules could be added to that folder, if formatted in the proper way.
 
 5) Fill in the intruction text file "genomes.instruction"; excluding the header, each line should have a tab-separated indication of:
 - MAG/Genome FASTA file name (e.g. bin1.fasta)
