@@ -57,7 +57,7 @@ def set_directories(dir_base, gapfill_usage = False):
     print("KEGG Organisms hierarchy DOWNLOADED")
 
     if not "genomes.instruction" in os.listdir():
-        os.system("touch genomes.instruction")
+        os.system("echo 'id	taxonomy	universe\n' >> genomes.instruction")
         print("genome_instruction file GENERATED")
     else:
         print("Instruction file ALREADY EXISTS")
