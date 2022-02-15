@@ -20,7 +20,7 @@ _def_thr = 0.43 # threshold optimized from test datasets
 _gapfill_modes = ["existing","denovo"]
 _base_com_KEGGget = "curl --silent http://rest.kegg.jp/get/"
 # External dependencies base commands - experienced users can edit variables' with proper parameters e.g. to modify threads etc.
-_base_com_mafft = "mafft --quiet --auto MSA_K_NUMBER.fna > K_NUMBER.msa"
+_base_com_mafft = "mafft --quiet --auto --threads -1 MSA_K_NUMBER.fna > K_NUMBER.msa"
 _base_com_hmmbuild = "hmmbuild --informat afa K_NUMBER.hmm K_NUMBER.msa > /dev/null"
 _base_com_nhmmer = "nhmmer --tblout K_NUMBER.hits K_NUMBER.hmm PATHFILE > /dev/null"
 
@@ -51,7 +51,7 @@ def eggnogXktest(eggnog_file, converted_output, KAnnotation_directory, ktests_di
         g.seek(0)
         for line in g.readlines():
             if not line.startswith("#"): # skip header & info lines w/o genes
-                fasta_id = line.strip().split("\t")[0]
+                #fasta_id = line.strip().split("\t")[0]
                 egg_kos = line.strip().split("\t")[koslice].replace("ko:","")
                 if egg_kos != "":
                     egg_kos_hits = egg_kos.split(",")
@@ -89,7 +89,7 @@ def KAASXktest(file_kaas, converted_output, KAnnotation_directory, ktests_direct
         for line in f.readlines():
             line_s = line.strip().split("\t")
             if len(line_s) == 2:
-                if not line_s[1] in KOs: ## non-redundant KO addition
+                if not line_s[1] in KOs:
                     KOs.append(line_s[1])
             elif len(line_s) == 1:
                 continue
@@ -127,7 +127,6 @@ def kofamXktest(kofamkoala_file, converted_output, KAnnotation_directory, ktests
 
             else:
                 pass
-
     try:
         os.chdir(ktests_directory)
     except:
@@ -251,8 +250,8 @@ def testcompleteness(ko_list, kk_file, kkfiles_directory, report_txt_directory, 
                 while check == 0:
                     for singlecomplex in complexes:
                         k_singlecomplex = re.split("[+-]", singlecomplex.strip())
-                        if all(el in ko_line for el in k_singlecomplex): # if EACH complex-part in line
-                            if all(el in ko_list_optional for el in k_singlecomplex):  # if elements from KOlist+optional
+                        if all(el in ko_line for el in k_singlecomplex):
+                            if all(el in ko_list_optional for el in k_singlecomplex):
                                 check = 1
                             else:
                                 continue
@@ -469,9 +468,8 @@ def testcompleteness_tsv(ko_list, kk_file, kkfiles_directory, report_tsv_directo
                 while check == 0:
                     for singlecomplex in complexes:
                         k_singlecomplex = re.split("[+-]", singlecomplex.strip())
-                        if all(el in ko_line for el in k_singlecomplex): # if EACH complex-part in line
-                            if all(el in ko_list_optional for el in k_singlecomplex):  # if element from KOlist+optional
-
+                        if all(el in ko_line for el in k_singlecomplex):
+                            if all(el in ko_list_optional for el in k_singlecomplex):
                             # this way: if EACH KO of complex is present in genome KOs, CHECK positive!
                                 check = 1
                             else:
@@ -546,7 +544,6 @@ def testcompleteness_tsv(ko_list, kk_file, kkfiles_directory, report_tsv_directo
             elif present+1 == total:
                 completeness_tsv = "1 BLOCK MISSING"
 
-        #report.insert(1, "%\t"+str(percentage_2digits)+"\t"+str(present)+"__"+str(present+missing)+"\t"+completeness+"\n")
         report_tsv.append(completeness_tsv)
         report_tsv.append(missing_blocks)
         report_tsv.append(Kmissing)
@@ -678,7 +675,7 @@ def write_KOs_from_fixed_list(fasta_id, fixed_ko_file, ktests_directory, klists_
                     klist.append(KO)
 
             os.chdir(klists_directory)
-            g = open(file[:-6]+".klist", "w") # parse for file name w/o ".ktest"
+            g = open(file[:-6]+".klist", "w")
             for KO in klist:
                 g.write(KO+"\n")
             g.close()
@@ -835,7 +832,6 @@ def filter_and_allign(taxa_dir, taxa_file, fasta_id, klist_file, klists_director
     if not fasta_id in os.listdir():
         os.mkdir(fasta_id)
 
-    # make a list of KOs to align - avoid doing so for every KO if pre-DL db is used
     os.chdir(klists_directory)
     KO_to_align = []
     with open(klist_file) as f:
@@ -883,7 +879,7 @@ def filter_and_allign(taxa_dir, taxa_file, fasta_id, klist_file, klists_director
         os.chdir(dir_KO)
     print(_timeinfo()+"COMPLETE Filter and allign")
 
-def MSA_and_HMM(msa_dir_comm, base_com_mafft, base_com_hmmbuild):
+def MSA_and_HMM(msa_dir_comm, base_com_mafft, base_com_hmmbuild, log=False):
     '''
     Run MAFFT-alignment and then build HMM nucleotidic profile from it.
     Keep results in a folder organized by the FASTA-header of MAG/Genome.
@@ -898,7 +894,11 @@ def MSA_and_HMM(msa_dir_comm, base_com_mafft, base_com_hmmbuild):
         ch_com_mafft = base_com_mafft.replace("K_NUMBER", K)
         ch_com_hmmbuild = base_com_hmmbuild.replace("K_NUMBER", K)
         os.system(ch_com_mafft)
+        if log==True:
+            logging.info('COMPLETE MAFFT execution')
         os.system(ch_com_hmmbuild)
+        if log==True:
+            logging.info('COMPLETE hmmbuild execution')
         os.chdir(msa_dir_comm)
     print(_timeinfo()+"COMPLETE MSA and HMM creation")
 
@@ -1010,7 +1010,6 @@ def nhmmer_significant_hits_corr(fasta_id, hmm_dir_comm, threshold= 100, corr_th
 
                     if corr_score > corr_threshold and float(score) > threshold: # could also be unified with evalue_threshold
                         sig_hits.update({K:[fragment,strand,bounds]})
-                        # save into tabular file the most significant hits info (over threshold(s) )
                         os.chdir(hmm_dir_comm)
                         g = open(fasta_id+"_HMM_hits.txt","a")
                         g.write(K+"\t"+str(corr_score)+","+str(evalue)+"\t"+fragment+"\t"+strand+"\t"+str(left_bound-1)+"\t"+str(right_bound-1)+"\t"+str(profile_lenght)+"\t"+str(hmmfrom-1)+"\t"+str(hmmto-1)+"\n")
@@ -2099,10 +2098,15 @@ denovo: generate a new CarveMe GSMM, performing gene prediction and adding HMM-d
         import logging
         logging.basicConfig(filename=run_start+'_KEMET_execution.log',
         level=logging.INFO, format='%(asctime)s %(message)s')
+        KEMET_args = str(args).replace('Namespace(','').replace(')','')
+        logging.info('KEMET arguments: '+KEMET_args)
 
 #### KMC - PRODUCE KTEST FILE
     os.chdir(KAnnotation_directory)
     file_name = str(args.FASTA_file).rsplit("/",1)[-1].replace(".fasta","").replace(".fna","").replace(".fa","") # from path indication of a contig file maintain file_name
+    if LOGflag:
+        logging.info('+++\tSTART '+file_name)
+        logging.info('+++START KEGG Modules completeness')
     for file in os.listdir():
         if file.startswith(file_name):
             if args.annotation_format == "kaas":
@@ -2186,9 +2190,9 @@ denovo: generate a new CarveMe GSMM, performing gene prediction and adding HMM-d
                 CORR_THRESHOLD = float(args.threshold_value)
 
 #### HMM - OPERATE SINGLE FUNCTIONS
-                print(_timeinfo()+"+++\tSTART "+fasta_id)
+                print(_timeinfo()+"+++START HMM operations "+fasta_id)
                 if LOGflag:
-                    logging.info('+++\tSTART HMM operations '+fasta_id)
+                    logging.info('+++START HMM operations '+fasta_id)
                 if args.update_taxonomy_codes:
                     taxa_allow = taxonomy_filter(taxonomy, dir_base, taxa_file, taxa_dir, update = True)
                 else:
@@ -2214,10 +2218,9 @@ denovo: generate a new CarveMe GSMM, performing gene prediction and adding HMM-d
                     if LOGflag:
                         logging.info('COMPLETE Filter and allign')
                     if LOGflag:
-                        logging.info('START MSA and HMMs creation')
-                    MSA_and_HMM(msa_dir_comm, base_com_mafft, base_com_hmmbuild)
-                    if LOGflag:
-                        logging.info('COMPLETE MSA and HMMs creation')
+                        MSA_and_HMM(msa_dir_comm, base_com_mafft, base_com_hmmbuild, log=True)
+                    else:
+                        MSA_and_HMM(msa_dir_comm, base_com_mafft, base_com_hmmbuild, log=False)
                 nhmmer_for_genome(fasta_genome, msa_dir_comm, base_com_nhmmer)
                 if LOGflag:
                     logging.info('COMPLETE nhmmer')
@@ -2246,6 +2249,8 @@ denovo: generate a new CarveMe GSMM, performing gene prediction and adding HMM-d
                         ''')
                     else:
 #### GSMM - SET DATA INFO
+                        if LOGflag:
+                            logging.info('+++START GSMM operations '+fasta_id)
                         list_all_mod = list_all_modules(Modules_directory)
                         os.chdir(DB_directory)
                         DB_KEGG_RN = KEGG_BiGG_SEED_RN_dict("reactions_DB.tsv", DB_directory, ontology="BiGG")
@@ -2283,6 +2288,6 @@ denovo: generate a new CarveMe GSMM, performing gene prediction and adding HMM-d
 #### GSMM - RECAP
                         recap_addition(fasta_id, gapfill_report_directory, old_new_names_R)
 
-                print(_timeinfo()+"END "+fasta_id)
+                print(_timeinfo()+"END "+fasta_id+"\n")
                 if LOGflag:
-                    logging.info('END '+fasta_id)
+                    logging.info('END '+fasta_id+'\n')
