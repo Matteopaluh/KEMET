@@ -20,7 +20,7 @@ _def_thr = 0.43 # threshold optimized from test datasets
 _gapfill_modes = ["existing","denovo"]
 _base_com_KEGGget = "curl --silent http://rest.kegg.jp/get/"
 # External dependencies base commands - experienced users can edit variables' with proper parameters e.g. to modify threads etc.
-_base_com_mafft = "mafft --quiet --auto --threads -1 MSA_K_NUMBER.fna > K_NUMBER.msa"
+_base_com_mafft = "mafft --quiet --auto --thread -1 MSA_K_NUMBER.fna > K_NUMBER.msa"
 _base_com_hmmbuild = "hmmbuild --informat afa K_NUMBER.hmm K_NUMBER.msa > /dev/null"
 _base_com_nhmmer = "nhmmer --tblout K_NUMBER.hits K_NUMBER.hmm PATHFILE > /dev/null"
 

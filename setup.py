@@ -1,8 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[ ]:
-
 import os
 import re
 import argparse
@@ -103,17 +101,24 @@ def update_kk_database():
 ###############################################################################
 
 def main():
-    parser = argparse.ArgumentParser(description='''Setup command for KEMET pipeline.
-                                                    Create folders and generate/update KEGG Module .kk database''')
+    parser = argparse.ArgumentParser(description=
+    '''
+    Setup command for KEMET pipeline.
+    Create folders and manage KEGG Module .kk database
+    ''')
 
     parser.add_argument('-k','--set_kk_DB', action = "store_true",
                         help='''
-                        Choose this option in order to create KEGG Module DB (.kk files),
-                        in order to perform KEGG Modules COmpleteness evaluation.''') #TODO
+                        Choose this option to generate KEGG Module DB (.kk files),
+                        in order to perform KEGG Modules Completeness evaluation.
+                        Default: already generated''')
     parser.add_argument('-u','--update_kk_DB', action = "store_true",
-                        help='''Choose this option in order to update already existing KEGG Module DB (.kk files).''') #TODO
+                        help='''
+                        Choose this option to update already existing KEGG Module DB (.kk files).''')
     parser.add_argument('-G','--gapfill_usage', action = "store_true",
-                        help='''Choose this option in order to create and download required folders for Gapfilling, follow-up of HMM search.''')
+                        help='''
+                        Choose this option to create required folders for the GSMM Gapfilling,
+                        follow-up of the HMM search procedures.''')
     args = parser.parse_args()
 
 ###############################################################################
@@ -122,7 +127,7 @@ def main():
         set_directories(dir_base, gapfill_usage=True)
     else:
         set_directories(dir_base)
-    #TODO: ADD THE DATABASE OF kk-files WITH THE UPDATED MODULES LIST
+    #NEXT VERSION: ADD kk-files DATABASE WITH THE UPDATED MODULES LIST
     if args.set_kk_DB:
         set_kk_database()
     if args.update_kk_DB:
