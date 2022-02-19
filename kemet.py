@@ -2249,44 +2249,43 @@ denovo: generate a new CarveMe GSMM, performing gene prediction and adding HMM-d
                         ''')
                     else:
 #### GSMM - SET DATA INFO
-                        if LOGflag:
-                            logging.info('+++START GSMM operations '+fasta_id)
-                        list_all_mod = list_all_modules(Modules_directory)
-                        os.chdir(DB_directory)
-                        DB_KEGG_RN = KEGG_BiGG_SEED_RN_dict("reactions_DB.tsv", DB_directory, ontology="BiGG")
-                        old_new_names = old_new_names_dict("metabolites_names_from_id_bigg.tsv")
-                        old_new_names_R = old_new_names_reac_dict("reactions_names_from_id_bigg.tsv")
-                        fastakohits = FASTA+"_HMM_hits.txt"
-                        current_run = "KEMET_run_"+run_start
-
-                        if args.gsmm_mode == "denovo":
+                        if args.gsmm_mode == "denovo" or args.gsmm_mode == "existing":
                             if LOGflag:
-                                build_de_novo_GSMM(FASTA, fasta_genome, de_novo_model_directory, current_run, log=True)
-                            else:
-                                build_de_novo_GSMM(FASTA, fasta_genome, de_novo_model_directory, current_run, log=False)
+                                logging.info('+++START GSMM operations '+fasta_id)
+                            list_all_mod = list_all_modules(Modules_directory)
+                            os.chdir(DB_directory)
+                            DB_KEGG_RN = KEGG_BiGG_SEED_RN_dict("reactions_DB.tsv", DB_directory, ontology="BiGG")
+                            old_new_names = old_new_names_dict("metabolites_names_from_id_bigg.tsv")
+                            old_new_names_R = old_new_names_reac_dict("reactions_names_from_id_bigg.tsv")
+                            fastakohits = FASTA+"_HMM_hits.txt"
+                            current_run = "KEMET_run_"+run_start
 
-                        else:
-                            if args.hmm_modes == "modules":
-                                MODofinterest = fixed_modules_of_interest(dir_base, fixed_module_file)
-                            if args.hmm_modes == "onebm":
-                                MODofinterest = onbm_modules_of_interest(fasta_id, oneBM_modules_dir)
-                            KOhits = KOs_with_HMM_hits(hmm_hits_dir, fastakohits)
-                            MODofinterestXKOhits = Modules_KOhits_connection(KOhits, MODofinterest)
-                            modulesXflat = modules_flat_files_connection(list_all_mod, MODofinterestXKOhits)
+                            if args.gsmm_mode == "denovo":
+                                if LOGflag:
+                                    build_de_novo_GSMM(FASTA, fasta_genome, de_novo_model_directory, current_run, log=True)
+                                else:
+                                    build_de_novo_GSMM(FASTA, fasta_genome, de_novo_model_directory, current_run, log=False)
 
-                            Rtotali_KOhits = total_R_from_KOhits(MODofinterestXKOhits, modulesXflat, Modules_directory)
+                            elif args.gsmm_mode == "existing":
+                                if args.hmm_mode == "modules":
+                                    MODofinterest = fixed_modules_of_interest(dir_base, fixed_module_file)
+                                if args.hmm_mode == "onebm":
+                                    MODofinterest = onbm_modules_of_interest(fasta_id, oneBM_modules_dir)
+                                KOhits = KOs_with_HMM_hits(hmm_hits_dir, fastakohits)
+                                MODofinterestXKOhits = Modules_KOhits_connection(KOhits, MODofinterest)
+                                modulesXflat = modules_flat_files_connection(list_all_mod, MODofinterestXKOhits)
 
-                            KEGG_R_to_add = keggR_in_DB(Rtotali_KOhits, DB_KEGG_RN)
-#### GSMM - REACTION ADDITION
-                            bigg_nonredundant = bigg_nonredundant(KEGG_R_to_add, DB_KEGG_RN)
-                            log_bigg_nr(bigg_nonredundant, fasta_id, gapfill_report_directory)
-                            if args.verbose:
-                                reframed_reaction_addition(fasta_id, model_directory, gapfill_report_directory, bigg_api, verbose = True)
-                            else:
-                                reframed_reaction_addition(fasta_id, model_directory, gapfill_report_directory, bigg_api, verbose = False)
+                                Rtotali_KOhits = total_R_from_KOhits(MODofinterestXKOhits, modulesXflat, Modules_directory)
 
-#### GSMM - RECAP
-                        recap_addition(fasta_id, gapfill_report_directory, old_new_names_R)
+                                KEGG_R_to_add = keggR_in_DB(Rtotali_KOhits, DB_KEGG_RN)
+#### GSMM - REACTION ADDITION + RECAP
+                                bigg_nonredundant = bigg_nonredundant(KEGG_R_to_add, DB_KEGG_RN)
+                                log_bigg_nr(bigg_nonredundant, fasta_id, gapfill_report_directory)
+                                if args.verbose:
+                                    reframed_reaction_addition(fasta_id, model_directory, gapfill_report_directory, bigg_api, verbose = True)
+                                else:
+                                    reframed_reaction_addition(fasta_id, model_directory, gapfill_report_directory, bigg_api, verbose = False)
+                                recap_addition(fasta_id, gapfill_report_directory, old_new_names_R)
 
                 print(_timeinfo()+"END "+fasta_id+"\n")
                 if LOGflag:
