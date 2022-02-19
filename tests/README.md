@@ -49,9 +49,9 @@ The following Prodigal command was used:
 prodigal -i $f.fna -a ./prodigal/$f.faa -o ./prodigal/$f.gff -d ./prodigal/$f.fna -q -m -f gff
 ```
 
-All initial Prodigal predictions are included in the "base_results/prodigal/" folders.
+All initial Prodigal predictions are included in the "base_results/prodigal/" folders, that can be access after the extraction from the `test_MAG_results.tar.gz` and `test_complete_genomes_results.tar.gz` archives.
 
-eggNOG-mapper v2 web-version, using default values was used for functional annotation. The files are located in "base_results/eggnog/" folders.
+eggNOG-mapper v2 web-version, using default values, was used for functional annotation. The files are located in "base_results/eggnog/" folders, that can be accessed after the extraction from the `test_results.tar.gz` and `test_complete_genomes_results.tar.gz` archives.
 
 -----
 ### **Multiple ORF removal from MAGs**
@@ -77,7 +77,9 @@ MAGs were grouped together according to the status of the coding sequences under
 
 - The "control" group (no removal was performed on those MAGs' contigs) is is referred to with the ID number "0".
 - The "big deletion" (70% ORF lenght) group is referred to with the ID number "1".
-- The "small deletion" (30% ORF lenght) group is referred to with the ID number "2".
+- The "small deletion" (30% ORF lenght) group is referred to with the ID number "2".  
+
+These files can be extracted from the `test_MAG_results.tar.gz` archive.
 
 -----
 ### **Multiple ORF removal from Complete genomes**
@@ -102,4 +104,6 @@ Complete genomes were grouped together according to the status of the coding seq
 
 - The "control" group (no removal was performed on those complete genomes' contigs) is is referred to with the ID number "4".
 - The "big deletion" (70% ORF lenght) group is referred to with the ID number "5".
-- The "small deletion" (30% ORF lenght) group is referred to with the ID number "6".
+- The "small deletion" (30% ORF lenght) group is referred to with the ID number "6".  
+
+These files can be extracted from the `test_complete_genomes_results.tar.gz` archive.
