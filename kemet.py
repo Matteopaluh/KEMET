@@ -944,7 +944,7 @@ def move_HMM_and_clean(hmm_dir_comm, msa_dir_comm):
 
 def movebackHMM(hmm_dir_comm, msa_dir_comm):
     '''
-    Move ".hmm" & ".hits" files back to multi-alignment folder e.g. in order to try different threshold.
+    Move ".hmm" files back to multi-alignment folder e.g. in order to try different threshold.
     WHEN TO USE THIS: to unroll from a complete pipe-run. - with the arg: "--retry_nhmmer"
     '''
     os.chdir(hmm_dir_comm)
@@ -952,7 +952,7 @@ def movebackHMM(hmm_dir_comm, msa_dir_comm):
     for K in K_numbers:
         os.chdir(hmm_dir_comm+K)
         for file in os.listdir():
-            if file.endswith(".hmm") or file.endswith(".hits"):
+            if file.endswith(".hmm"):
                 hmm_file = file
                 os.replace(hmm_dir_comm+K+"/"+hmm_file, msa_dir_comm+K+"/"+hmm_file)
     print(_timeinfo()+"COMPLETE move back HMM")
@@ -1002,7 +1002,6 @@ def nhmmer_significant_hits_corr(fasta_id, hmm_dir_comm, threshold= 100, corr_th
                             bounds = [str(left_bound-1),str(right_bound-1)]
                             hmmfrom = int(line[65+add_:71+add_].strip())
                             hmmto = int(line[72+add_:79+add_].strip())
-                            hmm_bounds = [str(hmmfrom),str(hmmto)]
                             profile_lenght = int(hmmto - hmmfrom)
 
                             corr_score = round((float(score)/profile_lenght), 4)
@@ -1094,11 +1093,13 @@ def HMM_hits_sequences(hmm_hits_dir, dir_genomes):
                     for char in line:
                         fragment_w_hit += char
     #### different treatment for hits in "+" & "-" strands
+    #### do not include hits with "N", resulting e.g. from scaffold placeholders
                 if strand == "+":
                     strand_plus = True
                 if strand_plus == True:
                     SEQUENCE = fragment_w_hit[l_bound:r_bound]
-                    HMM_hits_dict.update({">"+genome+"_"+K:SEQUENCE})
+                    if not "N" in SEQUENCE:
+                        HMM_hits_dict.update({">"+genome+"_"+K:SEQUENCE})
                 elif strand_plus == False:
                     SEQUENCE_pre = fragment_w_hit[r_bound:l_bound]
                     pre = "ACTG"
@@ -1106,7 +1107,8 @@ def HMM_hits_sequences(hmm_hits_dir, dir_genomes):
                     compl = SEQUENCE_pre.maketrans(pre, post)
                     seq_compl = SEQUENCE_pre.translate(compl)
                     SEQUENCE = seq_compl[::-1]
-                    HMM_hits_dict.update({">"+genome+"_"+K:SEQUENCE})
+                    if not "N" in SEQUENCE:
+                        HMM_hits_dict.update({">"+genome+"_"+K:SEQUENCE})
             except:
                 pass
 
@@ -1282,13 +1284,13 @@ def build_de_novo_GSMM(FASTA, fasta_genome, de_novo_model_directory, current_run
         logging.info('COMPLETE Prodigal command for '+FASTA)
 
     # ADD HMM-hits
-    os.chdir("./proteins")
+    os.chdir(de_novo_model_directory+"proteins")
     f = open(fasta_id+".faa", "a")
     for ko, xseq in HMM_HITS.items():
         f.write(ko+"\n")
         f.write(xseq+"\n")
     f.close()
-    os.chdir("..")
+    os.chdir(de_novo_model_directory)
 
     # GENERATE CARVEME MODEL - default:QUIET
     if not "dmnd_intermediates" in os.listdir():
@@ -2243,20 +2245,16 @@ denovo: generate a new CarveMe GSMM, performing gene prediction and adding HMM-d
                     If you didn't want to stop here, remove the --skip_gsmm argument from the kemet.py command line.
                     ''')
                 else:
-                    if args.hmm_mode == "kos":
+                    if args.hmm_mode == "kos" and args.gsmm_mode == "existing":
                         print('''
-                        GSMM operations are not compatible with the chosen HMM mode, therefore no gapfilling would be performed.
+                        The GSMM operations chosen are not compatible with the HMM mode, therefore no gapfilling would be performed.
                         ''')
                     else:
-#### GSMM - SET DATA INFO
+#### GSMM - OPERATE SINGLE FUNCTIONS
                         if args.gsmm_mode == "denovo" or args.gsmm_mode == "existing":
                             if LOGflag:
                                 logging.info('+++START GSMM operations '+fasta_id)
-                            list_all_mod = list_all_modules(Modules_directory)
-                            os.chdir(DB_directory)
-                            DB_KEGG_RN = KEGG_BiGG_SEED_RN_dict("reactions_DB.tsv", DB_directory, ontology="BiGG")
-                            old_new_names = old_new_names_dict("metabolites_names_from_id_bigg.tsv")
-                            old_new_names_R = old_new_names_reac_dict("reactions_names_from_id_bigg.tsv")
+
                             fastakohits = FASTA+"_HMM_hits.txt"
                             current_run = "KEMET_run_"+run_start
 
@@ -2267,6 +2265,12 @@ denovo: generate a new CarveMe GSMM, performing gene prediction and adding HMM-d
                                     build_de_novo_GSMM(FASTA, fasta_genome, de_novo_model_directory, current_run, log=False)
 
                             elif args.gsmm_mode == "existing":
+                                list_all_mod = list_all_modules(Modules_directory)
+                                os.chdir(DB_directory)
+                                DB_KEGG_RN = KEGG_BiGG_SEED_RN_dict("reactions_DB.tsv", DB_directory, ontology="BiGG")
+                                old_new_names = old_new_names_dict("metabolites_names_from_id_bigg.tsv")
+                                old_new_names_R = old_new_names_reac_dict("reactions_names_from_id_bigg.tsv")
+
                                 if args.hmm_mode == "modules":
                                     MODofinterest = fixed_modules_of_interest(dir_base, fixed_module_file)
                                 if args.hmm_mode == "onebm":

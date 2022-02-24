@@ -11,12 +11,12 @@ The `kemet.py` script works as a command line tool that serves three main functi
 
 It is well suited for single genomes usage as well as metagenome-spanning analyses, in order to get a better understanding of microbial metabolic and ecological functions.  
 
-_"KEMET - a python tool for KEGG Module evaluation and microbial genome annotation expansion"_ - Manuscript in preparation  
+_"KEMET - a python tool for KEGG Module evaluation and microbial genome annotation expansion"_ - Manuscript under revision  
 
 -----
 ## Installation
 
-The program is designed to have an easier installation procedure on UNIX-based machines, nonetheless the code is compatible with Windows systems as well (tested on: Ubuntu 19.04 LTS - Windows 10 - February 2022).  
+The program is designed to have an easier installation procedure on UNIX-based machines, nonetheless the code is compatible with Windows systems as well (tested on: Ubuntu 19.04 LTS - Windows 10 build 19043.1526 - February 2022).  
 Windows systems can use extra features such as the "Windows Subsystem for Linux", as described [here](https://mafft.cbrc.jp/alignment/software/ubuntu_on_windows.html) by MAFFT developers.  
 
 The easiest way to install KEMET using both UNIX or Windows subsystem is to use the Anaconda package manager. You could see Anaconda documentation at [this link](https://docs.anaconda.com/).  
@@ -31,16 +31,17 @@ bash Miniconda3-latest-Linux-x86_64.sh
 
 With Anaconda properly set, it is possible to create an environment called "kemet" using
 ```
-conda create --name kemet python=3.6
+conda create --name kemet python=3.7
 conda activate kemet
 ```  
-This way it is possible to install the package dependencies, with the following command lines:
+To install other dependencies use the following commands:
 ```
 conda install -c bioconda mafft
 conda install -c bioconda hmmer
 pip install reframed
 
 # OPTIONAL (only if GSMM mode use is intended)
+
 pip install carveme==1.4.1
 conda install -c bioconda diamond
 conda install -c bioconda prodigal
@@ -56,36 +57,46 @@ cd KEMET
 -----
 ## General Use - Conda environment
 
-0) Scripts execution should be enabled. If the opposite is true use `chmod +x ./*.py`
+0) Open a shell in the KEMET directory. Scripts execution should be enabled. If the opposite is true use `chmod +x ./*.py`
 
-1) Run once the _setup.py_ script (if genome-scale models possibilities are wanted, add the "-G" parameter).  
+1) Run once the `setup.py` script (if genome-scale models possibilities are wanted, add the `-G` parameter).  
 This will set the folders in which different input and outputs will be stored.
 
 2) Set input files into proper paths (**IMPORTANT**):  
-- Copy MAG/Genome sequences to be analysed in `KEMET/genomes/` folder, which is created after the setup process. File extensions are supposed to be ".fa",".fna" or ".fasta". If that's not case, they had to be changed in either one of these.  
+- Copy MAG/Genome sequences to be analysed in `KEMET/genomes/` folder, which is created after the setup process.  
+**NOTE:**  
+**File extensions are supposed to be ".fa",".fna" or ".fasta"**  
+**FASTA header are supposed not to be repeated in a single MAG/Genome**.  
+If necessary, rename MAGs/Genomes and FASTA headers accordingly.  
 
 - Copy KEGG KOs annotations (derived from different sources) in `KEMET/KEGG_annotations/` folder, created in the setup process.  
-**Annotations format don't need to be changed from their original output** (truncated example files can be found in `KEMET/toy/` folder)  
 The script requires an indication of the program used to generate input KEGG annotation (eggNOG, KofamKOALA, and KAAS or KAAS-like format are supported up to February 2022).  
+**Annotations format don't need to be changed from their original output** (truncated example files can be found in `KEMET/toy/` folder)  
 
-- if genome-scale model operations are needed, optional pre-existing genome-scale models generated with CarveMe (".xml" files) that need gap-fill could be copied in the "KEMET/models/" folder, created after setup process.  
+- if genome-scale model operations are needed, optional pre-existing genome-scale models generated with CarveMe (".xml" files) that need gap-fill could be copied in the `KEMET/models/` folder, created after setup process.  
 
 **IMPORTANT NOTE:  
 KEGG annotation and GSMM files names MUST be the same of the genome they refers to, except for the extension  
 (e.g. bin1.fasta, bin1.emapper.annotations, and bin1.xml)**
 
-"KEMET/KEGG_MODULES/" folder presence as in GitHub is **necessary** for script usage. It contains files that represent KEGG Modules block structure (REF: [KEGG MODULE resource](https://www.genome.jp/kegg/module.html)); missing KO orthologs are deduced from these structures.  
+`KEMET/KEGG_MODULES/` folder presence as in GitHub is **necessary** for script usage. It contains files that represent KEGG Modules block structure (REF: [KEGG MODULE resource](https://www.genome.jp/kegg/module.html)); missing KO orthologs are deduced from these structures.  
 
 Other "custom" Modules could be added to that folder, if formatted in the proper way.
 
 3) Fill in the textual intruction file "genomes.instruction":  
-excluding the header, each line should have a tab-separated indication of:
-- MAG/Genome FASTA file name (e.g. bin1.fasta)
-- the KEGG Brite taxonomic indication (C-level, that coincide with NCBI's phylum level most of the times) (REF: [BRITE Organism table](https://www.kegg.jp/brite/br08601)) (e.g. Actinobacteria)
-- an indication of metabolic-model universe (grampos, gramneg, archaea or such)(optional - needed for GSMM de-novo reconstruction)
+excluding the header, each line should have a **tab-separated** indication of:
+
+|MAG/Genome FASTA|Taxonomic indication|Metabolic model universe|
+|---|---|---|  
+
+- The MAG/Genome FASTA indicate the MAG/Genome of interest file name (e.g. bin1.fasta)  
+
+- The taxonomic indication is taken from the KEGG Brite taxonomic indication (specifically from the C-level, that coincide with NCBI's phylum level most of the times) (REF: [BRITE Organism table](https://www.kegg.jp/brite/br08601)) (e.g. Actinobacteria)  
+
+- Metabolic model universe comprehend grampos, gramneg, archaea or other custom universe (this is an optional indication needed for GSMM de-novo reconstruction)  
 
 4) Fill in other instruction text files.  
-If HMM-analyses are desired, these need either the "module_file.instruction" or the "ko_file.instruction" files, depending on the desired MODE OF USE (which needs to be specified with the `--hmm_mode MODE` parameter:  
+If HMM-analyses are desired, these need either the "module_file.instruction" or the "ko_file.instruction" files as follows, depending on the desired MODE OF USE (which needs to be specified with the `--hmm_mode MODE` parameter)  
 
 |MODE|Analysis|Instructions|
 |---|---|---|
@@ -101,27 +112,27 @@ If HMM-analyses are desired, these need either the "module_file.instruction" or 
 ./kemet.py [FASTA_file] -a [FORMAT] (--skip_hmm) --hmm_mode [MODE] (--skip_gsmm) --gsmm_mode [MODE]
 ```
 
-`FASTA_file`: indication of the MAG/Genome of interest FASTA (with or without path indication e.g. genomes/bin1.fasta)  
+`[FASTA_file]`: indication of the MAG/Genome of interest FASTA (with or without path indication e.g. `genomes/bin1.fasta`)  
 
-`-a [FORMAT]`: indication of which program was used to annotate KEGG KOs, i.e. the KEGG annotation format (either eggnog/kaas/kofamkoala) to generate KEGG MODULES recap tables. Default file format must be maintained (".emapper.annotations", ".ko")  
+`-a [FORMAT]`: indication of which program was used to annotate KEGG KOs, i.e. the KEGG annotation format (either eggnog/kaas/kofamkoala) to generate KEGG MODULES recap tables. Default file extension must be maintained (".emapper.annotations", ".ko")  
 
-`--skip_hmm`: use this parameter to stop after KEGG MODULES Completeness Evaluation, to have only the tables from previous annotation softwares.  
+`--skip_hmm`: use this parameter to stop after KEGG MODULES Completeness Evaluation. The only output would be the organized tables of metabolic potential from previous annotation softwares.  
 
-`--hmm_mode [MODE]`: if the HMM analysis is desired, this parameter is required to indicate which subset of KOs to search with profile HMMs.  
+`--hmm_mode [MODE]`: if the HMM analysis is desired, this parameter is required to indicate which subset of KOs to search with profile HMMs (`onebm, module, kos`).  
 
 `--skip_gsmm`: use this parameter to stop after HMM analysis.  
 
-`--gsmm_mode [MODE]`: if GSMM operation with HMM-hits are desired, this parameter is required to indicate whether to perform de-novo GSMM reconstruction or gapfilling.  
+`--gsmm_mode [MODE]`: if GSMM operations with HMM-hits are desired, this parameter is required to indicate whether to perform de-novo GSMM reconstruction or gapfilling, with `[MODE]` equal to `denovo` or `existing`, respectively .  
 
 -----
 Other parameters are not required, and are described in the following paragraph:  
 
 `-v`: print more informations, for progress reporting purposes & more info.  
-`-q`: print less informations and silence MAFTT and HMMER soft-errors.  
+`-q`: print less informations and silence MAFTT and HMMER soft-errors (suggested).  
 
-`--as_kegg`: change the way incomplete KEGG MODULES are considered in the recap tables, following KEGG-Mapper convention, i.e. Modules with less than 3 blocks that have at least 1 incomplete block are marked as INCOMPLETE regardless.  
+`--as_kegg`: change the way incomplete KEGG MODULES are considered in the metabolic potential recap tables, following KEGG-Mapper convention, i.e. Modules with less than 3 blocks that have at least 1 incomplete block are marked as INCOMPLETE regardless.  
 
-`--update_taxonomy_codes`: when downloading a new BRITE taxonomy with _setup.py_, this parameter is necessary to have an updated species (BRITE E-class) list for each C-class, that is to have an updated scope for taxonomic-informed HMM creation.  
+`--update_taxonomy_codes`: when downloading a new BRITE taxonomy with `setup.py`, this parameter is necessary to have an updated species (BRITE E-class) list for each C-class, that is to have an updated scope for taxonomic-informed HMM creation.  
 
 `--threshold_value [VALUE]`: modify this to use a different quality filter to differentiate between HMM hits (default: 0.43).  
 
@@ -140,15 +151,15 @@ They are located in the `KEMET/report_tsv/` and `KEMET/report_txt/` folders resp
 ### - reportKMC_FASTA.tsv  
 This output is a tabular file with infomations regarding each KEGG Module, indicating the metabolic potential of the MAG/genome defined with the `FASTA` name.  
 
-Each line includes the info as in the following example table:  
+Each line includes the tab-separated info as in the following example table:  
 
 |Module_id|Module_name|Completeness|complete/total blocks|missing KOs|KOs present|  
 | --- | --- | --- | --- | --- | --- |
 |M00029|Urea cycle|1 BLOCK MISSING|4__5|K01948,K14681|K00611,K01940,K01755,K01476|  
 
-The **Completeness** indications are accordingly: "INCOMPLETE", "2 BLOCKS MISSING", "1 BLOCK MISSING", or "COMPLETE". 
+- The **Completeness** indications are accordingly: "INCOMPLETE", "2 BLOCKS MISSING", "1 BLOCK MISSING", or "COMPLETE". 
 
-**complete/total blocks** is indicated with the format "COMPLETE__TOTAL" (with two underscores).
+- **complete/total blocks** is indicated with the format "COMPLETE__TOTAL" (with two underscores).
 
 ### - reportKMC_FASTA.txt  
 This output is a flat file with indication of KEGG MODULES completeness for every Module, up to the block level. It gives info on which sequential step of the Module path has missing KOs.
@@ -170,7 +181,7 @@ A tabular file including HMM hits of a **single MAG/Genome**, defined with the `
 |KO|corr_score, e-value|contig_name|strand|genome_left_bound|genome_right_bound|profile_lenght|begin_of_HMMsequence_hit|end_of_HMMsequence_hit|
 |---|---|---|---|---|---|---|---|---|
 
-**corr_score** is a metric that describes HMM profile scoring, corrected on the sequence lenght of that profile.  
+- **corr_score** is a metric that describes HMM profile scoring, corrected on the sequence lenght of that profile.  
 
 ### - file_recap_DATE.tsv  
 
@@ -181,11 +192,11 @@ Moreover, the file includes further fields:
 |frame|seq|xseq|
 |---|---|---|  
 
-**frame** indicates the most likely translated reading-frame.  
+- **frame** indicates the most likely translated reading-frame.  
 
-**seq** is the nucleotidic sequence as retrieved from the MAG/Genome.
+- **seq** is the nucleotidic sequence as retrieved from the MAG/Genome.
 
-**xseq** is the translated aminoacidic sequence derived from HMM seq using the Bacterial/Archaeal translation table (t11).  
+- **xseq** is the translated aminoacidic sequence derived from HMM seq using the Bacterial/Archaeal translation table (t11).  
 
 -----
 ## 3) Genome-scale metabolic model gapfilling

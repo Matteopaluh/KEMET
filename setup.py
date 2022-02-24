@@ -30,7 +30,6 @@ def set_directories(dir_base, gapfill_usage = False):
     report_tsv_directory = "reports_tsv"
     taxa_dir = "taxonomies"
     dir_base_KO = "Knumber_ntsequences"
-    dir_base_KOaa = "Knumber_aasequences"
     msa_dir = "multiple_fasta"
     hmm_dir = "HMM"
     hmm_hits_dir = "HMM_HITS"
@@ -44,7 +43,6 @@ def set_directories(dir_base, gapfill_usage = False):
     directories_to_make.append(report_tsv_directory)
     directories_to_make.append(taxa_dir)
     directories_to_make.append(dir_base_KO)
-    directories_to_make.append(dir_base_KOaa)
     directories_to_make.append(msa_dir)
     directories_to_make.append(hmm_dir)
     directories_to_make.append(hmm_hits_dir)

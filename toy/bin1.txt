@@ -1,0 +1,5 @@
+# gene name           KO     thrshld  score   E-value KO definition
+#-------------------- ------ ------- ------ --------- ---------------------
+* contig1_3            K01129   97.17  444.1  8.8e-134 dGTPase [EC:3.1.5.1]
+* contig1_4            K02316   61.80  147.8   5.5e-44 DNA primase [EC:2.7.7.101]
+* contig2_2            K00812  455.77  549.6  1.2e-165 aspartate aminotransferase [EC:2.6.1.1]
