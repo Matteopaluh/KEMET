@@ -16,7 +16,8 @@ _"KEMET - a python tool for KEGG Module evaluation and microbial genome annotati
 -----
 ## Installation
 
-The program is designed to have an easier installation procedure on UNIX-based machines, nonetheless the code is compatible with Windows systems as well (tested on: Ubuntu 19.04 LTS - Windows 10 build 19043.1526 - February 2022).  
+The program is designed to have an easier installation procedure on UNIX-based machines, nonetheless the code is compatible with Windows systems as well.  
+(tested on: Ubuntu 20.04 LTS with Linux 5.13 kernel - Windows 10 build 19043.1526 - February 2022)  
 Windows systems can use extra features such as the "Windows Subsystem for Linux", as described [here](https://mafft.cbrc.jp/alignment/software/ubuntu_on_windows.html) by MAFFT developers.  
 
 The easiest way to install KEMET using both UNIX or Windows subsystem is to use the Anaconda package manager. You could see Anaconda documentation at [this link](https://docs.anaconda.com/).  
@@ -57,7 +58,8 @@ cd KEMET
 -----
 ## General Use - Conda environment
 
-0) Open a shell in the KEMET directory. Scripts execution should be enabled. If the opposite is true use `chmod +x ./*.py`
+0) Open a shell in the KEMET directory. Scripts execution should be enabled. If the opposite is true use  
+`chmod +x ./*.py`
 
 1) Run once the `setup.py` script (if genome-scale models possibilities are wanted, add the `-G` parameter).  
 This will set the folders in which different input and outputs will be stored.
@@ -96,7 +98,7 @@ excluding the header, each line should have a **tab-separated** indication of:
 - Metabolic model universe comprehend grampos, gramneg, archaea or other custom universe (this is an optional indication needed for GSMM de-novo reconstruction)  
 
 4) Fill in other instruction text files.  
-If HMM-analyses are desired, these need either the "module_file.instruction" or the "ko_file.instruction" files as follows, depending on the desired MODE OF USE (which needs to be specified with the `--hmm_mode MODE` parameter)  
+If HMM-analyses are desired, these need either the "module_file.instruction" or the "ko_file.instruction" files as follows, depending on the desired MODE OF USE (which needs to be specified with the `--hmm_mode MODE` parameter).  
 
 |MODE|Analysis|Instructions|
 |---|---|---|
@@ -118,11 +120,11 @@ If HMM-analyses are desired, these need either the "module_file.instruction" or 
 
 `--skip_hmm`: use this parameter to stop after KEGG MODULES Completeness Evaluation. The only output would be the organized tables of metabolic potential from previous annotation softwares.  
 
-`--hmm_mode [MODE]`: if the HMM analysis is desired, this parameter is required to indicate which subset of KOs to search with profile HMMs (`onebm, module, kos`).  
+`--hmm_mode [MODE]`: if the HMM analysis is desired, this parameter is required to indicate which subset of KOs to search with profile HMMs (`onebm, module, kos`), which are further described.  
 
 `--skip_gsmm`: use this parameter to stop after HMM analysis.  
 
-`--gsmm_mode [MODE]`: if GSMM operations with HMM-hits are desired, this parameter is required to indicate whether to perform de-novo GSMM reconstruction or gapfilling, with `[MODE]` equal to `denovo` or `existing`, respectively .  
+`--gsmm_mode [MODE]`: if GSMM operations with HMM-hits are desired, this parameter is required to indicate whether to perform de-novo GSMM reconstruction or gapfilling, with `[MODE]` equal to `denovo` or `existing`, respectively, as further described.  
 
 -----
 Other parameters are not required, and are described in the following paragraph:  
@@ -196,7 +198,7 @@ Moreover, the file includes further fields:
 
 - **seq** is the nucleotidic sequence as retrieved from the MAG/Genome.
 
-- **xseq** is the translated aminoacidic sequence derived from HMM seq using the Bacterial/Archaeal translation table (t11).  
+- **xseq** is the translated aminoacidic sequence derived from HMM seq using the generic Bacterial/Archaeal translation table (t11).  
 
 -----
 ## 3) Genome-scale metabolic model gapfilling

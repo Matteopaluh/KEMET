@@ -1098,7 +1098,7 @@ def HMM_hits_sequences(hmm_hits_dir, dir_genomes):
                     strand_plus = True
                 if strand_plus == True:
                     SEQUENCE = fragment_w_hit[l_bound:r_bound]
-                    if not "N" in SEQUENCE:
+                    if not "N" in SEQUENCE and not "n" in SEQUENCE:
                         HMM_hits_dict.update({">"+genome+"_"+K:SEQUENCE})
                 elif strand_plus == False:
                     SEQUENCE_pre = fragment_w_hit[r_bound:l_bound]
@@ -1107,7 +1107,7 @@ def HMM_hits_sequences(hmm_hits_dir, dir_genomes):
                     compl = SEQUENCE_pre.maketrans(pre, post)
                     seq_compl = SEQUENCE_pre.translate(compl)
                     SEQUENCE = seq_compl[::-1]
-                    if not "N" in SEQUENCE:
+                    if not "N" in SEQUENCE and not "n" in SEQUENCE:
                         HMM_hits_dict.update({">"+genome+"_"+K:SEQUENCE})
             except:
                 pass
