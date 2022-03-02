@@ -19,6 +19,15 @@ report_directory = dir_base+"reports/"
 report_tsv_directory = dir_base+"reports_tsv/"
 
 def set_directories(dir_base, gapfill_usage = False):
+    """
+    Setup function to generate folders and instruction files for
+    KEMET script execution.
+
+    Args:
+        dir_base                   (str): folder path in which "kemet.py" is going to be executed
+        gapfill_usage   (bool, optional): flag to indicate that GSMMs functionalities are wanted.
+                                          Defaults to False.
+    """    
     directories_to_make = []
     os.chdir(dir_base)
     initial_list = os.listdir()

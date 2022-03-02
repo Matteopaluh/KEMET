@@ -1,18 +1,31 @@
 ENTRY       M00040            Pathway   Module
-NAME        Tyrosine biosynthesis, prephanate => pretyrosine => tyrosine
-DEFINITION  (K00832,K15849) (K00220,K15226,K15227)
-ORTHOLOGY   K00832  aromatic-amino-acid transaminase [EC:2.6.1.57] [RN:R01731]
+NAME        Tyrosine biosynthesis, chorismate => arogenate => tyrosine
+DEFINITION  (K01850,K04092,K14170) (K00832,K15849) (K00220,K24018,K15227)
+ORTHOLOGY   K01850,K04092,K14170  chorismate mutase [EC:5.4.99.5] [RN:R01715]
+            K00832  aromatic-amino-acid transaminase [EC:2.6.1.57] [RN:R01731]
             K15849  aspartate-prephenate aminotransferase [EC:2.6.1.78] [RN:R01731]
-            K00220  cyclohexadienyl dehydrogenase [EC:1.3.1.43] [RN:R00732]
-            K15226,K15227  arogenate dehydrogenase (NADP+) [EC:1.3.1.78] [RN:R00733]
+            K00220,K24018  cyclohexadienyl dehydrogenase [EC:1.3.1.43] [RN:R00732]
+            K15227  arogenate dehydrogenase (NADP+) [EC:1.3.1.78] [RN:R00733]
 CLASS       Pathway modules; Amino acid metabolism; Aromatic amino acid metabolism
 PATHWAY     map00400  Phenylalanine, tyrosine and tryptophan biosynthesis
             map01230  Biosynthesis of amino acids
             map01100  Metabolic pathways
             map01110  Biosynthesis of secondary metabolites
-REACTION    R01731  C00254 -> C00826
+REACTION    R01715  C00251 -> C00254
+            R01731  C00254 -> C00826
             R00732,R00733  C00826 -> C00082
-COMPOUND    C00254  Prephenate
+COMPOUND    C00251  Chorismate
+            C00254  Prephenate
             C00826  L-Arogenate
             C00082  L-Tyrosine
+REFERENCE   PMID:22554242
+  AUTHORS   Maeda H, Dudareva N
+  TITLE     The shikimate pathway and aromatic amino Acid biosynthesis in plants.
+  JOURNAL   Annu Rev Plant Biol 63:73-105 (2012)
+            DOI:10.1146/annurev-arplant-042811-105439
+REFERENCE   PMID:22303258
+  AUTHORS   Tzin V, Galili G
+  TITLE     The Biosynthetic Pathways for Shikimate and Aromatic Amino Acids in Arabidopsis thaliana.
+  JOURNAL   Arabidopsis Book 8:e0132 (2010)
+            DOI:10.1199/tab.0132
 ///

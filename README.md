@@ -61,13 +61,13 @@ cd KEMET
 0) Open a shell in the KEMET directory. Scripts execution should be enabled. If the opposite is true use  
 `chmod +x ./*.py`
 
-1) Run once the `setup.py` script (if genome-scale models possibilities are wanted, add the `-G` parameter).  
+1) Run once the `setup.py` script (if genome-scale models functionalities are wanted, add the `-G` parameter).  
 This will set the folders in which different input and outputs will be stored.
 
 2) Set input files into proper paths (**IMPORTANT**):  
 - Copy MAG/Genome sequences to be analysed in `KEMET/genomes/` folder, which is created after the setup process.  
 **NOTE:**  
-**File extensions are supposed to be ".fa",".fna" or ".fasta"**  
+**Sequence file extensions are supposed to be ".fa",".fna" or ".fasta"**  
 **FASTA header are supposed not to be repeated in a single MAG/Genome**.  
 If necessary, rename MAGs/Genomes and FASTA headers accordingly.  
 
@@ -75,15 +75,15 @@ If necessary, rename MAGs/Genomes and FASTA headers accordingly.
 The script requires an indication of the program used to generate input KEGG annotation (eggNOG, KofamKOALA, and KAAS or KAAS-like format are supported up to February 2022).  
 **Annotations format don't need to be changed from their original output** (truncated example files can be found in `KEMET/toy/` folder)  
 
-- if genome-scale model operations are needed, optional pre-existing genome-scale models generated with CarveMe (".xml" files) that need gap-fill could be copied in the `KEMET/models/` folder, created after setup process.  
+- If genome-scale model expansion is needed, optional pre-existing genome-scale models within the BiGG namespace (".xml" files) can be copied in the `KEMET/models/` folder, created after the setup process.  
 
-**IMPORTANT NOTE:  
-KEGG annotation and GSMM files names MUST be the same of the genome they refers to, except for the extension  
-(e.g. bin1.fasta, bin1.emapper.annotations, and bin1.xml)**
+## IMPORTANT NOTES:  
+The **files' extension does not need to be modified**, neither the rest of file name, except **if** it does not refer to the same genome in input:  
 
-`KEMET/KEGG_MODULES/` folder presence as in GitHub is **necessary** for script usage. It contains files that represent KEGG Modules block structure (REF: [KEGG MODULE resource](https://www.genome.jp/kegg/module.html)); missing KO orthologs are deduced from these structures.  
+e.g. **bin1.fasta/.fa/.fna** needs to be selected to check annotations from file **bin1.emapper.annotations**, and work with a genome-scale model **bin1.xml**.  
 
-Other "custom" Modules could be added to that folder, if formatted in the proper way.
+`KEMET/KEGG_MODULES/` folder presence as in GitHub is **necessary** for script usage. It contains files that represent KEGG Modules block structure (REF: [KEGG MODULE resource](https://www.genome.jp/kegg/module.html)); missing KO orthologs are deduced from these structures. Other "custom" Modules could be added to that folder, if formatted in the proper way.
+
 
 3) Fill in the textual intruction file "genomes.instruction":  
 excluding the header, each line should have a **tab-separated** indication of:

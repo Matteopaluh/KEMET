@@ -2399,7 +2399,6 @@ if __name__ == "__main__":
 
     taxa_dir = dir_base+"/taxonomies/"
     dir_base_KO = dir_base+"/Knumber_ntsequences/"
-    dir_base_KOaa = dir_base+"/Knumber_aasequences/"
     msa_dir = dir_base+"/multiple_fasta/"
     hmm_dir = dir_base+"/HMM/"
     hmm_hits_dir = dir_base+"/HMM_HITS/"
@@ -2592,7 +2591,6 @@ if __name__ == "__main__":
                     write_KOs_from_fixed_list(fasta_id, fixed_ko_file, ktests_directory, klists_directory)
 
                 dir_KO = dir_base_KO+taxonomy.replace(" ","_")+"/"                           # KO folder for taxonomy,    save time!
-                dir_KOaa = dir_base_KOaa+taxonomy.replace(" ","_")+"/"                       # KO folder for taxonomy,    save time!
                 msa_dir_comm = msa_dir+fasta_id+"/"                                          # MSA folder for MAG/Genome, more ordered!
                 hmm_dir_comm = hmm_dir+fasta_id+"/"                                          # HMM folder for MAG/Genome, more ordered!
                 CORR_THRESHOLD = float(args.threshold_value)

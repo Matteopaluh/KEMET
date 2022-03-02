@@ -1,24 +1,21 @@
 ENTRY       M00114            Pathway   Module
-NAME        Ascorbate biosynthesis, plants, glucose-6P => ascorbate
-DEFINITION  ((K01810,K06859,K13810) (K01809,K16011),K15916) (K16881,(K17497,K01840,K15778) (K00966,K00971,K16011)) K10046 K14190 (K10047,K18649) (K00064,K17744) K00225
-ORTHOLOGY   K01810,K06859,K13810,K15916  glucose-6-phosphate isomerase [EC:5.3.1.9] [RN:R02740]
-            K01809,K15916,K16011  mannose-6-phosphate isomerase [EC:5.3.1.8] [RN:R01819]
-            K17497,K01840,K15778,K16881  phosphomannomutase [EC:5.4.2.8] [RN:R01818]
-            K00966,K00971,K16011,K16881  mannose-1-phosphate guanylyltransferase [EC:2.7.7.13] [RN:R00885]
+NAME        Ascorbate biosynthesis, plants, fructose-6P => ascorbate
+DEFINITION  K01809 K17497 K00966 K10046 K14190 K10047 K17744 K00225
+ORTHOLOGY   K01809  mannose-6-phosphate isomerase [EC:5.3.1.8] [RN:R01819]
+            K17497  phosphomannomutase [EC:5.4.2.8] [RN:R01818]
+            K00966  mannose-1-phosphate guanylyltransferase [EC:2.7.7.13] [RN:R00885]
             K10046  GDP-D-mannose 3', 5'-epimerase [EC:5.1.3.18] [RN:R00889]
-            K14190  galactose-1-phosphate guanylyltransferase (GDP) [RN:R07678]
-            K10047,K18649  L-galactose 1-phosphate phosphatase [EC:3.1.3.93] [RN:R07674]
-            K00064  D-threo-aldose 1-dehydrogenase [EC:1.1.1.122] [RN:R07675]
+            K14190  GDP-L-galactose phosphorylase [EC:2.7.7.69] [RN:R07678]
+            K10047  L-galactose 1-phosphate phosphatase [EC:3.1.3.93] [RN:R07674]
             K17744  L-galactose dehydrogenase [EC:1.1.1.316] [RN:R07675]
             K00225  L-galactono-1,4-lactone dehydorogenase [EC:1.3.2.3] [RN:R00640]
 CLASS       Pathway modules; Carbohydrate metabolism; Other carbohydrate metabolism
-PATHWAY     map00010  Glycolysis / Gluconeogenesis
-            map00051  Fructose and mannose metabolism
+PATHWAY     map00051  Fructose and mannose metabolism
             map00053  Ascorbate and aldarate metabolism
+            map01240  Biosynthesis of cofactors
             map01100  Metabolic pathways
             map01110  Biosynthesis of secondary metabolites
-REACTION    R02740  C00668 -> C05345
-            R01819  C05345 -> C00275
+REACTION    R01819  C05345 -> C00275
             R01818  C00275 -> C00636
             R00885  C00636 -> C00096
             R00889  C00096 -> C02280
@@ -26,14 +23,18 @@ REACTION    R02740  C00668 -> C05345
             R07674  C15926 -> C01825
             R07675  C01825 -> C01115
             R00640  C01115 -> C00072
-COMPOUND    C00668  alpha-D-Glucose 6-phosphate 
-            C05345  beta-D-Fructose 6-phosphate
+COMPOUND    C05345  beta-D-Fructose 6-phosphate
             C00275  D-Mannose 6-phosphate
             C00636  D-Mannose 1-phosphate
             C00096  GDP-mannose
             C02280  GDP-L-galactose
-            C15926  L-Galactose 1-phosphate
+            C15926  beta-L-Galactose 1-phosphate
             C01825  L-Galactose
             C01115  L-Galactono-1,4-lactone
             C00072  Ascorbate
+REFERENCE   PMID:17462988
+  AUTHORS   Linster CL, Gomez TA, Christensen KC, Adler LN, Young BD, Brenner C, Clarke SG.
+  TITLE     Arabidopsis VTC2 Encodes a GDP-L-Galactose Phosphorylase, the Last Unknown Enzyme in the Smirnoff-Wheeler Pathway to Ascorbic Acid in Plants.
+  JOURNAL   J Biol Chem 282:18879-85 (2007)
+            DOI:10.1074/jbc.M702094200
 ///

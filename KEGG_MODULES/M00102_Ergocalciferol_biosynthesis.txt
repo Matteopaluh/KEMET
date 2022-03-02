@@ -1,7 +1,13 @@
 ENTRY       M00102            Pathway   Module
-NAME        Ergocalciferol biosynthesis
-DEFINITION  K00559 K09829 K00227 K09831 K00223
-ORTHOLOGY   K00559  sterol 24-C-methyltransferase [EC:2.1.1.41] [RN:R04427]
+NAME        Ergocalciferol biosynthesis, squalene 2,3-epoxide => ergosterol/ergocalciferol
+DEFINITION  K01852 K05917 K00222 K07750 K07748 K09827 K00559 K09829 K00227 K09831 K00223
+ORTHOLOGY   K01852  lanosterol synthase [EC:5.4.99.7] [RN:R03199]
+            K05917  sterol 14alpha-demethylase [EC:1.14.14.154] [RN:R05640]
+            K00222  delta14-sterol reductase [EC:1.3.1.70] [RN:R05639]
+            K07750  methylsterol monooxygenase [EC:1.14.18.9] [RN:R07509 R12403]
+            K07748  sterol-4alpha-carboxylate 3-dehydrogenase (decarboxylating) [EC:1.1.1.170] [RN:R07494 R12404]
+            K09827  3-keto steroid reductase [EC:1.1.1.270] [RN:R07495 R12405]
+            K00559  sterol 24-C-methyltransferase [EC:2.1.1.41] [RN:R04427]
             K09829  C-8 sterol isomerase [EC:5.-.-.-] [RN:R07497]
             K00227  Delta7-sterol 5-desaturase [EC:1.14.19.20] [RN:R07505]
             K09831  sterol 22-desaturase [EC:1.14.19.41] [RN:R07506]
@@ -10,17 +16,45 @@ CLASS       Pathway modules; Lipid metabolism; Sterol biosynthesis
 PATHWAY     map00100  Steroid biosynthesis
             map01100  Metabolic pathways
             map01110  Biosynthesis of secondary metabolites
-REACTION    R04427  C05437 -> C04525
-            R07497  C04525 -> C15777
-            R07505  C15777 -> C15778
-            R07506  C15778 -> C05440
-            R05641  C05440 -> C01694
+REACTION    R03199  C01054 -> C01724	
+            R05640  C01724 -> C11455	
+            R05639  C11455 -> C05108	
+            R07509  C05108 -> C15808	
+            R07494  C15808 -> C15816	
+            R07495  C15816 -> C05103	
+            R12403  C05103 -> C22112	
+            R12404  C22112 -> C22136	
+            R12405  C22136 -> C05437	
+            R04427  C05437 -> C04525	
+            R07497  C04525 -> C15777	
+            R07505  C15777 -> C15778	
+            R07506  C15778 -> C05440	
+            R05641  C05440 -> C01694	
             R03677  C01694 -> C05441
-COMPOUND    C05437  Zymosterol
+COMPOUND    C01054  (S)-2,3-Epoxysqualene
+            C01724  Lanosterol
+            C11455  4,4-Dimethyl-5alpha-cholesta-8,14,24-trien-3beta-ol
+            C05108  14-Demethyllanosterol
+            C15808  4alpha-Methylzymosterol-4-carboxylate
+            C15816  3-Keto-4-methylzymosterol
+            C05103  4alpha-Methylzymosterol
+            C22112  4alpha-Carboxy-5alpha-cholesta-8,24-dien-3beta-ol
+            C22136  Zymosterone
+            C05437  Zymosterol
             C04525  Fecosterol
             C15777  Episterol
             C15778  5,7,24(28)-Ergostatrienol
             C05440  Ergosta-5,7,22,24(28)-tetraen-3beta-ol
             C01694  Ergosterol
             C05441  Vitamin D2
+REFERENCE   PMID:14554200
+  AUTHORS   Veen M, Stahl U, Lang C
+  TITLE     Combined overexpression of genes of the ergosterol biosynthetic pathway leads to accumulation of sterols in Saccharomyces cerevisiae.
+  JOURNAL   FEMS Yeast Res 4:87-95 (2003)
+            DOI:10.1016/S1567-1356(03)00126-0
+REFERENCE   PMID:30042199
+  AUTHORS   Bhattacharya S, Esquivel BD, White TC
+  TITLE     Overexpression or Deletion of Ergosterol Biosynthesis Genes Alters Doubling Time, Response to Stress Agents, and Drug Susceptibility in Saccharomyces cerevisiae.
+  JOURNAL   mBio 9:e01291-18 (2018)
+            DOI:10.1128/mBio.01291-18
 ///

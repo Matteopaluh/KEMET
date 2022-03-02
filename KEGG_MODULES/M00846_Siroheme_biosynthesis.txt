@@ -1,21 +1,20 @@
 ENTRY       M00846            Pathway   Module
-NAME        Siroheme biosynthesis, glutamate => siroheme
-DEFINITION  (K01885,K14163) K02492 K01845 K01698 K01749 (K01719,K13542,K13543) (K02302,(K00589,K02303,K02496,K13542,K13543)+K02304-K03794)
-ORTHOLOGY   K01885,K14163  glutamyl-tRNA synthetase [EC:6.1.1.17] [RN:R05578]
-            K02492  glutamyl-tRNA reductase [EC:1.2.1.70] [RN:R04109]
+NAME        Siroheme biosynthesis, glutamyl-tRNA => siroheme
+DEFINITION  K02492 K01845 K01698 K01749 (K01719,K13542,K13543) (K02302,(K00589,K02303,K02496,K13542,K13543)+(K02304,(K24866+K03794)))
+ORTHOLOGY   K02492  glutamyl-tRNA reductase [EC:1.2.1.70] [RN:R04109]
             K01845  glutamate-1-semialdehyde 2,1-aminomutase [EC:5.4.3.8] [RN:R02272]
             K01698  porphobilinogen synthase [EC:4.2.1.24] [RN:R00036]
             K01749  hydroxymethylbilane synthase [EC:2.5.1.61] [RN:R00084]
             K01719,K13542,K13543  uroporphyrinogen-III synthase [EC:4.2.1.75] [RN:R03165]
             K02302,K00589,K02303,K02496,K13542,K13543  uroporphyrin-III C-methyltransferase [EC:2.1.1.107] [RN:R03194]
-            K02302,K02304  precorrin-2 dehydrogenase [EC:1.3.1.76] [RN:R03947]
+            K02302,K02304,K24866  precorrin-2 dehydrogenase [EC:1.3.1.76] [RN:R03947]
             K02302,K02304,K03794  sirohydrochlorin ferrochelatase [EC:4.99.1.4] [RN:R02864]
 CLASS       Pathway modules; Metabolism of cofactors and vitamins; Cofactor and vitamin metabolism
-PATHWAY     map00860  Porphyrin and chlorophyll metabolism
+PATHWAY     map00860  Porphyrin metabolism
+            map01240  Biosynthesis of cofactors
             map01100  Metabolic pathways
             map01110  Biosynthesis of secondary metabolites
-REACTION    R05578  C00025 -> C02987
-            R04109  C02987 -> C03741
+REACTION    R04109  C02987 -> C03741
             R02272  C03741 -> C00430
             R00036  C00430 -> C00931
             R00084  C00931 -> C01024
@@ -23,8 +22,7 @@ REACTION    R05578  C00025 -> C02987
             R03194  C01051 -> C02463
             R03947  C02463 -> C05778
             R02864  C05778 -> C00748
-COMPOUND    C00025  L-Glutamate
-            C02987  L-Glutamyl-tRNA(Glu)
+COMPOUND    C02987  L-Glutamyl-tRNA(Glu)
             C03741  (S)-4-Amino-5-oxopentanoate
             C00430  5-Aminolevulinate
             C00931  Porphobilinogen
