@@ -72,7 +72,7 @@ This will set the folders in which different input and outputs will be stored.
 If necessary, rename MAGs/Genomes and FASTA headers accordingly.  
 
 - Copy KEGG KOs annotations (derived from different sources) in `KEMET/KEGG_annotations/` folder, created in the setup process.  
-The script requires an indication of the program used to generate input KEGG annotation (eggNOG, KofamKOALA, and KAAS or KAAS-like format are supported up to February 2022).  
+The script requires an indication of the program used to generate input KEGG annotation (eggNOG, KofamKOALA, and KAAS or KAAS-like format are supported up to March 2022).  
 **Annotations format don't need to be changed from their original output** (truncated example files can be found in `KEMET/toy/` folder)  
 
 - If genome-scale model expansion is needed, optional pre-existing genome-scale models within the BiGG namespace (".xml" files) can be copied in the `KEMET/models/` folder, created after the setup process.  
@@ -215,7 +215,7 @@ Using this mode, the newly generated gene prediction and GSMM are included in th
 
 `--gsmm_mode existing` allows the identified reactions to be incorporated in esisting genome-scale metabolic models (GSMMs) previously generated with CarveMe, if those are missing.  
 
-At the moment (February 2022) the only tested way to add reaction to pre-existing GSMMs is via the [ReFramed](https://github.com/cdanielmachado/reframed) package.
+At the moment (March 2022) the only tested way to add reaction to pre-existing GSMMs is via the [ReFramed](https://github.com/cdanielmachado/reframed) package.
 Further improvement would permit adding it through the [cobrapy](https://github.com/opencobra/cobrapy) platform.  
 
 Informations regarding reaction gapfilling (if performed using the `--gsmm_mode existing` parameter) are included in several output files:

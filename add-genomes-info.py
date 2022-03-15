@@ -43,9 +43,9 @@ def main():
     universe = args.add_universe
 
     if args.verbose:
-        add_organism_instruction(org_id, taxonomy, universe, verbose=True)
+        add_organism_instruction(fasta_file, taxonomy, universe, verbose=True)
     else:
-        add_organism_instruction(org_id, taxonomy, universe)
+        add_organism_instruction(fasta_file, taxonomy, universe)
 
 if __name__ == "__main__":
     main()
