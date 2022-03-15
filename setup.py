@@ -1,8 +1,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[ ]:
-
 import os
 import re
 import argparse
@@ -21,6 +19,15 @@ report_directory = dir_base+"reports/"
 report_tsv_directory = dir_base+"reports_tsv/"
 
 def set_directories(dir_base, gapfill_usage = False):
+    """
+    Setup function to generate folders and instruction files for
+    KEMET script execution.
+
+    Args:
+        dir_base                   (str): folder path in which "kemet.py" is going to be executed
+        gapfill_usage   (bool, optional): flag to indicate that GSMMs functionalities are wanted.
+                                          Defaults to False.
+    """    
     directories_to_make = []
     os.chdir(dir_base)
     initial_list = os.listdir()
@@ -32,7 +39,6 @@ def set_directories(dir_base, gapfill_usage = False):
     report_tsv_directory = "reports_tsv"
     taxa_dir = "taxonomies"
     dir_base_KO = "Knumber_ntsequences"
-    dir_base_KOaa = "Knumber_aasequences"
     msa_dir = "multiple_fasta"
     hmm_dir = "HMM"
     hmm_hits_dir = "HMM_HITS"
@@ -46,7 +52,6 @@ def set_directories(dir_base, gapfill_usage = False):
     directories_to_make.append(report_tsv_directory)
     directories_to_make.append(taxa_dir)
     directories_to_make.append(dir_base_KO)
-    directories_to_make.append(dir_base_KOaa)
     directories_to_make.append(msa_dir)
     directories_to_make.append(hmm_dir)
     directories_to_make.append(hmm_hits_dir)
@@ -103,17 +108,24 @@ def update_kk_database():
 ###############################################################################
 
 def main():
-    parser = argparse.ArgumentParser(description='''Setup command for KEMET pipeline.
-                                                    Create folders and generate/update KEGG Module .kk database''')
+    parser = argparse.ArgumentParser(description=
+    '''
+    Setup command for KEMET pipeline.
+    Create folders and manage KEGG Module .kk database
+    ''')
 
     parser.add_argument('-k','--set_kk_DB', action = "store_true",
                         help='''
-                        Choose this option in order to create KEGG Module DB (.kk files),
-                        in order to perform KEGG Modules COmpleteness evaluation.''') #TODO
+                        Choose this option to generate KEGG Module DB (.kk files),
+                        in order to perform KEGG Modules Completeness evaluation.
+                        Default: already generated''')
     parser.add_argument('-u','--update_kk_DB', action = "store_true",
-                        help='''Choose this option in order to update already existing KEGG Module DB (.kk files).''') #TODO
+                        help='''
+                        Choose this option to update already existing KEGG Module DB (.kk files).''')
     parser.add_argument('-G','--gapfill_usage', action = "store_true",
-                        help='''Choose this option in order to create and download required folders for Gapfilling, follow-up of HMM search.''')
+                        help='''
+                        Choose this option to create required folders for the GSMM Gapfilling,
+                        follow-up of the HMM search procedures.''')
     args = parser.parse_args()
 
 ###############################################################################
@@ -122,7 +134,7 @@ def main():
         set_directories(dir_base, gapfill_usage=True)
     else:
         set_directories(dir_base)
-    #TODO: ADD THE DATABASE OF kk-files WITH THE UPDATED MODULES LIST
+    #NEXT VERSION: ADD kk-files DATABASE WITH THE UPDATED MODULES LIST
     if args.set_kk_DB:
         set_kk_database()
     if args.update_kk_DB:

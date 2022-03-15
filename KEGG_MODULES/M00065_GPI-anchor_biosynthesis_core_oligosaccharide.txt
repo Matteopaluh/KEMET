@@ -1,6 +1,6 @@
 ENTRY       M00065            Pathway   Module
 NAME        GPI-anchor biosynthesis, core oligosaccharide
-DEFINITION  (K03857+K03859+K03858+K03861+K03860+(K11001,K11002)-K09658) K03434 K05283 (K05284+K07541) K07542 K05285 K05286 (K05288+K05287)
+DEFINITION  (K03857+K03859+K03858+K03861+K03860+(K11001,K11002)-K09658) K03434 K05283 (K05284+K07541) K07542 K05285 K05286 (K05288+K05287) (K05310+K05287)
 ORTHOLOGY   K03857  PIGA [EC:2.4.1.198] [RN:R05916]
             K03859  PIGC [RN:R05916]
             K03858  PIGH [RN:R05916]
@@ -18,6 +18,7 @@ ORTHOLOGY   K03857  PIGA [EC:2.4.1.198] [RN:R05916]
             K05286  PIGB [EC:2.4.1.-] [RN:R05922]
             K05288  PIGO [EC:2.7.-.-] [RN:R08107]
             K05287  PIGF [RN:R08107]
+            K05310  PIGG [EC:2.7.-.-] [RN:R12702]
 CLASS       Pathway modules; Glycan metabolism; Glycan biosynthesis
 PATHWAY     map00563  Glycosylphosphatidylinositol (GPI)-anchor biosynthesis
             map01100  Metabolic pathways
@@ -29,13 +30,19 @@ REACTION    R05916  C01194 -> G00143
             R12351  G13128 -> G00148
             R05922  G00148 -> G00149
             R08107  G00149 -> G13044
+            R12702  G13044 -> G13152
 COMPOUND    C01194  1-Phosphatidyl-D-myo-inositol
-            G00143  (GlcNAc)1 (Ino-P)1
-            G00144  (GlcN)1 (Ino-P)1
-            G00145  (GlcN)1 (Ino(acyl)-P)1
-            G00146  (GlcN)1 (Ino(acyl)-P)1 (Man)1
-            G13128  (GlcN)1 (Ino(acyl)-P)1 (Man)2
-            G00148  (GlcN)1 (Ino(acyl)-P)1 (Man)2 (EtN)1 (P)1
-            G00149  (GlcN)1 (Ino(acyl)-P)1 (Man)3 (EtN)1 (P)1
-            G13044  (GlcN)1 (Ino(acyl)-P)1 (Man)3 (EtN)2 (P)2
+            G00143
+            G00144
+            G00145
+            G00146
+            G13128
+            G00148
+            G00149
+            G13044
+            G13152
+REFERENCE   PMID:25509331
+  AUTHORS   Kinoshita T
+  TITLE     [Biochemistry of glycosylphosphatidylinositol (GPI) anchored proteins].
+  JOURNAL   Seikagaku 86:626-36 (2014)
 ///

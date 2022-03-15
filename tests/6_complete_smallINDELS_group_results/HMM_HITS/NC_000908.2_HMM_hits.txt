@@ -1,3 +1,0 @@
-K	corr_score,evalue	fragment	strand	l_bound	r_bound	p_lenght	hmmfrom	hmmto
-K00925	0.5985,8.1e-94	NC_000908.2	-	455316	454796	520	148	668
-K00948	0.6743,9.6e-156	NC_000908.2	-	66994	66228	766	218	984

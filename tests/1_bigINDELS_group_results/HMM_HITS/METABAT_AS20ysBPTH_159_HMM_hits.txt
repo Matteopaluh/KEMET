@@ -1,3 +1,0 @@
-K	corr_score,evalue	fragment	strand	l_bound	r_bound	p_lenght	hmmfrom	hmmto
-K00193	0.4976,1.4e-94	72822_AS20	+	4855	5478	629	628	1257
-K01687	0.5153,8.5e-77	45987_AS20	-	3809	3315	497	1162	1659

@@ -1,1 +1,0 @@
-K	corr_score,evalue	fragment	strand	l_bound	r_bound	p_lenght	hmmfrom	hmmto
