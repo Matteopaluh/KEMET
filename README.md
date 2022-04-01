@@ -1,7 +1,7 @@
 # KEMET
 **KE**gg **M**odule **E**valuation **T**ool  
 _"KEMET - a python tool for KEGG Module evaluation and microbial genome annotation expansion"_  
-[![DOI:10.1016/j.csbj.2022.03.015.svg](https://zenodo.org/badge/DOI/10.1016/j.csbj.2022.03.015.svg)](https://doi.org/10.1016/j.csbj.2022.03.015.svg)
+[![DOI:10.1016/j.csbj.2022.03.015.svg](https://zenodo.org/badge/DOI/10.1016/j.csbj.2022.03.015.svg)](https://doi.org/10.1016/j.csbj.2022.03.015)
 
 ## Script description
 
