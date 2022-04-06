@@ -1,0 +1,32 @@
+ENTRY       M00921            Pathway   Module
+NAME        Cyclooctatin biosynthesis, dimethylallyl-PP + isopentenyl-PP => cyclooctatin
+DEFINITION  K13787 K18686 K22997 K22998
+ORTHOLOGY   K13787  cotB1; geranylgeranyl diphosphate synthase [EC:2.5.1.1 2.5.1.10 2.5.1.29] [RN:R01658 R02003 R02061]
+            K18686  cotB2; cyclooctat-9-en-7-ol synthase [EC:4.2.3.146] [RN:R10763]
+            K22997  cotB3; cyclooctat-9-en-7-ol 5-monooxygenase [EC:1.14.99.61] [RN:R12177]
+            K22998  cotB4; cyclooctatin synthase [EC:1.14.99.62] [RN:R12178]
+CLASS       Pathway modules; Biosynthesis of other secondary metabolites; Biosynthesis of other bacterial compounds
+PATHWAY     map00900  Terpenoid backbone biosynthesis
+            map00997  Biosynthesis of various other secondary metabolites
+            map01100  Metabolic pathways
+            map01110  Biosynthesis of secondary metabolites
+REACTION    R01658  C00235 + C00129 -> C00341
+            R02003  C00341 + C00129 -> C00448
+            R02061  C00448 + C00129 -> C00353
+            R10763  C00353 -> C20834
+            R12177  C20834 -> C21978
+            R12178  C21978 -> C21979
+COMPOUND    C00235  Dimethylallyl diphosphate
+            C00129  Isopentenyl diphosphate
+            C00341  Geranyl diphosphate
+            C00448  trans,trans-Farnesyl diphosphate
+            C00353  Geranylgeranyl diphosphate
+            C20834  Cyclooctat-9-en-7-ol
+            C21978  Cyclooctat-9-ene-5,7-diol
+            C21979  Cyclooctatin
+REFERENCE   PMID:19635410
+  AUTHORS   Kim SY, Zhao P, Igarashi M, Sawa R, Tomita T, Nishiyama M, Kuzuyama T
+  TITLE     Cloning and heterologous expression of the cyclooctatin biosynthetic gene cluster afford a diterpene cyclase and two p450 hydroxylases.
+  JOURNAL   Chem Biol 16:736-43 (2009)
+            DOI:10.1016/j.chembiol.2009.06.007
+///

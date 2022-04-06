@@ -1,0 +1,29 @@
+ENTRY       M00923            Pathway   Module
+NAME        UDP-L-FucNAm biosynthesis
+DEFINITION  K15894 K19068 K24258 K24259
+ORTHOLOGY   K15894  UDP-N-acetylglucosamine 4,6-dehydratase [EC:4.2.1.115] [RN:R09697]
+            K19068  UDP-2-acetamido-2,6-beta-L-arabino-hexul-4-ose reductase [EC:1.1.1.367] [RN:R12553 R12552]
+            K24258  UDP-N-acetyl-L-fucosamine synthase [EC:5.1.3.28] [RN:R10676]
+            K24259  putative aminotransferase [RN:R12584]
+CLASS       Pathway modules; Glycan metabolism; Lipopolysaccharide metabolism
+PATHWAY     map00541  O-Antigen nucleotide sugar biosynthesis
+            map01250  Biosynthesis of nucleotide sugars
+            map01100  Metabolic pathways
+REACTION    R09697  C00043 -> C19823
+            R12553  C19823 -> C20769
+            R12552  C20769 -> C20768
+            R10676  C20768 -> C20774
+            R12584  C20774 -> C22270
+COMPOUND    C00043  UDP-N-acetyl-alpha-D-glucosamine
+            C19823  UDP-2-acetamido-2,6-dideoxy-beta-L-arabino-hexos-4-ulose
+            C20769  UDP-2-acetamido-2,6-dideoxy-beta-L-lyxo-4-hexulose
+            C20768  UDP-2-acetamido-2,6-dideoxy-beta-L-talose
+            C20774  UDP-N-acetyl-beta-L-fucosamine
+            C22270  UDP-2,6-dideoxy-2-acetamidino-beta-L-galactose
+RMODULE     RM036  Epimerization and reduction in deoxysugar biosynthesis
+REFERENCE   PMID:15629947
+  AUTHORS   Feng L, Senchenkova SN, Tao J, Shashkov AS, Liu B, Shevelev SD, Reeves PR, Xu J, Knirel YA, Wang L
+  TITLE     Structural and genetic characterization of enterohemorrhagic Escherichia coli O145 O antigen and development of an O145 serogroup-specific PCR assay.
+  JOURNAL   J Bacteriol 187:758-64 (2005)
+            DOI:10.1128/JB.187.2.758-764.2005
+///

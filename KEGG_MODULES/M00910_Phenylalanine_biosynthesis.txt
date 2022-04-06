@@ -1,0 +1,29 @@
+ENTRY       M00910            Pathway   Module
+NAME        Phenylalanine biosynthesis, chorismate => arogenate => phenylalanine
+DEFINITION  K01850 K15849 K05359
+ORTHOLOGY   K01850  chorismate mutase [EC:5.4.99.5] [RN:R01715]
+            K15849  bifunctional aspartate aminotransferase and glutamate/aspartate-prephenate aminotransferase [EC:2.6.1.78 2.6.1.79] [RN:R01731 R07276]
+            K05359  arogenate dehydratase [EC:4.2.1.91 4.2.1.51] [RN:R00691]
+CLASS       Pathway modules; Amino acid metabolism; Aromatic amino acid metabolism
+PATHWAY     map00400  Phenylalanine, tyrosine and tryptophan biosynthesis
+            map01230  Biosynthesis of amino acids
+            map01100  Metabolic pathways
+            map01110  Biosynthesis of secondary metabolites
+REACTION    R01715  C00251 -> C00254
+            R01731,R07276  C00254 -> C00826
+            R00691  C00826 -> C00079
+COMPOUND    C00251  Chorismate
+            C00254  Prephenate
+            C00826  L-Arogenate
+            C00079  L-Phenylalanine
+REFERENCE   PMID:22554242
+  AUTHORS   Maeda H, Dudareva N
+  TITLE     The shikimate pathway and aromatic amino Acid biosynthesis in plants.
+  JOURNAL   Annu Rev Plant Biol 63:73-105 (2012)
+            DOI:10.1146/annurev-arplant-042811-105439
+REFERENCE   PMID:22303258
+  AUTHORS   Tzin V, Galili G
+  TITLE     The Biosynthetic Pathways for Shikimate and Aromatic Amino Acids in Arabidopsis thaliana.
+  JOURNAL   Arabidopsis Book 8:e0132 (2010)
+            DOI:10.1199/tab.0132
+///

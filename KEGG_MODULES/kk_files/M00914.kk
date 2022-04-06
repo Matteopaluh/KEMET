@@ -1,0 +1,8 @@
+M00914_Coenzyme_A_biosynthesis_archaea.txt
+K00606
+K00077
+K06982
+K09722
+K13038
+K02201
+K09735

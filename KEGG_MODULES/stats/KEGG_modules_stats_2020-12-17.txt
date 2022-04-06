@@ -1,6 +1,0 @@
-2020-12-17 12:49:08.481930
-KEGG Modules Now	443
-Pathway Modules	333
-Complex Modules	26
-Signature Modules	49
-Not annotated Modules	35

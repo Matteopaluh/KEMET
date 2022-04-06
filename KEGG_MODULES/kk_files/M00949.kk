@@ -1,0 +1,4 @@
+M00949_Staphylopine_biosynthesis.txt
+K01780
+K23120
+K23122

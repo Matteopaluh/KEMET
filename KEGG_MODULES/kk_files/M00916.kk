@@ -1,0 +1,4 @@
+M00916_Pyridoxal-P_biosynthesis.txt
+K06215, K08681
+COMPLEXES_LIST
+K06215+K08681

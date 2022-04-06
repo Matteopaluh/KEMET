@@ -1,0 +1,32 @@
+ENTRY       M00938            Pathway   Module
+NAME        Pyrimidine deoxyribonucleotide biosynthesis, UDP => dTTP
+DEFINITION  (K00525+K00526,K10807+K10808) (K00940,K18533) K01520 (K00560,K13998,K03465) K00943
+ORTHOLOGY   K00525,K00526,K10807,K10808  ribonucleoside-diphosphate reductase alpha chain [EC:1.17.4.1] [RN:R02018]
+            K00940,K18533  nucleoside-diphosphate kinase [EC:2.7.4.6] [RN:R02331 R02093]
+            K01520  dUTP pyrophosphatase [EC:3.6.1.23] [RN:R02100]
+            K00560,K13998  thymidylate synthase [EC:2.1.1.45] [RN:R02101]
+            K03465  thymidylate synthase (FAD) [EC:2.1.1.148] [RN:R06613]
+            K00943  dTMP kinase [EC:2.7.4.9] [RN:R02094]
+CLASS       Pathway modules; Nucleotide metabolism; Pyrimidine metabolism
+PATHWAY     map00240  Pyrimidine metabolism
+            map01232  Nucleotide metabolism
+            map01100  Metabolic pathways
+REACTION    R02018  C00015 -> C01346
+            R02331  C01346 -> C00460
+            R02100  C00460 -> C00365
+            R02101,R06613  C00365 -> C00364
+            R02094  C00364 -> C00363
+            R02093  C00363 -> C00459
+COMPOUND    C00015  UDP
+            C01346  dUDP
+            C00460  dUTP
+            C00365  dUMP
+            C00364  dTMP
+            C00363  dTDP
+            C00459  dTTP
+REFERENCE   PMID:28458037
+  AUTHORS   Okesli A, Khosla C, Bassik MC
+  TITLE     Human pyrimidine nucleotide biosynthesis as a target for antiviral chemotherapy.
+  JOURNAL   Curr Opin Biotechnol 48:127-134 (2017)
+            DOI:10.1016/j.copbio.2017.03.010
+///

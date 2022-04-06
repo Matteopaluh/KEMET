@@ -1,0 +1,4 @@
+M00910_Phenylalanine_biosynthesis.txt
+K01850
+K15849
+K05359

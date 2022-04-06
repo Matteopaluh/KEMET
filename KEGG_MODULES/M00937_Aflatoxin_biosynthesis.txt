@@ -1,0 +1,64 @@
+ENTRY       M00937            Pathway   Module
+NAME        Aflatoxin biosynthesis, malonyl-CoA => aflatoxin B1
+DEFINITION  K15316 K17643 K17644 K17645 K17652 K17646 K24440 K24855 K17648 K24439 (K24856+K24438+K24857+K24858) K17649 K17650 K17651
+ORTHOLOGY   K15316  noranthrone synthase [EC:2.3.1.221] [RN:R10239]
+            K17643  noranthrone monooxygenase [EC:1.13.12.20] [RN:R10224]
+            K17644  norsolorinic acid ketoreductase [EC:1.1.1.349] [RN:R10309]
+            K17645  averantin hydroxylase [EC:1.14.14.116] [RN:R10317 R10318]
+            K17652  5'-hydroxyaverantin dehydrogenase [EC:1.1.1.352] [RN:R10310 R10311]
+            K17646  5'-oxoaverantin cyclase / versicolorin B synthase [EC:4.2.1.142 4.2.1.143] [RN:R10475 R10402]
+            K24440  averufin monooxygenase [EC:1.14.-.-] [RN:R10476]
+            K24855  hydroxyversicolorone monooxygenase [EC:1.14.13.-] [RN:R10477]
+            K17648  versiconal hemiacetal acetate esterase [EC:3.1.1.94] [RN:R10401]
+            K24439  versicolorin B desaturase [EC:1.14.-.-] [RN:R10479]
+            K24856  NADPH-dependent reductase [RN:R10481]
+            K24438  sterigmatocystin biosynthesis cytochrome P450 monooxygenase [RN:R10481]
+            K24857  oxidoreductase AflX [RN:R10481]
+            K24858  oxidoreductase AflY [RN:R10481]
+            K17649  demethylsterigmatocystin 6-O-methyltransferase [EC:2.1.1.109] [RN:R03112]
+            K17650  sterigmatocystin 8-O-methyltransferase [EC:2.1.1.110] [RN:R03111]
+            K17651  aflatoxin B synthase [EC:1.14.14.117] [RN:R10319]
+CLASS       Pathway modules; Biosynthesis of other secondary metabolites; Biosynthesis of other fungal compounds
+PATHWAY     map00254  Aflatoxin biosynthesis
+            map01100  Metabolic pathways
+            map01110  Biosynthesis of secondary metabolites
+REACTION    R10239  C00083 -> C20453
+            R10224  C20453 -> C20452
+            R10309  C20452 -> C20499
+            R10317  C20499 -> C20500
+            R10310  C20500 -> C20502
+            R10318  C20499 -> C20501
+            R10311  C20501 -> C20502
+            R10475  C20502 -> C20574
+            R10476  C20574 -> C20503
+            R10477  C20503 -> C20505
+            R10401  C20505 -> C20507
+            R10402  C20507 -> C20575
+            R10479  C20575 -> C20583
+            R10481  C20583 -> C03683
+            R03112  C03683 -> C00961
+            R03111  C00961 -> C03686
+            R10319  C03686 -> C06800
+COMPOUND    C00083  Malonyl-CoA
+            C20453  Norsolorinic acid anthrone
+            C20452  Norsolorinic acid
+            C20499  (1'S)-Averantin
+            C20500  (1'S,5'S)-5'-Hydroxyaverantin
+            C20502  5'-Oxoaverantin
+            C20501  (1'S,5'R)-5'-Hydroxyaverantin
+            C20574  (1'S,5'S)-Averufin
+            C20503  1'-Hydroxyversicolorone
+            C20505  Versiconal hemiacetal acetate
+            C20507  Versiconal
+            C20575  Versicolorin B
+            C20583  Versicolorin A
+            C03683  6-Demethylsterigmatocystin
+            C00961  Sterigmatocystin
+            C03686  O-Methylsterigmatocystin
+            C06800  Aflatoxin B1
+REFERENCE   PMID:15006741
+  AUTHORS   Yu J, Chang PK, Ehrlich KC, Cary JW, Bhatnagar D, Cleveland TE, Payne GA, Linz JE, Woloshuk CP, Bennett JW
+  TITLE     Clustered pathway genes in aflatoxin biosynthesis.
+  JOURNAL   Appl Environ Microbiol 70:1253-62 (2004)
+            DOI:10.1128/AEM.70.3.1253-1262.2004
+///

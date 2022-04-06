@@ -1,0 +1,65 @@
+ENTRY       M00924            Pathway   Module
+NAME        Cobalamin biosynthesis, anaerobic, uroporphyrinogen III => sirohydrochlorin => cobyrinate a,c-diamide
+DEFINITION  (K02302,(K02303,K13542) (K02304,K24866)) (K02190,K03795,K22011) K03394 (K05934,K13541,K21479) K05936 (K02189,K13541) K02188 K05895 (K02191 K03399,K00595) K06042 K02224
+ORTHOLOGY   K02302  cysG; uroporphyrin-III C-methyltransferase / precorrin-2 dehydrogenase [EC:2.1.1.107 1.3.1.76] [RN:R03194 R03947]
+            K02303,K13542  cobA; uroporphyrin-III C-methyltransferase [EC:2.1.1.107] [RN:R03194]
+            K02304,K24866  MET8, sirC; precorrin-2 dehydrogenase [EC:1.3.1.76] [RN:R03947]
+            K02190,K03795,K22011  cbiK, cbiX, cfbA; sirohydrochlorin cobaltochelatase [EC:4.99.1.3] [RN:R05807]
+            K03394  cbiL; cobalt-factor-2 C20-methyltransferase [EC:2.1.1.151] [RN:R05808]
+            K05934,K13541,K21479  cbiH; cobalt-factor III methyltransferase [EC:2.1.1.272] [RN:R11580]
+            K05936  cbiF; cobalt-precorrin-4 C11-methyltransferase [EC:2.1.1.271] [RN:R05810]
+            K02189,K13541  cbiG; cobalt-precorrin 5A hydrolase [EC:3.7.1.12] [RN:R07772]
+            K02188  cbiD; cobalt-precorrin-5B (C1)-methyltransferase [EC:2.1.1.195] [RN:R07773]
+            K05895  cbiJ; cobalt-precorrin-6A reductase [EC:1.3.1.106] [RN:R05812]
+            K02191  cbiT; cobalt-precorrin-6B (C15)-methyltransferase [EC:2.1.1.196] [RN:R07774]
+            K03399  cbiE; cobalt-precorrin-7 (C5)-methyltransferase [EC:2.1.1.289] [RN:R07775]
+            K00595  cbiET; cobalt-precorrin-6B C5,C15-methyltransferase [EC:2.1.1.289 2.1.1.196] [RN:R07775 R07774]
+            K06042  cbiC; cobalt-precorrin-8 methylmutase [EC:5.4.99.60] [RN:R05814]
+            K02224  cbiA; cobyrinic acid a,c-diamide synthase [EC:6.3.5.11] [RN:R05815]
+CLASS       Pathway modules; Metabolism of cofactors and vitamins; Cofactor and vitamin metabolism
+PATHWAY     map00860  Porphyrin metabolism
+            map01240  Biosynthesis of cofactors
+            map01100  Metabolic pathways
+REACTION    R03194  C01051 -> C02463
+            R03947  C02463 -> C05778
+            R05807  C05778 -> C11538
+            R05808  C11538 -> C17401
+            R11580  C17401 -> C11540
+            R05810  C11540 -> C16242
+            R07772  C16242 -> C16243
+            R07773  C16243 -> C11542
+            R05812  C11542 -> C11543
+            R07774  C11543 -> C16244
+            R07775  C16244 -> C11545
+            R05814  C11545 -> C05773
+            R05815  C05773 -> C06504
+COMPOUND    C01051  Uroporphyrinogen III
+            C02463  Precorrin 2
+            C05778  Sirohydrochlorin
+            C11538  Cobalt-sirohydrochlorin
+            C17401  Cobalt-factor III
+            C11540  Cobalt-precorrin 4
+            C16242  Cobalt-precorrin 5A
+            C16243  Cobalt-precorrin 5B
+            C11542  Cobalt-precorrin 6
+            C11543  Cobalt-dihydro-precorrin 6
+            C16244  Cobalt-precorrin 7
+            C11545  Cobalt-precorrin 8
+            C05773  Cobyrinate
+            C06504  Cob(II)yrinate a,c diamide
+REFERENCE   PMID:22616870
+  AUTHORS   Moore SJ, Warren MJ
+  TITLE     The anaerobic biosynthesis of vitamin B12.
+  JOURNAL   Biochem Soc Trans 40:581-6 (2012)
+            DOI:10.1042/BST20120066
+REFERENCE   PMID:16042604
+  AUTHORS   Frank S, Brindley AA, Deery E, Heathcote P, Lawrence AD, Leech HK, Pickersgill RW, Warren MJ
+  TITLE     Anaerobic synthesis of vitamin B12: characterization of the early steps in the pathway.
+  JOURNAL   Biochem Soc Trans 33:811-4 (2005)
+            DOI:10.1042/BST0330811
+REFERENCE   PMID:32241908
+  AUTHORS   Bryant DA, Hunter CN, Warren MJ
+  TITLE     Biosynthesis of the modified tetrapyrroles-the pigments of life.
+  JOURNAL   J Biol Chem 295:6888-6925 (2020)
+            DOI:10.1074/jbc.REV120.006194
+///

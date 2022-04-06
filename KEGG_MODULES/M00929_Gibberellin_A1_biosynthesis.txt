@@ -1,0 +1,50 @@
+ENTRY       M00929            Pathway   Module
+NAME        Gibberellin A1 biosynthesis, GGPP => GA1
+DEFINITION  K20657 K21292 K12917 K12918 K12919
+ORTHOLOGY   K20657  ent-copalyl diphosphate/ent-kaurene synthase [EC:5.5.1.13 4.2.3.19] [RN:R02068 R05092]
+            K21292  ent-kaurene oxidase [EC:1.14.14.86] [RN:R06291 R06292 R06293]
+            K12917  P450I; cytochrome P450 monooxygenase 1 [RN:R06294 R06295 R06341 R06339]
+            K12918  P450II; cytochrome P450 monooxygenase 2 [RN:R06324 R06325 R06327]
+            K12919  P450III; cytochrome P450 monooxygenase 3 [RN:R06619]
+CLASS       Pathway modules; Biosynthesis of terpenoids and polyketides; Plant terpenoid biosynthesis
+PATHWAY     map00904  Diterpenoid biosynthesis
+            map01100  Metabolic pathways
+            map01110  Biosynthesis of secondary metabolites
+REACTION    R02068  C00353 -> C06089
+            R05092  C06089 -> C06090
+            R06291  C06090 -> C11872
+            R06292  C11872 -> C11873
+            R06293  C11873 -> C11874
+            R06294  C11874 -> C11875
+            R06295  C11875 -> C06093
+            R06341  C06093 -> C11853
+            R06339  C11853 -> C11858
+            R06324  C11858 -> C11859
+            R06325  C11859 -> C11862
+            R06327  C11862 -> C11864
+            R06619  C11864 -> C00859
+COMPOUND    C00353  Geranylgeranyl diphosphate
+            C06089  ent-Copalyl diphosphate
+            C06090  ent-Kaurene
+            C11872  Kaur-16-en-18-ol
+            C11873  Kaur-16-en-18-al
+            C11874  Kaur-16-en-18-oic acid
+            C11875  ent-7alpha-Hydroxykaur-16-en-19-oic acid
+            C06093  Gibberellin A12 aldehyde
+            C11853  Gibberellin A14 aldehyde
+            C11858  Gibberellin A14
+            C11859  Gibberellin A37 open lactone
+            C11862  Gibberellin A36
+            C11864  Gibberellin A4
+            C00859  Gibberellin A1
+REFERENCE   PMID:11943776
+  AUTHORS   Tudzynski B, Rojas MC, Gaskin P, Hedden P
+  TITLE     The gibberellin 20-oxidase of Gibberella fujikuroi is a multifunctional monooxygenase.
+  JOURNAL   J Biol Chem 277:21246-53 (2002)
+            DOI:10.1074/jbc.M201651200
+REFERENCE   PMID:12750377
+  AUTHORS   Tudzynski B, Mihlan M, Rojas MC, Linnemannstons P, Gaskin P, Hedden P
+  TITLE     Characterization of the final two genes of the gibberellin biosynthesis gene cluster of Gibberella fujikuroi: des and P450-3 encode GA4 desaturase and the 13-hydroxylase, respectively.
+  JOURNAL   J Biol Chem 278:28635-43 (2003)
+            DOI:10.1074/jbc.M301927200
+///

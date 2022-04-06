@@ -1,0 +1,26 @@
+ENTRY       M00918            Pathway   Module
+NAME        Aerobactin biosynthesis, lysine => aerobactin
+DEFINITION  K03897 K03896 K03894 K03895
+ORTHOLOGY   K03897  iucD; lysine N6-hydroxylase [EC:1.14.13.59] [RN:R00448]
+            K03896  iucB; acetyl CoA:N6-hydroxylysine acetyl transferase [EC:2.3.1.102] [RN:R03168]
+            K03894  iucA; N2-citryl-N6-acetyl-N6-hydroxylysine synthase [EC:6.3.2.38] [RN:R10090]
+            K03895  iucC; aerobactin synthase [EC:6.3.2.39] [RN:R10091]
+CLASS       Pathway modules; Biosynthesis of other secondary metabolites; Biosynthesis of other bacterial compounds
+PATHWAY     map00997  Biosynthesis of various other secondary metabolites
+            map01100  Metabolic pathways
+            map01110  Biosynthesis of secondary metabolites
+REACTION    R00448  C00047 -> C01028
+            R03168  C01028 -> C03955
+            R10090  C03955 -> C20333
+            R10091  C20333 -> C05554
+COMPOUND    C00047  L-Lysine
+            C01028  N6-Hydroxy-L-lysine
+            C03955  N6-Acetyl-N6-hydroxy-L-lysine
+            C20333  N2-Citryl-N6-acetyl-N6-hydroxy-L-lysine
+            C05554  Aerobactin
+REFERENCE   PMID:1393837
+  AUTHORS   Neilands JB
+  TITLE     Mechanism and regulation of synthesis of aerobactin in Escherichia coli K12 (pColV-K30).
+  JOURNAL   Can J Microbiol 38:728-33 (1992)
+            DOI:10.1139/m92-119
+///

@@ -1,0 +1,28 @@
+ENTRY       M00939            Pathway   Module
+NAME        Pyrimidine degradation, uracil => 3-hydroxypropanoate
+DEFINITION  (K09018+K09024) K09020 K09021 K09023 (K09019,K16066)
+ORTHOLOGY   K09018,K09024  rutA; pyrimidine oxygenase [EC:1.14.99.46] [RN:R09936]
+            K09020  rutB; ureidoacrylate peracid hydrolase [EC:3.5.1.110] [RN:R09947]
+            K09021  rutC; aminoacrylate peracid reductase [RN:R09982]
+            K09023  rutD; aminoacrylate hydrolase [EC:3.5.1.-] [RN:R09983]
+            K09019,K16066  rutE; 3-hydroxypropanoate dehydrogenase [EC:1.1.1.-] [RN:R09289]
+CLASS       Pathway modules; Nucleotide metabolism; Pyrimidine metabolism
+PATHWAY     map00240  Pyrimidine metabolism
+            map01100  Metabolic pathways
+REACTION    R09936  C00106 -> C20231
+            R09947  C20231 -> C20249
+            R09982  C20249 -> C20253
+            R09983  C20253 -> C00222
+            R09289  C00222 -> C01013
+COMPOUND    C00106  Uracil
+            C20231  (Z)-3-Ureidoacrylate peracid
+            C20249  (Z)-3-Peroxyaminoacrylate
+            C20253  Aminoacrylate
+            C00222  3-Oxopropanoate
+            C01013  3-Hydroxypropanoate
+REFERENCE   PMID:20400551
+  AUTHORS   Kim KS, Pelton JG, Inwood WB, Andersen U, Kustu S, Wemmer DE
+  TITLE     The Rut pathway for pyrimidine degradation: novel chemistry and toxicity problems.
+  JOURNAL   J Bacteriol 192:4089-102 (2010)
+            DOI:10.1128/JB.00201-10
+///

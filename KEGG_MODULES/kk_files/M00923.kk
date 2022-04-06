@@ -1,0 +1,5 @@
+M00923_UDP-L-FucNAm_biosynthesis.txt
+K15894
+K19068
+K24258
+K24259

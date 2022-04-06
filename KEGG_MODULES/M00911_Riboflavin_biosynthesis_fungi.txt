@@ -1,0 +1,43 @@
+ENTRY       M00911            Pathway   Module
+NAME        Riboflavin biosynthesis, fungi, GTP => riboflavin/FMN/FAD
+DEFINITION  K01497 K14654 K14655 --
+            K02858
+            K00794 K00793 K00861 K00953
+ORTHOLOGY   K01497  GTP cyclohydrolase II [EC:3.5.4.25] [RN:R00425]
+            K14654  2,5-diamino-6-(ribosylamino)-4(3H)-pyrimidinone 5'-phosphate reductase [EC:1.1.1.302] [RN:R09375 R09376]
+            K14655  2,5-diamino-6-(5-phospho-D-ribitylamino)-pyrimidin-4(3H)-one deaminase [RN:R09377]
+            K02858  3,4-dihydroxy 2-butanone 4-phosphate synthase [EC:4.1.99.12] [RN:R07281]
+            K00794  6,7-dimethyl-8-ribityllumazine synthase [EC:2.5.1.78] [RN:R04457]
+            K00793  riboflavin synthase [EC:2.5.1.9] [RN:R00066]
+            K00861  riboflavin kinase [EC:2.7.1.26] [RN:R00549]
+            K00953  FAD synthetase [EC:2.7.7.2] [RN:R00161]
+CLASS       Pathway modules; Metabolism of cofactors and vitamins; Cofactor and vitamin metabolism
+PATHWAY     map00740  Riboflavin metabolism
+            map01240  Biosynthesis of cofactors
+            map01100  Metabolic pathways
+REACTION    R00425  C00044 -> C01304
+            R09375,R09376  C01304 -> C18910
+            R09377  C18910 -> C04454
+            R07280  C04454 -> C04732
+            R07281  C00199 -> C15556
+            R04457  C04732 + C15556 -> C04332
+            R00066  C04332 -> C00255
+            R00549  C00255 -> C00061
+            R00161  C00061 -> C00016
+COMPOUND    C00044  GTP
+            C01304  2,5-Diamino-6-(5-phospho-D-ribosylamino)pyrimidin-4(3H)-one
+            C18910  2,5-Diamino-6-(5-phospho-D-ribitylamino)pyrimidin-4(3H)-one
+            C04454  5-Amino-6-(5'-phospho-D-ribitylamino)uracil
+            C04732  5-Amino-6-(1-D-ribitylamino)uracil
+            C00199  D-Ribulose 5-phosphate
+            C15556  L-3,4-Dihydroxybutan-2-one 4-phosphate
+            C04332  6,7-Dimethyl-8-(D-ribityl)lumazine
+            C00255  Riboflavin
+            C00061  FMN
+            C00016  FAD
+REFERENCE   PMID:10940330
+  AUTHORS   Bacher A, Eberhardt S, Fischer M, Kis K, Richter G
+  TITLE     Biosynthesis of vitamin b2 (riboflavin).
+  JOURNAL   Annu Rev Nutr 20:153-67 (2000)
+            DOI:10.1146/annurev.nutr.20.1.153
+///

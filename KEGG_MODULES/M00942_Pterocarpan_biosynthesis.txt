@@ -1,0 +1,29 @@
+ENTRY       M00942            Pathway   Module
+NAME        Pterocarpan biosynthesis, daidzein => medicarpin
+DEFINITION  K13259 K13260 K05281 K13265 K25075
+ORTHOLOGY   K13259  isoflavone 4'-O-methyltransferase [EC:2.1.1.46] [RN:R06564]
+            K13260  isoflavone/4'-methoxyisoflavone 2'-hydroxylase [EC:1.14.14.90 1.14.14.89] [RN:R06560]
+            K05281  2'-hydroxyisoflavone reductase [EC:1.3.1.45] [RN:R06562]
+            K13265  vestitone reductase [EC:1.1.1.348] [RN:R07737]
+            K25075  pterocarpan synthase [EC:4.2.1.139] [RN:R07738]
+CLASS       Pathway modules; Biosynthesis of other secondary metabolites; Biosynthesis of phytochemical compounds
+PATHWAY     map00943  Isoflavonoid biosynthesis
+            map01100  Metabolic pathways
+            map01110  Biosynthesis of secondary metabolites
+REACTION    R06564  C10208 -> C00858
+            R06560  C00858 -> C02920
+            R06562  C02920 -> C00786
+            R07737  C00786 -> C16187
+            R07738  C16187 -> C10503
+COMPOUND    C10208  Daidzein
+            C00858  Formononetin
+            C02920  2'-Hydroxyformononetin
+            C00786  (-)-Vestitone
+            C16187  7,2'-Dihydroxy-4'-methoxy-isoflavanol
+            C10503  Medicarpin
+REFERENCE   PMID:18272377
+  AUTHORS   Ferrer JL, Austin MB, Stewart C Jr, Noel JP
+  TITLE     Structure and function of enzymes involved in the biosynthesis of phenylpropanoids.
+  JOURNAL   Plant Physiol Biochem 46:356-70 (2008)
+            DOI:10.1016/j.plaphy.2007.12.009
+///

@@ -1,0 +1,8 @@
+M00945_Sanguinarine_biosynthesis.txt
+K00307
+K21070
+K13395
+K13396
+K21692
+K21693
+K22089

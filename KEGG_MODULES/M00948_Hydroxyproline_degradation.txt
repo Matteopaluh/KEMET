@@ -1,0 +1,25 @@
+ENTRY       M00948            Pathway   Module
+NAME        Hydroxyproline degradation, trans-4-hydroxy-L-proline => 2-oxoglutarate
+DEFINITION  K12658 (K21060,K22549+K21061+K22550) K21062 K13877
+ORTHOLOGY   K12658  4-hydroxyproline epimerase [EC:5.1.1.8] [RN:R03296]
+            K21060,K22549,K21061,K22550  D-hydroxyproline dehydrogenase [EC:1.5.99.-] [RN:R11428]
+            K21062  1-pyrroline-4-hydroxy-2-carboxylate deaminase [EC:3.5.4.22] [RN:R02280]
+            K13877  2,5-dioxopentanoate dehydrogenase [EC:1.2.1.26] [RN:R00264]
+CLASS       Pathway modules; Amino acid metabolism; Other amino acid metabolism
+PATHWAY     map00470  D-Amino acid metabolism
+            map01100  Metabolic pathways
+REACTION    R03296  C01157 -> C03440
+            R11428  C03440 -> C04282
+            R02280  C04282 -> C00433
+            R00264  C00433 -> C00026
+COMPOUND    C01157  Hydroxyproline
+            C03440  cis-4-Hydroxy-D-proline
+            C04282  1-Pyrroline-4-hydroxy-2-carboxylate
+            C00433  2,5-Dioxopentanoate
+            C00026  2-Oxoglutarate
+REFERENCE   PMID:22833679
+  AUTHORS   Watanabe S, Morimoto D, Fukumori F, Shinomiya H, Nishiwaki H, Kawano-Kawada M, Sasai Y, Tozawa Y, Watanabe Y
+  TITLE     Identification and characterization of D-hydroxyproline dehydrogenase and Delta1-pyrroline-4-hydroxy-2-carboxylate deaminase involved in novel L-hydroxyproline metabolism of bacteria: metabolic convergent evolution.
+  JOURNAL   J Biol Chem 287:32674-88 (2012)
+            DOI:10.1074/jbc.M112.374272
+///

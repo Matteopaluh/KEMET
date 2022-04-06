@@ -1,0 +1,6 @@
+M00931_Menaquinone_biosynthesis_modified_futalosine_pathway.txt
+K11782
+K18285
+K18284
+K11784
+K11785

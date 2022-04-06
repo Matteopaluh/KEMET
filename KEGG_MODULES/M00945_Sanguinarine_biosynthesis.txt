@@ -1,0 +1,37 @@
+ENTRY       M00945            Pathway   Module
+NAME        Sanguinarine biosynthesis, (S)-reticuline => sanguinarine
+DEFINITION  K00307 K21070 K13395 K13396 K21692 K21693 K22089
+ORTHOLOGY   K00307  reticuline oxidase [EC:1.21.3.3] [RN:R03831]
+            K21070  (S)-cheilanthifoline synthase [EC:1.14.19.65] [RN:R03834]
+            K13395  (S)-stylopine synthase [EC:1.14.19.64] [RN:R04690]
+            K13396  (S)-tetrahydroprotoberberine N-methyltransferase [EC:2.1.1.122] [RN:R04691]
+            K21692  methyltetrahydroprotoberberine 14-monooxygenase [EC:1.14.14.97] [RN:R04700]
+            K21693  protopine 6-monooxygenase [EC:1.14.14.98] [RN:R04699]
+            K22089  tetrahydroprotoberberine oxidase [EC:1.3.3.8] [RN:R04703]
+CLASS       Pathway modules; Biosynthesis of other secondary metabolites; Biosynthesis of phytochemical compounds
+PATHWAY     map00950  Isoquinoline alkaloid biosynthesis
+            map01100  Metabolic pathways
+            map01110  Biosynthesis of secondary metabolites
+REACTION    R03831  C02105 -> C02106
+            R03834  C02106 -> C05174
+            R04690  C05174 -> C05175
+            R04691  C05175 -> C06163
+            R04700  C06163 -> C05189
+            R04699  C05189 -> C05190
+            R04701  C05190 -> C05191
+            R04703  C05191 -> C06162
+COMPOUND    C02105  (S)-Reticuline
+            C02106  (S)-Scoulerine
+            C05174  (S)-Cheilanthifoline
+            C05175  Stylopine
+            C06163  (S)-cis-N-Methylstylopine
+            C05189  Protopine
+            C05190  6-Hydroxyprotopine
+            C05191  Dihydrosanguinarine
+            C06162  Sanguinarine
+REFERENCE   PMID:24671624
+  AUTHORS   Beaudoin GA, Facchini PJ.
+  TITLE     Benzylisoquinoline alkaloid biosynthesis in opium poppy.
+  JOURNAL   Planta 240:19-32 (2014)
+            DOI:10.1007/s00425-014-2056-8
+///

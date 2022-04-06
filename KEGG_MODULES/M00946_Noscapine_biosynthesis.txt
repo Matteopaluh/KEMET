@@ -1,0 +1,51 @@
+ENTRY       M00946            Pathway   Module
+NAME        Noscapine biosynthesis, (S)-reticuline => noscapine
+DEFINITION  K00307 K13397 K13395 K13396 K20621 K22094 K22095 K22096 (K23157+K23158) K22097 K22098
+ORTHOLOGY   K00307  reticuline oxidase [EC:1.21.3.3] [RN:R03831]
+            K13397  (S)-scoulerine 9-O-methyltransferase [EC:2.1.1.117] [RN:R03835]
+            K13395  (S)-canadine synthase [EC:1.14.19.68] [RN:R04400]
+            K13396  (S)-tetrahydroprotoberberine N-methyltransferase [EC:2.1.1.122] [RN:R08789]
+            K20621  (S)-N-methylcanadine 1-hydroxylase [EC:1.14.14.166] [RN:R11687]
+            K22094  (S)-1-hydroxy-N-methylcanadine 13-hydroxylase [EC:1.14.14.163] [RN:R11688]
+            K22095  (13S,14R)-1,13-dihydroxy-N-methylcandine 13-O-acetyltransferase [EC:2.3.1.285] [RN:R11689]
+            K22096  (13S,14R)-13-O-acetyl-1-hydroxy-N-methylcanadine 8-hydroxylase [EC:1.14.14.167] [RN:R11690]
+            K23157,K23158  3-O-acetyl-4'-O-demethylpapaveroxine 4'-O-methyltransferase [EC:2.1.1.352] [RN:R11692]
+            K22097  3-O-acetylpapaveroxine carboxylesterase [EC:3.1.1.105] [RN:R11693]
+            K22098  noscapine synthase [EC:1.1.1.415] [RN:R10020]
+CLASS       Pathway modules; Biosynthesis of other secondary metabolites; Biosynthesis of phytochemical compounds
+PATHWAY     map00950  Isoquinoline alkaloid biosynthesis
+            map01100  Metabolic pathways
+            map01110  Biosynthesis of secondary metabolites
+REACTION    R03831  C02105 -> C02106
+            R03835  C02106 -> C04118
+            R04400  C04118 -> C03329
+            R08789  C03329 -> C02915
+            R11687  C02915 -> C21586
+            R11688  C21586 -> C21587
+            R11689  C21587 -> C21588
+            R11690  C21588 -> C21589
+            R11691  C21589 -> C21590
+            R11692  C21590 -> C21591
+            R11693  C21591 -> C20299
+            R10018  C20299 -> C20297
+            R10020  C20297 -> C09592
+COMPOUND    C02105  (S)-Reticuline
+            C02106  (S)-Scoulerine
+            C04118  Isocorypalmine
+            C03329  (S)-Canadine
+            C02915  (S)-N-Methylcanadine
+            C21586  (S)-1-Hydroxy-N-methylcanadine
+            C21587  (13S,14R)-1,13-Dihydroxy-N-methylcanadine
+            C21588  (13S,14R)-1-Hydroxy-13-O-acetyl-N-methylcanadine
+            C21589  (13S,14R)-1,8-Dihydroxy-13-O-acetyl-N-methylcanadine
+            C21590  4'-O-Desmethyl-3-O-acetylpapaveroxine
+            C21591  3-O-Acetylpapaveroxine
+            C20299  Papaveroxine
+            C20297  Narcotine hemiacetal
+            C09592  Noscapine
+REFERENCE   PMID:24671624
+  AUTHORS   Beaudoin GA, Facchini PJ.
+  TITLE     Benzylisoquinoline alkaloid biosynthesis in opium poppy.
+  JOURNAL   Planta 240:19-32 (2014)
+            DOI:10.1007/s00425-014-2056-8
+///

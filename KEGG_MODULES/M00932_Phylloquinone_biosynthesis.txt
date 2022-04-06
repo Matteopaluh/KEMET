@@ -1,0 +1,55 @@
+ENTRY       M00932            Pathway   Module
+NAME        Phylloquinone biosynthesis, chorismate (+ phytyl-PP) => phylloquinol
+DEFINITION  (K02552 K02551 K08680 K02549,K14759) (K01911,K14760) K01661 (K19222,K12073) K23094 K17872 K23095
+ORTHOLOGY   K02552  menF; menaquinone-specific isochorismate synthase [EC:5.4.4.2] [RN:R01717]
+            K02551  menD; 2-succinyl-5-enolpyruvyl-6-hydroxy-3-cyclohexene-1-carboxylate synthase [EC:2.2.1.9] [RN:R08165]
+            K08680  menH; 2-succinyl-6-hydroxy-2,4-cyclohexadiene-1-carboxylate synthase [EC:4.2.99.20] [RN:R08166]
+            K02549  menC; o-succinylbenzoate synthase [EC:4.2.1.113] [RN:R04031]
+            K14759  PHYLLO; isochorismate synthase / 2-succinyl-5-enolpyruvyl-6-hydroxy-3-cyclohexene-1-carboxylate synthase / 2-succinyl-6-hydroxy-2,4-cyclohexadiene-1-carboxylate synthase / o-succinylbenzoate synthase [EC:5.4.4.2 2.2.1.9 4.2.99.20 4.2.1.113] [RN:R01717 R08165 R08166 R04031]
+            K01911  menE; o-succinylbenzoic acid---CoA ligase [EC:6.2.1.26] [RN:R04030]
+            K14760  AAE14; o-succinylbenzoic acid---CoA ligase [EC:6.2.1.26] [RN:R04030]
+            K01661  menB; naphthoate synthase [EC:4.1.3.36] [RN:R07263]
+            K19222,K12073  menI, DHNAT; 1,4-dihydroxy-2-naphthoyl-CoA hydrolase [EC:3.1.2.28] [RN:R07262]
+            K23094  ABC4, menA; 2-carboxy-1,4-naphthoquinone phytyltransferase [EC:2.5.1.130] [RN:R12255]
+            K17872  NDC1, ndbB; demethylphylloquinone reductase [EC:1.6.5.12] [RN:R11061]
+            K23095  MENG, menG; demethylphylloquinol methyltransferase [EC:2.1.1.329] [RN:R04994]
+CLASS       Pathway modules; Metabolism of cofactors and vitamins; Cofactor and vitamin metabolism
+PATHWAY     map00130  Ubiquinone and other terpenoid-quinone biosynthesis
+            map01240  Biosynthesis of cofactors
+            map01100  Metabolic pathways
+            map01110  Biosynthesis of secondary metabolites
+REACTION    R01717  C00251 -> C00885
+            R08165  C00885 -> C16519
+            R08166  C16519 -> C05817
+            R04031  C05817 -> C02730
+            R04030  C02730 -> C03160
+            R07263  C03160 -> C15547
+            R07262  C15547 -> C03657
+            R12254  C03657 -> C22039
+            R12255  C22039 + C05427 -> C13309
+            R11061  C13309 -> C21084
+            R04994  C21084 -> C03313
+COMPOUND    C00251  Chorismate
+            C00885  Isochorismate
+            C16519  2-Succinyl-5-enolpyruvyl-6-hydroxy-3-cyclohexene-1-carboxylate
+            C05817  (1R,6R)-6-Hydroxy-2-succinylcyclohexa-2,4-diene-1-carboxylate
+            C02730  2-Succinylbenzoate
+            C03160  2-Succinylbenzoyl-CoA
+            C15547  1,4-Dihydroxy-2-naphthoyl-CoA
+            C03657  1,4-Dihydroxy-2-naphthoate
+            C22039  2-Carboxy-1,4-naphthoquinone
+            C05427  Phytyl diphosphate
+            C13309  2-Phytyl-1,4-naphthoquinone
+            C21084  Demethylphylloquinol
+            C03313  Phylloquinol
+REFERENCE   PMID:19321747
+  AUTHORS   Widhalm JR, van Oostende C, Furt F, Basset GJ
+  TITLE     A dedicated thioesterase of the Hotdog-fold family is required for the biosynthesis of the naphthoquinone ring of vitamin K1.
+  JOURNAL   Proc Natl Acad Sci U S A 106:5599-603 (2009)
+            DOI:10.1073/pnas.0900738106
+REFERENCE   PMID:20150517
+  AUTHORS   Babujee L, Wurtz V, Ma C, Lueder F, Soni P, van Dorsselaer A, Reumann S
+  TITLE     The proteome map of spinach leaf peroxisomes indicates partial compartmentalization of phylloquinone (vitamin K1) biosynthesis in plant peroxisomes.
+  JOURNAL   J Exp Bot 61:1441-53 (2010)
+            DOI:10.1093/jxb/erq014
+///
