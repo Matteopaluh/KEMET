@@ -1,0 +1,72 @@
+ENTRY       M00917            Pathway   Module
+NAME        Phytosterol biosynthesis, squalene 2,3-epoxide => campesterol/sitosterol
+DEFINITION  K01853 K00559 K14423 K23558 -- K08246 K05917 K00222 K01824 K08242
+            K14424 K00227 K00213 K09828
+ORTHOLOGY   K01853  cycloartenol synthase [EC:5.4.99.8] [RN:R03200]
+            K00559  sterol 24-C-methyltransferase [EC:2.1.1.41] [RN:R07481]
+            K14423  plant 4,4-dimethylsterol C-4alpha-methyl-monooxygenase [EC:1.14.18.10] [RN:R12377]
+            K23558  plant 3beta-hydroxysteroid-4alpha-carboxylate 3-dehydrogenase [EC:1.1.1.418] [RN:R12371 R12375 R12376]
+            K08246  cycloeucalenol cycloisomerase [EC:5.5.1.9] [RN:R03775]
+            K05917  sterol 14alpha-demethylase [EC:1.14.14.154] [RN:R05731]
+            K00222  Delta14-sterol reductase [EC:1.3.1.70] [RN:R07483]
+            K01824  cholestenol Delta-isomerase [EC:5.3.3.5] [RN:R07484]
+            K08242  24-methylenesterol C-methyltransferase [EC:2.1.1.143] [RN:R05776]
+            K14424  plant 4alpha-monomethylsterol monooxygenase [EC:1.14.18.11] [RN:R12378 R12379]
+            K00227  Delta7-sterol 5-desaturase [EC:1.14.19.20] [RN:R07491 R07486]
+            K00213  7-dehydrocholesterol reductase [EC:1.3.1.21] [RN:R07492 R07487]
+            K09828  Delta24-sterol reductase [EC:1.3.1.72 1.3.1.-] [RN:R07493 R07488]
+CLASS       Pathway modules; Lipid metabolism; Sterol biosynthesis
+PATHWAY     map00100  Steroid biosynthesis
+            map01100  Metabolic pathways
+            map01110  Biosynthesis of secondary metabolites
+REACTION    R03200  C01054 -> C01902
+            R07481  C01902 -> C08830
+            R12377  C08830 -> C22116
+            R12371  C22116 -> C22121
+            R12399  C22121 -> C02141
+            R03775  C02141 -> C01943
+            R05731  C01943 -> C11508
+            R07483  C11508 -> C15776
+            R07484  C15776 -> C11522
+            R05776  C11522 -> C11523
+            R12379  C11523 -> C22120
+            R12376  C22120 -> C22123
+            R12401  C22123 -> C15782
+            R07486  C15782 -> C15783
+            R07487  C15783 -> C08821
+            R07488  C08821 -> C01753
+            R12378  C11522 -> C22119
+            R12375  C22119 -> C22122
+            R12400  C22122 -> C15777
+            R07491  C15777 -> C15780
+            R07492  C15780 -> C15781
+            R07493  C15781 -> C01789
+COMPOUND    C01054  (S)-2,3-Epoxysqualene
+            C01902  Cycloartenol
+            C08830  24-Methylidenecycloartanol
+            C22116  3beta-Hydroxy-4beta,14alpha-dimethyl-9beta,19-cyclo-5alpha-ergost-24(24(1))-en-4alpha-carboxylate
+            C22121  Cycloeucalenone
+            C02141  Cycloeucalenol
+            C01943  Obtusifoliol
+            C11508  4alpha-Methyl-5alpha-ergosta-8,14,24(28)-trien-3beta-ol
+            C15776  4alpha-Methylfecosterol
+            C11522  24-Methylenelophenol
+            C11523  24-Ethylidenelophenol
+            C22120  4alpha-Carboxy-stigmasta-7,24(24(1))-dien-3beta-ol
+            C22123  Avenastenone
+            C15782  Delta7-Avenasterol
+            C15783  5-Dehydroavenasterol
+            C08821  Isofucosterol
+            C01753  beta-Sitosterol
+            C22119  3beta-Hydroxyergosta-7,24(24(1))-dien-4alpha-carboxylate
+            C22122  Episterone
+            C15777  Episterol
+            C15780  5-Dehydroepisterol
+            C15781  24-Methylenecholesterol
+            C01789  Campesterol
+REFERENCE   PMID:28005066
+  AUTHORS   Sonawane PD, Pollier J, Panda S, Szymanski J, Massalha H, Yona M, Unger T, Malitsky S, Arendt P, Pauwels L, Almekias-Siegl E, Rogachev I, Meir S, Cardenas PD, Masri A, Petrikov M, Schaller H, Schaffer AA, Kamble A, Giri AP, Goossens A, Aharoni A
+  TITLE     Plant cholesterol biosynthetic pathway overlaps with phytosterol metabolism.
+  JOURNAL   Nat Plants 3:16205 (2016)
+            DOI:10.1038/nplants.2016.205
+///

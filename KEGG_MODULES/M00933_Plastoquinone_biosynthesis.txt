@@ -1,0 +1,27 @@
+ENTRY       M00933            Pathway   Module
+NAME        Plastoquinone biosynthesis, homogentisate + solanesyl-PP => plastoquinol
+DEFINITION  K12501 K12502
+ORTHOLOGY   K12501  HST; homogentisate solanesyltransferase [EC:2.5.1.117] [RN:R08782]
+            K12502  VTE3; MPBQ/MSBQ methyltransferase [EC:2.1.1.295] [RN:R10709]
+CLASS       Pathway modules; Metabolism of cofactors and vitamins; Cofactor and vitamin metabolism
+PATHWAY     map00130  Ubiquinone and other terpenoid-quinone biosynthesis
+            map01240  Biosynthesis of cofactors
+            map01100  Metabolic pathways
+            map01110  Biosynthesis of secondary metabolites
+REACTION    R08782  C00544 + C04145 -> C17570
+            R10709  C17570 -> C16695
+COMPOUND    C00544  Homogentisate
+            C04145  all-trans-Nonaprenyl diphosphate
+            C17570  2-Methyl-6-solanyl-1,4-benzoquinol
+            C16695  Plastoquinol-9
+REFERENCE   PMID:28018418
+  AUTHORS   Liu M, Lu S
+  TITLE     Plastoquinone and Ubiquinone in Plants: Biosynthesis, Physiological Function and Metabolic Engineering.
+  JOURNAL   Front Plant Sci 7:1898 (2016)
+            DOI:10.3389/fpls.2016.01898
+REFERENCE   PMID:16989822
+  AUTHORS   Sadre R, Gruber J, Frentzen M
+  TITLE     Characterization of homogentisate prenyltransferases involved in plastoquinone-9 and tocochromanol biosynthesis.
+  JOURNAL   FEBS Lett 580:5357-62 (2006)
+            DOI:10.1016/j.febslet.2006.09.002
+///

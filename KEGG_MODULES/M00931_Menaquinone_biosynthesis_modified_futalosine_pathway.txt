@@ -1,0 +1,34 @@
+ENTRY       M00931            Pathway   Module
+NAME        Menaquinone biosynthesis, modified futalosine pathway
+DEFINITION  K11782 K18285 K18284 K11784 K11785
+ORTHOLOGY   K11782  mqnA; chorismate dehydratase [EC:4.2.1.151] [RN:R10666]
+            K18285  mqnE; aminodeoxyfutalosine synthase [EC:2.5.1.120] [RN:R10667]
+            K18284  K18284; aminodeoxyfutalosine nucleosidase [EC:3.2.2.30] [RN:R10668]
+            K11784  mqnC; cyclic dehypoxanthinyl futalosine synthase [EC:1.21.98.1] [RN:R08588]
+            K11785  mqnD; 1,4-dihydroxy-6-naphthoate synthase [EC:1.14.-.-] [RN:R08589]
+CLASS       Pathway modules; Metabolism of cofactors and vitamins; Cofactor and vitamin metabolism
+PATHWAY     map00130  Ubiquinone and other terpenoid-quinone biosynthesis
+            map01240  Biosynthesis of cofactors
+            map01100  Metabolic pathways
+REACTION    R10666  C00251 -> C20772
+            R10667  C20772 -> C20773
+            R10668  C20773 -> C17010
+            R08588  C17010 -> C17017
+            R08589  C17017 -> C17018
+COMPOUND    C00251  Chorismate
+            C20772  3-[(1-Carboxyvinyl)oxy]benzoate
+            C20773  6-Amino-6-deoxyfutalosine
+            C17010  Dehypoxanthine futalosine
+            C17017  Cyclic dehypoxanthine futalosine
+            C17018  1,4-Dihydroxy-6-naphthoate
+REFERENCE   PMID:30447488
+  AUTHORS   Joshi S, Fedoseyenko D, Mahanta N, Manion H, Naseem S, Dairi T, Begley TP
+  TITLE     Novel enzymology in futalosine-dependent menaquinone biosynthesis.
+  JOURNAL   Curr Opin Chem Biol 47:134-141 (2018)
+            DOI:10.1016/j.cbpa.2018.09.015
+REFERENCE   PMID:21489995
+  AUTHORS   Li X, Apel D, Gaynor EC, Tanner ME
+  TITLE     5'-methylthioadenosine nucleosidase is implicated in playing a key role in a modified futalosine pathway for menaquinone biosynthesis in Campylobacter jejuni.
+  JOURNAL   J Biol Chem 286:19392-8 (2011)
+            DOI:10.1074/jbc.M111.229781
+///

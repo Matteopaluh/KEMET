@@ -1,0 +1,33 @@
+ENTRY       M00928            Pathway   Module
+NAME        Gibberellin A4/A1 biosynthesis, GA12/GA53 => GA4/GA1
+DEFINITION  K05282 K04124
+ORTHOLOGY   K05282  gibberellin-44 dioxygenase [EC:1.14.11.12] [RN:R06322 R06323 R06326 R05097 R03806 R03807]
+            K04124  gibberellin 3beta-dioxygenase [EC:1.14.11.15] [RN:R06336 R03009]
+CLASS       Pathway modules; Biosynthesis of terpenoids and polyketides; Plant terpenoid biosynthesis
+PATHWAY     map00904  Diterpenoid biosynthesis
+            map01100  Metabolic pathways
+            map01110  Biosynthesis of secondary metabolites
+REACTION    R06322  C11857 -> C11860
+            R06323  C11860 -> C11861
+            R06326  C11861 -> C11863
+            R06336  C11863 -> C11864
+            R05097  C06094 -> C06095
+            R03806  C06095 -> C02034
+            R03807  C02034 -> C02035
+            R03009  C02035 -> C00859
+COMPOUND    C11857  Gibberellin A12
+            C11860  Gibberellin A15 open lactone
+            C11861  Gibberellin A24
+            C11863  Gibberellin A9
+            C11864  Gibberellin A4
+            C06094  Gibberellin A53
+            C06095  Gibberellin A44 diacid
+            C02034  Gibberellin A19
+            C02035  Gibberellin A20
+            C00859  Gibberellin A1
+REFERENCE   PMID:23319637
+  AUTHORS   Magome H, Nomura T, Hanada A, Takeda-Kamiya N, Ohnishi T, Shinma Y, Katsumata T, Kawaide H, Kamiya Y, Yamaguchi S
+  TITLE     CYP714B1 and CYP714B2 encode gibberellin 13-oxidases that reduce gibberellin activity in rice.
+  JOURNAL   Proc Natl Acad Sci U S A 110:1947-52 (2013)
+            DOI:10.1073/pnas.1215788110
+///

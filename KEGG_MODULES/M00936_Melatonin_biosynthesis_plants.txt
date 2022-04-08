@@ -1,0 +1,26 @@
+ENTRY       M00936            Pathway   Module
+NAME        Melatonin biosynthesis, plants, tryptophan => serotonin => melatonin
+DEFINITION  K01593 K24541 K22450 (K22588,K13066)
+ORTHOLOGY   K01593  aromatic-L-amino-acid/L-tryptophan decarboxylase [EC:4.1.1.28 4.1.1.105] [RN:R00685]
+            K24541  tryptamine 5-hydroxylase [EC:1.14.-.-] [RN:R12659]
+            K22450  aralkylamine N-acetyltransferase [EC:2.3.1.87] [RN:R02911]
+            K22588,K13066  acetylserotonin O-methyltransferase [EC:2.1.1.4] [RN:R03130]
+CLASS       Pathway modules; Amino acid metabolism; Aromatic amino acid metabolism
+PATHWAY     map00380  Tryptophan metabolism
+            map01100  Metabolic pathways
+            map01110  Biosynthesis of secondary metabolites
+REACTION    R00685  C00078 -> C00398
+            R12659  C00398 -> C00780
+            R02911  C00780 -> C00978
+            R03130  C00978 -> C01598
+COMPOUND    C00078  L-Tryptophan
+            C00398  Tryptamine
+            C00780  Serotonin
+            C00978  N-Acetylserotonin
+            C01598  Melatonin
+REFERENCE   PMID:27600803
+  AUTHORS   Back K, Tan DX, Reiter RJ
+  TITLE     Melatonin biosynthesis in plants: multiple pathways catalyze tryptophan to melatonin in the cytoplasm or chloroplasts.
+  JOURNAL   J Pineal Res 61:426-437 (2016)
+            DOI:10.1111/jpi.12364
+///

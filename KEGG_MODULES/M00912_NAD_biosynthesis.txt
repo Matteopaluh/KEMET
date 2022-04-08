@@ -1,0 +1,53 @@
+ENTRY       M00912            Pathway   Module
+NAME        NAD biosynthesis, tryptophan => quinolinate => NAD
+DEFINITION  (K00453,K00463) (K01432,K14263,K07130) K00486 K01556 K00452 K00767 (K00969,K06210) (K01916,K01950)
+ORTHOLOGY   K00453  tryptophan 2,3-dioxygenase [EC:1.13.11.11] [RN:R00678]
+            K00463  indoleamine 2,3-dioxygenase [EC:1.13.11.52] [RN:R00678]
+            K01432,K14263,K07130  kynurenine formamidase [EC:3.5.1.9] [RN:R01959]
+            K00486  kynurenine 3-monooxygenase [EC:1.14.13.9] [RN:R01960]
+            K01556  kynureninase [EC:3.7.1.3] [RN:R02668]
+            K00452  3-hydroxyanthranilate 3,4-dioxygenase [EC:1.13.11.6] [RN:R02665]
+            K00767  nicotinate-nucleotide pyrophosphorylase (carboxylating) [EC:2.4.2.19] [RN:R03348]
+            K00969,K06210  nicotinate-nucleotide adenylyltransferase [EC:2.7.7.18] [RN:R03005]
+            K01916  NAD+ synthase [EC:6.3.1.5] [RN:R00189]
+            K01950  NAD+ synthase (glutamine-hydrolysing) [EC:6.3.5.1] [RN:R00257]
+CLASS       Pathway modules; Metabolism of cofactors and vitamins; Cofactor and vitamin metabolism
+PATHWAY     map00380  Tryptophan metabolism
+            map00760  Nicotinate and nicotinamide metabolism
+            map01240  Biosynthesis of cofactors
+            map01100  Metabolic pathways
+REACTION    R00678  C00078 -> C02700
+            R01959  C02700 -> C00328
+            R01960  C00328 -> C03227
+            R02668  C03227 -> C00632
+            R02665  C00632 -> C04409
+            R04293  C04409 -> C03722
+            R03348  C03722 -> C01185
+            R03005  C01185 -> C00857
+            R00189,R00257  C00857 -> C00003
+COMPOUND    C00078  L-Tryptophan
+            C02700  L-Formylkynurenine
+            C00328  L-Kynurenine
+            C03227  3-Hydroxy-L-kynurenine
+            C00632  3-Hydroxyanthranilate
+            C04409  2-Amino-3-carboxymuconate semialdehyde
+            C03722  Quinolinate
+            C01185  Nicotinate D-ribonucleotide
+            C00857  Deamino-NAD+
+            C00003  NAD+
+REFERENCE   PMID:12062417
+  AUTHORS   Panozzo C, Nawara M, Suski C, Kucharczyka R, Skoneczny M, Becam AM, Rytka J, Herbert CJ
+  TITLE     Aerobic and anaerobic NAD+ metabolism in Saccharomyces cerevisiae.
+  JOURNAL   FEBS Lett 517:97-102 (2002)
+            DOI:10.1016/s0014-5793(02)02585-1
+REFERENCE   PMID:18205391
+  AUTHORS   Wogulis M, Chew ER, Donohoue PD, Wilson DK
+  TITLE     Identification of formyl kynurenine formamidase and kynurenine aminotransferase from Saccharomyces cerevisiae using crystallographic, bioinformatic and biochemical evidence.
+  JOURNAL   Biochemistry 47:1608-21 (2008)
+            DOI:10.1021/bi701172v
+REFERENCE   PMID:14700627
+  AUTHORS   Kurnasov O, Goral V, Colabroy K, Gerdes S, Anantha S, Osterman A, Begley TP
+  TITLE     NAD biosynthesis: identification of the tryptophan to quinolinate pathway in bacteria.
+  JOURNAL   Chem Biol 10:1195-204 (2003)
+            DOI:10.1016/j.chembiol.2003.11.011
+///

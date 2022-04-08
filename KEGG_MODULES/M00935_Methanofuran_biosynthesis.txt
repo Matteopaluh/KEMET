@@ -1,0 +1,40 @@
+ENTRY       M00935            Pathway   Module
+NAME        Methanofuran biosynthesis
+DEFINITION  K09733 K19793 K07144
+            K18933 K06914
+            K07072
+ORTHOLOGY   K09733  mfnB; (5-formylfuran-3-yl)methyl phosphate synthase [EC:4.2.3.153] [RN:R10935]
+            K19793  mfnC; (5-formylfuran-3-yl)methyl phosphate transaminase [EC:2.6.1.108] [RN:R11038]
+            K07144  mfnE; 5-(aminomethyl)-3-furanmethanol phosphate kinase [EC:2.7.4.31] [RN:R11039]
+            K18933  mfnA; tyrosine decarboxylase [EC:4.1.1.25] [RN:R00736]
+            K06914  mfnD; tyramine---L-glutamate ligase [EC:6.3.4.24] [RN:R10902]
+            K07072  mfnF; (4-(4-[2-(gamma-L-glutamylamino)ethyl]phenoxymethyl)furan-2-yl)methanamine synthase [EC:2.5.1.131] [RN:R11040]
+CLASS       Pathway modules; Energy metabolism; Methane metabolism
+PATHWAY     map00680  Methane metabolism
+            map01240  Biosynthesis of cofactors
+            map01100  Metabolic pathways
+REACTION    R10935  C00118 -> C20954
+            R11038  C20954 -> C21068
+            R11039  C21068 -> C21069
+            R00736  C00082 -> C00483
+            R10902  C00483 -> C20926
+            R11040  C21069 + C20926 -> C21070
+COMPOUND    C00118  D-Glyceraldehyde 3-phosphate
+            C20954  (5-Formylfuran-3-yl)methyl phosphate
+            C21068  [5-(Aminomethyl)furan-3-yl]methyl phosphate
+            C21069  [5-(Aminomethyl)furan-3-yl]methyl diphosphate
+            C00082  L-Tyrosine
+            C00483  Tyramine
+            C20926  gamma-Glutamyltyramine
+            C21070  (4-{4-[2-(gamma-L-Glutamylamino)ethyl]phenoxymethyl}furan-2-yl)methanamine
+REFERENCE   PMID:15715981
+  AUTHORS   Kezmarsky ND, Xu H, Graham DE, White RH
+  TITLE     Identification and characterization of a L-tyrosine decarboxylase in Methanocaldococcus jannaschii.
+  JOURNAL   Biochim Biophys Acta 1722:175-82 (2005)
+            DOI:10.1016/j.bbagen.2004.12.003
+REFERENCE   PMID:26100040
+  AUTHORS   Wang Y, Xu H, Jones MK, White RH
+  TITLE     Identification of the Final Two Genes Functioning in Methanofuran Biosynthesis in Methanocaldococcus jannaschii.
+  JOURNAL   J Bacteriol 197:2850-8 (2015)
+            DOI:10.1128/JB.00401-15
+///

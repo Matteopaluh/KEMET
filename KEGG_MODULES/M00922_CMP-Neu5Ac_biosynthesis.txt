@@ -1,0 +1,23 @@
+ENTRY       M00922            Pathway   Module
+NAME        CMP-Neu5Ac biosynthesis
+DEFINITION  K24257 K01654 K00983
+ORTHOLOGY   K24257  UDP-N-acetylglucosamine 2-epimerase (hydrolysing) [EC:3.2.1.183] [RN:R00414]
+            K01654  N-acetylneuraminate synthase [EC:2.5.1.56] [RN:R01804]
+            K00983  N-acylneuraminate cytidylyltransferase [EC:2.7.7.43] [RN:R01117]
+CLASS       Pathway modules; Glycan metabolism; Lipopolysaccharide metabolism
+PATHWAY     map00541  O-Antigen nucleotide sugar biosynthesis
+            map01250  Biosynthesis of nucleotide sugars
+            map01100  Metabolic pathways
+REACTION    R00414  C00043 -> C00645 
+            R01804  C00645 -> C00270
+            R01117  C00270 -> C00128
+COMPOUND    C00043  UDP-N-acetyl-alpha-D-glucosamine
+            C00645  N-Acetyl-D-mannosamine
+            C00270  N-Acetylneuraminate
+            C00128  CMP-N-acetylneuraminate
+REFERENCE   PMID:15629947
+  AUTHORS   Feng L, Senchenkova SN, Tao J, Shashkov AS, Liu B, Shevelev SD, Reeves PR, Xu J, Knirel YA, Wang L
+  TITLE     Structural and genetic characterization of enterohemorrhagic Escherichia coli O145 O antigen and development of an O145 serogroup-specific PCR assay.
+  JOURNAL   J Bacteriol 187:758-64 (2005)
+            DOI:10.1128/JB.187.2.758-764.2005
+///

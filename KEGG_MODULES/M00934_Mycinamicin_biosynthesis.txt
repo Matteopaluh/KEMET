@@ -1,0 +1,39 @@
+ENTRY       M00934            Pathway   Module
+NAME        Mycinamicin biosynthesis, malonyl-CoA + methylmalonyl-CoA => protomycinolide IV => mycinamicin II
+DEFINITION  (K24528+K24559+K24560+K24561+K24562) K24529 (K24292+K24530) K24531 K21540 K21539 K24390
+ORTHOLOGY   K24528,K24559,K24560,K24561,K24562  mycA; protomycinolide IV synthase [RN:R12660]
+            K24529  mycB; protomycinolide IV desosaminyltransferase [EC:2.4.1.-] [RN:R10876]
+            K24292  mycCI; mycinamicin VIII C21 methyl hydroxylase [EC:1.14.-.-] [RN:R10875]
+            K24530  mycCII; ferredoxin [RN:R10875]
+            K24531  mycD; mycinamicin VII 6-deoxyallosyltransferase [EC:2.4.1.-] [RN:R10874]
+            K21540  mycE; mycinamicin VI 2''-O-methyltransferase [EC:2.1.1.238] [RN:R09822]
+            K21539  mycF; mycinamicin III 3''-O-methyltransferase [EC:2.1.1.237] [RN:R09823]
+            K24390  mycG; mycinamicin IV hydroxylase/epoxidase [EC:1.14.-.-] [RN:R10877 R10878]
+CLASS       Pathway modules; Biosynthesis of terpenoids and polyketides; Macrolide biosynthesis
+PATHWAY     map00522  Biosynthesis of 12-, 14- and 16-membered macrolides
+            map01100  Metabolic pathways
+            map01110  Biosynthesis of secondary metabolites
+REACTION    R12660  C00083 + C02557 -> C15685
+            R10876  C15685 -> C15684
+            R10875  C15684 -> C15683
+            R10874  C15683 -> C15682
+            R09822  C15682 -> C15681
+            R09823  C15681 -> C18846
+            R10877  C18846 -> C18847
+            R10878  C18847 -> C15680
+COMPOUND    C00083  Malonyl-CoA
+            C02557  Methylmalonyl-CoA
+            C15685  Protomycinolide IV
+            C15684  Mycinamicin VIII
+            C15683  Mycinamicin VII
+            C15682  Mycinamicin VI
+            C15681  Mycinamicin III
+            C18846  Mycinamicin IV
+            C18847  Mycinamicin V
+            C15680  Mycinamicin II
+REFERENCE   PMID:18804032
+  AUTHORS   Anzai Y, Li S, Chaulagain MR, Kinoshita K, Kato F, Montgomery J, Sherman DH.
+  TITLE     Functional analysis of MycCI and MycG, cytochrome P450 enzymes involved in biosynthesis of mycinamicin macrolide antibiotics.
+  JOURNAL   Chem Biol 15:950-9 (2008)
+            DOI:10.1016/j.chembiol.2008.07.014
+///

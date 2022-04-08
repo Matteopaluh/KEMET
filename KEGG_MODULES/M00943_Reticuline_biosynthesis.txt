@@ -1,0 +1,30 @@
+ENTRY       M00943            Pathway   Module
+NAME        Reticuline biosynthesis, dopamine + 4HPAA => (S)-reticuline
+DEFINITION  K13382 K13383 K13384 K13385 K13386
+ORTHOLOGY   K13382  (S)-norcoclaurine synthase [EC:4.2.1.78] [RN:R04305]
+            K13383  (RS)-norcoclaurine 6-O-methyltransferase [EC:2.1.1.128] [RN:R05123]
+            K13384  (S)-coclaurine-N-methyltransferase [EC:2.1.1.140] [RN:R04692]
+            K13385  N-methylcoclaurine 3'-monooxygenase [EC:1.14.14.102] [RN:R05732]
+            K13386  3'-hydroxy-N-methyl-(S)-coclaurine 4'-O-methyltransferase [EC:2.1.1.116] [RN:R03832]
+CLASS       Pathway modules; Biosynthesis of other secondary metabolites; Biosynthesis of phytochemical compounds
+PATHWAY     map00950  Isoquinoline alkaloid biosynthesis
+            map01100  Metabolic pathways
+            map01110  Biosynthesis of secondary metabolites
+REACTION    R04305  C03765 + C03758 -> C06160
+            R05123  C06160 -> C06161
+            R04692  C06161 -> C05176
+            R05732  C05176 -> C05202
+            R03832  C05202 -> C02105
+COMPOUND    C03765  4-Hydroxyphenylacetaldehyde
+            C03758  Dopamine
+            C06160  (S)-Norcoclaurine
+            C06161  (S)-Coclaurine
+            C05176  (S)-N-Methylcoclaurine
+            C05202  3'-Hydroxy-N-methyl-(S)-coclaurine
+            C02105  (S)-Reticuline
+REFERENCE   PMID:24671624
+  AUTHORS   Beaudoin GA, Facchini PJ.
+  TITLE     Benzylisoquinoline alkaloid biosynthesis in opium poppy.
+  JOURNAL   Planta 240:19-32 (2014)
+            DOI:10.1007/s00425-014-2056-8
+///

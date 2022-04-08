@@ -1,0 +1,20 @@
+ENTRY       M00940            Pathway   Module
+NAME        Flavanone biosynthesis, p-coumaroyl-CoA => liquiritigenin
+DEFINITION  (K00660+K08243) K01859
+ORTHOLOGY   K00660,K08243  6'-deoxychalcone synthase [EC:2.3.1.170] [RN:R06568]
+            K01859  chalcone isomerase [EC:5.5.1.6] [RN:R06556]
+CLASS       Pathway modules; Biosynthesis of other secondary metabolites; Biosynthesis of phytochemical compounds
+PATHWAY     map00941  Flavonoid biosynthesis
+            map01100  Metabolic pathways
+            map01110  Biosynthesis of secondary metabolites
+REACTION    R06568  C00223 -> C08650
+            R06556  C08650 -> C09762
+COMPOUND    C00223  p-Coumaroyl-CoA
+            C08650  Isoliquiritigenin
+            C09762  Liquiritigenin
+REFERENCE   PMID:31338097
+  AUTHORS   Nakayama T, Takahashi S, Waki T
+  TITLE     Formation of Flavonoid Metabolons: Functional Significance of Protein-Protein Interactions and Impact on Flavonoid Chemodiversity.
+  JOURNAL   Front Plant Sci 10:821 (2019)
+            DOI:10.3389/fpls.2019.00821
+///

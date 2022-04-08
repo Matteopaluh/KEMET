@@ -1,0 +1,31 @@
+ENTRY       M00915            Pathway   Module
+NAME        Caffeine degradation, caffeine => xanthine
+DEFINITION  K21722 K21723 K21724
+ORTHOLOGY   K21722  ndmA; methylxanthine N1-demethylase [EC:1.14.13.178] [RN:R07957 R07958 R07955 R07956]
+            K21723  ndmB; methylxanthine N3-demethylase [EC:1.14.13.179] [RN:R07954 R07939 R07961 R07962]
+            K21724  ndmC; 7-methylxanthine demethylase [EC:1.14.13.128] [RN:R07965 R07966]
+CLASS       Pathway modules; Xenobiotics biodegradation; Aromatics degradation
+PATHWAY     map00232  Caffeine metabolism
+            map01100  Metabolic pathways
+            map01120  Microbial metabolism in diverse environments
+REACTION    R07954,R07939  C07481 -> C13747
+            R07957,R07958  C13747 -> C16353
+            R07955,R07956  C07481 -> C07480
+            R07961,R07962  C07480 -> C16353
+            R07965,R07966  C16353 -> C00385
+COMPOUND    C07481  Caffeine
+            C13747  1,7-Dimethylxanthine
+            C16353  7-Methylxanthine
+            C07480  Theobromine
+            C00385  Xanthine
+REFERENCE   PMID:22328667
+  AUTHORS   Summers RM, Louie TM, Yu CL, Gakhar L, Louie KC, Subramanian M
+  TITLE     Novel, highly specific N-demethylases enable bacteria to live on caffeine and related purine alkaloids.
+  JOURNAL   J Bacteriol 194:2041-9 (2012)
+            DOI:10.1128/JB.06637-11
+REFERENCE   PMID:19447909
+  AUTHORS   Yu CL, Louie TM, Summers R, Kale Y, Gopishetty S, Subramanian M
+  TITLE     Two distinct pathways for metabolism of theophylline and caffeine are coexpressed in Pseudomonas putida CBB5.
+  JOURNAL   J Bacteriol 191:4624-32 (2009)
+            DOI:10.1128/JB.00409-09
+///

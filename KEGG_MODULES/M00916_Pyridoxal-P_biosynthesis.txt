@@ -1,0 +1,30 @@
+ENTRY       M00916            Pathway   Module
+NAME        Pyridoxal-P biosynthesis, R5P + glyceraldehyde-3P + glutamine => pyridoxal-P
+DEFINITION  (K06215+K08681)
+ORTHOLOGY   K06215  pdxS; pyridoxal 5'-phosphate synthase pdxS subunit [EC:4.3.3.6] [RN:R10089]
+            K08681  pdxT; pyridoxal 5'-phosphate synthase pdxT subunit [EC:4.3.3.6] [RN:R10089]
+CLASS       Pathway modules; Metabolism of cofactors and vitamins; Cofactor and vitamin metabolism
+PATHWAY     map00750  Vitamin B6 metabolism
+            map01240  Biosynthesis of cofactors
+            map01100  Metabolic pathways
+REACTION    R10089  C00117 + C00118 + C00064 -> C00018
+COMPOUND    C00117  D-Ribose 5-phosphate
+            C00118  D-Glyceraldehyde 3-phosphate
+            C00064  L-Glutamine
+            C00018  Pyridoxal phosphate
+REFERENCE   PMID:17822383
+  AUTHORS   Fitzpatrick TB, Amrhein N, Kappes B, Macheroux P, Tews I, Raschle T
+  TITLE     Two independent routes of de novo vitamin B6 biosynthesis: not that different after all.
+  JOURNAL   Biochem J 407:1-13 (2007)
+            DOI:10.1042/BJ20070765
+REFERENCE   PMID:16030023
+  AUTHORS   Raschle T, Amrhein N, Fitzpatrick TB
+  TITLE     On the two components of pyridoxal 5'-phosphate synthase from Bacillus subtilis.
+  JOURNAL   J Biol Chem 280:32291-300 (2005)
+            DOI:10.1074/jbc.M501356200
+REFERENCE   PMID:16157873
+  AUTHORS   Tambasco-Studart M, Titiz O, Raschle T, Forster G, Amrhein N, Fitzpatrick TB.
+  TITLE     Vitamin B6 biosynthesis in higher plants.
+  JOURNAL   Proc Natl Acad Sci U S A 102:13687-92 (2005)
+            DOI:10.1073/pnas.0506228102
+///

@@ -1,0 +1,26 @@
+ENTRY       M00919            Pathway   Module
+NAME        Ectoine degradation, ectoine => aspartate
+DEFINITION  K15783 K15784 K15785 K15786
+ORTHOLOGY   K15783  doeA; ectoine hydrolase [EC:3.5.4.44] [RN:R09800]
+            K15784  doeB; N2-acetyl-L-2,4-diaminobutanoate deacetylase [EC:3.5.1.125] [RN:R09801]
+            K15785  doeD; L-2,4-diaminobutyrate transaminase [EC:2.6.1.76] [RN:R06977]
+            K15786  doeC; aspartate-semialdehyde dehydrogenase [EC:1.2.1.-] [RN:R09805]
+CLASS       Pathway modules; Amino acid metabolism; Serine and threonine metabolism
+PATHWAY     map00260  Glycine, serine and threonine metabolism
+            map01100  Metabolic pathways
+            map01120  Microbial metabolism in diverse environments
+REACTION    R09800  C06231 -> C19929
+            R09801  C19929 -> C03283
+            R06977  C03283 -> C00441
+            R09805  C00441 -> C00049
+COMPOUND    C06231  Ectoine
+            C19929  N(alpha)-Acetyl-L-2,4-diaminobutyrate
+            C03283  L-2,4-Diaminobutanoate
+            C00441  L-Aspartate 4-semialdehyde
+            C00049  L-Aspartate
+REFERENCE   PMID:20849449
+  AUTHORS   Schwibbert K, Marin-Sanguino A, Bagyan I, Heidrich G, Lentzen G, Seitz H, Rampp M, Schuster SC, Klenk HP, Pfeiffer F, Oesterhelt D, Kunte HJ
+  TITLE     A blueprint of ectoine metabolism from the genome of the industrial producer Halomonas elongata DSM 2581 T.
+  JOURNAL   Environ Microbiol 13:1973-94 (2011)
+            DOI:10.1111/j.1462-2920.2010.02336.x
+///

@@ -1,0 +1,3 @@
+M00933_Plastoquinone_biosynthesis.txt
+K12501
+K12502

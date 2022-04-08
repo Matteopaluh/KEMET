@@ -1,0 +1,25 @@
+ENTRY       M00941            Pathway   Module
+NAME        Isoflavone biosynthesis, liquiritigenin/naringenin => daidzein/genistein
+DEFINITION  K13257 K13258
+ORTHOLOGY   K13257  2-hydroxyisoflavanone synthase [EC:1.14.14.87] [RN:R07777 R07778]
+            K13258  2-hydroxyisoflavanone dehydratase [EC:4.2.1.105] [RN:R07317 R06793]
+CLASS       Pathway modules; Biosynthesis of other secondary metabolites; Biosynthesis of phytochemical compounds
+PATHWAY     map00943  Isoflavonoid biosynthesis
+            map01100  Metabolic pathways
+            map01110  Biosynthesis of secondary metabolites
+REACTION    R07777  C09762 -> C15567
+            R07317  C15567 -> C10208
+            R07778  C00509 -> C12631
+            R06793  C12631 -> C06563
+COMPOUND    C09762  Liquiritigenin
+            C15567  2,7,4'-Trihydroxyisoflavanone
+            C10208  Daidzein
+            C00509  Naringenin
+            C12631  2-Hydroxy-2,3-dihydrogenistein
+            C06563  Genistein
+REFERENCE   PMID:31338097
+  AUTHORS   Nakayama T, Takahashi S, Waki T
+  TITLE     Formation of Flavonoid Metabolons: Functional Significance of Protein-Protein Interactions and Impact on Flavonoid Chemodiversity.
+  JOURNAL   Front Plant Sci 10:821 (2019)
+            DOI:10.3389/fpls.2019.00821
+///

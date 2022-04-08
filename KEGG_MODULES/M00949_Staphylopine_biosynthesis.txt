@@ -1,0 +1,22 @@
+ENTRY       M00949            Pathway   Module
+NAME        Staphylopine biosynthesis, L-histidine => staphylopine
+DEFINITION  K01780 K23120 K23122
+ORTHOLOGY   K01780  cntK; histidine racemase [EC:5.1.1.24] [RN:R12313]
+            K23120  cntL; histidine 2-aminobutanoyltransferase [EC:2.5.1.152] [RN:R12341]
+            K23122  cntM; staphylopine synthase [EC:1.5.1.52] [RN:R12237]
+CLASS       Pathway modules; Amino acid metabolism; Other amino acid metabolism
+PATHWAY     map00470  D-Amino acid metabolism
+            map01100  Metabolic pathways
+REACTION    R12313  C00135 -> C06419
+            R12341  C06419 -> C22025
+            R12237  C22025 -> C22024
+COMPOUND    C00135  L-Histidine
+            C06419  D-Histidine
+            C22025  (2S)-2-Amino-4-{[(1R)-1-carboxy-2-(1H-imidazol-4-yl)ethyl]amino}butanoate
+            C22024  Staphylopine
+REFERENCE   PMID:27230378
+  AUTHORS   Ghssein G, Brutesco C, Ouerdane L, Fojcik C, Izaute A, Wang S, Hajjar C, Lobinski R, Lemaire D, Richaud P, Voulhoux R, Espaillat A, Cava F, Pignol D, Borezee-Durant E, Arnoux P
+  TITLE     Biosynthesis of a broad-spectrum nicotianamine-like metallophore in Staphylococcus aureus.
+  JOURNAL   Science 352:1105-9 (2016)
+            DOI:10.1126/science.aaf1018
+///

@@ -1,0 +1,6 @@
+M00942_Pterocarpan_biosynthesis.txt
+K13259
+K13260
+K05281
+K13265
+K25075

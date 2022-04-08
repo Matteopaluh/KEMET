@@ -1,0 +1,40 @@
+ENTRY       M00944            Pathway   Module
+NAME        Morphine biosynthesis, (S)-reticuline => morphine
+DEFINITION  K22093 K13391 K13392 K13393 K01742 K14975 K14976 K13394
+ORTHOLOGY   K22093  1,2-dehydroreticuline synthase/reductase [EC:1.14.19.54 1.5.1.27] [RN:R03833 R04695]
+            K13391  salutaridine synthase [EC:1.14.19.67] [RN:R04696]
+            K13392  salutaridine reductase (NADPH) [EC:1.1.1.248] [RN:R04697]
+            K13393  salutaridinol 7-O-acetyltransferase [EC:2.3.1.150] [RN:R04723]
+            K01742  thebaine synthase [EC:4.2.99.24] [RN:R04769]
+            K14975  codeine 3-O-demethylase [EC:1.14.11.32] [RN:R05127]
+            K14976  thebaine 6-O-demethylase [EC:1.14.11.31] [RN:R03698]
+            K13394  codeinone reductase [EC:1.1.1.247] [RN:R03592]
+CLASS       Pathway modules; Biosynthesis of other secondary metabolites; Biosynthesis of phytochemical compounds
+PATHWAY     map00950  Isoquinoline alkaloid biosynthesis
+            map01100  Metabolic pathways
+            map01110  Biosynthesis of secondary metabolites
+REACTION    R03833  C02105 -> C06167
+            R04695  C06167 -> C05178
+            R04696  C05178 -> C05179
+            R04697  C05179 -> C05220
+            R04723  C05220 -> C05322
+            R04769  C05322 -> C06173
+            R05127  C06173 -> C06175
+            R03698  C06175 -> C01735
+            R03592  C01735 -> C01516
+COMPOUND    C02105  (S)-Reticuline
+            C06167  1,2-Dehydroreticuline
+            C05178  (R)-Reticuline
+            C05179  Salutaridine
+            C05220  Salutaridinol
+            C05322  7-O-Acetylsalutaridinol
+            C06173  Thebaine
+            C06175  Oripavine
+            C01735  Morphinone
+            C01516  Morphine
+REFERENCE   PMID:24671624
+  AUTHORS   Beaudoin GA, Facchini PJ.
+  TITLE     Benzylisoquinoline alkaloid biosynthesis in opium poppy.
+  JOURNAL   Planta 240:19-32 (2014)
+            DOI:10.1007/s00425-014-2056-8
+///

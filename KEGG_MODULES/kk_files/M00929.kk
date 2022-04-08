@@ -1,0 +1,6 @@
+M00929_Gibberellin_A1_biosynthesis.txt
+K20657
+K21292
+K12917
+K12918
+K12919

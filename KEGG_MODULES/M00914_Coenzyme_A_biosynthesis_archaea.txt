@@ -1,0 +1,37 @@
+ENTRY       M00914            Pathway   Module
+NAME        Coenzyme A biosynthesis, archaea, 2-oxoisovalerate => 4-phosphopantoate => CoA
+DEFINITION  K00606 K00077 K06982 K09722 K13038 K02201 K09735
+ORTHOLOGY   K00606  3-methyl-2-oxobutanoate hydroxymethyltransferase [EC:2.1.2.11] [RN:R01226]
+            K00077  2-dehydropantoate 2-reductase [EC:1.1.1.169] [RN:R02472]
+            K06982  pantoate kinase [EC:2.7.1.169] [RN:R09378]
+            K09722  4-phosphopantoate---beta-alanine ligase [EC:6.3.2.36] [RN:R09379]
+            K13038  phosphopantothenoylcysteine decarboxylase / phosphopantothenate---cysteine ligase [EC:4.1.1.36 6.3.2.5] [RN:R04231 R03269]
+            K02201  pantetheine-phosphate adenylyltransferase [EC:2.7.7.3] [RN:R03035]
+            K09735  GTP-dependent dephospho-CoA kinase [EC:2.7.1.-] [RN:R12608]
+CLASS       Pathway modules; Metabolism of cofactors and vitamins; Cofactor and vitamin metabolism
+PATHWAY     map00770  Pantothenate and CoA biosynthesis
+            map01240  Biosynthesis of cofactors
+            map01100  Metabolic pathways
+REACTION    R01226  C00141 -> C00966
+            R02472  C00966 -> C00522
+            R09378  C00522 -> C18911
+            R09379  C18911 -> C03492
+            R04231  C03492 -> C04352
+            R03269  C04352 -> C01134
+            R03035  C01134 -> C00882
+            R12608  C00882 -> C00010
+COMPOUND    C00141  3-Methyl-2-oxobutanoic acid
+            C00966  2-Dehydropantoate
+            C00522  (R)-Pantoate
+            C18911  (R)-4-Phosphopantoate
+            C03492  D-4'-Phosphopantothenate
+            C04352  (R)-4'-Phosphopantothenoyl-L-cysteine
+            C01134  Pantetheine 4'-phosphate
+            C00882  Dephospho-CoA
+            C00010  CoA
+REFERENCE   PMID:31337720
+  AUTHORS   Shimosaka T, Makarova KS, Koonin EV, Atomi H
+  TITLE     Identification of Dephospho-Coenzyme A (Dephospho-CoA) Kinase in Thermococcus kodakarensis and Elucidation of the Entire CoA Biosynthesis Pathway in Archaea.
+  JOURNAL   mBio 10:e01146-19 (2019)
+            DOI:10.1128/mBio.01146-19
+///

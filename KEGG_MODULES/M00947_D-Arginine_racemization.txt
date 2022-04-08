@@ -1,0 +1,19 @@
+ENTRY       M00947            Pathway   Module
+NAME        D-Arginine racemization, D-arginine => L-arginine
+DEFINITION  K19746 K19744
+ORTHOLOGY   K19746  dauA; D-arginine dehydrogenase [EC:1.4.99.6] [RN:R11018]
+            K19744  dauB; L-arginine dehydrogenase [EC:1.4.1.25] [RN:R11031 R11032]
+CLASS       Pathway modules; Amino acid metabolism; Other amino acid metabolism
+PATHWAY     map00470  D-Amino acid metabolism
+            map01100  Metabolic pathways
+REACTION    R11018  C00792 -> C03771
+            R11031,R11032  C03771 -> C00062
+COMPOUND    C00792  D-Arginine
+            C03771  5-Guanidino-2-oxopentanoate
+            C00062  L-Arginine
+REFERENCE   PMID:19139398
+  AUTHORS   Li C, Lu CD
+  TITLE     Arginine racemization by coupled catabolic and anabolic dehydrogenases.
+  JOURNAL   Proc Natl Acad Sci U S A 106:906-11 (2009)
+            DOI:10.1073/pnas.0808269106
+///

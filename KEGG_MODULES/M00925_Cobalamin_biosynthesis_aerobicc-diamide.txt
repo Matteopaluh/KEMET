@@ -1,0 +1,58 @@
+ENTRY       M00925            Pathway   Module
+NAME        Cobalamin biosynthesis, aerobic, uroporphyrinogen III => precorrin 2 => cobyrinate a,c-diamide
+DEFINITION  (K02303,K13542) (K03394,K13540) K02229 (K05934,K13540,K13541) K05936 K02228 K05895 K00595 K06042 K02224 (K02230+K09882+K09883)
+ORTHOLOGY   K02303,K13542  cobA; uroporphyrin-III C-methyltransferase [EC:2.1.1.107] [RN:R03194]
+            K03394  cobI; precorrin-2 C20-methyltransferase [EC:2.1.1.130] [RN:R03948]
+            K13540  cobIJ; precorrin-2 C20-methyltransferase / precorrin-3B C17-methyltransferase [EC:2.1.1.130 2.1.1.131] [RN:R03948 R05180]
+            K02229  cobG; precorrin-3B synthase [EC:1.14.13.83] [RN:R05217]
+            K05934,K13541  cobJ; precorrin-3B C17-methyltransferase [EC:2.1.1.131] [RN:R05180]
+            K05936  cobM; precorrin-4 C11-methyltransferase [EC:2.1.1.133] [RN:R05181]
+            K02228  cobF; precorrin-6A synthase [EC:2.1.1.152] [RN:R05219]
+            K05895  cobK; precorrin-6A reductase [EC:1.3.1.54] [RN:R05150]
+            K00595  cobL; precorrin-6B C5,15-methyltransferase [EC:2.1.1.132] [RN:R05149]
+            K06042  cobH; precorrin-8X methylmutase [EC:5.4.99.61] [RN:R05177]
+            K02224  cobB; cobyrinic acid a,c-diamide synthase [EC:6.3.5.9] [RN:R05224]
+            K02230+K09882+K09883  cobNST; cobaltochelatase CobNST [EC:6.6.1.2] [RN:R05227]
+CLASS       Pathway modules; Metabolism of cofactors and vitamins; Cofactor and vitamin metabolism
+PATHWAY     map00860  Porphyrin metabolism
+            map01240  Biosynthesis of cofactors
+            map01100  Metabolic pathways
+REACTION    R03194  C01051 -> C02463
+            R03948  C02463 -> C05772
+            R05217  C05772 -> C06406
+            R05180  C06406 -> C06407
+            R05181  C06407 -> C06416
+            R05219  C06416 -> C06320
+            R05150  C06320 -> C06319
+            R05149  C06319 -> C06408
+            R05177  C06408 -> C06399
+            R05224  C06399 -> C06503
+            R05227  C06503 -> C06504
+COMPOUND    C01051  Uroporphyrinogen III
+            C02463  Precorrin 2
+            C05772  Precorrin 3A
+            C06406  Precorrin 3B
+            C06407  Precorrin 4
+            C06416  Precorrin 5
+            C06320  Precorrin 6X
+            C06319  Precorrin 6Y
+            C06408  Precorrin 8X
+            C06399  Hydrogenobyrinate
+            C06503  Hydrogenobyrinate a,c diamide
+            C06504  Cob(II)yrinate a,c diamide
+REFERENCE   PMID:23042036
+  AUTHORS   Deery E, Schroeder S, Lawrence AD, Taylor SL, Seyedarabi A, Waterman J, Wilson KS, Brown D, Geeves MA, Howard MJ, Pickersgill RW, Warren MJ
+  TITLE     An enzyme-trap approach allows isolation of intermediates in cobalamin biosynthesis.
+  JOURNAL   Nat Chem Biol 8:933-40 (2012)
+            DOI:10.1038/nchembio.1086
+REFERENCE   PMID:12195810
+  AUTHORS   Warren MJ, Raux E, Schubert HL, Escalante-Semerena JC.
+  TITLE     The biosynthesis of adenosylcobalamin (vitamin B12).
+  JOURNAL   Nat Prod Rep 19:390-412 (2002)
+            DOI:10.1039/b108967f
+REFERENCE   PMID:32241908
+  AUTHORS   Bryant DA, Hunter CN, Warren MJ
+  TITLE     Biosynthesis of the modified tetrapyrroles-the pigments of life.
+  JOURNAL   J Biol Chem 295:6888-6925 (2020)
+            DOI:10.1074/jbc.REV120.006194
+///

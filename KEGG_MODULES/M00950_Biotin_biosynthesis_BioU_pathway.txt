@@ -1,0 +1,28 @@
+ENTRY       M00950            Pathway   Module
+NAME        Biotin biosynthesis, BioU pathway, pimeloyl-ACP/CoA => biotin
+DEFINITION  K00652 K25570 K01935 K01012
+ORTHOLOGY   K00652  bioF; 8-amino-7-oxononanoate synthase [EC:2.3.1.47] [RN:R10124 R03210]
+            K25570  bioU; 8-amino-7-oxononanoate carboxylating dehydrogenase [EC:2.6.1.121] [RN:R12935]
+            K01935  bioD; dethiobiotin synthetase [EC:6.3.3.3] [RN:R12934]
+            K01012  bioB; biotin synthase [EC:2.8.1.6] [RN:R01078]
+CLASS       Pathway modules; Metabolism of cofactors and vitamins; Cofactor and vitamin metabolism
+PATHWAY     map00780  Biotin metabolism
+            map01240  Biosynthesis of cofactors
+            map01100  Metabolic pathways
+REACTION    R10124  C19845 -> C01092
+            R03210  C01063 -> C01092
+            R12935  C01092 -> C22458
+            R12934  C22458 -> C01909
+            R01078  C01909 -> C00120
+COMPOUND    C19845  Pimeloyl-[acyl-carrier protein]
+            C01092  8-Amino-7-oxononanoate
+            C01063  Pimeloyl-CoA
+            C22458  8-Amino-7-(carboxyamino)nonanoate
+            C01909  Dethiobiotin
+            C00120  Biotin
+REFERENCE   PMID:32042199
+  AUTHORS   Sakaki K, Ohishi K, Shimizu T, Kobayashi I, Mori N, Matsuda K, Tomita T, Watanabe H, Tanaka K, Kuzuyama T, Nishiyama M.
+  TITLE     A suicide enzyme catalyzes multiple reactions for biotin biosynthesis in cyanobacteria.
+  JOURNAL   Nat Chem Biol 16:415-422 (2020)
+            DOI:10.1038/s41589-019-0461-9
+///

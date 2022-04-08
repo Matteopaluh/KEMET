@@ -1,0 +1,39 @@
+ENTRY       M00927            Pathway   Module
+NAME        Gibberellin A12 biosynthesis, GAPP => GA12
+DEFINITION  K04120 K04121 K04122 K04123
+ORTHOLOGY   K04120  ent-copalyl diphosphate synthase [EC:5.5.1.13] [RN:R02068]
+            K04121  ent-kaurene synthase [EC:4.2.3.19] [RN:R05092]
+            K04122  ent-kaurene oxidase [EC:1.14.14.86][RN:R06291 R06292 R06293]
+            K04123  ent-kaurenoic acid monooxygenase [EC:1.14.14.107] [RN:R06294 R06295 R06297]
+CLASS       Pathway modules; Biosynthesis of terpenoids and polyketides; Plant terpenoid biosynthesis
+PATHWAY     map00904  Diterpenoid biosynthesis
+            map01100  Metabolic pathways
+            map01110  Biosynthesis of secondary metabolites
+REACTION    R02068  C00353 -> C06089
+            R05092  C06089 -> C06090
+            R06291  C06090 -> C11872
+            R06292  C11872 -> C11873
+            R06293  C11873 -> C11874
+            R06294  C11874 -> C11875
+            R06295  C11875 -> C06093
+            R06297  C06093 -> C11857
+COMPOUND    C00353  Geranylgeranyl diphosphate
+            C06089  ent-Copalyl diphosphate
+            C06090  ent-Kaurene
+            C11872  Kaur-16-en-18-ol
+            C11873  Kaur-16-en-18-al
+            C11874  Kaur-16-en-18-oic acid
+            C11875  ent-7alpha-Hydroxykaur-16-en-19-oic acid
+            C06093  Gibberellin A12 aldehyde
+            C11857  Gibberellin A12
+REFERENCE   PMID:12805613
+  AUTHORS   Fleet CM, Yamaguchi S, Hanada A, Kawaide H, David CJ, Kamiya Y, Sun TP
+  TITLE     Overexpression of AtCPS and AtKS in Arabidopsis confers increased ent-kaurene production but no increase in bioactive gibberellins.
+  JOURNAL   Plant Physiol 132:830-9 (2003)
+            DOI:10.1104/pp.103.021725
+REFERENCE   PMID:23319637
+  AUTHORS   Magome H, Nomura T, Hanada A, Takeda-Kamiya N, Ohnishi T, Shinma Y, Katsumata T, Kawaide H, Kamiya Y, Yamaguchi S
+  TITLE     CYP714B1 and CYP714B2 encode gibberellin 13-oxidases that reduce gibberellin activity in rice.
+  JOURNAL   Proc Natl Acad Sci U S A 110:1947-52 (2013)
+            DOI:10.1073/pnas.1215788110
+///
