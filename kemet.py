@@ -2386,6 +2386,7 @@ if __name__ == "__main__":
     from datetime import datetime
 
     run_start = str(datetime.now().strftime("%Y-%m-%d"))
+    LOGflag = False
 
     ###############
     # directories #
