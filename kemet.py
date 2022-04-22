@@ -19,6 +19,7 @@ _hmm_modes = ["onebm","modules","kos"]
 _def_thr = 0.43 # threshold optimized from test datasets
 _gapfill_modes = ["existing","denovo"]
 _base_com_KEGGget = "curl --silent http://rest.kegg.jp/get/"
+
 # External dependencies base commands - experienced users can edit variables' with proper parameters e.g. to modify threads etc.
 _base_com_mafft = "mafft --quiet --auto --thread -1 MSA_K_NUMBER.fna > K_NUMBER.msa"
 _base_com_hmmbuild = "hmmbuild --informat afa K_NUMBER.hmm K_NUMBER.msa > /dev/null"
@@ -35,7 +36,6 @@ def _timeinfo():
     timeinfo = str(datetime.now().strftime("%Y-%m-%d %H-%M-%S"))+"\t"
     return timeinfo
 
-# KMC-functions
 def eggnogXktest(eggnog_file, converted_output, KAnnotation_directory, ktests_directory):
     """
     Starting from eggNOG pre-annotations (".emapper.annotations"),
@@ -55,7 +55,11 @@ def eggnogXktest(eggnog_file, converted_output, KAnnotation_directory, ktests_di
     KOs = {}
 
     with open(eggnog_file) as g:
-        headers = g.readlines()[3].strip().split("\t")
+        for linum, line in enumerate(g, -1):
+            if not line.startswith("#"):
+                break
+        g.seek(0)
+        headers = g.readlines()[linum].strip().split("\t")
         koslice = 0
         for field in headers:
             if not field == "KEGG_ko":
@@ -67,7 +71,7 @@ def eggnogXktest(eggnog_file, converted_output, KAnnotation_directory, ktests_di
             if not line.startswith("#"): # skip header & info lines w/o genes
                 #fasta_id = line.strip().split("\t")[0]
                 egg_kos = line.strip().split("\t")[koslice].replace("ko:","")
-                if egg_kos != "":
+                if egg_kos != "" and egg_kos != "-":
                     egg_kos_hits = egg_kos.split(",")
                     for ko in egg_kos_hits:
                         if not ko in KOs:
@@ -629,7 +633,6 @@ def testcompleteness_tsv(ko_list, kk_file, kkfiles_directory, report_tsv_directo
         h.write("\n")
         h.close()
 
-# HMM-functions
 def create_tuple_modules(fixed_module_file):
     """
     Generates a tuple from the indication of Modules in which to look for incompleteness, for further use.
