@@ -58,7 +58,7 @@ def set_directories(dir_base, gapfill_usage = False):
     directories_to_make.append(dir_genomes)
     directories_to_make.append(oneBM_modules_dir)
 
-    os.system("curl --silent http://rest.kegg.jp/get/br:br08601 > br08601.keg")
+    os.system("curl --silent https://rest.kegg.jp/get/br:br08601 > br08601.keg")
     print("KEGG Organisms hierarchy DOWNLOADED")
 
     if not "genomes.instruction" in os.listdir():
