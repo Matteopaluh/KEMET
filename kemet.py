@@ -2554,7 +2554,7 @@ with open(instruction_file) as f:
                         if LOGflag:
                             logging.info('++ START GSMM operations '+fasta_id)
 
-                        fastakohits = FASTA+"_HMM_hits.txt"
+                        fastakohits = fasta_id+"_HMM_hits.txt"
                         current_run = "KEMET_run_"+run_start
 
                         if args.gsmm_mode == "denovo":
