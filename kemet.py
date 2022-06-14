@@ -17,7 +17,7 @@ _ktest_formats = ["eggnog", "kaas", "kofamkoala"]
 _hmm_modes = ["onebm", "modules", "kos"]
 _def_thr = 0.43
 _gapfill_modes = ["existing", "denovo"]
-_base_com_KEGGget = "curl --silent http://rest.kegg.jp/get/"
+_base_com_KEGGget = "curl --silent https://rest.kegg.jp/get/"
 
 # External dependencies base commands
 # experienced users can edit variables with proper parameters e.g. to modify threads etc.

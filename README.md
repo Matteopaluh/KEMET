@@ -72,7 +72,8 @@ This will set the folders in which different input and outputs will be stored.
 **NOTE:**  
 **Sequence file extensions are supposed to be ".fa",".fna" or ".fasta"**  
 **FASTA header are supposed not to be repeated in a single MAG/Genome**.  
-If necessary, rename MAGs/Genomes and FASTA headers accordingly.  
+If necessary, rename MAGs/Genomes and FASTA headers accordingly, using:  
+`awk '/^>/{print ">"++i; next}{print}' < original.fasta > new.fasta`  
 
 - Copy KEGG KOs annotations (derived from different sources) in `KEMET/KEGG_annotations/` folder, created in the setup process.  
 The script requires an indication of the program used to generate input KEGG annotation (eggNOG, KofamKOALA, and KAAS or KAAS-like format are supported up to March 2022).  

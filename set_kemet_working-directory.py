@@ -47,7 +47,7 @@ def set_directories(dir_base, gapfill_usage=False):
     ko_file = path.join(dir_base, "ko_file.instruction")
     kegg_brite_organisms = path.join(dir_base, "br08601.keg")
 
-    os.system(f"curl --silent http://rest.kegg.jp/get/br:br08601 > {kegg_brite_organisms}")
+    os.system(f"curl --silent https://rest.kegg.jp/get/br:br08601 > {kegg_brite_organisms}")
     print("KEGG Organisms hierarchy DOWNLOADED")
 
     if path.isfile(genome_instruction_file):
