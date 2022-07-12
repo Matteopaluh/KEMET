@@ -11,10 +11,10 @@ To utilize this type of annotation within `kemet.py` script, the user will need 
 - `bin1.ko` is an example of a file generated via KAAS (KEGG Automatic Annotation Server), which can be accessed [here](https://www.genome.jp/tools/kaas/).  
 To utilize this type of annotation within `kemet.py` script, the user will need to add the `-a` or `--annotation_format` argument, then write "kaas": `-a kaas`  
 
-- `bin1.txt` is an example of a file generated via KofamKOALA, which is accessed either via command line or via [web server](https://www.genome.jp/tools/kofamkoala/).  
+- `bin1.txt` and `bin1.tsv` are examples of files generated via KofamKOALA, which is accessed either via command line (Kofamscan - `detail` or `detail-tsv` format) or via [web server](https://www.genome.jp/tools/kofamkoala/).  
 Specifically, if the request is executed via web server, this file is the output that can be downloaded with the **"result file"** option.  
 To utilize this type of annotation within `kemet.py` script, the user will need to add the `-a` or `--annotation_format` argument, then write "kofamkoala": `-a kofamkoala`  
 
-- `bin1_ko.txt` is an example of a KofamKOALA output downloaded with the **"Input file for KEGG Mapper"** option.  
+- `bin1_ko.txt` is an example of a KofamKOALA output obtained via command line (Kofamscan - `mapper` format) or via web server, if downloaded with the **"Input file for KEGG Mapper"** option.  
 This file has the same format of those generated via KAAS, i.e. a tabular file with two fields, one indicating a gene-id, the other either being empty or indicating either a KEGG Ortholog (KO). Within the KEMET vocabulary, this is referred to as "kaas-like".  
 To utilize this type of annotation within `kemet.py` script, the user will need to add the `-a` or `--annotation_format` argument, then write "kaas": `-a kaas`

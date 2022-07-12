@@ -144,18 +144,28 @@ def kofamXktest(kofamkoala_file, converted_output, KAnnotation_directory, ktests
     """
     os.chdir(KAnnotation_directory)
     KOs = {}
+    tsvflag = False
 
     with open(kofamkoala_file) as g:
-        # look for fasta_id & KO info based on gene calling IDs lenght
         spacer = g.readlines()[1].strip()
-        fastaslice = spacer.index(" ", 1) + 1
-        koslice = spacer.index(" ", fastaslice) + 1
+        if "\t" in spacer:
+            tsvflag = True
+        else:
+            fastaslice = spacer.index(" ", 5) + 1 # account for longer gene IDs
+            koslice = spacer.index(" ", fastaslice) + 1
         g.seek(0)
 
-        for line in g.readlines()[2:]: # skip header and spacer lines w/o genes
-            fasta_id = line[:fastaslice].strip().replace("* ", "")
-            kofam_ko = line[fastaslice:koslice].strip()
-            if kofam_ko == "":
+        for line in g.readlines()[2:]:
+        # skip header, spacer line & gene hits under threshold
+            if not line.startswith("*"):
+                continue
+
+            if tsvflag:
+                kofam_ko = line.split("\t")[2]
+            else:
+                kofam_ko = line[koslice:koslice+6].strip()
+
+            if not kofam_ko.startswith("K"):
                 continue
             KOs.setdefault(kofam_ko, 0)
             KOs[kofam_ko] += 1

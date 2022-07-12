@@ -76,7 +76,7 @@ If necessary, rename MAGs/Genomes and FASTA headers accordingly, using:
 `awk '/^>/{print ">"++i; next}{print}' < original.fasta > new.fasta`  
 
 - Copy KEGG KOs annotations (derived from different sources) in `KEMET/KEGG_annotations/` folder, created in the setup process.  
-The script requires an indication of the program used to generate input KEGG annotation (eggNOG, KofamKOALA, and KAAS or KAAS-like format are supported up to March 2022).  
+The script requires an indication of the program used to generate input KEGG annotation (eggNOG, KofamKOALA -both web server and command line-, KAAS and KAAS-like format are supported up to July 2022).  
 **Annotations format don't need to be changed from their original output** (truncated example files can be found in `KEMET/toy/` folder)  
 
 - If genome-scale model expansion is needed, optional pre-existing genome-scale models within the BiGG namespace (".xml" files) can be copied in the `KEMET/models/` folder, created after the setup process.  
@@ -102,13 +102,13 @@ excluding the header, each line should have a **tab-separated** indication of:
 - Metabolic model universe comprehend grampos, gramneg, archaea or other custom universe (this is an optional indication needed for GSMM de-novo reconstruction)  
 
 4) (**ONLY if HMM and GSMM steps are needed**) Fill in other instruction text files.  
-If HMM-analyses are desired, these need either the "module_file.instruction" or the "ko_file.instruction" files as follows, depending on the desired MODE OF USE (which needs to be specified with the `--hmm_mode MODE` parameter).  
+If HMM-analyses are desired, these need either the `module_file.instruction` or the `ko_file.instruction` files as follows, depending on the desired MODE OF USE (which needs to be specified with the `--hmm_mode MODE` parameter).  
 
 |MODE|Analysis|Instructions|
 |---|---|---|
 |onebm|KOs from KEGG Modules missing 1 block|(No need to fill instruction files)|
-|modules|KOs from a fixed list of KEGG Modules|(One per line indication in the "module_file.instruction" file)|
-|kos|KOs from a fixed list of orthologs|(One per line indication in the "ko_file.instruction" file)|  
+|modules|KOs from a fixed list of KEGG Modules|(One per line indication in the `module_file.instruction` file)|
+|kos|KOs from a fixed list of orthologs|(One per line indication in the `ko_file.instruction` file)|  
 
 5) Launch the `kemet.py` command line script with your arguments of choice!
 
@@ -149,7 +149,7 @@ Other optional parameters are described in the following paragraph:
 
 -----
 # Script details  
-For detailed info on the process or the outputs of each KEMET task, please refer to the [wiki page](https://github.com/Matteopaluh/KEMET/wiki)
+For detailed info on the process/outputs of each KEMET task, as well as info on custom KEGG Modules & other, please refer to the [wiki pages](https://github.com/Matteopaluh/KEMET/wiki)
 
 -----
 # Credits
