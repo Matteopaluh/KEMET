@@ -1,4 +1,4 @@
-M00948_Hydroxyproline_degradation.txt
+M00948_Hydroxyproline_degradation
 K12658
 K21060, K22549, K21061, K22550
 K21062

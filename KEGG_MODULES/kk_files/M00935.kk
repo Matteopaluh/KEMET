@@ -1,4 +1,4 @@
-M00935_Methanofuran_biosynthesis.txt
+M00935_Methanofuran_biosynthesis
 /
 K09733
 K19793

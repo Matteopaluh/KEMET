@@ -1,0 +1,8 @@
+M00896_Thiamine biosynthesis, archaea
+/
+K22699
+/
+K03147
+K00941, K21219
+K00788, K21220, K21219
+K00946

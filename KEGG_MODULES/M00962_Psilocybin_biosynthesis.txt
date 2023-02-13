@@ -1,0 +1,31 @@
+ENTRY       M00962            Pathway   Module
+NAME        Psilocybin biosynthesis, tryptophan => psilocybin
+DEFINITION  K22433 K22434 K22435 K22436
+ORTHOLOGY   K22433  PSID; L-tryptophan decarboxylase [EC:4.1.1.105] [RN:R00685]
+            K22434  PSIH; tryptamine 4-monooxygenase [EC:1.14.99.59] [RN:R11912]
+            K22435  PSIK; 4-hydroxytryptamine kinase [EC:2.7.1.222] [RN:R11933 R08480]
+            K22436  PSIM; psilocybin synthase [EC:2.1.1.345] [RN:R11935 R11936]
+CLASS       Pathway modules; Biosynthesis of other secondary metabolites; Biosynthesis of phytochemical compounds
+PATHWAY     map00901  Indole alkaloid biosynthesis
+            map01100  Metabolic pathways
+            map01110  Biosynthesis of secondary metabolites
+REACTION    R00685  C00078 -> C00398
+            R11912  C00398 -> C21762
+            R11933  C21762 -> C21778
+            R11935  C21778 -> C21779
+            R11936  C21779 -> C07576
+            R12142  C07576 -> C08312
+            R08480  C08312 -> C07576
+COMPOUND    C00078  L-Tryptophan
+            C00398  Tryptamine
+            C21762  4-Hydroxytryptamine
+            C21778  Norbaeocystin
+            C21779  Baeocystin
+            C07576  Psilocybin
+            C08312  Psilocin
+REFERENCE   PMID:28763571
+  AUTHORS   Fricke J, Blei F, Hoffmeister D
+  TITLE     Enzymatic Synthesis of Psilocybin.
+  JOURNAL   Angew Chem Int Ed Engl 56:12352-12355 (2017)
+            DOI:10.1002/anie.201705489
+///

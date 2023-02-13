@@ -1,0 +1,25 @@
+ENTRY       M00963            Pathway   Module
+NAME        Chanoclavine aldehyde biosynthesis, tryptophan => chanoclavine-I aldehyde
+DEFINITION  K14130 K18884 K17746
+ORTHOLOGY   K14130  tryptophan 4-dimethylallyltransferase [EC:2.5.1.34] [RN:R01657]
+            K18884  4-dimethylallyltryptophan N-methyltransferase [EC:2.1.1.261] [RN:R10166]
+            K17746  chanoclavine-I dehydrogenase [EC:1.1.1.332] [RN:R10128]
+CLASS       Pathway modules; Biosynthesis of other secondary metabolites; Biosynthesis of phytochemical compounds
+PATHWAY     map00901  Indole alkaloid biosynthesis
+            map01100  Metabolic pathways
+            map01110  Biosynthesis of secondary metabolites
+REACTION    R01657  C00078 -> C04290
+            R10166  C04290 -> C20410
+            R12104  C20410 -> C09131
+            R10128  C09131 -> C20379
+COMPOUND    C00078  L-Tryptophan
+            C04290  4-(3-Methylbut-2-enyl)-L-tryptophan
+            C20410  4-Dimethylallyl-L-abrine
+            C09131  Chanoclavine-I
+            C20379  Chanoclavine-I aldehyde
+REFERENCE   PMID:22403186
+  AUTHORS   Wallwey C, Heddergott C, Xie X, Brakhage AA, Li SM
+  TITLE     Genome mining reveals the presence of a conserved gene cluster for the biosynthesis of ergot alkaloid precursors in the fungal family Arthrodermataceae.
+  JOURNAL   Microbiology 158:1634-44 (2012)
+            DOI:10.1099/mic.0.056796-0
+///

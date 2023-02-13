@@ -1,4 +1,4 @@
-M00927_Gibberellin_A12_biosynthesis.txt
+M00927_Gibberellin_A12_biosynthesis
 K04120
 K04121
 K04122

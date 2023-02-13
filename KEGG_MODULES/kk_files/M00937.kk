@@ -1,4 +1,4 @@
-M00937_Aflatoxin_biosynthesis.txt
+M00937_Aflatoxin_biosynthesis
 K15316
 K17643
 K17644

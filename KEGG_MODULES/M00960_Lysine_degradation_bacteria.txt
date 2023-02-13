@@ -1,0 +1,45 @@
+ENTRY       M00960            Pathway   Module
+NAME        Lysine degradation, bacteria, L-lysine => D-lysine => succinate
+DEFINITION  (K25316,K25317) K26064 K13609 K26065 K26061 K26062 K25986 K26063 K15737
+ORTHOLOGY   K25316,K25317  amino-acid racemase [EC:5.1.1.10] [RN:R00460]
+            K26064  D-lysine oxidase [RN:R13034]
+            K13609  delta1-piperideine-2-carboxylate reductase [EC:1.5.1.21] [RN:R02203]
+            K26065  L-pipecolate oxidase [RN:R08414]
+            K26061  L-aminoadipate-semialdehyde dehydrogenase [RN:R13037]
+            K26062  2-aminoadipate transaminase [EC:2.6.1.39] [RN:R01939]
+            K25986  2-oxoadipate dioxygenase/decarboxylase [EC:1.13.11.93] [RN:R13011]
+            K26063  (R)-2-hydroxyglutarate dehydrogenase [EC:1.1.-.-] [RN:R13036]
+            K15737  glutarate dioxygenase [EC:1.14.11.64] [RN:R12216]
+CLASS       Pathway modules; Amino acid metabolism; Lysine metabolism
+PATHWAY     map00310  Lysine degradation
+            map01100  Metabolic pathways
+            map01120  Microbial metabolism in diverse environments
+REACTION    R00460  C00047 -> C00739
+            R13034  C00739 -> C03239
+            R04175  C03239 -> C04092
+            R02203  C04092 -> C00408
+            R08414  C00408 -> C00450
+            R02317  C00450 -> C04076
+            R13037  C04076 -> C00956
+            R01939  C00956 -> C00322
+            R13011  C00322 -> C01087
+            R13036  C01087 -> C00026
+            R12216  C00026 -> C00042
+COMPOUND    C00047  L-Lysine
+            C00739  D-Lysine
+            C03239  6-Amino-2-oxohexanoate
+            C04092  Delta1-Piperideine-2-carboxylate
+            C00408  L-Pipecolate
+            C00450  (S)-2,3,4,5-Tetrahydropyridine-2-carboxylate
+            C04076  L-2-Aminoadipate 6-semialdehyde
+            C00956  L-2-Aminoadipate
+            C00322  2-Oxoadipate
+            C01087  (R)-2-Hydroxyglutarate
+            C00026  2-Oxoglutarate
+            C00042  Succinate
+REFERENCE   PMID:31064836
+  AUTHORS   Thompson MG, Blake-Hedges JM, Cruz-Morales P, Barajas JF, Curran SC, Eiben CB, Harris NC, Benites VT, Gin JW, Sharpless WA, Twigg FF, Skyrud W, Krishna RN, Pereira JH, Baidoo EEK, Petzold CJ, Adams PD, Arkin AP, Deutschbauer AM, Keasling JD.
+  TITLE     Massively Parallel Fitness Profiling Reveals Multiple Novel Enzymes in Pseudomonas putida Lysine Metabolism.
+  JOURNAL   mBio 10:e02577-18 (2019)
+            DOI:10.1128/mBio.02577-18
+///

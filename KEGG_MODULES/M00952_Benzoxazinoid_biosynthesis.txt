@@ -1,0 +1,43 @@
+ENTRY       M00952            Pathway   Module
+NAME        Benzoxazinoid biosynthesis, indoleglycerol phosphate => DIMBOA-glucoside
+DEFINITION  K13222 K13223 K13224 K13225 K13226 K13227 K13229 K13230
+ORTHOLOGY   K13222  BX1; indole-3-glycerol-phosphate lyase [EC:4.1.2.8] [RN:R02340]
+            K13223  BX2; indole-2-monooxygenase [EC:1.14.14.153] [RN:R07403]
+            K13224  BX3; indolin-2-one monooxygenase [EC:1.14.14.157] [RN:R07421]
+            K13225  BX4; 3-hydroxyindolin-2-one monooxygenase [EC:1.14.14.109] [RN:R07422]
+            K13226  BX5; 2-hydroxy-1,4-benzoxazin-3-one monooxygenase [EC:1.14.14.110] [RN:R07423]
+            K13227  BX8_9; UDP-glucosyltransferase BX8/BX9 [EC:2.4.1.202] [RN:R07426]
+            K13229  BX6; 2,4-dihydroxy-1,4-benzoxazin-3-one-glucoside dioxygenase [EC:1.14.11.59] [RN:R08972]
+            K13230  BX7; 2,4,7-trihydroxy-1,4-benzoxazin-3-one-glucoside 7-O-methyltransferase [EC:2.1.1.241] [RN:R08973]
+CLASS       Pathway modules; Biosynthesis of other secondary metabolites; Biosynthesis of phytochemical compounds
+PATHWAY     map00999  Biosynthesis of various plant secondary metabolites
+            map01100  Metabolic pathways
+            map01110  Biosynthesis of secondary metabolites
+REACTION    R02340  C03506 -> C00463
+            R07403  C00463 -> C12312
+            R07421  C12312 -> C11130
+            R07422  C11130 -> C15769
+            R07423  C15769 -> C15770
+            R07426  C15770 -> C15772
+            R08972  C15772 -> C18062
+            R08973  C18062 -> C04831
+COMPOUND    C03506  Indoleglycerol phosphate
+            C00463  Indole
+            C12312  Indolin-2-one
+            C11130  3-Hydroxyindolin-2-one
+            C15769  HBOA
+            C15770  DIBOA
+            C15772  DIBOA-glucoside
+            C18062  TRIBOA-glucoside
+            C04831  DIMBOA-glucoside
+REFERENCE   PMID:19577780
+  AUTHORS   Frey M, Schullehner K, Dick R, Fiesselmann A, Gierl A
+  TITLE     Benzoxazinoid biosynthesis, a model for evolution of secondary metabolic pathways in plants.
+  JOURNAL   Phytochemistry 70:1645-51 (2009)
+            DOI:10.1016/j.phytochem.2009.05.012
+REFERENCE   PMID:18192444
+  AUTHORS   Jonczyk R, Schmidt H, Osterrieder A, Fiesselmann A, Schullehner K, Haslbeck M, Sicker D, Hofmann D, Yalpani N, Simmons C, Frey M, Gierl A
+  TITLE     Elucidation of the final reactions of DIMBOA-glucoside biosynthesis in maize: characterization of Bx6 and Bx7.
+  JOURNAL   Plant Physiol 146:1053-63 (2008)
+            DOI:10.1104/pp.107.111237
+///

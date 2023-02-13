@@ -1,0 +1,36 @@
+ENTRY       M00956            Pathway   Module
+NAME        Lysine degradation, bacteria, L-lysine => succinate
+DEFINITION  K01582 K09251 K00137 K07250 K00135 K15737 K15736
+ORTHOLOGY   K01582  lysine decarboxylase [EC:4.1.1.18] [RN:R00462]
+            K09251  putrescine aminotransferase [EC:2.6.1.82] [RN:R12214]
+            K00137  aminobutyraldehyde dehydrogenase [EC:1.2.1.19] [RN:R12215]
+            K07250  5-aminovalerate aminotransferase [EC:2.6.1.48] [RN:R02274]
+            K00135  glutarate-semialdehyde dehydrogenase [EC:1.2.1.20] [RN:R02401]
+            K15737  glutarate dioxygenase [EC:1.14.11.64] [RN:R12216]
+            K15736  (S)-2-hydroxyglutarate dehydrogenase [EC:1.1.5.13] [RN:R12217]
+CLASS       Pathway modules; Amino acid metabolism; Lysine metabolism
+PATHWAY     map00310  Lysine degradation
+            map01100  Metabolic pathways
+            map01120  Microbial metabolism in diverse environments
+REACTION    R00462  C00047 -> C01672
+            R12214  C01672 -> C12455
+            R12215  C12455 -> C00431
+            R02274  C00431 -> C03273
+            R02401  C03273 -> C00489
+            R12216  C00489 + C00026 -> C03196 + C00042
+            R12217  C03196 -> C00026
+COMPOUND    C00047  L-Lysine
+            C01672  Cadaverine
+            C12455  5-Aminopentanal
+            C00431  5-Aminopentanoate
+            C03273  5-Oxopentanoate
+            C00489  Glutarate
+            C00026  2-Oxoglutarate
+            C03196  (S)-2-Hydroxyglutarate
+            C00042  Succinate
+REFERENCE   PMID:30498244
+  AUTHORS   Knorr S, Sinn M, Galetskiy D, Williams RM, Wang C, Muller N, Mayans O, Schleheck D, Hartig JS
+  TITLE     Widespread bacterial lysine degradation proceeding via glutarate and L-2-hydroxyglutarate.
+  JOURNAL   Nat Commun 9:5071 (2018)
+            DOI:10.1038/s41467-018-07563-6
+///

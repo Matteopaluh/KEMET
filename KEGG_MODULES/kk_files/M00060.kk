@@ -2,7 +2,7 @@ M00060_KDO2-lipid A biosynthesis, Raetz pathway, LpxL-LpxM type
 K00677
 K02535
 K02536
-K03269
+K03269, K09949
 K00748
 K00912
 K02527

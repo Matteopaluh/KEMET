@@ -1,0 +1,40 @@
+ENTRY       M00967            Pathway   Module
+NAME        Flavone degradation, luteolin/apigenin => DHCA/phloretate
+DEFINITION  K26176 K26178 K22906
+ORTHOLOGY   K26176  flavone/flavonol reductase [RN:R13069 R13066]
+            K26178  flavanone/flavanol-cleaving reductase [RN:R13072 R13073]
+            K22906  phloretin hydrolase [EC:3.7.1.4] [RN:R13082 R02901]
+CLASS       Pathway modules; Biosynthesis of other secondary metabolites; Biosynthesis of phytochemical compounds
+PATHWAY     map00946  Degradation of flavonoids
+            map01100  Metabolic pathways
+REACTION    R13069  C01514 -> C05631
+            R13072  C05631 -> C22567
+            R13082  C22567 -> C10447 + C02183
+            R13066  C01477 -> C00509
+            R13073  C00509 -> C00774
+            R02901  C00774 -> C01744 + C02183
+COMPOUND    C01514  Luteolin
+            C05631  Eriodictyol
+            C22567  3-Hydroxyphloretin
+            C10447  3,4-Dihydroxyphenylpropanoate
+            C02183  Phloroglucinol
+            C01477  Apigenin
+            C00509  Naringenin
+            C00774  Phloretin
+            C01744  Phloretate
+REFERENCE   PMID:33542233
+  AUTHORS   Yang G, Hong S, Yang P, Sun Y, Wang Y, Zhang P, Jiang W, Gu Y.
+  TITLE     Discovery of an ene-reductase for initiating flavone and flavonol catabolism in gut bacteria.
+  JOURNAL   Nat Commun 12:790 (2021)
+            DOI:10.1038/s41467-021-20974-2
+REFERENCE   PMID:31375488
+  AUTHORS   Braune A, Gutschow M, Blaut M.
+  TITLE     An NADH-Dependent Reductase from Eubacterium ramulus Catalyzes the Stereospecific Heteroring Cleavage of Flavanones and Flavanonols.
+  JOURNAL   Appl Environ Microbiol 85:e01233-19 (2019)
+            DOI:10.1128/AEM.01233-19
+REFERENCE   PMID:15466559
+  AUTHORS   Schoefer L, Braune A, Blaut M
+  TITLE     Cloning and expression of a phloretin hydrolase gene from Eubacterium ramulus and characterization of the recombinant enzyme.
+  JOURNAL   Appl Environ Microbiol 70:6131-7 (2004)
+            DOI:10.1128/AEM.70.10.6131-6137.2004
+///

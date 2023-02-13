@@ -1,4 +1,4 @@
-M00944_Morphine_biosynthesis.txt
+M00944_Morphine_biosynthesis
 K22093
 K13391
 K13392

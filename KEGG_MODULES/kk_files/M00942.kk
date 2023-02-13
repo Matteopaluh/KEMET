@@ -1,4 +1,4 @@
-M00942_Pterocarpan_biosynthesis.txt
+M00942_Pterocarpan_biosynthesis
 K13259
 K13260
 K05281

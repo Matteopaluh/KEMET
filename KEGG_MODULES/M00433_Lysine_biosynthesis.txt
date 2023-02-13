@@ -1,6 +1,6 @@
 ENTRY       M00433            Pathway   Module
 NAME        Lysine biosynthesis, 2-oxoglutarate => 2-oxoadipate
-DEFINITION  K01655 (K17450 K01705,(K16792+K16793)) K05824
+DEFINITION  K01655 (K17450 K01705,K16792+K16793) K05824
 ORTHOLOGY   K01655  homocitrate synthase [EC:2.3.3.14] [RN:R00271]
             K17450,K01705,K16792,K16793  homoaconitase [EC:4.2.1.- 4.2.1.36 4.2.1.114] [RN:R03444 R04371 R09720]
             K05824  homoisocitrate dehydrogenase [EC:1.1.1.87] [RN:R01934]

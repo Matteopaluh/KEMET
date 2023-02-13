@@ -1,0 +1,33 @@
+ENTRY       M00883            Pathway   Module
+NAME        Lipoic acid biosynthesis, animals and bacteria, octanoyl-ACP => dihydrolipoyl-H => dihydrolipoyl-E2
+DEFINITION  (K23735,K23734) K03644 (K10105,K16869)
+ORTHOLOGY   K23735,K23734  LIPT2,lipM; lipoyl(octanoyl) transferase [EC:2.3.1.181] [RN:R12428]
+            K03644  LIAS,lipA; lipoyl synthase [EC:2.8.1.8] [RN:R12424]
+            K10105,K16869  LIPT1,lipL; octanoyl-[GcvH]:protein N-octanoyltransferase [EC:2.3.1.204] [RN:R12432]
+CLASS       Pathway modules; Metabolism of cofactors and vitamins; Cofactor and vitamin metabolism
+PATHWAY     map00785  Lipoic acid metabolism
+            map01240  Biosynthesis of cofactors
+            map01100  Metabolic pathways
+REACTION    R12428  C05752 -> C22159
+            R12424  C22159 -> C02972
+            R12432  C02972 -> C15973
+COMPOUND    C05752  Octanoyl-[acp]
+            C22159  [Glycine cleavage system H]-N6-octanoyl-L-lysine
+            C02972  [Glycine cleavage system H]-N6-[(R)-dihydrolipoyl]-L-lysine
+            C15973  [Lipoyl-carrier protein E2]-N6-[(R)-dihydrolipoyl]-L-lysine
+REFERENCE   PMID:29191830
+  AUTHORS   Solmonson A, DeBerardinis RJ
+  TITLE     Lipoic acid metabolism and mitochondrial redox regulation.
+  JOURNAL   J Biol Chem 293:7522-7530 (2018)
+            DOI:10.1074/jbc.TM117.000259
+REFERENCE   PMID:24777537
+  AUTHORS   Mayr JA, Feichtinger RG, Tort F, Ribes A, Sperl W
+  TITLE     Lipoic acid biosynthesis defects.
+  JOURNAL   J Inherit Metab Dis 37:553-63 (2014)
+            DOI:10.1007/s10545-014-9705-8
+REFERENCE   PMID:21338421
+  AUTHORS   Christensen QH, Martin N, Mansilla MC, de Mendoza D, Cronan JE
+  TITLE     A novel amidotransferase required for lipoic acid cofactor assembly in Bacillus subtilis.
+  JOURNAL   Mol Microbiol 80:350-63 (2011)
+            DOI:10.1111/j.1365-2958.2011.07598.x
+///

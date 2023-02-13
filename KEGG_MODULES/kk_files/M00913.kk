@@ -1,4 +1,4 @@
-M00913_Pantothenate_biosynthesis.txt
+M00913_Pantothenate_biosynthesis
 /
 K00606
 K00077

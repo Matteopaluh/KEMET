@@ -1,0 +1,25 @@
+ENTRY       M00966            Pathway   Module
+NAME        Equol biosynthesis, daidzein => equol
+DEFINITION  K26069 K26175 K26070 K26071
+ORTHOLOGY   K26069  daidzein reductase [EC:1.3.1.-] [RN:R13054]
+            K26175  dihydrodaizein racemase [EC:5.1.-.-] [RN:R13055]
+            K26070  dihydrodaidzein reductase [EC:1.1.1.-] [RN:R13056]
+            K26071  tetrahydrodaidzein reductase [RN:R13057]
+CLASS       Pathway modules; Biosynthesis of other secondary metabolites; Biosynthesis of phytochemical compounds
+PATHWAY     map00946  Degradation of flavonoids
+            map01100  Metabolic pathways
+REACTION    R13054  C10208 -> C22556
+            R13055  C22556 -> C22557
+            R13056  C22557 -> C22558
+            R13057  C22558 -> C14131
+COMPOUND    C10208  Daidzein
+            C22556  (R)-Dihydrodaidzein
+            C22557  (S)-Dihydrodaidzein
+            C22558  (3S,4R)-Tetrahydrodaidzein
+            C14131  Equol
+REFERENCE   PMID:22582059
+  AUTHORS   Shimada Y, Takahashi M, Miyazawa N, Abiru Y, Uchiyama S, Hishigaki H
+  TITLE     Identification of a novel dihydrodaidzein racemase essential for biosynthesis of equol from daidzein in Lactococcus sp. strain 20-92.
+  JOURNAL   Appl Environ Microbiol 78:4902-7 (2012)
+            DOI:10.1128/AEM.00410-12
+///

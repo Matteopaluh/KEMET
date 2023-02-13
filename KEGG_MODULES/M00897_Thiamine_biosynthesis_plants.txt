@@ -1,0 +1,36 @@
+ENTRY       M00897            Pathway   Module
+NAME        Thiamine biosynthesis, plants, AIR (+ NAD+) => TMP/thiamine/TPP
+DEFINITION  K03146
+            K03147 K14153 K22911 K00949
+ORTHOLOGY   K03146  THI1; cysteine-dependent adenosine diphosphate thiazole synthase [EC:2.4.2.60] [RN:R10685]
+            K03147  THIC; phosphomethylpyrimidine synthase [EC:4.1.99.17] [RN:R03472]
+            K14153  TH1; phosphomethylpyrimidine kinase / thiamine-phosphate diphosphorylase [EC:2.7.4.7 2.5.1.3] [RN:R04509 R10712]
+            K22911  TH2; thiamine phosphate phosphatase [EC:3.1.3.100] [RN:R02135]
+            K00949  TPK1; thiamine pyrophosphokinase [EC:2.7.6.2] [RN:R00619]
+CLASS       Pathway modules; Metabolism of cofactors and vitamins; Cofactor and vitamin metabolism
+PATHWAY     map00730  Thiamine metabolism
+            map01240  Biosynthesis of cofactors
+            map01100  Metabolic pathways
+REACTION    R10685  C00037 + C00003 -> C20784
+            R10711  C20784 -> C20247
+            R03472  C03373 -> C04556
+            R04509  C04556 -> C04752
+            R10712  C04752 + C20247 -> C01081
+            R02135  C01081 -> C00378
+            R00619  C00378 -> C00068
+COMPOUND    C00037  Glycine
+            C00003  NAD+
+            C20784  ADP-5-ethyl-4-methylthiazole-2-carboxylate
+            C20247  2-(2-Carboxy-4-methylthiazol-5-yl)ethyl phosphate
+            C03373  Aminoimidazole ribotide
+            C04556  4-Amino-2-methyl-5-(phosphooxymethyl)pyrimidine
+            C04752  4-Amino-5-hydroxymethyl-2-methylpyrimidine diphosphate
+            C01081  Thiamin monophosphate
+            C00378  Thiamine
+            C00068  Thiamin diphosphate
+REFERENCE   PMID:20655074
+  AUTHORS   Goyer A
+  TITLE     Thiamine in plants: aspects of its metabolism and functions.
+  JOURNAL   Phytochemistry 71:1615-24 (2010)
+            DOI:10.1016/j.phytochem.2010.06.022
+///

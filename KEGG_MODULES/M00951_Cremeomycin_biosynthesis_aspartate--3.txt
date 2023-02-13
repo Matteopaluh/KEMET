@@ -1,0 +1,32 @@
+ENTRY       M00951            Pathway   Module
+NAME        Cremeomycin biosynthesis, aspartate/3,4-AHBA => cremeomycin
+DEFINITION  K25562 K25597
+            K25563 K25594 
+            K25598
+ORTHOLOGY   K25562  creE; L-aspartate N-monooxygenase (nitrosuccinate-forming) [EC:1.14.13.248] [RN:R12907]
+            K25597  creD; nitrosuccinate lyase [EC:4.3.99.5] [RN:R12947]
+            K25563  creL; 3-amino-4-hydroxybenzoate 2-monooxygenase [EC:1.14.13.249] [RN:R12912]
+            K25594  creN; 3-amino-4-hydroxybenzoate 4-O-methyltransferase [EC:2.1.1.380] [RN:R12928]
+            K25598  creM; 3-amino-2-hydroxy-4-methoxybenzoate diazotase [EC:6.7.1.1] [RN:R12943]
+CLASS       Pathway modules; Biosynthesis of other secondary metabolites; Biosynthesis of other antibiotics
+PATHWAY     map00998  Biosynthesis of various antibiotics
+            map01100  Metabolic pathways
+            map01110  Biosynthesis of secondary metabolites
+REACTION    R12907  C00049 -> C22388
+            R12947  C22388 -> C00088
+            R12912  C12115 -> C22455
+            R12928  C22455 -> C22425
+            R12943  C00088 + C22425 -> C22416
+COMPOUND    C00049  L-Aspartate
+            C22388  (2S)-2-Nitrobutanedioate
+            C00088  Nitrite
+            C12115  3-Amino-4-hydroxybenzoate
+            C22455  3-Amino-2,4-dihydroxybenzoate
+            C22425  3-Amino-2-hydroxy-4-methoxybenzoate
+            C22416  Cremeomycin
+REFERENCE   PMID:26278892
+  AUTHORS   Waldman AJ, Pechersky Y, Wang P, Wang JX, Balskus EP.
+  TITLE     The Cremeomycin Biosynthetic Gene Cluster Encodes a Pathway for Diazo Formation.
+  JOURNAL   Chembiochem 16:2172-5 (2015)
+            DOI:10.1002/cbic.201500407
+///

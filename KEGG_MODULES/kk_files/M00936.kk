@@ -1,4 +1,4 @@
-M00936_Melatonin_biosynthesis_plants.txt
+M00936_Melatonin_biosynthesis_plants
 K01593
 K24541
 K22450

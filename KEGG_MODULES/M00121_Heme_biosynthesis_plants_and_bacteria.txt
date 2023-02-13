@@ -1,7 +1,7 @@
 ENTRY       M00121            Pathway   Module
 NAME        Heme biosynthesis, plants and bacteria, glutamate => heme
-DEFINITION  (K01885,K14163) K02492 K01845 K01698 K01749 (K01719,K13542,K13543) K01599 (K00228,K02495) (K00230,K00231) K01772
-ORTHOLOGY   K01885,K14163  glutamyl-tRNA synthetase [EC:6.1.1.17] [RN:R05578]
+DEFINITION  K01885 K02492 K01845 K01698 K01749 (K01719,K13542,K13543) K01599 (K00228,K02495) (K00230,K00231,K08973) K01772
+ORTHOLOGY   K01885  glutamyl-tRNA synthetase [EC:6.1.1.17] [RN:R05578]
             K02492  glutamyl-tRNA reductase [EC:1.2.1.70] [RN:R04109]
             K01845  glutamate-1-semialdehyde 2,1-aminomutase [EC:5.4.3.8] [RN:R02272]
             K01698  porphobilinogen synthase [EC:4.2.1.24] [RN:R00036]
@@ -12,9 +12,11 @@ ORTHOLOGY   K01885,K14163  glutamyl-tRNA synthetase [EC:6.1.1.17] [RN:R05578]
             K02495  oxygen-independent coproporphyrinogen III oxidase [EC:1.3.98.3] [RN:R06895]
             K00230  menaquinone-dependent protoporphyrinogen oxidase [EC:1.3.5.3] [RN:R09489]
             K00231  protoporphyrinogen oxidase [EC:1.3.3.4] [RN:R03222]
+            K08973  protoporphyrinogen IX oxidase [EC:1.3.99.-] [RN:R12605]
             K01772  ferrochelatase [EC:4.99.1.1] [RN:R00310]
 CLASS       Pathway modules; Metabolism of cofactors and vitamins; Cofactor and vitamin metabolism
-PATHWAY     map00860  Porphyrin and chlorophyll metabolism
+PATHWAY     map00860  Porphyrin metabolism
+            map01240  Biosynthesis of cofactors
             map01100  Metabolic pathways
             map01110  Biosynthesis of secondary metabolites
 REACTION    R05578  C00025 -> C02987
@@ -25,7 +27,7 @@ REACTION    R05578  C00025 -> C02987
             R03165  C01024 -> C01051
             R03197  C01051 -> C03263
             R03220,R06895  C03263 -> C01079
-            R03222,R09489  C01079 -> C02191
+            R03222,R09489,R12605  C01079 -> C02191
             R00310  C02191 -> C00032
 COMPOUND    C00025  L-Glutamate
             C02987  L-Glutamyl-tRNA(Glu)
@@ -38,9 +40,14 @@ COMPOUND    C00025  L-Glutamate
             C01079  Protoporphyrinogen IX
             C02191  Protoporphyrin
             C00032  Heme
-REFERENCE   PMID:10217486
-  AUTHORS   Johansson P, Hederstedt L
-  TITLE     Organization of genes for tetrapyrrole biosynthesis in gram--positive bacteria.
-  JOURNAL   Microbiology 145 ( Pt 3):529-38 (1999)
-            DOI:10.1099/13500872-145-3-529
+REFERENCE   PMID:28123057
+  AUTHORS   Dailey HA, Dailey TA, Gerdes S, Jahn D, Jahn M, O'Brian MR, Warren MJ
+  TITLE     Prokaryotic Heme Biosynthesis: Multiple Pathways to a Common Essential Product.
+  JOURNAL   Microbiol Mol Biol Rev 81:e00048-16 (2017)
+            DOI:10.1128/MMBR.00048-16
+REFERENCE   PMID:32241908
+  AUTHORS   Bryant DA, Hunter CN, Warren MJ
+  TITLE     Biosynthesis of the modified tetrapyrroles-the pigments of life.
+  JOURNAL   J Biol Chem 295:6888-6925 (2020)
+            DOI:10.1074/jbc.REV120.006194
 ///

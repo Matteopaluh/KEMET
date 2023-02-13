@@ -1,9 +1,8 @@
 ENTRY       M00042            Pathway   Module
 NAME        Catecholamine biosynthesis, tyrosine => dopamine => noradrenaline => adrenaline
-DEFINITION  (K00505,K00501) (K01592,K01593) K00503 K00553
+DEFINITION  (K00505,K00501) K01593 K00503 K00553
 ORTHOLOGY   K00505  tyrosinase [EC:1.14.18.1] [RN:R00731]
             K00501  tyrosine 3-monooxygenase [EC:1.14.16.2] [RN:R01815]
-            K01592  tyrosine decarboxylase [EC:4.1.1.25] [RN:R02080]
             K01593  aromatic-L-amino-acid decarboxylase [EC:4.1.1.28] [RN:R02080]
             K00503  dopamine beta-monooxygenase [EC:1.14.17.1] [RN:R02535]
             K00553  phenylethanolamine N-methyltransferase [EC:2.1.1.28] [RN:R02533]

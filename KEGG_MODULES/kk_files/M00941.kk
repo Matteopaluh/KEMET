@@ -1,3 +1,3 @@
-M00941_Isoflavone_biosynthesis.txt
+M00941_Isoflavone_biosynthesis
 K13257
 K13258

@@ -1,17 +1,18 @@
 ENTRY       M00785            Pathway   Module
 NAME        Cycloserine biosynthesis, arginine/serine => cycloserine
 DEFINITION  K19741 K19723
-            K19726 K19725 K19724 K19727
+            K19726 
+            K19725 K19724 K19727
 ORTHOLOGY   K19741  dcsA; Nomega-hydroxy-L-arginine synthase [EC1.14.-.-] [RN:R11033]
             K19723  dcsB; Nomega-hydroxy-L-arginine amidinohydrolase [EC:3.5.3.25] [RN:R10466]
             K19726  dcsE; serine/homoserine O-acetyltransferase [EC:2.3.1.30 2.3.1.31] [RN:R00586]
             K19725  dcsD; O-ureido-L-serine/cysteine synthase [EC:2.6.99.3 2.5.1.47] [RN:R10461]
             K19724  dcsC; O-ureido-serine racemase [EC:5.1.1.19] [RN:R10488]
             K19727  dcsG; O-ureido-D-serine cyclo-ligase [EC:6.3.3.5] [RN:R10470]
-CLASS       Pathway modules; Biosynthesis of other secondary metabolites; Biosynthesis of other secondary metabolites
-PATHWAY     map00997  Biosynthesis of various secondary metabolites - part 3
+CLASS       Pathway modules; Biosynthesis of other secondary metabolites; Biosynthesis of other antibiotics
+PATHWAY     map00998  Biosynthesis of various antibiotics
             map01100  Metabolic pathways
-            map01130  Biosynthesis of antibiotics
+            map01110  Biosynthesis of secondary metabolites
 REACTION    R11033  C00062 -> C05933
             R10466  C05933 -> C07044 + C00077
             R00586  C00065 -> C00979

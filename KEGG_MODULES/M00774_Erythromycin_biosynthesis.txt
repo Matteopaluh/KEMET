@@ -1,7 +1,7 @@
 ENTRY       M00774            Pathway   Module
 NAME        Erythromycin biosynthesis, propanoyl-CoA + methylmalonyl-CoA => deoxyerythronolide B => erythromycin A/B
-DEFINITION  K10817 K14366 K14367 (K14368+K15997) K14370 K14369
-ORTHOLOGY   K10817  eryA; 6-deoxyerythronolide-B synthase [EC:2.3.1.94] [RN:R00918]
+DEFINITION  K10817+K24563+K24564 K14366 K14367 K14368+K15997 K14370 K14369
+ORTHOLOGY   K10817,K24563,K24564  eryA; 6-deoxyerythronolide-B synthase [EC:2.3.1.94] [RN:R00918]
             K14366  eryF; 6-deoxyerythronolide B hydroxylase [EC:1.14.15.35] [RN:R05270]
             K14367  eryBV; erythronolide mycarosyltransferase [EC:2.4.1.328] [RN:R05530]
             K14368  eryCIII; 3-alpha-mycarosylerythronolide B desosaminyl transferase [EC:2.4.1.278] [RN:R05531]

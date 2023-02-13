@@ -1,16 +1,18 @@
 ENTRY       M00847            Pathway   Module
 NAME        Heme biosynthesis, archaea, siroheme => heme
-DEFINITION  K22225 K22226 K22227
+DEFINITION  K22225 K22226 (K22227,K25033)
 ORTHOLOGY   K22225  ahbAB; siroheme decarboxylase [EC:4.1.1.111] [RN:R12000]
             K22226  ahbC; 12,18-didecarboxysiroheme decarboxylase [RN:R12001]
             K22227  ahbD; AdoMet-dependent heme synthase [EC:1.3.98.6] [RN:R12002]
+            K25033  chdC; hydrogen peroxide-dependent heme synthase [EC:1.3.98.5] [RN:R11522]
 CLASS       Pathway modules; Metabolism of cofactors and vitamins; Cofactor and vitamin metabolism
-PATHWAY     map00860  Porphyrin and chlorophyll metabolism
+PATHWAY     map00860  Porphyrin metabolism
+            map01240  Biosynthesis of cofactors
             map01100  Metabolic pathways
             map01110  Biosynthesis of secondary metabolites
 REACTION    R12000  C00748 -> C21835
             R12001  C21835 -> C21284
-            R12002  C21284 -> C00032
+            R12002,R11522  C21284 -> C00032
 COMPOUND    C00748  Siroheme
             C21835  12,18-Didecarboxysiroheme
             C21284  Fe-coproporphyrin III

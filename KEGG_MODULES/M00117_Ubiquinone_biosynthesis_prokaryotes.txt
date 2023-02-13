@@ -1,36 +1,43 @@
 ENTRY       M00117            Pathway   Module
-NAME        Ubiquinone biosynthesis, prokaryotes, chorismate => ubiquinone
-DEFINITION  (K03181,K18240) K03179 (K03182+K03186) K18800 K00568 K03185 K03183 K03184 K00568
-ORTHOLOGY   K03181,K18240  chorismate lyase [EC:4.1.3.40] [RN:R01302]
-            K03179  4-hydroxybenzoate polyprenyltransferase [EC:2.5.1.39] [RN:R05000]
-            K03186,K03182  4-hydroxy-3-polyprenylbenzoate decarboxylase [EC:4.1.1.98] [RN:R04985]
-            K18800  2-polyprenylphenol 6-hydroxylase [EC:1.14.13.240] [RN:R08768]
-            K00568  2-polyprenyl-6-hydroxyphenyl methylase [EC:2.1.1.222] [RN:R08769]
-            K03185  2-octaprenyl-6-methoxyphenol hydroxylase [EC:1.14.13.-] [RN:R08773]
-            K03183  2-methoxy-6-polyprenyl-1,4-benzoquinol methylase [EC:2.1.1.201] [RN:R08774]
-            K03184  3-demethoxyubiquinol 3-hydroxylase [EC:1.14.99.60] [RN:R08775]
-            K00568  3-demethylubiquinone-9 3-methyltransferase [EC:2.1.1.64] [RN:R08781]
+NAME        Ubiquinone biosynthesis, prokaryotes, chorismate (+ polyprenyl-PP) => ubiquinol
+DEFINITION  (K03181,K18240) K03179 (K03182+K03186) K18800 K00568 K03185 K03183 (K03184,K06134) K00568
+ORTHOLOGY   K03181,K18240  ubiC, xanB2; chorismate lyase [EC:4.1.3.40] [RN:R01302]
+            K03179  ubiA; 4-hydroxybenzoate polyprenyltransferase [EC:2.5.1.39] [RN:R05000]
+            K03182  ubiD; 4-hydroxy-3-polyprenylbenzoate decarboxylase [EC:4.1.1.98] [RN:R04985]
+            K03186  ubiX; flavin prenyltransferase [EC:2.5.1.129]
+            K18800  ubiI; 2-polyprenylphenol 6-hydroxylase [EC:1.14.13.240] [RN:R08768]
+            K00568  ubiG; 2-polyprenyl-6-hydroxyphenyl methylase / 3-demethylubiquinone-9 3-methyltransferase [EC:2.1.1.222 2.1.1.64] [RN:R08769 R12657]
+            K03185  ubiH; 2-octaprenyl-6-methoxyphenol hydroxylase [EC:1.14.13.-] [RN:R12658]
+            K03183  ubiE; 2-methoxy-6-polyprenyl-1,4-benzoquinol methylase [EC:2.1.1.201] [RN:R09737]
+            K03184,K06134  ubiF; 3-demethoxyubiquinol 3-hydroxylase [EC:1.14.99.60] [RN:R12067]
 CLASS       Pathway modules; Metabolism of cofactors and vitamins; Cofactor and vitamin metabolism
 PATHWAY     map00130  Ubiquinone and other terpenoid-quinone biosynthesis
+            map01240  Biosynthesis of cofactors
             map01100  Metabolic pathways
             map01110  Biosynthesis of secondary metabolites
 REACTION    R01302  C00251 -> C00156
-            R05000  C00156 -> C05848
+            R05000  C00156 + C05847 -> C05848
             R04985  C05848 -> C05807
             R08768  C05807 -> C17551
             R08769  C17551 -> C17552
-            R08773  C17552 -> C17560
-            R08774  C17560 -> C17561
-            R08775  C17561 -> C17562
-            R08781  C17562 -> C00399
+            R12658  C17552 -> C19858
+            R09737  C19858 -> C19859
+            R12067  C19859 -> C21860
+            R12657  C21860 -> C00390
 COMPOUND    C00251  Chorismate
             C00156  4-Hydroxybenzoate
+            C05847  all-trans-Polyprenyl diphosphate
             C05848  4-Hydroxy-3-polyprenylbenzoate
             C05807  2-Polyprenylphenol
             C17551  2-Polyprenyl-6-hydroxyphenol
             C17552  2-Polyprenyl-6-methoxyphenol
-            C17560  2-Polyprenyl-6-methoxy-1,4-benzoquinone
-            C17561  2-Polyprenyl-3-methyl-6-methoxy-1,4-benzoquinone
-            C17562  2-Polyprenyl-3-methyl-5-hydroxy-6-methoxy-1,4-benzoquinone
-            C00399  Ubiquinone
+            C19858  2-Methoxy-6-all-trans-polyprenyl-1,4-benzoquinol
+            C19859  6-Methoxy-3-methyl-2-all-trans-polyprenyl-1,4-benzoquinol
+            C21860  3-Demethylubiquinol
+            C00390  Ubiquinol
+REFERENCE   PMID:24480387
+  AUTHORS   Aussel L, Pierrel F, Loiseau L, Lombard M, Fontecave M, Barras F
+  TITLE     Biosynthesis and physiology of coenzyme Q in bacteria.
+  JOURNAL   Biochim Biophys Acta 1837:1004-11 (2014)
+            DOI:10.1016/j.bbabio.2014.01.015
 ///

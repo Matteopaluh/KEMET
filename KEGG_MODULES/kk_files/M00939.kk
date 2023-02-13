@@ -1,4 +1,4 @@
-M00939_Pyrimidine_degradation.txt
+M00939_Pyrimidine_degradation
 K09018, K09024
 K09020
 K09021

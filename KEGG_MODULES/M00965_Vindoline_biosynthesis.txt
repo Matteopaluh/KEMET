@@ -1,0 +1,40 @@
+ENTRY       M00965            Pathway   Module
+NAME        Vindoline biosynthesis, tabersonine => vindoline
+DEFINITION  K12696 K21895 K22365 K22323 K21896 K12697 K12698
+ORTHOLOGY   K12696  tabersonine 16-hydroxylase [EC:1.14.14.103] [RN:R05855]
+            K21895  tabersonine 16-O-methyltransferase [EC:2.1.1.94] [RN:R05885]
+            K22365  tabersonine 3-oxygenase [EC:1.14.14.50] [RN:R11810]
+            K22323  3-hydroxy-1,2-didehydro-2,3-dihydrotabersonine reductase [EC:1.1.99.41] [RN:R11777]
+            K21896  3-hydroxy-16-methoxy-2,3-dihydrotabersonine N-methyltransferase [EC:2.1.1.99] [RN:R04013]
+            K12697  deacetoxyvindoline 4-hydroxylase [EC:1.14.11.20] [RN:R05857]
+            K12698  deacetylvindoline O-acetyltransferase [EC:2.3.1.107] [RN:R03230]
+CLASS       Pathway modules; Biosynthesis of other secondary metabolites; Biosynthesis of phytochemical compounds
+PATHWAY     map00901  Indole alkaloid biosynthesis
+            map01100  Metabolic pathways
+            map01110  Biosynthesis of secondary metabolites
+REACTION    R05855  C09244 -> C11643
+            R05885  C11643 -> C11675
+            R11810  C11675 -> C21678
+            R11777  C21678 -> C04578
+            R04013  C04578 -> C02673
+            R05857  C02673 -> C01091
+            R03230  C01091 -> C01626
+COMPOUND    C09244  Tabersonine
+            C11643  16-Hydroxytabersonine
+            C11675  16-Methoxytabersonine
+            C21678  (3R)-3-Hydroxy-16-methoxy-1,2-didehydro-2,3-dihydrotabersonine
+            C04578  16-Methoxy-2,3-dihydro-3-hydroxytabersonine
+            C02673  Desacetoxyvindoline
+            C01091  Deacetylvindoline
+            C01626  Vindoline
+REFERENCE   PMID:29442186
+  AUTHORS   Ahmad B, Banerjee A, Tiwari H, Jana S, Bose S, Chakrabarti S
+  TITLE     Structural and functional characterization of the Vindoline biosynthesis pathway enzymes of Catharanthus roseus.
+  JOURNAL   J Mol Model 24:53 (2018)
+            DOI:10.1007/s00894-018-3590-2
+REFERENCE   PMID:9290645
+  AUTHORS   Vazquez-Flota F, De Carolis E, Alarco AM, De Luca V
+  TITLE     Molecular cloning and characterization of desacetoxyvindoline-4-hydroxylase, a 2-oxoglutarate dependent-dioxygenase involved in the biosynthesis of vindoline in Catharanthus roseus (L.) G. Don.
+  JOURNAL   Plant Mol Biol 34:935-48 (1997)
+            DOI:10.1023/A:1005894001516
+///

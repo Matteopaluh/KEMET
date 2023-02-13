@@ -1,4 +1,4 @@
-M00917_Phytosterol_biosynthesis_squalene_2.txt
+M00917_Phytosterol_biosynthesis_squalene_2
 /
 K01853
 K00559

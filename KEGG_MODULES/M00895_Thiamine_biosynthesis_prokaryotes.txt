@@ -1,0 +1,52 @@
+ENTRY       M00895            Pathway   Module
+NAME        Thiamine biosynthesis, prokaryotes, AIR (+ DXP/glycine) => TMP/TPP
+DEFINITION  K03148+K03154 K03151
+            K03153 K03149 K10810
+            K03147 K00941 K00788 K00946
+ORTHOLOGY   K03148  thiF; sulfur carrier protein ThiS adenylyltransferase [EC:2.7.7.73] [RN:R07459]
+            K03154  thiS; sulfur carrier protein
+            K03151  thiI; tRNA uracil 4-sulfurtransferase [EC:2.8.1.4] [RN:R07461]
+            K03153  thiO; glycine oxidase [EC:1.4.3.19] [RN:R07463]
+            K03149  thiG; thiazole synthase [EC:2.8.1.10] [RN:R10247]
+            K10810  tenI; thiazole tautomerase (transcriptional regulator TenI) [EC:5.3.99.10] [RN:R09977]
+            K03147  thiC; phosphomethylpyrimidine synthase [EC:4.1.99.17] [RN:R03472]
+            K00941  thiD; phosphomethylpyrimidine kinase [EC:2.7.4.7] [RN:R04509]
+            K00788  thiE; thiamine-phosphate pyrophosphorylase [EC:2.5.1.3] [RN:R10712]
+            K00946  thiL; thiamine-monophosphate kinase [EC:2.7.4.16] [RN:R00617]
+CLASS       Pathway modules; Metabolism of cofactors and vitamins; Cofactor and vitamin metabolism
+PATHWAY     map00730  Thiamine metabolism
+            map01240  Biosynthesis of cofactors
+            map01100  Metabolic pathways
+REACTION    R07459  C15810 -> C15813
+            R07461  C15813 -> C15814
+            R07463  C00037 -> C15809
+            R10247  C11437 + C15809 + C15814 -> C20246
+            R09977  C20246 -> C20247
+            R03472  C03373 -> C04556
+            R04509  C04556 -> C04752
+            R10712  C04752 + C20247 -> C01081
+            R00617  C01081 -> C00068
+COMPOUND    C15810  Sulfur-carrier protein
+            C15813  Adenylyl-[sulfur-carrier protein]
+            C15814  Thiocarboxy-[sulfur-carrier protein]
+            C00037  Glycine
+            C15809  Iminoglycine
+            C11437  1-Deoxy-D-xylulose 5-phosphate
+            C20246  2-[(2R,5Z)-2-Carboxy-4-methylthiazol-5(2H)-ylidene]ethyl phosphate
+            C20247  2-(2-Carboxy-4-methylthiazol-5-yl)ethyl phosphate
+            C03373  Aminoimidazole ribotide
+            C04556  4-Amino-2-methyl-5-(phosphooxymethyl)pyrimidine
+            C04752  4-Amino-5-hydroxymethyl-2-methylpyrimidine diphosphate
+            C01081  Thiamin monophosphate
+            C00068  Thiamin diphosphate
+REFERENCE   PMID:10382260
+  AUTHORS   Begley TP, Downs DM, Ealick SE, McLafferty FW, Van Loon AP, Taylor S, Campobasso N, Chiu HJ, Kinsland C, Reddick JJ, Xi J
+  TITLE     Thiamin biosynthesis in prokaryotes.
+  JOURNAL   Arch Microbiol 171:293-300 (1999)
+            DOI:10.1007/s002030050713
+REFERENCE   PMID:19348578
+  AUTHORS   Jurgenson CT, Begley TP, Ealick SE
+  TITLE     The structural and biochemical foundations of thiamin biosynthesis.
+  JOURNAL   Annu Rev Biochem 78:569-603 (2009)
+            DOI:10.1146/annurev.biochem.78.072407.102340
+///

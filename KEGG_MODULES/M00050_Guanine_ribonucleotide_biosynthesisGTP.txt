@@ -1,18 +1,18 @@
 ENTRY       M00050            Pathway   Module
-NAME        Guanine ribonucleotide biosynthesis IMP => GDP,GTP
-DEFINITION  K00088 K01951 K00942 (K00940,K18533,K00873,K12406)
+NAME        Guanine ribonucleotide biosynthesis, IMP => GDP,GTP
+DEFINITION  K00088 K01951 K00942 (K00940,K18533)
 ORTHOLOGY   K00088  IMP dehydrogenase [EC:1.1.1.205] [RN:R01130]
             K01951  GMP synthase [EC:6.3.5.2] [RN:R01230 R01231]
             K00942  guanylate kinase [EC:2.7.4.8] [RN:R00332]
             K00940,K18533  nucleoside-diphosphate kinase [EC:2.7.4.6] [RN:R00330]
-            K00873,K12406  pyruvate kinase [EC:2.7.1.40] [RN:R00430]
 CLASS       Pathway modules; Nucleotide metabolism; Purine metabolism
 PATHWAY     map00230  Purine metabolism
+            map01232  Nucleotide metabolism
             map01100  Metabolic pathways
 REACTION    R01130  C00130 -> C00655
             R01230,R01231  C00655 -> C00144
             R00332  C00144 -> C00035
-            R00330,R00430  C00035 -> C00044
+            R00330  C00035 -> C00044
 COMPOUND    C00130  IMP
             C00655  Xanthosine 5'-phosphate
             C00144  GMP

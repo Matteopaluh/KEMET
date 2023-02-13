@@ -1,0 +1,5 @@
+M00964_Fumigaclavine biosynthesis
+K19182
+K19183
+K19184
+K14135

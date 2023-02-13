@@ -1,4 +1,4 @@
-M00932_Phylloquinone_biosynthesis.txt
+M00932_Phylloquinone_biosynthesis
 K02552, K14759
 K02551, K14759
 K08680, K14759

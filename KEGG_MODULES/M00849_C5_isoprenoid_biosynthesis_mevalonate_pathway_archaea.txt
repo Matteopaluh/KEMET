@@ -1,12 +1,14 @@
 ENTRY       M00849            Pathway   Module
 NAME        C5 isoprenoid biosynthesis, mevalonate pathway, archaea
-DEFINITION  K00626 K01641 (K00021,K00054) ((K00869 K17942),(K18689 K18690 K22813)) K06981 K01823
+DEFINITION  K00626 K01641 (K00021,K00054) ((K00869 (K17942,(K25517+K09128 K25518+K03186))),(K18689 K18690 K22813)) K06981 K01823
 ORTHOLOGY   K00626  acetyl-CoA C-acetyltransferase [EC:2.3.1.9] [RN:R00238]
             K01641  hydroxymethylglutaryl-CoA synthase [EC:2.3.3.10] [RN:R01978]
             K00021  hydroxymethylglutaryl-CoA reductase (NADPH) [EC:1.1.1.34] [RN:R02082]
             K00054  hydroxymethylglutaryl-CoA reductase [EC:1.1.1.88] [RN:R02081]
             K00869  mevalonate kinase [EC:2.7.1.36] [RN:R02245]
             K17942  phosphomevalonate decarboxylase [EC:4.1.1.99] [RN:R10561]
+            K25517,K09128  mevalonate 5-phosphate dehydratase [EC:4.2.1.-] [RN:R12894]
+            K25518,K03186  trans-anhydromevalonate 5-phosphate decarboxylase [EC:4.1.1.-] [RN:R12895]
             K18689  mevalonate-3-kinase [EC:2.7.1.185] [RN:R10779]
             K18690  mevalonate-3-phosphate-5-kinase [EC:2.7.1.186] [RN:R10780]
             K22813  bisphosphomevalonate decarboxylase [EC:4.1.1.110] [RN:R10781]
@@ -21,6 +23,8 @@ REACTION    R00238  C00024 -> C00332
             R02082,R02081  C00356 -> C00418
             R02245  C00418 -> C01107
             R10561  C01107 -> C20345
+            R12894  C01107 -> C22453
+            R12895  C22453 -> C20345
             R10779  C00418 -> C20847
             R10780  C20847 -> C20848
             R10781  C20848 -> C20345
@@ -32,6 +36,7 @@ COMPOUND    C00024  Acetyl-CoA
             C00418  (R)-Mevalonate
             C01107  (R)-5-Phosphomevalonate
             C20345  Isopentenyl phosphate
+            C22453  trans-Anhydromevalonate phosphate
             C20847  (R)-Mevalonate 3-phosphate
             C20848  (R)-Mevalonate 3,5-bisphosphate
             C00129  Isopentenyl diphosphate
@@ -56,4 +61,9 @@ REFERENCE   PMID:16621811
   TITLE     Methanocaldococcus jannaschii uses a modified mevalonate pathway for biosynthesis of isopentenyl diphosphate.
   JOURNAL   J Bacteriol 188:3192-8 (2006)
             DOI:10.1128/JB.188.9.3192-3198.2006
+REFERENCE   PMID:30224495
+  AUTHORS   Hayakawa H, Motoyama K, Sobue F, Ito T, Kawaide H, Yoshimura T, Hemmi H.
+  TITLE     Modified mevalonate pathway of the archaeon Aeropyrum pernix proceeds via trans-anhydromevalonate 5-phosphate.
+  JOURNAL   Proc Natl Acad Sci U S A 115:10034-10039 (2018)
+            DOI:10.1073/pnas.1809154115
 ///

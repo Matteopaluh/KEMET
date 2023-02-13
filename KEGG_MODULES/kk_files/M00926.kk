@@ -1,4 +1,4 @@
-M00926_Heme_biosynthesis_bacteria.txt
+M00926_Heme_biosynthesis_bacteria
 K02492
 K01845
 K01698

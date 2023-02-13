@@ -1,9 +1,9 @@
 ENTRY       M00109            Pathway   Module
 NAME        C21-Steroid hormone biosynthesis, progesterone => cortisol/cortisone
-DEFINITION  K00512 K00513 (K00497,K07433) (K15680,K00071)
+DEFINITION  K00512 K00513 K00497 (K15680,K00071)
 ORTHOLOGY   K00512  cytochrome P450, family 17, subfamily A (steroid [EC:1.14.14.19] [RN:R02211]
             K00513  cytochrome P450, family 21, subfamily A (steroid 21-monooxygenase) [EC:1.14.14.16] [RN:R03326]
-            K00497,K07433  cytochrome P450, family 11, subfamily B1/B2 (steroid 11beta-monooxygenase) [EC:1.14.15.4] [RN:R02843]
+            K00497 cytochrome P450, family 11, subfamily B1/B2 (steroid 11beta-monooxygenase) [EC:1.14.15.4] [RN:R02843]
             K00071,K15680  11beta-hydroxysteroid dehydrogenase [EC:1.1.1.146 1.1.1.-] [RN:R02834 R02836]
 CLASS       Pathway modules; Lipid metabolism; Sterol biosynthesis
 PATHWAY     map00140  Steroid hormone biosynthesis

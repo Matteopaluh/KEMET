@@ -1,4 +1,4 @@
-M00921_Cyclooctatin_biosynthesis.txt
+M00921_Cyclooctatin_biosynthesis
 K13787
 K18686
 K22997

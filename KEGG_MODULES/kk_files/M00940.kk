@@ -1,4 +1,4 @@
-M00940_Flavanone_biosynthesis.txt
+M00940_Flavanone_biosynthesis
 K00660, K08243
 K01859
 COMPLEXES_LIST

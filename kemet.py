@@ -5,6 +5,7 @@
 import os
 from os import path
 import re
+import sys
 from multiprocessing import Pool
 from datetime import datetime
 import argparse
@@ -659,7 +660,7 @@ def create_tuple_modules_1BM(fasta_id, fixed_module_file, oneBM_modules_dir, rep
     """
     os.chdir(report_tsv_directory)
     list_modules = []
-    for file in os.listdir():
+    for file in sorted(os.listdir()):
         if file.endswith(".tsv") and fasta_id in file:
             with open(file) as f:
                 for line in f.readlines():
@@ -689,7 +690,7 @@ def write_KOs_from_modules(fasta_id, tuple_modules, report_txt_directory, klists
         klists_directory            (str): output ".klist" files folder path - in which to save MAG/Genome missing KOs of interest
     """
     os.chdir(report_txt_directory)
-    for file in os.listdir():
+    for file in sorted(os.listdir()):
         if fasta_id in file:
             with open(file) as f:
                 klist = []
@@ -734,7 +735,7 @@ def write_KOs_from_fixed_list(fasta_id, fixed_ko_file, ktests_directory, klists_
         KO_to_check = [ line.strip() for line in h ]
 
     os.chdir(ktests_directory)
-    for file in os.listdir():
+    for file in sorted(os.listdir()):
         if fasta_id in file:
             with open(file) as f:
                 KO_present = []
@@ -938,7 +939,7 @@ def filter_and_align(taxa_dir, taxa_file, fasta_id, klist_file, klists_directory
                 KO_to_align.append(KO)
 
     os.chdir(dir_KO)
-    for K in os.listdir():
+    for K in sorted(os.listdir()):
         if K not in KO_to_align:
             continue
     # dictionary of non-redundant nt sequences (100% identity)
@@ -946,7 +947,7 @@ def filter_and_align(taxa_dir, taxa_file, fasta_id, klist_file, klists_directory
     # but only focusing on SEQUENCE DIVERSITY
         os.chdir("./" + K)
         sequniq = {} # {sequence : tax_code_of_identical_seqs}
-        for nt_file in os.listdir():
+        for nt_file in sorted(os.listdir()):
             code = nt_file.split(":")[0]
             if code not in taxa_allow:
                 continue
@@ -990,7 +991,7 @@ def MSA_and_HMM(msa_dir_comm, base_com_mafft, base_com_hmmbuild, log=False):
     if log:
         logging.info('START MAFFT & hmmbuild execution')
     os.chdir(msa_dir_comm)
-    for K in os.listdir():
+    for K in sorted(os.listdir()):
         os.chdir(K)
         ch_com_mafft = base_com_mafft.replace("K_NUMBER", K)
         ch_com_hmmbuild = base_com_hmmbuild.replace("K_NUMBER", K)
@@ -1013,7 +1014,7 @@ def nhmmer_for_genome(fasta_genome, msa_dir_comm, base_com_nhmmer):
     """
     print(_timeinfo(), "START nhmmer search", sep="\t")
     os.chdir(msa_dir_comm)
-    for K in os.listdir():
+    for K in sorted(os.listdir()):
         os.chdir(K)
         ch_com_nhmmer = base_com_nhmmer.replace("K_NUMBER", K).replace("PATHFILE", fasta_genome)
         os.system(ch_com_nhmmer)
@@ -1033,13 +1034,13 @@ def move_HMM_and_clean(hmm_dir_comm, msa_dir_comm):
     if not path.isdir(hmm_dir_comm):
         os.mkdir(hmm_dir_comm)
     os.chdir(msa_dir_comm)
-    K_numbers = os.listdir()
+    K_numbers = sorted(os.listdir())
     for K in K_numbers:
         os.chdir(hmm_dir_comm)
         if not path.isdir(hmm_dir_comm + K):
             os.mkdir(K)
         os.chdir(msa_dir_comm + K)
-        for file in os.listdir():
+        for file in sorted(os.listdir()):
             if file.endswith(".hmm") or file.endswith(".hits"):
                 hmm_file = file
                 os.replace(msa_dir_comm + K + "/" + hmm_file, hmm_dir_comm + K + "/" + hmm_file)
@@ -1059,10 +1060,10 @@ def movebackHMM(hmm_dir_comm, msa_dir_comm):
         msa_dir_comm    (str): nt multi-fasta folder path, as modified for the MAG/Genome of interest
     """
     os.chdir(hmm_dir_comm)
-    K_numbers = os.listdir()
+    K_numbers = sorted(os.listdir())
     for K in K_numbers:
         os.chdir(hmm_dir_comm + K)
-        for file in os.listdir():
+        for file in sorted(os.listdir()):
             if file.endswith(".hmm"):
                 os.replace(hmm_dir_comm + K + "/" + file, msa_dir_comm + K + "/" + file)
     print(_timeinfo(), "COMPLETE move back HMM", sep="\t")
@@ -1183,7 +1184,7 @@ def HMM_hits_sequences(hmm_hits_dir, dir_genomes):
             r_bound = int(hits[4])
 
             os.chdir(dir_genomes)
-            for genome_file in os.listdir():
+            for genome_file in sorted(os.listdir()):
                 if genome_file.startswith(genome + "."):
                     with open(genome_file) as f:
                         v_lines = f.readlines()
@@ -1392,20 +1393,22 @@ def build_de_novo_GSMM(FASTA, fasta_genome, de_novo_model_directory, current_run
     with open(fasta_id+".faa", "a") as f:
         for ko, xseq in HMM_HITS.items():
             print(ko, file=f)
-            print(xseq, file=f)
+            # pretty print 60 chr per line
+            for i in range(0, len(xseq), 60):
+                print(xseq[i:i+60], file=f)
     os.chdir(de_novo_model_directory)
 
     # GENERATE CARVEME MODEL - default:QUIET
     if not path.isdir("dmnd_intermediates"):
         os.mkdir("dmnd_intermediates")
-    carveme_cmd = f"carve ./proteins/{fasta_id}.faa --fbc2 -u {metabolic_universe} -o FASTA.xml 2> /dev/null"
+    carveme_cmd = f"carve ./proteins/{fasta_id}.faa --fbc2 -u {metabolic_universe} -o {fasta_id}.xml 2> /dev/null"
     print(_timeinfo(), f"START CarveMe command for {FASTA}", sep="\t")
     if log:
         logging.info(f"START CarveMe command for {FASTA}")
     os.system(carveme_cmd)
-    print(_timeinfo(), "COMPLETE CarveMe command for "+FASTA, sep="\t")
+    print(_timeinfo(), f"COMPLETE CarveMe command for {FASTA}", sep="\t")
     if log:
-        logging.info('COMPLETE CarveMe command for '+FASTA)
+        logging.info(f'COMPLETE CarveMe command for {FASTA}')
 
     os.chdir(de_novo_model_directory+"/proteins/")
     move_dmnd_cmd = f"mv {fasta_id}.tsv ../dmnd_intermediates"
@@ -2425,13 +2428,26 @@ report_tsv_directory = output_directory+"/reports_tsv/"
 ktests_directory = output_directory+"/ktests/"
 klists_directory = output_directory+"/klists/"
 
+#### MANUSCRIPT INFO
+manuscript_info = '''
+
+If KEMET provides useful insight, please consider citing the manuscript accompaining this code:
+https://doi.org/10.1016/j.csbj.2022.03.015
+
+KEMET-A python tool for KEGG Module evaluation and microbial genome annotation expansion.
+Computational and Structural Biotechnology Journal, 20, 1481-1486
+
+Palù, M., Basile, A., Zampieri, G., Treu, L., Rossi, A., Morlino, M. S., & Campanaro, S. (2022).
+
+'''
+
 #### KMC - PRODUCE KTEST FILE
 os.chdir(KAnnotation_directory)
 file_name = str(args.FASTA_file).rsplit("/", 1)[-1].replace(".fasta", "").replace(".fna", "").replace(".fa", "") # from path indication of a contig file maintain file_name
 if LOGflag:
     logging.info(f'+++ \tSTART {file_name}')
     logging.info('++ START KEGG Modules completeness')
-for file in os.listdir():
+for file in sorted(os.listdir()):
     if file.startswith(file_name):
         if args.annotation_format == "kaas":
             if args.verbose:
@@ -2459,10 +2475,8 @@ if ktest in sorted(os.listdir()):
         logging.info('COMPLETE KEGG Modules completeness')
 
 if args.skip_hmm:
-    raise SystemExit('''
-    You have chosen not to perform HMM-driven ortholog search & later analyses.
-    If you didn't want to stop here, remove the --skip_hmm argument from the command line.
-    ''')
+    print(manuscript_info)
+    sys.exit(1)
 
 #### HMM - VERBOSITY SETTINGS
 if args.verbose:
@@ -2479,12 +2493,14 @@ os.chdir(dir_base)
 FASTA = str(args.FASTA_file).rsplit("/", 1)[-1]
 with open(instruction_file) as f:
     for line in f.readlines()[1:]:
-        if line.startswith(FASTA):
+        if line.split("\t")[0] == FASTA:
             line = line.strip().split("\t")
             if len(line) == 3:
                 metabolic_universe = line[2]
-            for file in os.listdir(dir_genomes):
-                if file.startswith(FASTA):
+            else:
+                metabolic_universe = "bacteria"
+            for file in sorted(os.listdir(dir_genomes)):
+                if file == FASTA:
                     fasta_genome = dir_genomes+FASTA
 
             fasta_id = FASTA.replace(".fasta", "").replace(".fna", "").replace(".fa", "")
@@ -2545,14 +2561,12 @@ with open(instruction_file) as f:
             HMM_hits_TRANSLATED_dict = HMM_hits_translated_sequences(HMM_hits_dict)
             HMM_hits_longestTRANSLATED_dict = HMM_hits_longest_translated_sequences(HMM_hits_dict, HMM_hits_TRANSLATED_dict)
 
-#### HMM - TOTAL REPORT FILE
+#### HMM - WHOLE RUN REPORT FILE
             recap_hits_corr(fasta_id, hmm_hits_dir, HMM_hits_dict, HMM_hits_longestTRANSLATED_dict, run_start)
 
             if args.skip_gsmm:
-                print('''
-                You have chosen not to perform GSMM gapfilling.
-                If you didn't want to stop here, remove the --skip_gsmm argument from the kemet.py command line.
-                ''')
+                print(manuscript_info)
+                sys.exit(1)
             else:
                 if args.hmm_mode == "kos" and args.gsmm_mode == "existing":
                     print('''
@@ -2596,5 +2610,6 @@ with open(instruction_file) as f:
                             recap_addition(fasta_id, gapfill_report_directory, old_new_names_R)
 
             print(_timeinfo(), f"END {fasta_id}\n", sep="\t")
+            print(manuscript_info)
             if LOGflag:
                 logging.info(f"END {fasta_id}\n")

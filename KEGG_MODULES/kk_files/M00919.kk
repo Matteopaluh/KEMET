@@ -1,4 +1,4 @@
-M00919_Ectoine_degradation.txt
+M00919_Ectoine_degradation
 K15783
 K15784
 K15785

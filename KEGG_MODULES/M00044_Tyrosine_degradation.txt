@@ -1,7 +1,8 @@
 ENTRY       M00044            Pathway   Module
 NAME        Tyrosine degradation, tyrosine => homogentisate
-DEFINITION  (K00815,K00838,K03334) K00457 K00451 K01800 (K01555,K16171)
+DEFINITION  (K00815,K00838,K00832,K03334) K00457 K00451 K01800 (K01555,K16171)
 ORTHOLOGY   K00815,K00838  tyrosine aminotransferase [EC:2.6.1.5] [RN:R00734]
+            K00832  aromatic-amino-acid transaminase [EC:2.6.1.57] [RN:R00734]
             K03334  L-amino-acid oxidase [EC:1.4.3.2] [RN:R00729]
             K00457  4-hydroxyphenylpyruvate dioxygenase [EC:1.13.11.27] [RN:R02521]
             K00451  homogentisate 1,2-dioxygenase [EC:1.13.11.5] [RN:R02519]

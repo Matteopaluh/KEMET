@@ -1,0 +1,22 @@
+ENTRY       M00899            Pathway   Module
+NAME        Thiamine salvage pathway, HMP/HET => TMP
+DEFINITION  K00878
+            ((K00941 K00788),K14153,K21219)
+ORTHOLOGY   K00878  thiM; hydroxyethylthiazole kinase [EC:2.7.1.50] [RN:R04448]
+            K00941  thiD; hydroxymethylpyrimidine/phosphomethylpyrimidine kinase [EC:2.7.1.49 2.7.4.7] [RN:R03471 R04509] 
+            K00788  thiE; thiamine-phosphate pyrophosphorylase [EC:2.5.1.3] [RN:R03223]
+            K14153,K21219  thiDE,thiDN hydroxymethylpyrimidine kinase / phosphomethylpyrimidine kinase / thiamine-phosphate diphosphorylase [EC:2.7.1.49 2.7.4.7 2.5.1.3] [RN:R03471 R04509 R03223]
+CLASS       Pathway modules; Metabolism of cofactors and vitamins; Cofactor and vitamin metabolism
+PATHWAY     map00730  Thiamine metabolism
+            map01100  Metabolic pathways
+REACTION    R04448  C04294 -> C04327
+            R03471  C01279 -> C04556
+            R04509  C04556 -> C04752
+            R03223  C04752 + C04327 -> C01081
+COMPOUND    C04294  5-(2-Hydroxyethyl)-4-methylthiazole
+            C04327  4-Methyl-5-(2-phosphooxyethyl)thiazole
+            C01279  4-Amino-5-hydroxymethyl-2-methylpyrimidine
+            C04556  4-Amino-2-methyl-5-(phosphooxymethyl)pyrimidine
+            C04752  4-Amino-5-hydroxymethyl-2-methylpyrimidine diphosphate
+            C01081  Thiamin monophosphate
+///

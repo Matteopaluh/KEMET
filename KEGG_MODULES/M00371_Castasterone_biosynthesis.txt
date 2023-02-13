@@ -1,13 +1,13 @@
 ENTRY       M00371            Pathway   Module
 NAME        Castasterone biosynthesis, campesterol => castasterone
-DEFINITION  (K09587,K12639) K09588 K09591 (K12637,K12638) K20623 (K09590,K12640)
-ORTHOLOGY   K09587,K12639  steroid 22-alpha-hydroxylase [EC:1.14.13.-] [RN:R07445]
-            K09588  cytochrome P450, family 90, subfamily A, polypeptide 1 [EC:1.14.-.-] [RN:R07446]
+DEFINITION  (K09587,K12639) K09588 K09591 (K12637,K12638) K20623 (K09590,K12640,K25959)
+ORTHOLOGY   K09587,K12639  steroid 22S-hydroxylase [EC:1.14.14.178] [RN:R07445]
+            K09588  3beta,22alpha-dihydroxysteroid 3-dehydrogenase [EC:1.14.19.79] [RN:R07446]
             K09591  probable steroid reductase DET2 [EC:1.3.1.22] [RN:R07447]
             K12637,K12638  3-epi-6-deoxocathasterone 23-monooxygenase [EC:1.14.14.147] [RN:R07791]
             K20623  6-deoxotyphasterol 2alpha-hydroxylase [RN:R07474]
-            K09590,K12640  cytochrome P450, family 85, subfamily A, polypeptide 1 / 2 [EC:1.14.-.-] [RN:R07450 R07451]
-CLASS       Pathway modules; Biosynthesis of terpenoids and polyketides; Other terpenoid biosynthesis
+            K09590,K12640,K25959  cytochrome P450, family 85, subfamily A, polypeptide 1 / 2 [EC:1.14.14.179] [RN:R07450 R07451]
+CLASS       Pathway modules; Biosynthesis of terpenoids and polyketides; Plant terpenoid biosynthesis
 PATHWAY     map00905  Brassinosteroid biosynthesis
             map01100  Metabolic pathways
             map01110  Biosynthesis of secondary metabolites

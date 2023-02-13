@@ -1,0 +1,39 @@
+ENTRY       M00953            Pathway   Module
+NAME        Mugineic acid biosynthesis, methionine => 3-epihydroxymugineic acid
+DEFINITION  K00789 K05953 K14271 K22374 K18054
+ORTHOLOGY   K00789  S-adenosylmethionine synthetase [EC:2.5.1.6] [RN:R00177]
+            K05953  nicotianamine synthase [EC:2.5.1.43] [RN:R00075]
+            K14271  nicotianamine aminotransferase [EC:2.6.1.80] [RN:R07277]
+            K22374  3''-deamino-3''-oxonicotianamine reductase [EC:1.1.1.285] [RN:R07141 R07142]
+            K18054  2'-deoxymugineic-acid 2'-dioxygenase / mugineic-acid 3-dioxygenase [EC:1.14.11.24 1.14.11.25] [RN:R07185 R07186 R07187 R12826]
+CLASS       Pathway modules; Biosynthesis of other secondary metabolites; Biosynthesis of phytochemical compounds
+PATHWAY     map00999  Biosynthesis of various plant secondary metabolites
+            map01100  Metabolic pathways
+            map01110  Biosynthesis of secondary metabolites
+REACTION    R00177  C00073 -> C00019
+            R00075  C00019 -> C05324
+            R07277  C05324 -> C15486
+            R07141,R07142  C15486 -> C15485
+            R07185  C15485 -> C15500
+            R07186  C15500 -> C15501
+            R07187  C15485 -> C15502
+            R12826  C15502 -> C15501
+COMPOUND    C00073  L-Methionine
+            C00019  S-Adenosyl-L-methionine
+            C05324  Nicotianamine
+            C15486  3''-Deamino-3''-oxonicotianamine
+            C15485  2'-Deoxymugineic acid
+            C15500  Mugineic acid
+            C15501  3-Epihydroxymugineic acid
+            C15502  3-Epihydroxy-2'-deoxymugineic acid
+REFERENCE   PMID:11117263
+  AUTHORS   Nakanishi H, Yamaguchi H, Sasakuma T, Nishizawa NK, Mori S
+  TITLE     Two dioxygenase genes, Ids3 and Ids2, from Hordeum vulgare are involved in the biosynthesis of mugineic acid family phytosiderophores.
+  JOURNAL   Plant Mol Biol 44:199-207 (2000)
+            DOI:10.1023/A:1006491521586
+REFERENCE   PMID:15781441
+  AUTHORS   Kobayashi T, Suzuki M, Inoue H, Itai RN, Takahashi M, Nakanishi H, Mori S, Nishizawa NK
+  TITLE     Expression of iron-acquisition-related genes in iron-deficient rice is co-ordinately induced by partially conserved iron-deficiency-responsive elements.
+  JOURNAL   J Exp Bot 56:1305-16 (2005)
+            DOI:10.1093/jxb/eri131
+///

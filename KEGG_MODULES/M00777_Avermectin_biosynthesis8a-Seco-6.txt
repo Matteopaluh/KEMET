@@ -1,7 +1,7 @@
 ENTRY       M00777            Pathway   Module
 NAME        Avermectin biosynthesis, 2-methylbutanoyl-CoA/isobutyryl-CoA => 6,8a-Seco-6,8a-deoxy-5-oxoavermectin 1a/1b aglycone => avermectin A1a/B1a/A1b/B1b
-DEFINITION  K14371 K14372 K14373 K14374 K14375
-ORTHOLOGY   K14371  aveA; type I polyketide synthase AVES [RN:R06481 R06483]
+DEFINITION  K14371+K24567+K24568+K24569 K14372 K14373 K14374 K14375
+ORTHOLOGY   K14371,K24567,K24568,K24569  aveA; avermectin polyketide synthase AveA [RN:R06481 R06483]
             K14372  aveE; cytochrome P450 hydroxylase [EC:1.14.-.-] [RN:R06467 R06470]
             K14373  aveF; C-5 ketoreductase [RN:R06473 R06475]
             K14374  aveD; avermectin B 5-O-methyltransferase [EC:2.1.1.-] [RN:R06477 R06479]
