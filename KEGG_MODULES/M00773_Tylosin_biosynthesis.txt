@@ -1,7 +1,7 @@
 ENTRY       M00773            Pathway   Module
 NAME        Tylosin biosynthesis, methylmalonyl-CoA + malonyl-CoA => tylactone => tylosin
-DEFINITION  K15988 (K15989+K15990) K15992 K15991 K15993 K15994 K15995 K15996
-ORTHOLOGY   K15988  tylG; tylactone synthase [RN:R06448]
+DEFINITION  K15988+K24555+K24556+K24557+K24558 K15989+K15990 K15992 K15991 K15993 K15994 K15995 K15996
+ORTHOLOGY   K15988,K24555,K24556,K24557,K24558  tylG; tylactone synthase [RN:R06448]
             K15989  tylMII; tylactone mycaminosyltransferase [EC:2.4.1.316] [RN:R06450]
             K15990  tylMIII; tylactone mycaminosyltransferase auxiliary protein [RN:R06450]
             K15992  tylI; cytochrome P450 TylI [RN:R06449]
@@ -13,7 +13,7 @@ ORTHOLOGY   K15988  tylG; tylactone synthase [RN:R06448]
 CLASS       Pathway modules; Biosynthesis of terpenoids and polyketides; Macrolide biosynthesis
 PATHWAY     map00522  Biosynthesis of 12-, 14- and 16-membered macrolides
             map01100  Metabolic pathways
-            map01130  Biosynthesis of antibiotics
+            map01110  Biosynthesis of secondary metabolites
 REACTION    R06448  C02557 + C00083 -> C12000
             R06450  C12000 -> C12001
             R06449  C12001 -> C20760

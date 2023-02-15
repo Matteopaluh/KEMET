@@ -1,13 +1,13 @@
 ENTRY       M00030            Pathway   Module
 NAME        Lysine biosynthesis, AAA pathway, 2-oxoglutarate => 2-aminoadipate => lysine
-DEFINITION  K01655 K17450 K01705 K05824 K00838 K00143 K00293 K00290
+DEFINITION  K01655 K17450 K01705 K05824 K00838 K00143 (K00293,K24034) K00290
 ORTHOLOGY   K01655  homocitrate synthase [EC:2.3.3.14] [RN:R00271]
             K17450  homoaconitase [EC:4.2.1.-] [RN:R03444]
             K01705  homoaconitate hydratase [EC:4.2.1.36] [RN:R04371]
             K05824  homoisocitrate dehydrogenase [EC:1.1.1.87] [RN:R01934]
             K00838  2-aminoadipate transaminase [EC:2.6.1.39] [RN:R01939]
             K00143  L-2-aminoadipate reductase [EC:1.2.1.95] [RN:R03098 R04863 R04390]
-            K00293  saccharopine dehydrogenase (NADP+, L-glutamate forming) [EC:1.5.1.10] [RN:R02315]
+            K00293,K24034  saccharopine dehydrogenase (NADP+, L-glutamate forming) [EC:1.5.1.10] [RN:R02315]
             K00290  saccharopine dehydrogenase, L-lysine forming [EC:1.5.1.7] [RN:R00715]
 CLASS       Pathway modules; Amino acid metabolism; Lysine metabolism
 PATHWAY     map00300  Lysine biosynthesis

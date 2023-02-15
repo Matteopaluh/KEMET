@@ -1,0 +1,20 @@
+ENTRY       M00884            Pathway   Module
+NAME        Lipoic acid biosynthesis, octanoyl-CoA => dihydrolipoyl-E2
+DEFINITION  K23750 K03644
+ORTHOLOGY   K23750  LIP3; octanoyl-CoA:protein transferase [EC:2.3.1.-] [RN:R12431]
+            K03644  LIP5; lipoyl synthase [EC:2.8.1.8] [RN:R12423]
+CLASS       Pathway modules; Metabolism of cofactors and vitamins; Cofactor and vitamin metabolism
+PATHWAY     map00785  Lipoic acid metabolism
+            map01240  Biosynthesis of cofactors
+            map01100  Metabolic pathways
+REACTION    R12431  C01944 -> C22160
+            R12423  C22160 -> C15973
+COMPOUND    C01944  Octanoyl-CoA
+            C22160  [Lipoyl-carrier protein E2]-N6-octanoyl-L-lysine
+            C15973  [Lipoyl-carrier protein E2]-N6-[(R)-dihydrolipoyl]-L-lysine
+REFERENCE   PMID:23960015
+  AUTHORS   Hermes FA, Cronan JE
+  TITLE     The role of the Saccharomyces cerevisiae lipoate protein ligase homologue, Lip3, in lipoic acid synthesis.
+  JOURNAL   Yeast 30:415-27 (2013)
+            DOI:10.1002/yea.2979
+///

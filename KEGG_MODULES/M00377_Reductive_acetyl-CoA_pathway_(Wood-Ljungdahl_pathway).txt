@@ -1,11 +1,13 @@
 ENTRY       M00377            Pathway   Module
 NAME        Reductive acetyl-CoA pathway (Wood-Ljungdahl pathway)
-DEFINITION  K00198 (K05299-K15022) K01938 K01491 K00297 K15023 (K14138+K00197+K00194)
+DEFINITION  K00198 (K05299-K15022,K22015+K25123+K25124) K01938 K01491-K01500 K00297-K25007-K25008 K15023 K14138+K00197+K00194
 ORTHOLOGY   K00198  carbon-monoxide dehydrogenase [EC:1.2.7.4] [RN:R07157]
             K05299,K15022  formate dehydrogenase [EC:1.17.1.10] [RN:R00134]
+            K22015,K25123,K25124  formate dehydrogenase (hydrogenase) [EC:1.17.98.-] [RN:R12754]
             K01938  formate--tetrahydrofolate ligase [EC:6.3.4.3] [RN:R00943]
             K01491  methylenetetrahydrofolate dehydrogenase (NADP+) / methenyltetrahydrofolate cyclohydrolase [EC:1.5.1.5 3.5.4.9] [RN:R01655 R01220]
-            K00297  methylenetetrahydrofolate reductase (NADPH) [EC:1.5.1.20] [RN:R07168]
+            K01500  methenyltetrahydrofolate cyclohydrolase [EC:3.5.4.9] [RN:R01655]
+            K00297,K25007,K25008  methylenetetrahydrofolate reductase (NADH) [EC:1.5.1.54] [RN:R07168]
             K15023  5-methyltetrahydrofolate corrinoid/iron sulfur protein methyltransferase [EC:2.1.1.258] [RN:R02289]
             K14138  acetyl-CoA synthase [EC:2.3.1.169] [RN:R08433]
             K00197+K00194  acetyl-CoA decarbonylase/synthase complex [EC:2.3.1.-] [RN:R10243]
@@ -15,7 +17,7 @@ PATHWAY     map00720  Carbon fixation pathways in prokaryotes
             map01100  Metabolic pathways
             map01120  Microbial metabolism in diverse environments
 REACTION    R07157  C00011 -> C00237
-            R00134  C00011 -> C00058
+            R00134,R12754  C00011 -> C00058
             R00943  C00058 + C00101 -> C00234
             R01655  C00234 -> C00445
             R01220  C00445 -> C00143

@@ -1,16 +1,16 @@
 ENTRY       M00378            Pathway   Module
-NAME        F420 biosynthesis
-DEFINITION  (K11779,K11780+K11781)
+NAME        F420 biosynthesis, archaea
+DEFINITION  K11780+K11781
             K14941
             K11212 K12234
-ORTHOLOGY   K11779  FO synthase [EC:2.5.1.147 4.3.1.32] [RN:R12161 R12162]
-            K11781  5-amino-6-(D-ribitylamino)uracil---L-tyrosine 4-hydroxyphenyl transferase [EC:2.5.1.147] [RN:R12161]
+ORTHOLOGY   K11781  5-amino-6-(D-ribitylamino)uracil---L-tyrosine 4-hydroxyphenyl transferase [EC:2.5.1.147] [RN:R12161]
             K11780  7,8-didemethyl-8-hydroxy-5-deazariboflavin synthase [EC:4.3.1.32] [RN:R12162]
             K14941  2-phospho-L-lactate guanylyltransferase [EC:2.7.7.68] [RN:R09397]
             K11212  LPPG:FO 2-phospho-L-lactate transferase [EC:2.7.8.28] [RN:R09398]
             K12234  coenzyme F420-0:L-glutamate ligase / coenzyme F420-1:gamma-L-glutamate ligase [EC:6.3.2.31 6.3.2.34] [RN:R09399 R09400]
 CLASS       Pathway modules; Energy metabolism; Methane metabolism
 PATHWAY     map00680  Methane metabolism
+            map01240  Biosynthesis of cofactors
             map01100  Metabolic pathways
             map01120  Microbial metabolism in diverse environments
 REACTION    R12161  C04732 -> C21971

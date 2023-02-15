@@ -1,0 +1,48 @@
+ENTRY       M00957            Pathway   Module
+NAME        Lysine degradation, bacteria, L-lysine => glutarate => succinate/acetyl-CoA
+DEFINITION  K00468 K01506 (K14268,K07250) K00135 ((K15737 K15736),(K01041 K00252 (K01692,K01825,K01782) (K01825,K01782) K00626))
+ORTHOLOGY   K00468  lysine 2-monooxygenase [EC:1.13.12.2] [RN:R00449]
+            K01506  5-aminopentanamidase [EC:3.5.1.30] [RN:R02273]
+            K14268,K07250  5-aminovalerate aminotransferase [EC:2.6.1.48] [RN:R02274]
+            K00135  glutarate-semialdehyde dehydrogenase [EC:1.2.1.20] [RN:R02401]
+            K15737  glutarate dioxygenase [EC:1.14.11.64] [RN:R12216]
+            K15736  (S)-2-hydroxyglutarate dehydrogenase [EC:1.1.5.13] [RN:R12217]
+            K01041  glutaryl-CoA transferase [EC:2.8.3.-] [RN:R13035]
+            K00252  glutaryl-CoA dehydrogenase [EC:1.3.8.6] [RN:R02488]
+            K01692,K01825,K01782  enoyl-CoA hydratase [EC:4.2.1.17] [RN:R03026]
+            K01825,K01782  3-hydroxyacyl-CoA dehydrogenase [EC:1.1.1.35] [RN:R01975]
+            K00626  acetyl-CoA C-acetyltransferase [EC:2.3.1.9] [RN:R00238]
+CLASS       Pathway modules; Amino acid metabolism; Lysine metabolism
+PATHWAY     map00310  Lysine degradation
+            map01100  Metabolic pathways
+            map01120  Microbial metabolism in diverse environments
+REACTION    R00449  C00047 -> C00990
+            R02273  C00990 -> C00431
+            R02274  C00431 -> C03273
+            R02401  C03273 -> C00489
+            R12216  C00489 + C00026 -> C03196 + C00042
+            R12217  C03196 -> C00026
+            R13035  C00489 -> C00527
+            R02488  C00527 -> C00877
+            R03026  C00877 -> C01144
+            R01975  C01144 -> C00332
+            R00238  C00332 -> C00024
+COMPOUND    C00047  L-Lysine
+            C00990  5-Aminopentanamide
+            C00431  5-Aminopentanoate
+            C03273  5-Oxopentanoate
+            C00489  Glutarate
+            C00026  2-Oxoglutarate
+            C03196  (S)-2-Hydroxyglutarate
+            C00042  Succinate
+            C00527  Glutaryl-CoA
+            C00877  Crotonoyl-CoA
+            C01144  (S)-3-Hydroxybutanoyl-CoA
+            C00332  Acetoacetyl-CoA
+            C00024  Acetyl-CoA
+REFERENCE   PMID:31064836
+  AUTHORS   Thompson MG, Blake-Hedges JM, Cruz-Morales P, Barajas JF, Curran SC, Eiben CB, Harris NC, Benites VT, Gin JW, Sharpless WA, Twigg FF, Skyrud W, Krishna RN, Pereira JH, Baidoo EEK, Petzold CJ, Adams PD, Arkin AP, Deutschbauer AM, Keasling JD.
+  TITLE     Massively Parallel Fitness Profiling Reveals Multiple Novel Enzymes in Pseudomonas putida Lysine Metabolism.
+  JOURNAL   mBio 10:e02577-18 (2019)
+            DOI:10.1128/mBio.02577-18
+///

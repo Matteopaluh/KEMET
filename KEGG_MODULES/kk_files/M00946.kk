@@ -1,4 +1,4 @@
-M00946_Noscapine_biosynthesis.txt
+M00946_Noscapine_biosynthesis
 K00307
 K13397
 K13395

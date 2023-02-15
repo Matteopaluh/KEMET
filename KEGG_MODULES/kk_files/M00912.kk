@@ -1,4 +1,4 @@
-M00912_NAD_biosynthesis.txt
+M00912_NAD_biosynthesis
 K00453, K00463
 K01432, K14263, K07130
 K00486

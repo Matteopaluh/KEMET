@@ -1,4 +1,4 @@
-M00950_Biotin_biosynthesis_BioU_pathway.txt
+M00950_Biotin_biosynthesis_BioU_pathway
 K00652
 K25570
 K01935

@@ -1,4 +1,4 @@
-M00922_CMP-Neu5Ac_biosynthesis.txt
+M00922_CMP-Neu5Ac_biosynthesis
 K24257
 K01654
 K00983

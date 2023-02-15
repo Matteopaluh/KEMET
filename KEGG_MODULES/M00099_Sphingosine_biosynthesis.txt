@@ -1,10 +1,13 @@
 ENTRY       M00099            Pathway   Module
 NAME        Sphingosine biosynthesis
-DEFINITION  K00654 K04708 (K04709,K04710,K23727) K04712 (K01441,K12348,K12349)
+DEFINITION  K00654 K04708 (K04709,K04710,K24621,K24622,K23727) K04712 (K01441,K12348,K12349)
 ORTHOLOGY   K00654  serine palmitoyltransferase [EC:2.3.1.50] [RN:R01281]
             K04708  3-dehydrosphinganine reductase [EC:1.1.1.102] [RN:R02978]
-            K04709,K04710  Acyl-CoA-dependent ceramide synthase [EC:2.3.1.24] [RN:R06517]
-            K23727  sphingoid base N-palmitoyltransferase [EC:2.3.1.291]
+            K04709  very-long-chain ceramide synthase [EC:2.3.1.297] [RN:R06517]
+            K04710  sphingoid base N-stearoyltransferase [EC:2.3.1.299] [RN:R06517]
+            K24621  very-long-chain ceramide synthase [EC:2.3.1.297] [RN:R06517]
+            K24622  very-long-chain/ultra-long-chain ceramide synthase [EC:2.3.1.297 2.3.1.298] [RN:R06517]
+            K23727  sphingoid base N-palmitoyltransferase [EC:2.3.1.291] [RN:R06517]
             K04712  sphingolipid 4-desaturase [EC:1.14.19.17] [RN:R06519]
             K01441,K12348,K12349  ceramidase [EC:3.5.1.23] [RN:R01494]
 CLASS       Pathway modules; Lipid metabolism; Lipid metabolism

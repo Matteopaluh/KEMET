@@ -12,6 +12,7 @@ ORTHOLOGY   K01495,K09007,K22391  GTP cyclohydrolase I [EC:3.5.4.16] [RN:R00428 
 CLASS       Pathway modules; Metabolism of cofactors and vitamins; Cofactor and vitamin metabolism
 PATHWAY     map00790  Folate biosynthesis
             map00670  One carbon pool by folate
+            map01240  Biosynthesis of cofactors
             map01100  Metabolic pathways
 REACTION    R00428  C00044 -> C05922
             R05046  C05922 -> C05923

@@ -1,0 +1,35 @@
+ENTRY       M00964            Pathway   Module
+NAME        Fumigaclavine biosynthesis, chanoclavine-I aldehyde => fumigaclavine C
+DEFINITION  K19182 K19183 -- K19184 K14135
+ORTHOLOGY   K19182  FGAOX3; chanoclavine-I aldehyde reductase [EC:1.3.1.100] [RN:R12090]
+            K19183  FGAFS; festuclavine dehydrogenase [EC:1.5.1.44] [RN:R10163]
+            K19184  FGAAT; fumigaclavine B O-acetyltransferase [EC:2.3.1.205] [RN:R10200]
+            K14135  FGAPT1; fumigaclavine A dimethylallyltransferase [EC:2.5.1.100] [RN:R10201]
+CLASS       Pathway modules; Biosynthesis of other secondary metabolites; Biosynthesis of phytochemical compounds
+PATHWAY     map00901  Indole alkaloid biosynthesis
+            map01100  Metabolic pathways
+            map01110  Biosynthesis of secondary metabolites
+REACTION    R12090  C20379 -> C21897
+            R12091  C21897 -> C20409
+            R10163  C20409 -> C20408
+            R12093  C20408 -> C20437
+            R10200  C20437 -> C20436
+            R10201  C20436 -> C20438
+COMPOUND    C20379  Chanoclavine-I aldehyde
+            C21897  Dihydrochanoclavine-I aldehyde
+            C20409  6,8-Dimethyl-6,7-didehydroergoline
+            C20408  Festuclavine
+            C20437  Fumigaclavine B
+            C20436  Fumigaclavine A
+            C20438  Fumigaclavine C
+REFERENCE   PMID:20526482
+  AUTHORS   Wallwey C, Matuschek M, Xie XL, Li SM
+  TITLE     Ergot alkaloid biosynthesis in Aspergillus fumigatus: Conversion of chanoclavine-I aldehyde to festuclavine by the festuclavine synthase FgaFS in the presence of the old yellow enzyme FgaOx3.
+  JOURNAL   Org Biomol Chem 8:3500-8 (2010)
+            DOI:10.1039/c003823g
+REFERENCE   PMID:19672909
+  AUTHORS   Liu X, Wang L, Steffan N, Yin WB, Li SM
+  TITLE     Ergot alkaloid biosynthesis in Aspergillus fumigatus: FgaAT catalyses the acetylation of fumigaclavine B.
+  JOURNAL   Chembiochem 10:2325-8 (2009)
+            DOI:10.1002/cbic.200900395
+///

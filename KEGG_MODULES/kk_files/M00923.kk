@@ -1,4 +1,4 @@
-M00923_UDP-L-FucNAm_biosynthesis.txt
+M00923_UDP-L-FucNAm_biosynthesis
 K15894
 K19068
 K24258

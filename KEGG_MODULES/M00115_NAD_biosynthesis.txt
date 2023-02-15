@@ -1,15 +1,18 @@
 ENTRY       M00115            Pathway   Module
-NAME        NAD biosynthesis, aspartate => NAD
-DEFINITION  K00278 K03517 K00767 (K00969,K06210) (K01916,K01950)
+NAME        NAD biosynthesis, aspartate => quinolinate => NAD
+DEFINITION  (K00278,K06989) K03517 K00767 (K00969,K06210) (K01916,K01950)
 ORTHOLOGY   K00278  L-aspartate oxidase [EC:1.4.3.16] [RN:R00481]
-            K03517  quinolinate synthase [RN:R04292]
+            K06989  aspartate dehydrogenase [EC:1.4.1.21] [RN:R07410 R07407]
+            K03517  quinolinate synthase [EC:2.5.1.72] [RN:R04292]
             K00767  nicotinate-nucleotide pyrophosphorylase (carboxylating) [EC:2.4.2.19] [RN:R03348]
             K00969,K06210  nicotinate-nucleotide adenylyltransferase [EC:2.7.7.18] [RN:R03005]
-            K01916,K01950  NAD+ synthase [EC:6.3.1.5 6.3.5.1] [RN:R00189 R00257]
+            K01916  NAD+ synthase [EC:6.3.1.5] [RN:R00189]
+            K01950  NAD+ synthase (glutamine-hydrolysing) [EC:6.3.5.1] [RN:R00257]
 CLASS       Pathway modules; Metabolism of cofactors and vitamins; Cofactor and vitamin metabolism
 PATHWAY     map00760  Nicotinate and nicotinamide metabolism
+            map01240  Biosynthesis of cofactors
             map01100  Metabolic pathways
-REACTION    R00481  C00049 -> C05840
+REACTION    R00481,R07410,R07407  C00049 -> C05840
             R04292  C05840 -> C03722
             R03348  C03722 -> C01185
             R03005  C01185 -> C00857
@@ -20,4 +23,14 @@ COMPOUND    C00049  L-Aspartate
             C01185  Nicotinate D-ribonucleotide
             C00857  Deamino-NAD+
             C00003  NAD+
+REFERENCE   PMID:11153263
+  AUTHORS   Begley TP, Kinsland C, Mehl RA, Osterman A, Dorrestein P
+  TITLE     The biosynthesis of nicotinamide adenine dinucleotides in bacteria.
+  JOURNAL   Vitam Horm 61:103-19 (2001)
+            DOI:10.1016/s0083-6729(01)61003-3
+REFERENCE   PMID:16698895
+  AUTHORS   Katoh A, Uenohara K, Akita M, Hashimoto T
+  TITLE     Early steps in the biosynthesis of NAD in Arabidopsis start with aspartate and occur in the plastid.
+  JOURNAL   Plant Physiol 141:851-7 (2006)
+            DOI:10.1104/pp.106.081091
 ///

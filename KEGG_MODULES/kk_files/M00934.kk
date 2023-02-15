@@ -1,4 +1,4 @@
-M00934_Mycinamicin_biosynthesis.txt
+M00934_Mycinamicin_biosynthesis
 K24528, K24559, K24560, K24561, K24562
 K24529
 K24292, K24530

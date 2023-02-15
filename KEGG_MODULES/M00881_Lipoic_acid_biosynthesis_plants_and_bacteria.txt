@@ -1,0 +1,25 @@
+ENTRY       M00881            Pathway   Module
+NAME        Lipoic acid biosynthesis, plants and bacteria, octanoyl-ACP => dihydrolipoyl-E2/H
+DEFINITION  K03801 K03644
+ORTHOLOGY   K03801  lipB; lipoyl(octanoyl) transferase [EC:2.3.1.181] [RN:R12427 R12428]
+            K03644  lipA; lipoyl synthase [EC:2.8.1.8] [RN:R12423 R12424]
+CLASS       Pathway modules; Metabolism of cofactors and vitamins; Cofactor and vitamin metabolism
+PATHWAY     map00785  Lipoic acid metabolism
+            map01240  Biosynthesis of cofactors
+            map01100  Metabolic pathways
+REACTION    R12427  C05752 -> C22160
+            R12423  C22160 -> C15973
+            
+            R12428  C05752 -> C22159
+            R12424  C22159 -> C02972
+COMPOUND    C05752  Octanoyl-[acp]
+            C22160  [Lipoyl-carrier protein E2]-N6-octanoyl-L-lysine
+            C15973  [Lipoyl-carrier protein E2]-N6-[(R)-dihydrolipoyl]-L-lysine
+            C22159  [Glycine cleavage system H]-N6-octanoyl-L-lysine
+            C02972  [Glycine cleavage system H]-N6-[(R)-dihydrolipoyl]-L-lysine
+REFERENCE   PMID:27074917
+  AUTHORS   Cronan JE
+  TITLE     Assembly of Lipoic Acid on Its Cognate Enzymes: an Extraordinary and Essential Biosynthetic Pathway.
+  JOURNAL   Microbiol Mol Biol Rev 80:429-50 (2016)
+            DOI:10.1128/MMBR.00073-15
+///

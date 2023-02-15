@@ -1,4 +1,4 @@
-M00915_Caffeine_degradation.txt
+M00915_Caffeine_degradation
 K21722
 K21723
 K21724

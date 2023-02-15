@@ -1,12 +1,13 @@
 ENTRY       M00174            Pathway   Module
 NAME        Methane oxidation, methanotroph, methane => formaldehyde
-DEFINITION  ((K10944+K10945+K10946),(K16157+K16158+K16159+K16160+K16161+K16162)) (K14028-K14029)
+DEFINITION  ((K10944+K10945+K10946),(K16157+K16158+K16159+K16160+K16161+K16162)) ((K14028-K14029),K23995)
 ORTHOLOGY   K10944,K10945,K10946  methane/ammonia monooxygenase [EC:1.14.18.3] [RN:R09518]
             K16157,K16158,K16159  methane monooxygenase component A [EC:1.14.13.25] [RN:R01142]
             K16160  methane monooxygenase regulatory protein B [RN:R01142]
             K16161  methane monooxygenase component C [EC:1.14.13.25] [RN:R01142]
-            K16162  methane monooxygenase component D [RN:R01142]
+            K16162 methane monooxygenase component D [RN:R01142]
             K14028,K14029  methanol dehydrogenase [EC:1.1.2.7] [RN:R01146]
+            K23995  lanthanide-dependent methanol dehydrogenase [EC:1.1.2.10] [RN:R01146]
 CLASS       Pathway modules; Energy metabolism; Methane metabolism
 PATHWAY     map00680  Methane metabolism
             map01200  Carbon metabolism

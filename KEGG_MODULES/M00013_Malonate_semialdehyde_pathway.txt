@@ -1,9 +1,9 @@
 ENTRY       M00013            Pathway   Module
 NAME        Malonate semialdehyde pathway, propanoyl-CoA => acetyl-CoA
-DEFINITION  (K00248,K00232) (K07511,K07514,K07515,K14729) K05605 K23146 K00140
+DEFINITION  (K00248,K00232) (K07511,K14729) K05605 K23146 K00140
 ORTHOLOGY   K00248  ACADS; butyryl-CoA dehydrogenase [EC:1.3.8.1] [RN:R04432]
             K00232  E1.3.3.6; acyl-CoA oxidase [EC:1.3.3.6] [RN:R12356]
-            K07511,K07514,K07515  enoyl-CoA hydratase [EC:4.2.1.17] [RN:R03045]
+            K07511  enoyl-CoA hydratase [EC:4.2.1.17] [RN:R03045]
             K14729  multifunctional beta-oxidation protein [EC:4.2.1.-] [RN:R03045]
             K05605  3-hydroxyisobutyryl-CoA hydrolase [EC:3.1.2.4] [RN:R03157 R03158]
             K23146  3-hydroxypropionate dehydrogenase [EC:1.1.1.59] [RN:R01608]

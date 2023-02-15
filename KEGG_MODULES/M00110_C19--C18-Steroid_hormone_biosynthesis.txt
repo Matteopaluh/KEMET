@@ -1,13 +1,12 @@
 ENTRY       M00110            Pathway   Module
 NAME        C19/C18-Steroid hormone biosynthesis, pregnenolone => androstenedione => estrone
-DEFINITION  K00512 (K00070,K01822) K07434
+DEFINITION  K00512 K00070 K07434
 ORTHOLOGY   K00512  steroid 17alpha-monooxygenase / 17alpha-hydroxyprogesterone deacetylase [EC:1.14.14.19 1.14.14.32] [RN:R03783 R08517]
             K00070  3beta-hydroxy-delta5-steroid dehydrogenase [EC:1.1.1.145] [RN:R01837]
-            K01822  steroid delta-isomerase [EC:5.3.3.1] [RN:R01837]
             K07434  cytochrome P450, family 19, subfamily A (aromatase) [EC:1.14.14.14] [RN:R01840 R04759 R02351]
 CLASS       Pathway modules; Lipid metabolism; Sterol biosynthesis
 PATHWAY     map00140  Steroid hormone biosynthesis
-            map01100 Metabolic pathways
+            map01100  Metabolic pathways
 REACTION    R03783  C01953 -> C05138
             R08517  C05138 -> C01227
             R01837  C01227 -> C00280

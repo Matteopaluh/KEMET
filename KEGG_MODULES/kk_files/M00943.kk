@@ -1,4 +1,4 @@
-M00943_Reticuline_biosynthesis.txt
+M00943_Reticuline_biosynthesis
 K13382
 K13383
 K13384

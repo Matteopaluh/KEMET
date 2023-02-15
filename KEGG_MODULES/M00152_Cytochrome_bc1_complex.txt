@@ -1,8 +1,7 @@
 ENTRY       M00152            Complex   Module
 NAME        Cytochrome bc1 complex
-DEFINITION  (K00412+K00413,K00410)+K00411+K00414+K00415+K00416+K00417+K00418+K00419+K00420
-ORTHOLOGY   K00410  FBCH; ubiquinol-cytochrome c reductase cytochrome b/c1 subunit
-            K00411  UQCRFS1; ubiquinol-cytochrome c reductase iron-sulfur subunit
+DEFINITION  K00411+K00412+K00413+K00414+K00415+K00416+K00417+K00418+K00419+K00420
+ORTHOLOGY   K00411  UQCRFS1; ubiquinol-cytochrome c reductase iron-sulfur subunit
             K00412  CYTB; ubiquinol-cytochrome c reductase cytochrome b subunit
             K00413  CYC1; ubiquinol-cytochrome c reductase cytochrome c1 subunit
             K00414  QCR1; ubiquinol-cytochrome c reductase core subunit 1

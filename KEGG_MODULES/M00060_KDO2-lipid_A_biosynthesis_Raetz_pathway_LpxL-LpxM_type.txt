@@ -1,10 +1,11 @@
 ENTRY       M00060            Pathway   Module
 NAME        KDO2-lipid A biosynthesis, Raetz pathway, LpxL-LpxM type
-DEFINITION  K00677 K02535 K02536 K03269 K00748 K00912 K02527 K02517 K02560
+DEFINITION  K00677 K02535 K02536 (K03269,K09949) K00748 K00912 K02527 K02517 K02560
 ORTHOLOGY   K00677  lpxA; UDP-N-acetylglucosamine acyltransferase [EC:2.3.1.129] [RN:R04567]
             K02535  lpxC; UDP-3-O-[3-hydroxymyristoyl] N-acetylglucosamine deacetylase [EC:3.5.1.108] [RN:R04587]
             K02536  lpxD; UDP-3-O-[3-hydroxymyristoyl] glucosamine N-acyltransferase [EC:2.3.1.191] [RN:R04550]
             K03269  lpxH; UDP-2,3-diacylglucosamine hydrolase [EC:3.6.1.54] [RN:R04549]
+            K09949  lpxI; UDP-2,3-diacylglucosamine hydrolase [EC:3.6.1.54] [RN:R04549]  
             K00748  lpxB; lipid-A-disaccharide synthase [EC:2.4.1.182] [RN:R04606]
             K00912  lpxK; tetraacyldisaccharide 4'-kinase [EC:2.7.1.130] [RN:R04657]
             K02527  kdtA, waaA; 3-deoxy-D-manno-octulosonic-acid transferase [EC:2.4.99.12 2.4.99.13] [RN:R04658]

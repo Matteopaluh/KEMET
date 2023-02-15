@@ -1,0 +1,6 @@
+M00899_Thiamine salvage pathway
+/
+K00878
+/
+K00941, K14153, K21219
+K00788, K14153, K21219

@@ -1,0 +1,36 @@
+ENTRY       M00898            Pathway   Module
+NAME        Thiamine biosynthesis, pyridoxal-5P => TMP/thiamine/TPP
+DEFINITION  K03146
+            K18278 K00877 K14154 -- K00949
+ORTHOLOGY   K03146  THI4; cysteine-dependent adenosine diphosphate thiazole synthase [EC:2.4.2.60] [RN:R10685]
+            K18278  THI5; pyrimidine precursor biosynthesis enzyme [RN:R10686]
+            K00877  THI20; phosphomethylpyrimidine kinase [EC:2.7.4.7] [RN:R04509]
+            K14154  THI6; thiamine-phosphate diphosphorylase [EC:2.5.1.3] [RN:R10712]
+            K00949  THI80; thiamine pyrophosphokinase [EC:2.7.6.2] [RN:R00619]
+CLASS       Pathway modules; Metabolism of cofactors and vitamins; Cofactor and vitamin metabolism
+PATHWAY     map00730  Thiamine metabolism
+            map01240  Biosynthesis of cofactors
+            map01100  Metabolic pathways
+REACTION    R10685  C00037 + C00003 -> C20784
+            R10711  C20784 -> C20247
+            R10686  C00018 -> C04556
+            R04509  C04556 -> C04752
+            R10712  C04752 + C20247 -> C01081
+            R02135  C01081 -> C00378
+            R00619  C00378 -> C00068
+COMPOUND    C00037  Glycine
+            C00003  NAD+
+            C20784  ADP-5-ethyl-4-methylthiazole-2-carboxylate
+            C20247  2-(2-Carboxy-4-methylthiazol-5-yl)ethyl phosphate
+            C00018  Pyridoxal phosphate
+            C04556  4-Amino-2-methyl-5-(phosphooxymethyl)pyrimidine
+            C04752  4-Amino-5-hydroxymethyl-2-methylpyrimidine diphosphate
+            C01081  Thiamin monophosphate
+            C00378  Thiamine
+            C00068  Thiamin diphosphate
+REFERENCE   PMID:18161008
+  AUTHORS   Kowalska E, Kozik A
+  TITLE     The genes and enzymes involved in the biosynthesis of thiamin and thiamin diphosphate in yeasts.
+  JOURNAL   Cell Mol Biol Lett 13:271-82 (2008)
+            DOI:10.2478/s11658-007-0055-5
+///

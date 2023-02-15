@@ -1,4 +1,4 @@
-M00924_Cobalamin_biosynthesis_anaerobicc-diamide.txt
+M00924_Cobalamin_biosynthesis_anaerobic
 K02302, K02303, K13542
 K02302, K02304, K24866
 K02190, K03795, K22011

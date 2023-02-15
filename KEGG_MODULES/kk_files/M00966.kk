@@ -1,0 +1,5 @@
+M00966_Equol biosynthesis
+K26069
+K26175
+K26070
+K26071

@@ -1,8 +1,8 @@
 ENTRY       M00307            Pathway   Module
 NAME        Pyruvate oxidation, pyruvate => acetyl-CoA
-DEFINITION  (((K00163,(K00161+K00162))+K00627+K00382-K13997),(K00169+K00170+K00171+K00172),K03737)
-ORTHOLOGY   (K00163,K00161+K00162)+K00627+K00382-K13997  pyruvate dehydrogenase complex [EC:1.2.4.1 2.3.1.12 1.8.1.4] [RN:R00209]
-            K00169+K00170+K00171+K00172,K03737  pyruvate:ferredoxin oxidoreductase [EC:1.2.7.1] [RN:R01196]
+DEFINITION  ((K00163,K00161+K00162)+K00627+K00382-K13997),K00169+K00170+K00171+(K00172,K00189),K03737
+ORTHOLOGY   K00163,K00161,K00162,K00627,K00382,K13997  pyruvate dehydrogenase complex [EC:1.2.4.1 2.3.1.12 1.8.1.4] [RN:R00209 R00014 R03270 R02569 R07618]
+            K00169,K00170,K00171,K00172,K00189,K03737  pyruvate:ferredoxin oxidoreductase [EC:1.2.7.1] [RN:R01196]
 CLASS       Pathway modules; Carbohydrate metabolism; Central carbohydrate metabolism
 PATHWAY     map00010  Glycolysis / Gluconeogenesis
             map00020  Citrate cycle (TCA cycle)
@@ -10,7 +10,17 @@ PATHWAY     map00010  Glycolysis / Gluconeogenesis
             map01200  Carbon metabolism
             map01100  Metabolic pathways
 REACTION    R00209,R01196  C00022 -> C00024
+            
+            R00014  C00022 + C00068 -> C05125
+            R03270  C05125 + C15972 -> C16255 + C00068
+            R02569  C16255 -> C00024 + C15973
+            R07618  C15973 -> C15972
 COMPOUND    C00022  Pyruvate
             C00024  Acetyl-CoA
+            C00068  Thiamin diphosphate
+            C05125  2-(alpha-Hydroxyethyl)thiamine diphosphate
+            C15972  Enzyme N6-(lipoyl)lysine
+            C16255  [Dihydrolipoyllysine-residue acetyltransferase] S-acetyldihydrolipoyllysine
+            C15973  Enzyme N6-(dihydrolipoyl)lysine
 COMMENT     The oxidative decarboxylation of pyruvate to acetyl-CoA is catalyzed by the pyruvate dehydrogenase complex as part of aerobic respiration or by pyruvate:ferredoxin oxidoreductase [EC:1.2.7.1].
 ///

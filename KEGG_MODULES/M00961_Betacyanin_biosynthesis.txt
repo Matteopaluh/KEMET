@@ -1,0 +1,42 @@
+ENTRY       M00961            Pathway   Module
+NAME        Betacyanin biosynthesis, L-tyrosine => amaranthin
+DEFINITION  K26037 K15777
+            (K15776,K15774) K26038
+ORTHOLOGY   K26037  tyrosine hydroxylase / L-DOPA oxygenase [EC:1.14.-.-] [RN:R13031 R13032]
+            K15777  4,5-DOPA dioxygenase extradiol [EC:1.13.11.-] [RN:R08836]
+            K15776  cyclo-DOPA 5-O-glucosyltransferase [EC:2.4.1.-] [RN:R8816]
+            K15774  betanidin 5-O-glucosyltransferase [EC:2.4.1.-] [RN:R08822]
+            K26038  amaranthin synthetase [EC:2.4.1.-] [RN:R08824]
+CLASS       Pathway modules; Biosynthesis of other secondary metabolites; Biosynthesis of phytochemical compounds
+PATHWAY     map00965  Betalain biosynthesis
+            map01100  Metabolic pathways
+            map01110  Biosynthesis of secondary metabolites
+REACTION    R13031  C00082 -> C00355
+            R08836  C00355 -> C17758
+            R08837  C17758 -> C08538
+            R13032  C00355 -> C05604
+            R08821  C05604 + C08538 -> C08539
+            R08822  C08539 -> C08540
+            R08816  C05604 -> C17751
+            R08820  C17751 + C08538 -> C08540
+            R08824  C08540 -> C08537
+COMPOUND    C00082  L-Tyrosine
+            C00355  3,4-Dihydroxy-L-phenylalanine
+            C17758  4,5-seco-Dopa
+            C08538  Betalamic acid
+            C05604  2-Carboxy-2,3-dihydro-5,6-dihydroxyindole
+            C08539  Betanidin
+            C08540  Betanin
+            C17751  cyclo-Dopa 5-O-glucoside
+            C08537  Amaranthin
+REFERENCE   PMID:29081360
+  AUTHORS   Polturak G, Aharoni A
+  TITLE     "La Vie en Rose": Biosynthesis, Sources, and Applications of Betalain Pigments.
+  JOURNAL   Mol Plant 11:7-22 (2018)
+            DOI:10.1016/j.molp.2017.10.008
+REFERENCE   PMID:30451369
+  AUTHORS   Imamura T, Isozumi N, Higashimura Y, Miyazato A, Mizukoshi H, Ohki S, Mori M
+  TITLE     Isolation of amaranthin synthetase from Chenopodium quinoa and construction of an amaranthin production system using suspension-cultured tobacco BY-2 cells.
+  JOURNAL   Plant Biotechnol J 17:969-981 (2019)
+            DOI:10.1111/pbi.13032
+///

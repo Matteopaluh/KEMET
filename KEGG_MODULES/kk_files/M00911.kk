@@ -1,4 +1,4 @@
-M00911_Riboflavin_biosynthesis_fungi.txt
+M00911_Riboflavin_biosynthesis_fungi
 /
 K01497
 K14654
