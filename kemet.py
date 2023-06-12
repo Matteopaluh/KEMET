@@ -2448,19 +2448,24 @@ if LOGflag:
     logging.info(f'+++ \tSTART {file_name}')
     logging.info('++ START KEGG Modules completeness')
 for file in sorted(os.listdir()):
-    if file.startswith(file_name):
-        if args.annotation_format == "kaas":
+    if args.annotation_format == "kaas":
+        if file == (f'{file_name}.ko') or file == (f'{file_name}.txt'):
             if args.verbose:
                 print(f"converting kaas-like file {file}")
             ktest, KOs = KAASXktest(file, file.rsplit(".", 1)[0]+".ktest", KAnnotation_directory, ktests_directory)
-        elif args.annotation_format == "eggnog":
+            break
+    elif args.annotation_format == "eggnog":
+        if file == (f'{file_name}.emapper.annotations'):
             if args.verbose:
                 print(f"converting eggnog file {file}")
             ktest, KOs = eggnogXktest(file, file.rsplit(".", 2)[0]+".ktest", KAnnotation_directory, ktests_directory)
-        elif args.annotation_format == "kofamkoala":
+            break
+    elif args.annotation_format == "kofamkoala":
+        if file == (f'{file_name}.tsv') or file == (f'{file_name}.txt'):
             if args.verbose:
                 print(f"converting kofamkoala file {file}")
             ktest, KOs = kofamXktest(file, file.rsplit(".", 1)[0]+".ktest", KAnnotation_directory, ktests_directory)
+            break
 
 os.chdir(ktests_directory)
 if ktest in sorted(os.listdir()):
@@ -2475,7 +2480,8 @@ if ktest in sorted(os.listdir()):
         logging.info('COMPLETE KEGG Modules completeness')
 
 if args.skip_hmm:
-    print(manuscript_info)
+    if not args.quiet:
+        print(manuscript_info)
     sys.exit(1)
 
 #### HMM - VERBOSITY SETTINGS
@@ -2565,7 +2571,8 @@ with open(instruction_file) as f:
             recap_hits_corr(fasta_id, hmm_hits_dir, HMM_hits_dict, HMM_hits_longestTRANSLATED_dict, run_start)
 
             if args.skip_gsmm:
-                print(manuscript_info)
+                if not args.quiet:
+                    print(manuscript_info)
                 sys.exit(1)
             else:
                 if args.hmm_mode == "kos" and args.gsmm_mode == "existing":
@@ -2610,6 +2617,7 @@ with open(instruction_file) as f:
                             recap_addition(fasta_id, gapfill_report_directory, old_new_names_R)
 
             print(_timeinfo(), f"END {fasta_id}\n", sep="\t")
-            print(manuscript_info)
             if LOGflag:
                 logging.info(f"END {fasta_id}\n")
+            if not args.quiet:
+                print(manuscript_info)
