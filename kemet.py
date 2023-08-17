@@ -2482,7 +2482,7 @@ if ktest in sorted(os.listdir()):
 if args.skip_hmm:
     if not args.quiet:
         print(manuscript_info)
-    sys.exit(1)
+    sys.exit(0)
 
 #### HMM - VERBOSITY SETTINGS
 if args.verbose:
@@ -2573,7 +2573,7 @@ with open(instruction_file) as f:
             if args.skip_gsmm:
                 if not args.quiet:
                     print(manuscript_info)
-                sys.exit(1)
+                sys.exit(0)
             else:
                 if args.hmm_mode == "kos" and args.gsmm_mode == "existing":
                     print('''
