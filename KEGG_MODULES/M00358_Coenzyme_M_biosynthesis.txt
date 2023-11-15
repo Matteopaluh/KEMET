@@ -1,12 +1,13 @@
 ENTRY       M00358            Pathway   Module
 NAME        Coenzyme M biosynthesis
-DEFINITION  K08097 K05979 K05884 (K13039+K06034)
+DEFINITION  K08097 K05979 K05884 K13039+K06034
 ORTHOLOGY   K08097  phosphosulfolactate synthase [EC:4.4.1.19] [RN:R07476]
             K05979  2-phosphosulfolactate phosphatase [EC:3.1.3.71] [RN:R05789]
             K05884  L-2-hydroxycarboxylate dehydrogenase (NAD+) [EC:1.1.1.337] [RN:R07136]
             K13039+K06034  sulfopyruvate decarboxylase [EC:4.1.1.79] [RN:R05774]
 CLASS       Pathway modules; Energy metabolism; Methane metabolism
 PATHWAY     map00680  Methane metabolism
+            map01240  Biosynthesis of cofactors
             map01100  Metabolic pathways
             map01120  Microbial metabolism in diverse environments
 REACTION    R07476  C00074 -> C11536

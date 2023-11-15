@@ -7,6 +7,8 @@ ORTHOLOGY   K00207  dihydropyrimidine dehydrogenase (NADP+) [EC:1.3.1.2] [RN:R00
             K01431,K06016  beta-ureidopropionase [EC:3.5.1.6] [RN:R00905 R04666]
 CLASS       Pathway modules; Nucleotide metabolism; Pyrimidine metabolism
 PATHWAY     map00240  Pyrimidine metabolism
+            map00410  beta-Alanine metabolism
+            map00770  Pantothenate and CoA biosynthesis
             map01100  Metabolic pathways
 REACTION    R00978,R00977  C00106 -> C00429
             R02269  C00429 -> C02642

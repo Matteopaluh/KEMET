@@ -1,6 +1,6 @@
 ENTRY       M00873            Pathway   Module
 NAME        Fatty acid biosynthesis in mitochondria, animals
-DEFINITION  K18660 (K03955+K00645) K09458 (K11539+K13370) K22540 K07512
+DEFINITION  K18660 K03955+K00645 K09458 K11539+K13370 K22540 K07512
 ORTHOLOGY   K18660  malonyl-CoA/methylmalonyl-CoA synthetase [EC:6.2.1.-]
             K03955  NADH dehydrogenase (ubiquinone) 1 alpha/beta subcomplex 1, acyl-carrier protein
             K00645  [acyl-carrier-protein] S-malonyltransferase [EC:2.3.1.39]

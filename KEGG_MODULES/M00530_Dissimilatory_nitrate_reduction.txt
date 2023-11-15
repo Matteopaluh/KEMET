@@ -2,15 +2,15 @@ ENTRY       M00530            Pathway   Module
 NAME        Dissimilatory nitrate reduction, nitrate => ammonia
 DEFINITION  (K00370+K00371+K00374,K02567+K02568) (K00362+K00363,K03385+K15876)
 ORTHOLOGY   K00370,K00371,K00374  respiratory nitrate reductase 1 [EC:1.7.99.- 1.7.5.1] [RN:R00798 R09497]
-            K02567,K02568  dissimilatory nitrate reductase [EC:1.7.99.-] [RN:R00798]
+            K02567,K02568  dissimilatory nitrate reductase [EC:1.9.6.1] [RN:R03071]
             K00362,K00363  respiratory nitrite reductase [EC:1.7.1.15] [RN:R00787]
             K03385,K15876  respiratory nitrite reductase [EC:1.7.2.2] [RN:R05712]
 CLASS       Pathway modules; Energy metabolism; Nitrogen metabolism
 PATHWAY     map00910  Nitrogen metabolism
             map01100  Metabolic pathways
             map01120  Microbial metabolism in diverse environments
-REACTION    R00798,R09497  C00244 -> C00088
-            R00787,R00789,R05712  C00088 -> C00014
+REACTION    R00798,R09497,R03071  C00244 -> C00088
+            R00787,R05712  C00088 -> C00014
 COMPOUND    C00244  Nitrate
             C00088  Nitrite
             C00014  NH3

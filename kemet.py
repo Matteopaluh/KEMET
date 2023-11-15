@@ -2366,6 +2366,8 @@ parser.add_argument('-I', '--path_input',
                     help='''Absolute path to input file(s) FOLDER.''', default = KAnnotation_directory)
 parser.add_argument('-k', '--as_kegg', action ="store_true",
                     help='''Return KEGG-Mapper output for the Module Completeness evaluation.''')
+parser.add_argument('-n', '--no_genome', action ="store_true",
+                    help='''Avoid checking for MAG/genome FASTA file and only use annotations for Modules Completeness evaluation..''')
 parser.add_argument('--skip_hmm', action ="store_true",
                     help='''Skip HMM-driven search for KOs & stop after KEGG Modules Completeness evaluation.''')
 parser.add_argument('--hmm_mode',
@@ -2432,22 +2434,25 @@ klists_directory = output_directory+"/klists/"
 manuscript_info = '''
 
 If KEMET provides useful insight, please consider citing the manuscript accompaining this code:
-https://doi.org/10.1016/j.csbj.2022.03.015
 
 KEMET-A python tool for KEGG Module evaluation and microbial genome annotation expansion.
-Computational and Structural Biotechnology Journal, 20, 1481-1486
-
+(https://doi.org/10.1016/j.csbj.2022.03.015)
 Palù, M., Basile, A., Zampieri, G., Treu, L., Rossi, A., Morlino, M. S., & Campanaro, S. (2022).
 
 '''
 
 #### KMC - PRODUCE KTEST FILE
 os.chdir(KAnnotation_directory)
-file_name = str(args.FASTA_file).rsplit("/", 1)[-1].replace(".fasta", "").replace(".fna", "").replace(".fa", "") # from path indication of a contig file maintain file_name
+if args.no_genome:
+    file_name = str(args.FASTA_file).rsplit("/", 1)[-1].replace(".emapper.annotations", "").replace(".tsv", "").replace(".txt", "").replace(".ko", "") # from path indication of an annotation file maintain file_name
+else:
+    file_name = str(args.FASTA_file).rsplit("/", 1)[-1].replace(".fasta", "").replace(".fna", "").replace(".fa", "") # from path indication of a contig file maintain file_name
+
 if LOGflag:
     logging.info(f'+++ \tSTART {file_name}')
     logging.info('++ START KEGG Modules completeness')
 for file in sorted(os.listdir()):
+    ktest = None
     if args.annotation_format == "kaas":
         if file == (f'{file_name}.ko') or file == (f'{file_name}.txt'):
             if args.verbose:
@@ -2479,7 +2484,7 @@ if ktest in sorted(os.listdir()):
     if LOGflag:
         logging.info('COMPLETE KEGG Modules completeness')
 
-if args.skip_hmm:
+if args.skip_hmm or args.no_genome:
     if not args.quiet:
         print(manuscript_info)
     sys.exit(0)

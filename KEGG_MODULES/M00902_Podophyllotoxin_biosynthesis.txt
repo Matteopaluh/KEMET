@@ -9,7 +9,7 @@ ORTHOLOGY   K21568  pinoresinol/lariciresinol reductase [EC:1.23.1.1 1.23.1.2 1.
             K21204  5'-demethylyatein 5'-O-methyltransferase [EC:2.1.1.330] [RN:R11545]
             K21202  (-)-deoxypodophyllotoxin synthase [EC:1.14.20.8] [RN:R11210]
 CLASS       Pathway modules; Biosynthesis of other secondary metabolites; Biosynthesis of phytochemical compounds
-PATHWAY     map00998  Biosynthesis of various secondary metabolites - part 2
+PATHWAY     map00999  Biosynthesis of various plant secondary metabolites
             map01100  Metabolic pathways
             map01110  Biosynthesis of secondary metabolites
 REACTION    R12126  C00590 -> C05366

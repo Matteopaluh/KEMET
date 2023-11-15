@@ -12,7 +12,7 @@ ORTHOLOGY   K05556  actVI1; ketoreductase RED1 [EC:1.1.1.-] [RN:R09306 R09307 R0
 CLASS       Pathway modules; Biosynthesis of terpenoids and polyketides; Type II polyketide biosynthesis
 PATHWAY     map01057  Biosynthesis of type II polyketide products
             map01100  Metabolic pathways
-            map01130  Biosynthesis of antibiotics
+            map01110  Biosynthesis of secondary metabolites
 REACTION    R09306  C18353 -> C18354
             R09307  C18354 -> C18356
             R09308  C18356 -> C12434

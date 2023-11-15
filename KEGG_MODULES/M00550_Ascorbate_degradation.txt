@@ -1,6 +1,6 @@
 ENTRY       M00550            Pathway   Module
 NAME        Ascorbate degradation, ascorbate => D-xylulose-5P
-DEFINITION  (K02821+K02822+K03475) K03476 K03078 K03079 K03077
+DEFINITION  K02821+K02822+K03475 K03476 K03078 K03079 K03077
 ORTHOLOGY   K02821,K02822,K03475  PTS system, ascorbate-specific [EC:2.7.1.194] [RN:R07671]
             K03476  L-ascorbate 6-phosphate lactonase [EC:3.1.1.-] [RN:R07677]
             K03078  3-dehydro-L-gulonate-6-phosphate decarboxylase [EC:4.1.1.85] [RN:R07125]

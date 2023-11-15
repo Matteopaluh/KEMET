@@ -1,6 +1,6 @@
 ENTRY       M00641            Signature Module
 NAME        Multidrug resistance, efflux pump MexEF-OprN
-DEFINITION  K18297 (K18298+K18299-K18300)
+DEFINITION  K18297 K18298+K18299-K18300
 ORTHOLOGY   K18297  mexT; LysR family transcriptional regulator, mexEF-oprN operon transcriptional activator
             K18298  mexE; membrane fusion protein
             K18299  mexF; multidrug efflux pump

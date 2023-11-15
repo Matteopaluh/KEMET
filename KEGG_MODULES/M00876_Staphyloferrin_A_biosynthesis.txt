@@ -4,9 +4,10 @@ DEFINITION  K21898 K23446 K23447
 ORTHOLOGY   K21898  orr; ornithine racemase [EC:5.1.1.12] [RN:R00672]
             K23446  sfnaD; D-ornithine--citrate ligase [EC:6.3.2.58] [RN:R12353]
             K23447  sfnaB; staphyloferrin A synthetase [EC:6.3.2.57] [RN:R12354]
-CLASS       Pathway modules; Biosynthesis of other secondary metabolites; Biosynthesis of other secondary metabolites
-PATHWAY     map00997  Biosynthesis of various secondary metabolites - part 3
+CLASS       Pathway modules; Biosynthesis of other secondary metabolites; Biosynthesis of other bacterial compounds
+PATHWAY     map00997  Biosynthesis of various other secondary metabolites
             map01100  Metabolic pathways
+            map01110  Biosynthesis of secondary metabolites
 REACTION    R00672  C00077 -> C00515
             R12353  C00515 -> C22101
             R12354  C22101 -> C22102

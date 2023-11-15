@@ -1,0 +1,52 @@
+ENTRY       M00048            Pathway   Module
+NAME        De novo purine biosynthesis, PRPP + glutamine => IMP
+DEFINITION  K00764 (K01945,K11787,K11788,K13713) (K00601,K11175,K08289,K11787,K01492) (K01952,(K23269+K23264+K23265),(K23270+K23265)) (K01933,K11787,K11788 (K01587,K11808,K01589 K01588)) (K01923,K01587,K13713) K01756 (K00602,(K01492,K06863 K11176))
+ORTHOLOGY   K00764  amidophosphoribosyltransferase [EC:2.4.2.14] [RN:R01072]
+            K01945,K11787,K11788  phosphoribosylamine--glycine ligase [EC:6.3.4.13] [RN:R04144]
+            K00601,K11175,K08289,K11787,K01492  phosphoribosylglycinamide formyltransferase [EC:2.1.2.2] [RN:R04325]
+            K01952,K23269,K23264,K23265,K23270  phosphoribosylformylglycinamidine synthase [EC:6.3.5.3] [RN:R04463]
+            K01933,K11787,K11788  phosphoribosylformylglycinamidine cyclo-ligase [EC:6.3.3.1] [RN:R04208]
+            K01587,K11808  phosphoribosylaminoimidazole carboxylase [EC:4.1.1.21] [RN:R04209]
+            K01589  5-(carboxyamino)imidazole ribonucleotide synthase [EC:6.3.4.18] [RN:R07405]
+            K01588  5-(carboxyamino)imidazole ribonucleotide mutase [EC:5.4.99.18] [RN:R07404]
+            K01923,K01587  phosphoribosylaminoimidazole-succinocarboxamide synthase [EC:6.3.2.6] [RN:R04591]
+            K13713  fusion protein PurCD [EC:6.3.2.6 6.3.4.13] [RN:R04144 R04591]
+            K01756  adenylosuccinate lyase [EC:4.3.2.2] [RN:R04559]
+            K00602  phosphoribosylaminoimidazolecarboxamide formyltransferase / IMP cyclohydrolase [EC:2.1.2.3 3.5.4.10] [RN:R04560 R01127]
+            K01492  phosphoribosylaminoimidazolecarboxamide formyltransferase [EC: 2.1.2.3] [RN:R04560]
+            K06863  5-formaminoimidazole-4-carboxamide-1-(beta)-D-ribofuranosyl 5'-monophosphate synthetase [EC:6.3.4.23] [RN:R06975]
+            K11176  IMP cyclohydrolase [EC:3.5.4.10] [RN:R01127]
+CLASS       Pathway modules; Nucleotide metabolism; Purine metabolism
+PATHWAY     map00230  Purine metabolism
+            map01100  Metabolic pathways
+REACTION    R01072  C00119 + C00064 -> C03090
+            R04144  C03090 -> C03838
+            R04325  C03838 -> C04376
+            R04463  C04376 -> C04640
+            R04208  C04640 -> C03373
+            R04209  C03373 -> C04751
+            R07404  C03373 -> C15667
+            R07405  C15667 -> C04751
+            R04591  C04751 -> C04823
+            R04559  C04823 -> C04677
+            R04560,R06975  C04677 -> C04734
+            R01127  C04734 -> C00130
+COMPOUND    C00119  5-Phospho-alpha-D-ribose 1-diphosphate
+            C00064  L-Glutamine
+            C03090  5-Phosphoribosylamine
+            C03838  5'-Phosphoribosylglycinamide
+            C04376  5'-Phosphoribosyl-N-formylglycinamide
+            C04640  2-(Formamido)-N1-(5'-phosphoribosyl)acetamidine
+            C03373  Aminoimidazole ribotide
+            C04751  1-(5-Phospho-D-ribosyl)-5-amino-4-imidazolecarboxylate
+            C15667  5-Carboxyamino-1-(5-phospho-D-ribosyl)imidazole
+            C04823  1-(5'-Phosphoribosyl)-5-amino-4-(N-succinocarboxamide)-imidazole
+            C04677  1-(5'-Phosphoribosyl)-5-amino-4-imidazolecarboxamide
+            C04734  1-(5'-Phosphoribosyl)-5-formamido-4-imidazolecarboxamide
+            C00130  IMP
+REFERENCE   PMID:34210662
+  AUTHORS   Chandel NS
+  TITLE     Nucleotide Metabolism.
+  JOURNAL   Cold Spring Harb Perspect Biol 13:a040592 (2021)
+            DOI:10.1101/cshperspect.a040592
+///

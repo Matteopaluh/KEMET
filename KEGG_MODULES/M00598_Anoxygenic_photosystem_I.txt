@@ -1,11 +1,10 @@
 ENTRY       M00598            Complex   Module
 NAME        Anoxygenic photosystem I
-DEFINITION  (K08940+K08941+K08942+K08943)
+DEFINITION  K08940+K08941+K08942+K08943
 ORTHOLOGY   K08940  pscA; photosystem P840 reaction center large subunit
             K08941  pscB; photosystem P840 reaction center iron-sulfur protein
             K08942  pscC; photosystem P840 reaction center cytochrome c551
             K08943  pscD; photosystem P840 reaction center protein PscD
 CLASS       Pathway modules; Energy metabolism; Photosynthesis
-BRITE       ko00194  Photosynthesis proteins
 COMMENT     Organism group: green sulfur bacteria
 ///

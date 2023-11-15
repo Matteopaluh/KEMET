@@ -1,6 +1,6 @@
 ENTRY       M00823            Pathway   Module
 NAME        Chlortetracycline biosynthesis, pretetramide => chlortetracycline
-DEFINITION  K14251 K14252 K14253 K14254 K14255 K14256 K21301 (K14257+K21297)
+DEFINITION  K14251 K14252 K14253 K14254 K14255 K14256 K21301 K14257+K21297
 ORTHOLOGY   K14251  oxyF; C-methyltransferase [EC:2.1.1.-] [RN:R09189]
             K14252  oxyL; 6-methylpretetramide 4-monooxygenase / 4-hydroxy-6-methylpretetramide 12a-monooxygenase [EC:1.14.13.232 1.14.13.233] [RN:R09190 R05462]
             K14253  oxyE; 6-methylpretetramide 4-monooxygenase [EC:1.14.13.232] [RN:R05463]
@@ -14,7 +14,7 @@ CLASS       Pathway modules; Biosynthesis of terpenoids and polyketides; Type II
 PATHWAY     map00253  Tetracycline biosynthesis
             map01057  Biosynthesis of type II polyketide products
             map01100  Metabolic pathways
-            map01130  Biosynthesis of antibiotics
+            map01110  Biosynthesis of secondary metabolites
 REACTION    R09189  C18295 -> C06629
             R05463  C06629 -> C06628
             R05462  C06628 -> C06627

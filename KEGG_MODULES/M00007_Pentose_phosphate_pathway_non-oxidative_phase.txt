@@ -1,8 +1,8 @@
 ENTRY       M00007            Pathway   Module
 NAME        Pentose phosphate pathway, non-oxidative phase, fructose 6P => ribose 5P
 DEFINITION  K00615 (K00616,K13810) K01783 (K01807,K01808)
-ORTHOLOGY   K00615  transketolase [EC:2.2.1.1] [RN:R01830 R01641]
-            K00616,K13810  transaldolase [EC:2.2.1.2] [RN:R01827]
+ORTHOLOGY   K00615  transketolase [EC:2.2.1.1] [RN:R01067 R01641]
+            K00616,K13810  transaldolase [EC:2.2.1.2] [RN:R08575]
             K01783  ribulose-phosphate 3-epimerase [EC:5.1.3.1] [RN:R01529]
             K01807,K01808  ribose 5-phosphate isomerase [EC:5.3.1.6] [RN:R01056]
 CLASS       Pathway modules; Carbohydrate metabolism; Central carbohydrate metabolism
@@ -11,16 +11,20 @@ PATHWAY     map00030  Pentose phosphate pathway
             map01230  Biosynthesis of amino acids
             map01100  Metabolic pathways
             map01120  Microbial metabolism in diverse environments
-REACTION    R01830  C05345 + C00118 -> C00279 + C00231
-            R01827  C00279 + C05345 -> C05382 + C00118
+REACTION    R01067  C00085 + C00118 -> C00279 + C00231
+            R08575  C00279 + C00085 -> C05382 + C00118
             R01641  C05382 + C00118 -> C00117 + C00231
             R01529  C00231 -> C00199
             R01056  C00199 -> C00117
-COMPOUND    C05345  beta-D-Fructose 6-phosphate
+COMPOUND    C00085  D-Fructose 6-phosphate
             C00118  D-Glyceraldehyde 3-phosphate
             C00279  D-Erythrose 4-phosphate
             C00231  D-Xylulose 5-phosphate
             C05382  Sedoheptulose 7-phosphate
             C00117  D-Ribose 5-phosphate
             C00199  D-Ribulose 5-phosphate
+REFERENCE
+  AUTHORS   Salway JG, Asou Y (ed).
+  TITLE     [Metabolism at a Glance (2nd ed)] (In Japanese)
+  JOURNAL   Medical Sciences International (2000)
 ///

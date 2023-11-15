@@ -1,12 +1,12 @@
 ENTRY       M00418            Pathway   Module
 NAME        Toluene degradation, anaerobic, toluene => benzoyl-CoA
-DEFINITION  K07540 (K07543+K07544) K07545 K07546 (K07547+K07548) (K07549+K07550)
+DEFINITION  K07540 K07543+K07544 K07545 K07546 K07547+K07548 K07549+K07550
 ORTHOLOGY   K07540  benzylsuccinate synthase [EC:4.1.99.11] [RN:R05598]
-            K07543+K07544  benzylsuccinate CoA-transferase subunit [EC:2.8.3.15] [RN:R05588]
+            K07543+K07544  bbsEF; benzylsuccinate CoA-transferase [EC:2.8.3.15] [RN:R05588]
             K07545  bbsG; (R)-benzylsuccinyl-CoA dehydro genase [EC:1.3.8.3] [RN:R05584]
-            K07546  bbsH; E-phenylitaconyl-CoA hydratase [EC:4.2.1.-] [RN:R05599]
-            K07547+K07548  2-[hydroxy(phenyl)methyl]-succinyl-CoA dehydrogenase [EC:1.1.1.35] [RN:R05575]
-            K07549+K07550  benzoylsuccinyl-CoA thiolase [EC:2.3.1.-] [RN:R05587]
+            K07546  bbsH; E-phenylitaconyl-CoA hydratase [EC:4.2.1.128] [RN:R05599]
+            K07547+K07548  bbsCD; (2S)-[(R)-hydroxy(phenyl)methyl]-succinyl-CoA dehydrogenase [EC:1.1.1.429] [RN:R05575]
+            K07549+K07550  bbsAB; benzoylsuccinyl-CoA thiolase [EC:2.3.1.310] [RN:R05587]
 CLASS       Pathway modules; Xenobiotics biodegradation; Aromatics degradation
 PATHWAY     map00623  Toluene degradation
             map01220  Degradation of aromatic compounds

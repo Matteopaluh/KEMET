@@ -9,7 +9,7 @@ ORTHOLOGY   K01852  lanosterol synthase [EC:5.4.99.7] [RN:R03199]
             K09827  3-keto steroid reductase [EC:1.1.1.270] [RN:R07495 R12405]
             K00559  sterol 24-C-methyltransferase [EC:2.1.1.41] [RN:R04427]
             K09829  C-8 sterol isomerase [EC:5.-.-.-] [RN:R07497]
-            K00227  Delta7-sterol 5-desaturase [EC:1.14.19.20] [RN:R07505]
+            K00227  Delta7-sterol 5-desaturase [EC:1.14.19.20] [RN:R07491]
             K09831  sterol 22-desaturase [EC:1.14.19.41] [RN:R07506]
             K00223  Delta24(24(1))-sterol reductase [EC:1.3.1.71] [RN:R05641]
 CLASS       Pathway modules; Lipid metabolism; Sterol biosynthesis
@@ -27,8 +27,8 @@ REACTION    R03199  C01054 -> C01724
             R12405  C22136 -> C05437	
             R04427  C05437 -> C04525	
             R07497  C04525 -> C15777	
-            R07505  C15777 -> C15778	
-            R07506  C15778 -> C05440	
+            R07491  C15777 -> C15780	
+            R07506  C15780 -> C05440	
             R05641  C05440 -> C01694	
             R03677  C01694 -> C05441
 COMPOUND    C01054  (S)-2,3-Epoxysqualene
@@ -43,7 +43,7 @@ COMPOUND    C01054  (S)-2,3-Epoxysqualene
             C05437  Zymosterol
             C04525  Fecosterol
             C15777  Episterol
-            C15778  5,7,24(28)-Ergostatrienol
+            C15780  5-Dehydroepisterol
             C05440  Ergosta-5,7,22,24(28)-tetraen-3beta-ol
             C01694  Ergosterol
             C05441  Vitamin D2

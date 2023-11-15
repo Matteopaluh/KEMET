@@ -1,23 +1,29 @@
 ENTRY       M00573            Pathway   Module
 NAME        Biotin biosynthesis, BioI pathway, long-chain-acyl-ACP => pimeloyl-ACP => biotin
 DEFINITION  K16593 K00652 K19563 K01935 K01012
-ORTHOLOGY   K16593  pimeloyl-[acyl-carrier protein] synthase [EC:1.14.14.46] [RN:R10123]
-            K00652  8-amino-7-oxononanoate synthase [EC:2.3.1.47] [RN:R10124]
-            K19563  lysine---8-amino-7-oxononanoate aminotransferase [EC:2.6.1.105] [RN:R10699]
-            K01935  dethiobiotin synthetase [EC:6.3.3.3] [RN:R03182]
-            K01012  biotin synthetase [EC:2.8.1.6] [RN:R01078]
+ORTHOLOGY   K16593  bioI; pimeloyl-[acyl-carrier protein] synthase [EC:1.14.14.46] [RN:R10123]
+            K00652  bioF; 8-amino-7-oxononanoate synthase [EC:2.3.1.47] [RN:R10124]
+            K19563  bioA; lysine---8-amino-7-oxononanoate aminotransferase [EC:2.6.1.105] [RN:R10699]
+            K01935  bioD; dethiobiotin synthetase [EC:6.3.3.3] [RN:R03182]
+            K01012  bioB; biotin synthetase [EC:2.8.1.6] [RN:R01078]
 CLASS       Pathway modules; Metabolism of cofactors and vitamins; Cofactor and vitamin metabolism
 PATHWAY     map00780  Biotin metabolism
+            map01240  Biosynthesis of cofactors
             map01100  Metabolic pathways
-REACTION    R10123  C00173 -> C19845
+REACTION    R10123  C20683 -> C19845
             R10124  C19845 -> C01092
             R10699  C01092 -> C01037
             R03182  C01037 -> C01909
             R01078  C01909 -> C00120
-COMPOUND    C00173  Acyl-[acyl-carrier protein]
+COMPOUND    C20683  Long-chain acyl-[acyl-carrier protein]
             C19845  Pimeloyl-[acyl-carrier protein]
             C01092  8-Amino-7-oxononanoate
             C01037  7,8-Diaminononanoate
             C01909  Dethiobiotin
             C00120  Biotin
+REFERENCE   PMID:21437340
+  AUTHORS   Lin S, Cronan JE
+  TITLE     Closing in on complete pathways of biotin biosynthesis.
+  JOURNAL   Mol Biosyst 7:1811-21 (2011)
+            DOI:10.1039/c1mb05022b
 ///

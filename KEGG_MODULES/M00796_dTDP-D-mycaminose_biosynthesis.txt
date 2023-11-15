@@ -6,8 +6,9 @@ ORTHOLOGY   K19853  tyl1a; TDP-4-oxo-6-deoxy-alpha-D-glucose-3,4-oxoisomerase [E
             K13307  tylMI; dTDP-3-amino-3,6-dideoxy-alpha-D-glucopyranose N,N-dimethyltransferase [EC:2.1.1.235] [RN:R06439]
 CLASS       Pathway modules; Biosynthesis of terpenoids and polyketides; Polyketide sugar unit biosynthesis
 PATHWAY     map00523  Polyketide sugar unit biosynthesis
+            map01250  Biosynthesis of nucleotide sugars
             map01100  Metabolic pathways
-            map01130  Biosynthesis of antibiotics
+            map01110  Biosynthesis of secondary metabolites
 REACTION    R06424  C11907 -> C11908
             R06423  C11908 -> C11925
             R06439  C11925 -> C11933

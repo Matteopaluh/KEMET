@@ -1,6 +1,6 @@
 ENTRY       M00934            Pathway   Module
 NAME        Mycinamicin biosynthesis, malonyl-CoA + methylmalonyl-CoA => protomycinolide IV => mycinamicin II
-DEFINITION  (K24528+K24559+K24560+K24561+K24562) K24529 (K24292+K24530) K24531 K21540 K21539 K24390
+DEFINITION  K24528+K24559+K24560+K24561+K24562 K24529 K24292+K24530 K24531 K21540 K21539 K24390
 ORTHOLOGY   K24528,K24559,K24560,K24561,K24562  mycA; protomycinolide IV synthase [RN:R12660]
             K24529  mycB; protomycinolide IV desosaminyltransferase [EC:2.4.1.-] [RN:R10876]
             K24292  mycCI; mycinamicin VIII C21 methyl hydroxylase [EC:1.14.-.-] [RN:R10875]

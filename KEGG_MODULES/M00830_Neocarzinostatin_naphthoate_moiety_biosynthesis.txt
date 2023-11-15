@@ -8,7 +8,7 @@ ORTHOLOGY   K20422  ncsB; neocarzinostatin naphthoate synthase [EC:2.3.1.237] [R
 CLASS       Pathway modules; Biosynthesis of terpenoids and polyketides; Enediyne biosynthesis
 PATHWAY     map01059  Biosynthesis of enediyne antibiotics
             map01100  Metabolic pathways
-            map01130  Biosynthesis of antibiotics
+            map01110  Biosynthesis of secondary metabolites
 REACTION    R11125  C00083 -> C20856
             R10796  C20856 -> C20857
             R10963  C20857 -> C20841

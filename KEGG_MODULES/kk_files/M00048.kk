@@ -1,4 +1,4 @@
-M00048_Inosine monophosphate biosynthesis, PRPP + glutamine => IMP
+M00048_De novo purine biosynthesis, PRPP + glutamine => IMP
 K00764
 K01945, K11787, K11788, K13713
 K00601, K11175, K08289, K11787, K01492

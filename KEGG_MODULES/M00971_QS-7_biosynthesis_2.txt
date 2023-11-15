@@ -1,0 +1,53 @@
+ENTRY       M00971            Pathway   Module
+NAME        QS-7 biosynthesis, 2,3-epoxysqualene => QS-7
+DEFINITION  K15813 K20667 K26481 K26482 K26483 K26484 K26485 K26487+K26488 K26489 K26490 K26491 K26493+K26494+K26495
+ORTHOLOGY   K15813  beta-amyrin synthase [EC:5.4.99.39] [RN:R06469]
+            K20667  beta-amyrin 28-monooxygenase [EC:1.14.14.126] [RN:R10924]
+            K26481  oleanolic acid C16alpha-oxidase [RN:R13149]
+            K26482  echinocystic acid C23-oxidase [RN:R13150]
+            K26483  quillaic acid 3-O-glucuronosyltransferase [RN:R13151]
+            K26484  quillaic acid 3-O-GlcA beta-1,2-galactosyltransferase [EC:2.4.1.-] [RN:R13152]
+            K26485  quillaic acid 3-O-Gal-1,2-GlcA beta-1,3-xylosyltransferase [EC:2.4.2.-] [RN:R13153]
+            K26487  quillaic acid 3-O-Xyl/L-Rha-1,3-(Gal-1,2)-GlcA 28-O-glycosyltransferase [RN:R13155]
+            K26488  4-keto-6-deoxyglucose 4-dehydrogenase [RN:R13155]
+            K26489  quillaic acid 3-O-Xyl/L-Rha-1,3-(Gal-1,2)-GlcA-28-O-Fuc alpha-1,2-rhamnosyltransferase [EC:2.4.1.-] [RN:R13157]
+            K26490  quillaic acid 3-O-Xyl/L-Rha-1,3-(Gal-1,2)-GlcA-28-O-L-Rha-1,2-Fuc beta-1,4-xylosyltransferase [EC:2.4.2.-] [RN:13159]
+            K26491  quillaic acid 3-O-Xyl/L-Rha-1,3-(Gal-1,2)-GlcA-28-O-Xyl-1,4-L-Rha-1,2-Fuc beta-1,3-apiosyltransferase [EC:2.4.2.-] [RN:13162]
+            K26493  O-acetyltransferase [RN:R13165]
+            K26494  alpha-1,3-rhamnosyltransferase [EC:2.4.1.-] [RN:R13165]
+            K26495  beta-1,3-glucosyltransferase [EC:2.4.1.-] [RN:R13165]
+CLASS       Pathway modules; Biosynthesis of other secondary metabolites; Biosynthesis of phytochemical compounds
+PATHWAY     map00999  Biosynthesis of various plant secondary metabolites
+            map01100  Metabolic pathways
+            map01110  Biosynthesis of secondary metabolites
+REACTION    R06469  C01054 -> C08616
+            R10924  C08616 -> C17148
+            R13149  C17148 -> C08942
+            R13150  C08942 -> C08972
+            R13151  C08972 -> C22652
+            R13152  C22652 -> C22653
+            R13153  C22653 -> C22654
+            R13155  C22654 -> C22656
+            R13157  C22656 -> C22658
+            R13159  C22658 -> C22660
+            R13162  C22660 -> C22664
+            R13165  C22664 -> C22666
+COMPOUND    C01054  (S)-2,3-Epoxysqualene
+            C08616  beta-Amyrin
+            C17148  Oleanolic acid
+            C08942  Echinocystic acid
+            C08972  Quillaic acid
+            C22652  Quillaic acid 3-O-beta-D-glucuronide
+            C22653  Quillaic acid 3-O-beta-D-galactosyl-1,2-beta-D-glucuronide
+            C22654  Quillaic acid 3-O-beta-D-xylosyl-1,3-(beta-D-galactosyl-1,2)-beta-D-glucuronide
+            C22656  Quillaic acid 3-O-beta-D-xylosyl-1,3-(beta-D-galactosyl-1,2)-beta-D-glucuronide-28-O-beta-D-fucoside
+            C22658  Quillaic acid 3-O-beta-D-xylosyl-1,3-(beta-D-galactosyl-1,2)-beta-D-glucuronide-28-O-alpha-L-rhamnosyl-1,2-beta-D-fucoside
+            C22660  Quillaic acid 3-O-beta-D-xylosyl-1,3-(beta-D-galactosyl-1,2)-beta-D-glucuronide-28-O-beta-D-xylosyl-1,4-alpha-L-rhamnosyl-1,2-beta-D-fucoside
+            C22664  Quillaic acid 3-O-beta-D-xylosyl-1,3-(beta-D-galactosyl-1,2)-beta-D-glucuronide-28-O-beta-D-apiosyl-1,3-beta-D-xylosyl-1,4-alpha-L-rhamnosyl-1,2-beta-D-fucoside
+            C22666  Quillaic acid 3-O-beta-D-xylosyl-1,3-(beta-D-galactosyl-1,2)-beta-D-glucuronide 28-O-beta-D-apiosyl-1,3-beta-D-xylosyl-1,4-(beta-D-glucosyl-1,3)-alpha-L-rhamnosyl-1,2-(alpha-L-rhamnosyl-1,3)-4-O-acetyl-beta-D-fucoside
+REFERENCE   PMID:36952412
+  AUTHORS   Reed J, Orme A, El-Demerdash A, Owen C, Martin LBB, Misra RC, Kikuchi S, Rejzek M, Martin AC, Harkess A, Leebens-Mack J, Louveau T, Stephenson MJ, Osbourn A.
+  TITLE     Elucidation of the pathway for biosynthesis of saponin adjuvants from the  soapbark tree.
+  JOURNAL   Science 379:1252-1264 (2023)
+            DOI:10.1126/science.adf3727
+///

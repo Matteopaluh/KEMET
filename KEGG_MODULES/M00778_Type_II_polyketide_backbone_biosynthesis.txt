@@ -1,6 +1,6 @@
 ENTRY       M00778            Pathway   Module
 NAME        Type II polyketide backbone biosynthesis, acyl-CoA + malonyl-CoA => polyketide
-DEFINITION  (K05551+K05552+K05553) -K12420 ((K05554,K14249,K15884,K15885) (K05555,K14250),K15886)
+DEFINITION  K05551+K05552+K05553 -K12420 ((K05554,K14249,K15884,K15885) (K05555,K14250),K15886)
 ORTHOLOGY   K05551  actI1, oxyA, tcmK, snoa1, mtmP; minimal PKS ketosynthase (KS/KS alpha) [EC:2.3.1.- 2.3.1.260 2.3.1.235] [RN:R09258 R09259 R11516 R06643]
             K05552  actI2, oxyB, tcmL, snoa2, mtmK; minimal PKS chain-length factor (CLF/KS beta) [EC:2.3.1.- 2.3.1.260 2.3.1.235] [RN:R09258 R09259 R11516 R06643]
             K05553  actI3, oxyC, tcmM, snoa3, mtmS; minimal PKS acyl carrier protein [RN:R09258 R09259 R11516 R06643]
@@ -16,7 +16,7 @@ CLASS       Pathway modules; Biosynthesis of terpenoids and polyketides; Type II
 PATHWAY     map01056  Biosynthesis of type II polyketide backbone
             map00253  Tetracycline biosynthesis
             map01100  Metabolic pathways
-            map01130  Biosynthesis of antibiotics
+            map01110  Biosynthesis of secondary metabolites
 REACTION    R09258  C00083 -> C12348
             R09259  C12348 -> C18327
             R09262  C18327 -> C18328

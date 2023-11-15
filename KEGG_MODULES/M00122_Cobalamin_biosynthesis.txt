@@ -1,29 +1,31 @@
 ENTRY       M00122            Pathway   Module
-NAME        Cobalamin biosynthesis, cobinamide => cobalamin
+NAME        Cobalamin biosynthesis, cobyrinate a,c-diamide => cobalamin
 DEFINITION  (K00798,K19221) K02232 (K02225,K02227) K02231
             K00768 (K02226,K22316)
             K02233
-ORTHOLOGY   K00798,K19221  cob(I)alamin adenosyltransferase [EC:2.5.1.17] [RN:R05220]
+ORTHOLOGY   K00798,K19221  cob(I)alamin adenosyltransferase [EC:2.5.1.17] [RN:R12184]
             K02232  adenosylcobyric acid synthase [EC:6.3.5.10] [RN:R05225]
-            K02225  cobalamin biosynthetic protein CobC [RN:R07302]
-            K02227  adenosylcobinamide-phosphate synthase CobD [EC:6.3.1.10] [RN:R07302]
+            K02225  cobalamin biosynthetic protein CobC [RN:R07302 R06529]
+            K02227  adenosylcobinamide-phosphate synthase CobD [EC:6.3.1.10] [RN:R07302 R06529]
             K02231  adenosylcobinamide kinase / adenosylcobinamide-phosphate guanylyltransferase [EC:2.7.1.156 2.7.7.62] [RN:R05221 R06558 R05222]
             K00768  nicotinate-nucleotide--dimethylbenzimidazole phosphoribosyltransferase [EC:2.4.2.21] [RN:R04148]
             K02226  alpha-ribazole phosphatase [EC:3.1.3.73] [RN:R04594]
             K22316  adenosylcobalamin/alpha-ribazole phosphatase [EC:3.1.26.4 3.1.3.73] [RN:R04594]
             K02233  adenosylcobinamide-GDP ribazoletransferase [EC:2.7.8.26] [RN:R05223]
 CLASS       Pathway modules; Metabolism of cofactors and vitamins; Cofactor and vitamin metabolism
-PATHWAY     map00860  Porphyrin and chlorophyll metabolism
+PATHWAY     map00860  Porphyrin metabolism
+            map01240  Biosynthesis of cofactors
             map01100  Metabolic pathways
-REACTION    R05220  C06505 -> C06506
+REACTION    R12184  C06504 -> C06506
             R05225  C06506 -> C06507
             R07302  C06507 -> C06508
             R05221,R06558  C06508 -> C06509
+            R06529  C06507 -> C06509
             R05222  C06509 -> C06510
             R04148  C03114 -> C04778
             R04594  C04778 -> C05775
             R05223  C06510 + C05775 -> C00194
-COMPOUND    C06505  Cob(I)yrinate a,c diamide
+COMPOUND    C06504  Cob(II)yrinate a,c diamide
             C06506  Adenosyl cobyrinate a,c diamide
             C06507  Adenosyl cobyrinate hexaamide
             C06508  Adenosyl cobinamide
@@ -33,4 +35,14 @@ COMPOUND    C06505  Cob(I)yrinate a,c diamide
             C04778  N1-(5-Phospho-alpha-D-ribosyl)-5,6-dimethylbenzimidazole
             C05775  alpha-Ribazole
             C00194  Cobamide coenzyme
+REFERENCE   PMID:12195810
+  AUTHORS   Warren MJ, Raux E, Schubert HL, Escalante-Semerena JC.
+  TITLE     The biosynthesis of adenosylcobalamin (vitamin B12).
+  JOURNAL   Nat Prod Rep 19:390-412 (2002)
+            DOI:10.1039/b108967f
+REFERENCE   PMID:32241908
+  AUTHORS   Bryant DA, Hunter CN, Warren MJ
+  TITLE     Biosynthesis of the modified tetrapyrroles-the pigments of life.
+  JOURNAL   J Biol Chem 295:6888-6925 (2020)
+            DOI:10.1074/jbc.REV120.006194
 ///

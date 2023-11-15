@@ -8,9 +8,10 @@ ORTHOLOGY   K23371  sbnI; L-serine kinase (ATP) / ParB family transcriptional re
             K23373  sbnH; 2-[(L-alanin-3-ylcarbamoyl)methyl]-2-hydroxybutanedioate decarboxylase [EC:4.1.1.117] [RN:R12309]
             K23374  sbnF; 2-[(L-alanin-3-ylcarbamoyl)methyl]-3-(2-aminoethylcarbamoyl)-2-hydroxypropanoate synthase [EC:6.3.2.55] [RN:R12311]
             K23375  sbnC; staphyloferrin B synthase [EC:6.3.2.56] [RN:R12312]
-CLASS       Pathway modules; Biosynthesis of other secondary metabolites; Biosynthesis of other secondary metabolites
-PATHWAY     map00997  Biosynthesis of various secondary metabolites - part 3
+CLASS       Pathway modules; Biosynthesis of other secondary metabolites; Biosynthesis of other bacterial compounds
+PATHWAY     map00997  Biosynthesis of various other secondary metabolites
             map01100  Metabolic pathways
+            map01110  Biosynthesis of secondary metabolites
 REACTION    R12344  C00065 -> C01005
             R11705  C01005 -> C21559
             R11655  C21559 -> C03401

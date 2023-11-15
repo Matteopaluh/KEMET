@@ -1,10 +1,10 @@
 ENTRY       M00153            Complex   Module
 NAME        Cytochrome bd ubiquinol oxidase
 DEFINITION  K00425+K00426+(K00424,K22501)
-ORTHOLOGY   K00425  cytochrome bd ubiquinol oxidase subunit I [EC:1.10.3.14]
-            K00426  cytochrome bd ubiquinol oxidase subunit II [EC:1.10.3.14]
-            K00424  cydX; cytochrome bd-I ubiquinol oxidase subunit X [EC:1.10.3.14]
-            K22501  appX; cytochrome bd-II ubiquinol oxidase subunit AppX [EC:1.10.3.14]
+ORTHOLOGY   K00425  cytochrome bd ubiquinol oxidase subunit I [EC:7.1.1.7]
+            K00426  cytochrome bd ubiquinol oxidase subunit II [EC:7.1.1.7]
+            K00424  cydX; cytochrome bd-I ubiquinol oxidase subunit X [EC:7.1.1.7]
+            K22501  appX; cytochrome bd-II ubiquinol oxidase subunit AppX [EC:7.1.1.7]
 CLASS       Pathway modules; Energy metabolism; ATP synthesis
 PATHWAY     map00190  Oxidative phosphorylation
 COMMENT     Terminal oxidase in the electron transport chain.

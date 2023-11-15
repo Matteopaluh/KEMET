@@ -1,6 +1,6 @@
 ENTRY       M00145            Complex   Module
 NAME        NAD(P)H:quinone oxidoreductase, chloroplasts and cyanobacteria
-DEFINITION  (K05574+K05582+K05581+K05579+K05572+K05580+K05578+K05576+K05577+K05575+K05573-K05583-K05584-K05585)
+DEFINITION  K05574+K05582+K05581+K05579+K05572+K05580+K05578+K05576+K05577+K05575+K05573-K05583-K05584-K05585
 ORTHOLOGY   K05574  ndhC; NAD(P)H-quinone oxidoreductase subunit 3 [EC:7.1.1.2]
             K05582  ndhK; NAD(P)H-quinone oxidoreductase subunit K [EC:7.1.1.2]
             K05581  ndhJ; NAD(P)H-quinone oxidoreductase subunit J [EC:7.1.1.2]

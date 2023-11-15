@@ -9,7 +9,8 @@ ORTHOLOGY   K21183  sgcC2; peptidyl carrier protein
             K21185  sgcE6; flavin reductase
 CLASS       Pathway modules; Biosynthesis of terpenoids and polyketides; Enediyne biosynthesis
 PATHWAY     map01059  Biosynthesis of enediyne antibiotics
-            map01130  Biosynthesis of antibiotics
+            map01100  Metabolic pathways
+            map01110  Biosynthesis of secondary metabolites
 REACTION    R11391  C21325 -> C21326
             R11392  C21326 -> C21327
             R11393  C21327 -> C21328

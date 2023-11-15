@@ -1,6 +1,6 @@
 ENTRY       M00925            Pathway   Module
 NAME        Cobalamin biosynthesis, aerobic, uroporphyrinogen III => precorrin 2 => cobyrinate a,c-diamide
-DEFINITION  (K02303,K13542) (K03394,K13540) K02229 (K05934,K13540,K13541) K05936 K02228 K05895 K00595 K06042 K02224 (K02230+K09882+K09883)
+DEFINITION  (K02303,K13542) (K03394,K13540) K02229 (K05934,K13540,K13541) K05936 K02228 K05895 K00595 K06042 K02224 K02230+K09882+K09883
 ORTHOLOGY   K02303,K13542  cobA; uroporphyrin-III C-methyltransferase [EC:2.1.1.107] [RN:R03194]
             K03394  cobI; precorrin-2 C20-methyltransferase [EC:2.1.1.130] [RN:R03948]
             K13540  cobIJ; precorrin-2 C20-methyltransferase / precorrin-3B C17-methyltransferase [EC:2.1.1.130 2.1.1.131] [RN:R03948 R05180]

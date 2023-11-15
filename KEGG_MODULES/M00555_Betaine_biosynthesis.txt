@@ -3,10 +3,10 @@ NAME        Betaine biosynthesis, choline => betaine
 DEFINITION  (K17755,((K00108,K11440,K00499) (K00130,K14085)))
 ORTHOLOGY   K00108,K11440  choline dehydrogenase [EC:1.1.99.1] [RN:R01025 R08557 R08558]
             K00499  choline monooxygenase [EC:1.14.15.7] [RN:R07409]
-            K17755  choline oxidase [EC:1.1.3.17] [RN:R01022 R08211]
-            K00130,K14085  betaine-aldehyde dehydrogenase [EC:1.2.1.8] [RN:R02565 R02566]
+            K17755  choline oxidase [EC:1.1.3.17] [R01022 R08211]
+            K00130,K14085  betaine-aldehyde dehydrogenase [EC:1.2.1.8] [R02565 R02566]
 CLASS       Pathway modules; Amino acid metabolism; Serine and threonine metabolism
-PATHWAY     map00260 Glycine, serine and threonine metabolism
+PATHWAY     map00260  Glycine, serine and threonine metabolism
             map01100  Metabolic pathways
 REACTION    R01025,R08557,R08558,R07409,R01022  C00114 -> C00576
             R02565,R02566,R08211  C00576 -> C00719

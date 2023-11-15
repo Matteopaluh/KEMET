@@ -9,7 +9,7 @@ ORTHOLOGY   K21221  kedU38; iterative type I polyketide synthase KedU38
 CLASS       Pathway modules; Biosynthesis of terpenoids and polyketides; Enediyne biosynthesis
 PATHWAY     map01059  Biosynthesis of enediyne antibiotics
             map01100  Metabolic pathways
-            map01130  Biosynthesis of antibiotics
+            map01110  Biosynthesis of secondary metabolites
 REACTION    R11387  C21320 -> C21321
             R11388  C21321 -> C21322
             R11389  C21322 -> C21323

@@ -5,7 +5,7 @@ ORTHOLOGY   K18287  griI; 2-amino-4,5-dihydroxy-6-oxo-7-(phosphooxy)heptanoate s
             K17835  griH; 3-amino-4-hydroxybenzoic acid synthase [EC:4.1.99.20] [RN:R10469]
             K20204  griF; grixazone synthase[EC:1.10.3.15] [RN:R10720]
 CLASS       Pathway modules; Biosynthesis of other secondary metabolites; Biosynthesis of other bacterial compounds
-PATHWAY     map00997  Biosynthesis of various secondary metabolites - part 3
+PATHWAY     map00997  Biosynthesis of various other secondary metabolites
             map01100  Metabolic pathways
             map01110  Biosynthesis of secondary metabolites
 REACTION    R10673  C00441 -> C20644

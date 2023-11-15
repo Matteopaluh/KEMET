@@ -1,6 +1,6 @@
 ENTRY       M00697            Signature Module
 NAME        Multidrug resistance, efflux pump MdtEF-TolC
-DEFINITION  K07690 (K18898+K18899+K12340)
+DEFINITION  K07690 K18898+K18899+K12340
 ORTHOLOGY   K07690  evgA, bvgA; two-component system, NarL family, response regulator EvgA [COG:COG2197] [GO:0000156]
             K18898  mdtE; membrane fusion protein [COG:COG0845] [TC:8.A.1.6.3 2.A.6.2]
             K18899  mdtF; multidrug efflux pump [COG:COG0841] [TC:2.A.6.2.13]

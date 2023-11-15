@@ -6,7 +6,8 @@ ORTHOLOGY   K22011  cfbA; sirohydrochlorin nickelchelatase [EC:4.99.1.11] [RN:R1
             K21610,K21611  cfbCD; nickel-sirohydrochlorin a,c-diamide reductase [EC:6.3.3.7] [RN:R11628]
             K21612  cfbE; coenzyme F430 synthetase [EC:6.4.1.9] [RN:R11629]
 CLASS       Pathway modules; Metabolism of cofactors and vitamins; Cofactor and vitamin metabolism
-PATHWAY     map00860  Porphyrin and chlorophyll metabolism
+PATHWAY     map00860  Porphyrin metabolism
+            map01240  Biosynthesis of cofactors
             map01100  Metabolic pathways
             map01120  Microbial metabolism in diverse environments
 REACTION    R11626  C05778 -> C21510

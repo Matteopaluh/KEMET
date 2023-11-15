@@ -36,10 +36,10 @@ Moreover it is important to follow the instructions to place relevant input file
 -----
 # Command line (minimal required arguments)
 ```
-./kemet.py [FASTA_file] -a [FORMAT] --hmm_mode [MODE] --gsmm_mode [MODE] (--skip_hmm) (--skip_gsmm)
+./kemet.py [FASTA_file] -a [FORMAT] --hmm_mode [MODE] --gsmm_mode [MODE] (--skip_hmm) (--skip_gsmm) (--no_genome)
 ```
 
-`[FASTA_file]`: FASTA file indication of the MAG/Genome of interest (with or without path indication e.g. `genomes/bin1.fasta`)  
+`[FASTA_file]`: FASTA file indication of the MAG/Genome of interest (with or without path indication e.g. `genomes/bin1.fasta`). With further arguments it can also be the indication of a KEGG annotation file.  
 
 `-a [FORMAT]`: program used to annotate KEGG KOs, i.e. KEGG annotation format (either eggnog / kaas / kofamkoala) - used to generate KEGG MODULES recap tables. Default file extension must be maintained (e.g. `.emapper.annotations`, `.ko`)  
 
@@ -50,6 +50,8 @@ Moreover it is important to follow the instructions to place relevant input file
 `--skip_hmm`: use this to stop after KEGG MODULES Completeness Evaluation. The only output would be organized tables of metabolic potential.  
 
 `--skip_gsmm`: use this to stop after HMM analysis.  
+
+`--no_genome`: use this to indicate the (path to a) file with KEGG annotations, in order not to include MAG/Genome operations. Using this will result in stopping after KEGG MODULES Completeness Evaluation.  
 
 -----
 Other suggested optional parameters include:  

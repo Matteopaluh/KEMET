@@ -1,4 +1,4 @@
-M00051_Uridine monophosphate biosynthesis, glutamine (+ PRPP) => UMP
+M00051_De novo pyrimidine biosynthesis, glutamine (+ PRPP) => UMP
 //
 K11540, K11541
 K11540, K01465

@@ -1,6 +1,6 @@
 ENTRY       M00014            Pathway   Module
 NAME        Glucuronate pathway (uronate pathway)
-DEFINITION  K00012 ((K12447 K16190),(K00699 (K01195,K14756))) K00002 K13247 K03331 (K05351,K00008) K00854
+DEFINITION  K00012 ((K12447 K16190),(K00699 (K01195,K14756))) K00002 K13247 -- K03331 (K05351,K00008) K00854
 ORTHOLOGY   K00012  UDPglucose 6-dehydrogenase [EC:1.1.1.22] [RN:R00286]
             K12447  UDP-sugar pyrophosphorylase [EC:2.7.7.64] [RN:R01381]
             K16190  glucuronokinase [EC:2.7.1.43] [RN:R01476]

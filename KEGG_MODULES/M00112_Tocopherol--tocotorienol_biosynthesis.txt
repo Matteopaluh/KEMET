@@ -1,5 +1,5 @@
 ENTRY       M00112            Pathway   Module
-NAME        Tocopherol/tocotorienol biosynthesis
+NAME        Tocopherol/tocotorienol biosynthesis, homogentisate + phytyl/geranylgeranyl-PP => tocopherol/tocotorienol
 DEFINITION  K09833 (K12502,K18534) K09834 K05928
 ORTHOLOGY   K09833  homogenitisate phytyltransferase [EC:2.5.1.115 2.5.1.116] [RN:R07500 R10708]
             K12502,K18534  MPBQ/MSBQ methyltransferase [EC:2.1.1.295] [RN:R07501 R10710]
@@ -7,6 +7,7 @@ ORTHOLOGY   K09833  homogenitisate phytyltransferase [EC:2.5.1.115 2.5.1.116] [R
             K05928  tocopherol O-methyltransferase [EC:2.1.1.95] [RN:R07236 R07504 R10491 R10492]
 CLASS       Pathway modules; Metabolism of cofactors and vitamins; Cofactor and vitamin metabolism
 PATHWAY     map00130  Ubiquinone and other terpenoid-quinone biosynthesis
+            map01240  Biosynthesis of cofactors
             map01100  Metabolic pathways
             map01110  Biosynthesis of secondary metabolites
 REACTION    R07500  C05427 + C00544 -> C15882

@@ -18,5 +18,4 @@ ORTHOLOGY   K10961  tcpI; toxin coregulated pilus biosynthesis protein I
 CLASS       Signature modules; Gene set; Pathogenicity
 PATHWAY     map05110  Vibrio cholerae infection
             map05111  Biofilm formation - Vibrio cholerae
-BRITE       ko02044  Secretion system
 ///

@@ -7,6 +7,7 @@ ORTHOLOGY   K06041  arabinose-5-phosphate isomerase [EC:5.3.1.13] [RN:R01530]
             K00979  3-deoxy-manno-octulosonate cytidylyltransferase (CMP-KDO synthetase) [EC:2.7.7.38] [RN:R03351]
 CLASS       Pathway modules; Glycan metabolism; Lipopolysaccharide metabolism
 PATHWAY     map00540  Lipopolysaccharide biosynthesis
+            map01250  Biosynthesis of nucleotide sugars
             map01100  Metabolic pathways
 REACTION    R01530  C00199 -> C01112
             R03254  C01112 -> C04478
@@ -17,6 +18,7 @@ COMPOUND    C00199  D-Ribulose 5-phosphate
             C04478  3-Deoxy-D-manno-octulosonate 8-phosphate
             C01187  3-Deoxy-D-manno-octulosonate
             C04121  CMP-3-deoxy-D-manno-octulosonate
+RMODULE     RM042  Nucleotide sugar biosynthesis, type 4
 REFERENCE   PMID:24102217
   AUTHORS   Lodowska J, Wolny D, Weglarz L
   TITLE     The sugar 3-deoxy-d-manno-oct-2-ulosonic acid (Kdo) as a characteristic component of bacterial endotoxin -- a review of its biosynthesis, function, and placement in the lipopolysaccharide core.

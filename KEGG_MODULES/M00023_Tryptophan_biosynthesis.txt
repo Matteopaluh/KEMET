@@ -1,9 +1,9 @@
 ENTRY       M00023            Pathway   Module
 NAME        Tryptophan biosynthesis, chorismate => tryptophan
-DEFINITION  ((((K01657+K01658),K13503,K13501,K01656) K00766),K13497) ((K01817 (K01656,K01609)),K13498,K13501) ((K01695+(K01696,K06001)),K01694)
+DEFINITION  (((K01657+K01658,K13503,K13501,K01656) K00766),K13497) (((K01817,K24017) (K01656,K01609)),K13498,K13501) (K01695+(K01696,K06001),K01694)
 ORTHOLOGY   K01657,K01658,K13497,K13503,K13501,K01656  anthranilate synthase [EC:4.1.3.27] [RN:R00985 R00986]
             K00766,K13497  anthranilate phosphoribosyltransferase [EC:2.4.2.18] [RN:R01073]
-            K01817,K13498,K13501  phosphoribosylanthranilate isomerase [EC:5.3.1.24] [RN:R03509]
+            K01817,K24017,K13498,K13501  phosphoribosylanthranilate isomerase [EC:5.3.1.24] [RN:R03509]
             K01609,K13498,K13501,K01656  indole-3-glycerol phosphate synthase [EC:4.1.1.48] [RN:R03508]
             K01695,K01696,K06001,K01694  tryptophan synthase [EC:4.2.1.20] [RN:R02722]
 CLASS       Pathway modules; Amino acid metabolism; Aromatic amino acid metabolism

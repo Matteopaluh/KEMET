@@ -1,10 +1,10 @@
 ENTRY       M00127            Pathway   Module
 NAME        Thiamine biosynthesis, prokaryotes, AIR (+ DXP/tyrosine) => TMP/TPP
-DEFINITION  (K03148+K03154) K03151
+DEFINITION  K03148+K03154 K03151
             K03150 K03149
             K03147 ((K00941 K00788),K14153,K21219) K00946
 ORTHOLOGY   K03148  thiF; sulfur carrier protein ThiS adenylyltransferase [EC:2.7.7.73] [RN:R07459]
-            K03154  thiS; sulfur carrier protein [RN:R07459]
+            K03154  thiS; sulfur carrier protein
             K03151  thiI; tRNA uracil 4-sulfurtransferase [EC:2.8.1.4] [RN:R07461]
             K03150  thiH; 2-iminoacetate synthase [EC:4.1.99.19] [RN:R10246]
             K03149  thiG; thiazole synthase [EC:2.8.1.10] [RN:R10247]
@@ -15,6 +15,7 @@ ORTHOLOGY   K03148  thiF; sulfur carrier protein ThiS adenylyltransferase [EC:2.
             K00946  thiL; thiamine-monophosphate kinase [EC:2.7.4.16] [RN:R00617]
 CLASS       Pathway modules; Metabolism of cofactors and vitamins; Cofactor and vitamin metabolism
 PATHWAY     map00730  Thiamine metabolism
+            map01240  Biosynthesis of cofactors
             map01100  Metabolic pathways
 REACTION    R07459  C15810 -> C15813
             R07461  C15813 -> C15814

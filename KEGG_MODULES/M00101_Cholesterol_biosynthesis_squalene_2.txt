@@ -1,9 +1,9 @@
 ENTRY       M00101            Pathway   Module
 NAME        Cholesterol biosynthesis, squalene 2,3-epoxide => cholesterol
-DEFINITION  K01852 K05917 K00222 K07750 K07748 K13373 K09828 K01824 K00227 K00213
+DEFINITION  K01852 K05917 (K00222,K19532) K07750 K07748 K13373 K09828 K01824 K00227 K00213
 ORTHOLOGY   K01852  lanosterol synthase [EC:5.4.99.7] [RN:R03199]
             K05917  sterol 14alpha-demethylase [EC:1.14.14.154] [RN:R05640]
-            K00222  delta14-sterol reductase [EC:1.3.1.70] [RN:R05639]
+            K00222,K19532  delta14-sterol reductase [EC:1.3.1.70] [RN:R05639]
             K07750  methylsterol monooxygenase [EC:1.14.18.9] [RN:R07509 R12403]
             K07748  sterol-4alpha-carboxylate 3-dehydrogenase (decarboxylating) [EC:1.1.1.170] [RN:R07494 R12404]
             K13373  3-keto steroid reductase [EC:1.1.1.270] [RN:R07495 R12405]

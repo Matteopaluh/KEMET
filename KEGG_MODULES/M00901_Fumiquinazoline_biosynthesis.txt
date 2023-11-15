@@ -6,7 +6,7 @@ ORTHOLOGY   K23665  FMQA; fumiquinazoline F synthetase [EC:6.3.2.-] [RN:R12417]
             K23667  FMQC; fumiquinazoline A synthase [EC:6.3.2.-] [RN:R12419]
             K23668  FMQD; fumiquinazoline A oxidase [EC:1.5.3.-] [RN:R12420]
 CLASS       Pathway modules; Biosynthesis of other secondary metabolites; Biosynthesis of other fungal compounds
-PATHWAY     map00998  Biosynthesis of various secondary metabolites - part 2
+PATHWAY     map00997  Biosynthesis of various other secondary metabolites
             map01100  Metabolic pathways
             map01110  Biosynthesis of secondary metabolites
 REACTION    R12417  C00078 + C00108 + C00041 -> C22145

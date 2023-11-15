@@ -1,6 +1,6 @@
 ENTRY       M00698            Signature Module
 NAME        Multidrug resistance, efflux pump BpeEF-OprC
-DEFINITION  K18900 (K18901+K18902+K18903)
+DEFINITION  K18900 K18901+K18902+K18903
 ORTHOLOGY   K18900  bpeT; LysR family transcriptional regulator, regulator for bpeEF and oprC [COG:COG0583]
             K18901  bpeE; membrane fusion protein [COG:COG0845] [TC:8.A.1 2.A.6.2]
             K18902  bpeF; multidrug efflux pump [COG:COG0841] [TC:2.A.6.2]

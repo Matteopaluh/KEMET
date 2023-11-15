@@ -1,6 +1,6 @@
 ENTRY       M00825            Pathway   Module
 NAME        10-membered enediyne core biosynthesis, malonyl-CoA => 3-hydroxyhexadeca-4,6,8,10,12,14-hexaenoyl-ACP => 10-membered enediyne core
-DEFINITION  K15314 (K21168+K21169+K21170+K21171+K21172+K21173+K21174)
+DEFINITION  K15314 K21168+K21169+K21170+K21171+K21172+K21173+K21174
 ORTHOLOGY   K15314  sgcE; enediyne polyketide synthase [RN:R11435]
             K21168  calE1; enediyne biosynthesis protein CalE1
             K21169  calE2; enediyne biosynthesis protein CalE2
@@ -12,7 +12,7 @@ ORTHOLOGY   K15314  sgcE; enediyne polyketide synthase [RN:R11435]
 CLASS       Pathway modules; Biosynthesis of terpenoids and polyketides; Enediyne biosynthesis
 PATHWAY     map01059  Biosynthesis of enediyne antibiotics
             map01100  Metabolic pathways
-            map01130  Biosynthesis of antibiotics
+            map01110  Biosynthesis of secondary metabolites
 REFERENCE   PMID:12183629
   AUTHORS   Ahlert J, Shepard E, Lomovskaya N, Zazopoulos E, Staffa A, Bachmann BO, Huang K, Fonstein L, Czisny A, Whitwam RE, Farnet CM, Thorson JS
   TITLE     The calicheamicin gene cluster and its iterative type I enediyne PKS.

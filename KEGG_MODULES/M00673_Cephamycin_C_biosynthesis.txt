@@ -9,9 +9,10 @@ ORTHOLOGY   K12743  N-(5-amino-5-carboxypentanoyl)-L-cysteinyl-D-valine synthase
             K04128  hydroxymethyl cephem carbamoyltransferase [EC:2.1.3.7] [RN:R05230]
             K18062  cephamycin C biosynthesis protein [RN:R05302]
             K18063  cephamycin C biosynthesis protein [RN:R05303]
-CLASS       Pathway modules; Biosynthesis of other secondary metabolites; beta-Lactam biosynthesis
+CLASS       Pathway modules; Biosynthesis of other secondary metabolites; Biosynthesis of beta-lactams
 PATHWAY     map00311  Penicillin and cephalosporin biosynthesis
-            map01130  Biosynthesis of antibiotics
+            map01100  Metabolic pathways
+            map01110  Biosynthesis of secondary metabolites
 REACTION    R04870  C00956 + C00183 + C00097 -> C05556
             R04872  C05556 -> C05557
             R04147  C05557 -> C06564

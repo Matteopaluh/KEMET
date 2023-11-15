@@ -1,0 +1,32 @@
+ENTRY       M00621            Pathway   Module
+NAME        Glycine cleavage system
+DEFINITION  (K00281,K00282+K00283) K00605 K00382
+ORTHOLOGY   K00281,K00282+K00283  glycine dehydrogenase (P protein) [EC:1.4.4.2] [RN:R03425 R01221]
+            K00605  aminomethyltransferase (T protein) [EC:2.1.2.10] [RN:R04125 R01221]
+            K00382  dihydrolipoyl dehydrogenase (L protein) [EC:1.8.1.4] [RN:R03815 R01221]
+CLASS       Pathway modules; Amino acid metabolism; Serine and threonine metabolism
+PATHWAY     map00260  Glycine, serine and threonine metabolism
+            map00630  Glyoxylate and dicarboxylate metabolism
+            map00785  Lipoic acid metabolism
+            map01200  Carbon metabolism
+            map01100  Metabolic pathways
+REACTION    R03425  C00037 + C02051 -> C01242 + C00011
+            R04125  C01242 + C00101 -> C02972 + C00143 + C00014
+            R03815  C02972 -> C02051
+            
+            R01221  C00037 -> C00014
+COMPOUND    C00037  Glycine
+            C02051  [H-protein]-lipoyllysine
+            C01242  [H-protein]-S-aminomethyldihydrolipoyllysine
+            C00011  CO2
+            C00101  Tetrahydrofolate
+            C02972  [H-protein]-dihydrolipoyllysine
+            C00143  5,10-Methylenetetrahydrofolate
+            C00014  Ammonia
+COMMENT     Glycine cleavage system contains the non-enzyme H protein (K02437).
+REFERENCE   PMID:10966480
+  AUTHORS   Perham RN
+  TITLE     Swinging arms and swinging domains in multifunctional enzymes: catalytic machines for multistep reactions.
+  JOURNAL   Annu Rev Biochem 69:961-1004 (2000)
+            DOI:10.1146/annurev.biochem.69.1.961
+///

@@ -4,7 +4,7 @@ DEFINITION  K01823 K14066 K00787 K13789
 ORTHOLOGY   K01823  IPP <-> DMPP [EC:5.3.3.2] [RN:R01123]
             K14066  DMPP -> GPP [EC:2.5.1.1] [RN:R01658]
             K00787  DMPP -> GPP -> FPP [EC:2.5.1.1 2.5.1.10] [RN:R01658 R02003]
-            K13789,K00804  DMPP -> GPP -> FPP -> GGPP [EC:2.5.1.1 2.5.1.10 2.5.1.29] [RN:R01658 R02003 R02061]
+            K13789  DMPP -> GPP -> FPP -> GGPP [EC:2.5.1.1 2.5.1.10 2.5.1.29] [RN:R01658 R02003 R02061]
 CLASS       Pathway modules; Biosynthesis of terpenoids and polyketides; Terpenoid backbone biosynthesis
 PATHWAY     map00900  Terpenoid backbone biosynthesis
             map01100  Metabolic pathways

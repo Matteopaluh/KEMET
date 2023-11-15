@@ -1,6 +1,6 @@
 ENTRY       M00769            Signature Module
 NAME        Multidrug resistance, efflux pump MexPQ-OpmE
-DEFINITION  K18304 K19591 (K19595+K19594+K19593)
+DEFINITION  K18304 K19591 K19595+K19594+K19593
 ORTHOLOGY   K18304  lasR; LuxR family transcriptional regulator, quorum-sensing transcription factor LasR
             K19591  cueR; MerR family transcriptional regulator, copper efflux regulator
             K19595  gesA; membrane fusion protein, gold/copper resistance efflux system

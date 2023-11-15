@@ -1,8 +1,9 @@
 ENTRY       M00811            Pathway   Module
 NAME        Nicotine degradation, pyrrolidine pathway, nicotine => succinate semialdehyde
-DEFINITION  K20170,K20169 (K20170,(K20158 K19700)) (K20171-K20172) K15359,K18276
-ORTHOLOGY   K20170,K20169  nicotine oxidoreductase [EC:1.5.3.-] [RN:R11175 R11178]
-            K20158  pseudooxynicotine oxidase [EC:1.4.3.24] [RN:R10103]
+DEFINITION  K20169 (K20170,(K20158 K19700)) K20171-K20172 K15359,K18276
+ORTHOLOGY   K20169  nicotine dehydrogenase [EC:1.4.2.2] [RN:R11175]
+            K20170  nicotine oxidoreductase [RN:R11178]
+            K20158  pseudooxynicotine oxidase [EC:1.4.2.3] [RN:R10103]
             K19700  3-succinoylsemialdehyde-pyridine dehydrogenase [EC:1.2.1.83] [RN:R10105]
             K20171,K20172  3-succinoylpyridine monooxygenase [RN:R11179]
             K15359,K18276  6-hydroxy-3-succinoylpyridine 3-monooxygenase [EC:1.14.13.163] [RN:R09472]
@@ -16,7 +17,7 @@ REACTION    R11175  C16150 -> C21154
             R10103  C20361 -> C19567
             R10105  C19567 -> C19569
             R11179  C19569 -> C19631
-            R09472  C19631 -> C01059 + C00232
+            R09472 C19631 -> C01059 + C00232
 COMPOUND    C16150  (R,S)-Nicotine
             C21154  N-Methylmyosmine
             C20361  Pseudooxynicotine

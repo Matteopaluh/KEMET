@@ -8,7 +8,8 @@ ORTHOLOGY   K21183  mdpC2; peptidyl carrier protein
             K21188  mdpC7; PLP-dependent transaminase [RN:R11369]
 CLASS       Pathway modules; Biosynthesis of terpenoids and polyketides; Enediyne biosynthesis
 PATHWAY     map01059  Biosynthesis of enediyne antibiotics
-            map01130  Biosynthesis of antibiotics
+            map01100  Metabolic pathways
+            map01110  Biosynthesis of secondary metabolites
 REACTION    R11366  C00082 -> C21308
             R11367  C21308 -> C21309
             R11369  C21309 -> C21311

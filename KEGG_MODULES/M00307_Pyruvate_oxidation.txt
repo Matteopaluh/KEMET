@@ -7,7 +7,9 @@ CLASS       Pathway modules; Carbohydrate metabolism; Central carbohydrate metab
 PATHWAY     map00010  Glycolysis / Gluconeogenesis
             map00020  Citrate cycle (TCA cycle)
             map00620  Pyruvate metabolism
+            map00785  Lipoic acid metabolism
             map01200  Carbon metabolism
+            map01210  2-Oxocarboxylic acid metabolism
             map01100  Metabolic pathways
 REACTION    R00209,R01196  C00022 -> C00024
             
@@ -22,5 +24,6 @@ COMPOUND    C00022  Pyruvate
             C15972  Enzyme N6-(lipoyl)lysine
             C16255  [Dihydrolipoyllysine-residue acetyltransferase] S-acetyldihydrolipoyllysine
             C15973  Enzyme N6-(dihydrolipoyl)lysine
+RMODULE     RM044  2-Oxocarboxylic acid conversion to its CoA derivative
 COMMENT     The oxidative decarboxylation of pyruvate to acetyl-CoA is catalyzed by the pyruvate dehydrogenase complex as part of aerobic respiration or by pyruvate:ferredoxin oxidoreductase [EC:1.2.7.1].
 ///

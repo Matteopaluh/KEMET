@@ -7,7 +7,7 @@ ORTHOLOGY   K15320  mdpB; 6-methylsalicylic acid synthase [EC:2.3.1.165] [RN:R07
 CLASS       Pathway modules; Biosynthesis of terpenoids and polyketides; Enediyne biosynthesis
 PATHWAY     map01059  Biosynthesis of enediyne antibiotics
             map01100  Metabolic pathways
-            map01130  Biosynthesis of antibiotics
+            map01110  Biosynthesis of secondary metabolites
 REACTION    R07253  C00083 -> C02657
             R11370  C02657 -> C21312
             R11371  C21312 -> C21313

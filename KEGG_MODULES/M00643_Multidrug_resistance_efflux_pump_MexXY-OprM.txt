@@ -1,6 +1,6 @@
 ENTRY       M00643            Signature Module
 NAME        Multidrug resistance, efflux pump MexXY-OprM
-DEFINITION  K18129 (K18094+K18095+K18139)
+DEFINITION  K18129 K18094+K18095+K18139
 ORTHOLOGY   K18129  mexZ; TetR/AcrR family transcriptional regulator, mexXY operon repressor
             K18094  mexX; membrane fusion protein
             K18095  mexY; multidrug efflux pump

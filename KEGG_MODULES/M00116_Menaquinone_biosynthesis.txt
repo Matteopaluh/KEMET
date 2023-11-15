@@ -1,5 +1,5 @@
 ENTRY       M00116            Pathway   Module
-NAME        Menaquinone biosynthesis, chorismate => menaquinol
+NAME        Menaquinone biosynthesis, chorismate (+ polyprenyl-PP) => menaquinol
 DEFINITION  K02552 K02551 K08680 K02549 K01911 K01661 K19222 K02548 K03183
 ORTHOLOGY   K02552  isochorismate synthase [EC:5.4.4.2] [RN:R01717]
             K02551  2-succinyl-6-hydroxy-2,4-cyclohexadiene-1-carboxylate synthase [EC:2.2.1.9] [RN:R08165]
@@ -12,6 +12,7 @@ ORTHOLOGY   K02552  isochorismate synthase [EC:5.4.4.2] [RN:R01717]
             K03183  demethylmenaquinone methyltransferase [EC:2.1.1.163] [RN:R09736]
 CLASS       Pathway modules; Metabolism of cofactors and vitamins; Cofactor and vitamin metabolism
 PATHWAY     map00130  Ubiquinone and other terpenoid-quinone biosynthesis
+            map01240  Biosynthesis of cofactors
             map01100  Metabolic pathways
             map01110  Biosynthesis of secondary metabolites
 REACTION    R01717  C00251 -> C00885
@@ -34,4 +35,14 @@ COMPOUND    C00251  Chorismate
             C05847  all-trans-Polyprenyl diphosphate
             C19847  Demethylmenaquinol
             C05819  Menaquinol
+REFERENCE   PMID:23564174
+  AUTHORS   Chen M, Ma X, Chen X, Jiang M, Song H, Guo Z
+  TITLE     Identification of a hotdog fold thioesterase involved in the biosynthesis of menaquinone in Escherichia coli.
+  JOURNAL   J Bacteriol 195:2768-75 (2013)
+            DOI:10.1128/JB.00141-13
+REFERENCE   PMID:30447488
+  AUTHORS   Joshi S, Fedoseyenko D, Mahanta N, Manion H, Naseem S, Dairi T, Begley TP
+  TITLE     Novel enzymology in futalosine-dependent menaquinone biosynthesis.
+  JOURNAL   Curr Opin Chem Biol 47:134-141 (2018)
+            DOI:10.1016/j.cbpa.2018.09.015
 ///

@@ -11,7 +11,7 @@ ORTHOLOGY   K12628  pur10; puromycin biosynthesis protein Pur10 [EC:1.-.-.-] [RN
             K12635  dmpM; O-demethylpuromycin O-methyltransferase [EC:2.1.1.38] [RN:R05676]
             K12636  napH; N-acetylpuromycin N-acetylhydrolase [RN:R05677]
 CLASS       Pathway modules; Biosynthesis of other secondary metabolites; Biosynthesis of other antibiotics
-PATHWAY     map00998  Biosynthesis of various secondary metabolites - part 2
+PATHWAY     map00998  Biosynthesis of various antibiotics
             map01100  Metabolic pathways
             map01110  Biosynthesis of secondary metabolites
 REACTION    R05668  C00002 -> C07024

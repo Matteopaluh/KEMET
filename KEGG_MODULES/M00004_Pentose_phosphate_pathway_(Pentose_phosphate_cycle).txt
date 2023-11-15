@@ -1,15 +1,15 @@
 ENTRY       M00004            Pathway   Module
 NAME        Pentose phosphate pathway (Pentose phosphate cycle)
-DEFINITION  (K13937,((K00036,K19243) (K01057,K07404))) K00033 K01783 (K01807,K01808) K00615 K00616 (K01810,K06859,K13810,K15916)
+DEFINITION  (K13937,((K00036,K19243) (K01057,K07404))) K00033 K01783 (K01807,K01808) K00615 ((K00616 (K01810,K06859,K15916)),K13810)
 ORTHOLOGY   K13937  hexose-6-phosphate dehydrogenase [EC:1.1.1.47 3.1.1.31] [RN:R02736 R02035]
             K00036,K19243  glucose-6-phosphate 1-dehydrogenase [EC:1.1.1.49 1.1.1.363 1.1.1.388] [RN:R02736 R10907]
             K01057,K07404  6-phosphogluconolactonase [EC:3.1.1.31] [RN:R02035]
             K00033  6-phosphogluconate dehydrogenase [EC:1.1.1.44 1.1.1.343] [RN:R01528 R10221]
             K01783  ribulose-phosphate 3-epimerase [EC:5.1.3.1] [RN:R01529]
             K01807,K01808  ribose 5-phosphate isomerase [EC:5.3.1.6] [RN:R01056]
-            K00615  transketolase [EC:2.2.1.1] [RN:R01641]
-            K00616  transaldolase [EC:2.2.1.2] [RN:R01827]
-            K01810,K06859,K13810,K15916  glucose-6-phosphate isomerase [EC:5.3.1.9] [RN:R02740 R02739]
+            K00615  transketolase [EC:2.2.1.1] [RN:R01641 R01067]
+            K00616,K13810  transaldolase [EC:2.2.1.2] [RN:R08575]
+            K01810,K06859,K13810,K15916  glucose-6-phosphate isomerase [EC:5.3.1.9] [RN:R13199 R02739]
 CLASS       Pathway modules; Carbohydrate metabolism; Central carbohydrate metabolism
 PATHWAY     map00030  Pentose phosphate pathway
             map01200  Carbon metabolism
@@ -21,9 +21,9 @@ REACTION    R02736,R10907  C01172 -> C01236
             R01529  C00199 -> C00231
             R01056  C00199 -> C00117
             R01641  C00117 + C00231 -> C05382 + C00118
-            R01827  C05382 + C00118 -> C00279 + C05345
-            R01830  C00279 + C00231 -> C05345 + C00118
-            R02740  C05345 -> C00668
+            R08575  C05382 + C00118 -> C00279 + C00085
+            R01067  C00279 + C00231 -> C00085 + C00118
+            R13199  C00085 -> C00668
             R02739  C00668 -> C01172
 COMPOUND    C01172  beta-D-Glucose 6-phosphate
             C01236  D-Glucono-1,5-lactone 6-phosphate
@@ -34,6 +34,6 @@ COMPOUND    C01172  beta-D-Glucose 6-phosphate
             C05382  Sedoheptulose 7-phosphate
             C00118  D-Glyceraldehyde 3-phosphate
             C00279  D-Erythrose 4-phosphate
-            C05345  beta-D-Fructose 6-phosphate
+            C00085  D-Fructose 6-phosphate
             C00668  alpha-D-Glucose 6-phosphate
 ///

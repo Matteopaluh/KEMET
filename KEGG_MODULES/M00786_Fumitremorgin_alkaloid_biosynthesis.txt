@@ -10,10 +10,10 @@ ORTHOLOGY   K18281  FTMA; brevianamide F synthase [RN:R10661]
             K14134  FTMPT2; 12alpha,13alpha-dihydroxyfumitremorgin C prenyltransferase [EC:2.5.1.110] [RN:R10457]
             K17825  FTMF; verruculogen synthase [EC:1.14.11.38] [RN:R10445]
             K18279  FTMPT3; verruculogen prenyltransferase [EC:2.5.1.107] [RN:R10341]
-CLASS       Pathway modules; Biosynthesis of other secondary metabolites; Biosynthesis of other secondary metabolites
+CLASS       Pathway modules; Biosynthesis of other secondary metabolites; Biosynthesis of other fungal compounds
 PATHWAY     map00404  Staurosporine biosynthesis
             map01100  Metabolic pathways
-            map01130  Biosynthesis of antibiotics
+            map01110  Biosynthesis of secondary metabolites
 REACTION    R10661  C00078 + C00148 -> C20563
             R10340  C20563 -> C20512
             R10321  C20512 -> C20513

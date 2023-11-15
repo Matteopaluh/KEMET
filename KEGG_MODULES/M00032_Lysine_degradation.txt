@@ -4,21 +4,25 @@ DEFINITION  K14157 K14085 K00825 (K15791+K00658+K00382) K00252 (K07514,(K07515,K
 ORTHOLOGY   K14157  alpha-aminoadipic semialdehyde synthase [EC:1.5.1.8 1.5.1.9] [RN:R00716 R02313]
             K14085  aminoadipate-semialdehyde dehydrogenase [EC:1.2.1.31] [RN:R03102 R03103]
             K00825  2-aminoadipate transaminase [EC:2.6.1.39] [RN:R01939]
-            K15791  probable 2-oxoglutarate dehydrogenase E1 component DHKTD1 [EC:1.2.4.2] [RN:R01933]
-            K00658  2-oxoglutarate dehydrogenase E2 component (dihydrolipoamide [EC:2.3.1.61] [RN:R01933]
-            K00382  dihydrolipoamide dehydrogenase [EC:1.8.1.4] [RN:R01933]
+            K15791  2-oxoadipate dehydrogenase E1 component [EC:1.2.4.-] [RN:R13166 R13167 R01940 R01933]
+            K00658  2-oxoglutarate dehydrogenase E2 component [EC:2.3.1.61] [RN:R02571 R01933]
+            K00382  dihydrolipoyl dehydrogenase [EC:1.8.1.4] [RN:R07618 R01933]
             K00252  glutaryl-CoA dehydrogenase [EC:1.3.8.6] [RN:R02488]
             K07514  enoyl-CoA hydratase / 3-hydroxyacyl-CoA dehydrogenase [EC:4.2.1.17 1.1.1.35] [RN:R03026 R01975]
             K07515,K07511  enoyl-CoA hydratase [EC:4.2.1.17] [RN:R03026]
             K00022  3-hydroxyacyl-CoA dehydrogenase [EC:1.1.1.35] [RN:R01975]
 CLASS       Pathway modules; Amino acid metabolism; Lysine metabolism
 PATHWAY     map00310  Lysine degradation
+            map01210  2-Oxocarboxylic acid metabolism
             map01100  Metabolic pathways
 REACTION    R00716  C00047 -> C00449
             R02313  C00449 -> C04076
             R03102,R03103  C04076 -> C00956
             R01939  C00956 -> C00322
             R01933  C00322 -> C00527
+            R01940,R13166+R13167  C00322 + C15972 -> C06157
+            R02571  C06157 -> C00527
+            R07618  C15973 -> C15972
             R02488  C00527 -> C00877
             R03026  C00877 -> C01144
             R01975  C01144 -> C00332
@@ -28,7 +32,16 @@ COMPOUND    C00047  L-Lysine
             C00956  L-2-Aminoadipate
             C00322  2-Oxoadipate
             C00527  Glutaryl-CoA
+            C15972  Enzyme N6-(lipoyl)lysine
+            C06157  [Dihydrolipoyllysine-residue succinyltransferase] S-glutaryldihydrolipoyllysine
+            C15973  Enzyme N6-(dihydrolipoyl)lysine
             C00877  Crotonoyl-CoA
             C01144  (S)-3-Hydroxybutanoyl-CoA
             C00332  Acetoacetyl-CoA
+RMODULE     RM044  2-Oxocarboxylic acid conversion to its CoA derivative
+REFERENCE   PMID:32768327
+  AUTHORS   Leandro J, Houten SM
+  TITLE     The lysine degradation pathway: Subcellular compartmentalization and enzyme deficiencies.
+  JOURNAL   Mol Genet Metab 131:14-22 (2020)
+            DOI:10.1016/j.ymgme.2020.07.010
 ///

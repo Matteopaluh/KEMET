@@ -1,6 +1,6 @@
 ENTRY       M00074            Pathway   Module
 NAME        N-glycan biosynthesis, high-mannose type
-DEFINITION  K05546 K23741 K01230 K05528 (K05529+K05530) (K05529+K05531+K05532+K05533+K05534) K05535
+DEFINITION  K05546 K23741 K01230 K05528 K05529+K05530 K05529+K05531+K05532+K05533+K05534 K05535
 ORTHOLOGY   K05546  alpha 1,3-glucosidase [EC:3.2.1.84] [RN:R05980 R05981]
             K23741  endoplasmic reticulum Man9GlcNAc2 1,2-alpha-mannosidase [EC:3.2.1.209] [RN:R06722]
             K01230  mannosyl-oligosaccharide alpha-1,2-mannosidase [EC:3.2.1.113] [RN:R12479]

@@ -1,0 +1,20 @@
+ENTRY       M00037            Pathway   Module
+NAME        Melatonin biosynthesis, animals, tryptophan => serotonin => melatonin
+DEFINITION  K00502 K01593 K00669 K00543
+ORTHOLOGY   K00502  tryptophan 5-monooxygenase [EC:1.14.16.4] [RN:R01814]
+            K01593  aromatic-L-amino-acid decarboxylase [EC:4.1.1.28] [RN:R02701]
+            K00669  arylalkylamine N-acetyltransferase [EC:2.3.1.87] [RN:R02911]
+            K00543  acetylserotonin N-methyltransferase [EC:2.1.1.4] [RN:R03130]
+CLASS       Pathway modules; Amino acid metabolism; Aromatic amino acid metabolism
+PATHWAY     map00380  Tryptophan metabolism
+            map01100  Metabolic pathways
+REACTION    R01814  C00078 -> C00643
+            R02701  C00643 -> C00780
+            R02911  C00780 -> C00978
+            R03130  C00978 -> C01598
+COMPOUND    C00078  L-Tryptophan
+            C00643  5-Hydroxy-L-tryptophan
+            C00780  Serotonin
+            C00978  N-Acetylserotonin
+            C01598  Melatonin
+///

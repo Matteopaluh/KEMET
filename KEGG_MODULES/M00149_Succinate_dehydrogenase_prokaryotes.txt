@@ -1,6 +1,6 @@
 ENTRY       M00149            Complex   Module
 NAME        Succinate dehydrogenase, prokaryotes
-DEFINITION  (K00241+(K00242,K18859,K18860)+K00239+K00240)
+DEFINITION  K00241+(K00242,K18859,K18860)+K00239+K00240
 ORTHOLOGY   K00241  sdhC; succinate dehydrogenase cytochrome b556 subunit
             K00242,K18859,K18860  sdhD; succinate dehydrogenase membrane anchor subunit
             K00239  sdhA; succinate dehydrogenase flavoprotein subunit [EC:1.3.5.1]

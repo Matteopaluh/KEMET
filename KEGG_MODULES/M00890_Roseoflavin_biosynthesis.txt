@@ -4,7 +4,7 @@ DEFINITION  K22598 -- K22269
 ORTHOLOGY   K22598  rosB; 8-demethyl-8-aminoriboflavin-5'-phosphate synthase [EC:2.6.1.114] [RN:R11961 R11962 R11963]
             K22269  rosA; 8-amino-8-demethylriboflavin N,N-dimethyltransferase [EC:2.1.1.343] [RN:R11779 R11780]
 CLASS       Pathway modules; Biosynthesis of other secondary metabolites; Biosynthesis of other antibiotics
-PATHWAY     map00997  Biosynthesis of various secondary metabolites - part 3
+PATHWAY     map00998  Biosynthesis of various antibiotics
             map01100  Metabolic pathways
             map01110  Biosynthesis of secondary metabolites
 REACTION    R11961  C00061 -> C21803

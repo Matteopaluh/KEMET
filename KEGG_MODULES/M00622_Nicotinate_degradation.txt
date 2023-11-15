@@ -1,6 +1,6 @@
 ENTRY       M00622            Pathway   Module
 NAME        Nicotinate degradation, nicotinate => fumarate
-DEFINITION  (K18029+K18030) K14974 K18028 K15357 K13995 K01799
+DEFINITION  K18029+K18030 K14974 K18028 K15357 K13995 K01799
 ORTHOLOGY   K18029+K18030  nicotinate dehydrogenase  [EC:1.17.2.1] [RN:R09473]
             K14974  6-hydroxynicotinate 3-monooxygenase [EC:1.14.13.114] [RN:R08764]
             K18028  2,5-dihydroxypyridine 5,6-dioxygenase [EC:1.13.11.9] [RN:R09125]

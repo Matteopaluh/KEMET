@@ -1,23 +1,23 @@
 ENTRY       M00546            Pathway   Module
 NAME        Purine degradation, xanthine => urea
-DEFINITION  (K00106,(K00087+K13479+K13480),(K13481+K13482),(K11177+K11178+K13483)) (K00365,K16838,K16839,K22879) (K13484,K07127 (K13485,K16838,K16840)) (K01466,K16842) K01477
+DEFINITION  (K00106,K00087+K13479+K13480,K13481+K13482,K11177+K11178+K13483) (K00365,K16838,K16839,K22879) (K13484,K07127 (K13485,K16838,K16840)) (K01466,K16842) K01477
 ORTHOLOGY   K00106,K00087+K13479+K13480,K13481+K13482,K11177+K11178+K13483  xanthine dehydrogenase [EC:1.17.1.4 1.17.3.2] [RN:R02103 R02107]
             K00365,K16838  urate oxidase [EC:1.7.3.3] [RN:R02106]
             K16839,K22879  FAD-dependent urate hydroxylase [EC:1.14.13.113] [RN:R09514]
             K07127  5-hydroxyisourate hydrolase [EC:3.5.2.17] [RN:R06601]
             K13485,K16838,K16840  2-oxo-4-hydroxy-4-carboxy-5-ureidoimidazoline decarboxylase [EC:4.1.1.97] [RN:R06604]
-            K13484  5-hydroxyisourate hydrolase / 2-oxo-4-hydroxy-4-carboxy-5-ureidoimidazoline decarboxylase [EC:3.5.2.17 4.1.1.97] [RN:R06601 R06604]
+            K13484  5-hydroxyisourate hydrolase / 2-oxo-4-hydroxy-4-carboxy-5-ureidoimidazoline decarboxylase [EC:3.5.2.17 4.1.1.97] [RN:R06601+R06604]
             K01466,K16842  allantoinase [EC:3.5.2.5] [RN:R02425]
             K01477  allantoicase [EC:3.5.3.4] [RN:R02422]
 CLASS       Pathway modules; Nucleotide metabolism; Purine metabolism
 PATHWAY     map00230  Purine metabolism
             map01100  Metabolic pathways
-REACTION    R02103,R02107  C00385 -> C00366
-            R02106,R09514  C00366 -> C11821
-            R06601  C11821 -> C12248
-            R06604  C12248 -> C02350
-            R02425  C02350 -> C00499
-            R02422  C00499 -> C00086
+REACTION    R02103,R02107 C00385 -> C00366
+            R02106,R09514 C00366 -> C11821
+            R06601 C11821 -> C12248
+            R06604 C12248 -> C02350
+            R02425 C02350 -> C00499
+            R02422 C00499 -> C00086
 COMPOUND    C00385  Xanthine
             C00366  Urate
             C11821  5-Hydroxyisourate

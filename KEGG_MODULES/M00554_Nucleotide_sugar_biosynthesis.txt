@@ -6,6 +6,7 @@ ORTHOLOGY   K00849  galactokinase [EC:2.7.1.6] [RN:R01092]
 CLASS       Pathway modules; Carbohydrate metabolism; Other carbohydrate metabolism
 PATHWAY     map00520  Amino sugar and nucleotide sugar metabolism
             map00052  Galactose metabolism
+            map01250  Biosynthesis of nucleotide sugars
             map01100  Metabolic pathways
 REACTION    R01092 C00984 -> C00446
             R00955 C00446 -> C00052

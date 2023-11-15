@@ -17,4 +17,8 @@ COMPOUND    C01172  beta-D-Glucose 6-phosphate
             C01236  D-Glucono-1,5-lactone 6-phosphate
             C00345  6-Phospho-D-gluconate
             C00199  D-Ribulose 5-phosphate
+REFERENCE
+  AUTHORS   Salway JG, Asou Y (ed).
+  TITLE     [Metabolism at a Glance (2nd ed)] (In Japanese)
+  JOURNAL   Medical Sciences International (2000)
 ///

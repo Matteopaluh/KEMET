@@ -1,6 +1,6 @@
 ENTRY       M00548            Pathway   Module
 NAME        Benzene degradation, benzene => catechol
-DEFINITION  (K16249+K16243+K16244+K16242+K16245+K16246)
+DEFINITION  K16249+K16243+K16244+K16242+K16245+K16246
 ORTHOLOGY   K16249  dmpK; phenol 2-monooxygenase (NADH) P0/A0 [RN:R10042 R10043]
             K16243  dmpL; phenol 2-monooxygenase (NADH) P1/A1 [EC:1.14.13.244] [RN:R10042 R10043]
             K16244  dmpM; phenol 2-monooxygenase (NADH) P2/A2 [EC:1.14.13.244] [RN:R10042 R10043]

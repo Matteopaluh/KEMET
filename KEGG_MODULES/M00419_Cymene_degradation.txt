@@ -1,8 +1,8 @@
 ENTRY       M00419            Pathway   Module
 NAME        Cymene degradation, p-cymene => p-cumate
-DEFINITION  (K10616+K18293) K10617 K10618
+DEFINITION  K10616+K18293 K10617 K10618
 ORTHOLOGY   K10616  cymAa; p-cymene methyl-monooxygenase [EC:1.14.15.25] [RN:R05266]
-            K18293  cymAb; p-cymene methyl-monooxygenase electron transfer component [EC:1.18.1.3] [RN:R05266]
+            K18293  cymAb; p-cymene methyl-monooxygenase electron transfer component [EC:1.18.1.3]
             K10617  cymB; p-cumic alcohol dehydrogenase [RN:R05232]
             K10618  cymC; p-cumic aldehyde dehydrogenase [RN:R05235]
 CLASS       Pathway modules; Xenobiotics biodegradation; Aromatics degradation

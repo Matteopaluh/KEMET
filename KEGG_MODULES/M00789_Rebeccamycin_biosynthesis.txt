@@ -1,6 +1,6 @@
 ENTRY       M00789            Pathway   Module
 NAME        Rebeccamycin biosynthesis, tryptophan => rebeccamycin
-DEFINITION  K14266 K19884 K19885 (K19886+K19887) K19888 K19889
+DEFINITION  K14266 K19884 K19885 K19886+K19887 K19888 K19889
 ORTHOLOGY   K14266  rebH; tryptophan halogenase [EC:1.14.19.9] [RN:R09570]
             K19884  rebO; 7-chloro-L-tryptophan oxidase [EC:1.4.3.23] [RN:R09560]
             K19885  rebD; dichlorochromopyrrolate synthase / catalase [EC:1.21.98.2 1.11.1.6] [RN:R09566]
@@ -8,10 +8,10 @@ ORTHOLOGY   K14266  rebH; tryptophan halogenase [EC:1.14.19.9] [RN:R09570]
             K19887  rebP; cytochrome P450 RebP [EC:1.13.12.17] [RN:R09567]
             K19888  rebG; 4'-demethylrebeccamycin synthase [EC:4.3.3.5] [RN:R09568]
             K19889  rebM; demethylrebeccamycin-D-glucose O-methyltransferase [EC:2.1.1.164] [RN:R09569]
-CLASS       Pathway modules; Biosynthesis of other secondary metabolites; Biosynthesis of other secondary metabolites
+CLASS       Pathway modules; Biosynthesis of other secondary metabolites; Biosynthesis of other bacterial compounds
 PATHWAY     map00404  Staurosporine biosynthesis
             map01100  Metabolic pathways
-            map01130  Biosynthesis of antibiotics
+            map01110  Biosynthesis of secondary metabolites
 REACTION    R09570  C00078 -> C19687
             R09560  C19687 -> C19688
             R09566  C19688 -> C19698

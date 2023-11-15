@@ -15,9 +15,9 @@ REACTION    R02451,R10961  C00512 -> C06322
             R05597  C06322 -> C06749
             R05581  C06749 -> C09821
             R05594  C09821 -> C06714
-COMPOUND    C00512  S-Benzoate coenzyme A
-            C06322  S-1,5-Cyclohexadiene-1-carboxylate coenzymeA
-            C06749  6-Hydroxycyclohex-1-enecarbonyl-CoA
-            C09821  6-Ketoxycyclohex-1-ene-1-carboxyl-CoA
+COMPOUND    C00512  Benzoyl-CoA
+            C06322  Cyclohexa-1,5-diene-1-carbonyl-CoA
+            C06749  6-Hydroxycyclohex-1-ene-1-carbonyl-CoA
+            C09821  6-Oxocyclohex-1-ene-1-carbonyl-CoA
             C06714  3-Hydroxypimeloyl-CoA
 ///

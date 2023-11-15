@@ -8,7 +8,7 @@ ORTHOLOGY   K15941  snoaB, dnrG; deoxynogalonate / 12-deoxyaklanonic acid monoox
 CLASS       Pathway modules; Biosynthesis of terpenoids and polyketides; Type II polyketide biosynthesis
 PATHWAY     map01057  Biosynthesis of type II polyketide products
             map01100  Metabolic pathways
-            map01130  Biosynthesis of antibiotics
+            map01110  Biosynthesis of secondary metabolites
 REACTION    R09327  C18629 -> C12416
             R06675  C12416 -> C12415
             R09328  C12415 -> C18630

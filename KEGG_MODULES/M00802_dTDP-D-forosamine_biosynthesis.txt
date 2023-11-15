@@ -8,8 +8,9 @@ ORTHOLOGY   K16435  spnO; dTDP-4-dehydro-6-deoxy-alpha-D-glucopyranose 2,3-dehyd
             K13330  spnS; dTDP-4-amino-2,3,4,6-tetradeoxy-D-glucose N,N-dimethyltransferase [EC:2.1.1.324] [RN:R08932]
 CLASS       Pathway modules; Biosynthesis of terpenoids and polyketides; Polyketide sugar unit biosynthesis
 PATHWAY     map00523  Polyketide sugar unit biosynthesis
+            map01250  Biosynthesis of nucleotide sugars
             map01100  Metabolic pathways
-            map01130  Biosynthesis of antibiotics
+            map01110  Biosynthesis of secondary metabolites
 REACTION    R05518  C11907 -> C06620
             R05526  C06620 -> C11922
             R08930  C11922 -> C18032

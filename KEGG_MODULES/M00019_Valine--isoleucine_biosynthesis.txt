@@ -1,6 +1,6 @@
 ENTRY       M00019            Pathway   Module
 NAME        Valine/isoleucine biosynthesis, pyruvate => valine / 2-oxobutanoate => isoleucine
-DEFINITION  (K01652+(K01653,K11258)) K00053 K01687 K00826
+DEFINITION  K01652+(K01653,K11258) K00053 K01687 K00826
 ORTHOLOGY   K01652,K01653,K11258  acetolactate synthase [EC:2.2.1.6] [RN:R00226 R08648]
             K00053  ketol-acid reductoisomerase [EC:1.1.1.86] [RN:R05071 R04440 R04439 R05069 R05068]
             K01687  dihydroxy-acid dehydratase [EC:4.2.1.9] [RN:R04441 R05070]

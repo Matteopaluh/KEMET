@@ -1,6 +1,6 @@
 ENTRY       M00824            Pathway   Module
 NAME        9-membered enediyne core biosynthesis, malonyl-CoA => 3-hydroxyhexadeca-4,6,8,10,12,14-hexaenoyl-ACP => 9-membered enediyne core
-DEFINITION  K15314 (K21160+K21161+K21162+K21163+K21164+K21165+K21166+K21167)
+DEFINITION  K15314 K21160+K21161+K21162+K21163+K21164+K21165+K21166+K21167
 ORTHOLOGY   K15314  sgcE; enediyne polyketide synthase [RN:R11435]
             K21160  sgcE2; enediyne biosynthesis protein E2
             K21161  sgcE3; enediyne biosynthesis protein E3
@@ -13,5 +13,5 @@ ORTHOLOGY   K15314  sgcE; enediyne polyketide synthase [RN:R11435]
 CLASS       Pathway modules; Biosynthesis of terpenoids and polyketides; Enediyne biosynthesis
 PATHWAY     map01059  Biosynthesis of enediyne antibiotics
             map01100  Metabolic pathways
-            map01130  Biosynthesis of antibiotics
+            map01110  Biosynthesis of secondary metabolites
 ///

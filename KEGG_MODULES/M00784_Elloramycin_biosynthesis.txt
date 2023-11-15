@@ -9,7 +9,7 @@ ORTHOLOGY   K19566  elmGT; 8-demethyltetracenomycin C L-rhamnosyltransferase [EC
 CLASS       Pathway modules; Biosynthesis of terpenoids and polyketides; Type II polyketide biosynthesis
 PATHWAY     map01057  Biosynthesis of type II polyketide products
             map01100  Metabolic pathways
-            map01130  Biosynthesis of antibiotics
+            map01110  Biosynthesis of secondary metabolites
 REACTION    R10955  C12379 -> C20974
             R10956  C20974 -> C20975
             R10957  C20975 -> C20976

@@ -1,6 +1,6 @@
 ENTRY       M00528            Pathway   Module
 NAME        Nitrification, ammonia => nitrite
-DEFINITION  (K10944+K10945+K10946) K10535
+DEFINITION  K10944+K10945+K10946 K10535
 ORTHOLOGY   K10944+K10945+K10946  ammonia monooxygenase [EC:1.14.99.39] [RN:R00148]
             K10535  hydroxylamine oxidase [EC:1.7.2.6] [RN:R10164]
 CLASS       Pathway modules; Energy metabolism; Nitrogen metabolism

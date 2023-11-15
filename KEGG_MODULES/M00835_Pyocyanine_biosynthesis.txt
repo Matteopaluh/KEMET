@@ -8,10 +8,10 @@ ORTHOLOGY   K13063  phzE; 2-amino-4-deoxychorismate synthase [EC:2.6.1.86] [RN:R
             K20262  phzG; dihydrophenazinedicarboxylate synthase [EC:1.10.3.16][RN:R11491]
             K21103  phzM; phenazine-1-carboxylate N-methyltransferase [EC:2.1.1.327][RN:R11533]
             K20940  phzS; 5-methylphenazine-1-carboxylate 1-monooxygenase [EC:1.14.13.218][RN:R11346]
-CLASS       Pathway modules; Biosynthesis of other secondary metabolites; Biosynthesis of other secondary metabolites
+CLASS       Pathway modules; Biosynthesis of other secondary metabolites; Biosynthesis of other bacterial compounds
 PATHWAY     map00405  Phenazine biosynthesis
             map01100  Metabolic pathways
-            map01130  Biosynthesis of antibiotics
+            map01110  Biosynthesis of secondary metabolites
 REACTION    R08956  C00251 -> C18054
             R11463  C18054 -> C19830
             R09707  C19830 -> C19831

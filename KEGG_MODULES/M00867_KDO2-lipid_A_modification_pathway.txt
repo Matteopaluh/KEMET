@@ -1,6 +1,6 @@
 ENTRY       M00867            Pathway   Module
 NAME        KDO2-lipid A modification pathway
-DEFINITION  K12977 K03760 (K23082+K23083) K23159 K09953
+DEFINITION  K12977 K03760 K23082+K23083 K23159 K09953
 ORTHOLOGY   K12977  lpxE; lipid A 1-phosphatase [EC:3.1.3.-] [RN:R12201]
             K03760  eptA; lipid A ethanolaminephosphotransferase [EC:2.7.8.43] [RN:R12202]
             K23082  kdoH1; 3-deoxy-D-manno-octulosonic acid-hydrolase [EC:3.2.1.144] [RN:R12219]
@@ -12,14 +12,13 @@ PATHWAY     map00540  Lipopolysaccharide biosynthesis
             map01100  Metabolic pathways
 REACTION    R12201  C21988 -> C21994
             R12202  C21994 -> C21995
-            R12219  C21995 -> C21996 + C01187
+            R12219  C21995 -> C21996
             R12203  C21996 -> C21997
             R12204  C21997 -> C21998
 COMPOUND    C21988  H. pylori KDO2-lipid A
             C21994  1-Dephospho-KDO2-lipid A
             C21995  1-PEtN-KDO2-lipid A
             C21996  1-PEtN-KDO-lipid A
-            C01187  3-Deoxy-D-manno-octulosonate
             C21997  4'-Dephosphorylated 1-PEtN-KDO-lipid A
             C21998  H. pylori KDO-lipid A
 REFERENCE   PMID:26934862

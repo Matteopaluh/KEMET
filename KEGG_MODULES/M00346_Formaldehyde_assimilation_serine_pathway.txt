@@ -1,6 +1,6 @@
 ENTRY       M00346            Pathway   Module
 NAME        Formaldehyde assimilation, serine pathway
-DEFINITION  K00600 K00830 K00018 K11529 K01689 K01595 K00024 (K08692+K14067) K08691
+DEFINITION  K00600 K00830 K00018 K11529 K01689 K01595 K00024 K08692+K14067 K08691
 ORTHOLOGY   K00600  glycine hydroxymethyltransferase [EC:2.1.2.1] [RN:R00945]
             K00830  serine--glyoxylate transaminase [EC:2.6.1.45] [RN:R00588]
             K00018  glycerate dehydrogenase [EC:1.1.1.29] [RN:R01388]

@@ -4,7 +4,7 @@ DEFINITION  K21371 K21354
 ORTHOLOGY   K21371  crocetin glucosyltransferase [EC:2.4.1.271] [RN:R09757 R09758 R09759]
             K21354  beta-D-glucosyl crocetin beta-1,6-glucosyltransferase [EC:2.4.1.330] [RN:R10988 R10989 R10990]
 CLASS       Pathway modules; Biosynthesis of other secondary metabolites; Biosynthesis of phytochemical compounds
-PATHWAY     map00999  Biosynthesis of various secondary metabolites - part 1
+PATHWAY     map00999  Biosynthesis of various plant secondary metabolites
             map01100  Metabolic pathways
             map01110  Biosynthesis of secondary metabolites
 REACTION    R09757  C08588 -> C19867

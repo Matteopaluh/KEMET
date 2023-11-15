@@ -1,0 +1,28 @@
+ENTRY       M00972            Pathway   Module
+NAME        Proline metabolism
+DEFINITION  K00819 K00286 K00318
+ORTHOLOGY   K00819  ornithine--oxo-acid transaminase [EC:2.6.1.13] [RN:R00667]
+            K00286  pyrroline-5-carboxylate reductase [EC:1.5.1.2] [RN:R01248 R01251]
+            K00318  proline dehydrogenase [EC:1.5.5.2] [RN:R01253]
+CLASS       Pathway modules; Amino acid metabolism; Arginine and proline metabolism
+PATHWAY     map00330  Arginine and proline metabolism
+            map01100  Metabolic pathways
+REACTION    R00667  C00077 -> C01165
+            R03314  C01165 -> C03912
+            R01248,R01251  C03912 -> C00148
+            R01253  C00148 -> C03912
+COMPOUND    C00077  L-Ornithine
+            C01165  L-Glutamate 5-semialdehyde
+            C03912  (S)-1-Pyrroline-5-carboxylate
+            C00148  L-Proline
+REFERENCE   PMID:18806117
+  AUTHORS   Mitsubuchi H, Nakamura K, Matsumoto S, Endo F
+  TITLE     Inborn errors of proline metabolism.
+  JOURNAL   J Nutr 138:2016S-2020S (2008)
+            DOI:10.1093/jn/138.10.2016S
+REFERENCE   PMID:26347750
+  AUTHORS   Zhang L, Becker DF
+  TITLE     Connecting proline metabolism and signaling pathways in plant senescence.
+  JOURNAL   Front Plant Sci 6:552 (2015)
+            DOI:10.3389/fpls.2015.00552
+///

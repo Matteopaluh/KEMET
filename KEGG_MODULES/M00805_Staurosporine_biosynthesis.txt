@@ -1,6 +1,6 @@
 ENTRY       M00805            Pathway   Module
 NAME        Staurosporine biosynthesis, tryptophan => staurosporine
-DEFINITION  K20075 K20076 (K20077+K20078) K20079 K20080 K20081 K20082
+DEFINITION  K20075 K20076 K20077+K20078 K20079 K20080 K20081 K20082
 ORTHOLOGY   K20075  staO; tryptophan oxidase StaO [EC:1.4.3.-] [RN:R11119]
             K20076  staD; chromopyrrolic acid synthase [RN:R11120]
             K20077  staC; flavin-dependent monooxygenase StaC [EC:1.13.12.-] [RN:R11121]
@@ -9,10 +9,10 @@ ORTHOLOGY   K20075  staO; tryptophan oxidase StaO [EC:1.4.3.-] [RN:R11119]
             K20080  staN; cytochrome P450 StaN [EC:1.14.-.-] [RN:R11123]
             K20081  staMA; N-methyltransferase StaMA [EC:2.1.1.-] [RN:R11129]
             K20082  staMB; O-methyltransferase StaMB [EC:2.1.1.139] [RN:R05757]
-CLASS       Pathway modules; Biosynthesis of other secondary metabolites; Biosynthesis of other secondary metabolites
+CLASS       Pathway modules; Biosynthesis of other secondary metabolites; Biosynthesis of other bacterial compounds
 PATHWAY     map00404  Staurosporine biosynthesis
             map01100  Metabolic pathways
-            map01130  Biosynthesis of antibiotics
+            map01110  Biosynthesis of secondary metabolites
 REACTION    R11119  C00078 -> C21124 
             R11120  C21124 -> C21125
             R11121  C21125 -> C21126

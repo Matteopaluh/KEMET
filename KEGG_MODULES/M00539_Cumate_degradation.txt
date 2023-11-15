@@ -1,6 +1,6 @@
 ENTRY       M00539            Pathway   Module
 NAME        Cumate degradation, p-cumate => 2-oxopent-4-enoate + 2-methylpropanoate
-DEFINITION  (K10619+K16303+K16304+K18227) K10620 K10621 K10622 K10623
+DEFINITION  K10619+K16303+K16304+K18227 K10620 K10621 K10622 K10623
 ORTHOLOGY   K10619+K16303+K16304+K18227  cmtA; p-cumate 2,3-dioxygenase [EC:1.14.12.25] [RN:R05247]
             K10620  cmtB; 2,3-dihydroxy-2,3-dihydro-p-cumate dehydrogenase [EC:1.3.1.58] [RN:R05240]
             K10621  cmtC; 2,3-dihydroxy-p-cumate-3,4-dioxygenase [EC:1.13.11.-] [RN:R05248]

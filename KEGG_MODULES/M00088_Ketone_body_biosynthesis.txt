@@ -9,7 +9,7 @@ ORTHOLOGY   K00626  acetyl-CoA C-acetyltransferase [EC:2.3.1.9] [RN:R00238]
             K00019  3-hydroxybutyrate dehydrogenase [EC:1.1.1.30] [RN:R01361]
             K01574  acetoacetate decarboxylase [EC:4.1.1.4] [RN:R01366]
 CLASS       Pathway modules; Lipid metabolism; Lipid metabolism
-PATHWAY     map00072  Synthesis and degradation of ketone bodies
+PATHWAY     map00650  Butanoate metabolism
             map01100  Metabolic pathways
 REACTION    R00238  C00024 -> C00332
             R01978  C00332 + C00024 -> C00356

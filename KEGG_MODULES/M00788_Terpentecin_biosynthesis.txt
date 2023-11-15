@@ -3,10 +3,10 @@ NAME        Terpentecin biosynthesis, GGAP => terpentecin
 DEFINITION  K19835 K19834
 ORTHOLOGY   K19835  cyc1; terpentedienyl-diphosphate synthase [EC:5.5.1.15] [RN:R09714]
             K19834  cyc2; terpentetriene synthase [EC:4.2.3.36] [RN:R09684]
-CLASS       Pathway modules; Biosynthesis of other secondary metabolites; Biosynthesis of other secondary metabolites
-PATHWAY     map00999  Biosynthesis of various secondary metabolites - part 1
+CLASS       Pathway modules; Biosynthesis of other secondary metabolites; Biosynthesis of other antibiotics
+PATHWAY     map00998  Biosynthesis of various antibiotics
             map01100  Metabolic pathways
-            map01130  Biosynthesis of antibiotics
+            map01110  Biosynthesis of secondary metabolites
 REACTION    R09714  C00353 -> C19815
             R09684  C19815 -> C19814
             R11069  C19814 -> C21093

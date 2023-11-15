@@ -1,6 +1,6 @@
 ENTRY       M00595            Pathway   Module
 NAME        Thiosulfate oxidation by SOX complex, thiosulfate => sulfate
-DEFINITION  (K17222+K17223+K17224-K17225-K22622+K17226+K17227)
+DEFINITION  K17222+K17223+K17224-K17225-K22622+K17226+K17227
 ORTHOLOGY   K17222  soxA; sulfur-oxidizing protein SoxA
             K17223  soxX; sulfur-oxidizing protein SoxX
             K17224  soxB; sulfur-oxidizing protein SoxB

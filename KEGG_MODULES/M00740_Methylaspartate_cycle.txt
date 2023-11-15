@@ -1,13 +1,13 @@
 ENTRY       M00740            Pathway   Module
 NAME        Methylaspartate cycle
-DEFINITION  K01647 K01681 K00031 K00261 (K19268+K01846) K04835 K19280 K14449 K19281 K19282 K00024
+DEFINITION  K01647 K01681 K00031 K00261 K19268+K01846 K04835 K19280 K14449 K19281 K19282 K00024
 ORTHOLOGY   K01647  citrate synthase [EC:2.3.3.1] [RN:R00351]
             K01681  aconitate hydratase [EC:4.2.1.3] [RN:R01325 R01900]
             K00031  isocitrate dehydrogenase [EC:1.1.1.42] [RN:R01899 R00268]
             K00261  glutamate dehydrogenase (NAD(P)+) [EC:1.4.1.3] [RN:R00248]
             K19268,K01846  methylaspartate mutase epsilon subunit [EC:5.4.99.1] [RN:R00262]
             K04835  methylaspartate ammonia-lyase [EC:4.3.1.2] [RN:R03696]
-            K19280  succinyl-CoA:mesaconate CoA transferase [EC:2.8.3.-] [RN:R10904]
+            K19280  succinyl-CoA:mesaconate CoA transferase [EC:2.8.3.26] [RN:R10904]
             K14449  2-methylfumaryl-CoA hydratase [EC:4.2.1.148] [RN:R05076]
             K19281  beta-methylmalyl-CoA/(S)-malyl-CoA lyase [EC:4.1.3.24] [RN:R00934]
             K19282  bifunctional (S)-malyl-CoA lyase/thioesterase [EC:4.1.3.24 3.1.2.30] [RN:R00473 R10612]

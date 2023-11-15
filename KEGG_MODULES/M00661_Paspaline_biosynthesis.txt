@@ -4,7 +4,7 @@ DEFINITION  K18385 K18386 K18387
 ORTHOLOGY   K18385  geranylgeranyldiphosphate transferase [RN:R10349]
             K18386  FAD dependent monooxygenase [EC:1.14.13.-] [RN:R10350 R10351]
             K18387  paspaline synthase [RN:R10352 R10353]
-CLASS       Pathway modules; Biosynthesis of other secondary metabolites; Biosynthesis of other secondary metabolites
+CLASS       Pathway modules; Biosynthesis of other secondary metabolites; Biosynthesis of other fungal compounds
 PATHWAY     map00403  Indole diterpene alkaloid biosynthesis
             map01100  Metabolic pathways
             map01110  Biosynthesis of secondary metabolites

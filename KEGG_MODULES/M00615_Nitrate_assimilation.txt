@@ -1,6 +1,6 @@
 ENTRY       M00615            Signature Module
 NAME        Nitrate assimilation
-DEFINITION  (K02575,(K15576+K15577+K15578-K15579)) M00531
+DEFINITION  (K02575,K15576+K15577+K15578-K15579) M00531
 ORTHOLOGY   K02575  NRT; MFS transporter, NNP family, nitrate/nitrite transporter
             K15576  nrtA; nitrate/nitrite transport system substrate-binding protein
             K15577  nrtB; nitrate/nitrite transport system permease protein

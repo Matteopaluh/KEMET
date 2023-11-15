@@ -1,6 +1,6 @@
 ENTRY       M00730            Signature Module
 NAME        Cationic antimicrobial peptide (CAMP) resistance, VraFG transporter
-DEFINITION  K19077 K19078 (K19079+K19080)
+DEFINITION  K19077 K19078 K19079+K19080
 ORTHOLOGY   K19077  graS; two-component system, OmpR family, sensor histidine kinase GraS [EC:2.7.13.3] [COG:COG0642] [GO:0000155]
             K19078  graR; two-component system, OmpR family, response regulator protein GraR [COG:COG0745] [GO:0000156]
             K19079  vraF; cationic antimicrobial peptide transport system ATP-binding protein [COG:COG1136] [TC:3.A.1.134.7]
