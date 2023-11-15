@@ -1,6 +1,6 @@
 ENTRY       M00718            Signature Module
 NAME        Multidrug resistance, efflux pump MexAB-OprM
-DEFINITION  K18131 (K03585+K18138+K18139)
+DEFINITION  K18131 K03585+K18138+K18139
 ORTHOLOGY   K18131  mexR; MarR family transcriptional regulator, repressor of the mexAB-oprM multidrug resistance operon
             K03585  acrA; membrane fusion protein, multidrug efflux system
             K18138  acrB; multidrug efflux pump

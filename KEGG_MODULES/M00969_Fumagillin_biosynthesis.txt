@@ -1,0 +1,46 @@
+ENTRY       M00969            Pathway   Module
+NAME        Fumagillin biosynthesis, farnesyl-PP => fumagillin
+DEFINITION  K22569 K21295 K22570 K22571 K22572 
+            K22573
+            K22574 K22575
+ORTHOLOGY   K22569  AF520; (+)-exo-beta-bergamotene synthase [EC:4.2.3.211] [RN:R13104]
+            K21295  AF510; 5-dehydro-6-demethoxyfumagillol synthase [EC:1.14.14.184] [RN:R13117]
+            K22570  AF480; 5-dehydro-6-demethoxyfumagillol dioxygenase [EC:1.14.11.82] [RN:R13122]
+            K22571  AF390-400; 5-dehydro-6-demethoxy-6-hydroxyfumagillol O-methyltransferase [EC:2.1.1.387] [RN:R13123]
+            K22572  AF490; 5-dehydrofumagillol 5-reductase [EC:1.1.1.437] [RN:R13106]
+            K22573  AF370; fumagillin biosynthesis polyketide synthase [EC:2.3.1.-] [RN:R13145]
+            K22574  AF380; fumagillin biosynthesis transferase [RN:R13146]
+            K22575  AF470; fumagillin biosynthesis monooxygenase [RN:R13147]
+CLASS       Pathway modules; Biosynthesis of other secondary metabolites; Biosynthesis of other antibiotics
+PATHWAY     map00998  Biosynthesis of various antibiotics
+            map01100  Metabolic pathways
+            map01110  Biosynthesis of secondary metabolites
+REACTION    R13104  C00448 -> C22617
+            R13117  C22617 -> C22629
+            R13122  C22629 -> C22631
+            R13123  C22631 -> C22619
+            R13106  C22619 -> C22618
+            R13145  C00083 -> C22651
+            R13146  C22618 + C22651 -> C22650
+            R13147  C22650 -> C09668
+COMPOUND    C00448  trans,trans-Farnesyl diphosphate
+            C22617  (+)-exo-beta-Bergamotene
+            C22629  5-Dehydro-6-demethoxyfumagillol
+            C22631  5-Dehydro-6-demethoxy-6-hydroxyfumagillol
+            C22619  5-Dehydrofumagillol
+            C22618  Fumagillol
+            C00083  Malonyl-CoA
+            C22651  Dodecapentaenoyl-[acyl-carrier protein]
+            C22650  Prefumagillin
+            C09668  Fumagillin
+REFERENCE   PMID:24568283
+  AUTHORS   Lin HC, Tsunematsu Y, Dhingra S, Xu W, Fukutomi M, Chooi YH, Cane DE, Calvo AM, Watanabe K, Tang Y
+  TITLE     Generation of complexity in fungal terpene biosynthesis: discovery of a multifunctional cytochrome P450 in the fumagillin pathway.
+  JOURNAL   J Am Chem Soc 136:4426-36 (2014)
+            DOI:10.1021/ja500881e
+REFERENCE   PMID:31861936
+  AUTHORS   Guruceaga X, Perez-Cuesta U, Abad-Diaz de Cerio A, Gonzalez O, Alonso RM, Hernando FL, Ramirez-Garcia A, Rementeria A.
+  TITLE     Fumagillin, a Mycotoxin of Aspergillus fumigatus: Biosynthesis, Biological Activities, Detection, and Applications.
+  JOURNAL   Toxins (Basel) 12:7 (2019)
+            DOI:10.3390/toxins12010007
+///

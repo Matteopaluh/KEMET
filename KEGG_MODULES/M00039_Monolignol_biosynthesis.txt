@@ -12,7 +12,7 @@ ORTHOLOGY   K10775  phenylalanine ammonia-lyase [EC:4.3.1.24] [RN:R00679]
             K09755  ferulate-5-hydroxylase [EC:1.14.-.-] [RN:R06572]
             K13066  caffeic acid 3-O-methyltransferase [EC:2.1.1.68] [RN:R06576]
             K00083,K22395  cinnamyl-alcohol dehydrogenase [EC:1.1.1.195] [RN:R07437 R02593 R03918]
-CLASS       Pathway modules; Biosynthesis of other secondary metabolites; Biosynthesis of other secondary metabolites
+CLASS       Pathway modules; Biosynthesis of other secondary metabolites; Biosynthesis of phytochemical compounds
 PATHWAY     map00940  Phenylpropanoid biosynthesis
             map01100  Metabolic pathways
             map01110  Biosynthesis of secondary metabolites

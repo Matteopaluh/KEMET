@@ -1,6 +1,6 @@
 ENTRY       M00175            Pathway   Module
 NAME        Nitrogen fixation, nitrogen => ammonia
-DEFINITION  ((K02588+K02586+K02591-K00531),(K22896+K22897+K22898+K22899))
+DEFINITION  K02588+K02586+K02591-K00531,K22896+K22897+K22898+K22899
 ORTHOLOGY   K02588  nitrogenase iron protein [RN:R05185]
             K02586+K02591  nitrogenase molybdenum-iron protein [EC:1.18.6.1] [RN:R05185]
             K00531  nitrogenase delta subunit [EC:1.18.6.1] [RN:R05185]

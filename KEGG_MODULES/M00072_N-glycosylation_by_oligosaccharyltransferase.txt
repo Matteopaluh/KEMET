@@ -1,6 +1,6 @@
 ENTRY       M00072            Pathway   Module
 NAME        N-glycosylation by oligosaccharyltransferase
-DEFINITION  (K07151+K12666+K12667+K12668+K12669+K12670-K00730-K12691)
+DEFINITION  K07151+K12666+K12667+K12668+K12669+K12670-K00730-K12691
 ORTHOLOGY   K07151  STT3; dolichyl-diphosphooligosaccharide--protein glycosyltransferase [EC:2.4.99.18] [RN:R05976]
             K12666  OST1; oligosaccharyltransferase complex subunit alpha (ribophorin I)
             K12667  SWP1; oligosaccharyltransferase complex subunit delta (ribophorin II)

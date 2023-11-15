@@ -1,7 +1,7 @@
 ENTRY       M00114            Pathway   Module
 NAME        Ascorbate biosynthesis, plants, fructose-6P => ascorbate
 DEFINITION  K01809 K17497 K00966 K10046 K14190 K10047 K17744 K00225
-ORTHOLOGY   K01809  mannose-6-phosphate isomerase [EC:5.3.1.8] [RN:R01819]
+ORTHOLOGY   K01809  mannose-6-phosphate isomerase [EC:5.3.1.8] [RN:R00772]
             K17497  phosphomannomutase [EC:5.4.2.8] [RN:R01818]
             K00966  mannose-1-phosphate guanylyltransferase [EC:2.7.7.13] [RN:R00885]
             K10046  GDP-D-mannose 3', 5'-epimerase [EC:5.1.3.18] [RN:R00889]
@@ -15,7 +15,7 @@ PATHWAY     map00051  Fructose and mannose metabolism
             map01240  Biosynthesis of cofactors
             map01100  Metabolic pathways
             map01110  Biosynthesis of secondary metabolites
-REACTION    R01819  C05345 -> C00275
+REACTION    R00772  C00085 -> C00275
             R01818  C00275 -> C00636
             R00885  C00636 -> C00096
             R00889  C00096 -> C02280
@@ -23,7 +23,7 @@ REACTION    R01819  C05345 -> C00275
             R07674  C15926 -> C01825
             R07675  C01825 -> C01115
             R00640  C01115 -> C00072
-COMPOUND    C05345  beta-D-Fructose 6-phosphate
+COMPOUND    C00085  D-Fructose 6-phosphate
             C00275  D-Mannose 6-phosphate
             C00636  D-Mannose 1-phosphate
             C00096  GDP-mannose

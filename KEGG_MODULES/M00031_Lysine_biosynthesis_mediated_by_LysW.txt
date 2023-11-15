@@ -4,10 +4,10 @@ DEFINITION  K05826
             K05827 K05828 K05829 K05830 K05831
 ORTHOLOGY   K05826  alpha-aminoadipate carrier protein LysW
             K05827  [lysine-biosynthesis-protein LysW]---L-2-aminoadipate ligase [EC:6.3.2.43] [RN:R09775]
-            K05828  LysW-gamma-L-alpha-aminoadipate kinase [EC:2.7.2.-] [RN:R09776]
-            K05829  LysW-gamma-L-alpha-aminoadipyl-6-phosphate reductase [EC:1.2.1.-] [RN:R09777]
-            K05830  LysW-gamma-L-lysine aminotransferase [EC:2.6.1.-] [RN:R09778]
-            K05831  LysW-gamma-L-lysine carboxypeptidase [RN:R09779]
+            K05828  LysW-gamma-L-alpha-aminoadipate kinase [EC:2.7.2.17] [RN:R09776]
+            K05829  LysW-gamma-L-alpha-aminoadipyl-6-phosphate reductase [EC:1.2.1.103] [RN:R09777]
+            K05830  LysW-gamma-L-lysine aminotransferase [EC:2.6.1.118] [RN:R09778]
+            K05831  LysW-gamma-L-lysine hydrolase [EC:3.5.1.130] [RN:R09779]
 CLASS       Pathway modules; Amino acid metabolism; Lysine metabolism
 PATHWAY     map00300  Lysine biosynthesis
             map01210  2-Oxocarboxylic acid metabolism

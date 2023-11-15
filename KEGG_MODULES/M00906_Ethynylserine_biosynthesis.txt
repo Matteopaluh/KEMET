@@ -7,7 +7,7 @@ ORTHOLOGY   K23669  besD; L-lysine 4-chlorinase [EC:1.14.20.-] [RN:R12407]
             K23672  besA; L-propargylglycine--L-glutamate ligase [EC:6.3.2.-] [RN:R12410]
             K23673  besE; L-gamma-glutamyl-L-propargylglycine hydroxylase [EC:1.14.11.-] [RN:R12411]
 CLASS       Pathway modules; Biosynthesis of other secondary metabolites; Biosynthesis of other bacterial compounds
-PATHWAY     map00997  Biosynthesis of various secondary metabolites - part 3
+PATHWAY     map00997  Biosynthesis of various other secondary metabolites
             map01100  Metabolic pathways
             map01110  Biosynthesis of secondary metabolites
 REACTION    R12407  C00047 -> C22137

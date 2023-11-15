@@ -4,7 +4,7 @@ DEFINITION  (K02369,K02370) (K02366,K02367) (K02368,K02370) (K02576,K02577,K0257
 ORTHOLOGY   K02369,K02370  alpha-1,4-N-acetylglucosaminyltransferase [EC:2.4.1.223] [RN:R05930]
             K02366,K02367  glucuronyltransferase [EC:2.4.1.225] [RN:R05935]
             K02368,K02370  alpha-1,4-N-acetylglucosaminyltransferase [EC:2.4.1.224] [RN:R05936]
-            K02576,K02577,K02578,K02579  heparan sulfate N-deacetylase/N-sulfotransferase NDST [EC:3.1.1.- 2.8.2.-]
+            K02576,K02577,K02578,K02579  heparan sulfate N-deacetylase/N-sulfotransferase NDST [EC:3.1.1.- 2.8.2.8]
             K01793  heparosan-N-sulfate-glucuronate 5-epimerase [EC:5.1.3.17]
 CLASS       Pathway modules; Glycan metabolism; Glycosaminoglycan metabolism
 PATHWAY     map00534  Glycosaminoglycan biosynthesis - heparan sulfate / heparin

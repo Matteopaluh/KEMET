@@ -1,14 +1,15 @@
 ENTRY       M00120            Pathway   Module
 NAME        Coenzyme A biosynthesis, pantothenate => CoA
-DEFINITION  (K00867,K03525,K09680,K01947) ((K01922,K21977) K01598,K13038) (K02318,(K00954,K02201) K00859)
-ORTHOLOGY   K00867,K03525,K09680,K01947  pantothenate kinase [EC:2.7.1.33] [RN:R03018]
+DEFINITION  (K00867,K03525,K01947,K09680) ((K01922,K21977) K01598,K13038) (K02318,(K00954,K02201) K00859)
+ORTHOLOGY   K00867,K03525,K01947,K09680  pantothenate kinase [EC:2.7.1.33] [RN:R03018]
             K01922  phosphopantothenate---cysteine ligase (ATP) [EC:6.3.2.51] [RN:R04230]
             K21977,K13038  phosphopantothenate---cysteine ligase (CTP) [EC:6.3.2.5] [RN:R04231]
             K01598,K13038  phosphopantothenoylcysteine decarboxylase [EC:4.1.1.36] [RN:R03269]
-            K02318,K00954,K02201  pantetheine-phosphate adenylyltransferase [EC:2.7.7.3] [RN:R03035]
+            K02318,K00954,K02201 pantetheine-phosphate adenylyltransferase [EC:2.7.7.3] [RN:R03035]
             K02318,K00859  dephospho-CoA kinase [EC:2.7.1.24] [RN:R00130]
 CLASS       Pathway modules; Metabolism of cofactors and vitamins; Cofactor and vitamin metabolism
 PATHWAY     map00770  Pantothenate and CoA biosynthesis
+            map01240  Biosynthesis of cofactors
             map01100  Metabolic pathways
 REACTION    R03018  C00864 -> C03492
             R04230,R04231  C03492 -> C04352
@@ -21,4 +22,9 @@ COMPOUND    C00864  Pantothenate
             C01134  Pantetheine 4'-phosphate
             C00882  Dephospho-CoA
             C00010  CoA
+REFERENCE   PMID:15893380
+  AUTHORS   Leonardi R, Zhang YM, Rock CO, Jackowski S
+  TITLE     Coenzyme A: back in action.
+  JOURNAL   Prog Lipid Res 44:125-53 (2005)
+            DOI:10.1016/j.plipres.2005.04.001
 ///

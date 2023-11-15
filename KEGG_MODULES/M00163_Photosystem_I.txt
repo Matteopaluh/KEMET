@@ -1,13 +1,17 @@
-ENTRY       M00163            Complex   Module
+ENTRY       M00163            Pathway   Module
 NAME        Photosystem I
-DEFINITION  (K02689+K02690+K02691+K02692+K02693+K02694)
-ORTHOLOGY   K02689  psaA; photosystem I P700 chlorophyll a apoprotein A1
-            K02690  psaB; photosystem I P700 chlorophyll a apoprotein A2
-            K02691  psaC; photosystem I subunit VII
+DEFINITION  K02689+K02690+K02691+K02692+K02693+K02694
+ORTHOLOGY   K02689  psaA; photosystem I P700 chlorophyll a apoprotein A1 [EC:1.97.1.12]
+            K02690  psaB; photosystem I P700 chlorophyll a apoprotein A2 [EC:1.97.1.12]
+            K02691  psaC; photosystem I iron-sulfur center [EC:1.97.1.12]
             K02692  psaD; photosystem I subunit II
             K02693  psaE; photosystem I subunit IV
             K02694  psaF; photosystem I subunit III
 CLASS       Pathway modules; Energy metabolism; Photosynthesis
 PATHWAY     map00195  Photosynthesis
-BRITE       ko00194  Photosynthesis proteins
+REACTION    R09542  C03025 + C00139 -> C03162 + C00138
+COMPOUND    C03025  Reduced plastocyanin
+            C00139  Oxidized ferredoxin
+            C03162  Oxidized plastocyanin
+            C00138  Reduced ferredoxin
 ///

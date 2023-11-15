@@ -1,0 +1,36 @@
+ENTRY       M00053            Pathway   Module
+NAME        Deoxyribonucleotide biosynthesis, ADP/GDP/CDP/UDP => dATP/dGTP/dCTP/dUTP
+DEFINITION  (K00525+K00526,K10807+K10808) (K00940,K18533)
+ORTHOLOGY   K00525,K00526,K10807,K10808  ribonucleoside-diphosphate reductase [EC:1.17.4.1] [RN:R02017 R02019 R02024 R02018]
+            K00940,K18533  nucleoside-diphosphate kinase [EC:2.7.4.6] [RN:R01137 R01857 R02326 R02331]
+CLASS       Pathway modules; Nucleotide metabolism; Purine metabolism
+PATHWAY     map00230  Purine metabolism
+            map00240  Pyrimidine metabolism
+            map01232  Nucleotide metabolism
+            map01100  Metabolic pathways
+REACTION    R02017 C00008 -> C00206
+            R01137 C00206 -> C00131
+            R02019 C00035 -> C00361
+            R01857 C00361 -> C00286
+            R02024 C00112 -> C00705
+            R02326 C00705 -> C00458
+            R02018 C00015 -> C01346
+            R02331 C01346 -> C00460
+COMPOUND    C00008  ADP
+            C00206  dADP
+            C00131  dATP
+            C00035  GDP
+            C00361  dGDP
+            C00286  dGTP
+            C00112  CDP
+            C00705  dCDP
+            C00458  dCTP
+            C00015  UDP
+            C01346  dUDP
+            C00460  dUTP
+REFERENCE   PMID:28458037
+  AUTHORS   Okesli A, Khosla C, Bassik MC
+  TITLE     Human pyrimidine nucleotide biosynthesis as a target for antiviral chemotherapy.
+  JOURNAL   Curr Opin Biotechnol 48:127-134 (2017)
+            DOI:10.1016/j.copbio.2017.03.010
+///

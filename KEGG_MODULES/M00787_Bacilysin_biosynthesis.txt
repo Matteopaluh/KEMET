@@ -7,10 +7,10 @@ ORTHOLOGY   K19546  bacA; bacA; prephenate decarboxylase [EC:4.1.1.100] [RN:R109
             K19549  bacF; bacilysin biosynthesis transaminase BacF [EC:2.6.1.-] [RN:R11068]
             K19548  bacC; dihydroanticapsin dehydrogenase [EC:1.1.1.385] [RN:R10917]
             K13037  bacD; L-alanine-L-anticapsin ligase [EC:6.3.2.49] [RN:R11064]
-CLASS       Pathway modules; Biosynthesis of other secondary metabolites; Biosynthesis of other secondary metabolites
-PATHWAY     map00998  Biosynthesis of various secondary metabolites - part 2
+CLASS       Pathway modules; Biosynthesis of other secondary metabolites; Biosynthesis of other antibiotics
+PATHWAY     map00998  Biosynthesis of various antibiotics
             map01100  Metabolic pathways
-            map01130  Biosynthesis of antibiotics
+            map01110  Biosynthesis of secondary metabolites
 REACTION    R10934  C00254 -> C20953
             R11065  C20953 -> C21085
             R11066  C21085 -> C21086

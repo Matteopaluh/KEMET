@@ -6,7 +6,7 @@ ORTHOLOGY   K11812,K11813  tryptophan N-monooxygenase [EC:1.14.14.156] [RN:R0816
             K11819  S-alkyl-thiohydroximate lyase SUR1 [EC:4.4.1.-] [RN:R08170]
             K11820  N-hydroxythioamide S-beta-glucosyltransferase [EC:2.4.1.195] [RN:R08164]
             K11821  aromatic desulfoglucosinolate sulfotransferase [EC:2.8.2.24] [RN:R08167]
-CLASS       Pathway modules; Biosynthesis of other secondary metabolites; Biosynthesis of other secondary metabolites
+CLASS       Pathway modules; Biosynthesis of other secondary metabolites; Biosynthesis of phytochemical compounds
 PATHWAY     map00380  Tryptophan metabolism
             map00966  Glucosinolate biosynthesis
             map01210  2-Oxocarboxylic acid metabolism

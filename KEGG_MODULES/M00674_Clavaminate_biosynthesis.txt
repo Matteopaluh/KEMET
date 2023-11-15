@@ -5,10 +5,10 @@ ORTHOLOGY   K12673  N2-(2-carboxyethyl)arginine synthase [EC:2.5.1.66] [RN:R0546
             K12674  (carboxyethyl)arginine beta-lactam-synthase [EC:6.3.3.4] [RN:R05467]
             K12675  clavaminate synthase [EC:1.14.11.21] [RN:R05466 R05468 R05469]
             K12676  proclavaminate amidinohydrolase [EC:3.5.3.22] [RN:R05357]
-CLASS       Pathway modules; Biosynthesis of other secondary metabolites; beta-Lactam biosynthesis
+CLASS       Pathway modules; Biosynthesis of other secondary metabolites; Biosynthesis of beta-lactams
 PATHWAY     map00331  Clavulanic acid biosynthesis
             map01100  Metabolic pathways
-            map01130  Biosynthesis of antibiotics
+            map01110  Biosynthesis of secondary metabolites
 REACTION    R05465  C00062 + C00118 -> C06655
             R05467  C06655 -> C06656
             R05466  C06656 -> C06657

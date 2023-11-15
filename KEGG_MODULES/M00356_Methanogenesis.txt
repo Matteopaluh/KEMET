@@ -1,6 +1,6 @@
 ENTRY       M00356            Pathway   Module
 NAME        Methanogenesis, methanol => methane
-DEFINITION  (K14080+K04480+K14081) (K00399+K00401+K00402) ((K22480+K22481+K22482),(K03388+K03389+K03390),(K08264+K08265),(K03388+K03389+K03390+K14127+((K14126+K14128),(K22516+K00125))))
+DEFINITION  K14080+K04480+K14081 K00399+K00401+K00402 (K22480+K22481+K22482,K03388+K03389+K03390,K08264+K08265,K03388+K03389+K03390+K14127+(K14126+K14128,K22516+K00125))
 ORTHOLOGY   K14080  [methyl-Co(III) methanol-specific corrinoid protein]:coenzyme M methyltransferase [EC:2.1.1.246] [RN:R09098]
             K04480  methanol---5-hydroxybenzimidazolylcobamide Co-methyltransferase [EC:2.1.1.90] [RN:R09098]
             K14081  methanol corrinoid protein [RN:R09098]

@@ -1,6 +1,6 @@
 ENTRY       M00940            Pathway   Module
 NAME        Flavanone biosynthesis, p-coumaroyl-CoA => liquiritigenin
-DEFINITION  (K00660+K08243) K01859
+DEFINITION  K00660+K08243 K01859
 ORTHOLOGY   K00660,K08243  6'-deoxychalcone synthase [EC:2.3.1.170] [RN:R06568]
             K01859  chalcone isomerase [EC:5.5.1.6] [RN:R06556]
 CLASS       Pathway modules; Biosynthesis of other secondary metabolites; Biosynthesis of phytochemical compounds

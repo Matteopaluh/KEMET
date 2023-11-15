@@ -5,7 +5,7 @@ ORTHOLOGY   K22113  ddaG; fumarate---(S)-2,3-diaminopropanoate ligase [EC:6.3.2.
             K01957  ddaH; N-3-fumaroyl-(S)-2,3-diaminopropanoate amidotransferase [EC:6.3.5.-] [RN:R12352]
             K22114  ddaF; dapdiamide synthase [EC:6.3.2.47] [RN:R10942 R10943 R10944]
 CLASS       Pathway modules; Biosynthesis of other secondary metabolites; Biosynthesis of other antibiotics
-PATHWAY     map00997  Biosynthesis of various secondary metabolites - part 3
+PATHWAY     map00998  Biosynthesis of various antibiotics
             map01100  Metabolic pathways
             map01110  Biosynthesis of secondary metabolites
 REACTION    R10940  C03401 -> C20961

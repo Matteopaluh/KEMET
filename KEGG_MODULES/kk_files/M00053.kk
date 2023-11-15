@@ -1,4 +1,4 @@
-M00053_Pyrimidine deoxyribonuleotide biosynthesis, CDP/CTP => dCDP/dCTP,dTDP/dTTP
+M00053_Deoxyribonucleotide biosynthesis, ADP/GDP/CDP/UDP => dATP/dGTP/dCTP/dUTP
 K00525, K00526, K10807, K10808
 K00940, K18533
 COMPLEXES_LIST

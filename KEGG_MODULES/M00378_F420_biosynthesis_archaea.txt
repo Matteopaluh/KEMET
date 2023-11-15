@@ -1,0 +1,55 @@
+ENTRY       M00378            Pathway   Module
+NAME        F420 biosynthesis, archaea
+DEFINITION  K11780+K11781
+            K14941
+            K11212 K12234
+ORTHOLOGY   K11781  5-amino-6-(D-ribitylamino)uracil---L-tyrosine 4-hydroxyphenyl transferase [EC:2.5.1.147] [RN:R12161]
+            K11780  7,8-didemethyl-8-hydroxy-5-deazariboflavin synthase [EC:4.3.1.32] [RN:R12162]
+            K14941  2-phospho-L-lactate guanylyltransferase [EC:2.7.7.68] [RN:R09397]
+            K11212  LPPG:FO 2-phospho-L-lactate transferase [EC:2.7.8.28] [RN:R09398]
+            K12234  coenzyme F420-0:L-glutamate ligase / coenzyme F420-1:gamma-L-glutamate ligase [EC:6.3.2.31 6.3.2.34] [RN:R09399 R09400]
+CLASS       Pathway modules; Energy metabolism; Methane metabolism
+PATHWAY     map00680  Methane metabolism
+            map01240  Biosynthesis of cofactors
+            map01100  Metabolic pathways
+            map01120  Microbial metabolism in diverse environments
+REACTION    R12161  C04732 -> C21971
+            R12162  C21971 -> C19154
+            R09397  C19156 -> C19155
+            R09398  C19155 + C19154 -> C19153
+            R09399  C19153 -> C19152
+            R09400  C19152 -> C00876
+COMPOUND    C04732  5-Amino-6-(1-D-ribitylamino)uracil
+            C21971  5-Amino-5-(4-hydroxybenzyl)-6-(D-ribitylimino)-5,6-dihydrouracil
+            C19154  7,8-Didemethyl-8-hydroxy-5-deazariboflavin
+            C19156  (2S)-2-Phospholactate
+            C19155  (2S)-Lactyl-2-diphospho-5'-guanosine
+            C19153  Coenzyme F420-0
+            C19152  Coenzyme F420-1
+            C00876  Coenzyme F420
+REFERENCE   PMID:14593448
+  AUTHORS   Graham DE, Xu H, White RH
+  TITLE     Identification of the 7,8-didemethyl-8-hydroxy-5-deazariboflavin synthase required for coenzyme F(420) biosynthesis.
+  JOURNAL   Arch Microbiol 180:455-64 (2003)
+            DOI:10.1007/s00203-003-0614-8
+REFERENCE   PMID:18260642
+  AUTHORS   Grochowski LL, Xu H, White RH
+  TITLE     Identification and characterization of the 2-phospho-L-lactate guanylyltransferase involved in coenzyme F420 biosynthesis.
+  JOURNAL   Biochemistry 47:3033-7 (2008)
+            DOI:10.1021/bi702475t
+REFERENCE   PMID:11888293
+  AUTHORS   Graupner M, Xu H, White RH
+  TITLE     Characterization of the 2-phospho-L-lactate transferase enzyme involved in coenzyme F(420) biosynthesis in Methanococcus jannaschii.
+  JOURNAL   Biochemistry 41:3754-61 (2002)
+            DOI:10.1021/bi011937v
+REFERENCE   PMID:12911320
+  AUTHORS   Li H, Graupner M, Xu H, White RH
+  TITLE     CofE catalyzes the addition of two glutamates to F420-0 in F420 coenzyme biosynthesis in Methanococcus jannaschii.
+  JOURNAL   Biochemistry 42:9771-8 (2003)
+            DOI:10.1021/bi034779b
+REFERENCE   PMID:12909715
+  AUTHORS   Li H, Xu H, Graham DE, White RH
+  TITLE     Glutathione synthetase homologs encode alpha-L-glutamate ligases for methanogenic coenzyme F420 and tetrahydrosarcinapterin biosyntheses.
+  JOURNAL   Proc Natl Acad Sci U S A 100:9785-90 (2003)
+            DOI:10.1073/pnas.1733391100
+///

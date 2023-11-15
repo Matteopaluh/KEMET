@@ -1,0 +1,44 @@
+ENTRY       M00124            Pathway   Module
+NAME        Pyridoxal-P biosynthesis, erythrose-4P => pyridoxal-P
+DEFINITION  K03472 K03473 K00831 K00097 K03474 K00275
+ORTHOLOGY   K03472  D-erythrose 4-phosphate dehydrogenase [EC:1.2.1.72] [RN:R01825]
+            K03473  erythronate-4-phosphate dehydrogenase [EC:1.1.1.290] [RN:R04210]
+            K00831  phosphoserine aminotransferase [EC:2.6.1.52] [RN:R05085]
+            K00097  4-hydroxythreonine-4-phosphate dehydrogenase [EC:1.1.1.262] [RN:R05681]
+            K03474  pyridoxine 5-phosphate synthase [EC:2.6.99.2] [RN:R05838]
+            K00275  pyridoxamine 5'-phosphate oxidase [EC:1.4.3.5] [RN:R00278]
+CLASS       Pathway modules; Metabolism of cofactors and vitamins; Cofactor and vitamin metabolism
+PATHWAY     map00750  Vitamin B6 metabolism
+            map01240  Biosynthesis of cofactors
+            map01100  Metabolic pathways
+REACTION    R01825  C00279 -> C03393
+            R04210  C03393 -> C06054
+            R05085  C06054 -> C06055
+            R05681  C06055 -> C07335
+            R07406  C07335 -> C11638  (spontaneous)
+            R05838  C11638 -> C00627
+            R00278  C00627 -> C00018
+COMPOUND    C00279  D-Erythrose 4-phosphate
+            C03393  4-Phospho-D-erythronate
+            C06054  2-Oxo-3-hydroxy-4-phosphobutanoate
+            C06055  O-Phospho-4-hydroxy-L-threonine
+            C07335  2-Amino-3-oxo-4-phosphonooxybutyrate
+            C11638  3-Amino-2-oxopropyl phosphate
+            C00627  Pyridoxine phosphate
+            C00018  Pyridoxal phosphate
+REFERENCE   PMID:10225425
+  AUTHORS   Laber B, Maurer W, Scharf S, Stepusin K, Schmidt FS.
+  TITLE     Vitamin B6 biosynthesis: formation of pyridoxine 5'-phosphate from 4-(phosphohydroxy)-L-threonine and 1-deoxy-D-xylulose-5-phosphate by PdxA and PdxJ protein.
+  JOURNAL   FEBS Lett 449:45-8 (1999)
+            DOI:10.1016/S0014-5793(99)00393-2
+REFERENCE   PMID:15242009
+  AUTHORS   Sakai A, Kita M, Tani Y
+  TITLE     Recent progress of vitamin B6 biosynthesis.
+  JOURNAL   J Nutr Sci Vitaminol (Tokyo) 50:69-77 (2004)
+            DOI:10.3177/jnsv.50.69
+REFERENCE   PMID:17822383
+  AUTHORS   Fitzpatrick TB, Amrhein N, Kappes B, Macheroux P, Tews I, Raschle T
+  TITLE     Two independent routes of de novo vitamin B6 biosynthesis: not that different after all.
+  JOURNAL   Biochem J 407:1-13 (2007)
+            DOI:10.1042/BJ20070765
+///

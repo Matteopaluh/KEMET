@@ -1,6 +1,6 @@
 ENTRY       M00570            Pathway   Module
 NAME        Isoleucine biosynthesis, threonine => 2-oxobutanoate => isoleucine
-DEFINITION  (K17989,K01754) (K01652+(K01653,K11258)) K00053 K01687 K00826
+DEFINITION  (K17989,K01754) K01652+(K01653,K11258) K00053 K01687 K00826
 ORTHOLOGY   K17989,K01754  threonine dehydratase [EC:4.3.1.19] [RN:R00996]
             K01652,K01653,K11258  acetolactate synthase [EC:2.2.1.6] [RN:R08648]
             K00053  ketol-acid reductoisomerase [EC:1.1.1.86] [RN:R05069 R05068]

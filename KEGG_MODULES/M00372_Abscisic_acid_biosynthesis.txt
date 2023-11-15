@@ -7,7 +7,7 @@ ORTHOLOGY   K15746,K15747  beta-carotene hydroxylase [EC:1.14.15.24 1.14.-.-] [R
             K09840  9-cis-epoxycarotenoid dioxygenase [EC:1.13.11.51] [RN:R06953 R06952]
             K09841  xanthoxin dehydrogenase [EC:1.1.1.288] [RN:R06954]
             K09842  abscisic-aldehyde oxidase [EC:1.2.3.14] [RN:R06957]
-CLASS       Pathway modules; Biosynthesis of terpenoids and polyketides; Other terpenoid biosynthesis
+CLASS       Pathway modules; Biosynthesis of terpenoids and polyketides; Plant terpenoid biosynthesis
 PATHWAY     map00906  Carotenoid biosynthesis
             map01100  Metabolic pathways
             map01110  Biosynthesis of secondary metabolites

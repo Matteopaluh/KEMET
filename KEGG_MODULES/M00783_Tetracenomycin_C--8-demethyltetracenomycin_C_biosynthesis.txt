@@ -10,7 +10,7 @@ ORTHOLOGY   K15968  tcmI; tetracenomycin F2 cyclase [EC:4.2.1.154] [RN:R06699]
 CLASS       Pathway modules; Biosynthesis of terpenoids and polyketides; Type II polyketide biosynthesis
 PATHWAY     map01057  Biosynthesis of type II polyketide products
             map01100  Metabolic pathways
-            map01130  Biosynthesis of antibiotics
+            map01110  Biosynthesis of secondary metabolites
 REACTION    R06699  C12366 -> C12367
             R06700  C12367 -> C12368
             R06701  C12368 -> C12369

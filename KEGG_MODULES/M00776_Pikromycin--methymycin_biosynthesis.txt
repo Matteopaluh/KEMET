@@ -1,6 +1,6 @@
 ENTRY       M00776            Pathway   Module
 NAME        Pikromycin/methymycin biosynthesis, methylmalonyl-CoA + malonyl-CoA => narbonolide/10-deoxymethynolide => pikromycin/methymycin
-DEFINITION  (K16000+K16001+K16002-K16003) K16004 K16005 K16006
+DEFINITION  K16000+K16001+K16002-K16003 K16004 K16005 K16006
 ORTHOLOGY   K16000  pikAI; narbonolide/10-deoxymethynolide synthase [EC:2.3.1.240 2.3.1.239] [RN:R06459 R06458]
             K16001  pikAII; narbonolide/10-deoxymethynolide synthase [EC:2.3.1.240 2.3.1.239] [RN:R06459 R06458]
             K16002  pikAIII; narbonolide/10-deoxymethynolide synthase [EC:2.3.1.240 2.3.1.239] [RN:R06459 R06458]

@@ -1,6 +1,6 @@
 ENTRY       M00642            Signature Module
 NAME        Multidrug resistance, efflux pump MexJK-OprM
-DEFINITION  K18301 (K18302+K18303-K18139)
+DEFINITION  K18301 K18302+K18303-K18139
 ORTHOLOGY   K18301  mexL; TetR/AcrR family transcriptional regulator, mexJK operon transcriptional repressor
             K18302  mexJ; membrane fusion protein
             K18303  mexK; multidrug efflux pump

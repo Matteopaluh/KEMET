@@ -1,6 +1,6 @@
 ENTRY       M00696            Signature Module
 NAME        Multidrug resistance, efflux pump AcrEF-TolC
-DEFINITION  K18140 (K18141+K18142+K12340)
+DEFINITION  K18140 K18141+K18142+K12340
 ORTHOLOGY   K18140  envR, acrS; TetR/AcrR family transcriptional regulator, acrEF/envCD operon repressor [COG:COG1309]
             K18141  acrE; membrane fusion protein [COG:COG0845] [TC:2.A.6.2]
             K18142  acrF; multidrug efflux pump [COG:COG0841] [TC:2.A.6.2]

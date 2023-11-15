@@ -9,6 +9,7 @@ ORTHOLOGY   K14652  GTP cyclohydrolase II [EC:3.5.4.25] [RN:R00425]
             K00287  dihydrofolate reductase [EC:1.5.1.3] [RN:R00936 R00939]
 CLASS       Pathway modules; Metabolism of cofactors and vitamins; Cofactor and vitamin metabolism
 PATHWAY     map00790  Folate biosynthesis
+            map01240  Biosynthesis of cofactors
             map01100  Metabolic pathways
 REACTION    R00425  C00044 -> C01304
             R11072  C01304 -> C05925
@@ -28,4 +29,9 @@ COMPOUND    C00044  GTP
             C00921  Dihydropteroate
             C00415  Dihydrofolate
             C00101  Tetrahydrofolate
+REFERENCE   PMID:25006229
+  AUTHORS   Adams NE, Thiaville JJ, Proestos J, Juarez-Vazquez AL, McCoy AJ, Barona-Gomez F, Iwata-Reuyl D, de Crecy-Lagard V, Maurelli AT
+  TITLE     Promiscuous and adaptable enzymes fill "holes" in the tetrahydrofolate pathway in Chlamydia species.
+  JOURNAL   MBio 5:e01378-14 (2014)
+            DOI:10.1128/mBio.01378-14
 ///

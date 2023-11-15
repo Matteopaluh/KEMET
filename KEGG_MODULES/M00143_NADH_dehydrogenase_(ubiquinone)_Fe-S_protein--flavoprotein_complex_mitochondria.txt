@@ -1,6 +1,6 @@
 ENTRY       M00143            Complex   Module
 NAME        NADH dehydrogenase (ubiquinone) Fe-S protein/flavoprotein complex, mitochondria
-DEFINITION  (K03934+K03935+K03936+K03937+K03938+K03939+K03940+K03941+K03942+K03943-K03944)
+DEFINITION  K03934+K03935+K03936+K03937+K03938+K03939+K03940+K03941+K03942+K03943-K03944
 ORTHOLOGY   K03934  NDUFS1; NADH dehydrogenase (ubiquinone) Fe-S protein 1 [EC:7.1.1.2 1.6.99.3]
             K03935  NDUFS2; NADH dehydrogenase (ubiquinone) Fe-S protein 2 [EC:7.1.1.2 1.6.99.3]
             K03936  NDUFS3; NADH dehydrogenase (ubiquinone) Fe-S protein 3 [EC:7.1.1.2 1.6.99.3]

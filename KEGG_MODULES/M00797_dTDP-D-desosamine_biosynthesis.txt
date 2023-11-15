@@ -9,8 +9,9 @@ ORTHOLOGY   K13308  desI; dTDP-4-amino-4,6-dideoxy-D-glucose transaminase [EC:2.
             K13326  megDIII; dTDP-3-amino-2,3,6-trideoxy-4-keto-D-glucose/dTDP-3-amino-3,4,6-trideoxy-alpha-D-glucopyranose N,N-dimethyltransferase [EC:2.1.1.- 2.1.1.234] [RN:R06427]
 CLASS       Pathway modules; Biosynthesis of terpenoids and polyketides; Polyketide sugar unit biosynthesis
 PATHWAY     map00523  Polyketide sugar unit biosynthesis
+            map01250  Biosynthesis of nucleotide sugars
             map01100  Metabolic pathways
-            map01130  Biosynthesis of antibiotics
+            map01110  Biosynthesis of secondary metabolites
 REACTION    R02773  C11907 -> C04268
             R08583  C04268 -> C11909
             R06426  C11909 -> C11910

@@ -1,6 +1,6 @@
 ENTRY       M00837            Pathway   Module
 NAME        Prodigiosin biosynthesis, L-proline => prodigiosin
-DEFINITION  (K21780+K21781) K21782 K21783 K21784 K21785 K21786
+DEFINITION  K21780+K21781 K21782 K21783 K21784 K21785 K21786
             K21428 K21778 K21779
             K21787
 ORTHOLOGY   K21780  pigI; L-proline---[L-prolyl-carrier protein] ligase [EC:6.2.1.53] [RN:R06746]
@@ -14,10 +14,10 @@ ORTHOLOGY   K21780  pigI; L-proline---[L-prolyl-carrier protein] ligase [EC:6.2.
             K21778  pigE; 3-acetyloctanal aminotransferase [EC:2.6.1.-] [RN:R11672]
             K21779  pigB; 2-methyl-3-n-amyl-dihydropyrrolel dehydrogenase [RN:R11661]
             K21787  pigC; prodigiosin/undecylprodigiosin synthetase [RN:R11662]
-CLASS       Pathway modules; Biosynthesis of other secondary metabolites; Biosynthesis of other secondary metabolites
+CLASS       Pathway modules; Biosynthesis of other secondary metabolites; Biosynthesis of other bacterial compounds
 PATHWAY     map00333  Prodigiosin biosynthesis
             map01100  Metabolic pathways
-            map01130  Biosynthesis of antibiotics
+            map01110  Biosynthesis of secondary metabolites
 REACTION    R06746  C00148 -> C12470
             R06747  C12470 -> C12483
             R11665  C12483 -> C21567

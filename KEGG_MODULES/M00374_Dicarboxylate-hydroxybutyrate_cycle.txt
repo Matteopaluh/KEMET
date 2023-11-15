@@ -1,6 +1,6 @@
 ENTRY       M00374            Pathway   Module
 NAME        Dicarboxylate-hydroxybutyrate cycle
-DEFINITION  (K00169+K00170+K00171+K00172) K01007 K01595 K00024 (K01677+K01678) (K00239+K00240-K00241-K18860) (K01902+K01903) (K15038,K15017) K14465 (K14467,K18861) K14534 K15016 K00626
+DEFINITION  (K00169+K00170+K00171+K00172) K01007 K01595 K00024 (K01677+K01678) (K00239+K00240-K00241-K18860) (K01902+K01903) (K15038,K15017) K14465 (K14467,K18861,K25774) K14534 K15016 K00626
 ORTHOLOGY   K00169,K00170,K00171,K00172  pyruvate ferredoxin oxidoreductase [EC:1.2.7.1] [RN:R01196]
             K01007  pyruvate, water dikinase [EC:2.7.9.2] [RN:R00199]
             K01595  phosphoenolpyruvate carboxylase [EC:4.1.1.31] [RN:R00345]
@@ -10,7 +10,7 @@ ORTHOLOGY   K00169,K00170,K00171,K00172  pyruvate ferredoxin oxidoreductase [EC:
             K01902,K01903  succinyl-CoA synthetase [EC:6.2.1.5] [RN:R00405]
             K15038,K15017  succinyl-CoA reductase [EC:1.2.1.76] [RN:R09280]
             K14465  succinate semialdehyde reductase (NADPH) [EC:1.1.1.-] [RN:R09281]
-            K14467,K18861  4-hydroxybutyrate---CoA ligase (AMP-forming) [EC:6.2.1.40] [RN:R09279]
+            K14467,K18861,K25774  4-hydroxybutyrate---CoA ligase (AMP-forming) [EC:6.2.1.40] [RN:R09279]
             K14534  4-hydroxybutyryl-CoA dehydratase [EC:4.2.1.120] [RN:R10782]
             K15016  3-hydroxybutyryl-CoA dehydratase / 3-hydroxyacyl-CoA dehydrogenase [EC:4.2.1.17 1.1.1.35] [RN:R03026 R01975]
             K00626  acetyl-CoA C-acetyltransferase [EC:2.3.1.9] [RN:R00238]

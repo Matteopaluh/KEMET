@@ -1,14 +1,15 @@
 ENTRY       M00572            Pathway   Module
 NAME        Pimeloyl-ACP biosynthesis, BioC-BioH pathway, malonyl-ACP => pimeloyl-ACP
 DEFINITION  K02169 (K00647,K09458) K00059 K02372 K00208 (K02170,K09789,K19560,K19561)
-ORTHOLOGY   K02169  malonyl-CoA O-methyltransferase [EC:2.1.1.197] [RN:R09543]
+ORTHOLOGY   K02169 malonyl-CoA O-methyltransferase [EC:2.1.1.197] [RN:R09543]
             K00647,K09458  3-oxoacyl-[acyl-carrier-protein] synthase [EC:2.3.1.41 2.3.1.179] [RN:R10115 R10119]
             K00059  3-oxoacyl-[acyl-carrier protein] reductase [EC:1.1.1.100] [RN:R10116 R10120]
             K02372  3-hydroxyacyl-[acyl-carrier-protein] dehydratase [EC:4.2.1.59] [RN:R10117 R10121]
             K00208  enoyl-[acyl-carrier protein] reductase [EC:1.3.1.10] [RN:R10118 R10122]
-            K02170,K09789,K19560,K19561  pimelyl-[acyl-carrier protein] methyl ester esterase [EC:3.1.1.85] [RN:R09725]
+            K02170,K09789,K19560,K19561 pimelyl-[acyl-carrier protein] methyl ester esterase [EC:3.1.1.85] [RN:R09725]
 CLASS       Pathway modules; Metabolism of cofactors and vitamins; Cofactor and vitamin metabolism
 PATHWAY     map00780  Biotin metabolism
+            map01240  Biosynthesis of cofactors
             map01100  Metabolic pathways
 REACTION    R09543  C01209 -> C19673
             R10115  C19673 -> C20372
@@ -31,4 +32,14 @@ COMPOUND    C01209  Malonyl-[acp]
             C20378  Enoylpimeloyl-[acp] methyl ester
             C19846  Pimelyl-[acp] methyl ester
             C19845  Pimelyl-[acp]
+REFERENCE   PMID:21437340
+  AUTHORS   Lin S, Cronan JE
+  TITLE     Closing in on complete pathways of biotin biosynthesis.
+  JOURNAL   Mol Biosyst 7:1811-21 (2011)
+            DOI:10.1039/c1mb05022b
+REFERENCE   PMID:22965231
+  AUTHORS   Lin S, Cronan JE
+  TITLE     The BioC O-methyltransferase catalyzes methyl esterification of malonyl-acyl carrier protein, an essential step in biotin synthesis.
+  JOURNAL   J Biol Chem 287:37010-20 (2012)
+            DOI:10.1074/jbc.M112.410290
 ///

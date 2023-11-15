@@ -4,10 +4,10 @@ DEFINITION  K05826
             K19412 K05828 K05829 K05830 K05831
 ORTHOLOGY   K05826  glutamate carrier protein LysW
             K19412  glutamate--LysW ligase ArgX [EC:6.3.2.-] [RN:R10929]
-            K05828  LysW-L-glutamate kinase [EC:2.7.2.-] [RN:R10930]
+            K05828  LysW-L-glutamate kinase [EC:2.7.2.19] [RN:R10930]
             K05829  LysW-L-glutamyl-5-phosphate reductase [EC:1.2.1.-] [RN:R10931]
-            K05830  LysW-L-ornithine aminotransferase [EC:2.6.1.-] [RN:R10932]
-            K05831  LysW-L-ornithine carboxypeptidase [RN:R10933]
+            K05830  LysW-L-ornithine aminotransferase [EC:2.6.1.124] [RN:R10932]
+            K05831  LysW-L-ornithine hydrolase [EC:3.5.1.132] [RN:R10933]
 CLASS       Pathway modules; Amino acid metabolism; Arginine and proline metabolism
 PATHWAY     map00220  Arginine biosynthesis
             map01210  2-Oxocarboxylic acid metabolism

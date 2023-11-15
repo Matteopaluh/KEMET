@@ -24,4 +24,5 @@ REFERENCE   PMID:7287628
   AUTHORS   Szumilo T
   TITLE     Pathway for D-galactonate catabolism in nonpathogenic mycobacteria.
   JOURNAL   J Bacteriol 148:368-70 (1981)
+            DOI:10.1128/JB.148.1.368-370.1981
 ///

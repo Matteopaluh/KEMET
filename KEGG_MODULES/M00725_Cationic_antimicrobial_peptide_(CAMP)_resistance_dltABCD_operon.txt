@@ -1,6 +1,6 @@
 ENTRY       M00725            Signature Module
 NAME        Cationic antimicrobial peptide (CAMP) resistance, dltABCD operon
-DEFINITION  K19077 K19078 (K03367+K03739+K14188+K03740)
+DEFINITION  K19077 K19078 K03367+K03739+K14188+K03740
 ORTHOLOGY   K19077   graS; two-component system, OmpR family, sensor histidine kinase GraS [EC:2.7.13.3] [COG:COG0642] [GO:0000155]
             K19078   graR; two-component system, OmpR family, response regulator protein GraR [COG:COG0745] [GO:0000156]
             K03367  dltA; D-alanine--poly(phosphoribitol) ligase subunit 1 [EC:6.1.1.13] [COG:COG1020] [GO:0047473]

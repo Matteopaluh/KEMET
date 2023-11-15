@@ -5,6 +5,7 @@ ORTHOLOGY   K11204+K11205,K01919  glutamate--cysteine ligase [EC:6.3.2.2] [RN:R0
             K21456,K01920  glutathione synthase [EC:6.3.2.3] [RN:R00497]
 CLASS       Pathway modules; Amino acid metabolism; Other amino acid metabolism
 PATHWAY     map00480  Glutathione metabolism
+            map01240  Biosynthesis of cofactors
             map01100  Metabolic pathways
 REACTION    R00894  C00025 -> C00669
             R00497  C00669 -> C00051

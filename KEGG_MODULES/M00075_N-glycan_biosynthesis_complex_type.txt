@@ -12,7 +12,7 @@ ORTHOLOGY   K01231  alpha-mannosidase II [EC:3.2.1.114] [RN:R05984]
             K13748  alpha-1,3-mannosylglycoprotein beta-1,4-N-acetylglucosaminyltransferase C [EC:2.4.1.201] [RN:R05992]
             K00717  glycoprotein 6-alpha-L-fucosyltransferase [EC:2.4.1.68] [RN:R05988]
             K07966,K07967,K07968  beta-1,4-galactosyltransferase [EC:2.4.1.38] [RN:R05989]
-            K00778,K00779  beta-galactoside alpha-2,6-sialyltransferase [EC:2.4.99.1] [RN:R05990]
+            K00778,K00779  beta-galactoside alpha-2,6-sialyltransferase [EC:2.4.3.1] [RN:R05990]
 CLASS       Pathway modules; Glycan metabolism; Glycan biosynthesis
 PATHWAY     map00510  N-Glycan biosynthesis
             map01100  Metabolic pathways

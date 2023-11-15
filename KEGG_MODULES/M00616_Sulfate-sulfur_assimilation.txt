@@ -1,6 +1,6 @@
 ENTRY       M00616            Signature Module
 NAME        Sulfate-sulfur assimilation
-DEFINITION  ((K02048,K23163)+K02046+K02047+K02045) M00176
+DEFINITION  (K02048,K23163)+K02046+K02047+K02045 M00176
 ORTHOLOGY   K02048  cysP; sulfate transport system substrate-binding protein
             K02046  cysU; sulfate transport system permease protein
             K02047  cysW; sulfate transport system permease protein

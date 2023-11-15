@@ -4,10 +4,10 @@ DEFINITION  K12743 K04126 K10852
 ORTHOLOGY   K12743  N-(5-amino-5-carboxypentanoyl)-L-cysteinyl-D-valine synthase [EC:6.3.2.26] [RN:R04870]
             K04126  isopenicillin-N synthase [EC:1.21.3.1] [RN:R04872]
             K10852  isopenicillin-N N-acyltransferase [EC:2.3.1.164] [RN:R06361]
-CLASS       Pathway modules; Biosynthesis of other secondary metabolites; beta-Lactam biosynthesis
+CLASS       Pathway modules; Biosynthesis of other secondary metabolites; Biosynthesis of beta-lactams
 PATHWAY     map00311  Penicillin and cephalosporin biosynthesis
             map01100  Metabolic pathways
-            map01130  Biosynthesis of antibiotics
+            map01110  Biosynthesis of secondary metabolites
 REACTION    R04870  C00956 + C00183 + C00097 -> C05556
             R04872  C05556 -> C05557
             R06361  C05557 -> C00395

@@ -1,6 +1,6 @@
 ENTRY       M00946            Pathway   Module
 NAME        Noscapine biosynthesis, (S)-reticuline => noscapine
-DEFINITION  K00307 K13397 K13395 K13396 K20621 K22094 K22095 K22096 (K23157+K23158) K22097 K22098
+DEFINITION  K00307 K13397 K13395 K13396 K20621 K22094 K22095 K22096 K23157+K23158 K22097 K22098
 ORTHOLOGY   K00307  reticuline oxidase [EC:1.21.3.3] [RN:R03831]
             K13397  (S)-scoulerine 9-O-methyltransferase [EC:2.1.1.117] [RN:R03835]
             K13395  (S)-canadine synthase [EC:1.14.19.68] [RN:R04400]

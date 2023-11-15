@@ -1,7 +1,7 @@
 ENTRY       M00580            Pathway   Module
 NAME        Pentose phosphate pathway, archaea, fructose 6P => ribose 5P
 DEFINITION  (K08094 (K08093,K13812),K13831) K01807
-ORTHOLOGY   K08094,K13831  6-phospho-3-hexuloisomerase [EC:5.3.1.27] [RN:R09780]
+ORTHOLOGY   K08094,K13831  6-phospho-3-hexuloisomerase [EC:5.3.1.27] [RN:R05339]
             K08093,K13812,K13831  3-hexulose-6-phosphate synthase [EC:4.1.2.43] [RN:R05338]
             K01807  ribose 5-phosphate isomerase A [EC:5.3.1.6] [RN:R01056]
 CLASS       Pathway modules; Carbohydrate metabolism; Central carbohydrate metabolism
@@ -10,10 +10,10 @@ PATHWAY     map00030  Pentose phosphate pathway
             map01230  Biosynthesis of amino acids
             map01100  Metabolic pathways
             map01120  Microbial metabolism in diverse environments
-REACTION    R09780  C05345 -> C06019
+REACTION    R05339  C00085 -> C06019
             R05338  C06019 -> C00199
             R01056  C00199 -> C00117
-COMPOUND    C05345  beta-D-Fructose 6-phosphate
+COMPOUND    C00085  D-Fructose 6-phosphate
             C06019  D-arabino-Hex-3-ulose 6-phosphate
             C00199  D-Ribulose 5-phosphate
             C00117  D-Ribose 5-phosphate

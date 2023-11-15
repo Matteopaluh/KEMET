@@ -1,6 +1,6 @@
 ENTRY       M00551            Pathway   Module
 NAME        Benzoate degradation, benzoate => catechol / methylbenzoate => methylcatechol
-DEFINITION  (K05549+K05550+K05784) K05783
+DEFINITION  K05549+K05550+K05784 K05783
 ORTHOLOGY   K05549+K05550+K05784  benzoate/toluate 1,2-dioxygenase [EC:1.14.12.10 1.14.12.-] [RN:R05621 R05290 R05428 R05665]
             K05783  1,6-dihydroxycyclohexa-2,4-diene-1-carboxylate dehydrogenase [EC:1.3.1.25] [RN:R00813 R05292 R05314 R05309]
 CLASS       Pathway modules; Xenobiotics biodegradation; Aromatics degradation

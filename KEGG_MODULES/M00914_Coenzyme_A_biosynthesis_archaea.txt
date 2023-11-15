@@ -7,7 +7,7 @@ ORTHOLOGY   K00606  3-methyl-2-oxobutanoate hydroxymethyltransferase [EC:2.1.2.1
             K09722  4-phosphopantoate---beta-alanine ligase [EC:6.3.2.36] [RN:R09379]
             K13038  phosphopantothenoylcysteine decarboxylase / phosphopantothenate---cysteine ligase [EC:4.1.1.36 6.3.2.5] [RN:R04231 R03269]
             K02201  pantetheine-phosphate adenylyltransferase [EC:2.7.7.3] [RN:R03035]
-            K09735  GTP-dependent dephospho-CoA kinase [EC:2.7.1.-] [RN:R12608]
+            K09735  GTP-dependent dephospho-CoA kinase [EC:2.7.1.237] [RN:R12608]
 CLASS       Pathway modules; Metabolism of cofactors and vitamins; Cofactor and vitamin metabolism
 PATHWAY     map00770  Pantothenate and CoA biosynthesis
             map01240  Biosynthesis of cofactors

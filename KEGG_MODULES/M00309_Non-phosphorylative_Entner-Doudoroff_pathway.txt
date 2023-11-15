@@ -1,6 +1,6 @@
 ENTRY       M00309            Pathway   Module
 NAME        Non-phosphorylative Entner-Doudoroff pathway, gluconate/galactonate => glycerate
-DEFINITION  K05308 (K11395,K18127) ((K18020+K18021+K18022),K18128,K03738)
+DEFINITION  K05308 (K11395,K18127) (K18020+K18021+K18022,K18128,K03738)
 ORTHOLOGY   K05308  gluconate/galactonate dehydratase [EC:4.2.1.140] [RN:R01538 R03033]
             K11395  2-dehydro-3-deoxy-phosphogluconate/2-dehydro-3-deoxy-6-phosphogalactonate aldolase [EC:4.1.2.55] [RN:R08570 R10616]
             K18127  2-dehydro-3-deoxy-D-gluconate aldolase [EC:4.1.2.51] [RN:R08570 R10616]

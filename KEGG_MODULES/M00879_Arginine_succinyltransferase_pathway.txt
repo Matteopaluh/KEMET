@@ -8,6 +8,7 @@ ORTHOLOGY   K00673  astA; arginine N-succinyltransferase [EC:2.3.1.109] [RN:R008
             K05526  astE; succinylglutamate desuccinylase [EC:3.5.1.96] [RN:R00411]
 CLASS       Pathway modules; Amino acid metabolism; Arginine and proline metabolism
 PATHWAY     map00330  Arginine and proline metabolism
+            map01100  Metabolic pathways
 REACTION    R00832  C00062 -> C03296
             R04189  C03296 -> C03415
             R04217  C03415 -> C05932

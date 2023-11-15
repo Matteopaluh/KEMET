@@ -1,6 +1,6 @@
 ENTRY       M00563            Pathway   Module
 NAME        Methanogenesis, methylamine/dimethylamine/trimethylamine => methane
-DEFINITION  K14082 ((K16177-K16176),(K16179-K16178),(K14084-K14083)) (K00399+K00401+K00402) ((K22480+K22481+K22482),(K03388+K03389+K03390),(K08264+K08265),(K03388+K03389+K03390+K14127+(K14126+K14128,K22516+K00125)))
+DEFINITION  K14082 ((K16177-K16176),(K16179-K16178),(K14084-K14083)) K00399+K00401+K00402 (K22480+K22481+K22482,K03388+K03389+K03390,K08264+K08265,K03388+K03389+K03390+K14127+(K14126+K14128,K22516+K00125))
 ORTHOLOGY   K14082  mtbA; [methyl-Co(III) methylamine-specific corrinoid protein]:coenzyme M methyltransferase [EC:2.1.1.247] [RN:R09998]
             K16176  mtmB; methylamine---corrinoid protein Co-methyltransferase [EC:2.1.1.248] [RN:R09998]
             K16177  mtmC; monomethylamine corrinoid protein [RN:R09998]
@@ -36,6 +36,7 @@ REFERENCE   PMID:9642198
   AUTHORS   Burke SA, Lo SL, Krzycki JA
   TITLE     Clustered genes encoding the methyltransferases of methanogenesis from monomethylamine.
   JOURNAL   J Bacteriol 180:3432-40 (1998)
+            DOI:10.1128/JB.180.13.3432-3440.1998
 REFERENCE   PMID:20847933
   AUTHORS   Rother M, Krzycki JA
   TITLE     Selenocysteine, pyrrolysine, and the unique energy metabolism of methanogenic archaea.

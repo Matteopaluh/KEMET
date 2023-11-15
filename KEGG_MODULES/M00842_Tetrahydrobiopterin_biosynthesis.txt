@@ -6,6 +6,7 @@ ORTHOLOGY   K01495  GTP cyclohydrolase IA [EC:3.5.4.16] [RN:R00428 R05046 R05048
             K00072  sepiapterin reductase [EC:1.1.1.153] [RN:R08208]
 CLASS       Pathway modules; Metabolism of cofactors and vitamins; Cofactor and vitamin metabolism
 PATHWAY     map00790  Folate biosynthesis
+            map01240  Biosynthesis of cofactors
             map01100  Metabolic pathways
 REACTION    R00428  C00044 -> C05922
             R05046  C05922 -> C05923
@@ -20,4 +21,9 @@ COMPOUND    C00044  GTP
             C04895  7,8-Dihydroneopterin 3'-triphosphate
             C03684  6-Pyruvoyltetrahydropterin
             C00272  Tetrahydrobiopterin
+REFERENCE   PMID:10727395
+  AUTHORS   Thony B, Auerbach G, Blau N
+  TITLE     Tetrahydrobiopterin biosynthesis, regeneration and functions.
+  JOURNAL   Biochem J 347 Pt 1:1-16 (2000)
+            DOI:10.1042/bj3470001
 ///

@@ -6,8 +6,9 @@ ORTHOLOGY   K19855  novW; dTDP-4-dehydro-6-deoxy-D-glucose 3-epimerase [EC:5.1.3
             K17625  novS; dTDP-4-keto-6-deoxyhexose reductase [EC:1.1.1.-] [RN:R10459]
 CLASS       Pathway modules; Biosynthesis of terpenoids and polyketides; Polyketide sugar unit biosynthesis
 PATHWAY     map00523  Polyketide sugar unit biosynthesis
+            map01250  Biosynthesis of nucleotide sugars
             map01100  Metabolic pathways
-            map01130  Biosynthesis of antibiotics
+            map01110  Biosynthesis of secondary metabolites
 REACTION    R06437  C11907 -> C11926
             R11020  C11926 -> C11460
             R10459  C11460 -> C12481

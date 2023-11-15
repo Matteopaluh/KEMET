@@ -1,6 +1,6 @@
 ENTRY       M00916            Pathway   Module
 NAME        Pyridoxal-P biosynthesis, R5P + glyceraldehyde-3P + glutamine => pyridoxal-P
-DEFINITION  (K06215+K08681)
+DEFINITION  K06215+K08681
 ORTHOLOGY   K06215  pdxS; pyridoxal 5'-phosphate synthase pdxS subunit [EC:4.3.3.6] [RN:R10089]
             K08681  pdxT; pyridoxal 5'-phosphate synthase pdxT subunit [EC:4.3.3.6] [RN:R10089]
 CLASS       Pathway modules; Metabolism of cofactors and vitamins; Cofactor and vitamin metabolism

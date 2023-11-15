@@ -1,6 +1,6 @@
 ENTRY       M00636            Pathway   Module
 NAME        Phthalate degradation, phthalate => protocatechuate
-DEFINITION  (K18251+K18252-K18253-K18254) K18255 K18256
+DEFINITION  K18251+K18252-K18253-K18254 K18255 K18256
 ORTHOLOGY   K18251,K18252,K18253,K18254  phtA; phthalate 3,4-dioxygenase [EC:1.14.12.-] [RN:R09227]
             K18255  phtB; phthalate 3,4-cis-dihydrodiol dehydrogenase [EC:1.3.1.-] [RN:R09228]
             K18256  phtC; 3,4-dihydroxyphthalate decarboxylase [EC:4.1.1.69] [RN:R01634]

@@ -1,6 +1,6 @@
 ENTRY       M00878            Pathway   Module
 NAME        Phenylacetate degradation, phenylaxetate => acetyl-CoA/succinyl-CoA
-DEFINITION  K01912 (K02609+K02610+K02611+K02612+K02613) K15866 K02618 K02615 K01692 K00074
+DEFINITION  K01912 K02609+K02610+K02611+K02612+K02613 K15866 K02618 K02615 K01692 K00074
 ORTHOLOGY   K01912  paaK; phenylacetate-CoA ligase [EC:6.2.1.30] [RN:R02539]
             K02609,K02610,K02611,K02612,K02613  paaABCDE; ring-1,2-phenylacetyl-CoA epoxidase [EC:1.14.13.149][RN:R09838]
             K15866  paaG; 2-(1,2-epoxy-1,2-dihydrophenyl)acetyl-CoA isomerase [EC:5.3.3.18] [RN:R09837 R09839]
@@ -10,6 +10,8 @@ ORTHOLOGY   K01912  paaK; phenylacetate-CoA ligase [EC:6.2.1.30] [RN:R02539]
             K00074  paaH; 3-hydroxybutyryl-CoA dehydrogenase [EC:1.1.1.157] [RN:R06941]
 CLASS       Pathway modules; Xenobiotics biodegradation; Aromatics degradation
 PATHWAY     map00360  Phenylalanine metabolism
+            map01100  Metabolic pathways
+            map01120  Microbial metabolism in diverse environments
 REACTION    R02539  C07086 -> C00582
             R09838  C00582 -> C20062
             R09837  C20062 -> C19975

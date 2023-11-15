@@ -1,6 +1,6 @@
 ENTRY       M00838            Pathway   Module
 NAME        Undecylprodigiosin biosynthesis, L-proline => undecylprodigiosin
-DEFINITION  (K21780+K21781) K21782 K21783 K21784 K21785 K21786
+DEFINITION  K21780+K21781 K21782 K21783 K21784 K21785 K21786
             K21791 K21792 K21793
             K21787
 ORTHOLOGY   K21780  pigI; L-proline---[L-prolyl-carrier protein] ligase [EC:6.2.1.53] [RN:R06746]
@@ -14,10 +14,10 @@ ORTHOLOGY   K21780  pigI; L-proline---[L-prolyl-carrier protein] ligase [EC:6.2.
             K21792  redL; polyketide synthase [RN:R11664]
             K21793  redK; oxidoreductase [RN:R11663 R11666]
             K21787  pigC; prodigiosin/undecylprodigiosin synthetase [RN:R11673]
-CLASS       Pathway modules; Biosynthesis of other secondary metabolites; Biosynthesis of other secondary metabolites
+CLASS       Pathway modules; Biosynthesis of other secondary metabolites; Biosynthesis of other bacterial compounds
 PATHWAY     map00333  Prodigiosin biosynthesis
             map01100  Metabolic pathways
-            map01130  Biosynthesis of antibiotics
+            map01110  Biosynthesis of secondary metabolites
 REACTION    R06746  C00148 -> C12470
             R06747  C12470 -> C12483
             R11665  C12483 -> C21567

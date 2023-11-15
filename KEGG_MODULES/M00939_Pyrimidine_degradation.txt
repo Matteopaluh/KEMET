@@ -1,6 +1,6 @@
 ENTRY       M00939            Pathway   Module
 NAME        Pyrimidine degradation, uracil => 3-hydroxypropanoate
-DEFINITION  (K09018+K09024) K09020 K09021 K09023 (K09019,K16066)
+DEFINITION  K09018+K09024 K09020 K09021 K09023 (K09019,K16066)
 ORTHOLOGY   K09018,K09024  rutA; pyrimidine oxygenase [EC:1.14.99.46] [RN:R09936]
             K09020  rutB; ureidoacrylate peracid hydrolase [EC:3.5.1.110] [RN:R09947]
             K09021  rutC; aminoacrylate peracid reductase [RN:R09982]

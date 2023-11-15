@@ -10,10 +10,10 @@ ORTHOLOGY   K19969  valA; 2-epi-5-epi-valiolone synthase [EC:4.2.3.152] [RN:R109
             K20436  valL; validoxylamine A 7'-phosphate synthase [EC:2.4.1.-] [RN:R11497] 
             K20437  vldH; validoxylamine A 7'-phosphate phosphatase [EC:3.1.3.101] [RN:R11240]
             K20438  valG; validoxylamine A glucosyltransferase [EC:2.4.1.338] [RN:R11241]
-CLASS       Pathway modules; Biosynthesis of other secondary metabolites; Biosynthesis of other secondary metabolites
+CLASS       Pathway modules; Biosynthesis of other secondary metabolites; Biosynthesis of other antibiotics
 PATHWAY     map00525  Acarbose and validamycin biosynthesis
             map01100  Metabolic pathways
-            map01130  Biosynthesis of antibiotics
+            map01110  Biosynthesis of secondary metabolites
 REACTION    R10937  C20956 -> C17691
             R11079  C17691 -> C17694
             R11233  C17694 -> C17696

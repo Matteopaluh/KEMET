@@ -20,4 +20,5 @@ REFERENCE   PMID:9333027
   AUTHORS   Alekshun MN, Levy SB
   TITLE     Regulation of chromosomally mediated multiple antibiotic resistance: the mar regulon.
   JOURNAL   Antimicrob Agents Chemother 41:2067-75 (1997)
+            DOI:10.1128/AAC.41.10.2067
 ///

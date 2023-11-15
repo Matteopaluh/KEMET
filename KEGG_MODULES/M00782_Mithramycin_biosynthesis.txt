@@ -12,7 +12,7 @@ ORTHOLOGY   K15959  mtmMI; O-methyltransferase [EC:2.1.1.-] [RN:R06715]
 CLASS       Pathway modules; Biosynthesis of terpenoids and polyketides; Type II polyketide biosynthesis
 PATHWAY     map01057  Biosynthesis of type II polyketide products
             map01100  Metabolic pathways
-            map01130  Biosynthesis of antibiotics
+            map01110  Biosynthesis of secondary metabolites
 REACTION    R06715  C12382 -> C12383
             R06716  C12383 -> C12384
             R06717  C12384 -> C12385

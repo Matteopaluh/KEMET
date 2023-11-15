@@ -1,7 +1,7 @@
 ENTRY       M00373            Pathway   Module
 NAME        Ethylmalonyl pathway
 DEFINITION  K00626 K00023 K17865 K14446 K14447 K14448 K14449 K08691 K14451
-            (K01965+K01966) K05606 K01847
+            K01965+K01966 K05606 K01847
 ORTHOLOGY   K00626  acetyl-CoA C-acetyltransferase [EC:2.3.1.9] [RN:R00238]
             K00023  acetoacetyl-CoA reductase [EC:1.1.1.36] [RN:R01977]
             K17865  3-hydroxybutyryl-CoA dehydratase [EC:4.2.1.55] [RN:R03027]

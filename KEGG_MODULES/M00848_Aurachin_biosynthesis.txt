@@ -1,6 +1,6 @@
 ENTRY       M00848            Pathway   Module
 NAME        Aurachin biosynthesis, anthranilate => aurachin A
-DEFINITION  K09460 (K02078+K14245+K14246+K22798) K22799 K22800 K21272 K21271 K22801 K22802
+DEFINITION  K09460 K02078+K14245+K14246+K22798 K22799 K22800 K21272 K21271 K22801 K22802
 ORTHOLOGY   K09460  auaEII; anthranilate-CoA ligase [EC:6.2.1.32] [RN:R00982]
             K02078  auaB; acyl carrier protein [RN:R12049]
             K14245  auaC; PKS ketosynthase (KS/KS alpha) [EC:2.3.1.-] [RN:R12049]
@@ -12,10 +12,10 @@ ORTHOLOGY   K09460  auaEII; anthranilate-CoA ligase [EC:6.2.1.32] [RN:R00982]
             K21271  auaH; aurachin B dehydrogenase [EC:1.1.1.394] [RN:R11149]
             K22801  auaJ; aurachin B monooxygenase [EC:1.14.13.-] [RN:R12052 R12053]
             K22802  auaI; aurichin B epoxide hydrolase [RN:R12054]
-CLASS       Pathway modules; Biosynthesis of other secondary metabolites; Biosynthesis of other secondary metabolites
-PATHWAY     map00998  Biosynthesis of various secondary metabolites - part 2
+CLASS       Pathway modules; Biosynthesis of other secondary metabolites; Biosynthesis of other antibiotics
+PATHWAY     map00998  Biosynthesis of various antibiotics
             map01100  Metabolic pathways
-            map01130  Biosynthesis of antibiotics
+            map01110  Biosynthesis of secondary metabolites
 REACTION    R00982  C00108 -> C02247
             R12049  C02247 -> C21873
             R12050  C21873 -> C10641

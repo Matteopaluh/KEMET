@@ -12,6 +12,8 @@ ORTHOLOGY   K03639  GTP 3',8-cyclase [EC:4.1.99.22] [RN:R09394]
             K15376  gephyrin [EC:2.10.1.1 2.7.7.75] [RN:R09726 R09735]
 CLASS       Pathway modules; Metabolism of cofactors and vitamins; Cofactor and vitamin metabolism
 PATHWAY     map00790  Folate biosynthesis
+            map01240  Biosynthesis of cofactors
+            map01100  Metabolic pathways
 REACTION    R09394  C00044 -> C21310
             R11372  C21310 -> C18239
             R09395  C18239 -> C05924

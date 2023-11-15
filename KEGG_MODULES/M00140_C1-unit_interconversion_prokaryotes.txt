@@ -8,6 +8,7 @@ ORTHOLOGY   K00600  glycine hydroxymethyltransferase [EC:2.1.2.1] [RN:R00945]
             K01938  formate--tetrahydrofolate ligase [EC:6.3.4.3] [RN:R00943]
 CLASS       Pathway modules; Metabolism of cofactors and vitamins; Cofactor and vitamin metabolism
 PATHWAY     map00670  One carbon pool by folate
+            map01240  Biosynthesis of cofactors
             map01100  Metabolic pathways
 REACTION    R00945  C00101 -> C00143
             R01220  C00143 -> C00445

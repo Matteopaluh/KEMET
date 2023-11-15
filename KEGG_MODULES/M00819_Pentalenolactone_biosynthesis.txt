@@ -8,10 +8,10 @@ ORTHOLOGY   K12250  pentalenene synthase [EC:4.2.3.7] [RN:R02305]
             K18091  pentalenolactone D synthase [EC:1.14.13.170 1.14.13.171] [RN:R10154]
             K18057  pentalenolactone F synthase [EC:1.14.11.36] [RN:R10145]
             K17476  pentalenolactone synthase [EC:1.14.19.8] [RN:R10162]
-CLASS       Pathway modules; Biosynthesis of other secondary metabolites; Biosynthesis of other secondary metabolites
-PATHWAY     map00999  Biosynthesis of various secondary metabolites - part 1
+CLASS       Pathway modules; Biosynthesis of other secondary metabolites; Biosynthesis of other antibiotics
+PATHWAY     map00998  Biosynthesis of various antibiotics
             map01100  Metabolic pathways
-            map01130  Biosynthesis of antibiotics
+            map01110  Biosynthesis of secondary metabolites
 REACTION    R02305  C00448 -> C01841
             R09814  C01841 -> C19939 
             R11315  C19939 -> C20404

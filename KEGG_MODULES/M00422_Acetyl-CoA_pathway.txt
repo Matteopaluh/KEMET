@@ -1,6 +1,6 @@
 ENTRY       M00422            Pathway   Module
 NAME        Acetyl-CoA pathway, CO2 => acetyl-CoA
-DEFINITION  (K00192+K00195) (K00193+K00197+K00194)
+DEFINITION  K00192+K00195 K00193+K00197+K00194
 ORTHOLOGY   K00192  cdhA; anaerobic carbon-monoxide dehydrogenase, CODH/ACS complex subunit alpha [EC:1.2.7.4] [RN:R07157]
             K00195  cdhB; anaerobic carbon-monoxide dehydrogenase, CODH/ACS complex subunit epsilon [RN:R07157]
             K00193  cdhC; acetyl-CoA decarbonylase/synthase, CODH/ACS complex subunit beta [EC:2.3.1.169] [RN:R09096 R10219]

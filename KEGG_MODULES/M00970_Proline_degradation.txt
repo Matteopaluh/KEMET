@@ -1,0 +1,27 @@
+ENTRY       M00970            Pathway   Module
+NAME        Proline degradation, proline => glutamate
+DEFINITION  ((K00318 K00294),K13821)
+ORTHOLOGY   K00318  proline dehydrogenase [EC:1.5.5.2] [RN:R01253]
+            K00294  1-pyrroline-5-carboxylate dehydrogenase [EC:1.2.1.88] [RN:R00245 R13148]
+            K13821  proline dehydrogenase / delta 1-pyrroline-5-carboxylate dehydrogenase [EC:1.5.5.2 1.2.1.88] [RN:R01253 R00245 R13148]
+CLASS       Pathway modules; Amino acid metabolism; Arginine and proline metabolism
+PATHWAY     map00330  Arginine and proline metabolism
+            map01100  Metabolic pathways
+REACTION    R01253  C00148 -> C03912
+            R03314  C03912 -> C01165
+            R00245,R13148  C01165 -> C00025
+COMPOUND    C00148  L-Proline
+            C03912  (S)-1-Pyrroline-5-carboxylate
+            C01165  L-Glutamate 5-semialdehyde
+            C00025  L-Glutamate
+REFERENCE   PMID:22139509
+  AUTHORS   Moses S, Sinner T, Zaprasis A, Stoveken N, Hoffmann T, Belitsky BR, Sonenshein AL, Bremer E
+  TITLE     Proline utilization by Bacillus subtilis: uptake and catabolism.
+  JOURNAL   J Bacteriol 194:745-58 (2012)
+            DOI:10.1128/JB.06380-11
+REFERENCE   PMID:10715000
+  AUTHORS   Soto MJ, Jimenez-Zurdo JI, van Dillewijn P, Toro N
+  TITLE     Sinorhizobium meliloti putA gene regulation: a new model within the family Rhizobiaceae.
+  JOURNAL   J Bacteriol 182:1935-41 (2000)
+            DOI:10.1128/JB.182.7.1935-1941.2000
+///

@@ -1,14 +1,14 @@
 ENTRY       M00903            Pathway   Module
 NAME        Fosfomycin biosynthesis, phosphoenolpyruvate => fosfomycin
 DEFINITION  K23999 K09459 K12901 K12902 K24000 K12903
-ORTHOLOGY   K23999  form1; phosphoenolpyruvate phosphomutase / cytidylyltransferase [EC:5.4.2.9 2.7.7.-] [RN:R00661 R12498]
+ORTHOLOGY   K23999  fom1; phosphoenolpyruvate phosphomutase / cytidylyltransferase [EC:5.4.2.9 2.7.7.104] [RN:R00661 R12498]
             K09459  fom2; phosphonopyruvate decarboxylase [EC:4.1.1.82] [RN:R04053]
             K12901  fomC; phosphonoacetaldehyde reductase [EC:1.1.1.309] [RN:R08861]
             K12902  fom3; phosphonoacetaldehyde methylase [EC:2.1.1.308] [RN:R12497]
-            K24000  formD; HPP-CMP hydrolase [EC:3.6.1.-] [RN:R12499]
+            K24000  fomD; HPP-CMP hydrolase [EC:3.6.1.-] [RN:R12499]
             K12903  fom4; (S)-2-hydroxypropylphosphonic acid epoxidase [EC:1.11.1.23] [RN:R08863]
 CLASS       Pathway modules; Biosynthesis of other secondary metabolites; Biosynthesis of other antibiotics
-PATHWAY     map00998  Biosynthesis of various secondary metabolites - part 2
+PATHWAY     map00998  Biosynthesis of various antibiotics
             map01100  Metabolic pathways
             map01110  Biosynthesis of secondary metabolites
 REACTION    R00661  C00074 -> C02798

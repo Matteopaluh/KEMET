@@ -1,0 +1,50 @@
+ENTRY       M00125            Pathway   Module
+NAME        Riboflavin biosynthesis, plants and bacteria, GTP => riboflavin/FMN/FAD
+DEFINITION  (K01497,K14652) (K01498 K00082,K11752) (K22912,K20860,K20861,K20862,K21063,K21064)
+            (K02858,K14652)
+            K00794 K00793 (K20884 K22949,K11753)
+ORTHOLOGY   K01497,K14652  GTP cyclohydrolase II [EC:3.5.4.25] [RN:R00425]
+            K01498,K11752  diaminohydroxyphosphoribosylaminopyrimidine deaminase [EC:3.5.4.26] [RN:R03459]
+            K00082,K11752  5-amino-6-(5-phosphoribosylamino)uracil reductase [EC:1.1.1.193] [RN:R03458]
+            K22912,K20860,K20861,K20862,K21063,K21064  5-amino-6-(5-phospho-D-ribitylamino)uracil phosphatase [EC:3.1.3.104] [RN:R07280]
+            K02858,K14652  3,4-dihydroxy 2-butanone 4-phosphate synthase [EC:4.1.99.12] [RN:R07281]
+            K00794  6,7-dimethyl-8-ribityllumazine synthase [EC:2.5.1.78] [RN:R04457]
+            K00793  riboflavin synthase [EC:2.5.1.9] [RN:R00066]
+            K20884,K11753  riboflavin kinase [EC:2.7.1.26] [RN:R00549]
+            K22949,K11753  FMN adenylyltransferase [EC:2.7.7.2] [RN:R00161]
+CLASS       Pathway modules; Metabolism of cofactors and vitamins; Cofactor and vitamin metabolism
+PATHWAY     map00740  Riboflavin metabolism
+            map01240  Biosynthesis of cofactors
+            map01100  Metabolic pathways
+            map01110  Biosynthesis of secondary metabolites
+REACTION    R00425  C00044 -> C01304
+            R03459  C01304 -> C01268
+            R03458  C01268 -> C04454
+            R07280  C04454 -> C04732
+            R07281  C00199 -> C15556
+            R04457  C04732 + C15556 -> C04332
+            R00066  C04332 -> C00255
+            R00549  C00255 -> C00061
+            R00161  C00061 -> C00016
+COMPOUND    C00044  GTP
+            C01304  2,5-Diamino-6-(5'-phosphoribosylamino)-4-pyrimidineone
+            C01268  5-Amino-6-(5'-phosphoribosylamino)uracil
+            C04454  5-Amino-6-(5'-phosphoribitylamino)uracil
+            C04732  5-Amino-6-(1-D-ribitylamino)uracil
+            C00199  D-Ribulose 5-phosphate
+            C15556  3,4-Dihydroxy-2-butanone 4-phosphate
+            C04332  6,7-Dimethyl-8-(1-D-ribityl)lumazine
+            C00255  Riboflavin
+            C00061  FMN
+            C00016  FAD
+REFERENCE   PMID:10940330
+  AUTHORS   Bacher A, Eberhardt S, Fischer M, Kis K, Richter G
+  TITLE     Biosynthesis of vitamin b2 (riboflavin).
+  JOURNAL   Annu Rev Nutr 20:153-67 (2000)
+            DOI:10.1146/annurev.nutr.20.1.153
+REFERENCE   PMID:27822970
+  AUTHORS   Garcia-Angulo VA
+  TITLE     Overlapping riboflavin supply pathways in bacteria.
+  JOURNAL   Crit Rev Microbiol 43:196-209 (2017)
+            DOI:10.1080/1040841X.2016.1192578
+///

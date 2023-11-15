@@ -12,7 +12,7 @@ CLASS       Pathway modules; Biosynthesis of terpenoids and polyketides; Type II
 PATHWAY     map00253  Tetracycline biosynthesis
             map01057  Biosynthesis of type II polyketide products
             map01100  Metabolic pathways
-            map01130  Biosynthesis of antibiotics
+            map01110  Biosynthesis of secondary metabolites
 REACTION    R09189  C18295 -> C06629
             R05463  C06629 -> C06628
             R05462  C06628 -> C06627

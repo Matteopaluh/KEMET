@@ -1,0 +1,24 @@
+ENTRY       M00973            Pathway   Module
+NAME        Anammox, nitrite + ammonia => nitrogen
+DEFINITION  (K00368,K15864) (K20932+K20933+K20934) K20935
+ORTHOLOGY   K00368,K15864  nitrite reductase (NO-forming) [EC:1.7.2.1] [RN:R00783 R00785]
+            K20932,K20933,K20934  hydrazine synthase [EC:1.7.2.7] [RN:R09799]
+            K20935  hydrazine dehydrogenase [EC:1.7.2.8] [RN:R07174]
+CLASS       Pathway modules; Energy metabolism; Nitrogen metabolism
+PATHWAY     map00910  Nitrogen metabolism
+            map01100  Metabolic pathways
+            map01120  Microbial metabolism in diverse environments
+REACTION    R00783,R00785  C00088 -> C00533
+            R09799  C00533 + C00014 -> C05361
+            R07174  C05361 -> C00697
+COMPOUND    C00088  Nitrite
+            C00533  Nitric oxide
+            C00014  Ammonia
+            C05361  Hydrazine
+            C00697  Nitrogen
+REFERENCE   PMID:21964329
+  AUTHORS   Kartal B, Maalcke WJ, de Almeida NM, Cirpus I, Gloerich J, Geerts W, Op den Camp HJ, Harhangi HR, Janssen-Megens EM, Francoijs KJ, Stunnenberg HG, Keltjens JT, Jetten MS, Strous M
+  TITLE     Molecular mechanism of anaerobic ammonium oxidation.
+  JOURNAL   Nature 479:127-30 (2011)
+            DOI:10.1038/nature10453
+///

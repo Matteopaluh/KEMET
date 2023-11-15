@@ -1,8 +1,8 @@
 ENTRY       M00417            Complex   Module
 NAME        Cytochrome o ubiquinol oxidase
-DEFINITION  (K02297+K02298+K02299+K02300)
-ORTHOLOGY   K02297  cyoA; cytochrome o ubiquinol oxidase subunit II [EC:1.10.3.10]
-            K02298  cyoB; cytochrome o ubiquinol oxidase subunit I [EC:1.10.3.10]
+DEFINITION  K02297+K02298+K02299+K02300
+ORTHOLOGY   K02297  cyoA; cytochrome o ubiquinol oxidase subunit II [EC:7.1.1.3]
+            K02298  cyoB; cytochrome o ubiquinol oxidase subunit I [EC:7.1.1.3]
             K02299  cyoC; cytochrome o ubiquinol oxidase subunit III
             K02300  cyoD; cytochrome o ubiquinol oxidase operon protein cyoD
 CLASS       Pathway modules; Energy metabolism; ATP synthesis

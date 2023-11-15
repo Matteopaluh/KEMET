@@ -7,6 +7,8 @@ ORTHOLOGY   K13800,K13809  cytidylate kinase [EC:2.7.4.14] [RN:R00158]
             K01937  CTP synthase [EC:6.3.4.2] [RN:R00571 R00573]
 CLASS       Pathway modules; Nucleotide metabolism; Pyrimidine metabolism
 PATHWAY     map00240  Pyrimidine metabolism
+            map01232  Nucleotide metabolism
+            map01240  Biosynthesis of cofactors
             map01100  Metabolic pathways
 REACTION    R00158  C00105 -> C00015
             R00156  C00015 -> C00075

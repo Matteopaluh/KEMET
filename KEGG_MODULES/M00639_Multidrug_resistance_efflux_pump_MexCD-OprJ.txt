@@ -1,6 +1,6 @@
 ENTRY       M00639            Signature Module
 NAME        Multidrug resistance, efflux pump MexCD-OprJ
-DEFINITION  K18294 (K18295+K18296-K08721)
+DEFINITION  K18294 K18295+K18296-K08721
 ORTHOLOGY   K18294  nfxB; TetR/AcrR family transcriptional regulator, mexCD-oprJ operon repressor
             K18295  mexC; membrane fusion protein
             K18296  mexD; multidrug efflux pump

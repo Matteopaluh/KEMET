@@ -1,6 +1,6 @@
 ENTRY       M00649            Signature Module
 NAME        Multidrug resistance, efflux pump AdeABC
-DEFINITION  K18143 K18144 (K18145+K18146-K18147)
+DEFINITION  K18143 K18144 K18145+K18146-K18147
 ORTHOLOGY   K18143  adeS; two-component system, OmpR family, sensor histidine kinase AdeS [EC:2.7.13.3]
             K18144  adeR; two-component system, OmpR family, response regulator AdeR
             K18145  adeA; membrane fusion protein

@@ -3,7 +3,7 @@ NAME        Bile acid biosynthesis, cholesterol => cholate/chenodeoxycholate
 DEFINITION  K00489 K12408 K07431 K00251 K00037 K00488 K08748 K01796 K10214 K12405 K08764 K11992
 ORTHOLOGY   K00489  cholesterol 7alpha-monooxygenase [EC:1.14.14.23] [RN:R01463]
             K12408  cholest-5-ene-3beta,7alpha-diol 3beta-dehydrogenase [EC:1.1.1.181] [RN:R04263]
-            K07431  sterol 12-alpha-hydroxylase [EC:1.14.18.8] [RN:R04826]
+            K07431  sterol 12-alpha-hydroxylase [EC:1.14.14.139] [RN:R04826]
             K00251  3-oxo-5-beta-steroid 4-dehydrogenase [EC:1.3.1.3] [RN:R04823 R04817]
             K00037  3-alpha-hydroxysteroid dehydrogenase [EC:1.1.1.50] [RN:R04824 R04825 R04818 R04819]
             K00488  cholestanetriol 26-monooxygenase [EC:1.14.15.15] [RN:R04807 R08759 R08761 R04806 R08758 R08760]

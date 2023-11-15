@@ -2,7 +2,7 @@ ENTRY       M00909            Pathway   Module
 NAME        UDP-N-acetyl-D-glucosamine biosynthesis, prokaryotes, glucose => UDP-GlcNAc
 DEFINITION  (K00845,K25026) (K01810,K13810,K15916) K00820 K03431 K04042
 ORTHOLOGY   K00845,K25026  glk; glucokinase [EC:2.7.1.2] [RN:R01786]
-            K01810,K13810,K15916  pgi; glucose-6-phosphate isomerase [EC:5.3.1.9] [RN:R02740]
+            K01810,K13810,K15916  pgi; glucose-6-phosphate isomerase [EC:5.3.1.9] [RN:R13199]
             K00820  glmS; glutamine---fructose-6-phosphate transaminase (isomerizing) [EC:2.6.1.16] [RN:R00768]
             K03431  glmM; phosphoglucosamine mutase [EC:5.4.2.10] [RN:R02060]
             K04042  glmU; bifunctional UDP-N-acetylglucosamine pyrophosphorylase / Glucosamine-1-phosphate N-acetyltransferase [EC:2.7.7.23 2.3.1.157] [RN:R05332 R00416]
@@ -11,14 +11,14 @@ PATHWAY     map00520  Amino sugar and nucleotide sugar metabolism
             map01250  Biosynthesis of nucleotide sugars
             map01100  Metabolic pathways
 REACTION    R01786  C00267 -> C00668
-            R02740  C00668 -> C05345
-            R00768  C05345 -> C00352
+            R13199  C00668 -> C00085
+            R00768  C00085 -> C00352
             R02060  C00352 -> C06156
             R05332  C06156 -> C04501
             R00416  C04501 -> C00043
 COMPOUND    C00267  alpha-D-Glucose
             C00668  alpha-D-Glucose 6-phosphate
-            C05345  beta-D-Fructose 6-phosphate
+            C00085  D-Fructose 6-phosphate
             C00352  D-Glucosamine 6-phosphate
             C06156  alpha-D-Glucosamine 1-phosphate
             C04501  N-Acetyl-alpha-D-glucosamine 1-phosphate

@@ -4,10 +4,10 @@ DEFINITION  (K00844,K12407,K00845,K25026,K00886,K08074,K00918) (K01810,K06859,K1
 ORTHOLOGY   K00844,K12407,K00845,K25026  hexokinase/glucokinase [EC:2.7.1.1 2.7.1.2] [RN:R01786]
             K00886  polyphosphate glucokinase [EC:2.7.1.63] [RN:R02189]
             K08074,K00918  ADP-dependent glucokinase [EC:2.7.1.147] [RN:R09085]
-            K01810,K06859,K13810,K15916  glucose-6-phosphate isomerase [EC:5.3.1.9] [RN:R02740]
-            K00850,K16370,K21071  6-phosphofructokinase [EC:2.7.1.11] [RN:R04779]
-            K00918  ADP-dependent phosphofructokinase [EC:2.7.1.146] [RN:R09084]
-            K01623,K01624,K11645,K16305,K16306  fructose-bisphosphate aldolase [EC:4.1.2.13] [RN:R01070]
+            K01810,K06859,K13810,K15916  glucose-6-phosphate isomerase [EC:5.3.1.9] [RN:R13199]
+            K00850,K16370,K21071  6-phosphofructokinase [EC:2.7.1.11] [RN:R00756]
+            K00918  ADP-dependent phosphofructokinase [EC:2.7.1.146] [RN:R05805]
+            K01623,K01624,K11645,K16305,K16306  fructose-bisphosphate aldolase [EC:4.1.2.13] [RN:R01068]
             K01803  triosephosphate isomerase [EC:5.3.1.1] [RN:R01015]
             K00134,K00150  glyceraldehyde 3-phosphate dehydrogenase [EC:1.2.1.12 1.2.1.59] [RN:R01061 R01063]
             K00927  phosphoglycerate kinase [EC:2.7.2.3] [RN:R01512]
@@ -20,9 +20,9 @@ PATHWAY     map00010  Glycolysis / Gluconeogenesis
             map01200  Carbon metabolism
             map01100  Metabolic pathways
 REACTION    R01786,R02189,R09085  C00267 -> C00668
-            R02740  C00668 -> C05345
-            R04779,R09084  C05345 -> C05378
-            R01070  C05378 -> C00111 + C00118
+            R13199  C00668 -> C00085
+            R00756,R05805  C00085 -> C00354
+            R01070  C00354 -> C00111 + C00118
             R01015  C00111 -> C00118
             R01061,R01063  C00118 -> C00236
             R01512  C00236 -> C00197
@@ -32,8 +32,8 @@ REACTION    R01786,R02189,R09085  C00267 -> C00668
             R00200  C00074 -> C00022
 COMPOUND    C00267  alpha-D-Glucose
             C00668  alpha-D-Glucose 6-phosphate
-            C05345  beta-D-Fructose 6-phosphate
-            C05378  beta-D-Fructose 1,6-bisphosphate
+            C00085  D-Fructose 6-phosphate
+            C00354  D-Fructose 1,6-bisphosphate
             C00111  Glycerone phosphate
             C00118  D-Glyceraldehyde 3-phosphate
             C00236  3-Phospho-D-glyceroyl phosphate

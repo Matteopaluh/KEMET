@@ -8,8 +8,9 @@ ORTHOLOGY   K16435  megBVI; dTDP-4-dehydro-6-deoxy-alpha-D-glucopyranose 2,3-deh
             K13322  megDV; dTDP-4-keto-6-deoxyhexose 4-ketoreductase [RN:R11047]
 CLASS       Pathway modules; Biosynthesis of terpenoids and polyketides; Polyketide sugar unit biosynthesis
 PATHWAY     map00523  Polyketide sugar unit biosynthesis
+            map01250  Biosynthesis of nucleotide sugars
             map01100  Metabolic pathways
-            map01130  Biosynthesis of antibiotics
+            map01110  Biosynthesis of secondary metabolites
 REACTION    R05518  C11907 -> C06620
             R06631  C06620 -> C12318
             R11045  C12318 -> C21073

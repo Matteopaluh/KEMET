@@ -10,8 +10,10 @@ ORTHOLOGY   K00643  5-aminolevulinate synthase [EC:2.3.1.37] [RN:R00830]
             K00231  protoporphyrinogen/coproporphyrinogen III oxidase [EC:1.3.3.4] [RN:R03222]
             K01772  protoporphyrin/coproporphyrin ferrochelatase [EC:4.99.1.1] [RN:R00310]
 CLASS       Pathway modules; Metabolism of cofactors and vitamins; Cofactor and vitamin metabolism
-PATHWAY     map00860  Porphyrin and chlorophyll metabolism
+PATHWAY     map00860  Porphyrin metabolism
+            map01240  Biosynthesis of cofactors
             map01100  Metabolic pathways
+            map01110  Biosynthesis of secondary metabolites
 REACTION    R00830  C00037 -> C00430
             R00036  C00430 -> C00931
             R00084  C00931 -> C01024
@@ -29,4 +31,9 @@ COMPOUND    C00037  Glycine
             C01079  Protoporphyrinogen IX
             C02191  Protoporphyrin
             C00032  Heme
+REFERENCE   PMID:32241908
+  AUTHORS   Bryant DA, Hunter CN, Warren MJ
+  TITLE     Biosynthesis of the modified tetrapyrroles-the pigments of life.
+  JOURNAL   J Biol Chem 295:6888-6925 (2020)
+            DOI:10.1074/jbc.REV120.006194
 ///

@@ -1,6 +1,6 @@
 ENTRY       M00142            Complex   Module
 NAME        NADH:ubiquinone oxidoreductase, mitochondria
-DEFINITION  (K03878+K03879+K03880+K03881+K03882+K03883+K03884)
+DEFINITION  K03878+K03879+K03880+K03881+K03882+K03883+K03884
 ORTHOLOGY   K03878  ND1; NADH-ubiquinone oxidoreductase chain 1 [EC:7.1.1.2]
             K03879  ND2; NADH-ubiquinone oxidoreductase chain 2 [EC:7.1.1.2]
             K03880  ND3; NADH-ubiquinone oxidoreductase chain 3 [EC:7.1.1.2]

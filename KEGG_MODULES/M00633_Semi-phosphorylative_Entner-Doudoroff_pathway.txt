@@ -1,10 +1,9 @@
 ENTRY       M00633            Pathway   Module
 NAME        Semi-phosphorylative Entner-Doudoroff pathway, gluconate/galactonate => glycerate-3P
-DEFINITION  K05308 K18126 K11395 (K00131,K18978)
+DEFINITION  K05308 K18126 K11395 K18978
 ORTHOLOGY   K05308  gluconate dehydratase [EC:4.2.1.140] [RN:R01538 R03033]
             K18126  2-dehydro-3-deoxygluconokinase [EC:2.7.1.178] [RN:R01541 R03387]
             K11395  2-dehydro-3-deoxyphosphogluconate aldolase [EC:4.1.2.55] [RN:R05605 R01064]
-            K00131  glyceraldehyde-3-phosphate dehydrogenase (NADP+) [EC:1.2.1.9] [RN:R01058]
             K18978  glyceraldehyde-3-phosphate dehydrogenase [NAD(P)+] [EC:1.2.1.90] [RN:R01058 R10860]
 CLASS       Pathway modules; Carbohydrate metabolism; Central carbohydrate metabolism
 PATHWAY     map00030  Pentose phosphate pathway

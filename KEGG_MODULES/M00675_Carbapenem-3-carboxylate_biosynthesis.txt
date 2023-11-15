@@ -4,10 +4,10 @@ DEFINITION  K18317 K18316 K18315
 ORTHOLOGY   K18317  carboxymethylproline synthase [EC:2.3.1.226] [RN:R10485]
             K18316  carbapenam-3-carboxylate synthase [EC:6.3.3.6] [RN:R10556]
             K18315  (5R)-carbapenem-3-carboxylate synthase [EC:1.14.20.3] [RN:R10415]
-CLASS       Pathway modules; Biosynthesis of other secondary metabolites; beta-Lactam biosynthesis
+CLASS       Pathway modules; Biosynthesis of other secondary metabolites; Biosynthesis of beta-lactams
 PATHWAY     map00332  Carbapenem biosynthesis
             map01100  Metabolic pathways
-            map01130  Biosynthesis of antibiotics
+            map01110  Biosynthesis of secondary metabolites
 REACTION    R10485  C03912 + C00083 -> C17366 
             R10556  C17366 -> C17367
             R10415  C17367 -> C06669

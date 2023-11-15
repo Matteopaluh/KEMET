@@ -8,6 +8,7 @@ ORTHOLOGY   K03271  D-sedoheptulose 7-phosphate isomerase [EC:5.3.1.28] [RN:R056
             K03274  ADP-L-glycero-D-manno-heptose 6-epimerase [EC:5.1.3.20] [RN:R05176]
 CLASS       Pathway modules; Glycan metabolism; Lipopolysaccharide metabolism
 PATHWAY     map00540  Lipopolysaccharide biosynthesis
+            map01250  Biosynthesis of nucleotide sugars
             map01100  Metabolic pathways
 REACTION    R05645  C05382 -> C07836
             R05646  C07836 -> C11472

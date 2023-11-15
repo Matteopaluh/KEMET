@@ -5,7 +5,7 @@ ORTHOLOGY   K23646  DTPA; ditryptophenaline biosynthesis nonribosomal peptide sy
             K23647  DTPB; ditryptophenaline biosynthesis N-methyltransferase [EC:2.1.1.-] [RN:R12414]
             K21477  DTPC; ditryptophenaline biosynthesis cytochrome P450 monooxygenase [EC:1.-.-.-] [RN:R12415]
 CLASS       Pathway modules; Biosynthesis of other secondary metabolites; Biosynthesis of other fungal compounds
-PATHWAY     map00998  Biosynthesis of various secondary metabolites - part 2
+PATHWAY     map00997  Biosynthesis of various other secondary metabolites
             map01100  Metabolic pathways
             map01110  Biosynthesis of secondary metabolites
 REACTION    R12413  C00078 + C00079 -> C22142

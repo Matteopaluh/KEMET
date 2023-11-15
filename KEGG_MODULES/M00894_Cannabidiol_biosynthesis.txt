@@ -6,7 +6,7 @@ ORTHOLOGY   K20503  OLS; 3,5,7-trioxododecanoyl-CoA synthase [EC:2.3.1.206] [RN:
             K20502  CBDAS; cannabidiolic acid synthase [EC:1.21.3.8] [RN:R10160]
             K20501  THCAS; tetrahydrocannabinolic acid synthase [EC:1.21.3.7] [RN:R12101]
 CLASS       Pathway modules; Biosynthesis of other secondary metabolites; Biosynthesis of phytochemical compounds
-PATHWAY     map00999  Biosynthesis of various secondary metabolites - part 1
+PATHWAY     map00999  Biosynthesis of various plant secondary metabolites
             map01100  Metabolic pathways
             map01110  Biosynthesis of secondary metabolites
 REACTION    R10171  C00083 -> C20413

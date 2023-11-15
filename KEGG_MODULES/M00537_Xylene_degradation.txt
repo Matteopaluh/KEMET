@@ -1,6 +1,6 @@
 ENTRY       M00537            Pathway   Module
 NAME        Xylene degradation, xylene => methylbenzoate
-DEFINITION  (K15757+K15758) K00055 K00141
+DEFINITION  K15757+K15758 K00055 K00141
 ORTHOLOGY   K15757  xylM; xylene monooxygenase [EC:1.14.13.-] [RN:R05288 R05442 R05443]
             K15758  xylene monooxygenase electron transfer component [EC:1.18.1.3]
             K00055  E1.1.1.90; aryl-alcohol dehydrogenase [EC:1.1.1.90] [RN:R05282 R05348 R05347]

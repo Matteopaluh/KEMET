@@ -4,7 +4,7 @@ DEFINITION  (K00629,K13506,K13507,K00630,K13508) (K00655,K13509,K13523,K19007,K1
 ORTHOLOGY   K00629,K13506,K13507,K00630,K13508  glycerol 3-phosphate acyltransferase [EC:2.3.1.15] [RN:R00851]
             K00655,K13509,K13523,K19007,K13513,K13517,K13519,K14674,K22831  1-acyl-sn-glycerol-3-phosphate acyltransferase [EC:2.3.1.51] [RN:R02241]
             K01080,K15728  phosphatidate phosphatase [EC:3.1.3.4] [RN:R02239]
-            K18693  diacylglycerol diphosphate phosphatase / phosphatidate phosphatase [EC:3.1.3.81 3.1.3.4] [RN:R02239]
+            K18693  diacylglycerol diphosphate phosphatase / phosphatidate phosphatase [EC:3.1.3.4] [RN:R02239]
             K11155,K11160,K14456,K22848,K22849  diacylglycerol O-acyltransferase [EC:2.3.1.20] [RN:R02251]
 CLASS       Pathway modules; Lipid metabolism; Lipid metabolism
 PATHWAY     map00561  Glycerolipid metabolism

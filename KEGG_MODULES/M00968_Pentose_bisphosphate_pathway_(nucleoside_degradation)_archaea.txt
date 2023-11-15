@@ -4,11 +4,11 @@ DEFINITION  (((K00757,K26211,K26212) (K21056,K26208)),K18931) K18237 (K01601,(K2
 ORTHOLOGY   K00757  uridine phosphorylase [EC:2.4.2.3] [RN:R01876]
             K26211,K26212  guanosine phosphorylase [EC:2.4.2.15] [RN:R02147] [RN:R02147]
             K21056  alpha-D-ribose-1-phosphate 5-kinase (ADP) [EC:2.7.1.212] [RN:R11535]
-            K26208  alpha-D-ribose-1-phosphate 5-kinase (ATP) [EC:2.7.1.-] [RN:R13089]
+            K26208  alpha-D-ribose-1-phosphate 5-kinase (ATP) [EC:2.7.1.239] [RN:R13089]
             K18931  AMP phosphorylase [EC:2.4.2.57] [RN:R10836 R10837 R10838]
             K18237  ribose 1,5-bisphosphate isomerase [EC:5.3.1.29] [RN:R10555]
             K01601  ribulose-bisphosphate carboxylase large chain [EC:4.1.1.39] [RN:R03140]
-            K26210  ribulose-1,5-bisphosphate phosphatase [EC:3.1.3.-] [RN:R13090]
+            K26210  ribulose-1,5-bisphosphate phosphatase [EC:3.1.3.109] [RN:R13090]
             K01636  ribulose 1-phosphate aldolase [EC:4.1.2.-] [RN:R12696]
 CLASS       Pathway modules; Carbohydrate metabolism; Other carbohydrate metabolism
 PATHWAY     map00030  Pentose phosphate pathway

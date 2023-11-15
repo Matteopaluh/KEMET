@@ -1,6 +1,6 @@
 ENTRY       M00810            Pathway   Module
 NAME        Nicotine degradation, pyridine pathway, nicotine => 2,6-dihydroxypyridine/succinate semialdehyde
-DEFINITION  (K19818+K19819+K19820) (K19826,K19890) (K19185+K19186+K19187) K19188 -K20155
+DEFINITION  K19818+K19819+K19820 (K19826,K19890) K19185+K19186+K19187 K19188 -K20155
 ORTHOLOGY   K19818,K19819,K19820  nicotine dehydrogenase [EC:1.5.99.4] [RN:R02860 R07946]
             K19826  (S)-6-hydroxynicotine oxidase [EC:1.5.3.5] [RN:R11048]
             K19890  (R)-6-hydroxynicotine oxidase [EC:1.5.3.6] [RN:R11050]
@@ -11,15 +11,16 @@ CLASS       Pathway modules; Metabolism of cofactors and vitamins; Cofactor and 
 PATHWAY     map00760  Nicotinate and nicotinamide metabolism
             map01100  Metabolic pathways
             map01120  Microbial metabolism in diverse environments
-REACTION    R02860  C16150 -> C01056
+REACTION    R02860  C00745 -> C01056
             R11048  C01056 -> C21075
-            R07946  C16150 -> C03043
+            R07946  C16386 -> C03043
             R11050  C03043 -> C21075
             R11049  C21075 -> C01297
             R07514  C01297 -> C15986
             R07515  C15986 -> C03056 + C15987
             R10101  C15987 -> C00232
-COMPOUND    C16150  (R,S)-Nicotine
+COMPOUND    C00745  (S)-Nicotine
+            C16386  (R)-Nicotine
             C01056  (S)-6-Hydroxynicotine
             C21075  5-(N-Methyl-4,5-dihydro-1H-pyrrol-2-yl)pyridin-2-ol
             C03043  (R)-6-Hydroxynicotine
